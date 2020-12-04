@@ -1,0 +1,251 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandar
+  - Andon
+  - Andrey
+  - Andrian
+  - Anton
+  - Antoni
+  - Angel
+  - Apostol
+  - Atanas
+  - Bogdan
+  - Bogomil
+  - Borislav
+  - Boyko
+  - Damyan
+  - Danail
+  - Desislav
+  - Dimitar
+  - Dragomir
+  - Gavrail
+  - Georgi
+  - Hristo
+  - Ilian
+  - Iliya
+  - Ivan
+  - Ivaylo
+  - Ivo
+  - Kaloyan
+  - Kiril
+  - Konstantin
+  - Krasimir
+  - Krastyo
+  - Lyuben
+  - Lyubomir
+  - Lyudmil
+  - Marko
+  - Miroslav
+  - Momchil
+  - Nikola
+  - Ognyan
+  - Penko
+  - Petar
+  - Plamen
+  - Radomir
+  - Samuil
+  - Spas
+  - Stanimir
+  - Stanislav
+  - Stoyan
+  - Teodor
+  - Tihomir
+  - Todor
+  - Toma
+  - Tsvetan
+  - Vasil
+  - Ventsislav
+  - Viktor
+  - Vladimir
+  - Vladislav
+  - Yanko
+  - Yoan
+  - Yordan
+  - Yosif
+  - Zahari
+  - Zhivko
+  - Zlatko
+femaleFirst:
+  - Ana
+  - Antonia
+  - Bilyana
+  - Bisera
+  - Bogomila
+  - Borislava
+  - Boyana
+  - Desislava
+  - Elisaveta
+  - Emiliya
+  - Gergana
+  - Hristina
+  - Iva
+  - Ivana
+  - Ivelina
+  - Ivet
+  - Izabela
+  - Krasimira
+  - Lidiya
+  - Lilyana
+  - Lyubina
+  - Lyubomira
+  - Lyudmila
+  - Maya
+  - Mirela
+  - Miroslava
+  - Nadejda
+  - Nevena
+  - Nikolina
+  - Pavla
+  - Pavlina
+  - Radomira
+  - Radoslava
+  - Radostina
+  - Rayna
+  - Rosa
+  - Rositsa
+  - Silviya
+  - Simona
+  - Snezhana
+  - Sofiya
+  - Stanislava
+  - Stanka
+  - Stoyanka
+  - Svetla
+  - Svetlana
+  - Tanya
+  - Tatyana
+  - Teodora
+  - Tereza
+  - Tsveta
+  - Tsvetelina
+  - Veselina
+  - Viktoria
+  - Violeta
+  - Vladimira
+  - Yana
+  - Yoana
+  - Yordanka
+maleLast:
+  - Aleksandrov (DEYE)
+  - Andonov (DEYE)
+  - Andreev (DEYE)
+  - Antonov (DEYE)
+  - Antoniev (DEYE)
+  - Angelov (DEYE)
+  - Apostolov (DEYE)
+  - Atanasov (DEYE)
+  - Bogdanov (DEYE)
+  - Bogomilov (DEYE)
+  - Borislavov (DEYE)
+  - Boykov (DEYE)
+  - Damyanov (DEYE)
+  - Danailov (DEYE)
+  - Desislavov (DEYE)
+  - Dimitrov (DEYE)
+  - Dragomirov (DEYE)
+  - Gavrailov (DEYE)
+  - Georgiev (DEYE)
+  - Hristov (DEYE)
+  - Ilianov (DEYE)
+  - Iliev (DEYE)
+  - Ivanov (DEYE)
+  - Ivaylov (DEYE)
+  - Kaloyan (DEYE)
+  - Kirilov (DEYE)
+  - Konstantinov (DEYE)
+  - Krasimirov (DEYE)
+  - Lyubenov (DEYE)
+  - Lyubomirov (DEYE)
+  - Lyudmilov (DEYE)
+  - Markov (DEYE)
+  - Miroslavov (DEYE)
+  - Momchilov (DEYE)
+  - Nikolaev (DEYE)
+  - Ognyanov (DEYE)
+  - Penkov (DEYE)
+  - Petrov (DEYE)
+  - Plamenov (DEYE)
+  - Radomirov (DEYE)
+  - Samuilov (DEYE)
+  - Spasov (DEYE)
+  - Stanimirov (DEYE)
+  - Stanislavov (DEYE)
+  - Stoyanov (DEYE)
+  - Teodorov (DEYE)
+  - Tihomirov (DEYE)
+  - Todorov (DEYE)
+  - Tomov (DEYE)
+  - Tsvetanov (DEYE)
+  - Vasilev (DEYE)
+  - Ventsislavov (DEYE)
+  - Vladimirov (DEYE)
+  - Vladislavov (DEYE)
+  - Yordanov (DEYE)
+  - Yosifov (DEYE)
+  - Zahariev (DEYE)
+  - Zhivkov (DEYE)
+  - Zlatkov (DEYE)
+femaleLast:
+  - Aleksandrov (DEYE)
+  - Andonov (DEYE)
+  - Andreev (DEYE)
+  - Antonov (DEYE)
+  - Antoniev (DEYE)
+  - Angelov (DEYE)
+  - Apostolov (DEYE)
+  - Atanasov (DEYE)
+  - Bogdanov (DEYE)
+  - Bogomilov (DEYE)
+  - Borislavov (DEYE)
+  - Boykov (DEYE)
+  - Damyanov (DEYE)
+  - Danailov (DEYE)
+  - Desislavov (DEYE)
+  - Dimitrov (DEYE)
+  - Dragomirov (DEYE)
+  - Gavrailov (DEYE)
+  - Georgiev (DEYE)
+  - Hristov (DEYE)
+  - Ilianov (DEYE)
+  - Iliev (DEYE)
+  - Ivanov (DEYE)
+  - Ivaylov (DEYE)
+  - Kaloyan (DEYE)
+  - Kirilov (DEYE)
+  - Konstantinov (DEYE)
+  - Krasimirov (DEYE)
+  - Lyubenov (DEYE)
+  - Lyubomirov (DEYE)
+  - Lyudmilov (DEYE)
+  - Markov (DEYE)
+  - Miroslavov (DEYE)
+  - Momchilov (DEYE)
+  - Nikolaev (DEYE)
+  - Ognyanov (DEYE)
+  - Penkov (DEYE)
+  - Petrov (DEYE)
+  - Plamenov (DEYE)
+  - Radomirov (DEYE)
+  - Samuilov (DEYE)
+  - Spasov (DEYE)
+  - Stanimirov (DEYE)
+  - Stanislavov (DEYE)
+  - Stoyanov (DEYE)
+  - Teodorov (DEYE)
+  - Tihomirov (DEYE)
+  - Todorov (DEYE)
+  - Tomov (DEYE)
+  - Tsvetanov (DEYE)
+  - Vasilev (DEYE)
+  - Ventsislavov (DEYE)
+  - Vladimirov (DEYE)
+  - Vladislavov (DEYE)
+  - Yordanov (DEYE)
+  - Yosifov (DEYE)
+  - Zahariev (DEYE)
+  - Zhivkov (DEYE)
+  - Zlatkov (DEYE)

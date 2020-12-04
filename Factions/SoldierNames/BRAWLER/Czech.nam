@@ -1,0 +1,441 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Ales
+  - Alexandr
+  - Alexej
+  - Ambroz
+  - Andrej
+  - Antonin
+  - Arnost
+  - Artur
+  - Augustyn
+  - Bartolomej
+  - Bedrich
+  - Benedikt
+  - Bernard
+  - Blahoslav
+  - Blazej
+  - Bohdan
+  - Bohumil
+  - Bohumir
+  - Bohuslav
+  - Boleslav
+  - Bonifac
+  - Borek
+  - Boris
+  - Borivoj
+  - Bretislav
+  - Bronislav
+  - Bruno
+  - Cenek
+  - Cestmir
+  - Ctibor
+  - Ctirad
+  - Dalibor
+  - Dalimil
+  - David
+  - Dobroslav
+  - Dominik
+  - Drahoslav
+  - Dusan
+  - Eduard
+  - Emil
+  - Erik
+  - Evzen
+  - Felix
+  - Ferdinand
+  - Filip
+  - Frantisek
+  - Gustav
+  - Hanus
+  - Havel
+  - Herman
+  - Hubert
+  - Hugo
+  - Hynek
+  - Ignac
+  - Igor
+  - Ilja
+  - Ivan
+  - Ivo
+  - Jachym
+  - Jakub
+  - Jan
+  - Jarmil
+  - Jaromir
+  - Jaroslav
+  - Jeronym
+  - Jindrich
+  - Jiri
+  - Jonas
+  - Josef
+  - Jozef
+  - Julius
+  - Kamil
+  - Karel
+  - Kazimir
+  - Klement
+  - Kristian
+  - Krystof
+  - Kvetoslav
+  - Kvido
+  - Ladislav
+  - Leopold
+  - Leos
+  - Libor
+  - Lubomir
+  - Lubor
+  - Lubos
+  - Ludek
+  - Ludvik
+  - Lukas
+  - Lumir
+  - Marcel
+  - Marek
+  - Marian
+  - Martin
+  - Matej
+  - Matous
+  - Maxmilian
+  - Medard
+  - Michal
+  - Mikulas
+  - Milan
+  - Milos
+  - Miloslav
+  - Miroslav
+  - Mojmir
+  - Oldrich
+  - Oleg
+  - Oliver
+  - Ondrej
+  - Oskar
+  - Otakar
+  - Otmar
+  - Oto
+  - Pankrac
+  - Patrik
+  - Pavel
+  - Petr
+  - Pravoslav
+  - Premysl
+  - Prokop
+  - Radek
+  - Radim
+  - Radomir
+  - Radoslav
+  - Radovan
+  - Rehor
+  - Roman
+  - Rostislav
+  - Rudolf
+  - Samuel
+  - Servac
+  - Silvestr
+  - Simon
+  - Slavomir
+  - Sobeslav
+  - Stanislav
+  - Stefan
+  - Stepan
+  - Svatopluk
+  - Svatoslav
+  - Tadeas
+  - Teodor
+  - Tibor
+  - Tomas
+  - Vaclav
+  - Valdemar
+  - Valentyn
+  - Vavrinec
+  - Venceslav
+  - Vendelin
+  - Veroslav
+  - Viktor
+  - Vilem
+  - Vincenc
+  - Vit
+  - Vitezslav
+  - Vladan
+  - Vladimir
+  - Vladislav
+  - Vlastimil
+  - Vlastislav
+  - Vojtech
+  - Vratislav
+  - Zbynek
+  - Zbysek
+  - Zdenek
+  - Zikmund
+femaleFirst:
+  - Adela
+  - Adriena
+  - Agata
+  - Alena
+  - Alica
+  - Alzbeta
+  - Ana
+  - Ancika
+  - Andela
+  - Aneta
+  - Anezka
+  - Anna
+  - Antoinetta
+  - Antonie
+  - Bara
+  - Barbora
+  - Barcinka
+  - Barunka
+  - Baruska
+  - Blanka
+  - Bohdana
+  - Bohumila
+  - Bohuslava
+  - Bora
+  - Bozena
+  - Branislava
+  - Dagmar
+  - Dalibora
+  - Dominika
+  - Drahomira
+  - Drahoslava
+  - Dusana
+  - Dusanka
+  - Edita
+  - Eliska
+  - Elita
+  - Emilia
+  - Eva
+  - Frantiska
+  - Gabina
+  - Hana
+  - Hedvika
+  - Helena
+  - Irena
+  - Irina
+  - Iva
+  - Ivana
+  - Izabela
+  - Jana
+  - Jarmila
+  - Jaromila
+  - Jaroslava
+  - Jindriska
+  - Jirina
+  - Jitka
+  - Johana
+  - Jolana
+  - Josefa
+  - Judita
+  - Julia
+  - Kamila
+  - Karina
+  - Karolina
+  - Katarina
+  - Katerina
+  - Katica
+  - Kristyna
+  - Kunigunde
+  - Kveta
+  - Ladislava
+  - Lenka
+  - Leona
+  - Libena
+  - Libuse
+  - Lida
+  - Lidmila
+  - Lubomira
+  - Lucie
+  - Lucina
+  - Ludmila
+  - Lydie
+  - Madlenka
+  - Magdalena
+  - Maria
+  - Marie
+  - Marketa
+  - Matylda
+  - Michaela
+  - Milada
+  - Milana
+  - Milena
+  - Miloslava
+  - Monika
+  - Nada
+  - Nadezda
+  - Otilie
+  - Pavla
+  - Pavlina
+  - Petra
+  - Radka
+  - Radomila
+  - Radomira
+  - Radoslava
+  - Ruzena
+  - Sara
+  - Simona
+  - Sobeska
+  - Sobeslava
+  - Stanislava
+  - Stefanija
+  - Stepanka
+  - Svetlana
+  - Tatana
+  - Tereza
+  - Ursula
+  - Vaclava
+  - Vendula
+  - Vera
+  - Veronika
+  - Vladimira
+  - Vlasta
+  - Zdenka
+  - Zofie
+  - Zoja
+  - Zuzana
+maleLast:
+  - Bartos  (BRAW)
+  - Benda (BRAW)
+  - Benes (BRAW)
+  - Beran (BRAW)
+  - Blaha (BRAW)
+  - Blazek (BRAW)
+  - Broz (BRAW)
+  - Bures (BRAW)
+  - Carda (BRAW)
+  - Cech (BRAW)
+  - Cermak (BRAW)
+  - Cerny (BRAW)
+  - Cervenka (BRAW)
+  - Cizek (BRAW)
+  - Dobrynsky (BRAW)
+  - Dolezal (BRAW)
+  - Dusek (BRAW)
+  - Dvorak (BRAW)
+  - Fiala (BRAW)
+  - Fiser (BRAW)
+  - Hajek (BRAW)
+  - Havlicek (BRAW)
+  - Hlavacek (BRAW)
+  - Hoffmann (BRAW)
+  - Holub (BRAW)
+  - Horak (BRAW)
+  - Hruby (BRAW)
+  - Hruska (BRAW)
+  - Janda (BRAW)
+  - Janecek (BRAW)
+  - Janousek (BRAW)
+  - Jelinek (BRAW)
+  - Jezek (BRAW)
+  - Kadlec (BRAW)
+  - Kaspar (BRAW)
+  - Klaus (BRAW)
+  - Klima (BRAW)
+  - Kohout (BRAW)
+  - Kolar (BRAW)
+  - Kopecky (BRAW)
+  - Kovar (BRAW)
+  - Kovarik (BRAW)
+  - Krajan (BRAW)
+  - Kral (BRAW)
+  - Kratochvil (BRAW)
+  - Kraus (BRAW)
+  - Krejci  (BRAW)
+  - Kriz (BRAW)
+  - Kubis (BRAW)
+  - Kucera (BRAW)
+  - Kvitoslav (BRAW)
+  - Machacek (BRAW)
+  - Maly (BRAW)
+  - Mares (BRAW)
+  - Marny (BRAW)
+  - Martinek (BRAW)
+  - Masek (BRAW)
+  - Matejka (BRAW)
+  - Matousek (BRAW)
+  - Moravec (BRAW)
+  - Mueller (BRAW)
+  - Musil (BRAW)
+  - Nadinicky (BRAW)
+  - Navratil (BRAW)
+  - Necesal (BRAW)
+  - Nemec (BRAW)
+  - Nemecek (BRAW)
+  - Neumann (BRAW)
+  - Nemy (BRAW)
+  - Novak (BRAW)
+  - Novotny (BRAW)
+  - Pesek (BRAW)
+  - Pokorny (BRAW)
+  - Polak (BRAW)
+  - Pospisil (BRAW)
+  - Prochazka (BRAW)
+  - Richter (BRAW)
+  - Riha (BRAW)
+  - Rosa (BRAW)
+  - Ruzicka (BRAW)
+  - Sedlacek (BRAW)
+  - Sichy (BRAW)
+  - Simek (BRAW)
+  - Skala (BRAW)
+  - Slavik (BRAW)
+  - Smid (BRAW)
+  - Soucek (BRAW)
+  - Soukup (BRAW)
+  - Stanek (BRAW)
+  - Stastny (BRAW)
+  - Stepanek (BRAW)
+  - Stransky (BRAW)
+  - Strnad (BRAW)
+  - Sulc (BRAW)
+  - Svoboda (BRAW)
+  - Sykora (BRAW)
+  - Tuma (BRAW)
+  - Tycka (BRAW)
+  - Urban (BRAW)
+  - Vacek (BRAW)
+  - Valenta (BRAW)
+  - Vanek (BRAW)
+  - Vavra (BRAW)
+  - Vesely (BRAW)
+  - Vlcek (BRAW)
+  - Zelenka (BRAW)
+  - Zeman (BRAW)
+femaleLast:
+  - Bartosova (BRAW)
+  - Brozova (BRAW)
+  - Cermakova (BRAW)
+  - Hruba (BRAW)
+  - Kolarova (BRAW)
+  - Komyrova (BRAW)
+  - Konecna (BRAW)
+  - Kovacova (BRAW)
+  - Kratochvilova (BRAW)
+  - Krejci (BRAW)
+  - Krizna (BRAW)
+  - Mala (BRAW)
+  - Maskova (BRAW)
+  - Matusova (BRAW)
+  - Musilova (BRAW)
+  - Navratilova (BRAW)
+  - Olhova (BRAW)
+  - Petrova (BRAW)
+  - Polakova (BRAW)
+  - Romanova (BRAW)
+  - Soukupova (BRAW)
+  - Stastna (BRAW)
+  - Stejskalova (BRAW)
+  - Ticha (BRAW)
+  - Tkadlecova (BRAW)
+  - Trojska (BRAW)
+  - Tumova (BRAW)
+  - Urbanova (BRAW)
+  - Vaskova (BRAW)
+  - Vavrova (BRAW)
+  - Vlazkova (BRAW)
+  - Zakova (BRAW)
+  - Zemanova (BRAW)

@@ -1,0 +1,2120 @@
+############################
+## FACTIONS - alien missions - RULESET
+## V0.0.2
+## Lasted Changed by L83
+## Comments: 23-03-2020 - Added The Arrival to game
+###########################
+alienMissions:
+  - delete: STR_ALIEN_TERROR
+  - delete: recurringTerror
+  # - delete: STR_ALIEN_RESEARCH
+  # - delete: STR_ALIEN_HARVEST
+  # - delete: STR_ALIEN_ABDUCTION
+  # - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_ALIEN_RETALIATION
+  # - delete: STR_ALIEN_BASE
+  # - delete: STR_ALIEN_SUPPLY
+###############################
+#### NEW FACTIONS MISSIONS ####
+###############################
+  # - type: STR_ALIEN_TERROR #Savage Terror Site
+  #   points: 10
+  #   objective: 3
+  #   spawnZone: 15 #Mission zone for terror missions
+  #   raceWeights:
+  #     0:
+  #         STR_SAVAGE_SCOUTS: 100
+
+  #   waves:
+  #     - ufo: STR_SCANNER
+  #       count: 1
+  #       trajectory: P1
+  #       timer: 15000
+  #     - ufo: STR_RAIDER
+  #       count: 1
+  #       trajectory: P1
+  #       timer: 9600
+  #     - ufo: STR_TERROR_SHIP
+  #       count: 1
+  #       trajectory: P0
+  #       timer: 12000
+  #     - ufo: STR_TERROR_SHIP
+  #       count: 1
+  #       trajectory: P7
+  #       timer: 9000
+  #       objective: true
+
+  - type: STR_PATROL_GILLMAN_KINGDOM
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_GILLMAN_KINGDOM_SCOUTS: 70
+          # STR_AQUATICS_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+          STR_GILLMAN_KINGDOM_SCOUTS: 60
+    waves:
+      - ufo: STR_G_SURVEY_SHIP
+        count: 1
+        trajectory: P12
+        timer: 9000
+      - ufo: STR_G_ESCORT
+        count: 2
+        trajectory: P12
+        timer: 7800
+      - ufo: STR_G_CRUISER
+        count: 1
+        trajectory: P12
+        timer: 9000
+
+  - type: STR_PATROL_AQUATICS
+    points: 0
+    spawnZone: 11
+    raceWeights:
+      0:
+        STR_AQUATICS_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+        STR_AQUATICS_SCOUTS: 60
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P12
+        timer: 9000
+      - ufo: STR_ESCORT
+        count: 2
+        trajectory: P12
+        timer: 7800
+      - ufo: STR_CRUISER
+        count: 1
+        trajectory: P12
+        timer: 9000
+
+#STR_MUTON WARPACK_SCOUTS
+  - type: STR_PATROL_MUTON WARPACK
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+        STR_MUTON WARPACK_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+        STR_MUTON WARPACK_SCOUTS: 60
+    waves:
+      - ufo: MUTONC_SHIP_06
+        count: 2
+        trajectory: P11
+        timer: 9000
+      - ufo: MUTONC_SHIP_08
+        count: 1
+        trajectory: P11
+        timer: 7800
+      - ufo: MUTONC_SHIP_03
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: MUTONC_SHIP_06
+        count: 1
+        trajectory: P11
+        timer: 9000
+
+
+#STR_ETHERAL_HIGH_COMMAND_SCOUTS
+  - type: STR_PATROL_ETHERAL_HIGH_COMMAND
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_ETHERAL_HIGH_COMMAND_SCOUTS: 70
+      5:
+          STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+    waves:
+      - ufo: STR_P4_A
+        count: 2
+        trajectory: P11
+        timer: 9000
+      - ufo: STR_PABDUCT
+        count: 1
+        trajectory: P11
+        timer: 7800
+      - ufo: STR_PSCOUT
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: STR_P6_A
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: STR_PSCOUT
+        count: 1
+        trajectory: P11
+        timer: 9000
+
+
+  - type: STR_INHERITORS_SCOUTS_PATROL
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_INHERITORS_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+          STR_INHERITORS_SCOUTS: 60
+    waves:
+      - ufo: OXCF-LIGHTNIN_1
+        count: 2
+        trajectory: P11
+        timer: 9000
+      - ufo: OXCF-LIGHTNIN_7
+        count: 1
+        trajectory: P11
+        timer: 7800
+      - ufo: OXCF-LIGHTNIN_9
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: OXCF-LIGHTNIN_7
+        count: 1
+        trajectory: P11
+        timer: 9000
+
+
+  - type: STR_MechArmy_ABDUCTIONS
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_MECHARMY_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+          STR_MECHARMY_SCOUTS: 70
+    waves:
+      - ufo: STR_XENO4
+        count: 2
+        trajectory: P11
+        timer: 9000
+      - ufo: STR_XENO9 #LAb Ship
+        count: 1
+        trajectory: P14
+        timer: 7800
+      - ufo: STR_XENO5 # Search Ship
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: STR_XENO8 #Cloner
+        count: 1
+        trajectory: P14
+        timer: 9000
+
+
+  - type: STR_SNAKEWOMEN_MATRIARCHY_ABDUCTIONS
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 60 # change
+
+    waves:
+      - ufo: SNAKEFLEET01
+        count: 1
+        trajectory: P11
+        timer: 9000
+      - ufo: SNAKEFLEET02
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: SNAKEFLEET01
+        count: 2
+        trajectory: P11
+        timer: 9000
+      - ufo: SNAKEFLEET02
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: SNAKEFLEET03
+        count: 1
+        trajectory: P14
+        timer: 9000
+
+  - type: STR_SCAVENGERS_SCOUTS_RAID_MISSIONS
+    points: 5
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_SCAVENGERS_SCOUTS: 70
+          # STR_GILLMAN: 30
+      5:
+          STR_SCAVENGERS_SCOUTS: 60
+    waves:
+      - ufo: OXCF-LIGHTNIN_1
+        count: 2
+        trajectory: P30 # was P14 - 
+        timer: 9000
+      - ufo: OXCF-LIGHTNIN_7
+        count: 1
+        trajectory: P30
+        timer: 7800
+      - ufo: OXCF-LIGHTNIN_9
+        count: 1
+        trajectory: P30
+        timer: 9000
+      - ufo: OXCF-LIGHTNIN_7
+        count: 2
+        trajectory: P30
+        timer: 9000
+
+  - type: STR_Alien_Hunters_SNAKEWOMEN_MATRIARCHY
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 70
+      5:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 60 # change
+    waves:
+      - ufo: SNAKEFLEET02
+        count: 2
+        trajectory: P14
+        timer: 9000
+      - ufo: SNAKEFLEET01
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: SNAKEFLEET02
+        count: 3
+        trajectory: P14
+        timer: 9000
+      - ufo: SNAKEFLEET01
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: SNAKEFLEET03
+        count: 1
+        trajectory: P14
+        timer: 9000
+
+
+  - type: STR_Alien_Hunters_MUTONS
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_MUTON WARPACK_SCOUTS: 70
+      5:
+          STR_MUTON WARPACK_SCOUTS: 60 # change
+    waves:
+      - ufo: MUTONC_SHIP_08
+        count: 3
+        trajectory: P11
+        timer: 9000
+      - ufo: MUTONC_SHIP_06
+        count: 1
+        trajectory: P11
+        timer: 7800
+      - ufo: MUTONC_SHIP_03
+        count: 1
+        trajectory: P14
+        timer: 9000
+      - ufo: MUTONC_SHIP_05
+        count: 1
+        trajectory: P14
+        timer: 9000
+
+  - type: STR_Alien_Hunters_Blessed
+    points: 10
+    spawnZone: 11
+    raceWeights:
+      0:
+          STR_BLESSED_SCOUTS: 70
+      5:
+          STR_BLESSED_SCOUTS: 60 # change
+    waves:
+      - ufo: BLESSED_SHIP_08
+        count: 2
+        trajectory: P14
+        timer: 9000
+      - ufo: BLESSED_SHIP_06
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: BLESSED_SHIP_08
+        count: 3
+        trajectory: P14
+        timer: 9000
+      - ufo: BLESSED_SHIP_06
+        count: 1
+        trajectory: P14
+        timer: 12000
+      - ufo: BLESSED_UFO_010
+        count: 1
+        trajectory: P14
+        timer: 9000
+
+  # - type: STR_PATROL_HUMAN
+  #   points: 0
+  #   spawnZone: 11
+  #   raceWeights:
+  #     0:
+  #         STR_AQUATICS_SCOUTS: 70
+  #         # STR_GILLMAN: 30
+  #     1:
+  #         STR_AQUATICS_SCOUTS: 60
+
+  #   waves:
+  #     - ufo: STR_SURVEY_SHIP
+  #       count: 2
+  #       trajectory: P13
+  #       timer: 9000
+  #     - ufo: STR_ESCORT
+  #       count: 4
+  #       trajectory: P13
+  #       timer: 7800
+  #     - ufo: STR_CRUISER
+  #       count: 6
+  #       trajectory: P13
+  #       timer: 9000
+############# salvage land start###############
+
+                          # 
+        # STR_SAVAGE_SCOUTS_SALVAGE: 33       
+  - type:  STR_SAVAGE_SCOUTS_SALVAGE
+    points: 0
+    objective: 3
+    spawnZone: 3 # #Destroyed Human Cities
+    raceWeights:
+      0:
+          STR_SAVAGE_SCOUTS: 100
+    waves:
+      - ufo: STR_SAVAGE_SCOUTS_SALVAGE # spawn this site directly
+        count: 1
+        trajectory: P11
+        timer: 0
+        objective: true
+
+####
+        # STR_SCAVENGERS_SCOUTS_SALVAGE: 33  
+  - type:  STR_SCAVENGERS_SCOUTS_SALVAGE
+    points: 0
+    objective: 3
+    spawnZone: 3 # #Destroyed Human Cities
+    raceWeights:
+      0:
+          STR_SCAVENGERS_SCOUTS: 100
+    waves:
+      - ufo: STR_SCAVENGERS_SCOUTS_SALVAGE # spawn this site directly
+        count: 1
+        trajectory: P11
+        timer: 0
+        objective: true
+
+####
+        # STR_INHERITORS_SCOUTS_SALVAGE: 33  
+  - type:  STR_INHERITORS_SCOUTS_SALVAGE
+    points: 0
+    objective: 3
+    spawnZone: 3 # #Destroyed Human Cities
+    raceWeights:
+      0:
+          STR_INHERITORS_SCOUTS: 100
+    waves:
+      - ufo: STR_INHERITORS_SCOUTS_SALVAGE # spawn this site directly
+        count: 1
+        trajectory: P11
+        timer: 0
+        objective: true
+
+############# salvage water start###############
+  - type:  STR_salvageoperation_UW
+    points: 0
+    objective: 3
+    spawnZone: 11 #  #7 spawns underwater salvage operation
+    # raceWeights:
+    #   0:
+    #       STR_AQUATICS_SCOUTS: 70
+    #   5:
+    #       STR_BLESSED_SCOUTS: 60 # change
+    waves:
+      - ufo: STR_salvageoperation_UW # spawn this site directly
+        count: 1
+        trajectory: P12 #water only
+        timer: 0
+        objective: true
+
+
+
+        # STR_SNAKEWOMEN_MATRIARCHY_SCOUTS_LIBERATION: 33
+  - type:  STR_SNAKEWOMEN_MATRIARCHY_SCOUTS_SALVAGE
+    points: 5
+    objective: 3
+    spawnZone: 11 #  #7 spawns underwater salvage operation
+    raceWeights:
+      0:
+          SNAKEWOMEN_MATRIARCHY_SCOUTS: 70
+      5:
+          SNAKEWOMEN_MATRIARCHY_SCOUTS: 60 # change
+    waves:
+      - ufo: STR_salvageoperation_UW # spawn this site directly
+        count: 1
+        trajectory: P12 #water only
+        timer: 0
+        objective: true
+
+######### SALVAGE UNDERWATER END ##########
+
+######## LIBERATION MISSION TYPE 1 #############
+
+        # STR_BLESSED_SCOUTS_LIBERATION: 33
+  - type:  STR_BLESSED_LIBERATION
+    points: 0
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_BLESSED # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+  
+  - type:  STR_ETHERAL_HIGH_COMMAND_LIBERATION
+    points: 5
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_ETHERAL_HIGH_COMMAND_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_ETHERAL # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+
+  - type:  STR_SNAKEWOMEN_MATRIARCHY_LIBERATION
+    points: 5
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_SNAKEWOMEN_MATRIARCHY # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+
+#######Liberation Type 2#########
+  - type:  STR_BLESSED_LIBERATION_2
+    points: 0
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_2_BLESSED # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+  
+  - type:  STR_ETHERAL_HIGH_COMMAND_LIBERATION_2
+    points: 5
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_ETHERAL_HIGH_COMMAND_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_2_ETHERAL # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+
+  - type:  STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_2
+    points: 5
+    objective: 3
+    spawnZone: 9 #  spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_2_SNAKEWOMEN_MATRIARCHY # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+
+#######Liberation Type 3#########
+  - type:  STR_BLESSED_LIBERATION_3
+    points: 0
+    objective: 3
+    spawnZone: 19 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_3_BLESSED # spawn this site directly
+        count: 1
+        trajectory: P11 #land only Was P11
+        timer: 150
+        objective: true
+
+  
+  - type:  STR_ETHERAL_HIGH_COMMAND_LIBERATION_3
+    points: 5
+    objective: 3
+    spawnZone: 19 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_ETHERAL_HIGH_COMMAND_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_3_ETHERAL # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+
+  - type:  STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_3
+    points: 5
+    objective: 3
+    spawnZone: 19 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 100
+    waves:
+      - ufo: STR_LIBERATION_3_SNAKEWOMEN_MATRIARCHY # spawn this site directly
+        count: 1
+        trajectory: P11 #land only
+        timer: 150
+        objective: true
+
+#######NUKE ZONE##########
+  - type:  STR_SAVAGE_SCOUTS_NUKEZONE
+    points: 5
+    objective: 3
+    spawnZone: 12 # spawns to NukeZone
+    raceWeights:
+      0:
+          STR_SAVAGE_SCOUTS: 100
+    waves:
+      - ufo: STR_SAVAGE_NUKEZONE # spawn this site directly
+        count: 1
+        trajectory: P12
+        timer: 0
+        objective: true
+
+
+
+########## Liberation END #########
+
+  - type:  STR_EXTERMINATE_CITY
+    points: 0
+    objective: 3
+    spawnZone: 9 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_FLOATER: 100
+    waves:
+      - ufo: STR_EXTERMINATE_CITY # MUST MATCH ALIEN DEPLOYMENT NAME
+        count: 1
+        trajectory: P9 #land only
+        timer: 150
+        objective: true
+
+  - type:  STR_EXTERMINATE_CITY_UW
+    points: 0
+    objective: 3
+    spawnZone: 8 #  #3 spawns to Alien citys on Land
+    raceWeights:
+      0:
+          STR_CALCINITE_RACE_UNDERWATER: 100
+    waves:
+      - ufo: STR_EXTERMINATE_CITY_UW # spawn this site directly - MUST MATCH ALIEN DEPLOYMENT NAME
+        count: 1
+        trajectory: P8 #land only was
+        timer: 150
+        objective: true
+######## BASE SPAWNING START#########
+
+  - type: STR_SPAWN_STARTING_BASE_BLESSED
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_BLESSED # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_BLESSED # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    raceWeights:
+      0:
+        STR_BLESSED_SCOUTS: 30
+      3:
+        STR_BLESSED_SCOUTS: 60
+        STR_BLESSED_SCOUTS: 40
+      9:
+        STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P17 #p17
+        timer: 0
+
+  - type: STR_SPAWN_STARTING_BASE_MUTON_WARPACK
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_MUTON_WARPACK # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_MUTON_WARPACK # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    raceWeights:
+      0:
+        STR_MUTON_WARPACK_SCOUTS: 30
+      3:
+        STR_MUTON_WARPACK_SCOUTS: 60
+        STR_MUTON_WARPACK_SCOUTS: 40
+      9:
+        STR_MUTON_WARPACK_SCOUTS: 100
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P17 #p17
+        timer: 0
+
+  - type: STR_SPAWN_STARTING_BASE_SNAKEWOMEN_MATRIARCHY
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_SNAKEDEN 
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_SNAKEDEN 
+    raceWeights:
+      0:
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 30
+      3:
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 60
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 40
+      9:
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 100
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P17 #p17
+        timer: 0
+
+
+  # - type: STR_SPAWN_STARTING_BASE_MECHARMY
+  #   points: 0
+  #   objective: 2
+  #   spawnZone: 6 #  #3 spawns to citys
+  #   operationType: 2
+  #   operationSpawnZone: 6
+  #   siteType: STR_ALIEN_BASE_MECHARMY # MISSION TYPE EG ALIEN BASE
+  #   operationBaseType: STR_ALIEN_BASE_MECHARMY
+  #   raceWeights:
+  #     0:
+  #       STR_MECHARMY_SCOUTS: 30
+  #     3:
+  #       STR_MECHARMY_SCOUTS: 60
+  #       STR_MECHARMY_SCOUTS: 40
+  #     9:
+  #       STR_MECHARMY_SCOUTS: 100
+  #   waves:
+  #     - ufo: STR_BATTLESHIP
+  #       count: 1
+  #       trajectory: P17 #p17
+  #       timer: 0
+
+
+
+
+  - type: STR_SPAWN_STARTING_BASE_MECH-ARMY
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_MECHARMY 
+    operationBaseType: STR_ALIEN_BASE_MECHARMY
+    raceWeights:
+      0:
+        STR_MECHARMY_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P17 #p17 - P6 works
+        timer: 0
+
+
+  - type: STR_SPAWN_STARTING_BASE_ETHERAL_HIGH_COMMAND
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_ETHERAL_HIGH_COMMAND 
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_ETHERAL_HIGH_COMMAND
+    raceWeights:
+      0:
+        STR_ETHERAL_HIGH_COMMAND_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P17 #p17 - P6 works
+        timer: 0
+
+  - type: STR_SPAWN_STARTING_BASE_AQUATICS_UNDERWATER
+    points: 0
+    objective: 2
+    spawnZone: 21 #  7 works, 10 does not #UNDERWATER ONLY
+    operationType: 2
+    operationSpawnZone: 7
+    siteType: STR_ALIEN_BASE_ASSAULT_AQUATICS 
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_AQUATICS 
+    raceWeights:
+      0:
+        STR_AQUATICS_SCOUTS_UNDERWATER: 30
+      # 3:
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 60
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 40
+      # 9:
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 100
+    waves:
+      - ufo: STR_DREADNOUGHT
+        count: 1
+        trajectory: P18 # p12 works - P18 desired
+        timer: 0
+
+
+  - type: STR_SPAWN_STARTING_BASE_GILLMAN_KINGDOM_UNDERWATER
+    points: 0
+    objective: 2
+    spawnZone: 21 #  7 works, 10 does not #UNDERWATER ONLY
+    operationType: 2
+    operationSpawnZone: 7
+    siteType: STR_ALIEN_BASE_ASSAULT_Gillman_Kingdom 
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_Gillman_Kingdom 
+    raceWeights:
+      0:
+        STR_GILLMAN_KINGDOM_SCOUTS: 30
+      # 3:
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 60
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 40
+      # 9:
+      #   STR_AQUATICS_SCOUTS_UNDERWATER: 100
+    waves:
+      - ufo: STR_DREADNOUGHT
+        count: 1
+        trajectory: P18 # p12 works - P18 desired
+        timer: 0
+
+
+  - type: STR_SPAWN_BASE_INHERITORS_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_INHERITORS_BASE_ASSAULT
+    operationBaseType: STR_INHERITORS_BASE_ASSAULT
+    raceWeights:
+      0:
+        STR_INHERITORS_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_DREADNOUGHT
+        count: 1
+        trajectory: P18 # p12 works - P18 desired
+        timer: 0
+####################### ONGOING BASE SPAWNING MISSIONS #######################
+  - type: STR_SPAWN_STARTING_BASE_MUTON_WARPACK_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_MUTON_WARPACK # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_MUTON_WARPACK # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    raceWeights:
+      0:
+        STR_MUTON_WARPACK_SCOUTS: 30
+      3:
+        STR_MUTON_WARPACK_SCOUTS: 60
+        STR_MUTON_WARPACK_SCOUTS: 40
+      9:
+        STR_MUTON_WARPACK_SCOUTS: 100
+    waves:
+      - ufo: MUTONC_SHIP_06
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 1000
+      - ufo: MUTONC_SHIP_03
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 900
+      - ufo: MUTONC_SHIP_07
+        count: 2
+        trajectory: P12 # p12 works - 
+        timer: 1200
+      - ufo: MUTONC_SHIP_02
+        count: 1
+        trajectory: P12 # p12 works - P18 desired
+        timer: 3000
+      - ufo: MUTONC_SHIP_01
+        count: 1
+        trajectory: P29 # p12 works - P18 desired
+        timer: 2000
+
+
+  - type: STR_SPAWN_STARTING_BASE_GILLMAN_KINGDOM_UNDERWATER_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 7 #  7 works, 10 does not #UNDERWATER ONLY
+    operationType: 2
+    operationSpawnZone: 7
+    siteType: STR_ALIEN_BASE_ASSAULT_Gillman_Kingdom # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_Gillman_Kingdom # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    # siteType: STR_ALIEN_BASE_ASSAULT_Gillman_Kingdom #CHANGE TO RACE SPECIFIC
+    raceWeights:
+      0:
+        STR_GILLMAN_KINGDOM_SCOUTS: 30
+      3:
+        STR_GILLMAN_KINGDOM_SCOUTS: 60
+        STR_GILLMAN_KINGDOM_SCOUTS: 40
+      9:
+        STR_GILLMAN_KINGDOM_SCOUTS: 100
+    waves:
+      - ufo: STR_G_SURVEY_SHIP
+        count: 2
+        trajectory: P12 # p12 works - 
+        timer: 1000
+      - ufo: STR_G_BATTLESHIP
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 900
+      - ufo: STR_G_ESCORT
+        count: 2
+        trajectory: P12 # p12 works - 
+        timer: 1200
+      - ufo: STR_G_FLEET_SUPPLY_CRUISE
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 3000
+      - ufo: STR_G_DREADNOUGHT
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 2000
+
+  - type: STR_SPAWN_STARTING_BASE_AQUATICS_UNDERWATER_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 7 #  7 works, 10 does not #UNDERWATER ONLY
+    operationType: 2
+    operationSpawnZone: 7
+    siteType: STR_ALIEN_BASE_ASSAULT_AQUATICS # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_AQUATICS # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    # siteType: STR_ALIEN_BASE_ASSAULT_AQUATICS 
+    raceWeights:
+      0:
+        STR_AQUATICS_SCOUTS_UNDERWATER: 30
+      3:
+        STR_AQUATICS_SCOUTS_UNDERWATER: 60
+        STR_AQUATICS_SCOUTS_UNDERWATER: 40
+      9:
+        STR_AQUATICS_SCOUTS_UNDERWATER: 100
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 2
+        trajectory: P12 # p12 works - 
+        timer: 1000
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P12 # p12 works - 
+        timer: 900
+      - ufo: STR_ESCORT
+        count: 2
+        trajectory: P12 # p12 works - 
+        timer: 1200
+      - ufo: STR_FLEET_SUPPLY_CRUISE
+        count: 1
+        trajectory: P12 # p12 works - P18 desired
+        timer: 3000
+      - ufo: STR_DREADNOUGHT
+        count: 1
+        trajectory: P29 # p12 works - P18 desired
+        timer: 2000
+
+  - type: STR_SPAWN_BASE_ETHERAL_HIGH_COMMAND_ONGOING 
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_ETHERAL_HIGH_COMMAND # MISSION TYPE EG ALIEN BASE
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_ETHERAL_HIGH_COMMAND  # BASE TYPE FOR EACH FACTION :EG ALIEN _BASE_BLESSED
+    raceWeights:
+      0:
+        STR_ETHERAL_HIGH_COMMAND_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P11
+        timer: 60
+
+
+  - type: STR_SPAWN_BASE_BLESSED_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_BLESSED #CHANGE TO RACE SPECIFIC
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_BLESSED
+    raceWeights:
+      0:
+        STR_BLESSED_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: BLESSED_SHIP_08
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: BLESSED_UFO_010
+        count: 2
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: BLESSED_SHIP_04
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: BLESSED_SHIP_02
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo:  BLESSED_SHIP_01
+        count: 1
+        trajectory: P11
+        timer: 60
+
+
+
+  - type: STR_SPAWN_BASE_MECHARMY_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_MECHARMY
+    operationBaseType: STR_ALIEN_BASE_MECHARMY
+    raceWeights:
+      0:
+        STR_MECHARMY_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_XENO3
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_XENO5
+        count: 2
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: STR_XENO10
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_XENO5
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo:  STR_XENO12
+        count: 1
+        trajectory: P11
+        timer: 60
+
+
+
+  - type: STR_SPAWN_BASE_SNAKEWOMEN_MATRIARCHY_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_SNAKEDEN 
+    operationBaseType: STR_ALIEN_BASE_ASSAULT_SNAKEDEN 
+    raceWeights:
+      0:
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: STR_XENO3
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_XENO5
+        count: 2
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: STR_XENO10
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_XENO5
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo:  STR_XENO12
+        count: 1
+        trajectory: P11
+        timer: 60
+
+  - type: STR_SPAWN_BASE_INHERITORS_ONGOING
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_INHERITORS_BASE_ASSAULT
+    operationBaseType: STR_INHERITORS_BASE_ASSAULT
+    raceWeights:
+      0:
+        STR_INHERITORS_SCOUTS: 30
+      # 3:
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 60
+      #   STR_ETHERAL_HIGH_COMMAND_SCOUTS: 40
+      # 9:
+      #   STR_BLESSED_SCOUTS: 100
+    waves:
+      - ufo: OXCF-LIGHTNIN_5
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: OXCF-LIGHTNIN_6
+        count: 2
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: OXCF-LIGHTNIN_7
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: OXCF-LIGHTNIN_4
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo:  OXCF-LIGHTNIN_6
+        count: 1
+        trajectory: P11
+        timer: 15000
+
+
+###################################
+  - type: STR_RAIDERS_GRASS
+    points: 0
+    objective: 3
+    spawnZone: 15 #Mission zone for grass
+    raceWeights:
+      0:
+        STR_MIXED_RAIDERS_SCOUTS: 30
+        # STR_FLOATER: 70
+      # 1:
+      #   STR_SECTOID: 60
+      #   STR_FLOATER: 40
+      # 3:
+      #   STR_SECTOID: 20
+      #   STR_SNAKEMAN: 60
+      #   STR_FLOATER: 20
+      # 6:
+      #   STR_SECTOID: 10
+      #   STR_SNAKEMAN: 20
+      #   STR_ETHEREAL: 40
+      #   STR_MUTON: 20
+      #   STR_FLOATER: 10
+      # 9:
+      #   STR_SECTOID: 20
+      #   STR_SNAKEMAN: 30
+      #   STR_ETHEREAL: 20
+      #   STR_MUTON: 20
+      #   STR_FLOATER: 10
+    waves:
+      - ufo: STR_RAIDER_SPAWN_GRASS
+        count: 1
+        trajectory: P1
+        timer: 5000
+
+  - type: STR_RAIDERS_OCEAN_DUNES
+    points: 0
+    objective: 3
+    spawnZone: 14 #Mission zone for Dry - OCEAN SAND
+    raceWeights:
+      0:
+        STR_MIXED_RAIDERS_SCOUTS: 30
+        # STR_SCAVENGERS_SCOUTS: 30
+      # 1:
+      #   STR_SECTOID: 60
+      #   STR_FLOATER: 40
+    waves:
+      - ufo: STR_RAIDER_SPAWN_OCEAN_DUNES
+        count: 1
+        trajectory: P1
+        timer: 15000
+
+
+  - type: STR_RAIDERS_NUKEZONE
+    points: 0
+    objective: 3
+    spawnZone: 12 #Mission zone for NUKEZONE
+    raceWeights:
+      0:
+        STR_SAVAGE_SCOUTS: 30
+      # 1:
+      #   STR_SECTOID: 60
+      #   STR_FLOATER: 40
+      # 3:
+      #   STR_SECTOID: 20
+      #   STR_SNAKEMAN: 60
+      #   STR_FLOATER: 20
+      6:
+        STR_SAVAGE_SCOUTS: 40
+        STR_SAVAGE_ASSAULT: 60
+      # 9:
+      #   STR_SECTOID: 20
+      #   STR_SNAKEMAN: 30
+      #   STR_ETHEREAL: 20
+      #   STR_MUTON: 20
+      #   STR_FLOATER: 10
+    waves:
+      - ufo: STR_RAIDER_SPAWN_NUKEZONE
+        count: 1
+        trajectory: P1
+        timer: 15000
+############################################################        
+  - type: STR_ALIEN_RESEARCH
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 70
+        STR_SNAKEMAN: 10
+        STR_FLOATER: 20
+      # 1:
+      #   STR_SECTOID: 60
+      #   STR_SNAKEMAN: 10
+      #   STR_FLOATER: 30
+      # 3:
+      #   STR_SECTOID: 30
+      #   STR_SNAKEMAN: 10
+      #   STR_MUTON: 30
+      #   STR_FLOATER: 30
+      # 6:
+      #   STR_SECTOID: 20
+      #   STR_SNAKEMAN: 10
+      #   STR_MUTON: 40
+      #   STR_FLOATER: 30
+      # 9:
+      #   STR_SECTOID: 30
+      #   STR_SNAKEMAN: 10
+      #   STR_MUTON: 30
+      #   STR_FLOATER: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 9000
+      # - ufo: STR_MEDIUM_SCOUT
+      #   count: 1
+      #   trajectory: P2
+      #   timer: 7800
+      # - ufo: STR_LARGE_SCOUT
+      #   count: 2
+      #   trajectory: P4
+      #   timer: 9000
+  - type: STR_ALIEN_HARVEST
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 50
+        STR_SNAKEMAN: 20
+        STR_FLOATER: 30
+      1:
+        STR_SECTOID: 50
+        STR_FLOATER: 50
+      3:
+        STR_SECTOID: 30
+        STR_MUTON: 30
+        STR_FLOATER: 40
+      6:
+        STR_SECTOID: 10
+        STR_MUTON: 40
+        STR_FLOATER: 50
+      9:
+        STR_SECTOID: 30
+        STR_MUTON: 30
+        STR_FLOATER: 40
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_HARVESTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P2
+        timer: 1500
+  - type: STR_ALIEN_ABDUCTION
+    points: 0
+    raceWeights:
+      0:
+        STR_SECTOID: 60
+        STR_FLOATER: 40
+      1:
+        STR_SECTOID: 40
+        STR_FLOATER: 60
+      3:
+        STR_SECTOID: 50
+        STR_FLOATER: 50
+      6:
+        STR_SECTOID: 30
+        STR_FLOATER: 70
+      9:
+        STR_SECTOID: 50
+        STR_FLOATER: 50
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 18000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_ABDUCTOR
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_ABDUCTOR
+        count: 2
+        trajectory: P4
+        timer: 60
+  - type: STR_ALIEN_INFILTRATION
+    points: 200 #Pact score only awarded on month end 
+    objective: 1
+    siteType: STR_TRAITOR_BASE_ASSAULT
+    operationBaseType: STR_TRAITOR_BASE_ASSAULT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_ETHERAL_TRAITOR_BASE: 60
+        # STR_SNAKEMAN: 20
+        # STR_FLOATER: 20
+      # 1:
+      #   STR_SECTOID: 50
+      #   STR_SNAKEMAN: 20
+      #   STR_FLOATER: 30
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P0
+        timer: 16500
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P6
+        timer: 13800
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 9000
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_TERROR_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P7
+        timer: 60
+
+
+  - type: STR_ALIEN_RETALIATION #Etheral High command and Vanilla option as plan B :)
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_ETHERAL_HIGH_COMMAND_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      # 5:
+      #   STR_ETHERAL_HIGH_COMMAND_ASSULT: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+  - type: STR_ALIEN_RETALIATION_SAVAGE
+    points: 0
+    objective: 4
+    spawnUfo: STR_SAVAGE07 # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_SAVAGE_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      # 5:
+      #   STR_ETHERAL_HIGH_COMMAND_ASSULT: 20
+    waves:
+      - ufo: STR_SAVAGE03
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SAVAGE04
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SAVAGE05
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_SAVAGE07
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_SCAVENGERS
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_SCAVENGERS_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      # 5:
+      #   STR_ETHERAL_HIGH_COMMAND_ASSULT: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_INHERITORS
+    points: 0
+    objective: 4
+    spawnUfo: OXCF-LIGHTNIN_4 # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_INHERITORS_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      4:
+        STR_INHERITORS_ASSAULT: 20
+    waves:
+      - ufo: OXCF-LIGHTNIN_9
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: OXCF-LIGHTNIN_1
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: OXCF-LIGHTNIN_5
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: OXCF-LIGHTNIN_4
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_SNAKEWOMEN_MATRIARCHY
+    points: 0
+    objective: 4
+    spawnUfo: SNAKEFLEET07 # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      # 5:
+      #   STR_ETHERAL_HIGH_COMMAND_ASSULT: 20
+    waves:
+      - ufo: SNAKEFLEET01
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: SNAKEFLEET03
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: SNAKEFLEET05
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: SNAKEFLEET07
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_MECHARMY
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO13 # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_MECHARMY_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      # 5:
+      #   STR_ETHERAL_HIGH_COMMAND_ASSULT: 20
+    waves:
+      - ufo: STR_XENO1
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_XENO2
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_XENO4
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_XENO13
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_GILLMAN_KINGDOM
+    points: 0
+    objective: 4
+    spawnUfo: STR_G_DREADNOUGHT # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_GILLMAN_KINGDOM_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      5:
+        STR_GILLMAN_KINGDOM_SCOUTS: 20
+    waves:
+      - ufo: STR_G_SURVEY_SHIP
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_G_ESCORT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_G_HUNTER
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_G_DREADNOUGHT
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+
+  - type: STR_ALIEN_RETALIATION_AQUATICS
+    points: 0
+    objective: 4
+    spawnUfo: STR_DREADNOUGHT # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_AQUATICS_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      5:
+        STR_AQUATICS_ELITES: 20
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_CRUISER
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_HUNTER
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_DREADNOUGHT
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+  - type: STR_ALIEN_RETALIATION_BLESSED
+    points: 0
+    objective: 4
+    spawnUfo: BLESSED_SHIP_01 # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_BLESSED_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+      6:
+        STR_BLESSED_ELITE: 20
+    waves:
+      - ufo: BLESSED_UFO_010
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: BLESSED_UFO_020
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: BLESSED_SHIP_06
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: BLESSED_SHIP_01
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+  - type: STR_TRAITOR_RETALIATION
+    points: 0
+    objective: 4
+    spawnUfo: STR_BATTLESHIP # Spawned for the final retaliation run
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_ETHERAL_TRAITOR_BASE: 20
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 1
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_LARGE_SCOUT
+        count: 3
+        trajectory: P8
+        timer: 3000
+      - ufo: STR_BATTLESHIP
+        count: 2
+        trajectory: P8
+        timer: 3000
+
+  - type: STR_ALIEN_SUPPLY
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_SUPPLY_SHIP
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_MECHARMY
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_XENO14
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_BLESSED
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: BLESSED_SHIP_02
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_INHERITORS
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: OXCF-LIGHTNIN_6
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_ETHERAL_HIGH_COMMAND
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: OXCF-LIGHTNIN_6
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_SNAKEWOMEN
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: SNAKEFLEET04
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_MUTON_WARPACK
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: MUTONC_SHIP_02
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+  - type: STR_ALIEN_SUPPLY_GILLMAN_KINGDOM
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_G_FLEET_SUPPLY_CRUISER
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+
+
+  - type: STR_ALIEN_SUPPLY_AQUADICS
+    points: 0
+    objective: 5
+    raceWeights: {} #Special case, race comes from base.
+    waves:
+      - ufo: STR_FLEET_SUPPLY_CRUISER
+        count: 1
+        trajectory: P9
+        timer: 6000
+        objective: true
+        #########################################TFTD#####################################
+  - type: STR_ALIEN_PROBE_MISSION
+    points: 0
+    raceWeights:
+      0:
+          STR_AQUATOID: 70
+          STR_GILLMAN: 30
+      1:
+          STR_AQUATOID: 60
+          STR_GILLMAN: 30
+          STR_LOBSTERMAN: 10
+      3:
+          STR_AQUATOID: 30
+          STR_GILLMAN: 40
+          STR_LOBSTERMAN: 30
+      6:
+          STR_AQUATOID: 20
+          STR_GILLMAN: 10
+          STR_LOBSTERMAN: 40
+          STR_TASOTH: 30
+      9:
+          STR_AQUATOID: 20
+          STR_GILLMAN: 20
+          STR_LOBSTERMAN: 20
+          STR_TASOTH: 40
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P0
+        timer: 9000
+      - ufo: STR_ESCORT
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_CRUISER
+        count: 2
+        trajectory: P4
+        timer: 9000
+  - type: STR_ALIEN_INTERDICTION
+    points: 0
+    spawnZone: 10 
+    raceWeights:
+      0:
+          STR_AQUATOID: 50
+          STR_GILLMAN: 50
+      1:
+          STR_AQUATOID: 50
+          STR_GILLMAN: 50
+      3:
+          STR_AQUATOID: 30
+          STR_GILLMAN: 50
+          STR_LOBSTERMAN: 20
+      6:
+          STR_AQUATOID: 10
+          STR_LOBSTERMAN: 40
+          STR_TASOTH: 50
+      9:
+          STR_AQUATOID: 30
+          STR_LOBSTERMAN: 30
+          STR_TASOTH: 40
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P2
+        timer: 7800
+      - ufo: STR_ESCORT
+        count: 1
+        trajectory: P2
+        timer: 6000
+      - ufo: STR_CRUISER
+        count: 1
+        trajectory: P0
+        timer: 7800
+      - ufo: STR_CRUISER
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HUNTER
+        count: 1
+        trajectory: P4
+        timer: 3000
+      - ufo: STR_HUNTER
+        count: 1
+        trajectory: P4
+        timer: 750
+      - ufo: STR_DREADNOUGHT
+        count: 1
+        trajectory: P2
+        timer: 1500
+  - type: STR_ALIEN_RESOURCE_RAID
+    points: 0
+    spawnZone: 10
+    raceWeights:
+      0:
+          STR_AQUATOID: 60
+          STR_GILLMAN: 40
+      1:
+          STR_AQUATOID: 40
+          STR_GILLMAN: 60
+      3:
+          STR_AQUATOID: 50
+          STR_GILLMAN: 50
+      6:
+          STR_AQUATOID: 30
+          STR_TASOTH: 70
+      9:
+          STR_AQUATOID: 50
+          STR_TASOTH: 50
+    waves:
+      - ufo: STR_SURVEY_SHIP
+        count: 1
+        trajectory: P0
+        timer: 15000
+      - ufo: STR_ESCORT
+        count: 1
+        trajectory: P1
+        timer: 18000
+      - ufo: STR_CRUISER
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HEAVY_CRUISER
+        count: 1
+        trajectory: P3
+        timer: 9000
+      - ufo: STR_HEAVY_CRUISER
+        count: 2
+        trajectory: P4
+        timer: 60
+
+
+
+  - type: STR_ALIEN_INTERCEPTION_1
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO4 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_MECHARMY_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO4 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 35
+        huntMode: 0
+        huntSpeed: 100
+        huntBehavior: 1
+  - type: STR_ALIEN_INTERCEPTION_2
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO8 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_MECHARMY_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO8 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 55
+        huntMode: 2
+        huntSpeed: 100
+        huntBehavior: 1
+  - type: STR_ALIEN_INTERCEPTION_3
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO11 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_MECHARMY_SCOUTS: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO11 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntSpeed: 100
+        huntBehavior: 1
+
+#### THE DISPOSSESSED ####
+
+  - type: STR_SPAWN_STARTING_BASE_DISPOSSESSED
+    points: 0
+    objective: 2
+    spawnZone: 6 #  #3 spawns to citys
+    operationType: 2
+    operationSpawnZone: 6
+    siteType: STR_ALIEN_BASE_ASSAULT_THE_DISPOSSESSED 
+    operationBaseType: STR_ALIEN_BASE_THE_DISPOSSESSED 
+    raceWeights:
+      0:
+        STR_DISPOSSESSED: 30
+    waves:
+      - ufo: STR_MEDIUM_SCOUT
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P11 #p17 - P6 works
+        timer: 0
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P11
+        timer: 15000
+      - ufo: STR_SUPPLY_SHIP
+        count: 2
+        trajectory: P11
+        timer: 60
+      - ufo: STR_BATTLESHIP
+        count: 1
+        trajectory: P11
+        timer: 60
+
+
+
+  - type: STR_DISPOSSESSED_INTERCEPTION_1
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO4 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_DISPOSSESSED: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO4 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 35
+        huntMode: 0
+        huntSpeed: 100
+        huntBehavior: 1
+
+  - type: STR_DISPOSSESSED_INTERCEPTION_2
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO8 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_DISPOSSESSED: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO8 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 55
+        huntMode: 2
+        huntSpeed: 100
+        huntBehavior: 1
+
+  - type: STR_DISPOSSESSED_INTERCEPTION_3
+    points: 0
+    objective: 4
+    spawnUfo: STR_XENO11 # Spawned for the final retaliation run
+    operationType: 6
+    raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
+      0:
+        STR_DISPOSSESSED: 20
+        # STR_SNAKEMAN: 20
+        # STR_ETHEREAL: 20
+        # STR_MUTON: 20
+        # STR_FLOATER: 20
+    waves:
+      - ufo: STR_XENO11 #CHANGE TO DRONES
+        count: 1
+        trajectory: P0
+        timer: 0
+        hunterKillerPercentage: 70
+        huntMode: 2
+        huntSpeed: 100
+        huntBehavior: 1

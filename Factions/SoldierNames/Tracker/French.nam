@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Alain
+  - Alban
+  - Armand
+  - Benoit
+  - Bruno
+  - Calvin
+  - Christian
+  - Claude
+  - Corentin
+  - Damien
+  - Denis
+  - Emile
+  - Etienne
+  - Ethan
+  - Fabien
+  - Francis
+  - Frederic
+  - Gaston
+  - Gerard
+  - Guillaume
+  - Henri
+  - Hugo
+  - Jacques
+  - Jean
+  - Jules
+  - Leon
+  - Lionel
+  - Louis
+  - Lucas
+  - Mathis
+  - Marc
+  - Marcel
+  - Michel
+  - Nathan
+  - Nicolas
+  - Olivier
+  - Pascal
+  - Paul
+  - Pierre
+  - Philippe
+  - Quentin
+  - Raphael
+  - Remi
+  - Rene
+  - Robert
+  - Roger
+  - Sebastien
+  - Simon
+  - Sylvain
+  - Thibault
+  - Victor
+  - Vincent
+  - Yves
+femaleFirst:
+  - Anne
+  - Audrey
+  - Brigitte
+  - Camille
+  - Catherine
+  - Chantal
+  - Claire
+  - Clara
+  - Cloe
+  - Danielle
+  - Dominique
+  - Elisabeth
+  - Eva
+  - Florence
+  - Francoise
+  - Gaelle
+  - Geraldine
+  - Helene
+  - Isabelle
+  - Ludivine
+  - Lydia
+  - Jacqueline
+  - Jeanne
+  - Julie
+  - Laure
+  - Lina
+  - Lilou
+  - Maelys
+  - Marie
+  - Marion
+  - Marguerite
+  - Maud
+  - Murielle
+  - Nathalie
+  - Odile
+  - Rachel
+  - Rose
+  - Sabine
+  - Sandrine
+  - Stephanie
+  - Sonia
+  - Sylvie
+  - Valerie
+  - Veronique
+  - Zoe
+maleLast:
+  - Andre (TRACK)
+  - Berger (TRACK)
+  - Bernard (TRACK)
+  - Bertrand (TRACK)
+  - Bonnet (TRACK)
+  - Bouissou (TRACK)
+  - Bourgeois (TRACK)
+  - Bouton (TRACK)
+  - Bouvier (TRACK)
+  - Blanc (TRACK)
+  - Blondel (TRACK)
+  - Buchard (TRACK)
+  - Caron (TRACK)
+  - Chevalier (TRACK)
+  - Coicard (TRACK)
+  - Collet (TRACK)
+  - Collignon (TRACK)
+  - Coste (TRACK)
+  - Couturier (TRACK)
+  - Clement (TRACK)
+  - Cuvelier (TRACK)
+  - Dagallier (TRACK)
+  - Delorme (TRACK)
+  - Dreyfus (TRACK)
+  - Dubois (TRACK)
+  - Ducourtioux (TRACK)
+  - Dujardin (TRACK)
+  - Dumont (TRACK)
+  - Dupuis (TRACK)
+  - Dupre (TRACK)
+  - Duval (TRACK)
+  - Fabre (TRACK)
+  - Faure (TRACK)
+  - Fontaine (TRACK)
+  - Fournier (TRACK)
+  - Gaillard (TRACK)
+  - Garcia (TRACK)
+  - Gaudrin (TRACK)
+  - Gautier (TRACK)
+  - Gressier (TRACK)
+  - Guerin (TRACK)
+  - Guillot (TRACK)
+  - Girard (TRACK)
+  - Giraudon (TRACK)
+  - Heroin (TRACK)
+  - Lacroix (TRACK)
+  - Laroyenne (TRACK)
+  - Lambert (TRACK)
+  - Laroche (TRACK)
+  - Larue (TRACK)
+  - Laurent (TRACK)
+  - Leclerc (TRACK)
+  - Lecointe (TRACK)
+  - Lecomte (TRACK)
+  - Leduc (TRACK)
+  - Lefevre (TRACK)
+  - Legrand (TRACK)
+  - Leroy (TRACK)
+  - Luget (TRACK)
+  - Marcelle (TRACK)
+  - Martin (TRACK)
+  - Menardier (TRACK)
+  - Mercier (TRACK)
+  - Meunier (TRACK)
+  - Moreau (TRACK)
+  - Morel (TRACK)
+  - Morin (TRACK)
+  - Mathieu (TRACK)
+  - Muller (TRACK)
+  - Pecheux (TRACK)
+  - Pelletier (TRACK)
+  - Perrin (TRACK)
+  - Perrot (TRACK)
+  - Petit (TRACK)
+  - Picar (TRACK)
+  - Roussel (TRACK)
+  - Revenu (TRACK)
+  - Roux (TRACK)
+  - Richard (TRACK)
+  - Simon (TRACK)
+  - Thomas (TRACK)
+  - Verdier (TRACK)

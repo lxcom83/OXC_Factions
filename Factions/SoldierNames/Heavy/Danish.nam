@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Absalon
+  - Adam
+  - Adolf
+  - Albert
+  - Alex
+  - Alexander
+  - Alf
+  - Alfred
+  - Allan
+  - Anders
+  - Andreas
+  - Anker
+  - Anton
+  - Arne
+  - Arnold
+  - Aron
+  - Arthur
+  - Arvid
+  - Asbjoorn
+  - Asger
+  - Aske
+  - Asmus
+  - August
+  - Axel
+  - Bendt
+  - Benjamin
+  - Benny
+  - Bent
+  - Bernhard
+  - Bernt
+  - Bertel
+  - Berthel
+  - Bertram
+  - Birger
+  - Bjarke
+  - Bjarne
+  - Bjork
+  - Bjorn
+  - Bo
+  - Boje
+  - Borge
+  - Boye
+  - Brian
+  - Bruno
+  - Carsten
+  - Casper
+  - Chresten
+  - Chris
+  - Christen
+  - Christian
+  - Christoffer
+  - Christopher
+  - Claus
+  - Daniel
+  - Danni
+  - Danny
+  - David
+  - Dennis
+  - Ditlev
+  - Edvard
+  - Edvin
+  - Egon
+  - Eigil
+  - Ejgil
+  - Ejnar
+  - Ejner
+  - Ejvind
+  - Elias
+  - Elmer
+  - Elo
+  - Emanuel
+  - Emil
+  - Erik
+  - Erland
+  - Erling
+  - Ernst
+  - Esajas
+  - Esben
+  - Eskild
+  - Evald
+  - Ferdinand
+  - Filip
+  - Finn
+  - Flemming
+  - Frands
+  - Frank
+  - Frans
+  - Freddy
+  - Frede
+  - Frederik
+  - Frithiof
+  - Frithjof
+  - Frits
+  - Frode
+  - Georg
+  - Gerhard
+  - Germund
+  - Gert
+  - Gorm
+  - Gotfred
+  - Gregers
+  - Gunder
+  - Gunnar
+  - Gunner
+  - Gustav
+  - Harald
+  - Hardy
+  - Harry
+  - Helge
+  - Helmer
+  - Hemming
+  - Henning
+  - Henrik
+  - Henry
+  - Herman
+  - Hjalmar
+  - Hjalte
+  - Holger
+  - Hugo
+  - Immanuel
+  - Ingolf
+  - Ivan
+  - Ivar
+  - Iver
+  - Jacob
+  - Jakob
+  - Jan
+  - Jannick
+  - Jannik
+  - Jens
+  - Jeppe
+  - Jeremias
+  - Jes
+  - Jesper
+  - Jim
+  - Jimmi
+  - Jimmy
+  - Joachim
+  - Joakim
+  - Joel
+  - Johan
+  - Johannes
+  - John
+  - Johnny
+  - Jon
+  - Jonas
+  - Jonatan
+  - Jonathan
+  - Jorgen
+  - Jorn
+  - Josef
+  - Jul
+  - Julian
+  - Julius
+  - Just
+  - Kaj
+  - Kaleb
+  - Karl
+  - Karsten
+  - Kasper
+  - Keld
+  - Ken
+  - Kenneth
+  - Kent
+  - Kevin
+  - Kim
+  - Kjeld
+  - Klaus
+  - Knud
+  - Kresten
+  - Kristen
+  - Kristian
+  - Kristoffer
+  - Kurt
+  - Lars
+  - Lasse
+  - Lau
+  - Lauge
+  - Laurids
+  - Laurits
+  - Lauritz
+  - Laurs
+  - Laust
+  - Lave
+  - Leif
+  - Lennart
+  - Leo
+  - Leon
+  - Lucas
+  - Ludvig
+  - Lukas
+  - Lykke
+  - Mads
+  - Magnus
+  - Malte
+  - Malthe
+  - Marc
+  - Marcus
+  - Marinus
+  - Marius
+  - Mark
+  - Markus
+  - Martin
+  - Mathias
+  - Mathies
+  - Matthaeus
+  - Matthias
+  - Max
+  - Michael
+  - Mikael
+  - Mike
+  - Mikkel
+  - Mogens
+  - Morten
+  - Mourits
+  - Nick
+  - Nicki
+  - Nicklas
+  - Nicolai
+  - Nicolaj
+  - Niels
+  - Niklas
+  - Nikolai
+  - Nikolaj
+  - Nils
+  - Nis
+  - Noah
+  - Olaf
+  - Olav
+  - Ole
+  - Oliver
+  - Oluf
+  - Orla
+  - Oscar
+  - Oskar
+  - Osvald
+  - Otto
+  - Ove
+  - Palle
+  - Patrick
+  - Paul
+  - Paulus
+  - Paw
+  - Peder
+  - Per
+  - Peter
+  - Philip
+  - Phillip
+  - Poul
+  - Povl
+  - Preben
+  - Rasmus
+  - Rene
+  - Richard
+  - Robert
+  - Robin
+  - Rolf
+  - Ronald
+  - Ronni
+  - Ronnie
+  - Rune
+  - Samuel
+  - Sebastian
+  - Severin
+  - Sigfred
+  - Sigurd
+  - Silas
+  - Simon
+  - Sofus
+  - Sonny
+  - Sophus
+  - Soren
+  - Steen
+  - Stefan
+  - Steffen
+  - Sten
+  - Stephan
+  - Steven
+  - Stig
+  - Storm
+  - Sune
+  - Svend
+  - Tage
+  - Teddy
+  - Theis
+  - Theodor
+  - Thomas
+  - Thor
+  - Thorbjorn
+  - Thorkild
+  - Thorvald
+  - Thyge
+  - Tim
+  - Tobias
+  - Toke
+  - Tom
+  - Tomas
+  - Tommy
+  - Tonni
+  - Tonny
+  - Tony
+  - Torben
+  - Torkild
+  - Torsten
+  - Troels
+  - Tue
+  - Uffe
+  - Ulf
+  - Ulrik
+  - Vagn
+  - Valdemar
+  - Valentin
+  - Verner
+  - Victor
+  - Viggo
+  - Viktor
+  - Vilhelm
+  - Villads
+  - Villy
+  - William
+  - Willy
+  - Zacharias
+  - Zakarias
+  - Hans
+femaleFirst:
+  - Abellona
+  - Abelone
+  - Abigale
+  - Adela
+  - Agneta
+  - Alberte
+  - Albertha
+  - Alisa
+  - Almeta
+  - Alvilda
+  - Ane
+  - Anesa
+  - Anina
+  - Annalisa
+  - Anndrea
+  - Annelise
+  - Annemette
+  - Annina
+  - Aren
+  - Arisje
+  - Arvada
+  - Asa
+  - Astrid
+  - Belenda
+  - Belinde
+  - Bente
+  - Bergitte
+  - Bergliot
+  - Birgita
+  - Birgitte
+  - Birte
+  - Britta
+  - Brunhilde
+  - Caia
+  - Caja
+  - Cathrine
+  - Clady
+  - Dagmar
+  - Dana
+  - Ditte
+  - Dorete
+  - Dorothea
+  - Ebba
+  - Elle
+  - Else
+  - Eva
+  - Federikke
+  - Freja
+  - Freya
+  - Fritz
+  - Gelsomina
+  - Gerdi
+  - Gitte
+  - Gjerta
+  - Greta
+  - Grete
+  - Grethe
+  - Gry
+  - Gudrun
+  - Gulla
+  - Gullan
+  - Gunilla
+  - Gytha
+  - Hanne
+  - Helle
+  - Ide
+  - Idunn
+  - Inga
+  - Ingeborg
+  - Ingelise
+  - Inger
+  - Ingred
+  - Janne
+  - Jannicke
+  - Jensine
+  - Johanne
+  - Kaia
+  - Kaja
+  - Karen
+  - Karin
+  - Karon
+  - Karoline
+  - Karren
+  - Karrin
+  - Karyn
+  - Katrine
+  - Kirsten
+  - Kolinka
+  - Kristine
+  - Laila
+  - Larina
+  - Larine
+  - Laerke
+  - Lecia
+  - Lisbet
+  - Lise
+  - Lone
+  - Lovise
+  - Magdalone
+  - Malene
+  - Maren
+  - Margareta
+  - Margarete
+  - Margaretha
+  - Margarethe
+  - Margerethe
+  - Marika
+  - Marike
+  - Mathilde
+  - Matilde
+  - Merete
+  - Meta
+  - Metalise
+  - Mettalisa
+  - Mettalise
+  - Mia
+  - Pernille
+  - Rebekka
+  - Rikke
+  - Silje
+  - Solvej
+  - Stefania
+  - Thorbjorg
+  - Thorborg
+  - Thordis
+  - Thorid
+  - Thurid
+  - Torbjorg
+  - Torid
+  - Toril
+  - Ulrica
+  - Ulrike
+  - Urd
+  - Vibeke
+  - Anne
+  - Mette
+  - Anna
+  - Susanne
+  - Lene
+  - Inge
+  - Maria
+  - Marianne
+  - Camilla
+  - Pia
+  - Jette
+  - Charlotte
+  - Louise
+maleLast:
+  - Adriansen (HEAVY)
+  - Andersen (HEAVY)
+  - Andreasen (HEAVY)
+  - Andresen (HEAVY)
+  - Any (HEAVY)
+  - Arge (HEAVY)
+  - Arneborg (HEAVY)
+  - Assenbjerg (HEAVY)
+  - Auken (HEAVY)
+  - Bach (HEAVY)
+  - Bak (HEAVY)
+  - Bang (HEAVY)
+  - Bau (HEAVY)
+  - Bech (HEAVY)
+  - Beck (HEAVY)
+  - Bekker (HEAVY)
+  - Berg (HEAVY)
+  - Bertelsen (HEAVY)
+  - Berthelsen (HEAVY)
+  - Billes (HEAVY)
+  - Binzer (HEAVY)
+  - Bjerregaard (HEAVY)
+  - Blach (HEAVY)
+  - Bock (HEAVY)
+  - Bogedal (HEAVY)
+  - Bondo (HEAVY)
+  - Bonnikson (HEAVY)
+  - Brahe (HEAVY)
+  - Brandhorst (HEAVY)
+  - Brandt (HEAVY)
+  - Branstedt (HEAVY)
+  - Broberg (HEAVY)
+  - Brondun (HEAVY)
+  - Bruun (HEAVY)
+  - Burmeister (HEAVY)
+  - Cabble (HEAVY)
+  - Carlsen (HEAVY)
+  - Carstensen (HEAVY)
+  - Ceder (HEAVY)
+  - Chemnitz (HEAVY)
+  - Christensen (HEAVY)
+  - Christiansen (HEAVY)
+  - Christoffersen (HEAVY)
+  - Clahn (HEAVY)
+  - Clausen (HEAVY)
+  - Claussen (HEAVY)
+  - Colding (HEAVY)
+  - Crumlin (HEAVY)
+  - Dahl (HEAVY)
+  - Dalum (HEAVY)
+  - Dam (HEAVY)
+  - Damgaard (HEAVY)
+  - Damsgaard (HEAVY)
+  - Danielsen (HEAVY)
+  - Danielsson (HEAVY)
+  - Didenksen (HEAVY)
+  - Drusse (HEAVY)
+  - Ebel (HEAVY)
+  - Eberlein (HEAVY)
+  - Ejlersgaard (HEAVY)
+  - Eldjarn (HEAVY)
+  - Ellegaard (HEAVY)
+  - Eriksen (HEAVY)
+  - Espersen (HEAVY)
+  - Fajl (HEAVY)
+  - Falkoner (HEAVY)
+  - Fallingborg (HEAVY)
+  - Fenger (HEAVY)
+  - Fetterlein (HEAVY)
+  - Fine (HEAVY)
+  - Fog (HEAVY)
+  - Follerup (HEAVY)
+  - Frandsen (HEAVY)
+  - Frandson (HEAVY)
+  - Frederiksen (HEAVY)
+  - Fredskild (HEAVY)
+  - Friis (HEAVY)
+  - Fynbo (HEAVY)
+  - Gade (HEAVY)
+  - Gimsing (HEAVY)
+  - Glob (HEAVY)
+  - Goldbaek (HEAVY)
+  - Gram (HEAVY)
+  - Gran (HEAVY)
+  - Gregersen (HEAVY)
+  - Greve (HEAVY)
+  - Grimlot (HEAVY)
+  - Gruntvig (HEAVY)
+  - Guildenstern (HEAVY)
+  - Guldbrandsen (HEAVY)
+  - Haeg (HEAVY)
+  - Halkenhvad (HEAVY)
+  - Hamburger (HEAVY)
+  - Hammer (HEAVY)
+  - Hamsun (HEAVY)
+  - Hannestad (HEAVY)
+  - Hansen (HEAVY)
+  - Hardenberg (HEAVY)
+  - Hasso (HEAVY)
+  - Hedegaard (HEAVY)
+  - Hedhoft (HEAVY)
+  - Heiberg (HEAVY)
+  - Heintze (HEAVY)
+  - Helveg (HEAVY)
+  - Henriksen (HEAVY)
+  - Hermansen (HEAVY)
+  - Hjelmslev (HEAVY)
+  - Hoegh (HEAVY)
+  - Hogh (HEAVY)
+  - Holby (HEAVY)
+  - Holm (HEAVY)
+  - Holst (HEAVY)
+  - Horby (HEAVY)
+  - Hoyer (HEAVY)
+  - Hvass (HEAVY)
+  - Hviid (HEAVY)
+  - Hylgaard (HEAVY)
+  - Iversen (HEAVY)
+  - Jacobsen (HEAVY)
+  - Jakkelsen (HEAVY)
+  - Jakobsen (HEAVY)
+  - Jamissen (HEAVY)
+  - Jaspersen (HEAVY)
+  - Jensen (HEAVY)
+  - Jeppesen (HEAVY)
+  - Jepsen (HEAVY)
+  - Jespersen (HEAVY)
+  - Jessen (HEAVY)
+  - Johannsen (HEAVY)
+  - Johansen (HEAVY)
+  - Johansson (HEAVY)
+  - Johnsen (HEAVY)
+  - Jorgensen (HEAVY)
+  - Juhl (HEAVY)
+  - Junge (HEAVY)
+  - Karlsen (HEAVY)
+  - Karseffni (HEAVY)
+  - Kaustrop (HEAVY)
+  - Kingo (HEAVY)
+  - Kirkeby (HEAVY)
+  - Kjaer (HEAVY)
+  - Kjeldsen (HEAVY)
+  - Kjolbye (HEAVY)
+  - Klausen (HEAVY)
+  - Klindt (HEAVY)
+  - Knudsen (HEAVY)
+  - Knutzen (HEAVY)
+  - Koch (HEAVY)
+  - Kock (HEAVY)
+  - Kofod (HEAVY)
+  - Kolb (HEAVY)
+  - Kotzebue (HEAVY)
+  - Krak (HEAVY)
+  - Kristensen (HEAVY)
+  - Kristiansen (HEAVY)
+  - Kristoffersen (HEAVY)
+  - Krogh (HEAVY)
+  - Kruhl (HEAVY)
+  - Kruse (HEAVY)
+  - Lagermann (HEAVY)
+  - Lander (HEAVY)
+  - Langvardt (HEAVY)
+  - Larsen (HEAVY)
+  - Lassen (HEAVY)
+  - Laudrup (HEAVY)
+  - Laugeson (HEAVY)
+  - Laundsen (HEAVY)
+  - Lauridsen (HEAVY)
+  - Lauritsen (HEAVY)
+  - Lauritzen (HEAVY)
+  - Laursen (HEAVY)
+  - Lavrsen (HEAVY)
+  - Licht (HEAVY)
+  - Lillesoe (HEAVY)
+  - Lind (HEAVY)
+  - Lobing (HEAVY)
+  - Lorenz (HEAVY)
+  - Loyen (HEAVY)
+  - Lund (HEAVY)
+  - Lundgaard (HEAVY)
+  - Lundgard (HEAVY)
+  - Lundvall (HEAVY)
+  - Lynnerup (HEAVY)
+  - Madsen (HEAVY)
+  - Maj (HEAVY)
+  - Majland (HEAVY)
+  - Mandelbrot (HEAVY)
+  - Markert (HEAVY)
+  - Mathiasen (HEAVY)
+  - Mathiesen (HEAVY)
+  - Meindl (HEAVY)
+  - Meinert (HEAVY)
+  - Meling (HEAVY)
+  - Meulengracht (HEAVY)
+  - Mikkelsen (HEAVY)
+  - Milling (HEAVY)
+  - Moesgaard (HEAVY)
+  - Mogensen (HEAVY)
+  - Moller (HEAVY)
+  - Molnar (HEAVY)
+  - Moltke (HEAVY)
+  - Mortensen (HEAVY)
+  - Most (HEAVY)
+  - Munk (HEAVY)
+  - Nerhus (HEAVY)
+  - Niebuhr (HEAVY)
+  - Nielsen (HEAVY)
+  - Nielson (HEAVY)
+  - Nilsson (HEAVY)
+  - Nissen (HEAVY)
+  - Norgaard (HEAVY)
+  - Nygaard (HEAVY)
+  - Nylen (HEAVY)
+  - Obel (HEAVY)
+  - Olesen (HEAVY)
+  - Olrik (HEAVY)
+  - Olsen (HEAVY)
+  - Orum (HEAVY)
+  - Ostergaard (HEAVY)
+  - Ostgerg (HEAVY)
+  - Ottesen (HEAVY)
+  - Overgaard (HEAVY)
+  - Pallesen (HEAVY)
+  - Palsson (HEAVY)
+  - Paulsen (HEAVY)
+  - Pedersen (HEAVY)
+  - Petersen (HEAVY)
+  - Piechnik (HEAVY)
+  - Pilegaard (HEAVY)
+  - Poertner (HEAVY)
+  - Poulsen (HEAVY)
+  - Qvist (HEAVY)
+  - Raaby (HEAVY)
+  - Rasmussen (HEAVY)
+  - Ravn (HEAVY)
+  - Reuter (HEAVY)
+  - Rieper (HEAVY)
+  - Riis (HEAVY)
+  - Rink (HEAVY)
+  - Riseger (HEAVY)
+  - Roesdahl (HEAVY)
+  - Rohrmann (HEAVY)
+  - Ronholt (HEAVY)
+  - Ronne (HEAVY)
+  - Rosenkrantz (HEAVY)
+  - Rriis (HEAVY)
+  - Rude (HEAVY)
+  - Sand (HEAVY)
+  - Sandstrod (HEAVY)
+  - Schjonberg (HEAVY)
+  - Schmeichel (HEAVY)
+  - Schmidt (HEAVY)
+  - Schou (HEAVY)
+  - Schultz (HEAVY)
+  - Seidenfaden (HEAVY)
+  - Sellevold (HEAVY)
+  - Simonsen (HEAVY)
+  - Skaarup (HEAVY)
+  - Skou (HEAVY)
+  - Skov (HEAVY)
+  - Skovgaard (HEAVY)
+  - Soerensen (HEAVY)
+  - Solvig (HEAVY)
+  - Sondergaard (HEAVY)
+  - Sonne (HEAVY)
+  - Sorensen (HEAVY)
+  - Sponneck (HEAVY)
+  - Staer (HEAVY)
+  - Steffensen (HEAVY)
+  - Steincke (HEAVY)
+  - Stenger (HEAVY)
+  - Storegaard (HEAVY)
+  - Stubbe (HEAVY)
+  - Stuer (HEAVY)
+  - Svendsen (HEAVY)
+  - Tarnovius (HEAVY)
+  - Teglbjaerg (HEAVY)
+  - Telling (HEAVY)
+  - Thodberg (HEAVY)
+  - Thomsen (HEAVY)
+  - Thornom (HEAVY)
+  - Thorsen (HEAVY)
+  - Thunmark (HEAVY)
+  - Thygesen (HEAVY)
+  - Thyregod (HEAVY)
+  - Tilling (HEAVY)
+  - Toefting (HEAVY)
+  - Toft (HEAVY)
+  - Toksvig (HEAVY)
+  - Tommen (HEAVY)
+  - Tyllesen (HEAVY)
+  - Uhre (HEAVY)
+  - Vestergaard (HEAVY)
+  - Vilfort (HEAVY)
+  - Villadsen (HEAVY)
+  - Villumsen (HEAVY)
+  - Ving (HEAVY)
+  - Virl (HEAVY)
+  - Wain (HEAVY)
+  - Werlauff (HEAVY)
+  - Wieghorst (HEAVY)
+  - Willadsen (HEAVY)
+  - Winther (HEAVY)
+  - Witzke (HEAVY)
+  - Wiuff (HEAVY)
+  - Zinck (HEAVY)
+  - Zoega (HEAVY)

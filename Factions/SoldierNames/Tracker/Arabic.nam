@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Abdullah
+  - Abu
+  - Ahmed
+  - Ali
+  - Bilal
+  - Fadil
+  - Farid
+  - Faysal
+  - Ghassan
+  - Habib
+  - Hakim
+  - Hassan
+  - Ibrahim
+  - Khalid
+  - Mahmoud
+  - Muhammad
+  - Najib
+  - Nasir
+  - Omar
+  - Rashid
+  - Tariq
+  - Yusuf
+femaleFirst:
+  - Alia
+  - Amirah
+  - Asma
+  - Farah
+  - Fatima
+  - Ghaliya
+  - Hafsa
+  - Haniya
+  - Iman
+  - Jalila
+  - Jawahir
+  - Karima
+  - Laila
+  - Latifa
+  - Malaika
+  - Maryam
+  - Mona
+  - Nadia
+  - Noor
+  - Rafiqa
+  - Samira
+  - Sumayya
+maleLast:
+  - Abdullah (TRACK)
+  - Ahmed (TRACK)
+  - El-Amin (TRACK)
+  - Hakim (TRACK)
+  - Hussain (TRACK)
+  - Karim (TRACK)
+  - Muhammad (TRACK)
+  - Sultan (TRACK)
+  - Qureshi (TRACK)
+  - Malouf (TRACK)
+  - Hajjar (TRACK)
+  - Asaf (TRACK)
+  - Khouri (TRACK)
+  - Tahan (TRACK)
+  - Wasem (TRACK)
+  - Mustafa (TRACK)
+  - Hadad (TRACK)
+  - Kanaan (TRACK)
+  - Islam (TRACK)
+  - Nasri (TRACK)
+  - Kassab (TRACK)
+  - Ibrahim (TRACK)

@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Absalon
+  - Adam
+  - Adolf
+  - Albert
+  - Alex
+  - Alexander
+  - Alf
+  - Alfred
+  - Allan
+  - Anders
+  - Andreas
+  - Anker
+  - Anton
+  - Arne
+  - Arnold
+  - Aron
+  - Arthur
+  - Arvid
+  - Asbjoorn
+  - Asger
+  - Aske
+  - Asmus
+  - August
+  - Axel
+  - Bendt
+  - Benjamin
+  - Benny
+  - Bent
+  - Bernhard
+  - Bernt
+  - Bertel
+  - Berthel
+  - Bertram
+  - Birger
+  - Bjarke
+  - Bjarne
+  - Bjork
+  - Bjorn
+  - Bo
+  - Boje
+  - Borge
+  - Boye
+  - Brian
+  - Bruno
+  - Carsten
+  - Casper
+  - Chresten
+  - Chris
+  - Christen
+  - Christian
+  - Christoffer
+  - Christopher
+  - Claus
+  - Daniel
+  - Danni
+  - Danny
+  - David
+  - Dennis
+  - Ditlev
+  - Edvard
+  - Edvin
+  - Egon
+  - Eigil
+  - Ejgil
+  - Ejnar
+  - Ejner
+  - Ejvind
+  - Elias
+  - Elmer
+  - Elo
+  - Emanuel
+  - Emil
+  - Erik
+  - Erland
+  - Erling
+  - Ernst
+  - Esajas
+  - Esben
+  - Eskild
+  - Evald
+  - Ferdinand
+  - Filip
+  - Finn
+  - Flemming
+  - Frands
+  - Frank
+  - Frans
+  - Freddy
+  - Frede
+  - Frederik
+  - Frithiof
+  - Frithjof
+  - Frits
+  - Frode
+  - Georg
+  - Gerhard
+  - Germund
+  - Gert
+  - Gorm
+  - Gotfred
+  - Gregers
+  - Gunder
+  - Gunnar
+  - Gunner
+  - Gustav
+  - Harald
+  - Hardy
+  - Harry
+  - Helge
+  - Helmer
+  - Hemming
+  - Henning
+  - Henrik
+  - Henry
+  - Herman
+  - Hjalmar
+  - Hjalte
+  - Holger
+  - Hugo
+  - Immanuel
+  - Ingolf
+  - Ivan
+  - Ivar
+  - Iver
+  - Jacob
+  - Jakob
+  - Jan
+  - Jannick
+  - Jannik
+  - Jens
+  - Jeppe
+  - Jeremias
+  - Jes
+  - Jesper
+  - Jim
+  - Jimmi
+  - Jimmy
+  - Joachim
+  - Joakim
+  - Joel
+  - Johan
+  - Johannes
+  - John
+  - Johnny
+  - Jon
+  - Jonas
+  - Jonatan
+  - Jonathan
+  - Jorgen
+  - Jorn
+  - Josef
+  - Jul
+  - Julian
+  - Julius
+  - Just
+  - Kaj
+  - Kaleb
+  - Karl
+  - Karsten
+  - Kasper
+  - Keld
+  - Ken
+  - Kenneth
+  - Kent
+  - Kevin
+  - Kim
+  - Kjeld
+  - Klaus
+  - Knud
+  - Kresten
+  - Kristen
+  - Kristian
+  - Kristoffer
+  - Kurt
+  - Lars
+  - Lasse
+  - Lau
+  - Lauge
+  - Laurids
+  - Laurits
+  - Lauritz
+  - Laurs
+  - Laust
+  - Lave
+  - Leif
+  - Lennart
+  - Leo
+  - Leon
+  - Lucas
+  - Ludvig
+  - Lukas
+  - Lykke
+  - Mads
+  - Magnus
+  - Malte
+  - Malthe
+  - Marc
+  - Marcus
+  - Marinus
+  - Marius
+  - Mark
+  - Markus
+  - Martin
+  - Mathias
+  - Mathies
+  - Matthaeus
+  - Matthias
+  - Max
+  - Michael
+  - Mikael
+  - Mike
+  - Mikkel
+  - Mogens
+  - Morten
+  - Mourits
+  - Nick
+  - Nicki
+  - Nicklas
+  - Nicolai
+  - Nicolaj
+  - Niels
+  - Niklas
+  - Nikolai
+  - Nikolaj
+  - Nils
+  - Nis
+  - Noah
+  - Olaf
+  - Olav
+  - Ole
+  - Oliver
+  - Oluf
+  - Orla
+  - Oscar
+  - Oskar
+  - Osvald
+  - Otto
+  - Ove
+  - Palle
+  - Patrick
+  - Paul
+  - Paulus
+  - Paw
+  - Peder
+  - Per
+  - Peter
+  - Philip
+  - Phillip
+  - Poul
+  - Povl
+  - Preben
+  - Rasmus
+  - Rene
+  - Richard
+  - Robert
+  - Robin
+  - Rolf
+  - Ronald
+  - Ronni
+  - Ronnie
+  - Rune
+  - Samuel
+  - Sebastian
+  - Severin
+  - Sigfred
+  - Sigurd
+  - Silas
+  - Simon
+  - Sofus
+  - Sonny
+  - Sophus
+  - Soren
+  - Steen
+  - Stefan
+  - Steffen
+  - Sten
+  - Stephan
+  - Steven
+  - Stig
+  - Storm
+  - Sune
+  - Svend
+  - Tage
+  - Teddy
+  - Theis
+  - Theodor
+  - Thomas
+  - Thor
+  - Thorbjorn
+  - Thorkild
+  - Thorvald
+  - Thyge
+  - Tim
+  - Tobias
+  - Toke
+  - Tom
+  - Tomas
+  - Tommy
+  - Tonni
+  - Tonny
+  - Tony
+  - Torben
+  - Torkild
+  - Torsten
+  - Troels
+  - Tue
+  - Uffe
+  - Ulf
+  - Ulrik
+  - Vagn
+  - Valdemar
+  - Valentin
+  - Verner
+  - Victor
+  - Viggo
+  - Viktor
+  - Vilhelm
+  - Villads
+  - Villy
+  - William
+  - Willy
+  - Zacharias
+  - Zakarias
+  - Hans
+femaleFirst:
+  - Abellona
+  - Abelone
+  - Abigale
+  - Adela
+  - Agneta
+  - Alberte
+  - Albertha
+  - Alisa
+  - Almeta
+  - Alvilda
+  - Ane
+  - Anesa
+  - Anina
+  - Annalisa
+  - Anndrea
+  - Annelise
+  - Annemette
+  - Annina
+  - Aren
+  - Arisje
+  - Arvada
+  - Asa
+  - Astrid
+  - Belenda
+  - Belinde
+  - Bente
+  - Bergitte
+  - Bergliot
+  - Birgita
+  - Birgitte
+  - Birte
+  - Britta
+  - Brunhilde
+  - Caia
+  - Caja
+  - Cathrine
+  - Clady
+  - Dagmar
+  - Dana
+  - Ditte
+  - Dorete
+  - Dorothea
+  - Ebba
+  - Elle
+  - Else
+  - Eva
+  - Federikke
+  - Freja
+  - Freya
+  - Fritz
+  - Gelsomina
+  - Gerdi
+  - Gitte
+  - Gjerta
+  - Greta
+  - Grete
+  - Grethe
+  - Gry
+  - Gudrun
+  - Gulla
+  - Gullan
+  - Gunilla
+  - Gytha
+  - Hanne
+  - Helle
+  - Ide
+  - Idunn
+  - Inga
+  - Ingeborg
+  - Ingelise
+  - Inger
+  - Ingred
+  - Janne
+  - Jannicke
+  - Jensine
+  - Johanne
+  - Kaia
+  - Kaja
+  - Karen
+  - Karin
+  - Karon
+  - Karoline
+  - Karren
+  - Karrin
+  - Karyn
+  - Katrine
+  - Kirsten
+  - Kolinka
+  - Kristine
+  - Laila
+  - Larina
+  - Larine
+  - Laerke
+  - Lecia
+  - Lisbet
+  - Lise
+  - Lone
+  - Lovise
+  - Magdalone
+  - Malene
+  - Maren
+  - Margareta
+  - Margarete
+  - Margaretha
+  - Margarethe
+  - Margerethe
+  - Marika
+  - Marike
+  - Mathilde
+  - Matilde
+  - Merete
+  - Meta
+  - Metalise
+  - Mettalisa
+  - Mettalise
+  - Mia
+  - Pernille
+  - Rebekka
+  - Rikke
+  - Silje
+  - Solvej
+  - Stefania
+  - Thorbjorg
+  - Thorborg
+  - Thordis
+  - Thorid
+  - Thurid
+  - Torbjorg
+  - Torid
+  - Toril
+  - Ulrica
+  - Ulrike
+  - Urd
+  - Vibeke
+  - Anne
+  - Mette
+  - Anna
+  - Susanne
+  - Lene
+  - Inge
+  - Maria
+  - Marianne
+  - Camilla
+  - Pia
+  - Jette
+  - Charlotte
+  - Louise
+maleLast:
+  - Adriansen (DEYE)
+  - Andersen (DEYE)
+  - Andreasen (DEYE)
+  - Andresen (DEYE)
+  - Any (DEYE)
+  - Arge (DEYE)
+  - Arneborg (DEYE)
+  - Assenbjerg (DEYE)
+  - Auken (DEYE)
+  - Bach (DEYE)
+  - Bak (DEYE)
+  - Bang (DEYE)
+  - Bau (DEYE)
+  - Bech (DEYE)
+  - Beck (DEYE)
+  - Bekker (DEYE)
+  - Berg (DEYE)
+  - Bertelsen (DEYE)
+  - Berthelsen (DEYE)
+  - Billes (DEYE)
+  - Binzer (DEYE)
+  - Bjerregaard (DEYE)
+  - Blach (DEYE)
+  - Bock (DEYE)
+  - Bogedal (DEYE)
+  - Bondo (DEYE)
+  - Bonnikson (DEYE)
+  - Brahe (DEYE)
+  - Brandhorst (DEYE)
+  - Brandt (DEYE)
+  - Branstedt (DEYE)
+  - Broberg (DEYE)
+  - Brondun (DEYE)
+  - Bruun (DEYE)
+  - Burmeister (DEYE)
+  - Cabble (DEYE)
+  - Carlsen (DEYE)
+  - Carstensen (DEYE)
+  - Ceder (DEYE)
+  - Chemnitz (DEYE)
+  - Christensen (DEYE)
+  - Christiansen (DEYE)
+  - Christoffersen (DEYE)
+  - Clahn (DEYE)
+  - Clausen (DEYE)
+  - Claussen (DEYE)
+  - Colding (DEYE)
+  - Crumlin (DEYE)
+  - Dahl (DEYE)
+  - Dalum (DEYE)
+  - Dam (DEYE)
+  - Damgaard (DEYE)
+  - Damsgaard (DEYE)
+  - Danielsen (DEYE)
+  - Danielsson (DEYE)
+  - Didenksen (DEYE)
+  - Drusse (DEYE)
+  - Ebel (DEYE)
+  - Eberlein (DEYE)
+  - Ejlersgaard (DEYE)
+  - Eldjarn (DEYE)
+  - Ellegaard (DEYE)
+  - Eriksen (DEYE)
+  - Espersen (DEYE)
+  - Fajl (DEYE)
+  - Falkoner (DEYE)
+  - Fallingborg (DEYE)
+  - Fenger (DEYE)
+  - Fetterlein (DEYE)
+  - Fine (DEYE)
+  - Fog (DEYE)
+  - Follerup (DEYE)
+  - Frandsen (DEYE)
+  - Frandson (DEYE)
+  - Frederiksen (DEYE)
+  - Fredskild (DEYE)
+  - Friis (DEYE)
+  - Fynbo (DEYE)
+  - Gade (DEYE)
+  - Gimsing (DEYE)
+  - Glob (DEYE)
+  - Goldbaek (DEYE)
+  - Gram (DEYE)
+  - Gran (DEYE)
+  - Gregersen (DEYE)
+  - Greve (DEYE)
+  - Grimlot (DEYE)
+  - Gruntvig (DEYE)
+  - Guildenstern (DEYE)
+  - Guldbrandsen (DEYE)
+  - Haeg (DEYE)
+  - Halkenhvad (DEYE)
+  - Hamburger (DEYE)
+  - Hammer (DEYE)
+  - Hamsun (DEYE)
+  - Hannestad (DEYE)
+  - Hansen (DEYE)
+  - Hardenberg (DEYE)
+  - Hasso (DEYE)
+  - Hedegaard (DEYE)
+  - Hedhoft (DEYE)
+  - Heiberg (DEYE)
+  - Heintze (DEYE)
+  - Helveg (DEYE)
+  - Henriksen (DEYE)
+  - Hermansen (DEYE)
+  - Hjelmslev (DEYE)
+  - Hoegh (DEYE)
+  - Hogh (DEYE)
+  - Holby (DEYE)
+  - Holm (DEYE)
+  - Holst (DEYE)
+  - Horby (DEYE)
+  - Hoyer (DEYE)
+  - Hvass (DEYE)
+  - Hviid (DEYE)
+  - Hylgaard (DEYE)
+  - Iversen (DEYE)
+  - Jacobsen (DEYE)
+  - Jakkelsen (DEYE)
+  - Jakobsen (DEYE)
+  - Jamissen (DEYE)
+  - Jaspersen (DEYE)
+  - Jensen (DEYE)
+  - Jeppesen (DEYE)
+  - Jepsen (DEYE)
+  - Jespersen (DEYE)
+  - Jessen (DEYE)
+  - Johannsen (DEYE)
+  - Johansen (DEYE)
+  - Johansson (DEYE)
+  - Johnsen (DEYE)
+  - Jorgensen (DEYE)
+  - Juhl (DEYE)
+  - Junge (DEYE)
+  - Karlsen (DEYE)
+  - Karseffni (DEYE)
+  - Kaustrop (DEYE)
+  - Kingo (DEYE)
+  - Kirkeby (DEYE)
+  - Kjaer (DEYE)
+  - Kjeldsen (DEYE)
+  - Kjolbye (DEYE)
+  - Klausen (DEYE)
+  - Klindt (DEYE)
+  - Knudsen (DEYE)
+  - Knutzen (DEYE)
+  - Koch (DEYE)
+  - Kock (DEYE)
+  - Kofod (DEYE)
+  - Kolb (DEYE)
+  - Kotzebue (DEYE)
+  - Krak (DEYE)
+  - Kristensen (DEYE)
+  - Kristiansen (DEYE)
+  - Kristoffersen (DEYE)
+  - Krogh (DEYE)
+  - Kruhl (DEYE)
+  - Kruse (DEYE)
+  - Lagermann (DEYE)
+  - Lander (DEYE)
+  - Langvardt (DEYE)
+  - Larsen (DEYE)
+  - Lassen (DEYE)
+  - Laudrup (DEYE)
+  - Laugeson (DEYE)
+  - Laundsen (DEYE)
+  - Lauridsen (DEYE)
+  - Lauritsen (DEYE)
+  - Lauritzen (DEYE)
+  - Laursen (DEYE)
+  - Lavrsen (DEYE)
+  - Licht (DEYE)
+  - Lillesoe (DEYE)
+  - Lind (DEYE)
+  - Lobing (DEYE)
+  - Lorenz (DEYE)
+  - Loyen (DEYE)
+  - Lund (DEYE)
+  - Lundgaard (DEYE)
+  - Lundgard (DEYE)
+  - Lundvall (DEYE)
+  - Lynnerup (DEYE)
+  - Madsen (DEYE)
+  - Maj (DEYE)
+  - Majland (DEYE)
+  - Mandelbrot (DEYE)
+  - Markert (DEYE)
+  - Mathiasen (DEYE)
+  - Mathiesen (DEYE)
+  - Meindl (DEYE)
+  - Meinert (DEYE)
+  - Meling (DEYE)
+  - Meulengracht (DEYE)
+  - Mikkelsen (DEYE)
+  - Milling (DEYE)
+  - Moesgaard (DEYE)
+  - Mogensen (DEYE)
+  - Moller (DEYE)
+  - Molnar (DEYE)
+  - Moltke (DEYE)
+  - Mortensen (DEYE)
+  - Most (DEYE)
+  - Munk (DEYE)
+  - Nerhus (DEYE)
+  - Niebuhr (DEYE)
+  - Nielsen (DEYE)
+  - Nielson (DEYE)
+  - Nilsson (DEYE)
+  - Nissen (DEYE)
+  - Norgaard (DEYE)
+  - Nygaard (DEYE)
+  - Nylen (DEYE)
+  - Obel (DEYE)
+  - Olesen (DEYE)
+  - Olrik (DEYE)
+  - Olsen (DEYE)
+  - Orum (DEYE)
+  - Ostergaard (DEYE)
+  - Ostgerg (DEYE)
+  - Ottesen (DEYE)
+  - Overgaard (DEYE)
+  - Pallesen (DEYE)
+  - Palsson (DEYE)
+  - Paulsen (DEYE)
+  - Pedersen (DEYE)
+  - Petersen (DEYE)
+  - Piechnik (DEYE)
+  - Pilegaard (DEYE)
+  - Poertner (DEYE)
+  - Poulsen (DEYE)
+  - Qvist (DEYE)
+  - Raaby (DEYE)
+  - Rasmussen (DEYE)
+  - Ravn (DEYE)
+  - Reuter (DEYE)
+  - Rieper (DEYE)
+  - Riis (DEYE)
+  - Rink (DEYE)
+  - Riseger (DEYE)
+  - Roesdahl (DEYE)
+  - Rohrmann (DEYE)
+  - Ronholt (DEYE)
+  - Ronne (DEYE)
+  - Rosenkrantz (DEYE)
+  - Rriis (DEYE)
+  - Rude (DEYE)
+  - Sand (DEYE)
+  - Sandstrod (DEYE)
+  - Schjonberg (DEYE)
+  - Schmeichel (DEYE)
+  - Schmidt (DEYE)
+  - Schou (DEYE)
+  - Schultz (DEYE)
+  - Seidenfaden (DEYE)
+  - Sellevold (DEYE)
+  - Simonsen (DEYE)
+  - Skaarup (DEYE)
+  - Skou (DEYE)
+  - Skov (DEYE)
+  - Skovgaard (DEYE)
+  - Soerensen (DEYE)
+  - Solvig (DEYE)
+  - Sondergaard (DEYE)
+  - Sonne (DEYE)
+  - Sorensen (DEYE)
+  - Sponneck (DEYE)
+  - Staer (DEYE)
+  - Steffensen (DEYE)
+  - Steincke (DEYE)
+  - Stenger (DEYE)
+  - Storegaard (DEYE)
+  - Stubbe (DEYE)
+  - Stuer (DEYE)
+  - Svendsen (DEYE)
+  - Tarnovius (DEYE)
+  - Teglbjaerg (DEYE)
+  - Telling (DEYE)
+  - Thodberg (DEYE)
+  - Thomsen (DEYE)
+  - Thornom (DEYE)
+  - Thorsen (DEYE)
+  - Thunmark (DEYE)
+  - Thygesen (DEYE)
+  - Thyregod (DEYE)
+  - Tilling (DEYE)
+  - Toefting (DEYE)
+  - Toft (DEYE)
+  - Toksvig (DEYE)
+  - Tommen (DEYE)
+  - Tyllesen (DEYE)
+  - Uhre (DEYE)
+  - Vestergaard (DEYE)
+  - Vilfort (DEYE)
+  - Villadsen (DEYE)
+  - Villumsen (DEYE)
+  - Ving (DEYE)
+  - Virl (DEYE)
+  - Wain (DEYE)
+  - Werlauff (DEYE)
+  - Wieghorst (DEYE)
+  - Willadsen (DEYE)
+  - Winther (DEYE)
+  - Witzke (DEYE)
+  - Wiuff (DEYE)
+  - Zinck (DEYE)
+  - Zoega (DEYE)

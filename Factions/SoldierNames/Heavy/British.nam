@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Adam
+  - Adrian
+  - Aidan
+  - Alan
+  - Alexander
+  - Alistair
+  - Andrew
+  - Arthur
+  - Ben
+  - Benjamin
+  - Bradley
+  - Brendan
+  - Brett
+  - Bruce
+  - Carl
+  - Charles
+  - Charlie
+  - Christopher
+  - Colin
+  - Connor
+  - Craig
+  - Damien
+  - Daniel
+  - David
+  - Declan
+  - Derek
+  - Desmond
+  - Donald
+  - Dylan
+  - Edmund
+  - Edward
+  - Euan
+  - Frank
+  - Francis
+  - Gareth
+  - Gary
+  - Geoffrey
+  - George
+  - Graeme
+  - Graham
+  - Grant
+  - Gregor
+  - Gregory
+  - Hamish
+  - Harold
+  - Harry
+  - Ian
+  - Iain
+  - James
+  - Jason
+  - John
+  - Jordan
+  - Keith
+  - Ken
+  - Kenneth
+  - Lewis
+  - Liam
+  - Malcolm
+  - Mark
+  - Michael
+  - Neil
+  - Patrick
+  - Paul
+  - Peter
+  - Raymond
+  - Rhys
+  - Richard
+  - Robert
+  - Rory
+  - Roy
+  - Ryan
+  - Samuel
+  - Scott
+  - Simon
+  - Stephen
+  - Steven
+  - Thomas
+  - William
+femaleFirst:
+  - Abigail
+  - Aileen
+  - Ailsa
+  - Alice
+  - Alison
+  - Amy
+  - Andrea
+  - Ann
+  - Anna
+  - Annabel
+  - Anne
+  - Bridget
+  - Carol
+  - Catherine
+  - Clara
+  - Claire
+  - Clare
+  - Courtney
+  - Cynthia
+  - Eleanor
+  - Elizabeth
+  - Emily
+  - Emma
+  - Fiona
+  - Frances
+  - Gail
+  - Gemma
+  - Gillian
+  - Gilly
+  - Grace
+  - Hanna
+  - Hannah
+  - Harriet
+  - Heather
+  - Helen
+  - Holly
+  - Isabel
+  - Isobel
+  - Isla
+  - Jade
+  - Jane
+  - Janet
+  - Janice
+  - Janine
+  - Jayne
+  - Jean
+  - Jenna
+  - Jennifer
+  - Jenny
+  - Jessica
+  - Jill
+  - Joyce
+  - Kate
+  - Katie
+  - Kimberley
+  - Kirsten
+  - Kirsty
+  - Kylie
+  - Lauren
+  - Lesley
+  - Leslie
+  - Lilleth
+  - Lillian
+  - Lindsay
+  - Lisa
+  - Lorna
+  - Lucy
+  - Lynn
+  - Lynette
+  - Margaret
+  - Maria
+  - Mary
+  - Megan
+  - Moira
+  - Murron
+  - Patricia
+  - Rebecca
+  - Samantha
+  - Sarah
+  - Shannon
+  - Siobhan
+  - Stacey
+  - Theresa
+  - Victoria
+maleLast:
+  - Adams (HEAVY)
+  - Anderson (HEAVY)
+  - Atkinson (HEAVY)
+  - Bailey (HEAVY)
+  - Baird (HEAVY)
+  - Baker (HEAVY)
+  - Barker (HEAVY)
+  - Ball (HEAVY)
+  - Barnes (HEAVY)
+  - Bell (HEAVY)
+  - Blake (HEAVY)
+  - Blair (HEAVY)
+  - Boyd (HEAVY)
+  - Brook (HEAVY)
+  - Brooks (HEAVY)
+  - Brown (HEAVY)
+  - Burns (HEAVY)
+  - Butler (HEAVY)
+  - Cameron (HEAVY)
+  - Carter (HEAVY)
+  - Chapman (HEAVY)
+  - Clark (HEAVY)
+  - Clarke (HEAVY)
+  - Clyde (HEAVY)
+  - Cole (HEAVY)
+  - Collins (HEAVY)
+  - Cook (HEAVY)
+  - Cooper (HEAVY)
+  - Cox (HEAVY)
+  - Davies (HEAVY)
+  - Davis (HEAVY)
+  - Dawson (HEAVY)
+  - Day (HEAVY)
+  - Dixon (HEAVY)
+  - Douglas (HEAVY)
+  - Drummond (HEAVY)
+  - Elliot (HEAVY)
+  - Erskine (HEAVY)
+  - Evans (HEAVY)
+  - Ferguson (HEAVY)
+  - Fisher (HEAVY)
+  - Fletcher (HEAVY)
+  - Forbes (HEAVY)
+  - Ford (HEAVY)
+  - Forsythe (HEAVY)
+  - Foster (HEAVY)
+  - Fox (HEAVY)
+  - Fraser (HEAVY)
+  - Garrow (HEAVY)
+  - Gibson (HEAVY)
+  - Gray (HEAVY)
+  - Green (HEAVY)
+  - Hall (HEAVY)
+  - Harris (HEAVY)
+  - Harrison (HEAVY)
+  - Harvey (HEAVY)
+  - Heaton (HEAVY)
+  - Hill (HEAVY)
+  - Holmes (HEAVY)
+  - Howard (HEAVY)
+  - Hughes (HEAVY)
+  - Hunt (HEAVY)
+  - Hunter (HEAVY)
+  - Jackson (HEAVY)
+  - Jenkins (HEAVY)
+  - Johnson (HEAVY)
+  - Jones (HEAVY)
+  - Jonlan (HEAVY)
+  - Kerr (HEAVY)
+  - King (HEAVY)
+  - Knight (HEAVY)
+  - Knox (HEAVY)
+  - Lawrence (HEAVY)
+  - Lee (HEAVY)
+  - Lennox (HEAVY)
+  - Loy (HEAVY)
+  - MacCallum (HEAVY)
+  - MacCay (HEAVY)
+  - MacColl (HEAVY)
+  - MacIntyre (HEAVY)
+  - Mackendrick (HEAVY)
+  - Mackenzie (HEAVY)
+  - MacRae (HEAVY)
+  - Marion (HEAVY)
+  - Marshall (HEAVY)
+  - Martin (HEAVY)
+  - Mason (HEAVY)
+  - Matthews (HEAVY)
+  - Middleton (HEAVY)
+  - Milne (HEAVY)
+  - Mills (HEAVY)
+  - Mitchell (HEAVY)
+  - Moore (HEAVY)
+  - Mumford (HEAVY)
+  - Owen (HEAVY)
+  - Owens (HEAVY)
+  - Paddon (HEAVY)
+  - Parker (HEAVY)
+  - Palmer (HEAVY)
+  - Payne (HEAVY)
+  - Pearce (HEAVY)
+  - Pearson (HEAVY)
+  - Peters (HEAVY)
+  - Peterson (HEAVY)
+  - Powell (HEAVY)
+  - Price (HEAVY)
+  - Pritchard (HEAVY)
+  - Ramsay (HEAVY)
+  - Reynolds (HEAVY)
+  - Richards (HEAVY)
+  - Richardson (HEAVY)
+  - Roberts (HEAVY)
+  - Robertson (HEAVY)
+  - Robinson (HEAVY)
+  - Rogers (HEAVY)
+  - Rory (HEAVY)
+  - Ross (HEAVY)
+  - Rowe (HEAVY)
+  - Russell (HEAVY)
+  - Saunders (HEAVY)
+  - Sharpe (HEAVY)
+  - Shaw (HEAVY)
+  - Smith (HEAVY)
+  - Stevens (HEAVY)
+  - Stewart (HEAVY)
+  - Taylor (HEAVY)
+  - Thompson (HEAVY)
+  - Turner (HEAVY)
+  - Varley (HEAVY)
+  - Walker (HEAVY)
+  - Wallace (HEAVY)
+  - Walsh (HEAVY)
+  - Ward (HEAVY)
+  - Watson (HEAVY)
+  - Webb (HEAVY)
+  - West (HEAVY)
+  - White (HEAVY)
+  - Wilkinson (HEAVY)
+  - Williams (HEAVY)
+  - Wright (HEAVY)
+  - Wood (HEAVY)
+  - Young (HEAVY)
+  - Yates (HEAVY)

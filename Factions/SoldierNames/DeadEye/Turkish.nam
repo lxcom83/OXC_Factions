@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - Abdullah
+  - Adem
+  - Adil
+  - Adnan
+  - Ahmet
+  - Akif
+  - Ali
+  - Alp
+  - Alper
+  - Altan
+  - Arda
+  - Arif
+  - Atilla
+  - Aydemir
+  - Ayhan
+  - Aykut
+  - Aziz
+  - Baha
+  - Bahri
+  - Barlas
+  - Bedri
+  - Bekir
+  - Berk
+  - Bilal
+  - Birol
+  - Bora
+  - Burak
+  - Burhan
+  - Cahit
+  - Can
+  - Caner
+  - Cem
+  - Cemal
+  - Cengiz
+  - Cenk
+  - Cihan
+  - Cumhur
+  - Davut
+  - Doruk
+  - Dursun
+  - Efe
+  - Ekrem
+  - Emin
+  - Emrah
+  - Emre
+  - Engin
+  - Enver
+  - Erdal
+  - Eren
+  - Erhan
+  - Erkan
+  - Erol
+  - Ethem
+  - Fahri
+  - Faruk
+  - Fatih
+  - Fehmi
+  - Ferdi
+  - Ferhat
+  - Feridun
+  - Fikret
+  - Furkan
+  - Hakan
+  - Halil
+  - Haluk
+  - Hamdi
+  - Hamza
+  - Harun
+  - Hasan
+  - Hayri
+  - Hikmet
+  - Hilmi
+  - Kaan
+  - Kadir
+  - Kemal
+  - Kenan
+  - Kerem
+  - Koray
+  - Korhan
+  - Levent
+  - Mahir
+  - Mahmut
+  - Mehmet
+  - Melih
+  - Mert
+  - Mete
+  - Metin
+  - Mithat
+  - Muammer
+  - Muhammet
+  - Muhsin
+  - Murat
+  - Musa
+  - Mustafa
+  - Muzaffer
+  - Naci
+  - Nazmi
+  - Necdet
+  - Nihat
+  - Niyazi
+  - Nuri
+  - Okan
+  - Oktay
+  - Onur
+  - Orhan
+  - Osman
+  - Ozan
+  - Ramazan
+  - Remzi
+  - Sabri
+  - Salih
+  - Sedat
+  - Selim
+  - Semih
+  - Sercan
+  - Serdar
+  - Serhat
+  - Serkan
+  - Sinan
+  - Soner
+  - Taha
+  - Tahir
+  - Tahsin
+  - Taner
+  - Tarkan
+  - Tayfun
+  - Tayyar
+  - Temel
+  - Teoman
+  - Tevfik
+  - Timur
+  - Tolga
+  - Tosun
+  - Tuna
+  - Tuncay
+  - Turan
+  - Turgut
+  - Ufuk
+  - Umut
+  - Utku
+  - Uzay
+  - Vedat
+  - Veli
+  - Veysel
+  - Volkan
+  - Vural
+  - Yahya
+  - Yakup
+  - Yasin
+  - Yavuz
+  - Yusuf
+  - Zafer
+  - Zeki
+  - Zeynel
+  - Ziya
+femaleFirst:
+  - Adile
+  - Alev
+  - Arzu
+  - Asena
+  - Ayda
+  - Aydan
+  - Ayla
+  - Aylin
+  - Aysel
+  - Aysu
+  - Aysun
+  - Bahar
+  - Bengi
+  - Bilge
+  - Birsen
+  - Burcu
+  - Canan
+  - Ceren
+  - Ceyda
+  - Damla
+  - Demet
+  - Deniz
+  - Didem
+  - Dilara
+  - Duygu
+  - Ebru
+  - Ece
+  - Eda
+  - Elif
+  - Emel
+  - Emine
+  - Esra
+  - Evrim
+  - Eylem
+  - Ezgi
+  - Fatma
+  - Filiz
+  - Gamze
+  - Gizem
+  - Hande
+  - Hatice
+  - Irmak
+  - Jale
+  - Lale
+  - Leyla
+  - Melis
+  - Meltem
+  - Meral
+  - Merve
+  - Meryem
+  - Nalan
+  - Nazan
+  - Nesrin
+  - Nezihe
+  - Nihan
+  - Nil
+  - Nur
+  - Olcay
+  - Oya
+  - Pervin
+  - Rabia
+  - Reyhan
+  - Sabiha
+  - Safiye
+  - Sanem
+  - Seda
+  - Selma
+  - Semiha
+  - Sevgi
+  - Sevil
+  - Sevim
+  - Sibel
+  - Sinem
+  - Suna
+  - Yaprak
+  - Yasemin
+  - Yeliz
+  - Yonca
+  - Zehra
+  - Zekiye
+  - Zeynep
+maleLast:
+  - Acar (DEYE)
+  - Ak (DEYE)
+  - Akarsu (DEYE)
+  - Akkaya (DEYE)
+  - Aksoy (DEYE)
+  - Akturan (DEYE)
+  - Albayrak (DEYE)
+  - Alkan (DEYE)
+  - Alpsoy (DEYE)
+  - Altay (DEYE)
+  - Altuner (DEYE)
+  - Aras (DEYE)
+  - Arslan (DEYE)
+  - Atakan (DEYE)
+  - Atalay (DEYE)
+  - Atasoy (DEYE)
+  - Atik (DEYE)
+  - Atmaca (DEYE)
+  - Ay (DEYE)
+  - Ayaz (DEYE)
+  - Balaban (DEYE)
+  - Barlas (DEYE)
+  - Batu (DEYE)
+  - Baycan (DEYE)
+  - Bayraktar (DEYE)
+  - Bozkurt (DEYE)
+  - Bulut (DEYE)
+  - Can (DEYE)
+  - Canatan (DEYE)
+  - Cansu (DEYE)
+  - Cesur (DEYE)
+  - Davulcu (DEYE)
+  - Demirci (DEYE)
+  - Dikmen (DEYE)
+  - Doruk (DEYE)
+  - Durak (DEYE)
+  - Durmaz (DEYE)
+  - Dursun (DEYE)
+  - Durukan (DEYE)
+  - Eker (DEYE)
+  - Ekinci (DEYE)
+  - Elvan (DEYE)
+  - Erdem (DEYE)
+  - Eren (DEYE)
+  - Erken (DEYE)
+  - Erkmen (DEYE)
+  - Erkulu (DEYE)
+  - Ersoy (DEYE)
+  - Eser (DEYE)
+  - Gencer (DEYE)
+  - Gezer (DEYE)
+  - Hakyemez (DEYE)
+  - Hamarat (DEYE)
+  - Haznedar (DEYE)
+  - Kahraman (DEYE)
+  - Kalender (DEYE)
+  - Kalyoncu (DEYE)
+  - Kaplan (DEYE)
+  - Kara (DEYE)
+  - Karabulut (DEYE)
+  - Karaca (DEYE)
+  - Karaduman (DEYE)
+  - Karakaya (DEYE)
+  - Karakurt (DEYE)
+  - Karaman (DEYE)
+  - Karatay (DEYE)
+  - Karpuzcu (DEYE)
+  - Kartal (DEYE)
+  - Kavlak (DEYE)
+  - Kavuncu (DEYE)
+  - Kaya (DEYE)
+  - Kayahan (DEYE)
+  - Kayhan (DEYE)
+  - Kaymaz (DEYE)
+  - Kazak (DEYE)
+  - Kazan (DEYE)
+  - Kesen (DEYE)
+  - Keskin (DEYE)
+  - Kocaman (DEYE)
+  - Konuk (DEYE)
+  - Koparan (DEYE)
+  - Korkmaz (DEYE)
+  - Korkusuz (DEYE)
+  - Korkut (DEYE)
+  - Koyuncu (DEYE)
+  - Kozan (DEYE)
+  - Kurt (DEYE)
+  - Kutlu (DEYE)
+  - Kuyumcu (DEYE)
+  - Kuzucu (DEYE)
+  - Mercan (DEYE)
+  - Mutlu (DEYE)
+  - Nurlu (DEYE)
+  - Ocak (DEYE)
+  - Okan (DEYE)
+  - Okuyan (DEYE)
+  - Okyay (DEYE)
+  - Olcay (DEYE)
+  - Oray (DEYE)
+  - Ordu (DEYE)
+  - Pala (DEYE)
+  - Pehlivan (DEYE)
+  - Peker (DEYE)
+  - Polat (DEYE)
+  - Poyraz (DEYE)
+  - Sancaktar (DEYE)
+  - Sayan (DEYE)
+  - Saydam (DEYE)
+  - Sazak (DEYE)
+  - Semerci (DEYE)
+  - Sert (DEYE)
+  - Seymen (DEYE)
+  - Sezer (DEYE)
+  - Solak (DEYE)
+  - Solmaz (DEYE)
+  - Soysal (DEYE)
+  - Sunay (DEYE)
+  - Sungur (DEYE)
+  - Sur (DEYE)
+  - Tahmaz (DEYE)
+  - Tan (DEYE)
+  - Tarhan (DEYE)
+  - Tekcan (DEYE)
+  - Tekin (DEYE)
+  - Tezcan (DEYE)
+  - Tezel (DEYE)
+  - Topal (DEYE)
+  - Toprak (DEYE)
+  - Torun (DEYE)
+  - Tufan (DEYE)
+  - Tuncer (DEYE)
+  - Turna (DEYE)
+  - Ulucan (DEYE)
+  - Ulusoy (DEYE)
+  - Ural (DEYE)
+  - Uslu (DEYE)
+  - Usta (DEYE)
+  - Uyar (DEYE)
+  - Uygun (DEYE)
+  - Uysal (DEYE)
+  - Uzel (DEYE)
+  - Uzuner (DEYE)
+  - Varan (DEYE)
+  - Vardar (DEYE)
+  - Vural (DEYE)
+  - Vurgun (DEYE)
+  - Yalman (DEYE)
+  - Yaman (DEYE)
+  - Yazgan (DEYE)
+  - Yener (DEYE)
+  - Yolcu (DEYE)
+  - Yorulmaz (DEYE)
+  - Yurdakul (DEYE)
+  - Yurtseven (DEYE)
+  - Zeren (DEYE)
+  - Zorlu (DEYE)

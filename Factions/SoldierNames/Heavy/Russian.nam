@@ -1,0 +1,166 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandr
+  - Aleksey
+  - Anatoliy
+  - Andrey
+  - Anton
+  - Artem
+  - Artur
+  - Boris
+  - Denis
+  - Dmitriy
+  - Eduard
+  - Evgeniy
+  - Gennadiy
+  - Georgiy
+  - Grigoriy
+  - Igor
+  - Ilya
+  - Ivan
+  - Konstantin
+  - Leonid
+  - Maxim
+  - Mihail
+  - Nikolay
+  - Oleg
+  - Pavel
+  - Petr
+  - Roman
+  - Ruslan
+  - Sergey
+  - Stanislav
+  - Vadim
+  - Valentin
+  - Valeriy
+  - Vasiliy
+  - Viktor
+  - Vitaliy
+  - Vladimir
+  - Vladislav
+  - Vyacheslav
+  - Yuriy
+femaleFirst:
+  - Albina
+  - Aleksandra
+  - Alla
+  - Alyona
+  - Anastasiya
+  - Anna
+  - Antonina
+  - Darya
+  - Ekaterina
+  - Elena
+  - Evgeniya
+  - Galina
+  - Inna
+  - Irina
+  - Kristina
+  - Kseniya
+  - Larisa
+  - Lidiya
+  - Liliya
+  - Lyubov
+  - Lyudmila
+  - Margarita
+  - Marina
+  - Mariya
+  - Nadezhda
+  - Natalya
+  - Nina
+  - Oksana
+  - Olesya
+  - Olga
+  - Raisa
+  - Svetlana
+  - Tamara
+  - Tatyana
+  - Valentina
+  - Varvara
+  - Vera
+  - Viktoriya
+  - Yulia
+  - Zinaida
+  - Zoya  
+maleLast:
+  - Alekseev (HEAVY)
+  - Andreev (HEAVY)
+  - Antonov (HEAVY)
+  - Borisov (HEAVY)
+  - Fedorov (HEAVY)
+  - Egorov (HEAVY)
+  - Grigoryev (HEAVY)
+  - Gromov (HEAVY)
+  - Ivanov (HEAVY)
+  - Komarov (HEAVY)
+  - Korolyov (HEAVY)
+  - Kozlov (HEAVY)
+  - Kuzmin (HEAVY)
+  - Kuznetsov (HEAVY)
+  - Lebedev (HEAVY)
+  - Makarov (HEAVY)
+  - Mihailov (HEAVY)
+  - Morozov (HEAVY)
+  - Nikitin (HEAVY)
+  - Nikolaev (HEAVY)
+  - Novikov (HEAVY)
+  - Orlov (HEAVY)
+  - Pavlov (HEAVY)
+  - Petrov (HEAVY)
+  - Popov (HEAVY)
+  - Romanov (HEAVY)
+  - Semyonov (HEAVY)
+  - Sergeev (HEAVY)
+  - Smirnov (HEAVY)
+  - Sokolov (HEAVY)
+  - Solovyov (HEAVY)
+  - Stepanov (HEAVY)
+  - Vasilyev (HEAVY)
+  - Volkov (HEAVY)
+  - Vorobyov (HEAVY)
+  - Yakovlev (HEAVY)
+  - Zaitsev (HEAVY)
+  - Zaharov (HEAVY)
+femaleLast:
+  - Alekseeva (HEAVY)
+  - Andreeva (HEAVY)
+  - Antonova (HEAVY)
+  - Borisova (HEAVY)
+  - Fedorova (HEAVY)
+  - Egorova (HEAVY)
+  - Grigoryeva (HEAVY)
+  - Gromova (HEAVY)
+  - Ivanova (HEAVY)
+  - Komarova (HEAVY)
+  - Korolyova (HEAVY)
+  - Kozlova (HEAVY)
+  - Kuzmina (HEAVY)
+  - Kuznetsova (HEAVY)
+  - Lebedeva (HEAVY)
+  - Makarova (HEAVY)
+  - Mihailova (HEAVY)
+  - Morozova (HEAVY)
+  - Nikitina (HEAVY)
+  - Nikolaeva (HEAVY)
+  - Novikova (HEAVY)
+  - Orlova (HEAVY)
+  - Pavlova (HEAVY)
+  - Petrova (HEAVY)
+  - Popova (HEAVY)
+  - Romanova (HEAVY)
+  - Semyonova (HEAVY)
+  - Sergeeva (HEAVY)
+  - Smirnova (HEAVY)
+  - Sokolova (HEAVY)
+  - Solovyova (HEAVY)
+  - Stepanova (HEAVY)
+  - Vasilyeva (HEAVY)
+  - Volkova (HEAVY)
+  - Vorobyova (HEAVY)
+  - Yakovleva (HEAVY)
+  - Zaitseva (HEAVY)
+  - Zaharova (HEAVY)

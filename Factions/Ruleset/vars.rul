@@ -1,0 +1,41 @@
+############################
+## FACTIONS - vars - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+# X-COM 1 (UFO: Enemy Unknown) ruleset
+# For documentation on these values, see http://ufopaedia.org/index.php?title=Rulesets_(OpenXcom)
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 6
+  day: 1
+  month: 1
+  year: 2049
+costEngineer: 25000
+costScientist: 30000
+timePersonnel: 72
+initialFunding: 6000
+alienFuel: [STR_ELERIUM_115, 50]
+fontName: Font.dat
+disableUnderwaterSounds: true
+monthlyRatings:
+   3000: STR_MT_RATING_EXEMPLARY
+   1500: STR_MT_RATING_EXCELLENT
+   600: STR_MT_RATING_GREAT
+   200: STR_MT_RATING_GOOD
+   0: STR_MT_RATING_OK
+   -500: STR_MT_RATING_POOR
+   -1000: STR_MT_RATING_BAD
+   -1500: STR_MT_RATING_TERRIBLE
+   -99999: STR_MT_RATING_ABOMINABLE
+performanceBonusFactor: 1000
+allowCountriesToCancelAlienPact : true
+buildInfiltrationBaseCloseToTheCountry : true
+chanceToStopRetaliation : 1
+lessAliensDuringBaseDefense: true
+defeatFunds: -1000000
+defeatScore: -2000
+drawEnemyRadarCircles: 0

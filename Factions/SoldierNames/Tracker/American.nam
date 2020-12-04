@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Aaron
+  - Adam
+  - Adrian
+  - Alfredo
+  - Austin
+  - Brandon
+  - Brian
+  - Calvin
+  - Carl
+  - Chance
+  - Charlie
+  - Clarence
+  - Cody
+  - Connor
+  - Damian
+  - Donald
+  - Dwight
+  - Dylan
+  - Ed
+  - Eduardo
+  - Elliott
+  - Ethan
+  - Evan
+  - Ezekiel
+  - Garrett
+  - George
+  - Giovanni
+  - Grayson
+  - James
+  - Jason
+  - Jay
+  - Jeremy
+  - Joel
+  - John
+  - Joshua
+  - Keith
+  - Kevin
+  - Lester
+  - Liam
+  - Mark
+  - Omar
+  - Oscar
+  - Owen
+  - Parker
+  - Pete
+  - Rick
+  - Robert
+  - Samuel
+  - Santiago
+  - Saul
+  - Scott
+  - Seth
+  - Shawn
+  - Simon
+  - Spencer
+  - Steven
+  - Timothy
+  - Tom
+  - Tucker
+  - Victor
+  - Vincent
+  - Virgil
+femaleFirst:
+  - Adriana
+  - Alexandra
+  - Alexis
+  - Allison
+  - Angela
+  - Anna
+  - Audrey
+  - Barbara
+  - Bethany
+  - Brianna
+  - Cadence
+  - Catherine
+  - Chelsea
+  - Chloe
+  - Cora
+  - Denise
+  - Esperanza
+  - Esther
+  - Evelyn
+  - Faith
+  - Gabrielle
+  - Georgia
+  - Guadalupe
+  - Isabel
+  - Jasmine
+  - Jillian
+  - Julia
+  - Kaitlyn
+  - Kara
+  - Karen
+  - Kelly
+  - Layla
+  - Lily
+  - Lucy
+  - Madeline
+  - Madison
+  - Margaret
+  - Maria
+  - Melanie
+  - Melissa
+  - Mia
+  - Michelle
+  - Miranda
+  - Olivia
+  - Paige
+  - Patricia
+  - Reese
+  - Riley
+  - Sarah
+  - Savannah
+  - Selena
+  - Sigourney
+  - Taylor
+  - Tiffany
+  - Vanessa
+  - Violet
+  - Zoey
+maleLast:
+  - Becker (TRACK)
+  - Benedict (TRACK)
+  - Bowers (TRACK)
+  - Bradley (TRACK)
+  - Brewster (TRACK)
+  - Bryant (TRACK)
+  - Burroughs (TRACK)
+  - Carlton (TRACK)
+  - Carr (TRACK)
+  - Carter (TRACK)
+  - Chase (TRACK)
+  - Childers (TRACK)
+  - Colby (TRACK)
+  - Crawley (TRACK)
+  - Crossett (TRACK)
+  - Daley (TRACK)
+  - Davies (TRACK)
+  - Dodge (TRACK)
+  - Evans (TRACK)
+  - Gallagher (TRACK)
+  - Gates (TRACK)
+  - Goddard (TRACK)
+  - Grady (TRACK)
+  - Griffith (TRACK)
+  - Gutierrez (TRACK)
+  - Harding (TRACK)
+  - Harper (TRACK)
+  - Hicks (TRACK)
+  - Horton (TRACK)
+  - Hudson (TRACK)
+  - Hunt (TRACK)
+  - Johnson (TRACK)
+  - Kay (TRACK)
+  - Kellogg (TRACK)
+  - Kemp (TRACK)
+  - Kendrick (TRACK)
+  - King (TRACK)
+  - Kirk (TRACK)
+  - Lawson (TRACK)
+  - Machado (TRACK)
+  - McNeil (TRACK)
+  - Meador (TRACK)
+  - Miller (TRACK)
+  - Mitchell (TRACK)
+  - Morris (TRACK)
+  - Nash (TRACK)
+  - North (TRACK)
+  - O'Connell (TRACK)
+  - Ortiz (TRACK)
+  - Palacios (TRACK)
+  - Partridge (TRACK)
+  - Patrick (TRACK)
+  - Perkins (TRACK)
+  - Porter (TRACK)
+  - Prewitt (TRACK)
+  - Rapp (TRACK)
+  - Ritchie (TRACK)
+  - Rooney (TRACK)
+  - Rossi (TRACK)
+  - Salomon (TRACK)
+  - Scroggins (TRACK)
+  - Shelley (TRACK)
+  - Smiley (TRACK)
+  - Sorensen (TRACK)
+  - Stein (TRACK)
+  - Stephens (TRACK)
+  - Stoddard (TRACK)
+  - Thompson (TRACK)
+  - Tirado (TRACK)
+  - Underwood (TRACK)
+  - Wade (TRACK)
+  - Wagner (TRACK)
+  - Webb (TRACK)

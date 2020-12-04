@@ -1,0 +1,190 @@
+############################
+## FACTIONS - weapons snakewomen - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+items:
+  - type: STR_ACID
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.2
+    costSell: 8500
+    weight: 7
+    bigSprite: 2002
+    floorSprite: 2002
+    handSprite: 1078
+    bulletSprite: 18
+    fireSound: 236
+    hitSound: 237
+    hitAnimation: 46
+    compatibleAmmo:
+      - STR_ACID_CLIP
+    accuracyAuto: 48
+    accuracySnap: 52
+    accuracyAimed: 82
+    tuAuto: 50
+    tuSnap: 35
+    # tuAimed: 70
+    # maxRange: 27
+    # aimRange: 21
+    # snapRange: 10
+    # autoRange: 10
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 10000
+    costBuy: 15000
+    # requiresBuy:
+    #   - STR_ACID
+
+  - type: STR_ACID_CLIP
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 550
+    weight: 2
+    bigSprite: 2003
+    floorSprite: 2003
+    handSprite: 1086
+    fireSound: 236
+    hitSound: 237
+    hitAnimation: 46
+    power: 60
+    damageAlter:
+      ToArmorPre: 0.2
+      SmokeThreshold: 0.2
+      ToMorale: 0.2
+    blastRadius: 0
+    damageType: 8
+    clipSize: 16
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 3
+    vaporDensity: 10
+    listOrder: 10010
+    costBuy: 1000
+    # requiresBuy:
+    #   - STR_ACID_CLIP
+    
+ 
+  - type: STR_ACID_RIFLE
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.2
+    costSell: 4000
+    weight: 10
+    bigSprite: 2004
+    floorSprite: 2004
+    handSprite: 1094
+    bulletSprite: 18
+    fireSound: 236
+    hitSound: 237
+    hitAnimation: 46
+    compatibleAmmo:
+      - STR_ACID_RIFLE_CLIP
+    accuracyAuto: 52
+    accuracySnap: 80
+    accuracyAimed: 95
+    tuAuto: 70
+    tuSnap: 55
+    tuAimed: 85
+    # maxRange: 25
+    # aimRange: 21
+    # snapRange: 10
+    # autoRange: 10
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 10020
+    costBuy: 11310
+    # requiresBuy:
+    #   - STR_ACID_HEAVY
+
+  - type: STR_ACID_RIFLE_CLIP
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 550
+    weight: 3
+    bigSprite: 2007
+    floorSprite: 2004
+    handSprite: 1118
+    fireSound: 236
+    hitSound: 237
+    hitAnimation: 46
+    power: 85
+    damageAlter:
+      ToArmorPre: 0.3
+      SmokeThreshold: 0.3
+      ToMorale: 0.3
+    blastRadius: 1
+    damageType: 8
+    clipSize: 8
+    battleType: 2
+    vaporColor: 3
+    vaporDensity: 10
+    listOrder: 10030
+    costBuy: 1250
+    # requiresBuy:
+    #   - STR_ACID_HEAVY_CLIP   
+
+  - type: STR_ACID_HEAVY
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.2
+    costSell: 4000
+    weight: 10
+    bigSprite: 2006
+    floorSprite: 2006
+    handSprite: 1110
+    bulletSprite: 18
+    fireSound: 236
+    hitSound: 237
+    compatibleAmmo:
+      - STR_ACID_HEAVY_CLIP
+    accuracyAuto: 45
+    accuracySnap: 70
+    accuracyAimed: 105
+    tuAuto: 75
+    tuSnap: 60
+    tuAimed: 93
+    # maxRange: 25
+    # aimRange: 21
+    # snapRange: 10
+    # autoRange: 10
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 10020
+    costBuy: 17500
+    # requiresBuy:
+    #   - STR_ACID_HEAVY
+
+  - type: STR_ACID_HEAVY_CLIP
+    # categories: [STR_DUALENV_WEAPONS]
+    size: 0.1
+    costSell: 550
+    weight: 3
+    bigSprite: 2007
+    floorSprite: 2007
+    handSprite: 1118
+    fireSound: 236
+    hitSound: 237
+    hitAnimation: 46
+    power: 105
+    damageAlter:
+      ToArmorPre: 0.5
+      SmokeThreshold: 0.5
+      ToMorale: 0.5
+    blastRadius: 3
+    damageType: 8
+    clipSize: 8
+    battleType: 2
+    vaporColor: 3
+    vaporDensity: 10
+    listOrder: 10030
+    costBuy: 1750
+    # requiresBuy:
+    #   - STR_ACID_HEAVY_CLIP
+
+    

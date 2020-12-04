@@ -1,0 +1,361 @@
+lookWeight:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - Afonso
+  - Alberto
+  - Alexandre
+  - Alvaro
+  - Andre
+  - Antonio
+  - Augusto
+  - Bernardo
+  - Bruno
+  - Carlos
+  - Cristiano
+  - Daniel
+  - David
+  - Diogo
+  - Duarte
+  - Eduardo
+  - Fabio
+  - Fernando
+  - Filipe
+  - Flavio
+  - Francisco
+  - Frederico
+  - Gabriel
+  - Goncalo
+  - Guilherme
+  - Gustavo
+  - Helder
+  - Henrique
+  - Hugo
+  - Ivo
+  - Jaime
+  - Joao
+  - Joaquim
+  - Jorge
+  - Jose
+  - Julio
+  - Leonardo
+  - Leonel
+  - Luis
+  - Manuel
+  - Marcelo
+  - Marcio
+  - Marco
+  - Mario
+  - Miguel
+  - Nelson
+  - Nuno
+  - Orlando
+  - Paulo
+  - Pedro
+  - Rafael
+  - Raul
+  - Ricardo
+  - Roberto
+  - Rodolfo
+  - Rodrigo
+  - Rui
+  - Samuel
+  - Sergio
+  - Tiago
+  - Telmo
+  - Tomas
+  - Vasco
+  - Vitor
+femaleFirst:
+  - Alice
+  - Ana
+  - Anabela
+  - Andreia
+  - Angela
+  - Aurora
+  - Barbara
+  - Beatriz
+  - Bia
+  - Carina
+  - Carla
+  - Carolina
+  - Catarina
+  - Catia
+  - Celeste
+  - Celia
+  - Celina
+  - Clara
+  - Claudia
+  - Cristiana
+  - Cristina
+  - Daniela
+  - Dalia
+  - Debora
+  - Diana
+  - Dulce
+  - Elsa
+  - Eva
+  - Fatima
+  - Fernanda
+  - Filipa
+  - Filomena
+  - Flavia
+  - Florbela
+  - Francisca
+  - Gabriela
+  - Gloria
+  - Helena
+  - Ilda
+  - Ines
+  - Irene
+  - Isabel
+  - Joana
+  - Josefina
+  - Julia
+  - Lara
+  - Laura
+  - Leonor
+  - Liliana
+  - Luisa
+  - Madalena
+  - Mafalda
+  - Manuela
+  - Margarida
+  - Maria
+  - Mariana
+  - Marina
+  - Marisa
+  - Marta
+  - Matilde
+  - Monica
+  - Natalia
+  - Nadia
+  - Olivia
+  - Patricia
+  - Paula
+  - Rafaela
+  - Raquel
+  - Rita
+  - Rute
+  - Sandra
+  - Sara
+  - Sofia
+  - Sonia
+  - Soraia
+  - Susana
+  - Tania
+  - Teresa
+  - Telma
+  - Vanessa
+  - Vera
+maleLast:
+  - Abrantes (BRAW)
+  - Abreu (BRAW)
+  - Agostinho (BRAW)
+  - Albano (BRAW)
+  - Albuquerque (BRAW)
+  - Aleixo (BRAW)
+  - Almeida (BRAW)
+  - Alves (BRAW)
+  - Amaro (BRAW)
+  - Amaral (BRAW)
+  - Andrade (BRAW)
+  - Anjos (BRAW)
+  - Antunes (BRAW)
+  - Araujo (BRAW)
+  - Assis (BRAW)
+  - Azevedo (BRAW)
+  - Barata (BRAW)
+  - Barreiras (BRAW)
+  - Barreto (BRAW)
+  - Barros (BRAW)
+  - Barroso (BRAW)
+  - Bastos (BRAW)
+  - Bento (BRAW)
+  - Beja (BRAW)
+  - Borges (BRAW)
+  - Brandao (BRAW)
+  - Brito (BRAW)
+  - Cabral (BRAW)
+  - Cadete (BRAW)
+  - Caetano (BRAW)
+  - Caldeira (BRAW)
+  - Campos (BRAW)
+  - Cardoso (BRAW)
+  - Carneiro (BRAW)
+  - Carrico (BRAW)
+  - Carrilho (BRAW)
+  - Carvalho (BRAW)
+  - Castro (BRAW)
+  - Cavaco (BRAW)
+  - Cavaleiro (BRAW)
+  - Chaves (BRAW)
+  - Coelho (BRAW)
+  - Conceicao (BRAW)
+  - Correia (BRAW)
+  - Cortes (BRAW)
+  - Costa (BRAW)
+  - Coutinho (BRAW)
+  - Couto (BRAW)
+  - Crespo (BRAW)
+  - Cristovao (BRAW)
+  - Cruz (BRAW)
+  - Cunha (BRAW)
+  - Cunhal (BRAW)
+  - Delgado (BRAW)
+  - Dias (BRAW)
+  - Dinis (BRAW)
+  - Dionisio (BRAW)
+  - Domingos (BRAW)
+  - Duarte (BRAW)
+  - Esteves (BRAW)
+  - Farinha (BRAW)
+  - Fernandes (BRAW)
+  - Ferreira (BRAW)
+  - Figueira (BRAW)
+  - Figueiredo (BRAW)
+  - Fitas (BRAW)
+  - Fragoso (BRAW)
+  - Fragata (BRAW)
+  - Francisco (BRAW)
+  - Franco (BRAW)
+  - Freire (BRAW)
+  - Freitas (BRAW)
+  - Fonseca (BRAW)
+  - Fontes (BRAW)
+  - Fortes (BRAW)
+  - Furtado (BRAW)
+  - Galvao (BRAW)
+  - Gama (BRAW)
+  - Garcia (BRAW)
+  - Godinho (BRAW)
+  - Gomes (BRAW)
+  - Goncalves (BRAW)
+  - Gouveia (BRAW)
+  - Graca (BRAW)
+  - Grilo (BRAW)
+  - Guedes (BRAW)
+  - Guerra (BRAW)
+  - Guerreiro (BRAW)
+  - Guimaraes (BRAW)
+  - Henriques (BRAW)
+  - Homem (BRAW)
+  - Horta (BRAW)
+  - Jacinto (BRAW)
+  - Jesus (BRAW)
+  - Lameiras (BRAW)
+  - Laranjeiro (BRAW)
+  - Leal (BRAW)
+  - Lima (BRAW)
+  - Lopes (BRAW)
+  - Lourenco (BRAW)
+  - Luz (BRAW)
+  - Macedo (BRAW)
+  - Machado (BRAW)
+  - Madeira (BRAW)
+  - Maia (BRAW)
+  - Magalhaes (BRAW)
+  - Marques (BRAW)
+  - Martinho (BRAW)
+  - Martins (BRAW)
+  - Marujo (BRAW)
+  - Mateus (BRAW)
+  - Matias (BRAW)
+  - Matos (BRAW)
+  - Maximo (BRAW)
+  - Meireles (BRAW)
+  - Melo (BRAW)
+  - Mendes (BRAW)
+  - Mendonca (BRAW)
+  - Mestre (BRAW)
+  - Mira (BRAW)
+  - Miranda (BRAW)
+  - Moniz (BRAW)
+  - Monteiro (BRAW)
+  - Morais (BRAW)
+  - Moreira (BRAW)
+  - Morgado (BRAW)
+  - Mota (BRAW)
+  - Moura (BRAW)
+  - Mourinho (BRAW)
+  - Nascimento (BRAW)
+  - Neto (BRAW)
+  - Neves (BRAW)
+  - Nobrega (BRAW)
+  - Nogueira (BRAW)
+  - Noronha (BRAW)
+  - Nunes (BRAW)
+  - Oliveira (BRAW)
+  - Pacheco (BRAW)
+  - Pais (BRAW)
+  - Paiva (BRAW)
+  - Parreira (BRAW)
+  - Pato (BRAW)
+  - Peixe (BRAW)
+  - Peixoto (BRAW)
+  - Pereira (BRAW)
+  - Pessoa (BRAW)
+  - Pimentel (BRAW)
+  - Pinheiro (BRAW)
+  - Pinho (BRAW)
+  - Pinto (BRAW)
+  - Pires (BRAW)
+  - Portugal (BRAW)
+  - Povoa (BRAW)
+  - Prata (BRAW)
+  - Queiros (BRAW)
+  - Raimundo (BRAW)
+  - Ramalho (BRAW)
+  - Ramos (BRAW)
+  - Raposo (BRAW)
+  - Rato (BRAW)
+  - Real (BRAW)
+  - Rebelo (BRAW)
+  - Reis (BRAW)
+  - Relvas (BRAW)
+  - Ribeiro (BRAW)
+  - Rio (BRAW)
+  - Rocha (BRAW)
+  - Rodrigues (BRAW)
+  - Ronaldo (BRAW)
+  - Rosario (BRAW)
+  - Roseiro (BRAW)
+  - Salgado (BRAW)
+  - Salgueiro (BRAW)
+  - Sampaio (BRAW)
+  - Sanches (BRAW)
+  - Santana (BRAW)
+  - Santos (BRAW)
+  - Sebastiao (BRAW)
+  - Semedo (BRAW)
+  - Sequeira (BRAW)
+  - Serra (BRAW)
+  - Serrao (BRAW)
+  - Serras (BRAW)
+  - Silva (BRAW)
+  - Silvestre (BRAW)
+  - Silvino (BRAW)
+  - Simoes (BRAW)
+  - Soares (BRAW)
+  - Sobral (BRAW)
+  - Sousa (BRAW)
+  - Tavares (BRAW)
+  - Teixeira (BRAW)
+  - Teles (BRAW)
+  - Torres (BRAW)
+  - Valadas (BRAW)
+  - Valente (BRAW)
+  - Varandas (BRAW)
+  - Varela (BRAW)
+  - Vasconcelos (BRAW)
+  - Vaz (BRAW)
+  - Veloso (BRAW)
+  - Viana (BRAW)
+  - Vicente (BRAW)
+  - Vidal (BRAW)
+  - Vieira (BRAW)
+  - Viegas (BRAW)
+  - Vitorino (BRAW)
+  - Xavier (BRAW)

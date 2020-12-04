@@ -1,0 +1,970 @@
+############################
+## FACTIONS - crafts - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+crafts:
+  - type: STR_INTERCEPTOR
+    sprite: 3
+    fuelMax: 1000
+    damageMax: 100
+    speedMax: 2100
+    accel: 3
+    weapons: 2
+    costBuy: 600000
+    costRent: 600000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 96
+    sightRange: 1000
+    radarRange: 1000
+    radarChance: 80
+    score: 250
+  - type: STR_HARRIER 
+    sprite: 100
+    fuelMax: 273 # Combat range of 2,200 nmi
+    damageMax: 340
+    speedMax: 585 # speed of 1,083 km/h
+    accel: 5
+    weapons: 3
+    weaponTypes: 
+      - [0, 1]
+      - 2
+      - 2
+#Gatling/Auto Cannon
+#Light Missile
+#Light Missile/AUX
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_MISSILE_THREE
+    soldiers: 1
+    vehicles: 0
+#    pilots: 1
+    allowLanding: false
+    costBuy: 500000
+    costRent: 40000
+    costSell: 350000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    escortRange: 20
+    escortsJoinFightAgainstHK: true
+    sightRange: 500
+    radarRange: 500
+    radarChance: 40
+    score: 400
+
+  - type: STR_WARTHOG
+    sprite: 101
+    fuelMax: 200 # Combat range of 1610 nmi (with custom fuel tanks, the real life range is mediocre at best)
+    damageMax: 450
+    speedMax: 450 # speed of 706 km/h
+    accel: 4
+    weapons: 4
+    weaponTypes: 
+      - [0, 1]
+      - 2
+      - 2
+      - 3
+#Gatling/Auto Cannon
+#Light Missile
+#Light Missile
+#Heavy Missile
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_MISSILE_THREE
+      - STR_CRAFT_HEAVY_MISSILE_THREE
+    soldiers: 1
+    vehicles: 0
+#    pilots: 1
+    allowLanding: false
+    costBuy: 900000
+    costRent: 40000
+    costSell: 350000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    escortRange: 20
+    escortsJoinFightAgainstHK: true
+    sightRange: 500
+    radarRange: 500
+    radarChance: 40
+    score: 400
+
+  - type: STR_TEMPEST # HYBRID1
+    sprite: 102
+    fuelMax: 1200
+    damageMax: 250
+    speedMax: 1500
+    accel: 5
+    soldiers: 18
+    vehicles: 1
+    costBuy: 0
+    costRent: 300000
+    costSell: 562500
+    refuelRate: 50
+    transferTime: 72
+    craftInventoryTile: [5, 7, 1]
+    score: 200
+    battlescapeTerrainData:
+      name: HYBRID1
+      mapDataSets:
+      - BLANKS
+      - HYBRIDCRAFT
+      - HYBRIDCRAFT_2
+      mapBlocks:
+        - name: HYBRID1
+          width: 10
+          length: 10
+    deployment:
+#Ramp
+      - [4, 6, 1, 4]
+      - [5, 6, 1, 4]
+      - [3, 6, 1, 4]
+      - [6, 6, 1, 4]
+      - [3, 7, 1, 2]
+      - [6, 7, 1, 6]
+#Cargo bay
+      - [3, 5, 1, 4]
+      - [4, 5, 1, 4]
+      - [5, 5, 1, 4]
+      - [6, 5, 1, 4]
+      - [3, 4, 1, 4]
+      - [4, 4, 1, 4]
+      - [5, 4, 1, 4]
+      - [6, 4, 1, 4]
+      - [3, 3, 1, 4]
+      - [4, 3, 1, 4]
+      - [5, 3, 1, 4]
+      - [6, 3, 1, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_TYPHOON # HYBRID2
+    sprite: 103
+    fuelMax: 1000
+    damageMax: 350
+    speedMax: 2500
+    avoidBonus: 20
+    accel: 6
+    soldiers: 4
+    vehicles: 0
+    costBuy: 0
+    costRent: 300000
+    costSell: 562500
+    refuelRate: 50
+    transferTime: 72
+    craftInventoryTile: [4, 12, 1]
+    score: 200
+    weapons: 4
+    weaponTypes: 
+      - 1 
+      - 2
+      - 2
+      - 3
+#Gatling Cannon
+#Light Missile
+#Light Missile
+#Heavy Missile
+    weaponStrings:
+      - STR_CRAFT_ALL_CANNONS_ONE
+      - STR_CRAFT_LIGHT_MISSILE_TWO
+      - STR_CRAFT_LIGHT_MISSILE_THREE
+      - STR_CRAFT_HEAVY_MISSILE_THREE
+    battlescapeTerrainData:
+      name: HYBRID2
+      mapDataSets:
+      - BLANKS
+      - HYBRIDCRAFT
+      - HYBRIDCRAFT_2
+      - LIGHTNIN
+      mapBlocks:
+        - name: HYBRID2
+          width: 10
+          length: 20
+    deployment:
+#Pilot seats
+      - [3, 10, 1, 4]
+      - [5, 10, 1, 4]
+      - [3, 7, 1, 4]
+      - [5, 7, 1, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_CYCLONE # HYBRID3
+    sprite: 104
+    fuelMax: 1800
+    damageMax: 250
+    speedMax: 2200
+    accel: 5
+    soldiers: 18
+    vehicles: 3
+    costBuy: 0
+    costRent: 300000
+    costSell: 562500
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: HYBRID3
+      mapDataSets:
+      - BLANKS
+      - HYBRIDCRAFT
+      - HYBRIDCRAFT_2
+      - LIGHTNIN
+      - LIFTER
+      mapBlocks:
+        - name: HYBRID3
+          width: 10
+          length: 20
+    deployment:
+#First HWP point
+      - [2, 6, 1, 4]
+#Second HWP point
+      - [5, 6, 1, 4]
+#Third HWP point
+      - [3, 8, 1, 4]
+#Soldiers
+      - [3, 6, 1, 4]
+      - [2, 7, 1, 4]
+      - [5, 7, 1, 4]
+      - [3, 7, 1, 4]
+      - [4, 5, 1, 4]
+      - [4, 6, 1, 4]
+      - [4, 7, 1, 4]
+      - [5, 7, 1, 4]
+      - [6, 7, 1, 4]
+      - [6, 6, 1, 4]
+      - [6, 7, 1, 4]
+      - [6, 6, 1, 4]
+      - [3, 9, 1, 4]
+      - [4, 9, 1, 4]
+      - [4, 8, 1, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_HURRICANE # HYBRID4
+    sprite: 105
+    fuelMax: 2000
+    damageMax: 350
+    speedMax: 2800
+    accel: 5
+    soldiers: 22
+    vehicles: 4
+    costBuy: 0
+    costRent: 300000
+    costSell: 562500
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: HYBRID4
+      mapDataSets:
+      - BLANKS
+      - HYBRIDCRAFT
+      - HYBRIDCRAFT_2
+      - LIGHTNIN
+      - LIFTER
+      mapBlocks:
+        - name: HYBRID4
+          width: 10
+          length: 20
+    deployment:
+#First HWP point
+      - [2, 6, 1, 4]
+#Second HWP point
+      - [5, 6, 1, 4]
+#Third HWP point
+      - [2, 8, 1, 4]
+#Fourth HWP point
+      - [5, 8, 1, 4]
+#Upper deck
+      - [3, 7, 2, 4]
+      - [4, 7, 2, 4]
+      - [5, 7, 2, 4]
+      - [3, 8, 2, 4]
+      - [4, 8, 2, 4]
+      - [5, 8, 2, 4]
+      - [3, 8, 2, 2]
+      - [5, 8, 2, 6]
+#Lower deck
+#Ramp
+      - [2, 12, 2, 4]
+      - [3, 12, 2, 4]
+      - [4, 12, 2, 4]
+      - [5, 12, 2, 4]
+      - [6, 12, 2, 4]
+
+      - [2, 11, 2, 4]
+      - [3, 11, 2, 4]
+      - [4, 11, 2, 4]
+      - [5, 11, 2, 4]
+      - [6, 11, 2, 4]
+
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+  # - type: STR_SKYWARDEN
+  #   sprite: 25
+  #   fuelMax: 1500
+  #   damageMax: 250
+  #   speedMax: 2000
+  #   accel: 5
+  #   soldiers: 18
+  #   vehicles: 3
+  #   costBuy: 0
+  #   costRent: 300000
+  #   costSell: 562500
+  #   refuelRate: 50
+  #   transferTime: 72
+  #   score: 200
+  #   battlescapeTerrainData:
+  #     name: SKYWARDEN
+  #     mapDataSets:
+  #       - BLANKS
+  #       - XOPSTRANSPORT2
+  #       - XOPSTRANSPORT3
+  #     mapBlocks:
+  #       - name: XOPSNEWSKYWARDEN
+  #         width: 10
+  #         length: 20
+  #   deployment:
+  #     - [4, 15, 1, 4]
+  #     - [5, 15, 1, 4]
+  #     - [4, 14, 1, 4]
+  #     - [5, 14, 1, 4]
+  #     - [4, 13, 1, 4]
+  #     - [5, 13, 1, 4]
+  #     - [4, 12, 1, 4]
+  #     - [5, 12, 1, 4]
+  #     - [4, 5, 1, 6]
+  #     - [5, 5, 1, 2]
+  #     - [4, 7, 1, 6]
+  #     - [5, 7, 1, 2]
+  #     - [4, 6, 1, 4]
+  #     - [5, 6, 1, 4]
+  #     - [4, 8, 1, 4]
+  #     - [5, 8, 1, 4]
+  #     - [4, 11, 1, 4]
+  #     - [5, 11, 1, 4]
+  # - type: STR_HURRICANE
+  #   sprite: 117
+  #   fuelMax: 1800
+  #   damageMax: 400
+  #   speedMax: 2900
+  #   accel: 6
+  #   soldiers: 22
+  #   vehicles: 3
+  #   costBuy: 0
+  #   costRent: 400000
+  #   costSell: 562500
+  #   refuelRate: 60
+  #   transferTime: 72
+  #   score: 250
+  #   battlescapeTerrainData:
+  #     name: XOPSHURRICANE
+  #     mapDataSets:
+  #       - BLANKS
+  #       - XOPSTRANSPORT2
+  #     mapBlocks:
+  #       - name: XOPSHURRICANE
+  #         width: 20
+  #         length: 10
+  #   deployment:
+  #     - [4, 5, 1, 4]
+  #     - [5, 5, 1, 4]
+  #     - [4, 4, 1, 4]
+  #     - [5, 4, 1, 4]
+  #     - [15, 5, 1, 4]
+  #     - [16, 5, 1, 4]  
+  #     - [15, 4, 1, 4]
+  #     - [16, 4, 1, 4]
+  #     - [14, 5, 1, 4]
+  #     - [13, 5, 1, 4]
+  #     - [14, 4, 1, 4]
+  #     - [13, 4, 1, 4]
+  #     - [12, 5, 1, 4]
+  #     - [12, 4, 1, 4]
+  #     - [6, 5, 1, 4]
+  #     - [6, 4, 1, 4]
+  #     - [7, 4, 1, 4]
+  #     - [7, 5, 1, 4]
+  #     - [8, 5, 1, 4]
+  #     - [8, 4, 1, 4]
+  #     - [8, 3, 1, 2]
+  #     - [12, 3, 1, 6]
+  # - type: STR_ARCHANGEL
+  #   requires:
+  #     - STR_ARCHANGEL
+  #   sprite: 118
+  #   fuelMax: 100 #25000
+  #   damageMax: 2000
+  #   speedMax: 6000
+  #   accel: 20
+  #   weapons: 2
+  #   soldiers: 30
+  #   vehicles: 5
+  #   refuelItem: STR_ELERIUM_115
+  #   refuelRate: 50
+  #   score: 10000
+  #   spacecraft: true
+  #   battlescapeTerrainData:
+  #     name: ARCANGEL
+  #     mapDataSets:
+  #       - BLANKS
+  #       - XOPSTRANSPORT3
+  #     mapBlocks:
+  #       - name: XOPSARCANGEL
+  #         width: 10
+  #         length: 20
+ 
+
+
+# research:
+#--Hybrid Craft Tree--------------------
+  # - name: STR_LIGHTNING
+  #   cost: 200
+  #   points: 25
+  #   # dependencies:
+  #   #   - STR_HYBRID_CRAFT
+  #   #   - STR_CODEX_3
+  # - name: STR_UFO_ENGINEERING
+  #   points: 25
+  #   needItem: true
+  # - name: STR_FIRESTORM
+  #   cost: 320
+  #   points: 25
+  #   # dependencies:
+  #   #   - STR_CODEX_4
+  #   #   - STR_UFO_ENGINEERING
+  # - name: STR_UFO_MASTERY
+  #   points: 25
+  #   needItem: true
+  # - name: STR_AVENGER
+  #   cost: 800
+  #   points: 25
+  #   # dependencies:
+  #   #   - STR_UFO_MASTERY
+  #   #   - STR_CODEX_5
+  # - name: STR_GRAV_SHIELD
+  #   cost: 0
+  #   points: 25
+  #   needItem: true
+  # - name: STR_HURRICANE
+  #   cost: 450
+  #   points: 25
+  #   # dependencies:
+  #   #   - STR_SOLVE_ANOMALOUS_EQUATION   
+  # - name: STR_ARCHANGEL
+  #   cost: 2400
+  #   points: 10
+    # dependencies:
+    #   - STR_MARTIAN_DEFENSES
+    #   - STR_CODEX_5
+  # - name: STR_ENDGAME
+  #   cost: 2400
+  #   points: 10
+  #   unlockFinalMission: true
+  #   dependencies:
+  #     - STR_MASTERMIND
+  #     - STR_ARCHANGEL  
+
+# manufacture:
+#   - name: STR_SKYWARDEN
+#     category: STR_CRAFT
+#     requires:
+#       - STR_SKYWARDEN
+#     space: 14
+#     time: 4900
+#     cost: 450000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 50
+#     listOrder: 3261
+#   - name: STR_HURRICANE
+#     category: STR_CRAFT
+#     requires:
+#       - STR_HURRICANE
+#     space: 18
+#     time: 9000
+#     cost: 700000
+#     # requiredItems:
+#     #   STR_ALIEN_ALLOYS: 80
+#     #   STR_ELERIUM_115: 60
+#     #   STR_CODEX_FRAGMENT: 30
+#     listOrder: 3283
+#   # - name: STR_AVENGER
+#   #   category: STR_CRAFT
+#   #   requires:
+#   #     - STR_AVENGER
+#   #   space: 18
+#   #   time: 13600
+#   #   cost: 900000
+#   #   requiredItems:
+#   #     STR_ALIEN_ALLOYS: 120
+#   #     STR_ELERIUM_115: 75
+#   #     STR_CODEX_FRAGMENT: 50
+#   #     STR_CODEX_FRAGMENT: 1
+#   #   listOrder: 3283
+#   - name: STR_ARCHANGEL
+#     category: STR_CRAFT
+#     requires:
+#       - STR_ARCHANGEL
+#     space: 20
+#     time: 25000
+#     cost: 1500000
+#     # requiredItems:
+#     #   STR_ALIEN_ALLOYS: 200
+#     #   STR_ELERIUM_115: 100
+#     #   STR_CODEX_FRAGMENT: 75
+#     #   STR_CODEX_COMPLETE: 1
+#     listOrder: 3284
+
+
+ufopaedia:
+#####################################
+############# Crafts ################
+#####################################
+
+  - id: STR_HARRIER
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_HARRIER_UFOPEDIA
+    listOrder: 110
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: HARRIER_UFOPEDIA
+
+  - id: STR_WARTHOG
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_WARTHOG_UFOPEDIA
+    listOrder: 112
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: WARTHOG_UFOPEDIA
+
+  - id: STR_TEMPEST
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_TEMPEST_UFOPEDIA
+    listOrder: 112
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: TEMPEST_UFOPEDIA
+
+  - id: STR_TYPHOON
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_TYPHOON_UFOPEDIA
+    listOrder: 113
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: TYPHOON_UFOPEDIA
+
+  - id: STR_CYCLONE
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_CYCLONE_UFOPEDIA
+    listOrder: 114
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: CYCLONE_UFOPEDIA
+
+  - id: STR_HURRICANE
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_HURRICANE_UFOPEDIA
+    listOrder: 117
+    rect_stats:
+      x: 5
+      y: 130
+      width: 130
+      height: 65
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: HURRICANE_UFOPEDIA
+
+craftWeapons:
+#modders: the corresponding extrasprites file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
+# weaponType 0 = Gatling Cannon (Fast but weak)
+# weaponType 1 = Autocannon (Slow but powerful)
+# weaponType 2 = Light Missile (IR Guidance, short range)
+# weaponType 3 = Heavy Missile (Radar Guidance, long range)
+# weaponType 4 = Rockets (Super fast, short range, no targeting guidance. Basically a shotgun)
+# weaponType 5 = Torpedos (Underwater-only, heavy duty medium range missiles)
+# weaponType 6 = Auxliary Systems (Targeting pods, afterburners, etc) 
+
+  - type: STR_STINGRAY
+    weaponType: 2
+  - type: STR_AVALANCHE
+    weaponType: 3
+  - type: STR_CANNON_UC
+    weaponType: 0
+  - type: STR_FUSION_BALL_UC
+    weaponType: 3
+  - type: STR_LASER_CANNON_UC
+    weaponType: 1
+  - type: STR_PLASMA_BEAM_UC
+    weaponType: 1
+# ufopaedia:
+  # - id: STR_SKYWARDEN
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   listOrder: 103
+  #   # requires:
+  #   #   - STR_SKYWARDEN
+  #   text: STR_SKYWARDEN_UFOPEDIA
+  #   rect_stats:
+  #     x: 5
+  #     y: 40
+  #     width: 140
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 151
+  #     width: 151
+  #     height: 44
+  #   image_id: SKYWARDENUFO
+  # - id: STR_HURRICANE
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   listOrder: 104
+  #   # requires:
+  #   #   - STR_HURRICANE
+  #   text: STR_HURRICANE_UFOPEDIA
+  #   rect_stats:
+  #     x: 5
+  #     y: 40
+  #     width: 140
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 145
+  #     width: 190
+  #     height: 50
+  #   image_id: HURRICANEUFO
+  # - id: STR_FIRESTORM
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   requires:
+  #     - STR_FIRESTORM
+  #   image_id: UP005.SPK
+  #   rect_stats:
+  #     x: 160
+  #     y: 5
+  #     width: 160
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 40
+  #     width: 140
+  #     height: 100
+  #   text: STR_FIRESTORM_UFOPEDIA
+  # - id: STR_LIGHTNING
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   requires:
+  #     - STR_LIGHTNING
+  #   image_id: UP003.SPK
+  #   rect_stats:
+  #     x: 5
+  #     y: 132
+  #     width: 160
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 40
+  #     width: 310
+  #     height: 60
+  #   text: STR_LIGHTNING_UFOPEDIA
+  # - id: STR_AVENGER
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   requires:
+  #     - STR_AVENGER
+  #   image_id: UP001.SPK
+  #   rect_stats:
+  #     x: 160
+  #     y: 5
+  #     width: 160
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 40
+  #     width: 140
+  #     height: 100
+  # - id: STR_ARCHANGEL
+  #   type_id: 1
+  #   section: STR_XCOM_CRAFT_ARMAMENT
+  #   # requires:
+  #   #   - STR_ARCHANGEL
+  #   image_id: ARCHANGELUFO
+  #   rect_stats:
+  #     x: 170
+  #     y: 120
+  #     width: 160
+  #     height: 60
+  #   rect_text:
+  #     x: 5
+  #     y: 40
+  #     width: 140
+  #     height: 100
+  #   text: STR_ARCHANGEL_UFOPEDIA
+  #   listOrder: 501
+
+extraSprites:
+# "Crafts : The corresponding extrasprite file id for
+# INTICON.PCK Minimized Id = Sprite  
+# INTICON.PCK DogFight Id = Sprite+11 ;
+# BASEBITS.PCK Id = Sprite+33
+#########################################  
+# Craft Weapons: file id for 
+# INTICON.PCK is sprite+5
+# BASEBITS.PCK is sprite+48 
+# Crafts
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Craft/Harrier_base.png
+      134: Resources/Craft/Warthog_base.png
+      135: Resources/Craft/Tempest_base.png
+      136: Resources/Craft/Typhoon_base.png
+      137: Resources/Craft/Cyclone_base.png
+      138: Resources/Craft/Hurricane_base.png
+
+  - type: INTICON.PCK
+    files:
+      111: Resources/Craft/Harrier_dogfight.png
+      112: Resources/Craft/Warthog_dogfight.png
+      113: Resources/Craft/Tempest_dogfight.png
+      114: Resources/Craft/Typhoon_dogfight.png
+      115: Resources/Craft/Cyclone_dogfight.png
+      116: Resources/Craft/Hurricane_dogfight.png
+
+###################################################
+      100: Resources/Craft/Harrier_minimised.png
+      101: Resources/Craft/Warthog_minimised.png
+      102: Resources/Craft/Tempest_minimised.png
+      103: Resources/Craft/Typhoon_minimised.png
+      104: Resources/Craft/Cyclone_minimised.png
+      105: Resources/Craft/Hurricane_minimised.png
+
+#
+
+
+  - type: WARTHOG_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/WARTHOG_UFOPEDIA.png
+  - type: HARRIER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/HARRIER_UFOPEDIA.PNG
+  - type: TEMPEST_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/TEMPEST_UFOPEDIA.PNG
+  - type: TYPHOON_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/TYPHOON_UFOPEDIA.PNG
+  - type: CYCLONE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/CYCLONE_UFOPEDIA.PNG
+  - type: HURRICANE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Craft/HURRICANE_UFOPEDIA.PNG
+
+
+# extraSprites:
+#   - type: BASEBITS.PCK
+#     files:
+#       58: Resources/Craft/Basebits/SKYWARDEN.gif
+#       150: Resources/Craft/Basebits/HURRICANE.gif
+#       151: Resources/Craft/Basebits/ARCHANGEL.gif
+
+# #---CRAFT INTECEPTION IMAGES------------------------------------------
+#   - type: INTICON.PCK
+#     files:
+#       25: Resources/Craft/CraftIcons/SKYWARDENMin.gif
+#       36: Resources/Craft/CraftIcons/SKYWARDENDogfight.gif
+#       117: Resources/Craft/CraftIcons/HURRICANEMin.gif
+#       128: Resources/Craft/CraftIcons/HURRICANEDogfight.gif
+#       118: Resources/Craft/CraftIcons/ARCHANGELMin.gif
+#       129: Resources/Craft/CraftIcons/ARCHANGELdogfight.gif
+
+#   - type: SKYWARDENUFO
+#     singleImage: true
+#     width: 320
+#     height: 200
+#     files:
+#       0: Resources/Craft/Ufopedia/SKYWARDEN.gif
+#   - type: HURRICANEUFO
+#     singleImage: true
+#     width: 320
+#     height: 200
+#     files:
+#       0: Resources/Craft/Ufopedia/HURRICANE.gif
+#   - type: ARCHANGELUFO
+#     singleImage: true
+#     width: 320
+#     height: 200
+#     files:
+#       0: Resources/Craft/Ufopedia/ARCHANGEL.gif
+
+
+extraStrings:
+  - type: en-US
+    strings:
+###CRAFT
+      STR_CRAFT_GATLING_ONE: "GATLING-1>{ALT}{0}"
+      STR_CRAFT_GATLING_TWO: "GATLING-2>{ALT}{0}"
+      STR_CRAFT_GATLING_THREE: "GATLING-3>{ALT}{0}"
+      STR_CRAFT_GATLING_FOUR: "GATLING-4>{ALT}{0}"
+
+      STR_CRAFT_CANNON_ONE: "REVOLVER-1>{ALT}{0}"
+      STR_CRAFT_CANNON_TWO: "REVOLVER-2>{ALT}{0}"
+      STR_CRAFT_CANNON_THREE: "REVOLVER-3>{ALT}{0}"
+      STR_CRAFT_CANNON_FOUR: "REVOLVER-4>{ALT}{0}"
+
+      STR_CRAFT_ALL_CANNONS_ONE: "ALL CANNONS-1>{ALT}{0}"
+      STR_CRAFT_ALL_CANNONS_TWO: "ALL CANNONS-2>{ALT}{0}"
+      STR_CRAFT_ALL_CANNONS_THREE: "ALL CANNONS-3>{ALT}{0}"
+      STR_CRAFT_ALL_CANNONS_FOUR: "ALL CANNONS-4>{ALT}{0}"
+
+      STR_CRAFT_LIGHT_MISSILE_ONE: "LIGHT MISSILE-1>{ALT}{0}"
+      STR_CRAFT_LIGHT_MISSILE_TWO: "LIGHT MISSILE-2>{ALT}{0}"
+      STR_CRAFT_LIGHT_MISSILE_THREE: "LIGHT MISSILE-3>{ALT}{0}"
+      STR_CRAFT_LIGHT_MISSILE_FOUR: "LIGHT MISSILE-4>{ALT}{0}"
+
+      STR_CRAFT_HEAVY_MISSILE_ONE: "HEAVY MISSILE-1>{ALT}{0}"
+      STR_CRAFT_HEAVY_MISSILE_TWO: "HEAVY MISSILE-2>{ALT}{0}"
+      STR_CRAFT_HEAVY_MISSILE_THREE: "HEAVY MISSILE-3>{{ALT}{0}"
+      STR_CRAFT_HEAVY_MISSILE_FOUR: "HEAVY MISSILE-4>{ALT}{0}"
+
+      STR_CRAFT_LIGHT_HEAVY_MISSILE_ONE: "LIGHT/HEAVY MISSILE-1>{ALT}{0}"
+      STR_CRAFT_LIGHT_HEAVY_MISSILE_TWO: "LIGHT/HEAVY MISSILE-2>{ALT}{0}"
+      STR_CRAFT_LIGHT_HEAVY_MISSILE_THREE: "LIGHT/HEAVY MISSILE-3>{{ALT}{0}"
+      STR_CRAFT_LIGHT_HEAVY_MISSILE_FOUR: "LIGHT/HEAVY MISSILE-4>{ALT}{0}"
+
+      STR_CRAFT_SUPER_HEAVY_MISSILE_ONE: "S-HEAVY MISSILE-1>{ALT}{0}"
+      STR_CRAFT_SUPER_HEAVY_MISSILE_TWO: "S-HEAVY MISSILE-2>{ALT}{0}"
+      STR_CRAFT_SUPER_HEAVY_MISSILE_THREE: "S-HEAVY MISSILE-3>{ALT}{0}"
+      STR_CRAFT_SUPER_HEAVY_MISSILE_FOUR: "S-HEAVY MISSILE-4>{ALT}{0}"
+
+      STR_CRAFT_HEAVY_SUPER_HEAVY_MISSILE_ONE: "HEAVY/S-HEAVY MISSILE-1>{ALT}{0}"
+      STR_CRAFT_HEAVY_SUPER_HEAVY_MISSILE_TWO: "HEAVY/S-HEAVY MISSILE-2>{ALT}{0}"
+      STR_CRAFT_HEAVY_SUPER_HEAVY_MISSILE_THREE: "HEAVY/S-HEAVY MISSILE-3>{ALT}{0}"
+      STR_CRAFT_HEAVY_SUPER_HEAVY_MISSILE_FOUR: "HEAVY/S-HEAVY MISSILE-4>{ALT}{0}"
+
+      STR_CRAFT_AUX_ONE: "AUX-1>{ALT}{0}"
+      STR_CRAFT_AUX_TWO: "AUX-2>{ALT}{0}"
+      STR_CRAFT_AUX_THREE: "AUX-3>{ALT}{0}"
+      STR_CRAFT_AUX_FOUR: "AUX-4>{ALT}{0}"
+
+      STR_CRAFT_ROCKET_ONE: "ROCKET-1>{ALT}{0}"
+      STR_CRAFT_ROCKET_TWO: "ROCKET-2>{ALT}{0}"
+      STR_CRAFT_ROCKET_THREE: "ROCKET-3>{ALT}{0}"
+      STR_CRAFT_ROCKET_FOUR: "ROCKET-4>{ALT}{0}"
+
+      STR_CRAFT_LIGHT_AUX_ONE: "LIGHT MISSILE/AUX-1>{ALT}{0}"
+      STR_CRAFT_LIGHT_AUX_TWO: "LIGHT MISSILE/AUX-2>{ALT}{0}"
+      STR_CRAFT_LIGHT_AUX_THREE: "LIGHT MISSILE/AUX-3>{ALT}{0}"
+      STR_CRAFT_LIGHT_AUX_FOUR: "LIGHT MISSILE/AUX-4>{ALT}{0}"
+
+      STR_CRAFT_HEAVY_AUX_ONE: "HEAVY MISSILE/AUX-1>{ALT}{0}"
+      STR_CRAFT_HEAVY_AUX_TWO: "HEAVY MISSILE/AUX-2>{ALT}{0}"
+      STR_CRAFT_HEAVY_AUX_THREE: "HEAVY MISSILE/AUX-3>{ALT}{0}"
+      STR_CRAFT_HEAVY_AUX_FOUR: "HEAVY MISSILE/AUX-4>{ALT}{0}"
+
+      STR_CRAFT_ROCKET_AUX_ONE: "ROCKET/AUX-1>{ALT}{0}"
+      STR_CRAFT_ROCKET_AUX_TWO: "ROCKET/AUX-2>{ALT}{0}"
+      STR_CRAFT_ROCKET_AUX_THREE: "ROCKET/AUX-3>{ALT}{0}"
+      STR_CRAFT_ROCKET_AUX_FOUR: "ROCKET/AUX-4>{ALT}{0}"
+
+      STR_HARRIER: "HARRIER"
+      STR_HARRIER_UFOPEDIA: "VTOL JUMPJET OF BRITISH DESIGN, IT IS PERFECT FOR TAKING OFF FROM SHORT OR IMPROVISED RUNWAYS. ITS FIREPOWER IS QUITE CONSIDERABLE, ALTHOUGH IT IS SOMEWHAT FRAGILE AND DIFFICULT TO MAINTAIN."
+      STR_WARTHOG: "WARTHOG"
+      STR_WARTHOG_UFOPEDIA: "TRULY A FLYING TANK, THIS POWERFUL GROUND ATTACK AIRCRAFT HAS A LOT OF ARMOR, MANY WEAPON HARDPOINTS AND CAN FLY WITH A DAMAGED ENGINE. ITS RANGE AND SPEED ARE LIMITED BY THE EXTRA WEIGHT."
+      STR_TEMPEST: "TEMPEST"
+      STR_TEMPEST_UFOPEDIA: ""
+      STR_TYPHOON: "TYPHOON"
+      STR_TYPHOON_UFOPEDIA: ""
+      STR_CYCLONE: "CYCLONE"
+      STR_CYCLONE_UFOPEDIA: ""
+      STR_HURRICANE: "HURRICANE"
+      STR_HURRICANE_UFOPEDIA: ""
+
+
+# extraStrings:
+#   - type: en-US
+#     strings:
+#       STR_SKYWARDEN_UFOPEDIA: The SKYWARDEN is an XCom combat transport for rapid troop deployment. Two small side doors with a bay shield door provide cover for troops.
+#       STR_HURRICANE_UFOPEDIA: The HURRICANE transport provides fast deployment into combat zones with space for up to 22 soldiers. Rear bay doors allow for rapid deployment while two elevators allow snipers to take up positions on the Hurricane's roof.
+#       STR_ARCHANGEL_UFOPEDIA: The pinnacle of XCom craft, the ARCHANGEL has a fully operational, completed Codex installed. It's armor and speed surpass even the most powerful alien warships.

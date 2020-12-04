@@ -1,0 +1,1432 @@
+############################
+## FACTIONS - drones - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+####################################
+####### HELLRAZORS  DRONES #########
+######## FACTIONS EDITION ##########
+####################################
+
+#Hellrazors excellent drones have been conscripted to help fill a hole in our current tech-tree,
+#i expect we will eventually modify several of his files to better suit the time period of this war but for now
+#they will be added as is ( with only minor changes made to reflect our techtree). 
+
+#Thankyou Reaver for allowing this use, i personally am not a fan of just grabbing other peoples work and dumping it
+#into my own without many changes but alas, time is agaisnt us and his little drone is too good not to use :)
+######################
+items:
+
+#BEGIN DRONE SMOKE AMMO
+  - type: STR_DRONE_SMOKE_AMMO
+    requires:
+      - STR_MICRO_PLATFORMS
+    size: 0.1
+    costBuy: 100
+    costSell: 50
+    transferTime: 48
+    weight: 3
+    power: 60
+    damageType: 9
+    battleType: 2
+    clipSize: 3
+    listOrder: 1071
+#END DRONE SMOKE AMMO
+
+#BEGIN DRONES
+#BEGIN DRONE SCOUT
+  - type: STR_DRONE_SCOUT
+    requires:
+      - STR_MICRO_PLATFORMS
+    size: 2
+    costBuy: 185000
+    costSell: 100000
+    transferTime: 72
+    weight: 40
+    bigSprite: 1168
+    bulletSprite: 4
+    fireSound: 234
+    compatibleAmmo:
+      - STR_DRONE_SMOKE_AMMO
+    accuracySnap: 100
+    tuSnap: 33
+    battleType: 1
+    fixedWeapon: true
+    arcingShot: true
+    invWidth: 2
+    invHeight: 3
+    maxRange: 3
+    listOrder: 1070
+  - type: STR_DRONE_SCOUT_CORPSE
+    size: 2
+    weight: 40
+    bigSprite: 1170
+    floorSprite: 1152
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+    listOrder: 4990
+# END DRONE SCOUT
+
+# #BEGIN DRONE SCANNER
+#   - type: STR_DRONE_SCANNER
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     size: 2
+#     costSell: 125000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1072
+#   - type: STR_DRONE_SCANNER_CORPSE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     size: 2
+#     weight: 40
+#     bigSprite: 61
+#     floorSprite: 74
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 20
+#     recover: true
+#     listOrder: 4991
+#   - type: STR_DRONE_SCANNER_WEAPON
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     weight: 3
+#     bigSprite:1169
+#     battleType: 7
+#     tuUse: 15
+#     flatRate: true
+#     invWidth: 2
+#     invHeight: 3
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1073
+# #END DRONE SCANNER
+
+# #BEGIN DRONE MEDIKIT
+#   - type: STR_DRONE_MEDIKIT
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     size: 2
+#     costSell: 125000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1074
+#   - type: STR_DRONE_MEDIKIT_CORPSE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     size: 2
+#     weight: 40
+#     bigSprite: 62
+#     floorSprite: 75
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 20
+#     recover: true
+#     listOrder: 4992
+#   - type: STR_DRONE_MEDIKIT_WEAPON
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     weight: 3
+#     bigSprite: 24
+#     battleType: 6
+#     tuUse: 10
+#     invWidth: 1
+#     invHeight: 2
+#     painKiller: 10
+#     heal: 10
+#     stimulant: 10
+#     woundRecovery: 1
+#     healthRecovery: 3
+#     stunRecovery: 4
+#     energyRecovery: 10
+#     flatRate: true
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1075
+#END DRONE MEDIKIT
+
+# #BEGIN DRONE TASER
+#   - type: STR_DRONE_TASER
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     size: 2
+#     costSell: 140000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1076
+#   - type: STR_DRONE_TASER_CORPSE
+#     size: 2
+#     weight: 40
+#     bigSprite: 1171
+#     floorSprite: 76
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 20
+#     recover: true
+#     listOrder: 4993
+#   - type: STR_DRONE_TASER_WEAPON
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     weight: 5
+#     bigSprite: 1170
+#     bulletSprite: 12
+#     fireSound: 235
+#     compatibleAmmo:
+#       - STR_DRONE_TASER_WEAPON_AMMO
+#     accuracyAuto: 66
+#     tuAuto: 50
+#     autoShots: 2
+#     battleType: 1
+#     invWidth: 1
+#     invHeight: 2
+#     maxRange: 5
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1077
+#   - type: STR_DRONE_TASER_WEAPON_AMMO
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     size: 0.1
+#     costSell: 500
+#     weight: 1
+#     hitSound: 54
+#     hitAnimation: 56
+#     power: 40
+#     blastRadius: 0
+#     damageType: 6
+#     battleType: 2
+#     clipSize: 6
+#     listOrder: 1078
+# #END DRONE TASER
+# ##END DRONES
+
+# ##BEGIN ALLOY DRONES
+# #BEGIN ALLOY DRONE SCOUT
+#   - type: STR_ALLOY_DRONE_SCOUT
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#     size: 2
+#     costSell: 160000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1079
+#   - type: STR_ALLOY_DRONE_SCOUT_CORPSE
+#     size: 2
+#     weight: 40
+#     bigSprite: 64
+#     floorSprite: 77
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 60
+#     recover: true
+#     listOrder: 4994
+# #END ALLOY DRONE SCOUT
+
+# #BEGIN ALLOY DRONE SCANNER
+#   - type: STR_ALLOY_DRONE_SCANNER
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     size: 2
+#     costSell: 180000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1080
+#   - type: STR_ALLOY_DRONE_SCANNER_CORPSE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     size: 2
+#     weight: 40
+#     bigSprite: 65
+#     floorSprite: 78
+#     invWidth: 2
+#     invHeight: 3
+#     recover: true
+#     listOrder: 4995
+#   - type: STR_ALLOY_DRONE_SCANNER_WEAPON
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     weight: 3
+#     bigSprite: 1169
+#     battleType: 7
+#     tuUse: 10
+#     flatRate: true
+#     invWidth: 2
+#     invHeight: 3
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1081
+# #END ALLOY DRONE SCANNER
+
+# #BEGIN ALLOY DRONE MEDIKIT
+#   - type: STR_ALLOY_DRONE_MEDIKIT
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     size: 2
+#     costSell: 180000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1081
+#   - type: STR_ALLOY_DRONE_MEDIKIT_CORPSE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     size: 2
+#     weight: 40
+#     bigSprite: 66
+#     floorSprite: 79
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 40
+#     recover: true
+#     listOrder: 4996
+#   - type: STR_ALLOY_DRONE_MEDIKIT_WEAPON
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     weight: 3
+#     bigSprite: 24
+#     battleType: 6
+#     tuUse: 5
+#     invWidth: 1
+#     invHeight: 2
+#     painKiller: 16
+#     heal: 16
+#     stimulant: 16
+#     woundRecovery: 1
+#     healthRecovery: 4
+#     stunRecovery: 5
+#     energyRecovery: 12
+#     flatRate: true
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1082
+# #END ALLOY DRONE MEDIKIT
+
+# #BEGIN ALLOY DRONE TASER
+#   - type: STR_ALLOY_DRONE_TASER
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     size: 2
+#     costSell: 200000
+#     weight: 40
+#     bigSprite: 57
+#     bulletSprite: 4
+#     fireSound: 234
+#     compatibleAmmo:
+#       - STR_DRONE_SMOKE_AMMO
+#     accuracySnap: 100
+#     tuSnap: 33
+#     battleType: 1
+#     fixedWeapon: true
+#     arcingShot: true
+#     invWidth: 2
+#     invHeight: 3
+#     maxRange: 3
+#     listOrder: 1083
+#   - type: STR_ALLOY_DRONE_TASER_CORPSE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     size: 2
+#     weight: 40
+#     bigSprite: 67
+#     floorSprite: 80
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 40
+#     recover: true
+#     listOrder: 4997
+#   - type: STR_ALLOY_DRONE_TASER_WEAPON
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     weight: 5
+#     bigSprite: 1170
+#     bulletSprite: 12
+#     fireSound: 235
+#     compatibleAmmo:
+#       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+#     accuracyAuto: 80
+#     tuAuto: 40
+#     autoShots: 3
+#     battleType: 1
+#     invWidth: 1
+#     invHeight: 2
+#     maxRange: 6
+#     recover: false
+#     fixedWeapon: true
+#     listOrder: 1084
+#   - type: STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     size: 0.1
+#     costSell: 1000
+#     weight: 1
+#     hitSound: 54
+#     hitAnimation: 56
+#     power: 60
+#     blastRadius: 0
+#     damageType: 6
+#     battleType: 2
+#     clipSize: 9
+#     listOrder: 1085
+#END ALLOY DRONE TASER
+##END ALLOY DRONES
+
+### items end ###
+
+###BEGIN ARMORS
+armors:
+
+##BEGIN DRONE ARMORS
+#BEGIN DRONE SCOUT ARMOR
+  - type: DRONE_SCOUT_ARMOR
+    spriteSheet: DRONE_SCOUT.PCK
+    allowInv: false
+    corpseBattle:
+      - STR_DRONE_SCOUT_CORPSE
+    frontArmor: 45
+    sideArmor: 37
+    rearArmor: 30
+    underArmor: 30
+    drawingRoutine: 4
+    size: 1
+    damageModifier: &DRONE_DAMAGE_MODIFIER
+      - 1.0
+      - 1.0
+      - 0.4
+      - 0.8
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.4
+      - 0.0
+    loftempsSet: [ 3 ]
+# #END DRONE SCOUT ARMOR
+
+# #BEGIN DRONE SCANNER ARMOR
+#   - type: DRONE_SCANNER_ARMOR
+#     spriteSheet: DRONE_SCANNER.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_DRONE_SCANNER_CORPSE
+#     frontArmor: 35
+#     sideArmor: 27
+#     rearArmor: 20
+#     underArmor: 20
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END DRONE SCANNER ARMOR
+
+# #BEGIN DRONE MEDIKIT ARMOR
+#   - type: DRONE_MEDIKIT_ARMOR
+#     spriteSheet: DRONE_MEDIKIT.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_DRONE_MEDIKIT_CORPSE
+#     frontArmor: 35
+#     sideArmor: 27
+#     rearArmor: 20
+#     underArmor: 20
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END DRONE MEDIKIT ARMOR
+
+# #BEGIN DRONE TASER ARMOR
+#   - type: DRONE_TASER_ARMOR
+#     spriteSheet: DRONE_TASER.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_DRONE_TASER_CORPSE
+#     frontArmor: 35
+#     sideArmor: 27
+#     rearArmor: 20
+#     underArmor: 20
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END DRONE TASER ARMOR
+# ##END DRONE ARMORS
+
+# ##BEGIN ALLOY DRONE ARMORs
+# #BEGIN ALLOY DRONE SCOUT ARMOR
+#   - type: ALLOY_DRONE_SCOUT_ARMOR
+#     spriteSheet: ALLOY_DRONE_SCOUT.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_ALLOY_DRONE_SCOUT_CORPSE
+#     frontArmor: 90
+#     sideArmor: 75
+#     rearArmor: 60
+#     underArmor: 60
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: &ALLOY_DRONE_DAMAGE_MODIFIER
+#       - 1.0
+#       - 1.0
+#       - 0.0
+#       - 0.8
+#       - 1.0
+#       - 1.0
+#       - 0.0
+#       - 1.0
+#       - 1.4
+#       - 0.0
+#     loftempsSet: [ 3 ]
+# #END ALLOY DRONE SCOUT ARMOR
+
+# #BEGIN ALLOY DRONE SCANNER ARMOR
+#   - type: ALLOY_DRONE_SCANNER_ARMOR
+#     spriteSheet: ALLOY_DRONE_SCANNER.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_ALLOY_DRONE_SCANNER_CORPSE
+#     frontArmor: 70
+#     sideArmor: 55
+#     rearArmor: 40
+#     underArmor: 40
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END ALLOY DRONE SCANNER ARMOR
+
+# #BEGIN ALLOY DRONE MEDIKIT ARMOR
+#   - type: ALLOY_DRONE_MEDIKIT_ARMOR
+#     spriteSheet: ALLOY_DRONE_MEDIKIT.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_ALLOY_DRONE_MEDIKIT_CORPSE
+#     frontArmor: 70
+#     sideArmor: 55
+#     rearArmor: 40
+#     underArmor: 40
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END ALLOY DRONE MEDIKIT ARMOR
+
+# #BEGIN ALLOY DRONE TASER ARMOR
+#   - type: ALLOY_DRONE_TASER_ARMOR
+#     spriteSheet: ALLOY_DRONE_TASER.PCK
+#     allowInv: false
+#     corpseBattle:
+#       - STR_ALLOY_DRONE_TASER_CORPSE
+#     frontArmor: 70
+#     sideArmor: 55
+#     rearArmor: 40
+#     underArmor: 40
+#     drawingRoutine: 4
+#     size: 1
+#     damageModifier: *ALLOY_DRONE_DAMAGE_MODIFIER
+#     loftempsSet: [ 3 ]
+# #END ALLOY DRONE TASER ARMOR
+# ##END ALLOY DRONES ARMORS
+# ###END AMORS
+
+
+###BEGIN UNITS
+units:
+
+##BEGIN DRONES
+#BEGIN DRONE SCOUT
+  - type: STR_DRONE_SCOUT
+    race: STR_DRONE_SCOUT
+    stats:
+      tu: 70
+      stamina: 110
+      health: 90
+      bravery: 110
+      reactions: 60
+      firing: 100
+      throwing: 0
+      strength: 50
+      psiStrength: 120
+      psiSkill: 0
+      melee: 0
+    armor: DRONE_SCOUT_ARMOR
+    standHeight: 6
+    kneelHeight: 6
+    value: 16
+    deathSound: 23
+    moveSound: 14
+#END DRONE SCOUT
+
+# #BEGIN DRONE SCANNER
+#   - type: STR_DRONE_SCANNER
+#     race: STR_DRONE_SCANNER
+#     stats:
+#       tu: 70
+#       stamina: 110
+#       health: 90
+#       bravery: 110
+#       reactions: 60
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: DRONE_SCANNER_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 16
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_DRONE_SCANNER_WEAPON
+# #END DRONE SCANNER
+
+# #BEGIN DRONE MEDIKIT
+#   - type: STR_DRONE_MEDIKIT
+#     race: STR_DRONE_MEDIKIT
+#     stats:
+#       tu: 70
+#       stamina: 110
+#       health: 90
+#       bravery: 110
+#       reactions: 60
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: DRONE_MEDIKIT_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 16
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_DRONE_MEDIKIT_WEAPON
+# #END DRONE MEDIKIT
+
+# #BEGIN DRONE TASER
+#   - type: STR_DRONE_TASER
+#     race: STR_DRONE_TASER
+#     stats:
+#       tu: 70
+#       stamina: 110
+#       health: 90
+#       bravery: 110
+#       reactions: 60
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: DRONE_TASER_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 16
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_DRONE_TASER_WEAPON
+#       - STR_DRONE_TASER_WEAPON_AMMO
+# #END DRONE TASER
+# ##END DRONES
+
+# ##BEGIN ALLOY DRONES
+# #BEGIN ALLOY DRONE SCOUT
+#   - type: STR_ALLOY_DRONE_SCOUT
+#     race: STR_ALLOY_DRONE_SCOUT
+#     stats:
+#       tu: 80
+#       stamina: 130
+#       health: 90
+#       bravery: 110
+#       reactions: 70
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: ALLOY_DRONE_SCOUT_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 20
+#     deathSound: 23
+#     moveSound: 14
+# #END ALLOY DRONE SCOUT
+
+# #BEGIN ALLOY DRONE SCANNER
+#   - type: STR_ALLOY_DRONE_SCANNER
+#     race: STR_ALLOY_DRONE_SCANNER
+#     stats:
+#       tu: 80
+#       stamina: 130
+#       health: 90
+#       bravery: 110
+#       reactions: 70
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: ALLOY_DRONE_SCANNER_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 20
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_ALLOY_DRONE_SCANNER_WEAPON
+# #END ALLOY DRONE SCANNER
+
+# #BEGIN ALLOY DRONE MEDIKIT
+#   - type: STR_ALLOY_DRONE_MEDIKIT
+#     race: STR_ALLOY_DRONE_MEDIKIT
+#     stats:
+#       tu: 80
+#       stamina: 130
+#       health: 90
+#       bravery: 110
+#       reactions: 70
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: ALLOY_DRONE_MEDIKIT_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 20
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_ALLOY_DRONE_MEDIKIT_WEAPON
+# #END ALLOY DRONE MEDIKIT
+
+# #BEGIN ALLOY DRONE TASER
+#   - type: STR_ALLOY_DRONE_TASER
+#     race: STR_ALLOY_DRONE_TASER
+#     stats:
+#       tu: 80
+#       stamina: 130
+#       health: 90
+#       bravery: 110
+#       reactions: 70
+#       firing: 100
+#       throwing: 0
+#       strength: 50
+#       psiStrength: 120
+#       psiSkill: 0
+#       melee: 0
+#     armor: ALLOY_DRONE_TASER_ARMOR
+#     standHeight: 6
+#     kneelHeight: 6
+#     value: 20
+#     deathSound: 23
+#     moveSound: 14
+#     builtInWeapons:
+#       - STR_ALLOY_DRONE_TASER_WEAPON
+#       - STR_ALLOY_DRONE_TASER_WEAPON_AMMO
+# #END ALLOY DRONE TASER
+# ##END ALLOY DRONES
+# ###END UNITS
+
+extraSprites:
+#BEGIN PROJECTILES
+  - type: Projectiles
+    width: 65
+    height: 6
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/BulletSprite_DroneTaser.png
+      
+#END PROJECTILES
+
+#BEGIN SMOKE
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/HitAnimation_DroneTaser.png
+#END SMOKE
+
+##BEGIN ARMOR SPRITES
+#BEGIN DRONE SCOUT
+  - type: DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneScout/SpriteSheet_DroneScout.png
+#END DRONE SCOUT
+
+#BEGIN DRONE SCANNER
+  - type: DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneScanner/SpriteSheet_DroneScanner.png
+#END DRONE SCANNER
+
+#BEGIN DRONE MEDIKIT
+  - type: DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneMedikit/SpriteSheet_DroneMedikit.png
+#END DRONE MEDIKIT
+
+#BEGIN DRONE TASER
+  - type: DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneTaser/SpriteSheet_DroneTaser.png
+#END DRONE TASER
+
+#BEGIN ALLOY DRONE SCOUT
+  - type: ALLOY_DRONE_SCOUT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/AlloyDroneScout/SpriteSheet_AlloyDroneScout.png
+#END ALLOY DRONE SCOUT
+
+#BEGIN ALLOY DRONE SCANNER
+  - type: ALLOY_DRONE_SCANNER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/AlloyDroneScanner/SpriteSheet_AlloyDroneScanner.png
+#END ALLOY DRONE SANNER
+
+#BEGIN ALLOY DRONE MEDIKIT
+  - type: ALLOY_DRONE_MEDIKIT.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/AlloyDroneMedikit/SpriteSheet_AlloyDroneMedikit.png
+#END ALLOY DRONE MEDITKIT
+
+#BEGIN ALLOY DRONE TASER
+  - type: ALLOY_DRONE_TASER.PCK
+    width: 256
+    height: 400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/AlloyDroneTaser/SpriteSheet_AlloyDroneTaser.png
+#END ALLOY DRONE TASER
+##END ARMOR SPRITES
+
+#BEGIN UFOPAEDIA
+  - type: SUPPORT_DRONES_UFOPAEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/UfoPaedia_SupportDrones.png
+#END UFOPAEDIA
+###END EXTRASPRITES
+
+
+###BEGIN EXTRASTRINGS
+extraStrings:
+
+##BEGIN en-US
+  - type: en-US
+    strings: &STRINGS_EN
+
+#BEGIN BRIEFINGS
+      STR_SUPPORT_DRONES: "Support Drones"
+      STR_SUPPORT_DRONES_UFOPAEDIA: "Compared with our first designs regarding automated heavy weapon platforms, these small robots aim for another goal on the battlefield. Reconnassaince and indirect troop support. They features a slick design and comprehensive armor, for their size. Intelligence gathering on the battlefield, will increase the battle capability of our troops greatly and will help us decrease our losses. Our engineers speculate that we can even equip them with some scanners or medical equipment."
+
+      STR_ALLOY_DRONE_ARMOR: "Alloy Drone Armor"
+      STR_ALLOY_DRONE_ARMOR_UFOPAEDIA: "Our engineers finally found a way to enhance our working procedures with alien alloys, to such a degree, that we are now able to produce our drones with an alloy armor. This will greatly increase their armor, speed and durability on the battlefield. We also were able to increase the intensity and capacity of each of the supplemental equipment. The drone scanner, medikit and taser now take less time to be operated in the field and also hold more charges. We hope that this advancement will allow to reduce our big casuality numbers further."
+#END BRIEFINGS
+
+#BEGIN DRONES
+      STR_DRONE_SCOUT_SMOKE_WEAPON: "Drone Smoke Launcher"
+      STR_DRONE_SMOKE_AMMO: "Drone Smoke Pellets"
+
+      STR_DRONE_SCOUT: "Drone/Scout"
+      STR_DRONE_SCOUT_CORPSE: "Damaged Drone/Scout"
+      STR_DRONE_SCOUT_REPAIR: "Repair Drone/Scout"
+      STR_DRONE_SCOUT_UFOPAEDIA: "This small rugged drone is designed for scout and reconnaissance. Although lacking in offensive weaponry or the armour of larger HWPs, it is fast and allows ground units to quickly scout out enemy positions and act as a spotter without risk to X-Com personnel. It also features a weak and range limited smoke launcher to help conceal itself and ground troops in open ground or from incoming fire."
+
+      STR_DRONE_SCANNER: "Drone/Scanner"
+      STR_DRONE_SCANNER_WEAPON: "Drone Motion Scanner"
+      STR_DRONE_SCANNER_CORPSE: "Damaged Drone/Scanner"
+      STR_DRONE_SCANNER_REPAIR: "Repair Drone/Scanner"
+      STR_DRONE_SCANNER_UFOPAEDIA: "To further increase the specialization on scouting and reconnaissance, we modified this scout drone with a slightly modified version of our handheld motion scanner, allowing it to be even more effective at detecting enemies on the battlefield and report their positions to our troops. Unfortunately, we had to reduce the armor quite a bit to fit the motion scanner and its computational equipment on the drone."
+
+      STR_DRONE_MEDIKIT: "Drone/Medikit"
+      STR_DRONE_MEDIKIT_WEAPON: "Drone Medikit"
+      STR_DRONE_MEDIKIT_CORPSE: "Damaged Drone/Medikit"
+      STR_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
+      STR_DRONE_MEDIKIT_UFOPAEDIA: "This scout drone was equipped with a slightly modified version of our handheld medikit, allowing it to treat friend or foe in even extremly dangerous situations. The drone itself can still be used for scouting purposes, but be aware of the fact that the armor had to be reduced due to the installment of the medical equipment. The drone can be used the same way as a soldier equipped with a medikit."
+
+      STR_DRONE_TASER: "Drone/Taser"
+      STR_DRONE_TASER_WEAPON: "Drone Taser"
+      STR_DRONE_TASER_WEAPON_AMMO: "Drone Taser Charges"
+      STR_DRONE_TASER_WEAPON_AMMO_X10: "Drone Taser Charges [x10]"
+      STR_DRONE_TASER_CORPSE: "Damaged Drone/Taser"
+      STR_DRONE_TASER_REPAIR: "Repair Drone/Taser"
+      STR_DRONE_TASER_UFOPAEDIA: "The purpose of this refitted scout drone is to capture alive aliens or neutralize civilians on the battlefield. The standard taser batteries available to us would unfortunately not supply it with a strong enough charge, the usage of some small quantities of the newly discovered Elerium-115 allows for a sufficient power supply. The armor of the drone had to be reduced, since the taser installment and its power packs take up quite some place."
+
+      STR_ALLOY_DRONE_SCOUT: "Alloy Drone/Scout"
+      STR_ALLOY_DRONE_SCOUT_CORPSE: "Damaged Alloy Drone/Scout"
+      STR_ALLOY_DRONE_SCOUT_REPAIR: "Repair AlLoy Drone/Scout"
+      STR_ALLOY_DRONE_SCOUT_UFOPAEDIA: "A scout drone, which was refitted with a alien alloy chassis. This process as costly as it is, allowed us to increase its speed and armor. Ensuring that it will now have a significantly increased survivability against the alien plasma weapons and all earthbound weaponry. Use it wisely to discover or distract your enemies. The smoke launcher grants it cover if needed making it a powerful scout."
+
+      STR_ALLOY_DRONE_SCANNER: "Alloy Drone/Scanner"
+      STR_ALLOY_DRONE_SCANNER_WEAPON: "Alloy Drone Motion Scanner"
+      STR_ALLOY_DRONE_SCANNER_CORPSE: "Damaged Alloy Drone/Scanner"
+      STR_ALLOY_DRONE_SCANNER_REPAIR: "Repair Alloy Drone/Scanner"
+      STR_ALLOY_DRONE_SCANNER_UFOPAEDIA: "The refitting of the scanner drones with alloy armor has resulted in a much more durable version of them. We were able to compensate for some of the reduced armor and the motion scanner computing system is now way faster. Properly used our soldiers should be able to put these to a very effective use when fighting aliens."
+
+      STR_ALLOY_DRONE_MEDIKIT: "Alloy Drone/Medikit"
+      STR_ALLOY_DRONE_MEDIKIT_WEAPON: "Alloy Drone Medikit"
+      STR_ALLOY_DRONE_MEDIKIT_CORPSE: "Damaged Alloy Drone/Medikit"
+      STR_ALLOY_DRONE_MEDIKIT_REPAIR: "Repair Drone/Medikit"
+      STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA: "Equiping the former drones with alloy armor allowed also the upgrade the medikit support design, it now holds more medical equipment to treat friend our foe in the need of medical aid. A redesign of the diagnose and applicatio module also allows for a faster use. Lets hope we can keep our soldiers better alive."
+
+      STR_ALLOY_DRONE_TASER: "Alloy Drone/Taser"
+      STR_ALLOY_DRONE_TASER_WEAPON: "Alloy Drone Taser"
+      STR_ALLOY_DRONE_TASER_WEAPON_AMMO: "Alloy Drone Taser Charges"
+      STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10: "Enhanced Drone Taser Charges [x10]"
+      STR_ALLOY_DRONE_TASER_CORPSE: "Damaged Alloy Drone/Taser"
+      STR_ALLOY_DRONE_TASER_REPAIR: "Repair Alloy Drone/Taser"
+      STR_ALLOY_DRONE_TASER_UFOPAEDIA: "The upgraded taser drone is more then optimal in capturing aliens alive or incapacitate civilians in dangerous environments. Refitted with alloy armor allowed to install a bigger power source and taser module. This allows a even bigger range and more charges, allowing us to even take out most of the aliens with ease."
+#END DRONES
+##END en-US
+
+##BEGIN en-GB
+  - type: en-GB
+    strings: *STRINGS_EN
+##END en-GB
+###END EXTRASTRINGS
+
+
+###BEGIN UFOPAEDIA
+ufopaedia:
+  - id: STR_SUPPORT_DRONES
+    requires: STR_SUPPORT_DRONES
+    type_id: 7
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    image_id: SUPPORT_DRONES_UFOPAEDIA.SPK
+    text: STR_SUPPORT_DRONES_UFOPAEDIA
+    text_width: 158
+    listOrder: 1190
+  - id: STR_ALLOY_DRONE_ARMOR
+    requires: STR_ALLOY_DRONE_ARMOR
+    type_id: 8
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_ALLOY_DRONE_ARMOR_UFOPAEDIA
+    listOrder: 1191
+
+##BEGIN DRONES
+#BEGIN DRONE SCOUT
+  - id: STR_DRONE_SCOUT
+    requires: STR_SUPPORT_DRONES
+    type_id: 3
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_DRONE_SCOUT_UFOPAEDIA
+    weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+    listOrder: 1192
+#END DRONE SCOUT
+
+# #BEGIN DRONE SCANNER
+#   - id: STR_DRONE_SCANNER
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     text: STR_DRONE_SCANNER_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1193
+# #END DRONE SCANNER
+
+# #BEGIN DRONE MEDIKIT
+#   - id: STR_DRONE_MEDIKIT
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     text: STR_DRONE_MEDIKIT_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1194
+# #END DRONE MEDIKIT
+
+# #BEGIN DRONE TASER
+#   - id: STR_DRONE_TASER
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     text: STR_DRONE_TASER_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1195
+# #END DRONE TASER
+# ##END DRONE
+
+# ##BEGIN ALLOY DRONES
+# #BEGIN ALLOY DRONE SCOUT
+#   - id: STR_ALLOY_DRONE_SCOUT
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ALLOY_DRONE_ARMOR
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     text: STR_ALLOY_DRONE_SCOUT_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1196
+# #END ALLOY DRONE SCOUT
+
+# #BEGIN ALLOY DRONE SCANNER
+#   - id: STR_ALLOY_DRONE_SCANNER
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     text: STR_ALLOY_DRONE_SCANNER_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1197
+# #END ALLOY DRONE SCANNER
+
+# #BEGIN ALLOY DRONE MEDIKIT
+#   - id: STR_ALLOY_DRONE_MEDIKIT
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     text: STR_ALLOY_DRONE_MEDIKIT_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1198
+# #END ALLOY DRONE MEDIKIT
+
+# #BEGIN ALLOY DRONE TASER
+#   - id: STR_ALLOY_DRONE_TASER
+#     type_id: 3
+#     section: STR_HEAVY_WEAPONS_PLATFORMS
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     text: STR_ALLOY_DRONE_TASER_UFOPAEDIA
+#     weapon: STR_DRONE_SCOUT_SMOKE_WEAPON
+#     listOrder: 1199
+#END ALLOY DRONE TASER
+##END DRONES
+###END UFOPAEDIA
+
+
+# ##BEGIN RESEARCH
+# research:
+#   - name: STR_SUPPORT_DRONES
+#     cost: 100
+#     points: 15
+#     listOrder: 1
+#   - name: STR_ALLOY_DRONE_ARMOR
+#     cost: 220
+#     points: 30
+#     dependencies:
+#       - STR_POWER_SUIT
+#     listOrder: 2
+# ##END RESEARCH
+
+
+# ##BEGIN MANUFACTURE
+# manufacture:
+
+# #BEGIN DRONE SCOUT
+#   - name: STR_DRONE_SCOUT_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#     space: 10
+#     time: 200
+#     cost: 92500
+#     requiredItems:
+#       STR_DRONE_SCOUT_CORPSE: 1
+#     producedItems:
+#       STR_DRONE_SCOUT: 1
+#     listOrder: 401
+# #END DRONE SCOUT
+
+# #BEGIN DRONE SCANNER
+#   - name: STR_DRONE_SCANNER
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     space: 10
+#     time: 400
+#     cost: 235000
+#     requiredItems:
+#       STR_MOTION_SCANNER: 1
+#     producedItems:
+#       STR_DRONE_SCANNER: 1
+#     listOrder: 401
+#   - name: STR_DRONE_SCANNER_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     space: 10
+#     time: 200
+#     cost: 117500
+#     requiredItems:
+#       STR_DRONE_SCANNER_CORPSE: 1
+#     producedItems:
+#       STR_DRONE_SCANNER: 1
+#     listOrder: 402
+# #END DRONE SCANNER
+
+# #BEGIN DRONE MEDIKIT
+#   - name: STR_DRONE_MEDIKIT
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     space: 10
+#     time: 400
+#     cost: 235000
+#     requiredItems:
+#       STR_MEDI_KIT: 1
+#     producedItems:
+#       STR_DRONE_MEDIKIT: 1
+#     listOrder: 403
+#   - name: STR_DRONE_MEDIKIT_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     space: 10
+#     time: 200
+#     cost: 117500
+#     requiredItems:
+#       STR_DRONE_MEDIKIT_CORPSE: 1
+#     producedItems:
+#       STR_DRONE_MEDIKIT: 1
+#     listOrder: 404
+# #END DRONE MEDIKIT
+
+# #BEGIN DRONE TASER
+#   - name: STR_DRONE_TASER
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 10
+#     time: 400
+#     cost: 235000
+#     requiredItems:
+#       STR_ELERIUM_115: 2
+#     producedItems:
+#       STR_DRONE_TASER: 1
+#     listOrder: 405
+#   - name: STR_DRONE_TASER_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 10
+#     time: 200
+#     cost: 117500
+#     requiredItems:
+#       STR_DRONE_TASER_CORPSE: 1
+#       STR_ELERIUM_115: 1
+#     producedItems:
+#       STR_DRONE_TASER: 1
+#     listOrder: 406
+#   - name: STR_DRONE_TASER_WEAPON_AMMO_X10
+#     category: STR_HWP_CANNON_SHELLS
+#     requires:
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 2
+#     time: 40
+#     cost: 2000
+#     requiredItems:
+#       STR_ELERIUM_115: 1
+#     producedItems:
+#         STR_DRONE_TASER_WEAPON_AMMO: 10
+#     listOrder: 406
+# #END DRONE TASER
+
+# #BEGIN ALLOY DRONE SCOUT
+#   - name: STR_ALLOY_DRONE_SCOUT
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#     space: 10
+#     time: 600
+#     cost: 255000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 4
+#     producedItems:
+#       STR_ALLOY_DRONE_SCOUT: 1
+#     listOrder: 407
+#   - name: STR_ALLOY_DRONE_SCOUT_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#     space: 10
+#     time: 300
+#     cost: 127500
+#     requiredItems:
+#       STR_ALLOY_DRONE_SCOUT_CORPSE: 1
+#       STR_ALIEN_ALLOYS: 2
+#     producedItems:
+#       STR_ALLOY_DRONE_SCOUT: 1
+#     listOrder: 407
+# #END ALLOY DRONE SCOUT
+
+# #BEGIN ALLOY DRONE SCANNER
+#   - name: STR_ALLOY_DRONE_SCANNER
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     space: 10
+#     time: 600
+#     cost: 255000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 4
+#       STR_MOTION_SCANNER: 1
+#     producedItems:
+#       STR_ALLOY_DRONE_SCANNER: 1
+#     listOrder: 408
+#   - name: STR_ALLOY_DRONE_SCANNER_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MOTION_SCANNER
+#     space: 10
+#     time: 300
+#     cost: 127500
+#     requiredItems:
+#       STR_ALLOY_DRONE_SCANNER_CORPSE: 1
+#       STR_ALIEN_ALLOYS: 2
+#     producedItems:
+#       STR_ALLOY_DRONE_SCANNER: 1
+#     listOrder: 409
+# #END ALLOY DRONE SCANNER
+
+# #BEGIN ALLOY DRONE MEDIKIT
+#   - name: STR_ALLOY_DRONE_MEDIKIT
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     space: 10
+#     time: 600
+#     cost: 255000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 4
+#       STR_MEDI_KIT: 1
+#     producedItems:
+#       STR_ALLOY_DRONE_MEDIKIT: 1
+#     listOrder: 410
+#   - name: STR_ALLOY_DRONE_MEDIKIT_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_MEDI_KIT
+#     space: 10
+#     time: 300
+#     cost: 127500
+#     requiredItems:
+#       STR_ALLOY_DRONE_MEDIKIT_CORPSE: 1
+#       STR_ALIEN_ALLOYS: 2
+#     producedItems:
+#       STR_ALLOY_DRONE_MEDIKIT: 1
+#     listOrder: 411
+# #END ALLOY DRONE SCANNER
+
+# #BEGIN ALLOY DRONE TASER
+#   - name: STR_ALLOY_DRONE_TASER
+#     category: STR_HEAVY_WEAPONS_PLATFORM
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 10
+#     time: 600
+#     cost: 255000
+#     requiredItems:
+#       STR_ALIEN_ALLOYS: 4
+#       STR_ELERIUM_115: 4
+#     producedItems:
+#       STR_ALLOY_DRONE_TASER: 1
+#     listOrder: 412
+#   - name: STR_ALLOY_DRONE_TASER_REPAIR
+#     category: STR_MAINTENANCE
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 10
+#     time: 300
+#     cost: 127500
+#     requiredItems:
+#       STR_ALLOY_DRONE_TASER_CORPSE: 1
+#       STR_ALIEN_ALLOYS: 2
+#       STR_ELERIUM_115: 2
+#     producedItems:
+#       STR_ALLOY_DRONE_TASER: 1
+#     listOrder: 413
+#   - name: STR_ALLOY_DRONE_TASER_WEAPON_AMMO_X10
+#     category: STR_HWP_CANNON_SHELLS
+#     requires:
+#       - STR_ALLOY_DRONE_ARMOR
+#       - STR_SUPPORT_DRONES
+#       - STR_ELERIUM_115
+#     space: 2
+#     time: 40
+#     cost: 4000
+#     requiredItems:
+#       STR_ELERIUM_115: 2
+#     producedItems:
+#         STR_ALLOY_DRONE_TASER_WEAPON_AMMO: 10
+#     listOrder: 414
+# #END ALLOY DRONE TASER

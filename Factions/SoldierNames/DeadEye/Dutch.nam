@@ -1,0 +1,68 @@
+# A good article about dutch firstnames can be found at
+# http://www.historischnieuwsblad.nl/nl/artikel/5849/voornamen-in-nederland.html
+lookWeights:
+  - 45
+  - 45
+  - 5
+  - 5
+maleFirst:
+  - Jan
+  - Piet
+  - Henk
+  - Peter
+  - Hans
+  - Kees
+  - Wim
+  - Cor
+  - Gerard
+  - Gerrit
+  - Johan
+  - Rudi
+femaleFirst:
+  - Annie (DEYE)
+  - Emma (DEYE)
+  - Marietje (DEYE)
+  - Mien (DEYE)
+  - Willie (DEYE)
+  - Eva (DEYE)
+  - Corrie (DEYE)
+  - Lenie (DEYE)
+  - Greetje (DEYE)
+  - Hanna (DEYE)
+  - Sofie (DEYE)
+  - Ansje (DEYE)
+maleLast:
+  - de Jong (DEYE)
+  - Jansen (DEYE)
+  - de Vries (DEYE)
+  - van de Berg (DEYE)
+  - van Dijk (DEYE)
+  - Bakker (DEYE)
+  - Janssen (DEYE)
+  - Visser (DEYE)
+  - Smit (DEYE)
+  - Meyer (DEYE)
+  - de Boer (DEYE)
+  - Mulder (DEYE)
+  - de Groot (DEYE)
+  - Bos (DEYE)
+  - Vos (DEYE)
+  - Peters (DEYE)
+  - Hendriks (DEYE)
+  - van Leeuwen (DEYE)
+  - Dekker (DEYE)
+  - Brouwer (DEYE)
+  - de Wit (DEYE)
+  - Dijkstra (DEYE)
+  - Smits (DEYE)
+  - de Graaf (DEYE)
+  - van der Meer (DEYE)
+  - van der Linden (DEYE)
+  - Kok (DEYE)
+  - Jacobs (DEYE)
+  - de Haan (DEYE)
+  - Vermeulen (DEYE)
+  - van den Heuvel (DEYE)
+  - van der Veen (DEYE)
+  - van den Broek (DEYE)
+  - de Bruyn  (DEYE)

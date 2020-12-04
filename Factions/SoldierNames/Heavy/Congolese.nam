@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Aimé Dorian
+  - Alban
+  - Ange
+  - Annoud Prestige
+  - Appollinaire
+  - Arcel
+  - Archange
+  - Aristide
+  - Armand
+  - Arthur
+  - Awax
+  - Baurion
+  - Ben
+  - Benjamin
+  - Bensadaa
+  - Bonte
+  - Boris
+  - Bouse
+  - Calice
+  - Céléstin
+  - Chatel
+  - Cherald
+  - Cherubin
+  - Chriss
+  - Christian
+  - Claude
+  - Davy
+  - Dbacom
+  - Donnel
+  - Dorian
+  - Dos
+  - Dulcine
+  - Eden
+  - Edvin
+  - Elyse
+  - Eudes
+  - Evrard
+  - Fred
+  - Fresnel
+  - Gata
+  - Geslin
+  - Giordani
+  - Guychel
+  - Harold
+  - Heldora
+  - Hilde
+  - Japhet
+  - Joad Louad
+  - Jules
+  - Julle
+  - Karome
+  - Leonce
+  - Lima
+  - Lionel
+  - Lucien
+  - Mack
+  - Marzin
+  - Mbayo
+  - Milan
+  - Murphy
+  - Oudry
+  - Pascal
+  - Paterne
+  - Patrick
+  - Prevner
+  - Prince
+  - Ray
+  - Régis
+  - Resnik
+  - Rishi
+  - Rodrigue
+  - Rudolf
+  - Sajila
+  - Severin
+  - Shabani
+  - Stanis
+  - Stephane
+  - Sylvio
+  - Thierry
+  - Van Carrel
+  - Yohan
+femaleFirst:
+  - Arich
+  - Arrielle
+  - Ashley
+  - Aubierge
+  - Aude
+  - Belcha
+  - Belvie
+  - Brunelle
+  - Capricia
+  - Carole
+  - Cecile
+  - Celvie
+  - Chanfrelle
+  - Christelle
+  - Christiane
+  - Clavidia
+  - Darlène
+  - Deborah
+  - Diche
+  - Dina
+  - Docile
+  - Djany
+  - Emmanuelle
+  - Estelle
+  - Fallone
+  - Fernande
+  - Florèse
+  - Gaelle
+  - Garcia
+  - Geanna
+  - Giovanna
+  - Gloire
+  - Grace
+  - Granie
+  - Jaelle
+  - Jannie
+  - Jeanny
+  - Jelvie
+  - Jessica
+  - Jen
+  - Jodrey
+  - Jolienne
+  - Judith
+  - Julie
+  - Jupsie
+  - Keicha
+  - Liu
+  - Lys
+  - Melaine
+  - Merveille
+  - Michelle
+  - Parfaite
+  - Patrique
+  - Polly
+  - Privel
+  - Lirna
+  - Madelenne
+  - Manu
+  - Mary
+  - Mbeko
+  - Milyne
+  - Monia
+  - Nardelie
+  - Nathalie
+  - Nel
+  - Nicia
+  - Nuptia
+  - Opportune
+  - Patricia
+  - Pitchou
+  - Raan-sady
+  - Reine
+  - Rose
+  - Rosa
+  - Rudelle
+  - Sabrina
+  - Sagely
+  - Sidorelle
+  - Sony
+  - Staelle
+  - Synthyche
+  - Tan
+  - Vanessa
+  - Winnie
+  - Yornella
+maleLast:
+  - Akindele (HEAVY)
+  - Alphonse (HEAVY)
+  - Anaclet (HEAVY)
+  - Augustin (HEAVY)
+  - Aurelie (HEAVY)
+  - Axele (HEAVY)
+  - Badibanga (HEAVY)
+  - Bakaji (HEAVY)
+  - Bakwamba (HEAVY)
+  - Bangamba (HEAVY)
+  - Bantu (HEAVY)
+  - Biampata (HEAVY)
+  - Bilenga (HEAVY)
+  - Bilenge (HEAVY)
+  - Bilengi (HEAVY)
+  - Bilonda (HEAVY)
+  - Bilumbu (HEAVY)
+  - Bitala (HEAVY)
+  - Bitelu (HEAVY)
+  - Biumba (HEAVY)
+  - Buabu (HEAVY)
+  - Buikalu (HEAVY)
+  - Bukaka (HEAVY)
+  - Buluba (HEAVY)
+  - Busasa (HEAVY)
+  - Buta (HEAVY)
+  - Dikembe (HEAVY)
+  - Dikengu (HEAVY)
+  - Dikiyu (HEAVY)
+  - Dishi (HEAVY)
+  - Diyoka (HEAVY)
+  - Evariste (HEAVY)
+  - Felicien (HEAVY)
+  - Francky (HEAVY)
+  - Francois (HEAVY)
+  - Gabriel (HEAVY)
+  - Ganeramba (HEAVY)
+  - Gaston (HEAVY)
+  - Gilbert (HEAVY)
+  - Gourmand (HEAVY)
+  - Henri (HEAVY)
+  - Honore (HEAVY)
+  - Ilunga (HEAVY)
+  - Jean (HEAVY)
+  - Joseph (HEAVY)
+  - Justin (HEAVY)
+  - Kabala (HEAVY)
+  - Kabamba (HEAVY)
+  - Kabanda (HEAVY)
+  - Kabanga (HEAVY)
+  - Kabasela (HEAVY)
+  - Kabemba (HEAVY)
+  - Kabeya (HEAVY)
+  - Kaboka (HEAVY)
+  - Kabombo (HEAVY)
+  - Kabongo (HEAVY)
+  - Kabukala (HEAVY)
+  - Kabunda (HEAVY)
+  - Kabundangoji (HEAVY)
+  - Kabungama (HEAVY)
+  - Kabwa (HEAVY)
+  - Kabwaya (HEAVY)
+  - Kadilu (HEAVY)
+  - Kadimu (HEAVY)
+  - Kajangala (HEAVY)
+  - Kajila (HEAVY)
+  - Kajimba (HEAVY)
+  - Kakokopo (HEAVY)
+  - Kalala (HEAVY)
+  - Kalanga (HEAVY)
+  - Kalawanda (HEAVY)
+  - Kalengedi (HEAVY)
+  - Kaleuka (HEAVY)
+  - Kalombo (HEAVY)
+  - Kalonji (HEAVY)
+  - Kalubi (HEAVY)
+  - Kalunguji (HEAVY)
+  - Kamanga (HEAVY)
+  - Kambaja (HEAVY)
+  - Kambala (HEAVY)
+  - Kamulete (HEAVY)
+  - Kamwania (HEAVY)
+  - Kanda (HEAVY)
+  - Kankolongo (HEAVY)
+  - Kankonda (HEAVY)
+  - Kanku (HEAVY)
+  - Kanungu (HEAVY)
+  - Kanyandu (HEAVY)
+  - Kanyinda (HEAVY)
+  - Kapinga (HEAVY)
+  - Kapongo (HEAVY)
+  - Kasala (HEAVY)
+  - Kasampu (HEAVY)
+  - Kasenga (HEAVY)
+  - Kasongo (HEAVY)
+  - Kasuku (HEAVY)
+  - Kasulu (HEAVY)
+  - Kaswaswa (HEAVY)
+  - Katamba (HEAVY)
+  - Katanda (HEAVY)
+  - Katanga (HEAVY)
+  - Katekelayi (HEAVY)
+  - Katuku (HEAVY)
+  - Katundu (HEAVY)
+  - Kayemba (HEAVY)
+  - Kayembe (HEAVY)
+  - Kayowa (HEAVY)
+  - Kilunsila (HEAVY)
+  - Kimba (HEAVY)
+  - Kishi (HEAVY)
+  - Koloyi (HEAVY)
+  - Komba (HEAVY)
+  - Konji (HEAVY)
+  - Kulondi (HEAVY)
+  - Kutemba (HEAVY)
+  - Lala (HEAVY)
+  - Lemba (HEAVY)
+  - Lengela (HEAVY)
+  - Leonard (HEAVY)
+  - Lisa (HEAVY)
+  - Londa (HEAVY)
+  - Longa (HEAVY)
+  - Luadia (HEAVY)
+  - Luamba (HEAVY)
+  - Luangoyi (HEAVY)
+  - Lubanga (HEAVY)
+  - Lubanza (HEAVY)
+  - Lubuya (HEAVY)
+  - Lukodi (HEAVY)
+  - Lukoji (HEAVY)
+  - Lukusa (HEAVY)
+  - Luluabourg (HEAVY)
+  - Lumbala (HEAVY)
+  - Lumbombo (HEAVY)
+  - Lupenzu (HEAVY)
+  - Lusamba (HEAVY)
+  - Lutexa (HEAVY)
+  - Lutonga (HEAVY)
+  - Lutundula (HEAVY)
+  - Mabele (HEAVY)
+  - Mabixa (HEAVY)
+  - Malumba (HEAVY)
+  - Mampuya (HEAVY)
+  - Manyangana (HEAVY)
+  - Martin (HEAVY)
+  - Matamba (HEAVY)
+  - Matembela (HEAVY)
+  - Mayi (HEAVY)
+  - Mbayi (HEAVY)
+  - Mbimbi (HEAVY)
+  - Mbiya (HEAVY)
+  - Mbiyamuenza (HEAVY)
+  - Mbiye (HEAVY)
+  - Mbombo (HEAVY)
+  - Mbuyamba (HEAVY)
+  - Mbuyangudi (HEAVY)
+  - Mbuyi (HEAVY)
+  - Mbwaya (HEAVY)
+  - Meso (HEAVY)
+  - Meta (HEAVY)
+  - Mfunyi (HEAVY)
+  - Miabi (HEAVY)
+  - Mianbabu (HEAVY)
+  - Milabi (HEAVY)
+  - Misenga (HEAVY)
+  - Moise (HEAVY)
+  - Mokola (HEAVY)
+  - Moyo (HEAVY)
+  - Mpala (HEAVY)
+  - Mpanda (HEAVY)
+  - Mpoloto (HEAVY)
+  - Mpoyi (HEAVY)
+  - Mpuka (HEAVY)
+  - Mpunga (HEAVY)
+  - Mpungapoyi (HEAVY)
+  - Muadi (HEAVY)
+  - Muamba (HEAVY)
+  - Muanza (HEAVY)
+  - Mubenga (HEAVY)
+  - Mubiayi (HEAVY)
+  - Mubimalu (HEAVY)
+  - Mubitende (HEAVY)
+  - Mudiayi (HEAVY)
+  - Mudipuekesha (HEAVY)
+  - Mufika (HEAVY)
+  - Mufonkola (HEAVY)
+  - Mufuansanyi (HEAVY)
+  - Mujinga (HEAVY)
+  - Mukadi (HEAVY)
+  - Mukala (HEAVY)
+  - Mukanda (HEAVY)
+  - Mukanya (HEAVY)
+  - Mukendi (HEAVY)
+  - Mukenga (HEAVY)
+  - Mukinda (HEAVY)
+  - Mukuma (HEAVY)
+  - Mulaja (HEAVY)
+  - Mulanga (HEAVY)
+  - Mulelalupu (HEAVY)
+  - Mulenda (HEAVY)
+  - Mulombo (HEAVY)
+  - Mulopo (HEAVY)
+  - Mulopue (HEAVY)
+  - Mulowaluendu (HEAVY)
+  - Muluila (HEAVY)
+  - Mulumba (HEAVY)
+  - Mundamunya (HEAVY)
+  - Munsense (HEAVY)
+  - Muntshiamba (HEAVY)
+  - Munyampala (HEAVY)
+  - Mupompa (HEAVY)
+  - Mupoyi (HEAVY)
+  - Musalu (HEAVY)
+  - Musebela (HEAVY)
+  - Mushikila (HEAVY)
+  - Mushiya (HEAVY)
+  - Musuamba (HEAVY)
+  - Mutombo (HEAVY)
+  - Muya (HEAVY)
+  - Mvita (HEAVY)
+  - Mwamba (HEAVY)
+  - Mwanankesa (HEAVY)
+  - Mwenza (HEAVY)
+  - Mwepu (HEAVY)
+  - Ndanda (HEAVY)
+  - Ndaya (HEAVY)
+  - Ndelela (HEAVY)
+  - Ngalula (HEAVY)
+  - Ngandu (HEAVY)
+  - Ngeleka (HEAVY)
+  - Ngelema (HEAVY)
+  - Ngomba (HEAVY)
+  - Ngonga (HEAVY)
+  - Ngoyi (HEAVY)
+  - Ninette (HEAVY)
+  - Nkanda (HEAVY)
+  - Nkitabungi (HEAVY)
+  - Nkomo (HEAVY)
+  - Nkongolo (HEAVY)
+  - Noel (HEAVY)
+  - Norbert (HEAVY)
+  - Nseya (HEAVY)
+  - Nshila (HEAVY)
+  - Nshinga (HEAVY)
+  - Nsombamanya (HEAVY)
+  - Nsudila (HEAVY)
+  - Ntalaja (HEAVY)
+  - Ntambwe (HEAVY)
+  - Ntita (HEAVY)
+  - Ntombolo (HEAVY)
+  - Ntondolo (HEAVY)
+  - Ntumba (HEAVY)
+  - Nyanzala (HEAVY)
+  - Nyenyempa (HEAVY)
+  - Nyoka (HEAVY)
+  - Nzambi (HEAVY)
+  - Nzangula (HEAVY)
+  - Nzemba (HEAVY)
+  - Odia (HEAVY)
+  - Phillipe (HEAVY)
+  - Pierre (HEAVY)
+  - Rachelle (HEAVY)
+  - Samuela (HEAVY)
+  - Shaddai (HEAVY)
+  - Stella (HEAVY)
+  - Talatala (HEAVY)
+  - Thomas (HEAVY)
+  - Tshanda (HEAVY)
+  - Tshiabu (HEAVY)
+  - Tshialu (HEAVY)
+  - Tshiamanina (HEAVY)
+  - Tshiambi (HEAVY)
+  - Tshiambula (HEAVY)
+  - Tshiambwaya (HEAVY)
+  - Tshianzambonga (HEAVY)
+  - Tshibaka (HEAVY)
+  - Tshibala (HEAVY)
+  - Tshibalabala (HEAVY)
+  - Tshibangu (HEAVY)
+  - Tshibelu (HEAVY)
+  - Tshibola (HEAVY)
+  - Tshibwabwa (HEAVY)
+  - Tshidibi (HEAVY)
+  - Tshidindu (HEAVY)
+  - Tshidingi (HEAVY)
+  - Tshiebelela (HEAVY)
+  - Tshiepela (HEAVY)
+  - Tshifunka (HEAVY)
+  - Tshikondo (HEAVY)
+  - Tshikulu (HEAVY)
+  - Tshikumini (HEAVY)
+  - Tshilenga (HEAVY)
+  - Tshimanga (HEAVY)
+  - Tshimbi (HEAVY)
+  - Tshimbombo (HEAVY)
+  - Tshimini (HEAVY)
+  - Tshiminyi (HEAVY)
+  - Tshimowa (HEAVY)
+  - Tshimpaka (HEAVY)
+  - Tshimwena (HEAVY)
+  - Tshipanda (HEAVY)
+  - Tshipayayi (HEAVY)
+  - Tshisekedi (HEAVY)
+  - Tshiswaka (HEAVY)
+  - Tshitambala (HEAVY)
+  - Tshitoko (HEAVY)
+  - Tshiula (HEAVY)
+  - Tshiyola (HEAVY)
+  - Tuendela (HEAVY)
+  - Yabukalanga (HEAVY)
+  - Yamba (HEAVY)
+  - Yampanya (HEAVY)
+  - Yowa (HEAVY)

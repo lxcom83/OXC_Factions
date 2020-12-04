@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Aaron
+  - Adan
+  - Alberto
+  - Alejandro
+  - Alfonso
+  - Andres
+  - Angel
+  - Antonio
+  - Augusto
+  - Benedicto
+  - Benjamin
+  - Carlos
+  - Daniel
+  - David
+  - Diego
+  - Eduardo
+  - Elias
+  - Eliseo
+  - Enrique
+  - Emanuel
+  - Eric
+  - Ernesto
+  - Esteban
+  - Fabio
+  - Felipe
+  - Felix
+  - Fernando
+  - Fidel
+  - Fortunato
+  - Francisco
+  - Gabriel
+  - Gerardo
+  - Hugo
+  - Humberto
+  - Ismael
+  - Ivan
+  - Jacobo
+  - Jaime
+  - Javier
+  - Jesus
+  - Joel
+  - Jorge
+  - Jose
+  - Juan
+  - Julian
+  - Leo
+  - Leonardo
+  - Lucas
+  - Luis
+  - Manuel
+  - Marco
+  - Marcos
+  - Martin
+  - Matias
+  - Mateo
+  - Maximiliano
+  - Miguel
+  - Nataniel
+  - Nicolas
+  - Noe
+  - Octavio
+  - Orlando
+  - Oscar
+  - Pablo
+  - Pedro
+  - Rafael
+  - Ramon
+  - Raul
+  - Rene
+  - Ricardo
+  - Roberto
+  - Rolando
+  - Salvador
+  - Santiago
+  - Sebastian
+  - Sergio
+  - Silvestre
+  - Stefano
+  - Teodoro
+  - Tito
+  - Tomas
+  - Valentin
+  - Vicente
+  - Victor
+  - Xavier
+femaleFirst:
+  - Adriana
+  - Aida
+  - Alejandra
+  - Alexia
+  - Alma
+  - Ana
+  - Angela
+  - Angelica
+  - Aurora
+  - Barbara
+  - Bianca
+  - Brenda
+  - Carina
+  - Carla
+  - Carolina
+  - Casandra
+  - Catalina
+  - Claudia
+  - Cristina
+  - Dolores
+  - Dora
+  - Elena
+  - Eliana
+  - Elvira
+  - Ema
+  - Esmeralda
+  - Eva
+  - Felicia
+  - Fiona
+  - Gabriela
+  - Gloria
+  - Guadalupe
+  - Ines
+  - Isabel
+  - Jesica
+  - Juana
+  - Laura
+  - Lidia
+  - Liliana
+  - Linda
+  - Lisa
+  - Lorena
+  - Magdalena
+  - Marcela
+  - Margarita
+  - Maria
+  - Mariana
+  - Marisol
+  - Monica
+  - Nadia
+  - Nancy
+  - Natalia
+  - Noemi
+  - Olivia
+  - Patricia
+  - Paulina
+  - Raquel
+  - Rosa
+  - Selena
+  - Sofia
+  - Sonia
+  - Talia
+  - Tatiana
+  - Teresa
+  - Vanesa
+  - Veronica
+  - Victoria
+  - Yolanda
+maleLast:
+  - Aguilar (BRAW)
+  - Alba (BRAW)
+  - Alonso (BRAW)
+  - Alvarado (BRAW)
+  - Alvarez (BRAW)
+  - Avila (BRAW)
+  - Calderon (BRAW)
+  - Campos (BRAW)
+  - Cardenas (BRAW)
+  - Castilla (BRAW)
+  - Cervantes (BRAW)
+  - Chavez (BRAW)
+  - Cortez (BRAW)
+  - Cruz (BRAW)
+  - De La Cruz (BRAW)
+  - De La Rosa (BRAW)
+  - De Soto (BRAW)
+  - Diaz (BRAW)
+  - Dominguez (BRAW)
+  - Estrada (BRAW)
+  - Falcon (BRAW)
+  - Fernandez (BRAW)
+  - Figueroa (BRAW)
+  - Flores (BRAW)
+  - Fuentes (BRAW)
+  - Garcia (BRAW)
+  - Garza (BRAW)
+  - Gomez (BRAW)
+  - Gonzalez (BRAW)
+  - Guerrero (BRAW)
+  - Gutierrez (BRAW)
+  - Guzman (BRAW)
+  - Hernandez (BRAW)
+  - Herrera (BRAW)
+  - Jimenez (BRAW)
+  - Juarez (BRAW)
+  - Leon (BRAW)
+  - Lima (BRAW)
+  - Lopez (BRAW)
+  - Loya (BRAW)
+  - Lucio (BRAW)
+  - Luna (BRAW)
+  - Martinez (BRAW)
+  - Medina (BRAW)
+  - Mejia (BRAW)
+  - Mendez (BRAW)
+  - Mendoza (BRAW)
+  - Miranda (BRAW)
+  - Montero (BRAW)
+  - Montes (BRAW)
+  - Morales (BRAW)
+  - Moreno (BRAW)
+  - Munoz (BRAW)
+  - Navarro (BRAW)
+  - Nunez (BRAW)
+  - Ortega (BRAW)
+  - Ortiz (BRAW)
+  - Pacheco (BRAW)
+  - Pascual (BRAW)
+  - Perez (BRAW)
+  - Ramirez (BRAW)
+  - Ramos (BRAW)
+  - Reyes (BRAW)
+  - Rios (BRAW)
+  - Rivera (BRAW)
+  - Rodriguez (BRAW)
+  - Romero (BRAW)
+  - Rosa (BRAW)
+  - Ruiz (BRAW)
+  - Sanchez (BRAW)
+  - Sandoval (BRAW)
+  - Santa Cruz (BRAW)
+  - Santana (BRAW)
+  - Santiago (BRAW)
+  - Santos (BRAW)
+  - Sosa (BRAW)
+  - Suarez (BRAW)
+  - Tapia (BRAW)
+  - Torres (BRAW)
+  - Trejo (BRAW)
+  - Trevino (BRAW)
+  - Trujillo (BRAW)
+  - Valdez (BRAW)
+  - Vasquez (BRAW)
+  - Vega (BRAW)
+  - Velasquez (BRAW)

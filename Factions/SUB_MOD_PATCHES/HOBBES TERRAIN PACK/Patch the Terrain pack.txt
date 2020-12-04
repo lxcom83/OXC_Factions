@@ -1,0 +1,10 @@
+This is a quick hack to allow the Terrain Pack maps to add more Variety to OXC- Factions.
+
+How to:
+1) Download Hobbes Terrain pack from here:https://openxcom.mod.io/terrain-pack
+2) Extract the Mod to the User/Mod/ folder as per normal.
+3) Rename the Zip file from Factions\SUB_MOD_PATCHES\HOBBES TERRAIN PACK\V4.2-Terrain-Pack, from ".ZOP" to "Zip", this was manually changed to stop OXCE from reading this data if its not required. Now Extract as normal.
+4) Manually override the files in Hobbes Terrain Pack with our new ones ( note, this will break it for any other mod so make sure you have a a backup)
+5)Turn Mod ON in game and enjoy a Expanded Hybrid World :)
+
+Luke83

@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Jan
+  - Andrzej
+  - Piotr
+  - Krzysztof
+  - Stanislaw
+  - Tomasz
+  - Pawel
+  - Jozef
+  - Marcin
+  - Marek
+  - Michal
+  - Grzegorz
+  - Jerzy
+  - Tadeusz
+  - Adam
+  - Lukasz
+  - Zbigniew
+  - Ryszard
+  - Dariusz
+  - Henryk
+  - Mariusz
+  - Kazimierz
+  - Wojciech
+  - Robert
+  - Mateusz
+  - Marian
+  - Rafal
+  - Jacek
+  - Janusz
+  - Miroslaw  
+femaleFirst:
+  - Anna
+  - Maria
+  - Katarzyna
+  - Malgorzata
+  - Agnieszka
+  - Krystyna
+  - Barbara
+  - Ewa
+  - Elzbieta
+  - Zofia
+  - Janina
+  - Teresa
+  - Joanna
+  - Magdalena
+  - Monika
+  - Jadwiga
+  - Danuta
+  - Irena
+  - Halina
+  - Helena
+  - Beata
+  - Aleksandra
+  - Marta
+  - Dorota
+  - Marianna
+  - Grazyna
+  - Jolanta
+  - Stanislawa
+  - Iwona
+  - Karolina
+maleLast:
+  - Nowak (DEYE)
+  - Kowalski (DEYE)
+  - Wisniewski (DEYE)
+  - Dabrowski (DEYE)
+  - Lewandowski (DEYE)
+  - Wojcik (DEYE)
+  - Kaminski (DEYE)
+  - Kowalczyk (DEYE)
+  - Zielinski (DEYE)
+  - Szymanski (DEYE)
+  - Wozniak (DEYE)
+  - Kozlowski (DEYE)
+  - Jankowski (DEYE)
+  - Wojciechowski (DEYE)
+  - Kwiatkowski (DEYE)
+  - Kaczmarek (DEYE)
+  - Mazur (DEYE)
+  - Krawczyk (DEYE)
+  - Piotrowski (DEYE)
+  - Grabowski (DEYE)
+  - Nowakowski (DEYE)
+  - Pawlowski (DEYE)
+  - Michalski (DEYE)
+  - Nowicki (DEYE)
+  - Adamczyk (DEYE)
+  - Dudek (DEYE)
+  - Zajac (DEYE)
+  - Wieczorek (DEYE)
+  - Jablonski (DEYE)
+  - Krol (DEYE)
+femaleLast:
+  - Nowak (DEYE)
+  - Kowalska (DEYE)
+  - Wisniewska (DEYE)
+  - Dabrowska (DEYE)
+  - Lewandowska (DEYE)
+  - Wojcik (DEYE)
+  - Kaminska (DEYE)
+  - Kowalczyk (DEYE)
+  - Zielinska (DEYE)
+  - Szymanska (DEYE)
+  - Wozniak (DEYE)
+  - Kozlowska (DEYE)
+  - Jankowska (DEYE)
+  - Wojciechowska (DEYE)
+  - Kwiatkowska (DEYE)
+  - Kaczmarek (DEYE)
+  - Mazur (DEYE)
+  - Krawczyk (DEYE)
+  - Piotrowska (DEYE)
+  - Grabowska (DEYE)
+  - Nowakowska (DEYE)
+  - Pawlowska (DEYE)
+  - Michalska (DEYE)
+  - Nowicka (DEYE)
+  - Adamczyk (DEYE)
+  - Dudek (DEYE)
+  - Zajac (DEYE)
+  - Wieczorek (DEYE)
+  - Jablonska (DEYE)
+  - Krol (DEYE)

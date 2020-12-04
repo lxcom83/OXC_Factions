@@ -1,0 +1,606 @@
+items:
+############################
+## FACTIONS - weapons inheritors weapons RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+###########################
+  - type: STR_CAR15
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_INHEIRTORS_EQUIPMENT, STR_RIFLES]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_1
+    size: 0.2
+    costBuy: 0 #2000
+    costSell: 1750
+    weight: 6
+    bigSprite: 700
+    floorSprite: 700
+    handSprite: 3008
+    bulletSprite: 2
+    fireSound: 4
+    bulletSpeed: 25
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_5_56MM_NATO_RIFLE_X30
+    accuracyCloseQuarters: 120
+    accuracySnap: 70
+    accuracyAimed: 110
+    accuracyAuto: 65
+    tuAuto: 45
+    tuSnap: 29
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 3000
+  - type: STR_5_56MM_NATO_RIFLE_X30
+    size: 0.05
+    costBuy: 1000
+    costSell: 500
+    weight: 3
+    bigSprite: 715
+#    floorSprite: 760
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    damageAlter:
+      ToStun: 0.3
+    clipSize: 30
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 3001
+    vaporColor: 1
+    vaporDensity: 10
+
+  - type: STR_VZ58
+    categories: [STR_BALLISTIC_TECH, STR_FIREARMS, STR_ULTRA_COMPACT_WEAPONS, STR_CARBINES, STR_SAVAGE_EQUIPMENT, STR_INHEIRTORS_EQUIPMENT]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_1
+    size: 0.3
+    costBuy: 0 #2000
+    costSell: 1000
+    weight: 4
+    bigSprite: 701
+    floorSprite: 701
+    handSprite: 3016
+    bulletSprite: 1
+    fireSound: 4
+    bulletSpeed: 15
+    compatibleAmmo:
+      - STR_7_62MM_SOVIET_RIFLE_X30
+    accuracyCloseQuarters: 125
+    accuracyAuto: 45
+    accuracySnap: 56
+    accuracyAimed: 65
+    tuAuto: 40
+    tuSnap: 23
+    tuAimed: 35
+    costThrow:
+      energy: 14
+    battleType: 1
+    twoHanded: false
+#    oneHandedPenalty: 25
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    autoRange: 11
+    snapRange: 18
+    aimRange: 25
+    attraction: 12
+    listOrder: 3002
+  - type: STR_7_62MM_SOVIET_RIFLE_X30
+    size: 0.05
+    costBuy: 100
+    costSell: 50
+    weight: 3
+    bigSprite: 716
+#    floorSprite: 760
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    damageAlter:
+      ToStun: 0.2
+      ToWound: 1.2
+    clipSize: 30
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 3003
+    vaporColor: 1
+    vaporDensity: 10
+
+  - type: STR_TITANIUM_SHIELD
+    categories: [STR_BALLISTIC, STR_MELEE, STR_INHEIRTORS_EQUIPMENT, STR_SHIELDS]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_1
+    size: 0.3
+    weight: 10
+    costBuy: 800
+    costSell: 500
+    bigSprite: 702
+    floorSprite: 702
+    handSprite: 3024
+#!    meleeHitSound: 79
+    meleeAnimation: 0
+    power: 0
+    damageType: 6
+    damageBonus:
+      strength: 0.15
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.5
+      ToHealth: 0.2
+    accuracyMelee: 85
+    meleeMultiplier:
+      melee: 0.5
+      bravery: 0.5
+    costMelee:
+      time: 10
+      energy: 7
+    costThrow:
+      energy: 12
+      time: 20
+    flatThrow:
+      time: true
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3004
+
+  - type: STR_TAVOR
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_INHEIRTORS_EQUIPMENT, STR_CARBINES]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_2
+    size: 0.2
+    costBuy: 0 #2000
+    costSell: 1750
+    weight: 6
+    bigSprite: 704
+    floorSprite: 704
+    handSprite: 3040
+    bulletSprite: 2
+    fireSound: 4
+    bulletSpeed: 25
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_5_56MM_NATO_RIFLE_X30
+    accuracyCloseQuarters: 80
+    accuracyAuto: 50
+    accuracySnap: 70
+    accuracyAimed: 90
+    tuAuto: 33
+    tuSnap: 24
+    tuAimed: 46
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 3005
+
+  - type: STR_MPX
+    categories: [STR_BALLISTIC_TECH, STR_FIREARMS, STR_ULTRA_COMPACT_WEAPONS, STR_CARBINES, STR_INHEIRTORS_EQUIPMENT]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_2
+    size: 0.3
+    costBuy: 0 #1200
+    costSell: 500
+    weight: 8
+    bigSprite: 705
+    floorSprite: 705
+    handSprite: 3048
+    bulletSprite: 1
+    fireSound: 4
+    bulletSpeed: 15
+    compatibleAmmo:
+      - STR_9MM_PISTOL_X30
+    accuracyCloseQuarters: 120
+    accuracyAuto: 68
+    accuracySnap: 70
+    accuracyAimed: 55
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 45 
+    autoShots: 4
+    costThrow:
+      energy: 14
+    battleType: 1
+    twoHanded: false
+#    oneHandedPenalty: 25
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    autoRange: 11
+    snapRange: 18
+    aimRange: 25
+    attraction: 12
+    listOrder: 3006
+  - type: STR_9MM_PISTOL_X30
+    size: 0.05
+    costBuy: 1000
+    costSell: 500
+    weight: 3
+    bigSprite: 717
+#    floorSprite: 760
+    hitSound: 22
+    hitAnimation: 26
+    power: 25
+    damageType: 1
+    damageAlter:
+      ToStun: 0.3
+    clipSize: 30
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 3007
+    vaporColor: 1
+    vaporDensity: 10
+
+  - type: STR_COMPACT_SCAR
+    categories: [STR_PLASMA_TECH, STR_FIREARMS, STR_CARBINES, STR_SAVAGE_EQUIPMENT, STR_SCAVENGER_EQUIPMENT, STR_MUTON_WARPACK_EQUIPMENT]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_3
+    size: 0.2
+    costBuy: 0 # 2000
+    costSell: 1750
+    weight: 6
+    bigSprite: 707
+    floorSprite: 707
+    handSprite: 3064
+    bulletSprite: 2
+    fireSound: 4
+    bulletSpeed: 25
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_5_56MM_NATO_RIFLE_X30
+    accuracyCloseQuarters: 120
+    accuracySnap: 70
+    accuracyAimed: 110
+    accuracyAuto: 65
+    tuAuto: 45
+    tuSnap: 29
+    tuAimed: 65
+    battleType: 1
+    twoHanded: false
+#    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 2
+    autoRange: 11
+    attraction: 8
+    listOrder: 3008
+
+  - type: STR_G11
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_CARBINES]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_4
+    size: 0.2
+    costBuy: 0 # 2000
+    costSell: 1750
+    weight: 8
+    bigSprite: 709
+    floorSprite: 709
+    handSprite: 3080
+    bulletSprite: 2
+    fireSound: 4
+    bulletSpeed: 25
+#    reloadSound: [186, 187, 188, 189]
+    ammo:
+      0: 
+        compatibleAmmo: [ STR_G11_CLIP ]
+    confAuto:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 60
+    accuracySnap: 70
+    accuracyAimed: 110
+    accuracyAuto: 65
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 55
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    listOrder: 3009
+
+  - type: STR_G11_CLIP
+    size: 0.05
+    costBuy: 0 #1000
+    costSell: 500
+    weight: 2
+    bigSprite: 721
+#    floorSprite: 721
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 50
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 3010
+    invWidth: 1
+    invHeight: 2
+
+  - type: STR_XM29_OICW
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_US_TECH, STR_RIFLES]
+#    requiresBuy:
+#      - STR_INHEIRTOR_DIPLOMACY_5
+    size: 0.3
+    costBuy: 0 # 9500
+    costSell: 5400
+    weight: 15
+    bigSprite: 713
+    floorSprite: 713
+    handSprite: 3112
+    fireSound: 4
+#    reloadSound: [186, 187, 188, 189]
+    ammo:
+      0: 
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_XM29_KE_CLIP ]
+      1: 
+        tuLoad: 20
+        tuUnload: 20
+        compatibleAmmo: [ STR_XM29_HE_CLIP ]
+    confAimed:
+      shots: 1
+      name: STR_FIRE_GL
+      ammoSlot: 1
+      arcing: false
+    accuracySnap: 75
+    accuracyAimed: 100
+    accuracyAuto: 45
+    accuracyCloseQuarters: 60
+    oneHandedPenalty: 70
+    kneelBonus: 130
+    tuSnap: 25
+    tuAimed: 50
+    tuAuto: 35
+    invHeight: 3
+    invWidth: 2
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 3011
+  - type: STR_XM29_KE_CLIP
+    size: 0.05
+    costBuy: 0 # 1000
+    costSell: 500
+    weight: 3
+    bigSprite: 724
+#    floorSprite: 760
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    bulletSpeed: 25
+    damageType: 1
+    damageAlter:
+      ToWound: 0.5
+    clipSize: 30
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 3012
+    vaporColor: 1
+    vaporDensity: 10
+  - type: STR_XM29_HE_CLIP
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 5
+    bigSprite: 725
+#    floorSprite: 123
+#    handSprite: 284
+    hitSound: 0
+    hitAnimation: 0
+    bulletSprite: 14
+    bulletSpeed: 8
+    power: 70
+    damageType: 3
+    clipSize: 5
+    battleType: 2
+    armor: 20
+    blastRadius: 2
+    bulletSprite: 14
+    listOrder: 3013
+    vaporColor: 1
+    vaporDensity: 10
+
+ufopaedia:
+  - id: STR_CAR15
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CAR15_UFOPEDIA
+  - id: STR_5_56MM_NATO_RIFLE_X30
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_VZ58
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_VZ58_UFOPEDIA
+  - id: STR_7_62MM_SOVIET_RIFLE_X30
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_TITANIUM_SHIELD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TITANIUM_SHIELD_UFOPEDIA
+
+  - id: STR_TAVOR
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_TAVOR_UFOPEDIA
+
+  - id: STR_MPX
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MPX_UFOPEDIA
+  - id: STR_9MM_PISTOL_X30
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_COMPACT_SCAR
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_COMPACT_SCAR_UFOPEDIA
+
+  - id: STR_G11
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_G11_UFOPEDIA
+  - id: STR_G11_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_XM29_OICW
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_XM29_OICW_UFOPEDIA
+  - id: STR_XM29_KE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_XM29_HE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      700: Resources/Inheirtors/BigCAR15.png
+      701: Resources/Inheirtors/BigVz58.png
+      702: Resources/Inheirtors/BigTitaniumShield.png
+#      703: Resources/Inheirtors/BigAlienAlloysShield.png
+      704: Resources/Inheirtors/BigTavor.png
+      705: Resources/Inheirtors/BigMPX.png
+#      706: Resources/Inheirtors/BigXSSG.png
+      707: Resources/Inheirtors/BigSCAR.png
+#      708: Resources/Inheirtors/BigAK101.png
+      709: Resources/Inheirtors/BigG11.png
+#      710: Resources/Inheirtors/BigM22SuppressedSMG.png
+#      711: Resources/Inheirtors/BigVSSVintorez.png
+#      712: Resources/Inheirtors/BigXM47Cannon.png
+      713: Resources/Inheirtors/BigXM29OICW.png
+#      714: Resources/Inheirtors/BigHardenedShield.png
+      715: Resources/Inheirtors/BigCAR15Clip.png
+      716: Resources/Inheirtors/BigVz58Clip.png
+      717: Resources/Inheirtors/BigMPXClip.png
+#      718: Resources/Inheirtors/BigXSSGShells.png
+#      719: Resources/Inheirtors/BigVSSVintorezClip.png
+#      720: Resources/Inheirtors/BigAK101Clip.png
+      721: Resources/Inheirtors/BigG11Clip.png
+#      722: Resources/Inheirtors/BigM22SuppressedSMGClip.png
+#      723: Resources/Inheirtors/BigXM47Cannon.png
+      724: Resources/Inheirtors/BigXM29KEClip.png
+      725: Resources/Inheirtors/BigXM29HEClip.png
+
+  - type: FLOOROB.PCK
+    files:
+      700: Resources/Inheirtors/FloorCAR15.png
+      701: Resources/Inheirtors/FloorVz58.png
+      702: Resources/Inheirtors/FloorTitaniumShield.png
+#      703: Resources/Inheirtors/FloorAlienAlloysShield.png
+      704: Resources/Inheirtors/FloorTavor.png
+      705: Resources/Inheirtors/FloorMPX.png
+#      706: Resources/Inheirtors/FloorXSSG.png
+      707: Resources/Inheirtors/FloorSCAR.png
+#      708: Resources/Inheirtors/FloorAK101.png
+      709: Resources/Inheirtors/FloorG11.png
+#      710: Resources/Inheirtors/FloorM22SuppressedSMG.png
+#      711: Resources/Inheirtors/FloorVSSVintorez.png
+#      712: Resources/Inheirtors/FloorXM47Cannon.png
+      713: Resources/Inheirtors/FloorXM29OICW.png
+#      714: Resources/Inheirtors/FloorHardenedShield.png
+#      715: Resources/Inheirtors/FloorCAR15Clip.png
+#      716: Resources/Inheirtors/FloorVz58Clip.png
+#      717: Resources/Inheirtors/FloorMPXClip.png
+#      718: Resources/Inheirtors/FloorXSSGShells.png
+#      719: Resources/Inheirtors/FloorVSSVintorezClip.png
+#      720: Resources/Inheirtors/FloorAK101Clip.png
+#      721: Resources/Inheirtors/FloorG11Clip.png
+#      722: Resources/Inheirtors/FloorM22SuppressedSMGClip.png
+#      723: Resources/Inheirtors/FloorXM47Cannon.png
+#      724: Resources/Inheirtors/FloorXM29KEClip.png
+#      725: Resources/Inheirtors/FloorXM29HEClip.png
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      3008: Resources/Inheirtors/HandCAR15.png
+      3016: Resources/Inheirtors/HandVz58.png
+      3024: Resources/Inheirtors/HandTitaniumShield.png
+#      3032: Resources/Inheirtors/HandAlienAlloysShield.png
+      3040: Resources/Inheirtors/HandTavor.png
+      3048: Resources/Inheirtors/HandMPX.png
+#      3056: Resources/Inheirtors/HandXSSG.png
+      3064: Resources/Inheirtors/HandSCAR.png
+#      3072: Resources/Inheirtors/HandAK101.png
+      3080: Resources/Inheirtors/HandG11.png
+#      3088: Resources/Inheirtors/HandM22SuppressedSMG.png
+#      3096: Resources/Inheirtors/HandVSSVintorez.png
+#      3104: Resources/Inheirtors/HandXM47Cannon.png
+      3112: Resources/Inheirtors/HandXM29OICW.png
+#      3120: Resources/Inheirtors/HandHardenedShield.png
+
+#extraSounds:
+#  - type: BATTLE.CAT
+#    files:
+#      1164: Resources/9MM/9MM.wav
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CAR15: CAR-15 
+      STR_CAR15_UFOPEDIA: Carabine used by old world special forces before the war. Calibrated on 5.56x45 NATO ammunition, it employs an ACOG sight of x4 magnification. This weapon manufactured by Colt is light, precise and stable, although it does not have long range. Although it is no longer manufactured, it is common to find it in most arsenals.
+      STR_5_56MM_NATO_RIFLE_X30: 5.56mm NATO Rifle Rounds (x30)
+      STR_VZ58: Vz-98 CQB 
+      STR_7_62MM_SOVIET_RIFLE_X30: "7.62mm Soviet Rifle Rounds (x30)"
+      STR_VZ58_UFOPEDIA: Assault rifle designed and built in Czechoslovakia, is the last improved version of the old model of 1958, before the apocalypse. It is similar to the AK-47, although internally it is different. The Vz-58 model did not allow AK magazines, but this version did. It has a trimmed barrel and no butt, to facilitate its use in CQB. A soldier strong enough can use it with one hand.
+      STR_TITANIUM_SHIELD: Titanium Ballistic Shield
+      STR_TITANIUM_SHIELD_UFOPEDIA: Ballistic shield created from a classified alloy that includes titanium, is used by some troops to assault enemy positions. Its protection is limited by the ability to block frontal fire, but its use considerably limits the user's stamina, as well as its accuracy.
+      STR_TAVOR: MTAR-21 Carbine
+      STR_TAVOR_UFOPEDIA: Modern carbine of Israeli origin, planned to replace Galil assault rifles in the first decade of the 20th century. However, the end of the world prevented it from moving beyond the prototype phase. The secret factories of the Inheritors regime succeeded in reproducing the prototype models and have created a light and compact weapon that has good range. It is much appreciated by the troops who use it.
+      STR_MPX: SIG MP-X
+      STR_MPX_UFOPEDIA: Futuristic submachine gun created by designers from SIG Sauer. It is the tenth model of a long series of sub-machine guns used by Inheritors, that is why it's name 'MP-X'. It is very compact and precise, although its range is precarious. It uses 9mm caliber ammunition and its fire rate is very high, allowing the shooter to quickly empty the magazine on a nearby target.
+      STR_9MM_PISTOL_X30: "9mm Pistol Rounds (x30)"
+      STR_COMPACT_SCAR: FN SCAR CQB
+      STR_COMPACT_SCAR_UFOPEDIA: Ultra short assault rifle of Belgian origin designed specifically for special forces. The project began shortly after the Inheritors came to power at the end of the First Alien War and was completed in 2009. Many variants has been in use since then. This specialized model for CQB, introduced in 2048, lacks the range and range of its predecessors, but is equally powerful and lightweight. 
+      STR_G11: H&K G11K
+      STR_G11_UFOPEDIA: A mythical caseless rifle of German origin created by Heckler & Koch, it was designed between the 70s and 80s to equip the Bundeswehr with a modern assault rifle. Its innovative caseless ammunition system allows a large number of bullets to be loaded without greatly increasing the weight. The plans were found in 2042 in a research center abandoned in the ruins of Bonn, and after some improvement to the original model, was put to and recently was introduced to the active service with the troops of the Inheritors. 
+      STR_G11_CLIP: "4.7mm G11 mag. (x50)"
+      STR_XM29_OICW: H&K M29 OICW 
+      STR_XM29_OICW_UFOPEDIA: Objective Individual Combat Weapon, hybrid assault rifle with 20mm projectile launcher. The weapon configuration allows to fire both fire modes in quick succession, alternating between the KE module with 5.56x45 calibre NATO piercing bullets and the HE module with 20mm airburst projectiles. The pinnacle of combined infantry weapons, the project was resumed in 2022 after being cancelled in the 1990s, shortly before the First Alien War. It is heavy and uncomfortable, but allows immediate support on the battlefield, without having to carry an additional grenade launcher.
+      STR_XM29_KE_CLIP: "M29 5.56mm NATO mag"
+      STR_XM29_HE_CLIP: "M29 20mm HE grenade"
+      STR_FIRE_GL: Fire GL
+      STR_BURST: Burst

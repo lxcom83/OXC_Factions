@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Aimé Dorian
+  - Alban
+  - Ange
+  - Annoud Prestige
+  - Appollinaire
+  - Arcel
+  - Archange
+  - Aristide
+  - Armand
+  - Arthur
+  - Awax
+  - Baurion
+  - Ben
+  - Benjamin
+  - Bensadaa
+  - Bonte
+  - Boris
+  - Bouse
+  - Calice
+  - Céléstin
+  - Chatel
+  - Cherald
+  - Cherubin
+  - Chriss
+  - Christian
+  - Claude
+  - Davy
+  - Dbacom
+  - Donnel
+  - Dorian
+  - Dos
+  - Dulcine
+  - Eden
+  - Edvin
+  - Elyse
+  - Eudes
+  - Evrard
+  - Fred
+  - Fresnel
+  - Gata
+  - Geslin
+  - Giordani
+  - Guychel
+  - Harold
+  - Heldora
+  - Hilde
+  - Japhet
+  - Joad Louad
+  - Jules
+  - Julle
+  - Karome
+  - Leonce
+  - Lima
+  - Lionel
+  - Lucien
+  - Mack
+  - Marzin
+  - Mbayo
+  - Milan
+  - Murphy
+  - Oudry
+  - Pascal
+  - Paterne
+  - Patrick
+  - Prevner
+  - Prince
+  - Ray
+  - Régis
+  - Resnik
+  - Rishi
+  - Rodrigue
+  - Rudolf
+  - Sajila
+  - Severin
+  - Shabani
+  - Stanis
+  - Stephane
+  - Sylvio
+  - Thierry
+  - Van Carrel
+  - Yohan
+femaleFirst:
+  - Arich
+  - Arrielle
+  - Ashley
+  - Aubierge
+  - Aude
+  - Belcha
+  - Belvie
+  - Brunelle
+  - Capricia
+  - Carole
+  - Cecile
+  - Celvie
+  - Chanfrelle
+  - Christelle
+  - Christiane
+  - Clavidia
+  - Darlène
+  - Deborah
+  - Diche
+  - Dina
+  - Docile
+  - Djany
+  - Emmanuelle
+  - Estelle
+  - Fallone
+  - Fernande
+  - Florèse
+  - Gaelle
+  - Garcia
+  - Geanna
+  - Giovanna
+  - Gloire
+  - Grace
+  - Granie
+  - Jaelle
+  - Jannie
+  - Jeanny
+  - Jelvie
+  - Jessica
+  - Jen
+  - Jodrey
+  - Jolienne
+  - Judith
+  - Julie
+  - Jupsie
+  - Keicha
+  - Liu
+  - Lys
+  - Melaine
+  - Merveille
+  - Michelle
+  - Parfaite
+  - Patrique
+  - Polly
+  - Privel
+  - Lirna
+  - Madelenne
+  - Manu
+  - Mary
+  - Mbeko
+  - Milyne
+  - Monia
+  - Nardelie
+  - Nathalie
+  - Nel
+  - Nicia
+  - Nuptia
+  - Opportune
+  - Patricia
+  - Pitchou
+  - Raan-sady
+  - Reine
+  - Rose
+  - Rosa
+  - Rudelle
+  - Sabrina
+  - Sagely
+  - Sidorelle
+  - Sony
+  - Staelle
+  - Synthyche
+  - Tan
+  - Vanessa
+  - Winnie
+  - Yornella
+maleLast:
+  - Akindele (BRAW)
+  - Alphonse (BRAW)
+  - Anaclet (BRAW)
+  - Augustin (BRAW)
+  - Aurelie (BRAW)
+  - Axele (BRAW)
+  - Badibanga (BRAW)
+  - Bakaji (BRAW)
+  - Bakwamba (BRAW)
+  - Bangamba (BRAW)
+  - Bantu (BRAW)
+  - Biampata (BRAW)
+  - Bilenga (BRAW)
+  - Bilenge (BRAW)
+  - Bilengi (BRAW)
+  - Bilonda (BRAW)
+  - Bilumbu (BRAW)
+  - Bitala (BRAW)
+  - Bitelu (BRAW)
+  - Biumba (BRAW)
+  - Buabu (BRAW)
+  - Buikalu (BRAW)
+  - Bukaka (BRAW)
+  - Buluba (BRAW)
+  - Busasa (BRAW)
+  - Buta (BRAW)
+  - Dikembe (BRAW)
+  - Dikengu (BRAW)
+  - Dikiyu (BRAW)
+  - Dishi (BRAW)
+  - Diyoka (BRAW)
+  - Evariste (BRAW)
+  - Felicien (BRAW)
+  - Francky (BRAW)
+  - Francois (BRAW)
+  - Gabriel (BRAW)
+  - Ganeramba (BRAW)
+  - Gaston (BRAW)
+  - Gilbert (BRAW)
+  - Gourmand (BRAW)
+  - Henri (BRAW)
+  - Honore (BRAW)
+  - Ilunga (BRAW)
+  - Jean (BRAW)
+  - Joseph (BRAW)
+  - Justin (BRAW)
+  - Kabala (BRAW)
+  - Kabamba (BRAW)
+  - Kabanda (BRAW)
+  - Kabanga (BRAW)
+  - Kabasela (BRAW)
+  - Kabemba (BRAW)
+  - Kabeya (BRAW)
+  - Kaboka (BRAW)
+  - Kabombo (BRAW)
+  - Kabongo (BRAW)
+  - Kabukala (BRAW)
+  - Kabunda (BRAW)
+  - Kabundangoji (BRAW)
+  - Kabungama (BRAW)
+  - Kabwa (BRAW)
+  - Kabwaya (BRAW)
+  - Kadilu (BRAW)
+  - Kadimu (BRAW)
+  - Kajangala (BRAW)
+  - Kajila (BRAW)
+  - Kajimba (BRAW)
+  - Kakokopo (BRAW)
+  - Kalala (BRAW)
+  - Kalanga (BRAW)
+  - Kalawanda (BRAW)
+  - Kalengedi (BRAW)
+  - Kaleuka (BRAW)
+  - Kalombo (BRAW)
+  - Kalonji (BRAW)
+  - Kalubi (BRAW)
+  - Kalunguji (BRAW)
+  - Kamanga (BRAW)
+  - Kambaja (BRAW)
+  - Kambala (BRAW)
+  - Kamulete (BRAW)
+  - Kamwania (BRAW)
+  - Kanda (BRAW)
+  - Kankolongo (BRAW)
+  - Kankonda (BRAW)
+  - Kanku (BRAW)
+  - Kanungu (BRAW)
+  - Kanyandu (BRAW)
+  - Kanyinda (BRAW)
+  - Kapinga (BRAW)
+  - Kapongo (BRAW)
+  - Kasala (BRAW)
+  - Kasampu (BRAW)
+  - Kasenga (BRAW)
+  - Kasongo (BRAW)
+  - Kasuku (BRAW)
+  - Kasulu (BRAW)
+  - Kaswaswa (BRAW)
+  - Katamba (BRAW)
+  - Katanda (BRAW)
+  - Katanga (BRAW)
+  - Katekelayi (BRAW)
+  - Katuku (BRAW)
+  - Katundu (BRAW)
+  - Kayemba (BRAW)
+  - Kayembe (BRAW)
+  - Kayowa (BRAW)
+  - Kilunsila (BRAW)
+  - Kimba (BRAW)
+  - Kishi (BRAW)
+  - Koloyi (BRAW)
+  - Komba (BRAW)
+  - Konji (BRAW)
+  - Kulondi (BRAW)
+  - Kutemba (BRAW)
+  - Lala (BRAW)
+  - Lemba (BRAW)
+  - Lengela (BRAW)
+  - Leonard (BRAW)
+  - Lisa (BRAW)
+  - Londa (BRAW)
+  - Longa (BRAW)
+  - Luadia (BRAW)
+  - Luamba (BRAW)
+  - Luangoyi (BRAW)
+  - Lubanga (BRAW)
+  - Lubanza (BRAW)
+  - Lubuya (BRAW)
+  - Lukodi (BRAW)
+  - Lukoji (BRAW)
+  - Lukusa (BRAW)
+  - Luluabourg (BRAW)
+  - Lumbala (BRAW)
+  - Lumbombo (BRAW)
+  - Lupenzu (BRAW)
+  - Lusamba (BRAW)
+  - Lutexa (BRAW)
+  - Lutonga (BRAW)
+  - Lutundula (BRAW)
+  - Mabele (BRAW)
+  - Mabixa (BRAW)
+  - Malumba (BRAW)
+  - Mampuya (BRAW)
+  - Manyangana (BRAW)
+  - Martin (BRAW)
+  - Matamba (BRAW)
+  - Matembela (BRAW)
+  - Mayi (BRAW)
+  - Mbayi (BRAW)
+  - Mbimbi (BRAW)
+  - Mbiya (BRAW)
+  - Mbiyamuenza (BRAW)
+  - Mbiye (BRAW)
+  - Mbombo (BRAW)
+  - Mbuyamba (BRAW)
+  - Mbuyangudi (BRAW)
+  - Mbuyi (BRAW)
+  - Mbwaya (BRAW)
+  - Meso (BRAW)
+  - Meta (BRAW)
+  - Mfunyi (BRAW)
+  - Miabi (BRAW)
+  - Mianbabu (BRAW)
+  - Milabi (BRAW)
+  - Misenga (BRAW)
+  - Moise (BRAW)
+  - Mokola (BRAW)
+  - Moyo (BRAW)
+  - Mpala (BRAW)
+  - Mpanda (BRAW)
+  - Mpoloto (BRAW)
+  - Mpoyi (BRAW)
+  - Mpuka (BRAW)
+  - Mpunga (BRAW)
+  - Mpungapoyi (BRAW)
+  - Muadi (BRAW)
+  - Muamba (BRAW)
+  - Muanza (BRAW)
+  - Mubenga (BRAW)
+  - Mubiayi (BRAW)
+  - Mubimalu (BRAW)
+  - Mubitende (BRAW)
+  - Mudiayi (BRAW)
+  - Mudipuekesha (BRAW)
+  - Mufika (BRAW)
+  - Mufonkola (BRAW)
+  - Mufuansanyi (BRAW)
+  - Mujinga (BRAW)
+  - Mukadi (BRAW)
+  - Mukala (BRAW)
+  - Mukanda (BRAW)
+  - Mukanya (BRAW)
+  - Mukendi (BRAW)
+  - Mukenga (BRAW)
+  - Mukinda (BRAW)
+  - Mukuma (BRAW)
+  - Mulaja (BRAW)
+  - Mulanga (BRAW)
+  - Mulelalupu (BRAW)
+  - Mulenda (BRAW)
+  - Mulombo (BRAW)
+  - Mulopo (BRAW)
+  - Mulopue (BRAW)
+  - Mulowaluendu (BRAW)
+  - Muluila (BRAW)
+  - Mulumba (BRAW)
+  - Mundamunya (BRAW)
+  - Munsense (BRAW)
+  - Muntshiamba (BRAW)
+  - Munyampala (BRAW)
+  - Mupompa (BRAW)
+  - Mupoyi (BRAW)
+  - Musalu (BRAW)
+  - Musebela (BRAW)
+  - Mushikila (BRAW)
+  - Mushiya (BRAW)
+  - Musuamba (BRAW)
+  - Mutombo (BRAW)
+  - Muya (BRAW)
+  - Mvita (BRAW)
+  - Mwamba (BRAW)
+  - Mwanankesa (BRAW)
+  - Mwenza (BRAW)
+  - Mwepu (BRAW)
+  - Ndanda (BRAW)
+  - Ndaya (BRAW)
+  - Ndelela (BRAW)
+  - Ngalula (BRAW)
+  - Ngandu (BRAW)
+  - Ngeleka (BRAW)
+  - Ngelema (BRAW)
+  - Ngomba (BRAW)
+  - Ngonga (BRAW)
+  - Ngoyi (BRAW)
+  - Ninette (BRAW)
+  - Nkanda (BRAW)
+  - Nkitabungi (BRAW)
+  - Nkomo (BRAW)
+  - Nkongolo (BRAW)
+  - Noel (BRAW)
+  - Norbert (BRAW)
+  - Nseya (BRAW)
+  - Nshila (BRAW)
+  - Nshinga (BRAW)
+  - Nsombamanya (BRAW)
+  - Nsudila (BRAW)
+  - Ntalaja (BRAW)
+  - Ntambwe (BRAW)
+  - Ntita (BRAW)
+  - Ntombolo (BRAW)
+  - Ntondolo (BRAW)
+  - Ntumba (BRAW)
+  - Nyanzala (BRAW)
+  - Nyenyempa (BRAW)
+  - Nyoka (BRAW)
+  - Nzambi (BRAW)
+  - Nzangula (BRAW)
+  - Nzemba (BRAW)
+  - Odia (BRAW)
+  - Phillipe (BRAW)
+  - Pierre (BRAW)
+  - Rachelle (BRAW)
+  - Samuela (BRAW)
+  - Shaddai (BRAW)
+  - Stella (BRAW)
+  - Talatala (BRAW)
+  - Thomas (BRAW)
+  - Tshanda (BRAW)
+  - Tshiabu (BRAW)
+  - Tshialu (BRAW)
+  - Tshiamanina (BRAW)
+  - Tshiambi (BRAW)
+  - Tshiambula (BRAW)
+  - Tshiambwaya (BRAW)
+  - Tshianzambonga (BRAW)
+  - Tshibaka (BRAW)
+  - Tshibala (BRAW)
+  - Tshibalabala (BRAW)
+  - Tshibangu (BRAW)
+  - Tshibelu (BRAW)
+  - Tshibola (BRAW)
+  - Tshibwabwa (BRAW)
+  - Tshidibi (BRAW)
+  - Tshidindu (BRAW)
+  - Tshidingi (BRAW)
+  - Tshiebelela (BRAW)
+  - Tshiepela (BRAW)
+  - Tshifunka (BRAW)
+  - Tshikondo (BRAW)
+  - Tshikulu (BRAW)
+  - Tshikumini (BRAW)
+  - Tshilenga (BRAW)
+  - Tshimanga (BRAW)
+  - Tshimbi (BRAW)
+  - Tshimbombo (BRAW)
+  - Tshimini (BRAW)
+  - Tshiminyi (BRAW)
+  - Tshimowa (BRAW)
+  - Tshimpaka (BRAW)
+  - Tshimwena (BRAW)
+  - Tshipanda (BRAW)
+  - Tshipayayi (BRAW)
+  - Tshisekedi (BRAW)
+  - Tshiswaka (BRAW)
+  - Tshitambala (BRAW)
+  - Tshitoko (BRAW)
+  - Tshiula (BRAW)
+  - Tshiyola (BRAW)
+  - Tuendela (BRAW)
+  - Yabukalanga (BRAW)
+  - Yamba (BRAW)
+  - Yampanya (BRAW)
+  - Yowa (BRAW)

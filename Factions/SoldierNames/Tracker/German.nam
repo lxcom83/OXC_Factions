@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Thomas
+  - Andreas
+  - Michael
+  - Frank
+  - Peter
+  - Joerg
+  - Uwe
+  - Matthias
+  - Stefan
+  - Juergen
+  - Ralf
+  - Bernd
+  - Klaus
+  - Torsten
+  - Hans
+  - Rainer
+  - Jens
+  - Martin
+  - Dirk
+  - Wolfgang
+  - Norbert
+  - Holger
+  - Kai
+  - Joachim
+  - Christian
+  - Karsten
+  - Dieter
+femaleFirst:
+  - Susanne
+  - Sabine
+  - Petra
+  - Birgit
+  - Andrea
+  - Gabriele
+  - Martina
+  - Heike
+  - Ute
+  - Barbara
+  - Bettina
+  - Karin
+  - Angelika
+  - Monika
+  - Angela
+maleLast:
+  - Mueller (TRACK)
+  - Schmidt (TRACK)
+  - Schneider (TRACK)
+  - Fischer (TRACK)
+  - Weber (TRACK)
+  - Meyer (TRACK)
+  - Wagner (TRACK)
+  - Becker (TRACK)
+  - Schulz (TRACK)
+  - Hoffmann (TRACK)
+  - Schaefer (TRACK)
+  - Koch (TRACK)
+  - Bauer (TRACK)
+  - Richter (TRACK)
+  - Klein (TRACK)
+  - Wolf (TRACK)
+  - Schroeder  (TRACK)
+  - Neumann (TRACK)
+  - Schwarz (TRACK)
+  - Zimmermann (TRACK)
+  - Braun (TRACK)
+  - Krueger (TRACK)
+  - Hartmann (TRACK)
+  - Lange (TRACK)
+  - Schmitz (TRACK)
+  - Krause (TRACK)
+  - Meier (TRACK)

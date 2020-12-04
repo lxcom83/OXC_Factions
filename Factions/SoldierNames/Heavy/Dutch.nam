@@ -1,0 +1,68 @@
+# A good article about dutch firstnames can be found at
+# http://www.historischnieuwsblad.nl/nl/artikel/5849/voornamen-in-nederland.html
+lookWeights:
+  - 45
+  - 45
+  - 5
+  - 5
+maleFirst:
+  - Jan
+  - Piet
+  - Henk
+  - Peter
+  - Hans
+  - Kees
+  - Wim
+  - Cor
+  - Gerard
+  - Gerrit
+  - Johan
+  - Rudi
+femaleFirst:
+  - Annie (HEAVY)
+  - Emma (HEAVY)
+  - Marietje (HEAVY)
+  - Mien (HEAVY)
+  - Willie (HEAVY)
+  - Eva (HEAVY)
+  - Corrie (HEAVY)
+  - Lenie (HEAVY)
+  - Greetje (HEAVY)
+  - Hanna (HEAVY)
+  - Sofie (HEAVY)
+  - Ansje (HEAVY)
+maleLast:
+  - de Jong (HEAVY)
+  - Jansen (HEAVY)
+  - de Vries (HEAVY)
+  - van de Berg (HEAVY)
+  - van Dijk (HEAVY)
+  - Bakker (HEAVY)
+  - Janssen (HEAVY)
+  - Visser (HEAVY)
+  - Smit (HEAVY)
+  - Meyer (HEAVY)
+  - de Boer (HEAVY)
+  - Mulder (HEAVY)
+  - de Groot (HEAVY)
+  - Bos (HEAVY)
+  - Vos (HEAVY)
+  - Peters (HEAVY)
+  - Hendriks (HEAVY)
+  - van Leeuwen (HEAVY)
+  - Dekker (HEAVY)
+  - Brouwer (HEAVY)
+  - de Wit (HEAVY)
+  - Dijkstra (HEAVY)
+  - Smits (HEAVY)
+  - de Graaf (HEAVY)
+  - van der Meer (HEAVY)
+  - van der Linden (HEAVY)
+  - Kok (HEAVY)
+  - Jacobs (HEAVY)
+  - de Haan (HEAVY)
+  - Vermeulen (HEAVY)
+  - van den Heuvel (HEAVY)
+  - van der Veen (HEAVY)
+  - van den Broek (HEAVY)
+  - de Bruyn  (HEAVY)

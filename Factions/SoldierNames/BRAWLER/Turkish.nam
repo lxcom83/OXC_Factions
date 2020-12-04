@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - Abdullah
+  - Adem
+  - Adil
+  - Adnan
+  - Ahmet
+  - Akif
+  - Ali
+  - Alp
+  - Alper
+  - Altan
+  - Arda
+  - Arif
+  - Atilla
+  - Aydemir
+  - Ayhan
+  - Aykut
+  - Aziz
+  - Baha
+  - Bahri
+  - Barlas
+  - Bedri
+  - Bekir
+  - Berk
+  - Bilal
+  - Birol
+  - Bora
+  - Burak
+  - Burhan
+  - Cahit
+  - Can
+  - Caner
+  - Cem
+  - Cemal
+  - Cengiz
+  - Cenk
+  - Cihan
+  - Cumhur
+  - Davut
+  - Doruk
+  - Dursun
+  - Efe
+  - Ekrem
+  - Emin
+  - Emrah
+  - Emre
+  - Engin
+  - Enver
+  - Erdal
+  - Eren
+  - Erhan
+  - Erkan
+  - Erol
+  - Ethem
+  - Fahri
+  - Faruk
+  - Fatih
+  - Fehmi
+  - Ferdi
+  - Ferhat
+  - Feridun
+  - Fikret
+  - Furkan
+  - Hakan
+  - Halil
+  - Haluk
+  - Hamdi
+  - Hamza
+  - Harun
+  - Hasan
+  - Hayri
+  - Hikmet
+  - Hilmi
+  - Kaan
+  - Kadir
+  - Kemal
+  - Kenan
+  - Kerem
+  - Koray
+  - Korhan
+  - Levent
+  - Mahir
+  - Mahmut
+  - Mehmet
+  - Melih
+  - Mert
+  - Mete
+  - Metin
+  - Mithat
+  - Muammer
+  - Muhammet
+  - Muhsin
+  - Murat
+  - Musa
+  - Mustafa
+  - Muzaffer
+  - Naci
+  - Nazmi
+  - Necdet
+  - Nihat
+  - Niyazi
+  - Nuri
+  - Okan
+  - Oktay
+  - Onur
+  - Orhan
+  - Osman
+  - Ozan
+  - Ramazan
+  - Remzi
+  - Sabri
+  - Salih
+  - Sedat
+  - Selim
+  - Semih
+  - Sercan
+  - Serdar
+  - Serhat
+  - Serkan
+  - Sinan
+  - Soner
+  - Taha
+  - Tahir
+  - Tahsin
+  - Taner
+  - Tarkan
+  - Tayfun
+  - Tayyar
+  - Temel
+  - Teoman
+  - Tevfik
+  - Timur
+  - Tolga
+  - Tosun
+  - Tuna
+  - Tuncay
+  - Turan
+  - Turgut
+  - Ufuk
+  - Umut
+  - Utku
+  - Uzay
+  - Vedat
+  - Veli
+  - Veysel
+  - Volkan
+  - Vural
+  - Yahya
+  - Yakup
+  - Yasin
+  - Yavuz
+  - Yusuf
+  - Zafer
+  - Zeki
+  - Zeynel
+  - Ziya
+femaleFirst:
+  - Adile
+  - Alev
+  - Arzu
+  - Asena
+  - Ayda
+  - Aydan
+  - Ayla
+  - Aylin
+  - Aysel
+  - Aysu
+  - Aysun
+  - Bahar
+  - Bengi
+  - Bilge
+  - Birsen
+  - Burcu
+  - Canan
+  - Ceren
+  - Ceyda
+  - Damla
+  - Demet
+  - Deniz
+  - Didem
+  - Dilara
+  - Duygu
+  - Ebru
+  - Ece
+  - Eda
+  - Elif
+  - Emel
+  - Emine
+  - Esra
+  - Evrim
+  - Eylem
+  - Ezgi
+  - Fatma
+  - Filiz
+  - Gamze
+  - Gizem
+  - Hande
+  - Hatice
+  - Irmak
+  - Jale
+  - Lale
+  - Leyla
+  - Melis
+  - Meltem
+  - Meral
+  - Merve
+  - Meryem
+  - Nalan
+  - Nazan
+  - Nesrin
+  - Nezihe
+  - Nihan
+  - Nil
+  - Nur
+  - Olcay
+  - Oya
+  - Pervin
+  - Rabia
+  - Reyhan
+  - Sabiha
+  - Safiye
+  - Sanem
+  - Seda
+  - Selma
+  - Semiha
+  - Sevgi
+  - Sevil
+  - Sevim
+  - Sibel
+  - Sinem
+  - Suna
+  - Yaprak
+  - Yasemin
+  - Yeliz
+  - Yonca
+  - Zehra
+  - Zekiye
+  - Zeynep
+maleLast:
+  - Acar (BRAW)
+  - Ak (BRAW)
+  - Akarsu (BRAW)
+  - Akkaya (BRAW)
+  - Aksoy (BRAW)
+  - Akturan (BRAW)
+  - Albayrak (BRAW)
+  - Alkan (BRAW)
+  - Alpsoy (BRAW)
+  - Altay (BRAW)
+  - Altuner (BRAW)
+  - Aras (BRAW)
+  - Arslan (BRAW)
+  - Atakan (BRAW)
+  - Atalay (BRAW)
+  - Atasoy (BRAW)
+  - Atik (BRAW)
+  - Atmaca (BRAW)
+  - Ay (BRAW)
+  - Ayaz (BRAW)
+  - Balaban (BRAW)
+  - Barlas (BRAW)
+  - Batu (BRAW)
+  - Baycan (BRAW)
+  - Bayraktar (BRAW)
+  - Bozkurt (BRAW)
+  - Bulut (BRAW)
+  - Can (BRAW)
+  - Canatan (BRAW)
+  - Cansu (BRAW)
+  - Cesur (BRAW)
+  - Davulcu (BRAW)
+  - Demirci (BRAW)
+  - Dikmen (BRAW)
+  - Doruk (BRAW)
+  - Durak (BRAW)
+  - Durmaz (BRAW)
+  - Dursun (BRAW)
+  - Durukan (BRAW)
+  - Eker (BRAW)
+  - Ekinci (BRAW)
+  - Elvan (BRAW)
+  - Erdem (BRAW)
+  - Eren (BRAW)
+  - Erken (BRAW)
+  - Erkmen (BRAW)
+  - Erkulu (BRAW)
+  - Ersoy (BRAW)
+  - Eser (BRAW)
+  - Gencer (BRAW)
+  - Gezer (BRAW)
+  - Hakyemez (BRAW)
+  - Hamarat (BRAW)
+  - Haznedar (BRAW)
+  - Kahraman (BRAW)
+  - Kalender (BRAW)
+  - Kalyoncu (BRAW)
+  - Kaplan (BRAW)
+  - Kara (BRAW)
+  - Karabulut (BRAW)
+  - Karaca (BRAW)
+  - Karaduman (BRAW)
+  - Karakaya (BRAW)
+  - Karakurt (BRAW)
+  - Karaman (BRAW)
+  - Karatay (BRAW)
+  - Karpuzcu (BRAW)
+  - Kartal (BRAW)
+  - Kavlak (BRAW)
+  - Kavuncu (BRAW)
+  - Kaya (BRAW)
+  - Kayahan (BRAW)
+  - Kayhan (BRAW)
+  - Kaymaz (BRAW)
+  - Kazak (BRAW)
+  - Kazan (BRAW)
+  - Kesen (BRAW)
+  - Keskin (BRAW)
+  - Kocaman (BRAW)
+  - Konuk (BRAW)
+  - Koparan (BRAW)
+  - Korkmaz (BRAW)
+  - Korkusuz (BRAW)
+  - Korkut (BRAW)
+  - Koyuncu (BRAW)
+  - Kozan (BRAW)
+  - Kurt (BRAW)
+  - Kutlu (BRAW)
+  - Kuyumcu (BRAW)
+  - Kuzucu (BRAW)
+  - Mercan (BRAW)
+  - Mutlu (BRAW)
+  - Nurlu (BRAW)
+  - Ocak (BRAW)
+  - Okan (BRAW)
+  - Okuyan (BRAW)
+  - Okyay (BRAW)
+  - Olcay (BRAW)
+  - Oray (BRAW)
+  - Ordu (BRAW)
+  - Pala (BRAW)
+  - Pehlivan (BRAW)
+  - Peker (BRAW)
+  - Polat (BRAW)
+  - Poyraz (BRAW)
+  - Sancaktar (BRAW)
+  - Sayan (BRAW)
+  - Saydam (BRAW)
+  - Sazak (BRAW)
+  - Semerci (BRAW)
+  - Sert (BRAW)
+  - Seymen (BRAW)
+  - Sezer (BRAW)
+  - Solak (BRAW)
+  - Solmaz (BRAW)
+  - Soysal (BRAW)
+  - Sunay (BRAW)
+  - Sungur (BRAW)
+  - Sur (BRAW)
+  - Tahmaz (BRAW)
+  - Tan (BRAW)
+  - Tarhan (BRAW)
+  - Tekcan (BRAW)
+  - Tekin (BRAW)
+  - Tezcan (BRAW)
+  - Tezel (BRAW)
+  - Topal (BRAW)
+  - Toprak (BRAW)
+  - Torun (BRAW)
+  - Tufan (BRAW)
+  - Tuncer (BRAW)
+  - Turna (BRAW)
+  - Ulucan (BRAW)
+  - Ulusoy (BRAW)
+  - Ural (BRAW)
+  - Uslu (BRAW)
+  - Usta (BRAW)
+  - Uyar (BRAW)
+  - Uygun (BRAW)
+  - Uysal (BRAW)
+  - Uzel (BRAW)
+  - Uzuner (BRAW)
+  - Varan (BRAW)
+  - Vardar (BRAW)
+  - Vural (BRAW)
+  - Vurgun (BRAW)
+  - Yalman (BRAW)
+  - Yaman (BRAW)
+  - Yazgan (BRAW)
+  - Yener (BRAW)
+  - Yolcu (BRAW)
+  - Yorulmaz (BRAW)
+  - Yurdakul (BRAW)
+  - Yurtseven (BRAW)
+  - Zeren (BRAW)
+  - Zorlu (BRAW)

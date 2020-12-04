@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Adam
+  - Adrian
+  - Aidan
+  - Alan
+  - Alexander
+  - Alistair
+  - Andrew
+  - Arthur
+  - Ben
+  - Benjamin
+  - Bradley
+  - Brendan
+  - Brett
+  - Bruce
+  - Carl
+  - Charles
+  - Charlie
+  - Christopher
+  - Colin
+  - Connor
+  - Craig
+  - Damien
+  - Daniel
+  - David
+  - Declan
+  - Derek
+  - Desmond
+  - Donald
+  - Dylan
+  - Edmund
+  - Edward
+  - Euan
+  - Frank
+  - Francis
+  - Gareth
+  - Gary
+  - Geoffrey
+  - George
+  - Graeme
+  - Graham
+  - Grant
+  - Gregor
+  - Gregory
+  - Hamish
+  - Harold
+  - Harry
+  - Ian
+  - Iain
+  - James
+  - Jason
+  - John
+  - Jordan
+  - Keith
+  - Ken
+  - Kenneth
+  - Lewis
+  - Liam
+  - Malcolm
+  - Mark
+  - Michael
+  - Neil
+  - Patrick
+  - Paul
+  - Peter
+  - Raymond
+  - Rhys
+  - Richard
+  - Robert
+  - Rory
+  - Roy
+  - Ryan
+  - Samuel
+  - Scott
+  - Simon
+  - Stephen
+  - Steven
+  - Thomas
+  - William
+femaleFirst:
+  - Abigail
+  - Aileen
+  - Ailsa
+  - Alice
+  - Alison
+  - Amy
+  - Andrea
+  - Ann
+  - Anna
+  - Annabel
+  - Anne
+  - Bridget
+  - Carol
+  - Catherine
+  - Clara
+  - Claire
+  - Clare
+  - Courtney
+  - Cynthia
+  - Eleanor
+  - Elizabeth
+  - Emily
+  - Emma
+  - Fiona
+  - Frances
+  - Gail
+  - Gemma
+  - Gillian
+  - Gilly
+  - Grace
+  - Hanna
+  - Hannah
+  - Harriet
+  - Heather
+  - Helen
+  - Holly
+  - Isabel
+  - Isobel
+  - Isla
+  - Jade
+  - Jane
+  - Janet
+  - Janice
+  - Janine
+  - Jayne
+  - Jean
+  - Jenna
+  - Jennifer
+  - Jenny
+  - Jessica
+  - Jill
+  - Joyce
+  - Kate
+  - Katie
+  - Kimberley
+  - Kirsten
+  - Kirsty
+  - Kylie
+  - Lauren
+  - Lesley
+  - Leslie
+  - Lilleth
+  - Lillian
+  - Lindsay
+  - Lisa
+  - Lorna
+  - Lucy
+  - Lynn
+  - Lynette
+  - Margaret
+  - Maria
+  - Mary
+  - Megan
+  - Moira
+  - Murron
+  - Patricia
+  - Rebecca
+  - Samantha
+  - Sarah
+  - Shannon
+  - Siobhan
+  - Stacey
+  - Theresa
+  - Victoria
+maleLast:
+  - Adams (TRACK)
+  - Anderson (TRACK)
+  - Atkinson (TRACK)
+  - Bailey (TRACK)
+  - Baird (TRACK)
+  - Baker (TRACK)
+  - Barker (TRACK)
+  - Ball (TRACK)
+  - Barnes (TRACK)
+  - Bell (TRACK)
+  - Blake (TRACK)
+  - Blair (TRACK)
+  - Boyd (TRACK)
+  - Brook (TRACK)
+  - Brooks (TRACK)
+  - Brown (TRACK)
+  - Burns (TRACK)
+  - Butler (TRACK)
+  - Cameron (TRACK)
+  - Carter (TRACK)
+  - Chapman (TRACK)
+  - Clark (TRACK)
+  - Clarke (TRACK)
+  - Clyde (TRACK)
+  - Cole (TRACK)
+  - Collins (TRACK)
+  - Cook (TRACK)
+  - Cooper (TRACK)
+  - Cox (TRACK)
+  - Davies (TRACK)
+  - Davis (TRACK)
+  - Dawson (TRACK)
+  - Day (TRACK)
+  - Dixon (TRACK)
+  - Douglas (TRACK)
+  - Drummond (TRACK)
+  - Elliot (TRACK)
+  - Erskine (TRACK)
+  - Evans (TRACK)
+  - Ferguson (TRACK)
+  - Fisher (TRACK)
+  - Fletcher (TRACK)
+  - Forbes (TRACK)
+  - Ford (TRACK)
+  - Forsythe (TRACK)
+  - Foster (TRACK)
+  - Fox (TRACK)
+  - Fraser (TRACK)
+  - Garrow (TRACK)
+  - Gibson (TRACK)
+  - Gray (TRACK)
+  - Green (TRACK)
+  - Hall (TRACK)
+  - Harris (TRACK)
+  - Harrison (TRACK)
+  - Harvey (TRACK)
+  - Heaton (TRACK)
+  - Hill (TRACK)
+  - Holmes (TRACK)
+  - Howard (TRACK)
+  - Hughes (TRACK)
+  - Hunt (TRACK)
+  - Hunter (TRACK)
+  - Jackson (TRACK)
+  - Jenkins (TRACK)
+  - Johnson (TRACK)
+  - Jones (TRACK)
+  - Jonlan (TRACK)
+  - Kerr (TRACK)
+  - King (TRACK)
+  - Knight (TRACK)
+  - Knox (TRACK)
+  - Lawrence (TRACK)
+  - Lee (TRACK)
+  - Lennox (TRACK)
+  - Loy (TRACK)
+  - MacCallum (TRACK)
+  - MacCay (TRACK)
+  - MacColl (TRACK)
+  - MacIntyre (TRACK)
+  - Mackendrick (TRACK)
+  - Mackenzie (TRACK)
+  - MacRae (TRACK)
+  - Marion (TRACK)
+  - Marshall (TRACK)
+  - Martin (TRACK)
+  - Mason (TRACK)
+  - Matthews (TRACK)
+  - Middleton (TRACK)
+  - Milne (TRACK)
+  - Mills (TRACK)
+  - Mitchell (TRACK)
+  - Moore (TRACK)
+  - Mumford (TRACK)
+  - Owen (TRACK)
+  - Owens (TRACK)
+  - Paddon (TRACK)
+  - Parker (TRACK)
+  - Palmer (TRACK)
+  - Payne (TRACK)
+  - Pearce (TRACK)
+  - Pearson (TRACK)
+  - Peters (TRACK)
+  - Peterson (TRACK)
+  - Powell (TRACK)
+  - Price (TRACK)
+  - Pritchard (TRACK)
+  - Ramsay (TRACK)
+  - Reynolds (TRACK)
+  - Richards (TRACK)
+  - Richardson (TRACK)
+  - Roberts (TRACK)
+  - Robertson (TRACK)
+  - Robinson (TRACK)
+  - Rogers (TRACK)
+  - Rory (TRACK)
+  - Ross (TRACK)
+  - Rowe (TRACK)
+  - Russell (TRACK)
+  - Saunders (TRACK)
+  - Sharpe (TRACK)
+  - Shaw (TRACK)
+  - Smith (TRACK)
+  - Stevens (TRACK)
+  - Stewart (TRACK)
+  - Taylor (TRACK)
+  - Thompson (TRACK)
+  - Turner (TRACK)
+  - Varley (TRACK)
+  - Walker (TRACK)
+  - Wallace (TRACK)
+  - Walsh (TRACK)
+  - Ward (TRACK)
+  - Watson (TRACK)
+  - Webb (TRACK)
+  - West (TRACK)
+  - White (TRACK)
+  - Wilkinson (TRACK)
+  - Williams (TRACK)
+  - Wright (TRACK)
+  - Wood (TRACK)
+  - Young (TRACK)
+  - Yates (TRACK)

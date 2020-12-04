@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Aaron
+  - Adan
+  - Alberto
+  - Alejandro
+  - Alfonso
+  - Andres
+  - Angel
+  - Antonio
+  - Augusto
+  - Benedicto
+  - Benjamin
+  - Carlos
+  - Daniel
+  - David
+  - Diego
+  - Eduardo
+  - Elias
+  - Eliseo
+  - Enrique
+  - Emanuel
+  - Eric
+  - Ernesto
+  - Esteban
+  - Fabio
+  - Felipe
+  - Felix
+  - Fernando
+  - Fidel
+  - Fortunato
+  - Francisco
+  - Gabriel
+  - Gerardo
+  - Hugo
+  - Humberto
+  - Ismael
+  - Ivan
+  - Jacobo
+  - Jaime
+  - Javier
+  - Jesus
+  - Joel
+  - Jorge
+  - Jose
+  - Juan
+  - Julian
+  - Leo
+  - Leonardo
+  - Lucas
+  - Luis
+  - Manuel
+  - Marco
+  - Marcos
+  - Martin
+  - Matias
+  - Mateo
+  - Maximiliano
+  - Miguel
+  - Nataniel
+  - Nicolas
+  - Noe
+  - Octavio
+  - Orlando
+  - Oscar
+  - Pablo
+  - Pedro
+  - Rafael
+  - Ramon
+  - Raul
+  - Rene
+  - Ricardo
+  - Roberto
+  - Rolando
+  - Salvador
+  - Santiago
+  - Sebastian
+  - Sergio
+  - Silvestre
+  - Stefano
+  - Teodoro
+  - Tito
+  - Tomas
+  - Valentin
+  - Vicente
+  - Victor
+  - Xavier
+femaleFirst:
+  - Adriana
+  - Aida
+  - Alejandra
+  - Alexia
+  - Alma
+  - Ana
+  - Angela
+  - Angelica
+  - Aurora
+  - Barbara
+  - Bianca
+  - Brenda
+  - Carina
+  - Carla
+  - Carolina
+  - Casandra
+  - Catalina
+  - Claudia
+  - Cristina
+  - Dolores
+  - Dora
+  - Elena
+  - Eliana
+  - Elvira
+  - Ema
+  - Esmeralda
+  - Eva
+  - Felicia
+  - Fiona
+  - Gabriela
+  - Gloria
+  - Guadalupe
+  - Ines
+  - Isabel
+  - Jesica
+  - Juana
+  - Laura
+  - Lidia
+  - Liliana
+  - Linda
+  - Lisa
+  - Lorena
+  - Magdalena
+  - Marcela
+  - Margarita
+  - Maria
+  - Mariana
+  - Marisol
+  - Monica
+  - Nadia
+  - Nancy
+  - Natalia
+  - Noemi
+  - Olivia
+  - Patricia
+  - Paulina
+  - Raquel
+  - Rosa
+  - Selena
+  - Sofia
+  - Sonia
+  - Talia
+  - Tatiana
+  - Teresa
+  - Vanesa
+  - Veronica
+  - Victoria
+  - Yolanda
+maleLast:
+  - Aguilar (DEYE)
+  - Alba (DEYE)
+  - Alonso (DEYE)
+  - Alvarado (DEYE)
+  - Alvarez (DEYE)
+  - Avila (DEYE)
+  - Calderon (DEYE)
+  - Campos (DEYE)
+  - Cardenas (DEYE)
+  - Castilla (DEYE)
+  - Cervantes (DEYE)
+  - Chavez (DEYE)
+  - Cortez (DEYE)
+  - Cruz (DEYE)
+  - De La Cruz (DEYE)
+  - De La Rosa (DEYE)
+  - De Soto (DEYE)
+  - Diaz (DEYE)
+  - Dominguez (DEYE)
+  - Estrada (DEYE)
+  - Falcon (DEYE)
+  - Fernandez (DEYE)
+  - Figueroa (DEYE)
+  - Flores (DEYE)
+  - Fuentes (DEYE)
+  - Garcia (DEYE)
+  - Garza (DEYE)
+  - Gomez (DEYE)
+  - Gonzalez (DEYE)
+  - Guerrero (DEYE)
+  - Gutierrez (DEYE)
+  - Guzman (DEYE)
+  - Hernandez (DEYE)
+  - Herrera (DEYE)
+  - Jimenez (DEYE)
+  - Juarez (DEYE)
+  - Leon (DEYE)
+  - Lima (DEYE)
+  - Lopez (DEYE)
+  - Loya (DEYE)
+  - Lucio (DEYE)
+  - Luna (DEYE)
+  - Martinez (DEYE)
+  - Medina (DEYE)
+  - Mejia (DEYE)
+  - Mendez (DEYE)
+  - Mendoza (DEYE)
+  - Miranda (DEYE)
+  - Montero (DEYE)
+  - Montes (DEYE)
+  - Morales (DEYE)
+  - Moreno (DEYE)
+  - Munoz (DEYE)
+  - Navarro (DEYE)
+  - Nunez (DEYE)
+  - Ortega (DEYE)
+  - Ortiz (DEYE)
+  - Pacheco (DEYE)
+  - Pascual (DEYE)
+  - Perez (DEYE)
+  - Ramirez (DEYE)
+  - Ramos (DEYE)
+  - Reyes (DEYE)
+  - Rios (DEYE)
+  - Rivera (DEYE)
+  - Rodriguez (DEYE)
+  - Romero (DEYE)
+  - Rosa (DEYE)
+  - Ruiz (DEYE)
+  - Sanchez (DEYE)
+  - Sandoval (DEYE)
+  - Santa Cruz (DEYE)
+  - Santana (DEYE)
+  - Santiago (DEYE)
+  - Santos (DEYE)
+  - Sosa (DEYE)
+  - Suarez (DEYE)
+  - Tapia (DEYE)
+  - Torres (DEYE)
+  - Trejo (DEYE)
+  - Trevino (DEYE)
+  - Trujillo (DEYE)
+  - Valdez (DEYE)
+  - Vasquez (DEYE)
+  - Vega (DEYE)
+  - Velasquez (DEYE)

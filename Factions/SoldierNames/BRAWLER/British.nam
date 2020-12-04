@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Adam
+  - Adrian
+  - Aidan
+  - Alan
+  - Alexander
+  - Alistair
+  - Andrew
+  - Arthur
+  - Ben
+  - Benjamin
+  - Bradley
+  - Brendan
+  - Brett
+  - Bruce
+  - Carl
+  - Charles
+  - Charlie
+  - Christopher
+  - Colin
+  - Connor
+  - Craig
+  - Damien
+  - Daniel
+  - David
+  - Declan
+  - Derek
+  - Desmond
+  - Donald
+  - Dylan
+  - Edmund
+  - Edward
+  - Euan
+  - Frank
+  - Francis
+  - Gareth
+  - Gary
+  - Geoffrey
+  - George
+  - Graeme
+  - Graham
+  - Grant
+  - Gregor
+  - Gregory
+  - Hamish
+  - Harold
+  - Harry
+  - Ian
+  - Iain
+  - James
+  - Jason
+  - John
+  - Jordan
+  - Keith
+  - Ken
+  - Kenneth
+  - Lewis
+  - Liam
+  - Malcolm
+  - Mark
+  - Michael
+  - Neil
+  - Patrick
+  - Paul
+  - Peter
+  - Raymond
+  - Rhys
+  - Richard
+  - Robert
+  - Rory
+  - Roy
+  - Ryan
+  - Samuel
+  - Scott
+  - Simon
+  - Stephen
+  - Steven
+  - Thomas
+  - William
+femaleFirst:
+  - Abigail
+  - Aileen
+  - Ailsa
+  - Alice
+  - Alison
+  - Amy
+  - Andrea
+  - Ann
+  - Anna
+  - Annabel
+  - Anne
+  - Bridget
+  - Carol
+  - Catherine
+  - Clara
+  - Claire
+  - Clare
+  - Courtney
+  - Cynthia
+  - Eleanor
+  - Elizabeth
+  - Emily
+  - Emma
+  - Fiona
+  - Frances
+  - Gail
+  - Gemma
+  - Gillian
+  - Gilly
+  - Grace
+  - Hanna
+  - Hannah
+  - Harriet
+  - Heather
+  - Helen
+  - Holly
+  - Isabel
+  - Isobel
+  - Isla
+  - Jade
+  - Jane
+  - Janet
+  - Janice
+  - Janine
+  - Jayne
+  - Jean
+  - Jenna
+  - Jennifer
+  - Jenny
+  - Jessica
+  - Jill
+  - Joyce
+  - Kate
+  - Katie
+  - Kimberley
+  - Kirsten
+  - Kirsty
+  - Kylie
+  - Lauren
+  - Lesley
+  - Leslie
+  - Lilleth
+  - Lillian
+  - Lindsay
+  - Lisa
+  - Lorna
+  - Lucy
+  - Lynn
+  - Lynette
+  - Margaret
+  - Maria
+  - Mary
+  - Megan
+  - Moira
+  - Murron
+  - Patricia
+  - Rebecca
+  - Samantha
+  - Sarah
+  - Shannon
+  - Siobhan
+  - Stacey
+  - Theresa
+  - Victoria
+maleLast:
+  - Adams (BRAW)
+  - Anderson (BRAW)
+  - Atkinson (BRAW)
+  - Bailey (BRAW)
+  - Baird (BRAW)
+  - Baker (BRAW)
+  - Barker (BRAW)
+  - Ball (BRAW)
+  - Barnes (BRAW)
+  - Bell (BRAW)
+  - Blake (BRAW)
+  - Blair (BRAW)
+  - Boyd (BRAW)
+  - Brook (BRAW)
+  - Brooks (BRAW)
+  - Brown (BRAW)
+  - Burns (BRAW)
+  - Butler (BRAW)
+  - Cameron (BRAW)
+  - Carter (BRAW)
+  - Chapman (BRAW)
+  - Clark (BRAW)
+  - Clarke (BRAW)
+  - Clyde (BRAW)
+  - Cole (BRAW)
+  - Collins (BRAW)
+  - Cook (BRAW)
+  - Cooper (BRAW)
+  - Cox (BRAW)
+  - Davies (BRAW)
+  - Davis (BRAW)
+  - Dawson (BRAW)
+  - Day (BRAW)
+  - Dixon (BRAW)
+  - Douglas (BRAW)
+  - Drummond (BRAW)
+  - Elliot (BRAW)
+  - Erskine (BRAW)
+  - Evans (BRAW)
+  - Ferguson (BRAW)
+  - Fisher (BRAW)
+  - Fletcher (BRAW)
+  - Forbes (BRAW)
+  - Ford (BRAW)
+  - Forsythe (BRAW)
+  - Foster (BRAW)
+  - Fox (BRAW)
+  - Fraser (BRAW)
+  - Garrow (BRAW)
+  - Gibson (BRAW)
+  - Gray (BRAW)
+  - Green (BRAW)
+  - Hall (BRAW)
+  - Harris (BRAW)
+  - Harrison (BRAW)
+  - Harvey (BRAW)
+  - Heaton (BRAW)
+  - Hill (BRAW)
+  - Holmes (BRAW)
+  - Howard (BRAW)
+  - Hughes (BRAW)
+  - Hunt (BRAW)
+  - Hunter (BRAW)
+  - Jackson (BRAW)
+  - Jenkins (BRAW)
+  - Johnson (BRAW)
+  - Jones (BRAW)
+  - Jonlan (BRAW)
+  - Kerr (BRAW)
+  - King (BRAW)
+  - Knight (BRAW)
+  - Knox (BRAW)
+  - Lawrence (BRAW)
+  - Lee (BRAW)
+  - Lennox (BRAW)
+  - Loy (BRAW)
+  - MacCallum (BRAW)
+  - MacCay (BRAW)
+  - MacColl (BRAW)
+  - MacIntyre (BRAW)
+  - Mackendrick (BRAW)
+  - Mackenzie (BRAW)
+  - MacRae (BRAW)
+  - Marion (BRAW)
+  - Marshall (BRAW)
+  - Martin (BRAW)
+  - Mason (BRAW)
+  - Matthews (BRAW)
+  - Middleton (BRAW)
+  - Milne (BRAW)
+  - Mills (BRAW)
+  - Mitchell (BRAW)
+  - Moore (BRAW)
+  - Mumford (BRAW)
+  - Owen (BRAW)
+  - Owens (BRAW)
+  - Paddon (BRAW)
+  - Parker (BRAW)
+  - Palmer (BRAW)
+  - Payne (BRAW)
+  - Pearce (BRAW)
+  - Pearson (BRAW)
+  - Peters (BRAW)
+  - Peterson (BRAW)
+  - Powell (BRAW)
+  - Price (BRAW)
+  - Pritchard (BRAW)
+  - Ramsay (BRAW)
+  - Reynolds (BRAW)
+  - Richards (BRAW)
+  - Richardson (BRAW)
+  - Roberts (BRAW)
+  - Robertson (BRAW)
+  - Robinson (BRAW)
+  - Rogers (BRAW)
+  - Rory (BRAW)
+  - Ross (BRAW)
+  - Rowe (BRAW)
+  - Russell (BRAW)
+  - Saunders (BRAW)
+  - Sharpe (BRAW)
+  - Shaw (BRAW)
+  - Smith (BRAW)
+  - Stevens (BRAW)
+  - Stewart (BRAW)
+  - Taylor (BRAW)
+  - Thompson (BRAW)
+  - Turner (BRAW)
+  - Varley (BRAW)
+  - Walker (BRAW)
+  - Wallace (BRAW)
+  - Walsh (BRAW)
+  - Ward (BRAW)
+  - Watson (BRAW)
+  - Webb (BRAW)
+  - West (BRAW)
+  - White (BRAW)
+  - Wilkinson (BRAW)
+  - Williams (BRAW)
+  - Wright (BRAW)
+  - Wood (BRAW)
+  - Young (BRAW)
+  - Yates (BRAW)

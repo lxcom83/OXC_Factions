@@ -1,0 +1,77 @@
+############################
+## FACTIONS - units- RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+units:
+  - type: STR_HUMAN_CIVILIAN_MALE_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 70
+      health: 32
+      bravery: 60
+      reactions: 25
+      firing: 44
+      throwing: 30
+      strength: 45
+      psiStrength: 15
+      psiSkill: 0
+      melee: 5
+    armor: CIVM_ARMOR_ARMED
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 5
+    builtInWeaponSets:
+      - 
+        - STR_KNIFE
+      - 
+        - STR_LEAD_PIPE
+      - 
+        - STR_BASEBALL_BAT
+
+
+  - type: STR_HUMAN_CIVILIAN_FEMALE_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 70
+      health: 32
+      bravery: 60
+      reactions: 25
+      firing: 44
+      throwing: 30
+      strength: 45
+      psiStrength: 15
+      psiSkill: 0
+      melee: 5
+    armor: CIVF_ARMOR_ARMED
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 5
+    builtInWeaponSets:
+      - 
+        - STR_KNIFE
+      - 
+        - STR_LEAD_PIPE
+      - 
+        - STR_BASEBALL_BAT
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_HUMAN_CIVILIAN_MALE_NPC: Male Civilian
+      STR_HUMAN_CIVILIAN_FEMALE_NPC: Female Civilian

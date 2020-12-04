@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Aaro
+  - Aatu
+  - Akseli
+  - Aleksi
+  - Antti
+  - Arttu
+  - Atte
+  - Eemeli
+  - Eero
+  - Eino
+  - Esko
+  - Elias
+  - Erkki
+  - Heikki
+  - Henrikki
+  - Ilmari
+  - Jaakko
+  - Jere
+  - Jesse
+  - Joel
+  - Joona
+  - Juhani
+  - Juho
+  - Julius
+  - Jussi
+  - Juuso
+  - Kalle
+  - Konsta
+  - Lauri
+  - Leevi
+  - Markku
+  - Matias
+  - Matti
+  - Mika
+  - Mikael
+  - Mikko
+  - Niilo
+  - Niklas
+  - Niko
+  - Onni
+  - Oskari
+  - Roope
+  - Sami
+  - Santeri
+  - Tapani
+  - Tommi
+  - Tuomas
+  - Valtteri
+  - Viljo
+  - Ville
+femaleFirst:
+  - Aino
+  - Anja
+  - Anna
+  - Anneli
+  - Anni
+  - Eila
+  - Elina
+  - Elisa
+  - Emilia
+  - Emma
+  - Emmi
+  - Eveliina
+  - Hanna
+  - Hannele
+  - Helena
+  - Helmi
+  - Iida
+  - Iina
+  - Ilona
+  - Jenni
+  - Johanna
+  - Julia
+  - Kaarina
+  - Karoliina
+  - Katariina
+  - Kristiina
+  - Laura
+  - Leena
+  - Liisa
+  - Maarit
+  - Maija
+  - Maria
+  - Marjatta
+  - Martta
+  - Milla
+  - Minna
+  - Noora
+  - Oona
+  - Pauliina
+  - Pirjo
+  - Riitta
+  - Ritva
+  - Saara
+  - Sanni
+  - Sari
+  - Sofia
+  - Susanna
+  - Tuula
+  - Tuuli
+  - Veera
+maleLast:
+  - Aalto (DEYE)
+  - Aaltonen (DEYE)
+  - Aho (DEYE)
+  - Ahola (DEYE)
+  - Ahonen (DEYE)
+  - Anttila (DEYE)
+  - Arvola (DEYE)
+  - Eskola (DEYE)
+  - Haapala (DEYE)
+  - Haavisto (DEYE)
+  - Hakala (DEYE)
+  - Halonen (DEYE)
+  - Harju (DEYE)
+  - Hartikainen (DEYE)
+  - Heikkinen (DEYE)
+  - Heino (DEYE)
+  - Heinonen (DEYE)
+  - Heiskanen (DEYE)
+  - Hietala (DEYE)
+  - Hiltunen (DEYE)
+  - Hirvonen (DEYE)
+  - Honkanen (DEYE)
+  - Huttunen (DEYE)
+  - Ikonen (DEYE)
+  - Immonen (DEYE)
+  - Jalonen (DEYE)
+  - Jokinen (DEYE)
+  - Kallio (DEYE)
+  - Karhu (DEYE)
+  - Karjalainen (DEYE)
+  - Karppinen (DEYE)
+  - Kauppinen (DEYE)
+  - Kemppainen (DEYE)
+  - Kettunen (DEYE)
+  - Kinnunen (DEYE)
+  - Kiviniemi (DEYE)
+  - Koivisto (DEYE)
+  - Kokko (DEYE)
+  - Kokkonen (DEYE)
+  - Koponen (DEYE)
+  - Korhonen (DEYE)
+  - Korpela (DEYE)
+  - Koskela (DEYE)
+  - Koski (DEYE)
+  - Koskinen (DEYE)
+  - Laakso (DEYE)
+  - Laaksonen (DEYE)
+  - Lahti (DEYE)
+  - Lahtinen (DEYE)
+  - Laine (DEYE)
+  - Laitinen (DEYE)
+  - Lappalainen (DEYE)
+  - Lehtinen (DEYE)
+  - Lehto (DEYE)
+  - Lehtonen (DEYE)
+  - Leino (DEYE)
+  - Leinonen (DEYE)
+  - Lindholm (DEYE)
+  - Manninen (DEYE)
+  - Mattila (DEYE)
+  - Miettinen (DEYE)
+  - Mikkola (DEYE)
+  - Mikkonen (DEYE)
+  - Moilanen (DEYE)
+  - Mustonen (DEYE)
+  - Niemi (DEYE)
+  - Nieminen (DEYE)
+  - Niskanen (DEYE)
+  - Nurmi (DEYE)
+  - Nurminen (DEYE)
+  - Nyman (DEYE)
+  - Ojala (DEYE)
+  - Oksanen (DEYE)
+  - Partanen (DEYE)
+  - Peltola (DEYE)
+  - Peltonen (DEYE)
+  - Pesonen (DEYE)
+  - Pulkkinen (DEYE)
+  - Rajala (DEYE)
+  - Rantala (DEYE)
+  - Rantanen (DEYE)
+  - Rautiainen (DEYE)
+  - Rautio (DEYE)
+  - Rissanen (DEYE)
+  - Saari (DEYE)
+  - Saarinen (DEYE)
+  - Saimi (DEYE)
+  - Salminen (DEYE)
+  - Salo (DEYE)
+  - Salonen (DEYE)
+  - Savolainen (DEYE)
+  - Suominen (DEYE)
+  - Toivonen (DEYE)
+  - Tuominen (DEYE)
+  - Turunen (DEYE)
+  - Uusitalo (DEYE)
+  - Vainio (DEYE)
+  - Virtanen (DEYE)
+  - Vuorinen (DEYE)
+  - Ylitalo (DEYE)

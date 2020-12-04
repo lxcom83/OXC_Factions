@@ -1,0 +1,441 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Ales
+  - Alexandr
+  - Alexej
+  - Ambroz
+  - Andrej
+  - Antonin
+  - Arnost
+  - Artur
+  - Augustyn
+  - Bartolomej
+  - Bedrich
+  - Benedikt
+  - Bernard
+  - Blahoslav
+  - Blazej
+  - Bohdan
+  - Bohumil
+  - Bohumir
+  - Bohuslav
+  - Boleslav
+  - Bonifac
+  - Borek
+  - Boris
+  - Borivoj
+  - Bretislav
+  - Bronislav
+  - Bruno
+  - Cenek
+  - Cestmir
+  - Ctibor
+  - Ctirad
+  - Dalibor
+  - Dalimil
+  - David
+  - Dobroslav
+  - Dominik
+  - Drahoslav
+  - Dusan
+  - Eduard
+  - Emil
+  - Erik
+  - Evzen
+  - Felix
+  - Ferdinand
+  - Filip
+  - Frantisek
+  - Gustav
+  - Hanus
+  - Havel
+  - Herman
+  - Hubert
+  - Hugo
+  - Hynek
+  - Ignac
+  - Igor
+  - Ilja
+  - Ivan
+  - Ivo
+  - Jachym
+  - Jakub
+  - Jan
+  - Jarmil
+  - Jaromir
+  - Jaroslav
+  - Jeronym
+  - Jindrich
+  - Jiri
+  - Jonas
+  - Josef
+  - Jozef
+  - Julius
+  - Kamil
+  - Karel
+  - Kazimir
+  - Klement
+  - Kristian
+  - Krystof
+  - Kvetoslav
+  - Kvido
+  - Ladislav
+  - Leopold
+  - Leos
+  - Libor
+  - Lubomir
+  - Lubor
+  - Lubos
+  - Ludek
+  - Ludvik
+  - Lukas
+  - Lumir
+  - Marcel
+  - Marek
+  - Marian
+  - Martin
+  - Matej
+  - Matous
+  - Maxmilian
+  - Medard
+  - Michal
+  - Mikulas
+  - Milan
+  - Milos
+  - Miloslav
+  - Miroslav
+  - Mojmir
+  - Oldrich
+  - Oleg
+  - Oliver
+  - Ondrej
+  - Oskar
+  - Otakar
+  - Otmar
+  - Oto
+  - Pankrac
+  - Patrik
+  - Pavel
+  - Petr
+  - Pravoslav
+  - Premysl
+  - Prokop
+  - Radek
+  - Radim
+  - Radomir
+  - Radoslav
+  - Radovan
+  - Rehor
+  - Roman
+  - Rostislav
+  - Rudolf
+  - Samuel
+  - Servac
+  - Silvestr
+  - Simon
+  - Slavomir
+  - Sobeslav
+  - Stanislav
+  - Stefan
+  - Stepan
+  - Svatopluk
+  - Svatoslav
+  - Tadeas
+  - Teodor
+  - Tibor
+  - Tomas
+  - Vaclav
+  - Valdemar
+  - Valentyn
+  - Vavrinec
+  - Venceslav
+  - Vendelin
+  - Veroslav
+  - Viktor
+  - Vilem
+  - Vincenc
+  - Vit
+  - Vitezslav
+  - Vladan
+  - Vladimir
+  - Vladislav
+  - Vlastimil
+  - Vlastislav
+  - Vojtech
+  - Vratislav
+  - Zbynek
+  - Zbysek
+  - Zdenek
+  - Zikmund
+femaleFirst:
+  - Adela
+  - Adriena
+  - Agata
+  - Alena
+  - Alica
+  - Alzbeta
+  - Ana
+  - Ancika
+  - Andela
+  - Aneta
+  - Anezka
+  - Anna
+  - Antoinetta
+  - Antonie
+  - Bara
+  - Barbora
+  - Barcinka
+  - Barunka
+  - Baruska
+  - Blanka
+  - Bohdana
+  - Bohumila
+  - Bohuslava
+  - Bora
+  - Bozena
+  - Branislava
+  - Dagmar
+  - Dalibora
+  - Dominika
+  - Drahomira
+  - Drahoslava
+  - Dusana
+  - Dusanka
+  - Edita
+  - Eliska
+  - Elita
+  - Emilia
+  - Eva
+  - Frantiska
+  - Gabina
+  - Hana
+  - Hedvika
+  - Helena
+  - Irena
+  - Irina
+  - Iva
+  - Ivana
+  - Izabela
+  - Jana
+  - Jarmila
+  - Jaromila
+  - Jaroslava
+  - Jindriska
+  - Jirina
+  - Jitka
+  - Johana
+  - Jolana
+  - Josefa
+  - Judita
+  - Julia
+  - Kamila
+  - Karina
+  - Karolina
+  - Katarina
+  - Katerina
+  - Katica
+  - Kristyna
+  - Kunigunde
+  - Kveta
+  - Ladislava
+  - Lenka
+  - Leona
+  - Libena
+  - Libuse
+  - Lida
+  - Lidmila
+  - Lubomira
+  - Lucie
+  - Lucina
+  - Ludmila
+  - Lydie
+  - Madlenka
+  - Magdalena
+  - Maria
+  - Marie
+  - Marketa
+  - Matylda
+  - Michaela
+  - Milada
+  - Milana
+  - Milena
+  - Miloslava
+  - Monika
+  - Nada
+  - Nadezda
+  - Otilie
+  - Pavla
+  - Pavlina
+  - Petra
+  - Radka
+  - Radomila
+  - Radomira
+  - Radoslava
+  - Ruzena
+  - Sara
+  - Simona
+  - Sobeska
+  - Sobeslava
+  - Stanislava
+  - Stefanija
+  - Stepanka
+  - Svetlana
+  - Tatana
+  - Tereza
+  - Ursula
+  - Vaclava
+  - Vendula
+  - Vera
+  - Veronika
+  - Vladimira
+  - Vlasta
+  - Zdenka
+  - Zofie
+  - Zoja
+  - Zuzana
+maleLast:
+  - Bartos  (TRACK)
+  - Benda (TRACK)
+  - Benes (TRACK)
+  - Beran (TRACK)
+  - Blaha (TRACK)
+  - Blazek (TRACK)
+  - Broz (TRACK)
+  - Bures (TRACK)
+  - Carda (TRACK)
+  - Cech (TRACK)
+  - Cermak (TRACK)
+  - Cerny (TRACK)
+  - Cervenka (TRACK)
+  - Cizek (TRACK)
+  - Dobrynsky (TRACK)
+  - Dolezal (TRACK)
+  - Dusek (TRACK)
+  - Dvorak (TRACK)
+  - Fiala (TRACK)
+  - Fiser (TRACK)
+  - Hajek (TRACK)
+  - Havlicek (TRACK)
+  - Hlavacek (TRACK)
+  - Hoffmann (TRACK)
+  - Holub (TRACK)
+  - Horak (TRACK)
+  - Hruby (TRACK)
+  - Hruska (TRACK)
+  - Janda (TRACK)
+  - Janecek (TRACK)
+  - Janousek (TRACK)
+  - Jelinek (TRACK)
+  - Jezek (TRACK)
+  - Kadlec (TRACK)
+  - Kaspar (TRACK)
+  - Klaus (TRACK)
+  - Klima (TRACK)
+  - Kohout (TRACK)
+  - Kolar (TRACK)
+  - Kopecky (TRACK)
+  - Kovar (TRACK)
+  - Kovarik (TRACK)
+  - Krajan (TRACK)
+  - Kral (TRACK)
+  - Kratochvil (TRACK)
+  - Kraus (TRACK)
+  - Krejci  (TRACK)
+  - Kriz (TRACK)
+  - Kubis (TRACK)
+  - Kucera (TRACK)
+  - Kvitoslav (TRACK)
+  - Machacek (TRACK)
+  - Maly (TRACK)
+  - Mares (TRACK)
+  - Marny (TRACK)
+  - Martinek (TRACK)
+  - Masek (TRACK)
+  - Matejka (TRACK)
+  - Matousek (TRACK)
+  - Moravec (TRACK)
+  - Mueller (TRACK)
+  - Musil (TRACK)
+  - Nadinicky (TRACK)
+  - Navratil (TRACK)
+  - Necesal (TRACK)
+  - Nemec (TRACK)
+  - Nemecek (TRACK)
+  - Neumann (TRACK)
+  - Nemy (TRACK)
+  - Novak (TRACK)
+  - Novotny (TRACK)
+  - Pesek (TRACK)
+  - Pokorny (TRACK)
+  - Polak (TRACK)
+  - Pospisil (TRACK)
+  - Prochazka (TRACK)
+  - Richter (TRACK)
+  - Riha (TRACK)
+  - Rosa (TRACK)
+  - Ruzicka (TRACK)
+  - Sedlacek (TRACK)
+  - Sichy (TRACK)
+  - Simek (TRACK)
+  - Skala (TRACK)
+  - Slavik (TRACK)
+  - Smid (TRACK)
+  - Soucek (TRACK)
+  - Soukup (TRACK)
+  - Stanek (TRACK)
+  - Stastny (TRACK)
+  - Stepanek (TRACK)
+  - Stransky (TRACK)
+  - Strnad (TRACK)
+  - Sulc (TRACK)
+  - Svoboda (TRACK)
+  - Sykora (TRACK)
+  - Tuma (TRACK)
+  - Tycka (TRACK)
+  - Urban (TRACK)
+  - Vacek (TRACK)
+  - Valenta (TRACK)
+  - Vanek (TRACK)
+  - Vavra (TRACK)
+  - Vesely (TRACK)
+  - Vlcek (TRACK)
+  - Zelenka (TRACK)
+  - Zeman (TRACK)
+femaleLast:
+  - Bartosova (TRACK)
+  - Brozova (TRACK)
+  - Cermakova (TRACK)
+  - Hruba (TRACK)
+  - Kolarova (TRACK)
+  - Komyrova (TRACK)
+  - Konecna (TRACK)
+  - Kovacova (TRACK)
+  - Kratochvilova (TRACK)
+  - Krejci (TRACK)
+  - Krizna (TRACK)
+  - Mala (TRACK)
+  - Maskova (TRACK)
+  - Matusova (TRACK)
+  - Musilova (TRACK)
+  - Navratilova (TRACK)
+  - Olhova (TRACK)
+  - Petrova (TRACK)
+  - Polakova (TRACK)
+  - Romanova (TRACK)
+  - Soukupova (TRACK)
+  - Stastna (TRACK)
+  - Stejskalova (TRACK)
+  - Ticha (TRACK)
+  - Tkadlecova (TRACK)
+  - Trojska (TRACK)
+  - Tumova (TRACK)
+  - Urbanova (TRACK)
+  - Vaskova (TRACK)
+  - Vavrova (TRACK)
+  - Vlazkova (TRACK)
+  - Zakova (TRACK)
+  - Zemanova (TRACK)

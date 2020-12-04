@@ -1,0 +1,251 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandar
+  - Andon
+  - Andrey
+  - Andrian
+  - Anton
+  - Antoni
+  - Angel
+  - Apostol
+  - Atanas
+  - Bogdan
+  - Bogomil
+  - Borislav
+  - Boyko
+  - Damyan
+  - Danail
+  - Desislav
+  - Dimitar
+  - Dragomir
+  - Gavrail
+  - Georgi
+  - Hristo
+  - Ilian
+  - Iliya
+  - Ivan
+  - Ivaylo
+  - Ivo
+  - Kaloyan
+  - Kiril
+  - Konstantin
+  - Krasimir
+  - Krastyo
+  - Lyuben
+  - Lyubomir
+  - Lyudmil
+  - Marko
+  - Miroslav
+  - Momchil
+  - Nikola
+  - Ognyan
+  - Penko
+  - Petar
+  - Plamen
+  - Radomir
+  - Samuil
+  - Spas
+  - Stanimir
+  - Stanislav
+  - Stoyan
+  - Teodor
+  - Tihomir
+  - Todor
+  - Toma
+  - Tsvetan
+  - Vasil
+  - Ventsislav
+  - Viktor
+  - Vladimir
+  - Vladislav
+  - Yanko
+  - Yoan
+  - Yordan
+  - Yosif
+  - Zahari
+  - Zhivko
+  - Zlatko
+femaleFirst:
+  - Ana
+  - Antonia
+  - Bilyana
+  - Bisera
+  - Bogomila
+  - Borislava
+  - Boyana
+  - Desislava
+  - Elisaveta
+  - Emiliya
+  - Gergana
+  - Hristina
+  - Iva
+  - Ivana
+  - Ivelina
+  - Ivet
+  - Izabela
+  - Krasimira
+  - Lidiya
+  - Lilyana
+  - Lyubina
+  - Lyubomira
+  - Lyudmila
+  - Maya
+  - Mirela
+  - Miroslava
+  - Nadejda
+  - Nevena
+  - Nikolina
+  - Pavla
+  - Pavlina
+  - Radomira
+  - Radoslava
+  - Radostina
+  - Rayna
+  - Rosa
+  - Rositsa
+  - Silviya
+  - Simona
+  - Snezhana
+  - Sofiya
+  - Stanislava
+  - Stanka
+  - Stoyanka
+  - Svetla
+  - Svetlana
+  - Tanya
+  - Tatyana
+  - Teodora
+  - Tereza
+  - Tsveta
+  - Tsvetelina
+  - Veselina
+  - Viktoria
+  - Violeta
+  - Vladimira
+  - Yana
+  - Yoana
+  - Yordanka
+maleLast:
+  - Aleksandrov (BRAW)
+  - Andonov (BRAW)
+  - Andreev (BRAW)
+  - Antonov (BRAW)
+  - Antoniev (BRAW)
+  - Angelov (BRAW)
+  - Apostolov (BRAW)
+  - Atanasov (BRAW)
+  - Bogdanov (BRAW)
+  - Bogomilov (BRAW)
+  - Borislavov (BRAW)
+  - Boykov (BRAW)
+  - Damyanov (BRAW)
+  - Danailov (BRAW)
+  - Desislavov (BRAW)
+  - Dimitrov (BRAW)
+  - Dragomirov (BRAW)
+  - Gavrailov (BRAW)
+  - Georgiev (BRAW)
+  - Hristov (BRAW)
+  - Ilianov (BRAW)
+  - Iliev (BRAW)
+  - Ivanov (BRAW)
+  - Ivaylov (BRAW)
+  - Kaloyan (BRAW)
+  - Kirilov (BRAW)
+  - Konstantinov (BRAW)
+  - Krasimirov (BRAW)
+  - Lyubenov (BRAW)
+  - Lyubomirov (BRAW)
+  - Lyudmilov (BRAW)
+  - Markov (BRAW)
+  - Miroslavov (BRAW)
+  - Momchilov (BRAW)
+  - Nikolaev (BRAW)
+  - Ognyanov (BRAW)
+  - Penkov (BRAW)
+  - Petrov (BRAW)
+  - Plamenov (BRAW)
+  - Radomirov (BRAW)
+  - Samuilov (BRAW)
+  - Spasov (BRAW)
+  - Stanimirov (BRAW)
+  - Stanislavov (BRAW)
+  - Stoyanov (BRAW)
+  - Teodorov (BRAW)
+  - Tihomirov (BRAW)
+  - Todorov (BRAW)
+  - Tomov (BRAW)
+  - Tsvetanov (BRAW)
+  - Vasilev (BRAW)
+  - Ventsislavov (BRAW)
+  - Vladimirov (BRAW)
+  - Vladislavov (BRAW)
+  - Yordanov (BRAW)
+  - Yosifov (BRAW)
+  - Zahariev (BRAW)
+  - Zhivkov (BRAW)
+  - Zlatkov (BRAW)
+femaleLast:
+  - Aleksandrov (BRAW)
+  - Andonov (BRAW)
+  - Andreev (BRAW)
+  - Antonov (BRAW)
+  - Antoniev (BRAW)
+  - Angelov (BRAW)
+  - Apostolov (BRAW)
+  - Atanasov (BRAW)
+  - Bogdanov (BRAW)
+  - Bogomilov (BRAW)
+  - Borislavov (BRAW)
+  - Boykov (BRAW)
+  - Damyanov (BRAW)
+  - Danailov (BRAW)
+  - Desislavov (BRAW)
+  - Dimitrov (BRAW)
+  - Dragomirov (BRAW)
+  - Gavrailov (BRAW)
+  - Georgiev (BRAW)
+  - Hristov (BRAW)
+  - Ilianov (BRAW)
+  - Iliev (BRAW)
+  - Ivanov (BRAW)
+  - Ivaylov (BRAW)
+  - Kaloyan (BRAW)
+  - Kirilov (BRAW)
+  - Konstantinov (BRAW)
+  - Krasimirov (BRAW)
+  - Lyubenov (BRAW)
+  - Lyubomirov (BRAW)
+  - Lyudmilov (BRAW)
+  - Markov (BRAW)
+  - Miroslavov (BRAW)
+  - Momchilov (BRAW)
+  - Nikolaev (BRAW)
+  - Ognyanov (BRAW)
+  - Penkov (BRAW)
+  - Petrov (BRAW)
+  - Plamenov (BRAW)
+  - Radomirov (BRAW)
+  - Samuilov (BRAW)
+  - Spasov (BRAW)
+  - Stanimirov (BRAW)
+  - Stanislavov (BRAW)
+  - Stoyanov (BRAW)
+  - Teodorov (BRAW)
+  - Tihomirov (BRAW)
+  - Todorov (BRAW)
+  - Tomov (BRAW)
+  - Tsvetanov (BRAW)
+  - Vasilev (BRAW)
+  - Ventsislavov (BRAW)
+  - Vladimirov (BRAW)
+  - Vladislavov (BRAW)
+  - Yordanov (BRAW)
+  - Yosifov (BRAW)
+  - Zahariev (BRAW)
+  - Zhivkov (BRAW)
+  - Zlatkov (BRAW)

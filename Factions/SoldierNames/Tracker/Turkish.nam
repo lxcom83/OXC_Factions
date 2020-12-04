@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - Abdullah
+  - Adem
+  - Adil
+  - Adnan
+  - Ahmet
+  - Akif
+  - Ali
+  - Alp
+  - Alper
+  - Altan
+  - Arda
+  - Arif
+  - Atilla
+  - Aydemir
+  - Ayhan
+  - Aykut
+  - Aziz
+  - Baha
+  - Bahri
+  - Barlas
+  - Bedri
+  - Bekir
+  - Berk
+  - Bilal
+  - Birol
+  - Bora
+  - Burak
+  - Burhan
+  - Cahit
+  - Can
+  - Caner
+  - Cem
+  - Cemal
+  - Cengiz
+  - Cenk
+  - Cihan
+  - Cumhur
+  - Davut
+  - Doruk
+  - Dursun
+  - Efe
+  - Ekrem
+  - Emin
+  - Emrah
+  - Emre
+  - Engin
+  - Enver
+  - Erdal
+  - Eren
+  - Erhan
+  - Erkan
+  - Erol
+  - Ethem
+  - Fahri
+  - Faruk
+  - Fatih
+  - Fehmi
+  - Ferdi
+  - Ferhat
+  - Feridun
+  - Fikret
+  - Furkan
+  - Hakan
+  - Halil
+  - Haluk
+  - Hamdi
+  - Hamza
+  - Harun
+  - Hasan
+  - Hayri
+  - Hikmet
+  - Hilmi
+  - Kaan
+  - Kadir
+  - Kemal
+  - Kenan
+  - Kerem
+  - Koray
+  - Korhan
+  - Levent
+  - Mahir
+  - Mahmut
+  - Mehmet
+  - Melih
+  - Mert
+  - Mete
+  - Metin
+  - Mithat
+  - Muammer
+  - Muhammet
+  - Muhsin
+  - Murat
+  - Musa
+  - Mustafa
+  - Muzaffer
+  - Naci
+  - Nazmi
+  - Necdet
+  - Nihat
+  - Niyazi
+  - Nuri
+  - Okan
+  - Oktay
+  - Onur
+  - Orhan
+  - Osman
+  - Ozan
+  - Ramazan
+  - Remzi
+  - Sabri
+  - Salih
+  - Sedat
+  - Selim
+  - Semih
+  - Sercan
+  - Serdar
+  - Serhat
+  - Serkan
+  - Sinan
+  - Soner
+  - Taha
+  - Tahir
+  - Tahsin
+  - Taner
+  - Tarkan
+  - Tayfun
+  - Tayyar
+  - Temel
+  - Teoman
+  - Tevfik
+  - Timur
+  - Tolga
+  - Tosun
+  - Tuna
+  - Tuncay
+  - Turan
+  - Turgut
+  - Ufuk
+  - Umut
+  - Utku
+  - Uzay
+  - Vedat
+  - Veli
+  - Veysel
+  - Volkan
+  - Vural
+  - Yahya
+  - Yakup
+  - Yasin
+  - Yavuz
+  - Yusuf
+  - Zafer
+  - Zeki
+  - Zeynel
+  - Ziya
+femaleFirst:
+  - Adile
+  - Alev
+  - Arzu
+  - Asena
+  - Ayda
+  - Aydan
+  - Ayla
+  - Aylin
+  - Aysel
+  - Aysu
+  - Aysun
+  - Bahar
+  - Bengi
+  - Bilge
+  - Birsen
+  - Burcu
+  - Canan
+  - Ceren
+  - Ceyda
+  - Damla
+  - Demet
+  - Deniz
+  - Didem
+  - Dilara
+  - Duygu
+  - Ebru
+  - Ece
+  - Eda
+  - Elif
+  - Emel
+  - Emine
+  - Esra
+  - Evrim
+  - Eylem
+  - Ezgi
+  - Fatma
+  - Filiz
+  - Gamze
+  - Gizem
+  - Hande
+  - Hatice
+  - Irmak
+  - Jale
+  - Lale
+  - Leyla
+  - Melis
+  - Meltem
+  - Meral
+  - Merve
+  - Meryem
+  - Nalan
+  - Nazan
+  - Nesrin
+  - Nezihe
+  - Nihan
+  - Nil
+  - Nur
+  - Olcay
+  - Oya
+  - Pervin
+  - Rabia
+  - Reyhan
+  - Sabiha
+  - Safiye
+  - Sanem
+  - Seda
+  - Selma
+  - Semiha
+  - Sevgi
+  - Sevil
+  - Sevim
+  - Sibel
+  - Sinem
+  - Suna
+  - Yaprak
+  - Yasemin
+  - Yeliz
+  - Yonca
+  - Zehra
+  - Zekiye
+  - Zeynep
+maleLast:
+  - Acar (TRACK)
+  - Ak (TRACK)
+  - Akarsu (TRACK)
+  - Akkaya (TRACK)
+  - Aksoy (TRACK)
+  - Akturan (TRACK)
+  - Albayrak (TRACK)
+  - Alkan (TRACK)
+  - Alpsoy (TRACK)
+  - Altay (TRACK)
+  - Altuner (TRACK)
+  - Aras (TRACK)
+  - Arslan (TRACK)
+  - Atakan (TRACK)
+  - Atalay (TRACK)
+  - Atasoy (TRACK)
+  - Atik (TRACK)
+  - Atmaca (TRACK)
+  - Ay (TRACK)
+  - Ayaz (TRACK)
+  - Balaban (TRACK)
+  - Barlas (TRACK)
+  - Batu (TRACK)
+  - Baycan (TRACK)
+  - Bayraktar (TRACK)
+  - Bozkurt (TRACK)
+  - Bulut (TRACK)
+  - Can (TRACK)
+  - Canatan (TRACK)
+  - Cansu (TRACK)
+  - Cesur (TRACK)
+  - Davulcu (TRACK)
+  - Demirci (TRACK)
+  - Dikmen (TRACK)
+  - Doruk (TRACK)
+  - Durak (TRACK)
+  - Durmaz (TRACK)
+  - Dursun (TRACK)
+  - Durukan (TRACK)
+  - Eker (TRACK)
+  - Ekinci (TRACK)
+  - Elvan (TRACK)
+  - Erdem (TRACK)
+  - Eren (TRACK)
+  - Erken (TRACK)
+  - Erkmen (TRACK)
+  - Erkulu (TRACK)
+  - Ersoy (TRACK)
+  - Eser (TRACK)
+  - Gencer (TRACK)
+  - Gezer (TRACK)
+  - Hakyemez (TRACK)
+  - Hamarat (TRACK)
+  - Haznedar (TRACK)
+  - Kahraman (TRACK)
+  - Kalender (TRACK)
+  - Kalyoncu (TRACK)
+  - Kaplan (TRACK)
+  - Kara (TRACK)
+  - Karabulut (TRACK)
+  - Karaca (TRACK)
+  - Karaduman (TRACK)
+  - Karakaya (TRACK)
+  - Karakurt (TRACK)
+  - Karaman (TRACK)
+  - Karatay (TRACK)
+  - Karpuzcu (TRACK)
+  - Kartal (TRACK)
+  - Kavlak (TRACK)
+  - Kavuncu (TRACK)
+  - Kaya (TRACK)
+  - Kayahan (TRACK)
+  - Kayhan (TRACK)
+  - Kaymaz (TRACK)
+  - Kazak (TRACK)
+  - Kazan (TRACK)
+  - Kesen (TRACK)
+  - Keskin (TRACK)
+  - Kocaman (TRACK)
+  - Konuk (TRACK)
+  - Koparan (TRACK)
+  - Korkmaz (TRACK)
+  - Korkusuz (TRACK)
+  - Korkut (TRACK)
+  - Koyuncu (TRACK)
+  - Kozan (TRACK)
+  - Kurt (TRACK)
+  - Kutlu (TRACK)
+  - Kuyumcu (TRACK)
+  - Kuzucu (TRACK)
+  - Mercan (TRACK)
+  - Mutlu (TRACK)
+  - Nurlu (TRACK)
+  - Ocak (TRACK)
+  - Okan (TRACK)
+  - Okuyan (TRACK)
+  - Okyay (TRACK)
+  - Olcay (TRACK)
+  - Oray (TRACK)
+  - Ordu (TRACK)
+  - Pala (TRACK)
+  - Pehlivan (TRACK)
+  - Peker (TRACK)
+  - Polat (TRACK)
+  - Poyraz (TRACK)
+  - Sancaktar (TRACK)
+  - Sayan (TRACK)
+  - Saydam (TRACK)
+  - Sazak (TRACK)
+  - Semerci (TRACK)
+  - Sert (TRACK)
+  - Seymen (TRACK)
+  - Sezer (TRACK)
+  - Solak (TRACK)
+  - Solmaz (TRACK)
+  - Soysal (TRACK)
+  - Sunay (TRACK)
+  - Sungur (TRACK)
+  - Sur (TRACK)
+  - Tahmaz (TRACK)
+  - Tan (TRACK)
+  - Tarhan (TRACK)
+  - Tekcan (TRACK)
+  - Tekin (TRACK)
+  - Tezcan (TRACK)
+  - Tezel (TRACK)
+  - Topal (TRACK)
+  - Toprak (TRACK)
+  - Torun (TRACK)
+  - Tufan (TRACK)
+  - Tuncer (TRACK)
+  - Turna (TRACK)
+  - Ulucan (TRACK)
+  - Ulusoy (TRACK)
+  - Ural (TRACK)
+  - Uslu (TRACK)
+  - Usta (TRACK)
+  - Uyar (TRACK)
+  - Uygun (TRACK)
+  - Uysal (TRACK)
+  - Uzel (TRACK)
+  - Uzuner (TRACK)
+  - Varan (TRACK)
+  - Vardar (TRACK)
+  - Vural (TRACK)
+  - Vurgun (TRACK)
+  - Yalman (TRACK)
+  - Yaman (TRACK)
+  - Yazgan (TRACK)
+  - Yener (TRACK)
+  - Yolcu (TRACK)
+  - Yorulmaz (TRACK)
+  - Yurdakul (TRACK)
+  - Yurtseven (TRACK)
+  - Zeren (TRACK)
+  - Zorlu (TRACK)

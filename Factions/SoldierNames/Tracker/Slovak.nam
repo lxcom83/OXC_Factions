@@ -1,0 +1,184 @@
+lookWeights:
+  - 45
+  - 55
+  - 0
+  - 0
+maleFirst:
+  - Andrej
+  - Arpad
+  - Branislav
+  - Ctibor
+  - David
+  - Dusan
+  - Frantisek
+  - Jakub
+  - Jan
+  - Jaroslav
+  - Jozef
+  - Juraj
+  - Julius
+  - Ladislav
+  - Lubomir
+  - Lubos
+  - Ludovit
+  - Lukas
+  - Martin
+  - Matej
+  - Michal
+  - Milan
+  - Miroslav
+  - Mojmir
+  - Ondrej
+  - Pavol
+  - Peter
+  - Radomir
+  - Radoslav
+  - Rastislav
+  - Richard
+  - Roman
+  - Slavomir
+  - Stanislav
+  - Tomas
+  - Vladimir
+  - Vratko
+  - Zdeno
+femaleFirst:
+  - Adela
+  - Agata
+  - Andrea
+  - Anna
+  - Dasa
+  - Elena
+  - Eva
+  - Hana
+  - Helena
+  - Ivana
+  - Jarmila
+  - Jaroslava
+  - Katarina
+  - Karolina
+  - Kristina
+  - Kvetoslava
+  - Lenka
+  - Linda
+  - Lucia
+  - Ludmila
+  - Maria
+  - Michaela
+  - Milena
+  - Monika
+  - Natalia
+  - Nela
+  - Petra
+  - Tatiana
+  - Tereza
+  - Veronika
+  - Viera
+  - Zdenka
+  - Zoja
+  - Zora
+  - Zuzana
+maleLast:
+  - Baca (TRACK)
+  - Banik (TRACK)
+  - Beno (TRACK)
+  - Bezdicka (TRACK)
+  - Bondra (TRACK)
+  - Bosansky (TRACK)
+  - Brezina (TRACK)
+  - Cernuska (TRACK)
+  - Cyprich (TRACK)
+  - Dano (TRACK)
+  - Dula (TRACK)
+  - Filip (TRACK)
+  - Gernic (TRACK)
+  - Gregor (TRACK)
+  - Gregus (TRACK)
+  - Goga (TRACK)
+  - Halak (TRACK)
+  - Halda (TRACK)
+  - Haluska (TRACK)
+  - Hascak (TRACK)
+  - Holub (TRACK)
+  - Horvath (TRACK)
+  - Janik (TRACK)
+  - Janosik (TRACK)
+  - Janoska (TRACK)
+  - Jurina (TRACK)
+  - Keniz (TRACK)
+  - Kmet (TRACK)
+  - Kolesar (TRACK)
+  - Kolnik (TRACK)
+  - Kostrec (TRACK)
+  - Kovac (TRACK)
+  - Liptak (TRACK)
+  - Liska (TRACK)
+  - Lukac (TRACK)
+  - Majesky (TRACK)
+  - Marian (TRACK)
+  - Medved (TRACK)
+  - Mihalik (TRACK)
+  - Mikus (TRACK)
+  - Mojzis (TRACK)
+  - Molnar (TRACK)
+  - Nagy (TRACK)
+  - Nemec (TRACK)
+  - Novak (TRACK)
+  - Ondrejkovic (TRACK)
+  - Ondrus (TRACK)
+  - Oravec (TRACK)
+  - Pasko (TRACK)
+  - Pavlas (TRACK)
+  - Pavuk (TRACK)
+  - Prochazka (TRACK)
+  - Rakocz (TRACK)
+  - Senko (TRACK)
+  - Skokan (TRACK)
+  - Slezak (TRACK)
+  - Sloboda (TRACK)
+  - Slovak (TRACK)
+  - Szabo (TRACK)
+  - Toma (TRACK)
+  - Valovsky (TRACK)
+  - Varga (TRACK)
+  - Vaskovic (TRACK)
+  - Viktorin (TRACK)
+femaleLast:
+  - Adamcova (TRACK)
+  - Banasova (TRACK)
+  - Dubovska (TRACK)
+  - Durianova (TRACK)
+  - Farkasovska (TRACK)
+  - Ficova (TRACK)
+  - Filipova (TRACK)
+  - Haluskova (TRACK)
+  - Heckova (TRACK)
+  - Hubinska (TRACK)
+  - Janosikova (TRACK)
+  - Kocisova (TRACK)
+  - Kovacikova (TRACK)
+  - Kovacova (TRACK)
+  - Kovacova (TRACK)
+  - Krajcirova (TRACK)
+  - Kubincova (TRACK)
+  - Luptakova (TRACK)
+  - Mala (TRACK)
+  - Malachovska (TRACK)
+  - Martinova (TRACK)
+  - Matusova (TRACK)
+  - Melcerova (TRACK)
+  - Mikusova (TRACK)
+  - Moravcova (TRACK)
+  - Nemcova (TRACK)
+  - Oravcova (TRACK)
+  - Patrikova (TRACK)
+  - Peskova (TRACK)
+  - Petrovicka (TRACK)
+  - Plchova (TRACK)
+  - Puchertova (TRACK)
+  - Rusova (TRACK)
+  - Senkova (TRACK)
+  - Simekova (TRACK)
+  - Slobodova (TRACK)
+  - Sturova (TRACK)
+  - Vacvalova (TRACK)

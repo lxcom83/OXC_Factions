@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Aaron
+  - Adan
+  - Alberto
+  - Alejandro
+  - Alfonso
+  - Andres
+  - Angel
+  - Antonio
+  - Augusto
+  - Benedicto
+  - Benjamin
+  - Carlos
+  - Daniel
+  - David
+  - Diego
+  - Eduardo
+  - Elias
+  - Eliseo
+  - Enrique
+  - Emanuel
+  - Eric
+  - Ernesto
+  - Esteban
+  - Fabio
+  - Felipe
+  - Felix
+  - Fernando
+  - Fidel
+  - Fortunato
+  - Francisco
+  - Gabriel
+  - Gerardo
+  - Hugo
+  - Humberto
+  - Ismael
+  - Ivan
+  - Jacobo
+  - Jaime
+  - Javier
+  - Jesus
+  - Joel
+  - Jorge
+  - Jose
+  - Juan
+  - Julian
+  - Leo
+  - Leonardo
+  - Lucas
+  - Luis
+  - Manuel
+  - Marco
+  - Marcos
+  - Martin
+  - Matias
+  - Mateo
+  - Maximiliano
+  - Miguel
+  - Nataniel
+  - Nicolas
+  - Noe
+  - Octavio
+  - Orlando
+  - Oscar
+  - Pablo
+  - Pedro
+  - Rafael
+  - Ramon
+  - Raul
+  - Rene
+  - Ricardo
+  - Roberto
+  - Rolando
+  - Salvador
+  - Santiago
+  - Sebastian
+  - Sergio
+  - Silvestre
+  - Stefano
+  - Teodoro
+  - Tito
+  - Tomas
+  - Valentin
+  - Vicente
+  - Victor
+  - Xavier
+femaleFirst:
+  - Adriana
+  - Aida
+  - Alejandra
+  - Alexia
+  - Alma
+  - Ana
+  - Angela
+  - Angelica
+  - Aurora
+  - Barbara
+  - Bianca
+  - Brenda
+  - Carina
+  - Carla
+  - Carolina
+  - Casandra
+  - Catalina
+  - Claudia
+  - Cristina
+  - Dolores
+  - Dora
+  - Elena
+  - Eliana
+  - Elvira
+  - Ema
+  - Esmeralda
+  - Eva
+  - Felicia
+  - Fiona
+  - Gabriela
+  - Gloria
+  - Guadalupe
+  - Ines
+  - Isabel
+  - Jesica
+  - Juana
+  - Laura
+  - Lidia
+  - Liliana
+  - Linda
+  - Lisa
+  - Lorena
+  - Magdalena
+  - Marcela
+  - Margarita
+  - Maria
+  - Mariana
+  - Marisol
+  - Monica
+  - Nadia
+  - Nancy
+  - Natalia
+  - Noemi
+  - Olivia
+  - Patricia
+  - Paulina
+  - Raquel
+  - Rosa
+  - Selena
+  - Sofia
+  - Sonia
+  - Talia
+  - Tatiana
+  - Teresa
+  - Vanesa
+  - Veronica
+  - Victoria
+  - Yolanda
+maleLast:
+  - Aguilar (TRACK)
+  - Alba (TRACK)
+  - Alonso (TRACK)
+  - Alvarado (TRACK)
+  - Alvarez (TRACK)
+  - Avila (TRACK)
+  - Calderon (TRACK)
+  - Campos (TRACK)
+  - Cardenas (TRACK)
+  - Castilla (TRACK)
+  - Cervantes (TRACK)
+  - Chavez (TRACK)
+  - Cortez (TRACK)
+  - Cruz (TRACK)
+  - De La Cruz (TRACK)
+  - De La Rosa (TRACK)
+  - De Soto (TRACK)
+  - Diaz (TRACK)
+  - Dominguez (TRACK)
+  - Estrada (TRACK)
+  - Falcon (TRACK)
+  - Fernandez (TRACK)
+  - Figueroa (TRACK)
+  - Flores (TRACK)
+  - Fuentes (TRACK)
+  - Garcia (TRACK)
+  - Garza (TRACK)
+  - Gomez (TRACK)
+  - Gonzalez (TRACK)
+  - Guerrero (TRACK)
+  - Gutierrez (TRACK)
+  - Guzman (TRACK)
+  - Hernandez (TRACK)
+  - Herrera (TRACK)
+  - Jimenez (TRACK)
+  - Juarez (TRACK)
+  - Leon (TRACK)
+  - Lima (TRACK)
+  - Lopez (TRACK)
+  - Loya (TRACK)
+  - Lucio (TRACK)
+  - Luna (TRACK)
+  - Martinez (TRACK)
+  - Medina (TRACK)
+  - Mejia (TRACK)
+  - Mendez (TRACK)
+  - Mendoza (TRACK)
+  - Miranda (TRACK)
+  - Montero (TRACK)
+  - Montes (TRACK)
+  - Morales (TRACK)
+  - Moreno (TRACK)
+  - Munoz (TRACK)
+  - Navarro (TRACK)
+  - Nunez (TRACK)
+  - Ortega (TRACK)
+  - Ortiz (TRACK)
+  - Pacheco (TRACK)
+  - Pascual (TRACK)
+  - Perez (TRACK)
+  - Ramirez (TRACK)
+  - Ramos (TRACK)
+  - Reyes (TRACK)
+  - Rios (TRACK)
+  - Rivera (TRACK)
+  - Rodriguez (TRACK)
+  - Romero (TRACK)
+  - Rosa (TRACK)
+  - Ruiz (TRACK)
+  - Sanchez (TRACK)
+  - Sandoval (TRACK)
+  - Santa Cruz (TRACK)
+  - Santana (TRACK)
+  - Santiago (TRACK)
+  - Santos (TRACK)
+  - Sosa (TRACK)
+  - Suarez (TRACK)
+  - Tapia (TRACK)
+  - Torres (TRACK)
+  - Trejo (TRACK)
+  - Trevino (TRACK)
+  - Trujillo (TRACK)
+  - Valdez (TRACK)
+  - Vasquez (TRACK)
+  - Vega (TRACK)
+  - Velasquez (TRACK)

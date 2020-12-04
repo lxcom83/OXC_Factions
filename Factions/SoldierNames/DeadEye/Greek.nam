@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - Abderus
+  - Absyrtus
+  - Abydos
+  - Acastus
+  - Achates
+  - Achelous
+  - Acheron
+  - Achilles
+  - Achlys
+  - Acrisius
+  - Actaeon
+  - Acteon
+  - Adelphos
+  - Admes
+  - Admetus
+  - Adonis
+  - Adras
+  - Adrastos
+  - Adrastus
+  - Adrian
+  - Aeacus
+  - Aeetes
+  - Aegeus
+  - Aegis
+  - Aegisthus
+  - Aegyptus
+  - Aeneas
+  - Aeolus
+  - Aesculapius
+  - Aeson
+  - Aetos
+  - Agamedes
+  - Agape
+  - Agatone
+  - Aindreas
+  - Aindriu
+  - Ajax
+  - Akil
+  - Alasd
+  - Alcander
+  - Alcinoos
+  - Alcinous
+  - Alcnaeon
+  - Alcyoneus
+  - Alddes
+  - Alessandro
+  - Alex
+  - Alexander
+  - Alexandras
+  - Alexandros
+  - Alexandrukas
+  - Alexei
+  - Alexio
+  - Alix
+  - Aloeus
+  - Alpheus
+  - Altair
+  - Amaoebus
+  - Ambrocio
+  - Ambrose
+  - Ambrus
+  - Amphiaraus
+  - Amphion
+  - Amphitryon
+  - Ampyx
+  - Amycus
+  - Anastagio
+  - Anastasio
+  - Anastasios
+  - Anastasius
+  - Anasztaz
+  - Anatol
+  - Anatole
+  - Anatoli
+  - Anatolijus
+  - Anatolio
+  - Ancaeus
+  - Anchises
+  - Andor
+  - Andreas
+  - Andres
+  - Andreus
+  - Andrew
+  - Andries
+  - Androgeus
+  - Androu
+  - Anstice
+  - Anstiss
+  - Antaeus
+  - Antares
+  - Anteros
+  - Antilochus
+  - Antinous
+  - Antiphates
+  - Anton
+  - Antony
+  - Aonghas
+  - Apollo
+  - Apoloniusz
+  - Apostolos
+  - Arcadicus
+  - Arcas
+  - Arcenio
+  - Archemorus
+  - Ares
+  - Argo
+  - Argos
+  - Argus
+  - Arion
+  - Aristaeus
+  - Aristo
+  - Arsen
+  - Arsenio
+  - Artemas
+  - Artemesio
+  - Artemus
+  - Ascalaphus
+  - Asklepios
+  - Asopus
+  - Athamas
+  - Athan
+  - Athanasios
+  - Athanasius
+  - Atlas
+  - Atreus
+  - Attis
+  - Autolycus
+  - Avernus
+  - Baccaus
+  - Baccus
+  - Balasi
+  - Baltsaros
+  - Baptiste
+  - Basil
+  - Basile
+  - Basilio
+  - Baste
+  - Bastiaan
+  - Bastien
+  - Baucis
+  - Bazyli
+  - Bemus
+  - Biton
+  - Boreas
+  - Brasidas
+  - Briareus
+  - Brygus
+  - Butades
+  - Cadmus
+  - Caesare
+  - Calchas
+  - Calisto
+  - Capaneus
+  - Caseareo
+  - Castor
+  - Cecrops
+  - Celeus
+  - Cenon
+  - Cephalus
+  - Cepheus
+  - Cesare
+  - Cetus
+  - Ceyx
+  - Chris
+  - Christan
+  - Christiano
+  - Christoph
+  - Christopher
+  - Christophoros
+  - Christos
+  - Chruse
+  - Chrysostom
+  - Cimon
+  - Cirio
+  - Ciro
+  - Claas
+  - Claus
+  - Cleobis
+  - Cleon
+  - Cletus
+  - Cleytus
+  - Clio
+  - Cocytus
+  - Coeus
+  - Coireall
+  - Cole
+  - Colin
+  - Colum
+  - Corban
+  - Coridan
+  - Corybantes
+  - Corydon
+  - Cos
+  - Cosmas
+  - Cosmo
+  - Cottus
+  - Creon
+  - Cretien
+  - Cristoforo
+  - Cristophe
+  - Cronus
+  - Ctesippus
+  - Cyrano
+  - Cyrek
+  - Cyril
+  - Cyrus
+  - Cyryl
+  - Damae
+  - Damalis
+  - Damaris
+  - Damaskenos
+  - Damaskinos
+  - Damen
+  - Dameon
+  - Damian
+  - Damion
+  - Damon
+  - Danaus
+  - Dardanus
+  - Darian
+  - Darien
+  - Darion
+  - Darrian
+  - Darrien
+  - Darrion
+  - Daymon
+  - Deke
+  - Dekel
+  - Dekle
+  - Delbin
+  - Demetre
+  - Demetri
+  - Demetrios
+  - Demetrius
+  - Demitri
+  - Demitrius
+  - Demodocus
+  - Demophon
+  - Demoritus
+  - Denes
+  - Dennis
+  - Deo
+  - Deucalion
+  - Doran
+  - Dorian
+  - Dorion
+  - Drakon
+  - Drew
+  - Dymas
+  - Eachann
+  - Efterpi
+  - Egidio
+  - Eleftherios
+  - Elek
+  - Eleutherios
+  - Eli
+  - Enceladus
+  - Endre
+  - Endymion
+  - Eneas
+  - Eoghan
+  - Epeius
+  - Erasmus
+  - Erebus
+  - Erechtheus
+  - Erichthonius
+  - Erymanthus
+  - Erysichthon
+  - Eryx
+  - Estevao
+  - Eteocles
+  - Etor
+  - Eubuleus
+  - Eugen
+  - Eugene
+  - Eugenio
+  - Eugenios
+  - Eumaeus
+  - Eupeithes
+  - Euphrosyne
+  - Eurus
+  - Euryalus
+  - Eurylochus
+  - Eurymachus
+  - Eurypylus
+  - Eurystheus
+  - Euryton
+  - Eusebius
+  - Eustace
+  - Eustachy
+  - Eustis
+  - Evan
+  - Evzen
+  - Fedor
+  - Feodor
+  - Feodras
+  - Filippo
+  - Filips
+  - Flip
+  - Fulop
+  - Gaelan
+  - Galan
+  - Galen
+  - Galinthias
+  - Galyn
+  - Gelasius
+  - Georg
+  - George
+  - Georges
+  - Giles
+  - Glaucus
+  - Goran
+  - Graeae
+  - Gregoire
+  - Gregoly
+  - Gregor
+  - Gregorie
+  - Gregorior
+  - Gregory
+  - Gregos
+  - Grigor
+  - Grigorov
+  - Gruev
+  - Guilio
+  - Gyes
+  - Gyoergy
+  - Gyorgy
+  - Gyuri
+  - Haemon
+  - Hali
+  - Halithersis
+  - Hector
+  - Helios
+  - Herodotus
+  - Homar
+  - Homer
+  - Homeros
+  - Homerus
+  - Hypnos
+  - Ibycus
+  - Icarius
+  - Icarus
+  - Icelos
+  - Icos
+  - Idas
+  - Igorr
+  - Inachus
+  - Iorgas
+  - Iphitus
+  - Istvan
+  - Ivan
+  - Ivankor
+  - Ixion
+  - Jaison
+  - Jase
+  - Jasen
+  - Jason
+  - Jayce
+  - Jayr
+  - Jaysen
+  - Jayson
+  - Jencir
+  - Jeno
+  - Jeroenr
+  - Jerome
+  - Jerzyr
+  - Jirkar
+  - Jorenr
+  - Julius
+  - Jurgisr
+  - Kadmus
+  - Kairos
+  - Khristos
+  - Khrystiyanr
+  - Kit
+  - Klaasr
+  - Klaus
+  - Korudon
+  - Kosmosr
+  - Kratos
+  - Krikor
+  - Krischnan
+  - Kristian
+  - Kristofr
+  - Krystupasr
+  - Krzysztofr
+  - Kuirilr
+  - Kyrillos
+  - Kyrillosr
+  - Kyros
+  - Ladon
+  - Laertes
+  - Laestrygones
+  - Laius
+  - Lander
+  - Laocoon
+  - Laomedon
+  - Leander
+  - Leandro
+  - Leonidas
+  - Lichas
+  - Linus
+  - Lippio
+  - Lotus
+  - Loxias
+  - Luke
+  - Lycaon
+  - Lycomedes
+  - Lycurgus
+  - Lynceus
+  - Lysander
+  - Marcario
+  - Maurice
+  - Medus
+  - Melampus
+  - Melancton
+  - Melanthius
+  - Menelaus
+  - Menoeceus
+  - Mentor
+  - Midas
+  - Mikolas
+  - Miles
+  - Milo
+  - Minos
+  - Momus
+  - Mopsus
+  - Moses
+  - Myles
+  - Myron
+  - Narkis
+  - Nauplius
+  - Neleus
+  - Nemo
+  - Nemos
+  - Neo
+  - Nicholas
+  - Nicholaus
+  - Nicias
+  - Nick
+  - Nicodemus
+  - Nicolas
+  - Nicolaus
+  - Nik
+  - Nike
+  - Niklaus
+  - Nikodem
+  - Nikolai
+  - Nikolajis
+  - Nikolos
+  - Niles
+  - Nilo
+  - Nilos
+  - Nisus
+  - Notus
+  - Obiareus
+  - Oighrig
+  - Oles
+  - Orrin
+  - Orthros
+  - Otis
+  - Pan
+  - Panagiotis
+  - Pancratius
+  - Panos
+  - Panteleimon
+  - Papandrou
+  - Paris
+  - Patroclus
+  - Patroklos
+  - Pavlos
+  - Peadair
+  - Peder
+  - Pegeen
+  - Peleus
+  - Pelias
+  - Pello
+  - Pelops
+  - Pero
+  - Perrin
+  - Peterke
+  - Petrelis
+  - Petros
+  - Petter
+  - Phantasos
+  - Phaon
+  - Philemon
+  - Philip
+  - Philipp
+  - Philippe
+  - Phillip
+  - Philo
+  - Phineas
+  - Phineus
+  - Phrixus
+  - Phylo
+  - Piero
+  - Pierro
+  - Pieter
+  - Pietr
+  - Pietro
+  - Pilib
+  - Piotr
+  - Pippo
+  - Pirithous
+  - Pirro
+  - Pittheus
+  - Plato
+  - Platon
+  - Plexippus
+  - Plutus
+  - Pollux
+  - Poseidon
+  - Preben
+  - Priam
+  - Priapus
+  - Procrustes
+  - Prokopios
+  - Prometheus
+  - Prophyrios
+  - Protesilaus
+  - Ptolemy
+  - Pyramus
+  - Rasmus
+  - Rhodes
+  - Risto
+  - Sabastian
+  - Salmoneus
+  - Scopas
+  - Sebasten
+  - Sebastian
+  - Sebastiano
+  - Simon
+  - Sinon
+  - Socrates
+  - Sofronio
+  - Soterios
+  - Spyridon
+  - Stamitos
+  - Stavros
+  - Steafan
+  - Stefan
+  - Stefano
+  - Stefanos
+  - Stefford
+  - Stefon
+  - Stephano
+  - Stephanos
+  - Stephen
+  - Stephon
+  - Steven
+  - Steverino
+  - Takis
+  - Talos
+  - Talus
+  - Tantalus
+  - Tarasios
+  - Teague
+  - Telamon
+  - Telegonus
+  - Telemachus
+  - Telephus
+  - Tellus
+  - Teodors
+  - Teofile
+  - Teuthras
+  - Thad
+  - Thaddeus
+  - Thaddius
+  - Thadeus
+  - Thais
+  - Thanatos
+  - Thanos
+  - Thaumas
+  - Theo
+  - Theociymenus
+  - Theodon
+  - Theodore
+  - Theodosios
+  - Theodrekr
+  - Theodric
+  - Theon
+  - Theophile
+  - Theophilus
+  - Theron
+  - Therron
+  - Thersites
+  - Theseus
+  - Thomas
+  - Thyestes
+  - Tiege
+  - Tim
+  - Timeus
+  - Timmy
+  - Timocrates
+  - Timoleon
+  - Timon
+  - Timotheos
+  - Timothy
+  - Timun
+  - Tiomoid
+  - Tito
+  - Titos
+  - Titus
+  - Tityus
+  - Tivadar
+  - Todor
+  - Toxeus
+  - Triton
+  - Trophonius
+  - Turannos
+  - Tydeus
+  - Tylissus
+  - Tymek
+  - Tymon
+  - Tyndareus
+  - Typhoeus
+  - Typhon
+  - Tyrone
+  - Ulysses
+  - Urian
+  - Vasileios
+  - Vasilios
+  - Vasilis
+  - Vasos
+  - VasyItso
+  - Vasyklo
+  - Vasyl
+  - Xanthus
+  - Xeno
+  - Xenophon
+  - Xenos
+  - Xerxes
+  - Xuthus
+  - Xylon
+  - Yanni
+  - Yehor
+  - Yuri
+  - Zale
+  - Zarek
+  - Zelotes
+  - Zeno
+  - Zenobio
+  - Zenon
+  - Zenos
+  - Zephyr
+  - Zero
+  - Zerro
+  - Zetes
+  - Zoltan
+  - Zoltar
+  - Zorba
+  - Zotico
+femaleFirst:
+  - Acacia
+  - Acantha
+  - Aegea
+  - Aeola
+  - Agalia
+  - Alala
+  - Aldora
+  - Aleni
+  - Anatolia
+  - Andrianna
+  - Anemone
+  - Angeline
+  - Aphrodite
+  - Athena
+  - Athenagora
+  - Calantha
+  - Calida
+  - Cassia
+  - Cyra
+  - Damia
+  - Daphne
+  - Deianira
+  - Delia
+  - Dido
+  - Dimitra
+  - Echo
+  - Elma
+  - Elpida
+  - Emalia
+  - Erianthe
+  - Euphemia
+  - Euphenia
+  - Evadne
+  - Evanthe
+  - Fotini
+  - Galatea
+  - Georgia
+  - Halcyone
+  - Helena
+  - Helia
+  - Hera
+  - Hermione
+  - Isadora
+  - Jocasta
+  - Kalidas
+  - Kaligenia
+  - Kalligenia
+  - Kallirrhoe
+  - Kalonice
+  - Kyriakoula
+  - Lalage
+  - Leandra
+  - Leda
+  - Lycoris
+  - Lyris
+  - Marina
+  - Medora
+  - Melantha
+  - Melina
+  - Melissa
+  - Mona
+  - Neola
+  - Neona
+  - Nerissa
+  - Niobe
+  - Olga
+  - Orthia
+  - Pandora
+  - Pangiota
+  - Pelagia
+  - Penelope
+  - Persephone
+  - Philantha
+  - Philomela
+  - Philomena
+  - Philothea
+  - Phoebe
+  - Rhea
+  - Saphhira
+  - Sofronia
+  - Stamata
+  - Stella
+  - Tassia
+  - Tassula
+  - Tessa
+  - Thaddea
+  - Thalassa
+  - Tharsia
+  - Theodosia
+  - Theophilia
+  - Thetis
+  - Timothea
+  - Toula
+  - Xantippe
+  - Yana
+  - Zenaida
+  - Zenobia
+  - Zephyra
+  - Zoe
+maleLast:
+  - Alexopoulos (DEYE)
+  - Anagyros (DEYE)
+  - Anastassios (DEYE)
+  - Andreadis (DEYE)
+  - Andreos (DEYE)
+  - Andriopoulos (DEYE)
+  - Andronikos (DEYE)
+  - Andros (DEYE)
+  - Androuchelli (DEYE)
+  - Androupolos (DEYE)
+  - Androutsos (DEYE)
+  - Angelis (DEYE)
+  - Angelomatis (DEYE)
+  - Angelos (DEYE)
+  - Anistonopoulos (DEYE)
+  - Anninos (DEYE)
+  - Antikatzides (DEYE)
+  - Antonatos (DEYE)
+  - Antonious (DEYE)
+  - Argyra (DEYE)
+  - Athanasiadis (DEYE)
+  - Athanassiadi (DEYE)
+  - Averoff (DEYE)
+  - Axelos (DEYE)
+  - Bakirdzis (DEYE)
+  - Bakogianni (DEYE)
+  - Balanos (DEYE)
+  - Bazignos (DEYE)
+  - Bessarion (DEYE)
+  - Bizos (DEYE)
+  - Borbokis (DEYE)
+  - Botsaris (DEYE)
+  - Boudouris (DEYE)
+  - Bourgani (DEYE)
+  - Capodistria (DEYE)
+  - Carides (DEYE)
+  - Castriota (DEYE)
+  - Catalactus (DEYE)
+  - Chacoliades (DEYE)
+  - Chakiris (DEYE)
+  - Christodoulos (DEYE)
+  - Clerides (DEYE)
+  - Constandouros (DEYE)
+  - Constantinis (DEYE)
+  - Cosmatos (DEYE)
+  - Costanduros (DEYE)
+  - Costi (DEYE)
+  - Cotsadis (DEYE)
+  - Couloumbis (DEYE)
+  - Coulouris (DEYE)
+  - Deligiannis (DEYE)
+  - Deligiorgis (DEYE)
+  - Delivorias (DEYE)
+  - Dellas (DEYE)
+  - Demertzis (DEYE)
+  - Demosthenous (DEYE)
+  - Dimas (DEYE)
+  - Dimitrakos (DEYE)
+  - Dimitriades (DEYE)
+  - Dimitris (DEYE)
+  - Dimotsios (DEYE)
+  - Diomedes (DEYE)
+  - Dontas (DEYE)
+  - Doxiadis (DEYE)
+  - Dukakis (DEYE)
+  - Duvis (DEYE)
+  - Economakis (DEYE)
+  - Economos (DEYE)
+  - Eliades (DEYE)
+  - Elipandas (DEYE)
+  - Ellinas (DEYE)
+  - Farakos (DEYE)
+  - Fettas (DEYE)
+  - Florakis (DEYE)
+  - Galonopoulas (DEYE)
+  - Gatsioudis (DEYE)
+  - Gatzioudis (DEYE)
+  - Gavrielides (DEYE)
+  - Gennadios (DEYE)
+  - Genovelis (DEYE)
+  - Georghios (DEYE)
+  - Giorgiou (DEYE)
+  - Gislenus (DEYE)
+  - Gizikis (DEYE)
+  - Glezos (DEYE)
+  - Gogos (DEYE)
+  - Gonatas (DEYE)
+  - Goulandris (DEYE)
+  - Gounaris (DEYE)
+  - Gousetti (DEYE)
+  - Grivas (DEYE)
+  - Hagiorgis (DEYE)
+  - Hajiyanni (DEYE)
+  - Halara (DEYE)
+  - Harteros (DEYE)
+  - Iakovakis (DEYE)
+  - Iakovos (DEYE)
+  - Iatrides (DEYE)
+  - Ioannidis (DEYE)
+  - Ioannos (DEYE)
+  - Issigonis (DEYE)
+  - Joakimides (DEYE)
+  - Kairis (DEYE)
+  - Kaklamanakis (DEYE)
+  - Kakoulli (DEYE)
+  - Kalergi (DEYE)
+  - Kallabis (DEYE)
+  - Kalvos (DEYE)
+  - Kanaris (DEYE)
+  - Kanellopoulos (DEYE)
+  - Kaphandaris (DEYE)
+  - Karahi (DEYE)
+  - Karaiskakis (DEYE)
+  - Karamanlis (DEYE)
+  - Karatossos (DEYE)
+  - Karoki (DEYE)
+  - Karyoti (DEYE)
+  - Kasomoulis (DEYE)
+  - Katsantonis (DEYE)
+  - Katsaris (DEYE)
+  - Kenteris (DEYE)
+  - Khadjikyriakos (DEYE)
+  - Klaras (DEYE)
+  - Kochalakos (DEYE)
+  - Koffa (DEYE)
+  - Kokkinos (DEYE)
+  - Kokotis (DEYE)
+  - Kolettis (DEYE)
+  - Kollias (DEYE)
+  - Kolokotronis (DEYE)
+  - Kondylis (DEYE)
+  - Kontoghiorghes (DEYE)
+  - Korais (DEYE)
+  - Korkizoglu (DEYE)
+  - Korres (DEYE)
+  - Koryzis (DEYE)
+  - Koskotas (DEYE)
+  - Kostanopoulos (DEYE)
+  - Kostopulos (DEYE)
+  - Kotaridos (DEYE)
+  - Koukodimos (DEYE)
+  - Koukoudimos (DEYE)
+  - Koumoundouros (DEYE)
+  - Koundouriotis (DEYE)
+  - Kourniakis (DEYE)
+  - Kousoulas (DEYE)
+  - Kozani (DEYE)
+  - Kritopoulos (DEYE)
+  - Kyprianos (DEYE)
+  - Kyriacos (DEYE)
+  - Kyriakos (DEYE)
+  - Kyriazis (DEYE)
+  - Lambrakis (DEYE)
+  - Lambrianos (DEYE)
+  - Lambrinos (DEYE)
+  - Lathouris (DEYE)
+  - Lazardis (DEYE)
+  - Leonidis (DEYE)
+  - Lianis (DEYE)
+  - Logotheti (DEYE)
+  - Louca (DEYE)
+  - Louganis (DEYE)
+  - Louvaris (DEYE)
+  - Lyssarides (DEYE)
+  - Maganas (DEYE)
+  - Magos (DEYE)
+  - Maharis (DEYE)
+  - Makarezos (DEYE)
+  - Makrigiannis (DEYE)
+  - Malachias (DEYE)
+  - Maliagros (DEYE)
+  - Mangakis (DEYE)
+  - Marcoullides (DEYE)
+  - Mardas (DEYE)
+  - Marinatos (DEYE)
+  - Markezinis (DEYE)
+  - Markoulides (DEYE)
+  - Markoullides (DEYE)
+  - Marsolais (DEYE)
+  - Martis (DEYE)
+  - Matacena (DEYE)
+  - Mavridos (DEYE)
+  - Mavrogordatos (DEYE)
+  - Mavrokordatos (DEYE)
+  - Mavromikhalis (DEYE)
+  - Mavros (DEYE)
+  - Mavroudis (DEYE)
+  - Maximos (DEYE)
+  - Melas (DEYE)
+  - Meletoglos (DEYE)
+  - Melikis (DEYE)
+  - Melissanides (DEYE)
+  - Mercouri (DEYE)
+  - Merukides (DEYE)
+  - Messimeris (DEYE)
+  - Metaxas (DEYE)
+  - Michaelis (DEYE)
+  - Mikalis (DEYE)
+  - Mikhalakopoulos (DEYE)
+  - Militis (DEYE)
+  - Mitros (DEYE)
+  - Mitsotakis (DEYE)
+  - Monomachus (DEYE)
+  - Moscopolis (DEYE)
+  - Moumoulidis (DEYE)
+  - Muscouri (DEYE)
+  - Mylonas (DEYE)
+  - Nafpliotis (DEYE)
+  - Negris (DEYE)
+  - Niarkhos (DEYE)
+  - Nikolaides (DEYE)
+  - Onassis (DEYE)
+  - Orphanides (DEYE)
+  - Oxinos (DEYE)
+  - Palamas (DEYE)
+  - Pallis (DEYE)
+  - Panagiatopoulos (DEYE)
+  - Panagiopoulos (DEYE)
+  - Panagiotopos (DEYE)
+  - Panagou (DEYE)
+  - Panagoulias (DEYE)
+  - Panagoulis (DEYE)
+  - Panaotis (DEYE)
+  - Panavoglos (DEYE)
+  - Panayi (DEYE)
+  - Panayides (DEYE)
+  - Panayiotopoulos (DEYE)
+  - Panayiotos (DEYE)
+  - Pangalos (DEYE)
+  - Papadakis (DEYE)
+  - Papademetrios (DEYE)
+  - Papadias (DEYE)
+  - Papadopolos (DEYE)
+  - Papadopoulos (DEYE)
+  - Papadoupolos (DEYE)
+  - Papafagos (DEYE)
+  - Papageorgios (DEYE)
+  - Papagos (DEYE)
+  - Papakostas (DEYE)
+  - Papamichael (DEYE)
+  - Papanastasiou (DEYE)
+  - Papandreou (DEYE)
+  - Papasotiriou (DEYE)
+  - Papatamelis (DEYE)
+  - Papathanassios (DEYE)
+  - Papoulias (DEYE)
+  - Pappas (DEYE)
+  - Parastadidis (DEYE)
+  - Pattakos (DEYE)
+  - Pavlakakis (DEYE)
+  - Pentzopoulos (DEYE)
+  - Pesmazoglos (DEYE)
+  - Pheraios (DEYE)
+  - Philipousis (DEYE)
+  - Pierides (DEYE)
+  - Pietris (DEYE)
+  - Pipinelis (DEYE)
+  - Pittakis (DEYE)
+  - Pittakys (DEYE)
+  - Plastiras (DEYE)
+  - Polides (DEYE)
+  - Polycarpous (DEYE)
+  - Polychroniadis (DEYE)
+  - Polychronios (DEYE)
+  - Polydoros (DEYE)
+  - Polymeropoulos (DEYE)
+  - Polymeros (DEYE)
+  - Polyzos (DEYE)
+  - Popotas (DEYE)
+  - Porpurogenitos (DEYE)
+  - Pratkanis (DEYE)
+  - Prevalakis (DEYE)
+  - Primikynos (DEYE)
+  - Psara (DEYE)
+  - Psaros (DEYE)
+  - Psaroulakis (DEYE)
+  - Rallis (DEYE)
+  - Saltsidis (DEYE)
+  - Samos (DEYE)
+  - Sampras (DEYE)
+  - Sanassis (DEYE)
+  - Sarakatsani (DEYE)
+  - Saraphis (DEYE)
+  - Sardzetakis (DEYE)
+  - Sarris (DEYE)
+  - Sartzetakis (DEYE)
+  - Sarus (DEYE)
+  - Savakis (DEYE)
+  - Savalos (DEYE)
+  - Savvides (DEYE)
+  - Sbokos (DEYE)
+  - Senteildis (DEYE)
+  - Siantos (DEYE)
+  - Sicilianos (DEYE)
+  - Simopoulos (DEYE)
+  - Sirtis (DEYE)
+  - Skandalis (DEYE)
+  - Skiotis (DEYE)
+  - Skouloudis (DEYE)
+  - Skouphas (DEYE)
+  - Solomos (DEYE)
+  - Sophoulis (DEYE)
+  - Souvaltzis (DEYE)
+  - Stamanakis (DEYE)
+  - Stasi (DEYE)
+  - Stavrakis (DEYE)
+  - Stavrianakis (DEYE)
+  - Stavrianos (DEYE)
+  - Stephanopoulos (DEYE)
+  - Stoikos (DEYE)
+  - Strapoudopolos (DEYE)
+  - Stratis (DEYE)
+  - Stroubakos (DEYE)
+  - Taliadoros (DEYE)
+  - Tathouris (DEYE)
+  - Tavoularis (DEYE)
+  - Terzin (DEYE)
+  - Theodopoulos (DEYE)
+  - Theodorakis (DEYE)
+  - Theophanous (DEYE)
+  - Theothanos (DEYE)
+  - Theotokis (DEYE)
+  - Touliatos (DEYE)
+  - Tournikiotis (DEYE)
+  - Tragianopoulos (DEYE)
+  - Trikoupis (DEYE)
+  - Tsakolov (DEYE)
+  - Tsaldaris (DEYE)
+  - Tsatsos (DEYE)
+  - Tsavdaridos (DEYE)
+  - Tsiamita (DEYE)
+  - Tsigakos (DEYE)
+  - Tsikouna (DEYE)
+  - Tsiolakoudi (DEYE)
+  - Tsirigolis (DEYE)
+  - Tsirimokos (DEYE)
+  - Tsolakoglos (DEYE)
+  - Tsoni (DEYE)
+  - Tsouderos (DEYE)
+  - Tsougarakis (DEYE)
+  - Tsoutsouvas (DEYE)
+  - Tsyoma (DEYE)
+  - Tzannetakis (DEYE)
+  - Tzivas (DEYE)
+  - Vadeki (DEYE)
+  - Valaoritis (DEYE)
+  - Valvis (DEYE)
+  - Vaphiadis (DEYE)
+  - Vardakastanis (DEYE)
+  - Varvaressos (DEYE)
+  - Vasdeki (DEYE)
+  - Vasdekis (DEYE)
+  - Vasiliou (DEYE)
+  - Vassilides (DEYE)
+  - Vatatzes (DEYE)
+  - Veloukhiotis (DEYE)
+  - Venizelos (DEYE)
+  - Verdanis (DEYE)
+  - Vergopoulos (DEYE)
+  - Vlakhos (DEYE)
+  - Voulgaris (DEYE)
+  - Voulgaropoulos (DEYE)
+  - Vouris (DEYE)
+  - Xanthos (DEYE)
+  - Xenakis (DEYE)
+  - Xydis (DEYE)
+  - Yannopoulos (DEYE)
+  - Yialouris (DEYE)
+  - Ypsilantis (DEYE)
+  - Zafiropoulos (DEYE)
+  - Zaimis (DEYE)
+  - Zakhariadis (DEYE)
+  - Zarikos (DEYE)
+  - Zervakos (DEYE)
+  - Zervas (DEYE)
+  - Zikos (DEYE)
+  - Zindilis (DEYE)
+  - Zisimides (DEYE)
+  - Zographas (DEYE)
+  - Zoitakis (DEYE)
+  - Zolotas (DEYE)

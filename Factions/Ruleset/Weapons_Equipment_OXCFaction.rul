@@ -1,0 +1,813 @@
+############################
+## FACTIONS - weapons + Equipment 
+## V0.0.1
+## Lasted Changed by wolwerine
+## Comments: 19-00-2020
+###########################
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      5000: Resources/WeapAndEquip/Heavy_Tesla/bigob_Tesla_Heavy.png
+      5001: Resources/WeapAndEquip/Heavy_Tesla/Bigob_Heavy_Clip.png
+      5002: Resources/WeapAndEquip/Tesla_Rifle/bigob_Tesla_Rifle.png
+      5003: Resources/WeapAndEquip/Tesla_Rifle/bigob_Rifle_clip.png
+      5004: Resources/WeapAndEquip/Healing/Stimm/bigob_Stimm.gif
+      5005: Resources/WeapAndEquip/Healing/StimmG/bigob_StimmG.gif
+      5006: Resources/WeapAndEquip/Healing/Scotch/bigob_Scotch.gif
+      5007: Resources/WeapAndEquip/Chemical_Weapon/bigob_Chemical.png
+      5008: Resources/WeapAndEquip/Chemical_Weapon/bigob_Chemical_Clip.png
+      5009: Resources/WeapAndEquip/Hell_Gun/Bigob_Hell_Girl.gif
+      5010: Resources/WeapAndEquip/Hell_Gun/Bigob_ExplosionOfHell.png
+      5011: Resources/WeapAndEquip/Melee/Laser_Sword_DeaM/Bigob_LSD.gif
+      5012: Resources/WeapAndEquip/Melee/Laser_Sword_Efren/Bigob_LSE.gif
+      5013: Resources/WeapAndEquip/Melee/Laser_Sword_Luke/Bigob_LSL.gif
+      5014: Resources/WeapAndEquip/Melee/Laser_Sword_Wolw/Bigob_LSW.gif
+
+  - type: FLOOROB.PCK
+    files:
+      5000: Resources/WeapAndEquip/Heavy_Tesla/floorob_Tesla_Heavy.png
+      5001: Resources/WeapAndEquip/Heavy_Tesla/floorob_Heavy_Clip.png
+      5002: Resources/WeapAndEquip/Tesla_Rifle/floorob_Tesla_Rifle.png
+      5003: Resources/WeapAndEquip/Tesla_Rifle/floorob_Rifle_clip.png
+      5004: Resources/WeapAndEquip/Healing/Stimm/Floorob_Stimm.gif
+      5005: Resources/WeapAndEquip/Healing/StimmG/Floorob_StimmG.gif
+      5006: Resources/WeapAndEquip/Healing/Scotch/Floorob_Scotch.gif
+      5007: Resources/WeapAndEquip/Chemical_Weapon/floorob_Chemical.png
+      5008: Resources/WeapAndEquip/Chemical_Weapon/floorob_Chemical_Clip.png
+      5009: Resources/WeapAndEquip/Hell_Gun/Floorob_Hell_Girl.gif
+      5010: Resources/WeapAndEquip/Hell_Gun/Floorob_ExplosionOfHell.gif
+      5011: Resources/WeapAndEquip/Melee/Laser_Sword_DeaM/Floorob_LSD.png
+      5012: Resources/WeapAndEquip/Melee/Laser_Sword_Efren/Floorob_LSE.png
+      5013: Resources/WeapAndEquip/Melee/Laser_Sword_Luke/Floorob_LSL.png
+      5014: Resources/WeapAndEquip/Melee/Laser_Sword_Wolw/Floorob_LSW.png
+
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      5000: Resources/WeapAndEquip/Heavy_Tesla/handob_Tesla_Heavy.png
+      5008: Resources/WeapAndEquip/Tesla_Rifle/handob_Tesla_Rifle.png
+      5016: Resources/WeapAndEquip/Healing/Stimm/handob_Stimm.gif
+      5024: Resources/WeapAndEquip/Healing/StimmG/handob_StimmG.gif
+      5032: Resources/WeapAndEquip/Healing/Scotch/handob_Scotch.gif
+      5040: Resources/WeapAndEquip/Chemical_Weapon/handob_Chemical.png
+      5048: Resources/WeapAndEquip/Hell_Gun/Handob_Hell_Girl.png
+      5056: Resources/WeapAndEquip/Melee/Laser_Sword_DeaM/Handob_LSD.png
+      5064: Resources/WeapAndEquip/Melee/Laser_Sword_Efren/Handob_LSE.png
+      5072: Resources/WeapAndEquip/Melee/Laser_Sword_Luke/Handob_LSL.png
+      5080: Resources/WeapAndEquip/Melee/Laser_Sword_Wolw/Handob_LSW.png
+
+  - type: SMOKE.PCK
+    height: 40
+    width: 320
+    subX: 32
+    subY: 40
+    files:
+      207: Resources/WeapAndEquip/Hit/Tesla_hit.png
+      217: Resources/WeapAndEquip/Hit/ChemicalSkull_hit.png
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+     150: Resources/WeapAndEquip/Melee/HIT/LaserSword.png
+
+items:
+  - type: STR_HEAVY_TESLA
+    categories: [STR_DUALENV_WEAPONS]
+    requires:
+      - STR_HEAVY_TESLA
+    size: 0.25
+    costBuy: 90000
+    costSell: 30000
+    transferTime: 96
+    weight: 19
+    bigSprite: 5000
+    floorSprite: 5000
+    handSprite: 5000
+    bulletSprite: 9
+    fireSound: 4003
+    reloadSound: 4001
+    compatibleAmmo:
+      - STR_HEAVY_CLIP
+    accuracySnap: 85
+    accuracyAimed: 105
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.5
+    tuSnap: 35
+    tuAimed: 55
+    costThrow:
+      energy: 20
+      time: 30
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+    invWidth: 2
+    invHeight: 3
+    snapRange: 12
+    aimRange: 18
+    dropoff: 6
+    powerRangeThreshold: 10
+    powerRangeReduction: 6
+    maxRange: 30
+    recoveryPoints: 3
+    attraction: 12
+    listOrder: 12390
+
+  - type: STR_HEAVY_CLIP
+    categories: [STR_DUALENV_WEAPONS]
+    requires:
+      - STR_HEAVY_TESLA
+    size: 0.05
+    costBuy: 3000
+    costSell: 1200
+    transferTime: 96
+    weight: 4
+    bigSprite: 5001
+    floorSprite: 5001
+    hitSound: 0
+    hitAnimation: 207
+    power: 105
+    damageType: 14
+    damageAlter:
+      RandomType: 6
+      ToHealth: 0.0
+      ToStun: 1.0
+      ToArmor: 0.0
+      ToWound: 0.0
+      ToTile: 0.0
+      ToTime: 0.5
+      ArmorEffectiveness: 0.5
+      RandomWound: false
+      RandomStun: false
+      IgnorePainImmunity: true
+    clipSize: 5
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 12391
+
+  - type: STR_RIFLE_TESLA
+    categories: [STR_DUALENV_WEAPONS]
+    requires:
+      - STR_RIFLE_TESLA
+    size: 0.25
+    costBuy: 75000
+    costSell: 10000
+    transferTime: 96
+    weight: 14
+    bigSprite: 5002
+    floorSprite: 5002
+    handSprite: 5008
+    bulletSprite: 9
+    fireSound: 4002
+    reloadSound: 4001
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+    accuracySnap: 75
+    accuracyAimed: 90
+    accuracyCloseQuarters: 100
+    accuracyMultiplier:
+      firing: 0.5
+    tuSnap: 30
+    tuAimed: 47
+    costThrow:
+      energy: 15
+      time: 25
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+    invWidth: 2
+    invHeight: 3
+    snapRange: 12
+    aimRange: 17
+    dropoff: 6
+    powerRangeThreshold: 8
+    powerRangeReduction: 6
+    maxRange: 26
+    recoveryPoints: 3
+    attraction: 12
+    listOrder: 12393
+
+  - type: STR_RIFLE_CLIP
+    categories: [STR_DUALENV_WEAPONS]
+    requires:
+      - STR_RIFLE_TESLA
+    size: 0.05
+    costBuy: 3000
+    costSell: 1200
+    transferTime: 96
+    weight: 3
+    bigSprite: 5003
+    floorSprite: 5003
+    hitSound: 0
+    hitAnimation: 207
+    power: 85
+    damageType: 14
+    damageAlter:
+      RandomType: 6
+      ToHealth: 0.0
+      ToStun: 1.0
+      ToArmor: 0.0
+      ToWound: 0.0
+      ToTile: 0.0
+      ToTime: 0.5
+      ArmorEffectiveness: 0.5
+      RandomWound: false
+      RandomStun: false
+      IgnorePainImmunity: true
+    clipSize: 5
+    costThrow:
+      energy: 6
+      time: 40
+    battleType: 2
+    armor: 30
+    listOrder: 12394
+
+  - type: STR_STIMM
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.05
+    costBuy: 3750
+    costSell: 2225
+    weight: 3
+    bigSprite: 5004
+    floorSprite: 5004
+    handSprite: 5016
+    hitSound: 4004
+    battleType: 6
+    medikitType: 2
+    allowSelfHeal: true
+    stimulant: 2
+    stunRecovery: 25
+    energyRecovery: 25
+    tuUse: 10
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    flatRate: true
+    isConsumable: true
+    requiresBuy:
+      - STR_STIMM
+    listOrder: 12395
+
+  - type: STR_STIMMG
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.05
+    costBuy: 4650
+    costSell: 2750
+    weight: 3
+    bigSprite: 5005
+    floorSprite: 5005
+    handSprite: 5024
+    hitSound: 4004
+    battleType: 6
+    medikitType: 2
+    allowSelfHeal: true
+    stimulant: 2
+    stunRecovery: 35
+    energyRecovery: 40
+    tuUse: 10
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    flatRate: true
+    isConsumable: true
+    requiresBuy:
+      - STR_STIMMG
+    listOrder: 12396
+
+  - type: STR_SCOTCH
+    categories: [STR_DUALENV_WEAPONS]
+    size: 0.025
+    costBuy: 800
+    costSell: 50
+    weight: 2
+    bigSprite: 5006
+    floorSprite: 5006
+    handSprite: 5032
+    hitSound: 4004
+    battleType: 6
+    painKiller: 0
+    heal: 2
+    stimulant: 0
+    woundRecovery: 1
+    healthRecovery: 2
+    costUse:
+      time: 15
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    isConsumable: true
+    experienceTrainingMode: 19
+    flatRate: true
+    requiresBuy:
+      - STR_SCOTCH
+    listOrder: 12397
+
+  - type: STR_CHEMICAL
+    categories: []
+    requires:
+      - STR_CHEMICAL
+    size: 0.2
+    costBuy: 8000
+    costSell: 6500
+    weight: 13
+    bigSprite: 5007
+    floorSprite: 5007
+    handSprite: 5040
+    bulletSprite: 8
+    fireSound: 4005
+    reloadSound: 4006
+    compatibleAmmo:
+      - STR_CHEMICAL_CLIP
+    accuracyCloseQuarters: 75
+    accuracyAuto: 45
+    tuAuto: 30
+    tuLoad: 20
+    costThrow:
+      energy: 20
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    maxRange: 14
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    bulletSpeed: 80
+    experienceTrainingMode: 7
+    attraction: 7
+    listOrder: 12398
+
+  - type: STR_CHEMICAL_CLIP
+    categories: []
+    requires:
+      - STR_CHEMICAL
+    size: 0.2
+    costBuy: 500
+    costSell: 400
+    weight: 5
+    bigSprite: 5008
+    floorSprite: 5008
+    explosionHitSound: 113
+    hitAnimation: 217
+    power: 45
+    damageType: 17
+    damageAlter:
+      ToMorale: 30.0
+    clipSize: 30
+    costThrow:
+      energy: 10
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 20
+    attraction: 7
+    listOrder: 12399
+
+  - type: STR_HELL_GIRL
+    categories: [STR_HEAVY_WEAPONS, STR_LAUNCHERS, STR_EXPLOSIVES]
+    size: 0.4
+    costSell: 16000
+    weight: 18
+    bigSprite: 5009
+    floorSprite: 5009
+    handSprite: 5048
+    bulletSprite: 0
+    fireSound: 52
+    compatibleAmmo:
+      - STR_EXPLOSIO_OF_HELL
+    accuracyCloseQuarters: 25
+    accuracySnap: 55
+    accuracyAimed: 125
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    listOrder: 12400
+
+  - type: STR_EXPLOSIO_OF_HELL
+    categories: [STR_HEAVY_WEAPONS, STR_LAUNCHERS, STR_EXPLOSIVES]
+    size: 0.3
+    costBuy: 1200000
+    costSell: 900000
+    transferTime: 72
+    weight: 15
+    bigSprite: 5010
+    floorSprite: 5010
+    hitAnimation: 8
+    explosionHitSound: 118
+    power: 600
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: false
+      ToStun: 0.5
+    clipSize: 1
+    blastRadius: 59
+    costThrow:
+      energy: 20
+      time: 40
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    listOrder: 12401
+
+  - type: STR_LSD
+    categories: []
+    size: 0.05
+    costSell: 105000
+    weight: 4
+    bigSprite: 5011
+    floorSprite: 5011
+    handSprite: 5056
+    meleeHitSound: 19
+    meleeAnimation: 150
+    power: 80
+    damageType: 4
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 1
+      ArmorEffectiveness: 0.5
+      ToWound: 0.06
+      RandomWound: false
+    damageBonus:
+      strength: 0.0
+      melee: 0.4
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    costThrow:
+      energy: 8
+      time: 40
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    recoveryPoints: 12
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    experienceTrainingMode: 13
+    attraction: 10
+    listOrder: 12402
+
+  - type: STR_LSE
+    categories: []
+    size: 0.05
+    costSell: 105000
+    weight: 4
+    bigSprite: 5012
+    floorSprite: 5012
+    handSprite: 5064
+    meleeHitSound: 19
+    meleeAnimation: 150
+    power: 80
+    damageType: 4
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 1
+      ArmorEffectiveness: 0.5
+      ToWound: 0.06
+      RandomWound: false
+    damageBonus:
+      strength: 0.0
+      melee: 0.4
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    costThrow:
+      energy: 8
+      time: 40
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    recoveryPoints: 12
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    experienceTrainingMode: 13
+    attraction: 10
+    listOrder: 12403
+
+  - type: STR_LSL
+    categories: []
+    size: 0.05
+    costSell: 105000
+    weight: 4
+    bigSprite: 5013
+    floorSprite: 5013
+    handSprite: 5072
+    meleeHitSound: 19
+    meleeAnimation: 150
+    power: 80
+    damageType: 4
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 1
+      ArmorEffectiveness: 0.5
+      ToWound: 0.06
+      RandomWound: false
+    damageBonus:
+      strength: 0.0
+      melee: 0.4
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    costThrow:
+      energy: 8
+      time: 40
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    recoveryPoints: 12
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    experienceTrainingMode: 13
+    attraction: 10
+    listOrder: 12404
+
+  - type: STR_LSW
+    categories: []
+    size: 0.05
+    costSell: 105000
+    weight: 4
+    bigSprite: 5014
+    floorSprite: 5014
+    handSprite: 5080
+    meleeHitSound: 19
+    meleeAnimation: 150
+    power: 80
+    damageType: 4
+    damageAlter:
+      IgnoreSelfDestruct: true
+      RandomType: 1
+      ArmorEffectiveness: 0.5
+      ToWound: 0.06
+      RandomWound: false
+    damageBonus:
+      strength: 0.0
+      melee: 0.4
+    accuracyMelee: 125
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    costThrow:
+      energy: 8
+      time: 40
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    recoveryPoints: 12
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    experienceTrainingMode: 13
+    attraction: 10
+    listOrder: 12405
+
+
+research:
+  - name: STR_HEAVY_TESLA
+    cost: 450
+    points: 40
+
+  - name: STR_HEAVY_CLIP
+    cost: 300
+    points: 33
+    dependencies:
+     - STR_HEAVY_TESLA
+
+  - name: STR_RIFLE_TESLA
+    cost: 350
+    points: 35
+
+  - name: STR_RIFLE_CLIP
+    cost: 300
+    points: 33
+    dependencies:
+     - STR_RIFLE_TESLA
+
+  - name: STR_STIMM
+    cost: 200
+    points: 30
+    dependencies:
+     - STR_MEDI_KIT
+
+  - name: STR_STIMMG
+    cost: 300
+    points: 33
+    dependencies:
+     - STR_STIMM
+     - STR_MEDI_KIT
+
+  - name: STR_SCOTCH
+    cost: 225
+    points: 30
+    dependencies:
+     - STR_MEDI_KIT
+
+  - name: STR_CHEMICAL
+    cost: 450
+    points: 40
+
+  - name: STR_CHEMICAL_CLIP
+    cost: 300
+    points: 33
+    dependencies:
+     - STR_CHEMICAL
+
+  - name: STR_HELL_GIRL
+    cost: 800
+    points: 40
+
+  - name: STR_EXPLOSIO_OF_HELL
+    cost: 450
+    points: 40
+    dependencies:
+     - STR_HELL_GIRL
+
+  - name: STR_LSD
+    cost: 500
+    points: 50
+
+  - name: STR_LSE
+    cost: 500
+    points: 50
+
+  - name: STR_LSL
+    cost: 500
+    points: 50
+
+  - name: STR_LSW
+    cost: 500
+    points: 50
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      4001: Resources/WeapAndEquip/Sound/Reload_Tesla.wav
+      4002: Resources/WeapAndEquip/Sound/Tesla_Rifle.wav
+      4003: Resources/WeapAndEquip/Sound/Tesla_Heavy.wav
+      4004: Resources/WeapAndEquip/Sound/Stimm.wav
+      4005: Resources/WeapAndEquip/Sound/Chemical.wav
+      4006: Resources/WeapAndEquip/Sound/Chemical_Reload.wav
+
+ufopaedia:
+  - id: STR_HEAVY_TESLA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HEAVY_TESLA_UFOPEDIA
+  - id: STR_HEAVY_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_RIFLE_TESLA
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RIFLE_TESLA_UFOPEDIA
+  - id: STR_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_STIMM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STIMM_UFOPEDIA
+  - id: STR_STIMMG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STIMMG_UFOPEDIA
+  - id: STR_SCOTCH
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SCOTCH_UFOPEDIA
+
+  - id: STR_CHEMICAL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CHEMICAL_UFOPEDIA
+  - id: STR_CHEMICAL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HELL_GIRL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_HELL_GIRL_UFOPEDIA
+  - id: STR_EXPLOSIO_OF_HELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LSD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LSD_UFOPEDIA
+
+  - id: STR_LSE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LSE_UFOPEDIA
+
+  - id: STR_LSL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LSL_UFOPEDIA
+
+  - id: STR_LSW
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LSL_UFOPEDIA
+
+
+
+extraStrings:
+  - type: ru
+    strings:
+      STR_HEAVY_TESLA: "Тяжелая Пушка Тесла"
+      STR_HEAVY_TESLA_UFOPEDIA: "Это дейстительно Тяжелая пушка тесла!"
+      STR_HEAVY_CLIP: "Энерго-Катушка"
+      STR_RIFLE_TESLA: "Винтовка Тесла"
+      STR_RIFLE_TESLA_UFOPEDIA: "Это дейстительно Винтовка Тесла!"
+      STR_RIFLE_CLIP: "Энерго-Катушка"
+      STR_STIMM: "Стимм"
+      STR_STIMM_UFOPEDIA: "Новая технология Сопротивления, для поднятие энергии во время стражения. Восстанавливает 25 ед. энергии, и снимает 25 ед. оглушения."
+      STR_STIMMG: "Стимм-Г"
+      STR_STIMMG_UFOPEDIA: "Новейшая технология Сопротивления, для поднятие энергии во время стражения. Восстанавливает 40 ед. энергии, и снимает 35 ед. оглушения"
+      STR_SCOTCH: "Скотч"
+      STR_SCOTCH_UFOPEDIA: "Скотч поможет вам заклеить рану бойцу сопротивления, и спасти ему жизнь. Либо заклеить ему рот, чтобы не мешал!"
+      STR_CHEMICAL: "Химическое Оружие"
+      STR_CHEMICAL_UFOPEDIA: "TEST"
+      STR_CHEMICAL_CLIP: "ХИМ.Баллон"
+      STR_HELL_GIRL: "Дьявольская Девочка"
+      STR_HELL_GIRL_UFOPEDIA: "Это ракетная установка была доставлена прямиком из ада, для того чтобы испепелить всё живое на своём пути!"
+      STR_EXPLOSIO_OF_HELL: "Взрыв Ада"
+      STR_LSD: "Лазерный Меч Демона"
+      STR_LSD_UFOPEDIA: "Это и правда он"
+      STR_LSE: "Лазерный Меч Ефера"
+      STR_LSE_UFOPEDIA: "Это и правда он"
+      STR_LSL: "Лазерный Меч Люка"
+      STR_LSL_UFOPEDIA: "Это и правда он"
+      STR_LSW: "Лазерный Меч Волка"
+      STR_LSW_UFOPEDIA: "Это и правда он"
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_HEAVY_TESLA: "Heavy Tesla Gun"
+      STR_HEAVY_TESLA_UFOPEDIA: "This is a really Heavy Tesla gun!"
+      STR_HEAVY_CLIP: "Energy-Coil"
+      STR_RIFLE_TESLA: "Tesla Rifle"
+      STR_RIFLE_TESLA_UFOPEDIA: "this is really a Tesla Rifle!"
+      STR_RIFLE_CLIP: "Energy-Coil Rifle"
+      STR_STIMM: "Stimm"
+      STR_STIMM_UFOPEDIA: "New Resistance technology for raising energy during the guard. Restores 25 energy points, and removes 25 stun points."
+      STR_STIMMG: "Stimm-G"
+      STR_STIMMG_UFOPEDIA: "the Latest Resistance technology, for raising energy during the guard. Restores 40 energy points and removes 35 stun points."
+      STR_SCOTCH: "Scotch"
+      STR_SCOTCH_UFOPEDIA: "Scotch tape will help you seal the wound of a resistance fighter, and save his life. Or tape his mouth so he doesn't get in the way!"
+      STR_CHEMICAL: "Chemical Weapons"
+      STR_CHEMICAL_UFOPEDIA: "TEST"
+      STR_CHEMICAL_CLIP: "CHEM.Cylinder"
+      STR_HELL_GIRL: "Hell Girl"
+      STR_HELL_GIRL_UFOPEDIA: "this rocket launcher was delivered straight from hell to incinerate all living things in its path!"
+      STR_EXPLOSIO_OF_HELL: "Explosion of Hell"
+      STR_LSD: "Demon's Laser Sword"
+      STR_LSD_UFOPEDIA: "Demon's Laser Sword"
+      STR_LSE: "Efrenespartano laser Sword"
+      STR_LSD_UFOPEDIA: "Efrenespartano laser Sword"
+      STR_LSL: "Luke's Laser Sword"
+      STR_LSL_UFOPEDIA: "Luke's Laser Sword"
+      STR_LSW: "Wolf Laser Sword"
+      STR_LSW_UFOPEDIA: "Wolf Laser Sword"

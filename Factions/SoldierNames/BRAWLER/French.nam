@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Alain
+  - Alban
+  - Armand
+  - Benoit
+  - Bruno
+  - Calvin
+  - Christian
+  - Claude
+  - Corentin
+  - Damien
+  - Denis
+  - Emile
+  - Etienne
+  - Ethan
+  - Fabien
+  - Francis
+  - Frederic
+  - Gaston
+  - Gerard
+  - Guillaume
+  - Henri
+  - Hugo
+  - Jacques
+  - Jean
+  - Jules
+  - Leon
+  - Lionel
+  - Louis
+  - Lucas
+  - Mathis
+  - Marc
+  - Marcel
+  - Michel
+  - Nathan
+  - Nicolas
+  - Olivier
+  - Pascal
+  - Paul
+  - Pierre
+  - Philippe
+  - Quentin
+  - Raphael
+  - Remi
+  - Rene
+  - Robert
+  - Roger
+  - Sebastien
+  - Simon
+  - Sylvain
+  - Thibault
+  - Victor
+  - Vincent
+  - Yves
+femaleFirst:
+  - Anne
+  - Audrey
+  - Brigitte
+  - Camille
+  - Catherine
+  - Chantal
+  - Claire
+  - Clara
+  - Cloe
+  - Danielle
+  - Dominique
+  - Elisabeth
+  - Eva
+  - Florence
+  - Francoise
+  - Gaelle
+  - Geraldine
+  - Helene
+  - Isabelle
+  - Ludivine
+  - Lydia
+  - Jacqueline
+  - Jeanne
+  - Julie
+  - Laure
+  - Lina
+  - Lilou
+  - Maelys
+  - Marie
+  - Marion
+  - Marguerite
+  - Maud
+  - Murielle
+  - Nathalie
+  - Odile
+  - Rachel
+  - Rose
+  - Sabine
+  - Sandrine
+  - Stephanie
+  - Sonia
+  - Sylvie
+  - Valerie
+  - Veronique
+  - Zoe
+maleLast:
+  - Andre (BRAW)
+  - Berger (BRAW)
+  - Bernard (BRAW)
+  - Bertrand (BRAW)
+  - Bonnet (BRAW)
+  - Bouissou (BRAW)
+  - Bourgeois (BRAW)
+  - Bouton (BRAW)
+  - Bouvier (BRAW)
+  - Blanc (BRAW)
+  - Blondel (BRAW)
+  - Buchard (BRAW)
+  - Caron (BRAW)
+  - Chevalier (BRAW)
+  - Coicard (BRAW)
+  - Collet (BRAW)
+  - Collignon (BRAW)
+  - Coste (BRAW)
+  - Couturier (BRAW)
+  - Clement (BRAW)
+  - Cuvelier (BRAW)
+  - Dagallier (BRAW)
+  - Delorme (BRAW)
+  - Dreyfus (BRAW)
+  - Dubois (BRAW)
+  - Ducourtioux (BRAW)
+  - Dujardin (BRAW)
+  - Dumont (BRAW)
+  - Dupuis (BRAW)
+  - Dupre (BRAW)
+  - Duval (BRAW)
+  - Fabre (BRAW)
+  - Faure (BRAW)
+  - Fontaine (BRAW)
+  - Fournier (BRAW)
+  - Gaillard (BRAW)
+  - Garcia (BRAW)
+  - Gaudrin (BRAW)
+  - Gautier (BRAW)
+  - Gressier (BRAW)
+  - Guerin (BRAW)
+  - Guillot (BRAW)
+  - Girard (BRAW)
+  - Giraudon (BRAW)
+  - Heroin (BRAW)
+  - Lacroix (BRAW)
+  - Laroyenne (BRAW)
+  - Lambert (BRAW)
+  - Laroche (BRAW)
+  - Larue (BRAW)
+  - Laurent (BRAW)
+  - Leclerc (BRAW)
+  - Lecointe (BRAW)
+  - Lecomte (BRAW)
+  - Leduc (BRAW)
+  - Lefevre (BRAW)
+  - Legrand (BRAW)
+  - Leroy (BRAW)
+  - Luget (BRAW)
+  - Marcelle (BRAW)
+  - Martin (BRAW)
+  - Menardier (BRAW)
+  - Mercier (BRAW)
+  - Meunier (BRAW)
+  - Moreau (BRAW)
+  - Morel (BRAW)
+  - Morin (BRAW)
+  - Mathieu (BRAW)
+  - Muller (BRAW)
+  - Pecheux (BRAW)
+  - Pelletier (BRAW)
+  - Perrin (BRAW)
+  - Perrot (BRAW)
+  - Petit (BRAW)
+  - Picar (BRAW)
+  - Roussel (BRAW)
+  - Revenu (BRAW)
+  - Roux (BRAW)
+  - Richard (BRAW)
+  - Simon (BRAW)
+  - Thomas (BRAW)
+  - Verdier (BRAW)

@@ -1,0 +1,833 @@
+lookWeights:
+  - 0
+  - 2
+  - 49
+  - 49
+maleFirst:
+  - Aata
+  - Ata
+  - Atawhai
+  - Ahia
+  - Ahinariki
+  - Ahipene
+  - Apirana
+  - Apera
+  - Aperahama
+  - Arapeta
+  - Etera
+  - Hahona
+  - Haimona
+  - Haki
+  - Hara
+  - Hari
+  - Hatarei
+  - Hau
+  - Hehu
+  - Heketoro
+  - Hemi
+  - Hirini
+  - Hiruharama
+  - Hohepa
+  - Honi
+  - Honoiwairua
+  - Hukarere
+  - Hunapo
+  - Iarere
+  - Iehohapata
+  - Ieni
+  - Ietepere
+  - Ietoro
+  - Ihaia
+  - Ihaka
+  - Iharaira
+  - Ihimaera
+  - Ihipa
+  - Ihu
+  - Ikaroa
+  - Inoke
+  - Iorama
+  - Iorangi
+  - Iotama
+  - Ira
+  - Iraia
+  - Iwi
+  - Kai
+  - Kaihautu
+  - Kaili
+  - Kale
+  - Kamaka
+  - Kapena
+  - Kapono
+  - Keahi
+  - Keanu
+  - Kiritowha
+  - Konala
+  - Loe
+  - Mana
+  - Marama
+  - Matiu
+  - Maui
+  - Pio
+  - Piripi
+  - Rangi
+  - Ra
+  - Rameka
+  - Rapata
+  - Rongo
+  - Ruru
+  - Taine
+  - Tama
+  - Tamati
+  - Tane
+  - Tanemahuta
+  - Hatfacoa
+  - Tangi
+  - Tautoru
+  - Tui
+  - Wi
+  - Wiremu
+  - Wiri
+  - Wirimu
+femaleFirst:
+  - Ahere
+  - Ahorangi
+  - Ahuaiti
+  - Ahurewa
+  - Alamea
+  - Aolani
+  - Aratiki
+  - Arikiwi
+  - Aroha
+  - Arorangi
+  - Aruhe
+  - Awa
+  - Awi
+  - Ehetere
+  - Emauha
+  - Emere
+  - Emiri
+  - Epa
+  - Erena
+  - Erene
+  - Erenora
+  - Eruini
+  - Haeata
+  - Hahana
+  - Hakeke
+  - Hanga
+  - Harakeke
+  - Harata
+  - Haukiwaho
+  - Hauku
+  - Haumiaroa
+  - Hauora
+  - Haupuku
+  - Haurahi
+  - Hekeheke
+  - Heni
+  - Hepetema
+  - Hera
+  - Herene
+  - Hihiri
+  - Hinapouri
+  - Hine
+  - Hineana
+  - Hinemoana
+  - Hiri
+  - Hoane
+  - Hoata
+  - Hokioi
+  - Honemoana
+  - Horiana
+  - Horowai
+  - Hotoke
+  - Huhana
+  - Huia
+  - Hukapapa
+  - Ihapera
+  - Inia
+  - Iolana
+  - Irapeta
+  - Irihapeti
+  - Iritana
+  - Irueca
+  - Iucihi
+  - Iwa
+  - Iwalani
+  - Kahikatoa
+  - Kahu
+  - Kahurangi
+  - Kaiarahi
+  - Kaihautu
+  - Kaitaka
+  - Kakama
+  - Kakarauri
+  - Kakariki
+  - Kalea
+  - Kamea
+  - Keoni
+  - Kieli
+  - Kinipela
+  - Kiri
+  - Konane
+  - Kowhai
+  - Mariama
+  - Lahela
+  - Lani
+  - Lealani
+  - Leiko
+  - Liko
+  - Liliha
+  - Luana
+  - Lulani
+  - Maile
+  - Makani
+  - Mahinaarangi
+  - Maleah
+  - Malo
+  - Manaia
+  - Mele
+  - Miliani
+  - Moana
+  - Nalanie
+  - Ngaire
+  - Nohealani
+  - Oke
+  - Onaona  
+  - Papatuanuku
+  - Peata
+  - Petani
+  - Palila
+  - Pekelo
+  - Pilialoha
+  - Tama
+  - Tino Aroha
+  - Ulani
+  - Wiki
+  - Wikitoria
+maleLast:
+  - Amai (TRACK)
+  - Aperahama (TRACK)
+  - Atama (TRACK)
+  - Ahipene (TRACK)
+  - Ahitana (TRACK)
+  - Ahuriri (TRACK)
+  - Aihue (TRACK)
+  - Akara (TRACK)
+  - Akariri (TRACK)
+  - Akuhata (TRACK)
+  - Alana (TRACK)
+  - Amohanga (TRACK)
+  - Anaha (TRACK)
+  - Anaru (TRACK)
+  - Aotea (TRACK)
+  - Apatari (TRACK)
+  - Acatui (TRACK)
+  - Ariari (TRACK)
+  - A Tau (TRACK)
+  - Atutahi (TRACK)
+  - Awanui (TRACK)
+  - Awatere (TRACK)
+  - Ema (TRACK)
+  - Eparaima (TRACK)
+  - Erueti (TRACK)
+  - Haehae (TRACK)
+  - Haira (TRACK)
+  - Hakaraia (TRACK)
+  - Hakopa (TRACK)
+  - Hale (TRACK)
+  - Hamahona (TRACK)
+  - Hape (TRACK)
+  - Hapeta (TRACK)
+  - Hapi (TRACK)
+  - Hapimana (TRACK)
+  - Hapuku (TRACK)
+  - Harakeke (TRACK)
+  - Harata (TRACK)
+  - Harawira (TRACK)
+  - Hari (TRACK)
+  - Hatarini (TRACK)
+  - Hatata (TRACK)
+  - Hati (TRACK)
+  - Haturini (TRACK)
+  - Hau (TRACK)
+  - Haua (TRACK)
+  - Hauiti (TRACK)
+  - Haukamau (TRACK)
+  - Hauraki (TRACK)
+  - Hautapu (TRACK)
+  - Hautonga (TRACK)
+  - Hautu (TRACK)
+  - Hawea (TRACK)
+  - Heka (TRACK)
+  - Hekekia (TRACK)
+  - Hemania (TRACK)
+  - Hemara (TRACK)
+  - Henare (TRACK)
+  - Herangi (TRACK)
+  - Herekiuha (TRACK)
+  - Hereora (TRACK)
+  - Heretini (TRACK)
+  - Herewini (TRACK)
+  - Heta (TRACK)
+  - Hetaraka (TRACK)
+  - Heteriki (TRACK)
+  - Hikawai (TRACK)
+  - Himiona (TRACK)
+  - Hinekura (TRACK)
+  - Hinerangi (TRACK)
+  - Hinerau (TRACK)
+  - Hinga (TRACK)
+  - Hireme (TRACK)
+  - Hirini (TRACK)
+  - Hita (TRACK)
+  - Hoani (TRACK)
+  - Hoepo (TRACK)
+  - Hoera (TRACK)
+  - Hoeta (TRACK)
+  - Hohaia (TRACK)
+  - Hohapata (TRACK)
+  - Hohepa (TRACK)
+  - Hohia (TRACK)
+  - Hokianga (TRACK)
+  - Hokotoki (TRACK)
+  - Hona (TRACK)
+  - Hone (TRACK)
+  - Honetana (TRACK)
+  - Hongi (TRACK)
+  - Hoori (TRACK)
+  - Hopa (TRACK)
+  - Hori (TRACK)
+  - Horohau (TRACK)
+  - Horomona (TRACK)
+  - Horua (TRACK)
+  - Hoterene (TRACK)
+  - Hotu (TRACK)
+  - Huatahi (TRACK)
+  - Huhu (TRACK)
+  - Huiarangia (TRACK)
+  - Huka (TRACK)
+  - Humana (TRACK)
+  - Hunua (TRACK)
+  - Hura (TRACK)
+  - Huritu (TRACK)
+  - Huriwaka (TRACK)
+  - Ihaea (TRACK)
+  - Ihaia (TRACK)
+  - Iona (TRACK)
+  - Irihapete (TRACK)
+  - Irimana (TRACK)
+  - Iti (TRACK)
+  - Kahale (TRACK)
+  - Kahananui (TRACK)
+  - Kahele (TRACK)
+  - Kahiwai (TRACK)
+  - Kahiwirori (TRACK)
+  - Kahue (TRACK)
+  - Kahukakanui (TRACK)
+  - Kahukura (TRACK)
+  - Kaihau (TRACK)
+  - Kaimoana (TRACK)
+  - Kainamu (TRACK)
+  - Kaingariro (TRACK)
+  - Kainuku (TRACK)
+  - Kaipapa (TRACK)
+  - Kairau (TRACK)
+  - Kaire (TRACK)
+  - Kaiteke (TRACK)
+  - Kaiwi (TRACK)
+  - Kakewahine (TRACK)
+  - Kalama (TRACK)
+  - Kalani (TRACK)
+  - Kalawai'a (TRACK)
+  - Kalili (TRACK)
+  - Kalua (TRACK)
+  - Kama (TRACK)
+  - Kamaka (TRACK)
+  - Kamealoha (TRACK)
+  - Kamira (TRACK)
+  - Kamuwai (TRACK)
+  - Kaneri (TRACK)
+  - Kanuta (TRACK)
+  - Kapene (TRACK)
+  - Kaponga (TRACK)
+  - Kapule (TRACK)
+  - Karahina (TRACK)
+  - Karaitiana (TRACK)
+  - Karaka (TRACK)
+  - Karakiakore (TRACK)
+  - Karamaena (TRACK)
+  - Kararene (TRACK)
+  - Karati (TRACK)
+  - Karekare (TRACK)
+  - Kareko (TRACK)
+  - Karena (TRACK)
+  - Katene (TRACK)
+  - Katete (TRACK)
+  - Katipa (TRACK)
+  - Kauamo (TRACK)
+  - Kaui (TRACK)
+  - Kaukau (TRACK)
+  - Kaura (TRACK)
+  - Kautarewa (TRACK)
+  - Kawana (TRACK)
+  - Kawai (TRACK)
+  - Kawau (TRACK)
+  - Ka'ana'ana (TRACK)
+  - Ka'aukai (TRACK)
+  - Ka'uhane (TRACK)
+  - Kawiti (TRACK)
+  - Keahi (TRACK)
+  - Kealoha (TRACK)
+  - Keawe (TRACK)
+  - Kepa (TRACK)
+  - Kekoa (TRACK)
+  - Kelekolio (TRACK)
+  - Keli'i (TRACK)
+  - Kena (TRACK)
+  - Keno (TRACK)
+  - Kepa (TRACK)
+  - Kerapa (TRACK)
+  - Kereama (TRACK)
+  - Kerei (TRACK)
+  - Keremeneta (TRACK)
+  - Kereoma (TRACK)
+  - Kereopa (TRACK)
+  - Kerepeti (TRACK)
+  - Kereru (TRACK)
+  - Kereti (TRACK)
+  - Kewa (TRACK)
+  - Kiarie (TRACK)
+  - Kimura (TRACK)
+  - Kingi (TRACK)
+  - Kinihe (TRACK)
+  - Kino Te Ahiwaka (TRACK)
+  - Kirikino (TRACK)
+  - Kirikiri (TRACK)
+  - Kiriwi (TRACK)
+  - Kiwara (TRACK)
+  - Koha (TRACK)
+  - Kohena (TRACK)
+  - Kohikikko (TRACK)
+  - Kohu (TRACK)
+  - Kokiri (TRACK)
+  - Komene (TRACK)
+  - Koni (TRACK)
+  - Koperau (TRACK)
+  - Kopiri (TRACK)
+  - Koroheke (TRACK)
+  - Korohunga (TRACK)
+  - Koroi Ngawhau (TRACK)
+  - Kotuhi (TRACK)
+  - Kouku (TRACK)
+  - Kupa (TRACK)
+  - Kurawhatia (TRACK)
+  - Kuru (TRACK)
+  - Kuti (TRACK)
+  - Kane (TRACK)
+  - Maaka (TRACK)
+  - Maeka (TRACK)
+  - Maere (TRACK)
+  - Mahaka (TRACK)
+  - Mahauariki (TRACK)
+  - Mahelona (TRACK)
+  - Mahe'ai (TRACK)
+  - Mahia (TRACK)
+  - Mahima (TRACK)
+  - Mahoe (TRACK)
+  - Mahoe (TRACK)
+  - Mahu   (TRACK)
+  - Mahuta (TRACK)
+  - Mahutoto (TRACK)
+  - Maihi (TRACK)
+  - Maipi (TRACK)
+  - Maka (TRACK)
+  - Makara (TRACK)
+  - Makatea (TRACK)
+  - Makawe (TRACK)
+  - Makiha (TRACK)
+  - Makiri (TRACK)
+  - Manawaroa (TRACK)
+  - Mane (TRACK)
+  - Mangu (TRACK)
+  - Mania (TRACK)
+  - Maniapoto (TRACK)
+  - Manihera (TRACK)
+  - Mare (TRACK)
+  - Mareroa (TRACK)
+  - Marino (TRACK)
+  - Marore (TRACK)
+  - Marupo (TRACK)
+  - Matakorama (TRACK)
+  - Matene (TRACK)
+  - Matenga (TRACK)
+  - Materoa (TRACK)
+  - Matewhitu (TRACK)
+  - Mau (TRACK)
+  - Mauhana (TRACK)
+  - Mauheni (TRACK)
+  - Maukau (TRACK)
+  - Mauwhata (TRACK)
+  - Mawe (TRACK)
+  - Mawhiu (TRACK)
+  - Metua (TRACK)
+  - Mihinui (TRACK)
+  - Mikaere (TRACK)
+  - Miki (TRACK)
+  - Minapara (TRACK)
+  - Mio (TRACK)
+  - Moananui (TRACK)
+  - Moeahu (TRACK)
+  - Moera (TRACK)
+  - Meoroa (TRACK)
+  - Mohi (TRACK)
+  - Moka (TRACK)
+  - Moke (TRACK)
+  - Moke Te Ora (TRACK)
+  - Monita (TRACK)
+  - Morehu (TRACK)
+  - Morete (TRACK)
+  - Morunga (TRACK)
+  - Motutere (TRACK)
+  - Muriwai (TRACK)
+  - Muru (TRACK)
+  - Munu (TRACK)
+  - Natana (TRACK)
+  - Nawaia (TRACK)
+  - Neho (TRACK)
+  - Nehua (TRACK)
+  - Nene (TRACK)
+  - Nepia (TRACK)
+  - Ngahere (TRACK)
+  - Ngahiwi (TRACK)
+  - Ngahoro (TRACK)
+  - Ngaia (TRACK)
+  - Ngaio (TRACK)
+  - Ngakaho (TRACK)
+  - Ngamoenga (TRACK)
+  - Ngamoki (TRACK)
+  - Ngamu (TRACK)
+  - Ngapune (TRACK)
+  - Ngare (TRACK)
+  - Ngarara (TRACK)
+  - Ngata (TRACK)
+  - Ngatai (TRACK)
+  - Ngataierua (TRACK)
+  - Ngataki (TRACK)
+  - Ngatoko (TRACK)
+  - Ngatono (TRACK)
+  - Ngawe (TRACK)
+  - Ngawharau (TRACK)
+  - Ngerengere (TRACK)
+  - Ngohe (TRACK)
+  - Ngoungou (TRACK)
+  - Nikau (TRACK)
+  - Nikora (TRACK)
+  - Nuitone (TRACK)
+  - Nukaiahu (TRACK)
+  - Nutana (TRACK)
+  - Nutira (TRACK)
+  - Ohutu (TRACK)
+  - Oketopa (TRACK)
+  - Oneroa (TRACK)
+  - Otene (TRACK)
+  - Otimi (TRACK)
+  - Paekou (TRACK)
+  - Paenga (TRACK)
+  - Paerata (TRACK)
+  - Paewai (TRACK)
+  - Pahau (TRACK)
+  - Pahi (TRACK)
+  - Pahua (TRACK)
+  - Pai (TRACK)
+  - Paipa (TRACK)
+  - Pairama (TRACK)
+  - Pakau (TRACK)
+  - Paki (TRACK)
+  - Pakinui (TRACK)
+  - Pakira (TRACK)
+  - Paku (TRACK)
+  - Palakiko (TRACK)
+  - Panapa (TRACK)
+  - Panera (TRACK)
+  - Panina (TRACK)
+  - Panoho (TRACK)
+  - Paora (TRACK)
+  - Papa Titore (TRACK)
+  - Paparangi (TRACK)
+  - Paraeroa (TRACK)
+  - Paraha (TRACK)
+  - Paraihe (TRACK)
+  - Paranihi (TRACK)
+  - Paranihihi (TRACK)
+  - Paraone (TRACK)
+  - Parata (TRACK)
+  - Paratene (TRACK)
+  - Paratini (TRACK)
+  - Pare (TRACK)
+  - Parehe (TRACK)
+  - Parekaremu (TRACK)
+  - Pareraukawa (TRACK)
+  - Paringatai (TRACK)
+  - Patariki (TRACK)
+  - Patihana (TRACK)
+  - Patu (TRACK)
+  - Patuone (TRACK)
+  - Patuwai (TRACK)
+  - Patuwairua (TRACK)
+  - Paura (TRACK)
+  - Pauro (TRACK)
+  - Pawhau (TRACK)
+  - Peehikuru (TRACK)
+  - Pepe (TRACK)
+  - Peita (TRACK)
+  - Peka (TRACK)
+  - Peneha (TRACK)
+  - Penehare (TRACK)
+  - Peneta (TRACK)
+  - Penetito (TRACK)
+  - Pepene (TRACK)
+  - Pera (TRACK)
+  - Peraniko (TRACK)
+  - Perawiti (TRACK)
+  - Pereki (TRACK)
+  - Perepe (TRACK)
+  - Peri (TRACK)
+  - Pihama (TRACK)
+  - Pikari (TRACK)
+  - Pio (TRACK)
+  - Pirere (TRACK)
+  - Pirika (TRACK)
+  - Piripi (TRACK)
+  - Piwari (TRACK)
+  - Poa (TRACK)
+  - Poaro (TRACK)
+  - Pohe (TRACK)
+  - Pohio (TRACK)
+  - Pohopohe (TRACK)
+  - Poiakino (TRACK)
+  - Poihipi (TRACK)
+  - Pokai (TRACK)
+  - Pomana (TRACK)
+  - Pomare (TRACK)
+  - Popata (TRACK)
+  - Potaka (TRACK)
+  - Potangaroa (TRACK)
+  - Potatau (TRACK)
+  - Poti (TRACK)
+  - Potiki (TRACK)
+  - Pouhiki (TRACK)
+  - Pourewa (TRACK)
+  - Pouwhare (TRACK)
+  - Puanga (TRACK)
+  - Puano (TRACK)
+  - Puhi (TRACK)
+  - Phutaniwharau (TRACK)
+  - Puku (TRACK)
+  - Puna (TRACK)
+  - Pura (TRACK)
+  - Puru (TRACK)
+  - Purukama (TRACK)
+  - Puti (TRACK)
+  - Purutanga (TRACK)
+  - Raharuhi (TRACK)
+  - Raihania (TRACK)
+  - Rakete (TRACK)
+  - Raki (TRACK)
+  - Rakiraki (TRACK)
+  - Rako (TRACK)
+  - Ranana (TRACK)
+  - Rangihaeata (TRACK)
+  - Rangimakere (TRACK)
+  - Rangipaeroa (TRACK)
+  - Rangiatakaiwaho (TRACK)
+  - Rangitaura (TRACK)
+  - Rangitukiwaho (TRACK)
+  - Rangiwai (TRACK)
+  - Rapana (TRACK)
+  - Rapihana (TRACK)
+  - Rapira (TRACK)
+  - Raponi (TRACK)
+  - Rarere (TRACK)
+  - Ratahi (TRACK)
+  - Ratima (TRACK)
+  - Rauhihi (TRACK)
+  - Rautangi (TRACK)
+  - Rawiri (TRACK)
+  - Rehanga (TRACK)
+  - Rehutai (TRACK)
+  - Rei (TRACK)
+  - Reihana (TRACK)
+  - Remaha (TRACK)
+  - Remi (TRACK)
+  - Remihana (TRACK)
+  - Renata (TRACK)
+  - Rerekura (TRACK)
+  - Reweti (TRACK)
+  - Rewi (TRACK)
+  - Rewiti (TRACK)
+  - Ria (TRACK)
+  - Rihari (TRACK)
+  - Rihia (TRACK)
+  - Riki (TRACK)
+  - Rikirangi (TRACK)
+  - Riwhi (TRACK)
+  - Romana (TRACK)
+  - Rona (TRACK)
+  - Ronaki (TRACK)
+  - Ropata (TRACK)
+  - Rotoatara (TRACK)
+  - Tuatara (TRACK)
+  - Ruawai (TRACK)
+  - Ruepena (TRACK)
+  - Ruka (TRACK)
+  - Rukutai (TRACK)
+  - Rupaha (TRACK)
+  - Rurawhe (TRACK)
+  - Ruru (TRACK)
+  - Ruwhiu (TRACK)
+  - Te Puke Nui (TRACK)
+  - Tare (TRACK)
+  - Taekata (TRACK)
+  - Tahana (TRACK)
+  - Tahere (TRACK)
+  - Tai (TRACK)
+  - Taiapa (TRACK)
+  - Taiaroa (TRACK)
+  - Taimana (TRACK)
+  - Taimona (TRACK)
+  - Taipari (TRACK)
+  - Taite (TRACK)
+  - Taitimu (TRACK)
+  - Taitua (TRACK)
+  - Tautuha (TRACK)
+  - Taka (TRACK)
+  - Takao (TRACK)
+  - Takarangi (TRACK)
+  - Takimoana (TRACK)
+  - Takitimu (TRACK)
+  - Takoto (TRACK)
+  - Takuira (TRACK)
+  - Tamahana (TRACK)
+  - Tamaikoha (TRACK)
+  - Tamainu (TRACK)
+  - Tamaiparea (TRACK)
+  - Tamaka (TRACK)
+  - Tamakaha (TRACK)
+  - Tamaki (TRACK)
+  - Tamaoho (TRACK)
+  - Tamapahore (TRACK)
+  - Tamarau (TRACK)
+  - Tamatea (TRACK)
+  - Tamati (TRACK)
+  - Tamawaru (TRACK)
+  - Tamihana (TRACK)
+  - Tamihaua (TRACK)
+  - Tanara (TRACK)
+  - Tangaroa (TRACK)
+  - Tangipo (TRACK)
+  - Tangohau (TRACK)
+  - Taniora (TRACK)
+  - Taniwha (TRACK)
+  - Tarakaho (TRACK)
+  - Taranui (TRACK)
+  - Taratoa (TRACK)
+  - Tareha (TRACK)
+  - Tareuke (TRACK)
+  - tata (TRACK)
+  - Tau (TRACK)
+  - Taua (TRACK)
+  - Tauhore (TRACK)
+  - taui (TRACK)
+  - Taira (TRACK)
+  - Taukamo (TRACK)
+  - Taumatahera (TRACK)
+  - Taupo (TRACK)
+  - Taurua (TRACK)
+  - Tautari (TRACK)
+  - Tautuhi (TRACK)
+  - Tawera (TRACK)
+  - Tawhai (TRACK)
+  - Tawhara (TRACK)
+  - Te Ahwaka (TRACK)
+  - Te Aho (TRACK)
+  - Te Akau (TRACK)
+  - Te Ao (TRACK)
+  - Te Apa (TRACK)
+  - Te Aranui (TRACK)
+  - Te Atua (TRACK)
+  - Te Awa (TRACK)
+  - Te Hae (TRACK)
+  - Te Huia (TRACK)
+  - Te Kanawa (TRACK)
+  - Te Kataua (TRACK)
+  - Te Kepa (TRACK)
+  - Te Mana (TRACK)
+  - Te Nga (TRACK)
+  - Te Owai (TRACK)
+  - Te Papa (TRACK)
+  - Te Peke (TRACK)
+  - Te Tuhi (TRACK)
+  - Tei (TRACK)
+  - Tekoikoi (TRACK)
+  - Tepeke (TRACK)
+  - Tepere (TRACK)
+  - Teraki (TRACK)
+  - Teriroa (TRACK)
+  - Teremai (TRACK)
+  - Timu (TRACK)
+  - Tipene (TRACK)
+  - Toia (TRACK)
+  - Tokona (TRACK)
+  - Tongariro (TRACK)
+  - Taumaunu (TRACK)
+  - Tuhapo (TRACK)
+  - Tuke (TRACK)
+  - Tupe (TRACK)
+  - Turei (TRACK)
+  - Wahi (TRACK)
+  - Waka (TRACK)
+  - Wara (TRACK)
+  - Waiariki (TRACK)
+  - Waiata (TRACK)
+  - Waihape (TRACK)
+  - Wainohu (TRACK)
+  - Waiohenga (TRACK)
+  - Waipa (TRACK)
+  - Waipouri (TRACK)
+  - Wairua (TRACK)
+  - Waitara (TRACK)
+  - Waitoa (TRACK)
+  - Waitokia (TRACK)
+  - Waiwiri (TRACK)
+  - Wanoa (TRACK)
+  - Wanui (TRACK)
+  - Warakihi (TRACK)
+  - Warana (TRACK)
+  - Warauri (TRACK)
+  - Warena (TRACK)
+  - Watene (TRACK)
+  - Wati (TRACK)
+  - Wehipeihana (TRACK)
+  - Wepiha (TRACK)
+  - Whanga (TRACK)
+  - Whaekiri (TRACK)
+  - Whaitiri (TRACK)
+  - Whakaari (TRACK)
+  - Whakaata (TRACK)
+  - Whanaupunga (TRACK)
+  - Whangapirita (TRACK)
+  - Wharekawa (TRACK)
+  - Wharekiri (TRACK)
+  - Wharepapa (TRACK)
+  - Wharerau (TRACK)
+  - Whati (TRACK)
+  - Whetu (TRACK)
+  - Whiu (TRACK)
+  - Wihapi (TRACK)
+  - Wikaire (TRACK)
+  - Wikitapu (TRACK)
+  - Witana (TRACK)
+  - Witehira (TRACK)
+  - Witika (TRACK)
+  - Akamu (TRACK)

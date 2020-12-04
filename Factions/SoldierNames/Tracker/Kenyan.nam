@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - Abasi
+  - Adin
+  - Akili
+  - Amali
+  - Amaziah
+  - Ashura
+  - Chege
+  - Chilemba
+  - Chitundu
+  - Chiumbo
+  - Darweshi
+  - Etana
+  - Fadhili
+  - Feruzi
+  - Gachora
+  - Gacoki
+  - Gakere
+  - Gakuru
+  - Gatete
+  - Gathee
+  - Gathii
+  - Gatimu
+  - Gethii
+  - Gichinga
+  - Gicicio
+  - Gikuyu
+  - Githinji
+  - Githogori
+  - Gitonga
+  - Haji
+  - Hala
+  - Hamisi
+  - Hiuhu
+  - Ikinya
+  - Iregi
+  - Irungu
+  - Ita
+  - Itimu
+  - Jaramogi
+  - Jalil
+  - Jimiyu
+  - Jomo
+  - Jamil
+  - Juahar
+  - Jimiyu
+  - Jina
+  - Jirani
+  - Jomo
+  - Kafil
+  - Kagai
+  - Kagunda
+  - Kahiga
+  - Kairu
+  - Kamau
+  - Kamili
+  - Kanja
+  - Kanoro
+  - Karani
+  - Karega
+  - Kariuki
+  - Kereenyaga
+  - Kiambiroiro
+  - Kianjahe
+  - Kiano
+  - Kianyandaarwa
+  - Kiara
+  - Kifimbo
+  - Kihara
+  - Kihiga
+  - Kimathi
+  - Kimotho
+  - Kinoro
+  - Kinyua
+  - Kioi
+  - Kirimi
+  - Kirinyaga
+  - Kithingi
+  - Kiwonto
+  - Koigi
+  - Kuguru
+  - Kwasi
+  - Lipapwiche
+  - Lisimba
+  - Lusala
+  - Macaria
+  - Maina
+  - Maitho
+  - Makalani
+  - Makori
+  - Mathaathi
+  - Matu
+  - Matunde
+  - Maundu
+  - Mbogo
+  - Mbui
+  - Miano
+  - Migwi
+  - Mokabi
+  - Morani
+  - Mosi
+  - Muenda
+  - Muga
+  - Mugendi
+  - Mugi
+  - Mugo
+  - Muiru
+  - Muiruri
+  - Mukanda
+  - Mukiri
+  - Mukuru
+  - Munene
+  - Munoru
+  - Muraguri
+  - Murathi
+  - Muraya
+  - Muriithi
+  - Murimi
+  - Muriu
+  - Muriuki
+  - Muroki
+  - Muruthi
+  - Mutahi
+  - Mutegi
+  - Mutemi
+  - Muthee
+  - Muthemba
+  - Muthengi
+  - Mutheru
+  - Muthomi
+  - Muthuri
+  - Mutira
+  - Mutiri
+  - Mutitu
+  - Mutonyi
+  - Mutua
+  - Muturi
+  - Muugi
+  - Mwaka
+  - Mwangi
+  - Mwara
+  - Mwarania
+  - Mwaria
+  - Mwenda
+  - Nangila
+  - Nangwaya
+  - Ndegwa
+  - Ndemi
+  - Nderu
+  - Ndwiga
+  - Ngare
+  - Ngigi
+  - Ngumo
+  - Njama
+  - Njanu
+  - Njata
+  - Njau
+  - Njiraini
+  - Njiru
+  - Njogu
+  - Njora
+  - Njowga
+  - Njururi
+  - Nyachae
+  - Nyaga
+  - Nyamu
+  - Nyatui
+  - Nyoike
+  - Obama
+  - Obuya
+  - Ochieng
+  - Odikinyi
+  - Odinga
+  - Odonga
+  - Odour
+  - Ohon
+  - Ojwang
+  - Okello
+  - Okeyo
+  - Okoth
+  - Oluoch
+  - Omariba
+  - Omondi
+  - Omwancha
+  - Ongweng
+  - Onindo
+  - Onkwani
+  - Onyango
+  - Opiyo
+  - Osogo
+  - Othiambo
+  - Otenio
+  - Owino
+  - Owiti
+  - Owuor
+  - Pili
+  - Radhi
+  - Riitho
+  - Ruguru
+  - Ruhiu
+  - Runo
+  - Sabra
+  - Safi
+  - Shamim
+  - Shani
+  - Simba
+  - Sokoro
+  - Thabiti
+  - Tumaini
+  - Tuwile
+  - Wachiru
+  - Waga
+  - Waithaka
+  - Waitimu
+  - Waiyaki
+  - Wamai
+  - Wambua
+  - Wamugunda
+  - Wamukota
+  - Wamwara
+  - Wangombe
+  - Wangondu
+  - Wanjala
+  - Wanjohi
+  - Wanyanga
+  - Waruhiu
+  - Warui
+  - Waweru
+  - Wekesa
+femaleFirst:
+  - Aaliyah
+  - Adhra
+  - Adila
+  - Adimu
+  - Adin
+  - Adla
+  - Afaafa
+  - Afifa
+  - Afifah
+  - Afiya
+  - Afrika
+  - Afya
+  - Ahadi
+  - Aida
+  - Ainra
+  - Ajia
+  - Akello
+  - Akila
+  - Akilah
+  - Akili
+  - Aliya
+  - Almasi
+  - Aluna
+  - Amali
+  - Amana
+  - Amaziah
+  - Amina
+  - Aminah
+  - Aminali
+  - Aminifu
+  - Amira
+  - Amne
+  - Angavu
+  - Anisun
+  - Arafa
+  - Arifa
+  - Arusi
+  - Asali
+  - Asatira
+  - Asha
+  - Ashura
+  - Asilia
+  - Asiya
+  - Asma
+  - Asmahani
+  - Asumini
+  - Asya
+  - Awena
+  - Aza
+  - Aziza
+  - Badriya
+  - Bahati
+  - Bahiya
+  - Barke
+  - Basha
+  - Bashaam
+  - Bashira
+  - Basma
+  - Basmah
+  - Batuuli
+  - Baya
+  - Bayyina
+  - Bebi
+  - Bia
+  - Bimbaya
+  - Bimdogo
+  - Bimkubwa
+  - Bimnono
+  - Bishara
+  - Bitisururu
+  - Bititi
+  - Biubwa
+  - Buqisi
+  - Busara
+  - Bushira
+  - Chaniya
+  - Chausiku
+  - Chiku
+  - Chuki
+  - Dabiku
+  - Dafina
+  - Dalila
+  - Dalili
+  - Damisi
+  - Dhakiya
+  - Dhambizao
+  - Dhuriya
+  - Dodo
+  - Ducha
+  - Duni
+  - Durah
+  - Durra
+  - Eidi
+  - Eshe
+  - Etana
+  - Fadhila
+  - Fadhili
+  - Fadiya
+  - Fadari
+  - Fahima
+  - Fahimah
+  - Faida
+  - Faika
+  - Faiza
+  - Faizah
+  - Fanaka
+  - Fanikia
+  - Faraja
+  - Farashuu
+  - Farida
+  - Farisi
+  - Fasaha
+  - Fathiya
+  - Fatima
+  - Fatuma
+  - Fauziya
+  - Feruzi
+  - Fila
+  - Firdawsi
+  - Firyali
+  - Fujo
+  - Furaha
+  - Gasira
+  - Ghalyela
+  - Ghanima
+  - Gharibuu
+  - Gheche
+  - Ghinjo
+  - Ghipe
+  - Habeebah
+  - Habiba
+  - Habibah
+  - Hadhi
+  - Hadiya
+  - Hafidha
+  - Hafsa
+  - Hafsah
+  - Haiba
+  - Haifa
+  - Hakika
+  - Hakima
+  - Hala
+  - Halili
+  - Halima
+  - Halisi
+  - Hamida
+  - Hanaa
+  - Hanifa
+  - Hanuni
+  - Haoniyao
+  - Harbuu
+  - Hartha
+  - Hasanati
+  - Hashiki
+  - Hasijna
+  - Hasina
+  - Hasnaa
+  - Hawa
+  - Hawla
+  - Hazina
+  - Hediye
+  - Hiari
+  - Hiba
+  - Hidaya
+  - Himidi
+  - Hisani
+  - Huruma
+  - Ibtisam
+  - Ikinya
+  - Ilham
+  - Inaya
+  - Intisar
+  - Ita
+  - Itidal
+  - Jaha
+  - Jahi
+  - Jamila
+  - Jana
+  - Jauhar
+  - Jina
+  - Jirani
+  - Johanna
+  - Johari
+  - Jokha
+  - Jumapili
+  - Juwayria
+  - Kabisa
+  - Kadija
+  - Kainda
+  - Kamaria
+  - Kamili
+  - Kanai
+  - Kanika
+  - Karama
+  - Karima
+  - Karimu
+  - Kaweria
+  - Kesi
+  - Khadija
+  - Kibibi
+  - Kifimbo
+  - Kijakazi
+  - Kinaya
+  - Kioni
+  - Kipenzi
+  - Kisima
+  - Kito
+  - Lamia
+  - Latifa
+  - Latifah
+  - Latifu
+  - Layla
+  - Lela
+  - Lila
+  - Madaha
+  - Madiha
+  - Maisha
+  - Makena
+  - Makini
+  - Malaika
+  - Malia
+  - Malika
+  - Malkia
+  - Mariamu
+  - Marini
+  - Marjani
+  - Mashavu
+  - Masika
+  - Maskini
+  - Maulidi
+  - Merah
+  - Mila
+  - Mosi
+  - Muna
+  - Munira
+  - Murua
+  - Mwajuma
+  - Mwamini
+  - Mwasaa
+  - Nabila
+  - Nadra
+  - Nafula
+  - Naima
+  - Najia
+  - Najma
+  - Nana
+  - Ndege
+  - Neema
+  - Nena
+  - Ngina
+  - Nia
+  - Niara
+  - Njeri
+  - Nuha
+  - Nura
+  - Nuru
+  - Paka
+  - Panya
+  - Pasua
+  - Pili
+  - Rabia
+  - Radhi
+  - Rahma
+  - Ramla
+  - Raziya
+  - Reem
+  - Rehema
+  - Rim
+  - Rukiya
+  - Ruqayah
+  - Saada
+  - Sabiha
+  - Sabra
+  - Sadaka
+  - Sadiki
+  - Saida
+  - Sakina
+  - Sala
+  - Salama
+  - Salima
+  - Samiha
+  - Samira
+  - Sanaa
+  - Sanura
+  - Sauda
+  - Shahida
+  - Shamim
+  - Shani
+  - Sharifa
+  - Shawana
+  - Shukura
+  - Siham
+  - Sikudhani
+  - Siri
+  - Sisya
+  - Siti
+  - Subira
+  - Suhaila
+  - Tabia
+  - Tamasha
+  - Tatu
+  - Tawa
+  - Tuhfa
+  - Tumaini
+  - Wambui
+  - Waseme
+  - Yumna
+  - Pusra
+  - Zahra
+  - Zaida
+  - Zaina
+  - Zainabu
+  - Zakiya
+  - Zalika
+  - Zarifa
+  - Zarina
+  - Zawadi
+  - Zera
+  - Zulaykha
+  - Zulekha
+  - Zuwena
+maleLast:
+  - Abdullah (TRACK)
+  - Aga (TRACK)
+  - Ahmed (TRACK)
+  - Akina (TRACK)
+  - Ali (TRACK)
+  - Amanaka (TRACK)
+  - Ambani (TRACK)
+  - Amin (TRACK)
+  - Aneko (TRACK)
+  - Asoyo (TRACK)
+  - Atieno (TRACK)
+  - Audi (TRACK)
+  - Badat (TRACK)
+  - Barasa (TRACK)
+  - Bhudia (TRACK)
+  - Bilali (TRACK)
+  - Birir (TRACK)
+  - Biwott (TRACK)
+  - Boit (TRACK)
+  - Chege (TRACK)
+  - Chelimo (TRACK)
+  - Chepchumba (TRACK)
+  - Chudasama (TRACK)
+  - Daar (TRACK)
+  - Echesa (TRACK)
+  - Ekhalie (TRACK)
+  - Ereng (TRACK)
+  - Gikonyo (TRACK)
+  - Inkera (TRACK)
+  - Irungu (TRACK)
+  - Itote (TRACK)
+  - Jakoyo (TRACK)
+  - Janmohamed (TRACK)
+  - Jesani (TRACK)
+  - Kagwe (TRACK)
+  - Kamande (TRACK)
+  - Kamaru (TRACK)
+  - Kamau (TRACK)
+  - Kamotho (TRACK)
+  - Karanja (TRACK)
+  - Karim (TRACK)
+  - Kariuki (TRACK)
+  - Karumba (TRACK)
+  - Kayange (TRACK)
+  - Keino (TRACK)
+  - Kenga (TRACK)
+  - Kenyatta (TRACK)
+  - Kiano (TRACK)
+  - Kibaki (TRACK)
+  - Kijana (TRACK)
+  - Kimathi (TRACK)
+  - Kimunya (TRACK)
+  - Kipketer (TRACK)
+  - Kipyego (TRACK)
+  - Kitur (TRACK)
+  - Koinange (TRACK)
+  - Konde (TRACK)
+  - Lagat (TRACK)
+  - Loroupe (TRACK)
+  - Luseno (TRACK)
+  - Luvutsi (TRACK)
+  - Macharia (TRACK)
+  - Machogu (TRACK)
+  - Magugu (TRACK)
+  - Makacha (TRACK)
+  - Maruti (TRACK)
+  - Masai (TRACK)
+  - Mathenge (TRACK)
+  - Matiba (TRACK)
+  - Mazrui (TRACK)
+  - Mboya (TRACK)
+  - Mdawida (TRACK)
+  - Mehta (TRACK)
+  - Michucki (TRACK)
+  - Migai (TRACK)
+  - Misiani (TRACK)
+  - Modi (TRACK)
+  - Moi (TRACK)
+  - Muchoki (TRACK)
+  - Mudavadi (TRACK)
+  - Muiruri (TRACK)
+  - Mulama (TRACK)
+  - Muliro (TRACK)
+  - Mumba (TRACK)
+  - Murumbi (TRACK)
+  - Murunga (TRACK)
+  - Murungaru (TRACK)
+  - Musyoka (TRACK)
+  - Muttendango (TRACK)
+  - Mwangi (TRACK)
+  - Mwariama (TRACK)
+  - Mwatha (TRACK)
+  - Ndege (TRACK)
+  - Ndereba (TRACK)
+  - Ngei (TRACK)
+  - Ngoche (TRACK)
+  - Ngugi (TRACK)
+  - Njenga (TRACK)
+  - Njonjo (TRACK)
+  - Njoroge (TRACK)
+  - Njue (TRACK)
+  - Ntalami (TRACK)
+  - Nyachae (TRACK)
+  - Nyandoro (TRACK)
+  - Obama (TRACK)
+  - Obanda (TRACK)
+  - Obuya (TRACK)
+  - Ochieng (TRACK)
+  - Odera (TRACK)
+  - Odhiambo (TRACK)
+  - Odinga (TRACK)
+  - Odumbe (TRACK)
+  - Oduol (TRACK)
+  - Oduor (TRACK)
+  - Ogola (TRACK)
+  - Ogot (TRACK)
+  - Okayo (TRACK)
+  - Okoth (TRACK)
+  - Okumu (TRACK)
+  - Oliech (TRACK)
+  - Olum (TRACK)
+  - Omondi (TRACK)
+  - Ongondo (TRACK)
+  - Onyango (TRACK)
+  - Orengo (TRACK)
+  - Origi (TRACK)
+  - Osiako (TRACK)
+  - Otieno (TRACK)
+  - Otunga (TRACK)
+  - Ouko (TRACK)
+  - Ouma (TRACK)
+  - Oyuga (TRACK)
+  - Patel (TRACK)
+  - Pinto (TRACK)
+  - Quaraishy (TRACK)
+  - Ramrakha (TRACK)
+  - Ring (TRACK)
+  - Rombo (TRACK)
+  - Rono (TRACK)
+  - Rubia (TRACK)
+  - Sadiq (TRACK)
+  - Sande (TRACK)
+  - Santos (TRACK)
+  - Serry (TRACK)
+  - Shah (TRACK)
+  - Shaheen (TRACK)
+  - Sharma (TRACK)
+  - Sheikh (TRACK)
+  - Sorongo (TRACK)
+  - Suji (TRACK)
+  - Tergat (TRACK)
+  - Thuku (TRACK)
+  - Tikolo (TRACK)
+  - Tiyoi (TRACK)
+  - Varaiya (TRACK)
+  - Waciuri (TRACK)
+  - Wainaina (TRACK)
+  - Wainana (TRACK)
+  - Wakiihuri (TRACK)
+  - Wambugu (TRACK)
+  - Wanga (TRACK)
+  - Wangila (TRACK)
+  - Wanja (TRACK)
+  - Wanjiru (TRACK)
+  - Wanyama (TRACK)
+  - Wanyoike (TRACK)
+  - Waruinge (TRACK)
+  - Wa Thiongo (TRACK)
+  - Wa Wamwere (TRACK)
+  - Wa Wanjau (TRACK)

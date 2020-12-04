@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Abel
+  - Adam
+  - Adrian
+  - Akos
+  - Albert
+  - Alex
+  - Andor
+  - Andras
+  - Antal
+  - Arnold
+  - Aron
+  - Arpad
+  - Attila
+  - Balazs
+  - Balint
+  - Barna
+  - Barnabas
+  - Bela
+  - Bence
+  - Bendeguz
+  - Benedek
+  - Benjamin
+  - Bertalan
+  - Botond
+  - Csaba
+  - Csongor
+  - Daniel
+  - David
+  - Denes
+  - Dezso
+  - Dominik
+  - Elemer
+  - Emil
+  - Endre
+  - Erik
+  - Erno
+  - Ervin
+  - Ferenc
+  - Gabor
+  - Gergely
+  - Gergo
+  - Geza
+  - Gusztav
+  - Gyorgy
+  - Gyozo
+  - Gyula
+  - Henrik
+  - Imre
+  - Istvan
+  - Ivan
+  - Janos
+  - Jeno
+  - Jozsef
+  - Kalman
+  - Karoly
+  - Kevin
+  - Kornel
+  - Kristof
+  - Krisztian
+  - Krisztofer
+  - Lajos
+  - Laszlo
+  - Levente
+  - Lorant
+  - Marcell
+  - Mark
+  - Martin
+  - Marton
+  - Mate
+  - Matyas
+  - Mihaly
+  - Miklos
+  - Milan
+  - Nandor
+  - Noel
+  - Norbert
+  - Oliver
+  - Otto
+  - Pal
+  - Patrik
+  - Peter
+  - Richard
+  - Robert
+  - Roland
+  - Rudolf
+  - Sandor
+  - Szabolcs
+  - Szilard
+  - Szilveszter
+  - Tamas
+  - Tibor
+  - Tivadar
+  - Viktor
+  - Vilmos
+  - Vince
+  - Zalan
+  - Zoltan
+  - Zsigmond
+  - Zsolt
+  - Zsombor
+femaleFirst:
+  - Adrienn
+  - Agi
+  - Agnes
+  - Agota
+  - Alberta
+  - Alexa
+  - Alexandra
+  - Aliz
+  - Anasztazia
+  - Andrea
+  - Anett
+  - Angyalka
+  - Aniko
+  - Anita
+  - Anna
+  - Annamaria
+  - Aranka
+  - Aurelia
+  - Barbara
+  - Beata
+  - Beatrix
+  - Bella
+  - Bernadett
+  - Berta
+  - Bettina
+  - Bianka
+  - Boglarka
+  - Bora
+  - Borbala
+  - Boriska
+  - Borka
+  - Brigitta
+  - Cili
+  - Csilla
+  - Dia
+  - Diana
+  - Dora
+  - Dorina
+  - Dorottya
+  - Edina
+  - Edit
+  - Emese
+  - Emma
+  - Eniko
+  - Erika
+  - Ernesztina
+  - Erzsebet
+  - Erzsi
+  - Eszter
+  - Etel
+  - Etelka
+  - Eva
+  - Evelin
+  - Fanni
+  - Franciska
+  - Gabriella
+  - Gitta
+  - Gizella
+  - Gyongyi
+  - Gyorgyi
+  - Hajna
+  - Hajnalka
+  - Hanna
+  - Henrietta
+  - Ibolya
+  - Ica
+  - Ildiko
+  - Ilka
+  - Ilona
+  - Iren
+  - Irenke
+  - Irma
+  - Janka
+  - Jolan
+  - Judit
+  - Julia
+  - Julianna
+  - Juliska
+  - Karola
+  - Karolina
+  - Katalin
+  - Katarina
+  - Kati
+  - Katinka
+  - Kinga
+  - Kitti
+  - Klara
+  - Klaudia
+  - Kriszta
+  - Krisztina
+  - Laura
+  - Lili
+  - Lilla
+  - Linka
+  - Liza
+  - Magdolna
+  - Mara
+  - Margit
+  - Margo
+  - Maria
+  - Mariann
+  - Marianna
+  - Marika
+  - Marta
+  - Melinda
+  - Monika
+  - Nikolett
+  - Nikoletta
+  - Noemi
+  - Nora
+  - Olga
+  - Orsolya
+  - Petra
+  - Piroska
+  - Reka
+  - Renata
+  - Rita
+  - Roza
+  - Rozalia
+  - Rozsa
+  - Sara
+  - Sarolta
+  - Szabina
+  - Szilvia
+  - Terez
+  - Terezia
+  - Timea
+  - Tunde
+  - Valeria
+  - Veronika
+  - Viktoria
+  - Virag
+  - Vivien
+  - Zita
+  - ZsaZsa
+  - Zsanett
+  - Zsofia
+  - Zsuzska
+  - Zsuzsanna
+  - Zsuzsi
+maleLast:
+  - Alfoldi (HEAVY)
+  - Andrassy (HEAVY)
+  - Annus (HEAVY)
+  - Antal (HEAVY)
+  - Arany (HEAVY)
+  - Bakos (HEAVY)
+  - Balassa (HEAVY)
+  - Balazs (HEAVY)
+  - Balint (HEAVY)
+  - Balla (HEAVY)
+  - Balog (HEAVY)
+  - Balogh (HEAVY)
+  - Barati (HEAVY)
+  - Barna (HEAVY)
+  - Barsony (HEAVY)
+  - Barta (HEAVY)
+  - Bartok (HEAVY)
+  - Bathory (HEAVY)
+  - Berzevicky (HEAVY)
+  - Biro (HEAVY)
+  - Bocskay (HEAVY)
+  - Bodnar (HEAVY)
+  - Bogdan (HEAVY)
+  - Bognar (HEAVY)
+  - Borbely (HEAVY)
+  - Bori (HEAVY)
+  - Boros (HEAVY)
+  - Budai (HEAVY)
+  - Csillag (HEAVY)
+  - Csollany (HEAVY)
+  - Csonka (HEAVY)
+  - Csurgo (HEAVY)
+  - Czako (HEAVY)
+  - Czene (HEAVY)
+  - Czobor (HEAVY)
+  - Dardai (HEAVY)
+  - Daroczy (HEAVY)
+  - Deak (HEAVY)
+  - Dobos (HEAVY)
+  - Doczi (HEAVY)
+  - Dombi (HEAVY)
+  - Dozsa (HEAVY)
+  - Dudas (HEAVY)
+  - Egerszegi (HEAVY)
+  - Eotvos (HEAVY)
+  - Fabian (HEAVY)
+  - Farago (HEAVY)
+  - Farkas (HEAVY)
+  - Fazekas (HEAVY)
+  - Feher (HEAVY)
+  - Fekete (HEAVY)
+  - Ferenczy (HEAVY)
+  - Fodor (HEAVY)
+  - Forgach (HEAVY)
+  - Forgacs (HEAVY)
+  - Fulop (HEAVY)
+  - Gal (HEAVY)
+  - Gaspar (HEAVY)
+  - Gazdag (HEAVY)
+  - Gero (HEAVY)
+  - Guba (HEAVY)
+  - Gulyas (HEAVY)
+  - Gyorffy (HEAVY)
+  - Gyulai (HEAVY)
+  - Hajdu (HEAVY)
+  - Halasz (HEAVY)
+  - Halmai (HEAVY)
+  - Hamori (HEAVY)
+  - Hankiss (HEAVY)
+  - Hedervary (HEAVY)
+  - Hegedus (HEAVY)
+  - Hollo (HEAVY)
+  - Horanszky (HEAVY)
+  - Horthy (HEAVY)
+  - Horvath (HEAVY)
+  - Hrutka (HEAVY)
+  - Hunyadi (HEAVY)
+  - Illes (HEAVY)
+  - Illeshazy (HEAVY)
+  - Ilyes (HEAVY)
+  - Istvanffy (HEAVY)
+  - Jagadics (HEAVY)
+  - Jakab (HEAVY)
+  - Jaszi (HEAVY)
+  - Jokai (HEAVY)
+  - Jonas (HEAVY)
+  - Joo (HEAVY)
+  - Juhasz (HEAVY)
+  - Kalanyos (HEAVY)
+  - Kaldi (HEAVY)
+  - Kallay (HEAVY)
+  - Kammerer (HEAVY)
+  - Karolyi (HEAVY)
+  - Katona (HEAVY)
+  - Kazinczy (HEAVY)
+  - Kelemen (HEAVY)
+  - Kemeny (HEAVY)
+  - Kerekes (HEAVY)
+  - Kertes (HEAVY)
+  - Kiraly (HEAVY)
+  - Kis (HEAVY)
+  - Kiss (HEAVY)
+  - Knesevich (HEAVY)
+  - Koban (HEAVY)
+  - Kocsis (HEAVY)
+  - Kodaly (HEAVY)
+  - Koranyi (HEAVY)
+  - Kortosi (HEAVY)
+  - Kossuth (HEAVY)
+  - Kovacs (HEAVY)
+  - Kovago (HEAVY)
+  - Kozma (HEAVY)
+  - Kulcsar (HEAVY)
+  - Kun (HEAVY)
+  - Kurti (HEAVY)
+  - Kurtosi (HEAVY)
+  - Kurutz (HEAVY)
+  - Kuti (HEAVY)
+  - Kutsera (HEAVY)
+  - Lajtos (HEAVY)
+  - Lakatos (HEAVY)
+  - Laszlo (HEAVY)
+  - Lehotka (HEAVY)
+  - Lengyel (HEAVY)
+  - Ligeti (HEAVY)
+  - Liptak (HEAVY)
+  - Lisztes (HEAVY)
+  - Lugosi (HEAVY)
+  - Lukacs (HEAVY)
+  - Madar (HEAVY)
+  - Magyar (HEAVY)
+  - Major (HEAVY)
+  - Malek (HEAVY)
+  - Mandula (HEAVY)
+  - Markovits (HEAVY)
+  - Mate (HEAVY)
+  - Matyus (HEAVY)
+  - Mecs (HEAVY)
+  - Meszaros (HEAVY)
+  - Mindszenty (HEAVY)
+  - Molnar (HEAVY)
+  - Munkacsy (HEAVY)
+  - Nadasdy (HEAVY)
+  - Nagy (HEAVY)
+  - Nemes (HEAVY)
+  - Nemeth (HEAVY)
+  - Noszaly (HEAVY)
+  - Novak (HEAVY)
+  - Nyilas (HEAVY)
+  - Nyilasi (HEAVY)
+  - Olah (HEAVY)
+  - Onodi (HEAVY)
+  - Orban (HEAVY)
+  - Orczy (HEAVY)
+  - Orosz (HEAVY)
+  - Orsos (HEAVY)
+  - Pal (HEAVY)
+  - Palagyi (HEAVY)
+  - Pandy (HEAVY)
+  - Pap (HEAVY)
+  - Papp (HEAVY)
+  - Partos (HEAVY)
+  - Pasztor (HEAVY)
+  - Pataki (HEAVY)
+  - Pazmany (HEAVY)
+  - Pecely (HEAVY)
+  - Perneky (HEAVY)
+  - Peter (HEAVY)
+  - Petofi (HEAVY)
+  - Pinter (HEAVY)
+  - Pongratz (HEAVY)
+  - Pulszky (HEAVY)
+  - Racz (HEAVY)
+  - Rakosi (HEAVY)
+  - Redik (HEAVY)
+  - Revay (HEAVY)
+  - Rezessy (HEAVY)
+  - Ronay (HEAVY)
+  - Rosner (HEAVY)
+  - Rosza (HEAVY)
+  - Rubik (HEAVY)
+  - Safar (HEAVY)
+  - Sandor (HEAVY)
+  - Sebok (HEAVY)
+  - Sereny (HEAVY)
+  - Simon (HEAVY)
+  - Sipos (HEAVY)
+  - Soltesz (HEAVY)
+  - Solti (HEAVY)
+  - Solymosi (HEAVY)
+  - Somogyi (HEAVY)
+  - Soos (HEAVY)
+  - Supola (HEAVY)
+  - Suto (HEAVY)
+  - Svarcz (HEAVY)
+  - Szabo (HEAVY)
+  - Szalai (HEAVY)
+  - Szalay (HEAVY)
+  - Szatmary (HEAVY)
+  - Szechenyi (HEAVY)
+  - Szekely (HEAVY)
+  - Szekeres (HEAVY)
+  - Szelepcsenyi (HEAVY)
+  - Szeman (HEAVY)
+  - Szemere (HEAVY)
+  - Szilagyi (HEAVY)
+  - Szoke (HEAVY)
+  - Szucs (HEAVY)
+  - Szuhay (HEAVY)
+  - Tabory (HEAVY)
+  - Takacs (HEAVY)
+  - Tamas (HEAVY)
+  - Teleki (HEAVY)
+  - Temesvari (HEAVY)
+  - Tessedik (HEAVY)
+  - Thurzo (HEAVY)
+  - Tisza (HEAVY)
+  - Tokes (HEAVY)
+  - Tokody (HEAVY)
+  - Tolgyesi (HEAVY)
+  - Torok (HEAVY)
+  - Toth (HEAVY)
+  - Ujlaky (HEAVY)
+  - Urbanik (HEAVY)
+  - Vajda (HEAVY)
+  - Vamosi (HEAVY)
+  - Varadi (HEAVY)
+  - Varga (HEAVY)
+  - Varkonyi (HEAVY)
+  - Vass (HEAVY)
+  - Vegh (HEAVY)
+  - Verboczy (HEAVY)
+  - Veres (HEAVY)
+  - Vidrai (HEAVY)
+  - Vincze (HEAVY)
+  - Virag (HEAVY)
+  - Voros (HEAVY)
+  - Wessely (HEAVY)
+  - Zatony (HEAVY)
+  - Zavadszky (HEAVY)
+  - Zrinyi (HEAVY)
+  - Zsivozky (HEAVY)
+  - Zsoldos (HEAVY)

@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - Abderus
+  - Absyrtus
+  - Abydos
+  - Acastus
+  - Achates
+  - Achelous
+  - Acheron
+  - Achilles
+  - Achlys
+  - Acrisius
+  - Actaeon
+  - Acteon
+  - Adelphos
+  - Admes
+  - Admetus
+  - Adonis
+  - Adras
+  - Adrastos
+  - Adrastus
+  - Adrian
+  - Aeacus
+  - Aeetes
+  - Aegeus
+  - Aegis
+  - Aegisthus
+  - Aegyptus
+  - Aeneas
+  - Aeolus
+  - Aesculapius
+  - Aeson
+  - Aetos
+  - Agamedes
+  - Agape
+  - Agatone
+  - Aindreas
+  - Aindriu
+  - Ajax
+  - Akil
+  - Alasd
+  - Alcander
+  - Alcinoos
+  - Alcinous
+  - Alcnaeon
+  - Alcyoneus
+  - Alddes
+  - Alessandro
+  - Alex
+  - Alexander
+  - Alexandras
+  - Alexandros
+  - Alexandrukas
+  - Alexei
+  - Alexio
+  - Alix
+  - Aloeus
+  - Alpheus
+  - Altair
+  - Amaoebus
+  - Ambrocio
+  - Ambrose
+  - Ambrus
+  - Amphiaraus
+  - Amphion
+  - Amphitryon
+  - Ampyx
+  - Amycus
+  - Anastagio
+  - Anastasio
+  - Anastasios
+  - Anastasius
+  - Anasztaz
+  - Anatol
+  - Anatole
+  - Anatoli
+  - Anatolijus
+  - Anatolio
+  - Ancaeus
+  - Anchises
+  - Andor
+  - Andreas
+  - Andres
+  - Andreus
+  - Andrew
+  - Andries
+  - Androgeus
+  - Androu
+  - Anstice
+  - Anstiss
+  - Antaeus
+  - Antares
+  - Anteros
+  - Antilochus
+  - Antinous
+  - Antiphates
+  - Anton
+  - Antony
+  - Aonghas
+  - Apollo
+  - Apoloniusz
+  - Apostolos
+  - Arcadicus
+  - Arcas
+  - Arcenio
+  - Archemorus
+  - Ares
+  - Argo
+  - Argos
+  - Argus
+  - Arion
+  - Aristaeus
+  - Aristo
+  - Arsen
+  - Arsenio
+  - Artemas
+  - Artemesio
+  - Artemus
+  - Ascalaphus
+  - Asklepios
+  - Asopus
+  - Athamas
+  - Athan
+  - Athanasios
+  - Athanasius
+  - Atlas
+  - Atreus
+  - Attis
+  - Autolycus
+  - Avernus
+  - Baccaus
+  - Baccus
+  - Balasi
+  - Baltsaros
+  - Baptiste
+  - Basil
+  - Basile
+  - Basilio
+  - Baste
+  - Bastiaan
+  - Bastien
+  - Baucis
+  - Bazyli
+  - Bemus
+  - Biton
+  - Boreas
+  - Brasidas
+  - Briareus
+  - Brygus
+  - Butades
+  - Cadmus
+  - Caesare
+  - Calchas
+  - Calisto
+  - Capaneus
+  - Caseareo
+  - Castor
+  - Cecrops
+  - Celeus
+  - Cenon
+  - Cephalus
+  - Cepheus
+  - Cesare
+  - Cetus
+  - Ceyx
+  - Chris
+  - Christan
+  - Christiano
+  - Christoph
+  - Christopher
+  - Christophoros
+  - Christos
+  - Chruse
+  - Chrysostom
+  - Cimon
+  - Cirio
+  - Ciro
+  - Claas
+  - Claus
+  - Cleobis
+  - Cleon
+  - Cletus
+  - Cleytus
+  - Clio
+  - Cocytus
+  - Coeus
+  - Coireall
+  - Cole
+  - Colin
+  - Colum
+  - Corban
+  - Coridan
+  - Corybantes
+  - Corydon
+  - Cos
+  - Cosmas
+  - Cosmo
+  - Cottus
+  - Creon
+  - Cretien
+  - Cristoforo
+  - Cristophe
+  - Cronus
+  - Ctesippus
+  - Cyrano
+  - Cyrek
+  - Cyril
+  - Cyrus
+  - Cyryl
+  - Damae
+  - Damalis
+  - Damaris
+  - Damaskenos
+  - Damaskinos
+  - Damen
+  - Dameon
+  - Damian
+  - Damion
+  - Damon
+  - Danaus
+  - Dardanus
+  - Darian
+  - Darien
+  - Darion
+  - Darrian
+  - Darrien
+  - Darrion
+  - Daymon
+  - Deke
+  - Dekel
+  - Dekle
+  - Delbin
+  - Demetre
+  - Demetri
+  - Demetrios
+  - Demetrius
+  - Demitri
+  - Demitrius
+  - Demodocus
+  - Demophon
+  - Demoritus
+  - Denes
+  - Dennis
+  - Deo
+  - Deucalion
+  - Doran
+  - Dorian
+  - Dorion
+  - Drakon
+  - Drew
+  - Dymas
+  - Eachann
+  - Efterpi
+  - Egidio
+  - Eleftherios
+  - Elek
+  - Eleutherios
+  - Eli
+  - Enceladus
+  - Endre
+  - Endymion
+  - Eneas
+  - Eoghan
+  - Epeius
+  - Erasmus
+  - Erebus
+  - Erechtheus
+  - Erichthonius
+  - Erymanthus
+  - Erysichthon
+  - Eryx
+  - Estevao
+  - Eteocles
+  - Etor
+  - Eubuleus
+  - Eugen
+  - Eugene
+  - Eugenio
+  - Eugenios
+  - Eumaeus
+  - Eupeithes
+  - Euphrosyne
+  - Eurus
+  - Euryalus
+  - Eurylochus
+  - Eurymachus
+  - Eurypylus
+  - Eurystheus
+  - Euryton
+  - Eusebius
+  - Eustace
+  - Eustachy
+  - Eustis
+  - Evan
+  - Evzen
+  - Fedor
+  - Feodor
+  - Feodras
+  - Filippo
+  - Filips
+  - Flip
+  - Fulop
+  - Gaelan
+  - Galan
+  - Galen
+  - Galinthias
+  - Galyn
+  - Gelasius
+  - Georg
+  - George
+  - Georges
+  - Giles
+  - Glaucus
+  - Goran
+  - Graeae
+  - Gregoire
+  - Gregoly
+  - Gregor
+  - Gregorie
+  - Gregorior
+  - Gregory
+  - Gregos
+  - Grigor
+  - Grigorov
+  - Gruev
+  - Guilio
+  - Gyes
+  - Gyoergy
+  - Gyorgy
+  - Gyuri
+  - Haemon
+  - Hali
+  - Halithersis
+  - Hector
+  - Helios
+  - Herodotus
+  - Homar
+  - Homer
+  - Homeros
+  - Homerus
+  - Hypnos
+  - Ibycus
+  - Icarius
+  - Icarus
+  - Icelos
+  - Icos
+  - Idas
+  - Igorr
+  - Inachus
+  - Iorgas
+  - Iphitus
+  - Istvan
+  - Ivan
+  - Ivankor
+  - Ixion
+  - Jaison
+  - Jase
+  - Jasen
+  - Jason
+  - Jayce
+  - Jayr
+  - Jaysen
+  - Jayson
+  - Jencir
+  - Jeno
+  - Jeroenr
+  - Jerome
+  - Jerzyr
+  - Jirkar
+  - Jorenr
+  - Julius
+  - Jurgisr
+  - Kadmus
+  - Kairos
+  - Khristos
+  - Khrystiyanr
+  - Kit
+  - Klaasr
+  - Klaus
+  - Korudon
+  - Kosmosr
+  - Kratos
+  - Krikor
+  - Krischnan
+  - Kristian
+  - Kristofr
+  - Krystupasr
+  - Krzysztofr
+  - Kuirilr
+  - Kyrillos
+  - Kyrillosr
+  - Kyros
+  - Ladon
+  - Laertes
+  - Laestrygones
+  - Laius
+  - Lander
+  - Laocoon
+  - Laomedon
+  - Leander
+  - Leandro
+  - Leonidas
+  - Lichas
+  - Linus
+  - Lippio
+  - Lotus
+  - Loxias
+  - Luke
+  - Lycaon
+  - Lycomedes
+  - Lycurgus
+  - Lynceus
+  - Lysander
+  - Marcario
+  - Maurice
+  - Medus
+  - Melampus
+  - Melancton
+  - Melanthius
+  - Menelaus
+  - Menoeceus
+  - Mentor
+  - Midas
+  - Mikolas
+  - Miles
+  - Milo
+  - Minos
+  - Momus
+  - Mopsus
+  - Moses
+  - Myles
+  - Myron
+  - Narkis
+  - Nauplius
+  - Neleus
+  - Nemo
+  - Nemos
+  - Neo
+  - Nicholas
+  - Nicholaus
+  - Nicias
+  - Nick
+  - Nicodemus
+  - Nicolas
+  - Nicolaus
+  - Nik
+  - Nike
+  - Niklaus
+  - Nikodem
+  - Nikolai
+  - Nikolajis
+  - Nikolos
+  - Niles
+  - Nilo
+  - Nilos
+  - Nisus
+  - Notus
+  - Obiareus
+  - Oighrig
+  - Oles
+  - Orrin
+  - Orthros
+  - Otis
+  - Pan
+  - Panagiotis
+  - Pancratius
+  - Panos
+  - Panteleimon
+  - Papandrou
+  - Paris
+  - Patroclus
+  - Patroklos
+  - Pavlos
+  - Peadair
+  - Peder
+  - Pegeen
+  - Peleus
+  - Pelias
+  - Pello
+  - Pelops
+  - Pero
+  - Perrin
+  - Peterke
+  - Petrelis
+  - Petros
+  - Petter
+  - Phantasos
+  - Phaon
+  - Philemon
+  - Philip
+  - Philipp
+  - Philippe
+  - Phillip
+  - Philo
+  - Phineas
+  - Phineus
+  - Phrixus
+  - Phylo
+  - Piero
+  - Pierro
+  - Pieter
+  - Pietr
+  - Pietro
+  - Pilib
+  - Piotr
+  - Pippo
+  - Pirithous
+  - Pirro
+  - Pittheus
+  - Plato
+  - Platon
+  - Plexippus
+  - Plutus
+  - Pollux
+  - Poseidon
+  - Preben
+  - Priam
+  - Priapus
+  - Procrustes
+  - Prokopios
+  - Prometheus
+  - Prophyrios
+  - Protesilaus
+  - Ptolemy
+  - Pyramus
+  - Rasmus
+  - Rhodes
+  - Risto
+  - Sabastian
+  - Salmoneus
+  - Scopas
+  - Sebasten
+  - Sebastian
+  - Sebastiano
+  - Simon
+  - Sinon
+  - Socrates
+  - Sofronio
+  - Soterios
+  - Spyridon
+  - Stamitos
+  - Stavros
+  - Steafan
+  - Stefan
+  - Stefano
+  - Stefanos
+  - Stefford
+  - Stefon
+  - Stephano
+  - Stephanos
+  - Stephen
+  - Stephon
+  - Steven
+  - Steverino
+  - Takis
+  - Talos
+  - Talus
+  - Tantalus
+  - Tarasios
+  - Teague
+  - Telamon
+  - Telegonus
+  - Telemachus
+  - Telephus
+  - Tellus
+  - Teodors
+  - Teofile
+  - Teuthras
+  - Thad
+  - Thaddeus
+  - Thaddius
+  - Thadeus
+  - Thais
+  - Thanatos
+  - Thanos
+  - Thaumas
+  - Theo
+  - Theociymenus
+  - Theodon
+  - Theodore
+  - Theodosios
+  - Theodrekr
+  - Theodric
+  - Theon
+  - Theophile
+  - Theophilus
+  - Theron
+  - Therron
+  - Thersites
+  - Theseus
+  - Thomas
+  - Thyestes
+  - Tiege
+  - Tim
+  - Timeus
+  - Timmy
+  - Timocrates
+  - Timoleon
+  - Timon
+  - Timotheos
+  - Timothy
+  - Timun
+  - Tiomoid
+  - Tito
+  - Titos
+  - Titus
+  - Tityus
+  - Tivadar
+  - Todor
+  - Toxeus
+  - Triton
+  - Trophonius
+  - Turannos
+  - Tydeus
+  - Tylissus
+  - Tymek
+  - Tymon
+  - Tyndareus
+  - Typhoeus
+  - Typhon
+  - Tyrone
+  - Ulysses
+  - Urian
+  - Vasileios
+  - Vasilios
+  - Vasilis
+  - Vasos
+  - VasyItso
+  - Vasyklo
+  - Vasyl
+  - Xanthus
+  - Xeno
+  - Xenophon
+  - Xenos
+  - Xerxes
+  - Xuthus
+  - Xylon
+  - Yanni
+  - Yehor
+  - Yuri
+  - Zale
+  - Zarek
+  - Zelotes
+  - Zeno
+  - Zenobio
+  - Zenon
+  - Zenos
+  - Zephyr
+  - Zero
+  - Zerro
+  - Zetes
+  - Zoltan
+  - Zoltar
+  - Zorba
+  - Zotico
+femaleFirst:
+  - Acacia
+  - Acantha
+  - Aegea
+  - Aeola
+  - Agalia
+  - Alala
+  - Aldora
+  - Aleni
+  - Anatolia
+  - Andrianna
+  - Anemone
+  - Angeline
+  - Aphrodite
+  - Athena
+  - Athenagora
+  - Calantha
+  - Calida
+  - Cassia
+  - Cyra
+  - Damia
+  - Daphne
+  - Deianira
+  - Delia
+  - Dido
+  - Dimitra
+  - Echo
+  - Elma
+  - Elpida
+  - Emalia
+  - Erianthe
+  - Euphemia
+  - Euphenia
+  - Evadne
+  - Evanthe
+  - Fotini
+  - Galatea
+  - Georgia
+  - Halcyone
+  - Helena
+  - Helia
+  - Hera
+  - Hermione
+  - Isadora
+  - Jocasta
+  - Kalidas
+  - Kaligenia
+  - Kalligenia
+  - Kallirrhoe
+  - Kalonice
+  - Kyriakoula
+  - Lalage
+  - Leandra
+  - Leda
+  - Lycoris
+  - Lyris
+  - Marina
+  - Medora
+  - Melantha
+  - Melina
+  - Melissa
+  - Mona
+  - Neola
+  - Neona
+  - Nerissa
+  - Niobe
+  - Olga
+  - Orthia
+  - Pandora
+  - Pangiota
+  - Pelagia
+  - Penelope
+  - Persephone
+  - Philantha
+  - Philomela
+  - Philomena
+  - Philothea
+  - Phoebe
+  - Rhea
+  - Saphhira
+  - Sofronia
+  - Stamata
+  - Stella
+  - Tassia
+  - Tassula
+  - Tessa
+  - Thaddea
+  - Thalassa
+  - Tharsia
+  - Theodosia
+  - Theophilia
+  - Thetis
+  - Timothea
+  - Toula
+  - Xantippe
+  - Yana
+  - Zenaida
+  - Zenobia
+  - Zephyra
+  - Zoe
+maleLast:
+  - Alexopoulos (BRAW)
+  - Anagyros (BRAW)
+  - Anastassios (BRAW)
+  - Andreadis (BRAW)
+  - Andreos (BRAW)
+  - Andriopoulos (BRAW)
+  - Andronikos (BRAW)
+  - Andros (BRAW)
+  - Androuchelli (BRAW)
+  - Androupolos (BRAW)
+  - Androutsos (BRAW)
+  - Angelis (BRAW)
+  - Angelomatis (BRAW)
+  - Angelos (BRAW)
+  - Anistonopoulos (BRAW)
+  - Anninos (BRAW)
+  - Antikatzides (BRAW)
+  - Antonatos (BRAW)
+  - Antonious (BRAW)
+  - Argyra (BRAW)
+  - Athanasiadis (BRAW)
+  - Athanassiadi (BRAW)
+  - Averoff (BRAW)
+  - Axelos (BRAW)
+  - Bakirdzis (BRAW)
+  - Bakogianni (BRAW)
+  - Balanos (BRAW)
+  - Bazignos (BRAW)
+  - Bessarion (BRAW)
+  - Bizos (BRAW)
+  - Borbokis (BRAW)
+  - Botsaris (BRAW)
+  - Boudouris (BRAW)
+  - Bourgani (BRAW)
+  - Capodistria (BRAW)
+  - Carides (BRAW)
+  - Castriota (BRAW)
+  - Catalactus (BRAW)
+  - Chacoliades (BRAW)
+  - Chakiris (BRAW)
+  - Christodoulos (BRAW)
+  - Clerides (BRAW)
+  - Constandouros (BRAW)
+  - Constantinis (BRAW)
+  - Cosmatos (BRAW)
+  - Costanduros (BRAW)
+  - Costi (BRAW)
+  - Cotsadis (BRAW)
+  - Couloumbis (BRAW)
+  - Coulouris (BRAW)
+  - Deligiannis (BRAW)
+  - Deligiorgis (BRAW)
+  - Delivorias (BRAW)
+  - Dellas (BRAW)
+  - Demertzis (BRAW)
+  - Demosthenous (BRAW)
+  - Dimas (BRAW)
+  - Dimitrakos (BRAW)
+  - Dimitriades (BRAW)
+  - Dimitris (BRAW)
+  - Dimotsios (BRAW)
+  - Diomedes (BRAW)
+  - Dontas (BRAW)
+  - Doxiadis (BRAW)
+  - Dukakis (BRAW)
+  - Duvis (BRAW)
+  - Economakis (BRAW)
+  - Economos (BRAW)
+  - Eliades (BRAW)
+  - Elipandas (BRAW)
+  - Ellinas (BRAW)
+  - Farakos (BRAW)
+  - Fettas (BRAW)
+  - Florakis (BRAW)
+  - Galonopoulas (BRAW)
+  - Gatsioudis (BRAW)
+  - Gatzioudis (BRAW)
+  - Gavrielides (BRAW)
+  - Gennadios (BRAW)
+  - Genovelis (BRAW)
+  - Georghios (BRAW)
+  - Giorgiou (BRAW)
+  - Gislenus (BRAW)
+  - Gizikis (BRAW)
+  - Glezos (BRAW)
+  - Gogos (BRAW)
+  - Gonatas (BRAW)
+  - Goulandris (BRAW)
+  - Gounaris (BRAW)
+  - Gousetti (BRAW)
+  - Grivas (BRAW)
+  - Hagiorgis (BRAW)
+  - Hajiyanni (BRAW)
+  - Halara (BRAW)
+  - Harteros (BRAW)
+  - Iakovakis (BRAW)
+  - Iakovos (BRAW)
+  - Iatrides (BRAW)
+  - Ioannidis (BRAW)
+  - Ioannos (BRAW)
+  - Issigonis (BRAW)
+  - Joakimides (BRAW)
+  - Kairis (BRAW)
+  - Kaklamanakis (BRAW)
+  - Kakoulli (BRAW)
+  - Kalergi (BRAW)
+  - Kallabis (BRAW)
+  - Kalvos (BRAW)
+  - Kanaris (BRAW)
+  - Kanellopoulos (BRAW)
+  - Kaphandaris (BRAW)
+  - Karahi (BRAW)
+  - Karaiskakis (BRAW)
+  - Karamanlis (BRAW)
+  - Karatossos (BRAW)
+  - Karoki (BRAW)
+  - Karyoti (BRAW)
+  - Kasomoulis (BRAW)
+  - Katsantonis (BRAW)
+  - Katsaris (BRAW)
+  - Kenteris (BRAW)
+  - Khadjikyriakos (BRAW)
+  - Klaras (BRAW)
+  - Kochalakos (BRAW)
+  - Koffa (BRAW)
+  - Kokkinos (BRAW)
+  - Kokotis (BRAW)
+  - Kolettis (BRAW)
+  - Kollias (BRAW)
+  - Kolokotronis (BRAW)
+  - Kondylis (BRAW)
+  - Kontoghiorghes (BRAW)
+  - Korais (BRAW)
+  - Korkizoglu (BRAW)
+  - Korres (BRAW)
+  - Koryzis (BRAW)
+  - Koskotas (BRAW)
+  - Kostanopoulos (BRAW)
+  - Kostopulos (BRAW)
+  - Kotaridos (BRAW)
+  - Koukodimos (BRAW)
+  - Koukoudimos (BRAW)
+  - Koumoundouros (BRAW)
+  - Koundouriotis (BRAW)
+  - Kourniakis (BRAW)
+  - Kousoulas (BRAW)
+  - Kozani (BRAW)
+  - Kritopoulos (BRAW)
+  - Kyprianos (BRAW)
+  - Kyriacos (BRAW)
+  - Kyriakos (BRAW)
+  - Kyriazis (BRAW)
+  - Lambrakis (BRAW)
+  - Lambrianos (BRAW)
+  - Lambrinos (BRAW)
+  - Lathouris (BRAW)
+  - Lazardis (BRAW)
+  - Leonidis (BRAW)
+  - Lianis (BRAW)
+  - Logotheti (BRAW)
+  - Louca (BRAW)
+  - Louganis (BRAW)
+  - Louvaris (BRAW)
+  - Lyssarides (BRAW)
+  - Maganas (BRAW)
+  - Magos (BRAW)
+  - Maharis (BRAW)
+  - Makarezos (BRAW)
+  - Makrigiannis (BRAW)
+  - Malachias (BRAW)
+  - Maliagros (BRAW)
+  - Mangakis (BRAW)
+  - Marcoullides (BRAW)
+  - Mardas (BRAW)
+  - Marinatos (BRAW)
+  - Markezinis (BRAW)
+  - Markoulides (BRAW)
+  - Markoullides (BRAW)
+  - Marsolais (BRAW)
+  - Martis (BRAW)
+  - Matacena (BRAW)
+  - Mavridos (BRAW)
+  - Mavrogordatos (BRAW)
+  - Mavrokordatos (BRAW)
+  - Mavromikhalis (BRAW)
+  - Mavros (BRAW)
+  - Mavroudis (BRAW)
+  - Maximos (BRAW)
+  - Melas (BRAW)
+  - Meletoglos (BRAW)
+  - Melikis (BRAW)
+  - Melissanides (BRAW)
+  - Mercouri (BRAW)
+  - Merukides (BRAW)
+  - Messimeris (BRAW)
+  - Metaxas (BRAW)
+  - Michaelis (BRAW)
+  - Mikalis (BRAW)
+  - Mikhalakopoulos (BRAW)
+  - Militis (BRAW)
+  - Mitros (BRAW)
+  - Mitsotakis (BRAW)
+  - Monomachus (BRAW)
+  - Moscopolis (BRAW)
+  - Moumoulidis (BRAW)
+  - Muscouri (BRAW)
+  - Mylonas (BRAW)
+  - Nafpliotis (BRAW)
+  - Negris (BRAW)
+  - Niarkhos (BRAW)
+  - Nikolaides (BRAW)
+  - Onassis (BRAW)
+  - Orphanides (BRAW)
+  - Oxinos (BRAW)
+  - Palamas (BRAW)
+  - Pallis (BRAW)
+  - Panagiatopoulos (BRAW)
+  - Panagiopoulos (BRAW)
+  - Panagiotopos (BRAW)
+  - Panagou (BRAW)
+  - Panagoulias (BRAW)
+  - Panagoulis (BRAW)
+  - Panaotis (BRAW)
+  - Panavoglos (BRAW)
+  - Panayi (BRAW)
+  - Panayides (BRAW)
+  - Panayiotopoulos (BRAW)
+  - Panayiotos (BRAW)
+  - Pangalos (BRAW)
+  - Papadakis (BRAW)
+  - Papademetrios (BRAW)
+  - Papadias (BRAW)
+  - Papadopolos (BRAW)
+  - Papadopoulos (BRAW)
+  - Papadoupolos (BRAW)
+  - Papafagos (BRAW)
+  - Papageorgios (BRAW)
+  - Papagos (BRAW)
+  - Papakostas (BRAW)
+  - Papamichael (BRAW)
+  - Papanastasiou (BRAW)
+  - Papandreou (BRAW)
+  - Papasotiriou (BRAW)
+  - Papatamelis (BRAW)
+  - Papathanassios (BRAW)
+  - Papoulias (BRAW)
+  - Pappas (BRAW)
+  - Parastadidis (BRAW)
+  - Pattakos (BRAW)
+  - Pavlakakis (BRAW)
+  - Pentzopoulos (BRAW)
+  - Pesmazoglos (BRAW)
+  - Pheraios (BRAW)
+  - Philipousis (BRAW)
+  - Pierides (BRAW)
+  - Pietris (BRAW)
+  - Pipinelis (BRAW)
+  - Pittakis (BRAW)
+  - Pittakys (BRAW)
+  - Plastiras (BRAW)
+  - Polides (BRAW)
+  - Polycarpous (BRAW)
+  - Polychroniadis (BRAW)
+  - Polychronios (BRAW)
+  - Polydoros (BRAW)
+  - Polymeropoulos (BRAW)
+  - Polymeros (BRAW)
+  - Polyzos (BRAW)
+  - Popotas (BRAW)
+  - Porpurogenitos (BRAW)
+  - Pratkanis (BRAW)
+  - Prevalakis (BRAW)
+  - Primikynos (BRAW)
+  - Psara (BRAW)
+  - Psaros (BRAW)
+  - Psaroulakis (BRAW)
+  - Rallis (BRAW)
+  - Saltsidis (BRAW)
+  - Samos (BRAW)
+  - Sampras (BRAW)
+  - Sanassis (BRAW)
+  - Sarakatsani (BRAW)
+  - Saraphis (BRAW)
+  - Sardzetakis (BRAW)
+  - Sarris (BRAW)
+  - Sartzetakis (BRAW)
+  - Sarus (BRAW)
+  - Savakis (BRAW)
+  - Savalos (BRAW)
+  - Savvides (BRAW)
+  - Sbokos (BRAW)
+  - Senteildis (BRAW)
+  - Siantos (BRAW)
+  - Sicilianos (BRAW)
+  - Simopoulos (BRAW)
+  - Sirtis (BRAW)
+  - Skandalis (BRAW)
+  - Skiotis (BRAW)
+  - Skouloudis (BRAW)
+  - Skouphas (BRAW)
+  - Solomos (BRAW)
+  - Sophoulis (BRAW)
+  - Souvaltzis (BRAW)
+  - Stamanakis (BRAW)
+  - Stasi (BRAW)
+  - Stavrakis (BRAW)
+  - Stavrianakis (BRAW)
+  - Stavrianos (BRAW)
+  - Stephanopoulos (BRAW)
+  - Stoikos (BRAW)
+  - Strapoudopolos (BRAW)
+  - Stratis (BRAW)
+  - Stroubakos (BRAW)
+  - Taliadoros (BRAW)
+  - Tathouris (BRAW)
+  - Tavoularis (BRAW)
+  - Terzin (BRAW)
+  - Theodopoulos (BRAW)
+  - Theodorakis (BRAW)
+  - Theophanous (BRAW)
+  - Theothanos (BRAW)
+  - Theotokis (BRAW)
+  - Touliatos (BRAW)
+  - Tournikiotis (BRAW)
+  - Tragianopoulos (BRAW)
+  - Trikoupis (BRAW)
+  - Tsakolov (BRAW)
+  - Tsaldaris (BRAW)
+  - Tsatsos (BRAW)
+  - Tsavdaridos (BRAW)
+  - Tsiamita (BRAW)
+  - Tsigakos (BRAW)
+  - Tsikouna (BRAW)
+  - Tsiolakoudi (BRAW)
+  - Tsirigolis (BRAW)
+  - Tsirimokos (BRAW)
+  - Tsolakoglos (BRAW)
+  - Tsoni (BRAW)
+  - Tsouderos (BRAW)
+  - Tsougarakis (BRAW)
+  - Tsoutsouvas (BRAW)
+  - Tsyoma (BRAW)
+  - Tzannetakis (BRAW)
+  - Tzivas (BRAW)
+  - Vadeki (BRAW)
+  - Valaoritis (BRAW)
+  - Valvis (BRAW)
+  - Vaphiadis (BRAW)
+  - Vardakastanis (BRAW)
+  - Varvaressos (BRAW)
+  - Vasdeki (BRAW)
+  - Vasdekis (BRAW)
+  - Vasiliou (BRAW)
+  - Vassilides (BRAW)
+  - Vatatzes (BRAW)
+  - Veloukhiotis (BRAW)
+  - Venizelos (BRAW)
+  - Verdanis (BRAW)
+  - Vergopoulos (BRAW)
+  - Vlakhos (BRAW)
+  - Voulgaris (BRAW)
+  - Voulgaropoulos (BRAW)
+  - Vouris (BRAW)
+  - Xanthos (BRAW)
+  - Xenakis (BRAW)
+  - Xydis (BRAW)
+  - Yannopoulos (BRAW)
+  - Yialouris (BRAW)
+  - Ypsilantis (BRAW)
+  - Zafiropoulos (BRAW)
+  - Zaimis (BRAW)
+  - Zakhariadis (BRAW)
+  - Zarikos (BRAW)
+  - Zervakos (BRAW)
+  - Zervas (BRAW)
+  - Zikos (BRAW)
+  - Zindilis (BRAW)
+  - Zisimides (BRAW)
+  - Zographas (BRAW)
+  - Zoitakis (BRAW)
+  - Zolotas (BRAW)

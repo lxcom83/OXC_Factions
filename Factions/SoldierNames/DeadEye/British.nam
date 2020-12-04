@@ -1,0 +1,313 @@
+lookWeights:
+  - 35
+  - 35
+  - 20
+  - 10
+maleFirst:
+  - Adam
+  - Adrian
+  - Aidan
+  - Alan
+  - Alexander
+  - Alistair
+  - Andrew
+  - Arthur
+  - Ben
+  - Benjamin
+  - Bradley
+  - Brendan
+  - Brett
+  - Bruce
+  - Carl
+  - Charles
+  - Charlie
+  - Christopher
+  - Colin
+  - Connor
+  - Craig
+  - Damien
+  - Daniel
+  - David
+  - Declan
+  - Derek
+  - Desmond
+  - Donald
+  - Dylan
+  - Edmund
+  - Edward
+  - Euan
+  - Frank
+  - Francis
+  - Gareth
+  - Gary
+  - Geoffrey
+  - George
+  - Graeme
+  - Graham
+  - Grant
+  - Gregor
+  - Gregory
+  - Hamish
+  - Harold
+  - Harry
+  - Ian
+  - Iain
+  - James
+  - Jason
+  - John
+  - Jordan
+  - Keith
+  - Ken
+  - Kenneth
+  - Lewis
+  - Liam
+  - Malcolm
+  - Mark
+  - Michael
+  - Neil
+  - Patrick
+  - Paul
+  - Peter
+  - Raymond
+  - Rhys
+  - Richard
+  - Robert
+  - Rory
+  - Roy
+  - Ryan
+  - Samuel
+  - Scott
+  - Simon
+  - Stephen
+  - Steven
+  - Thomas
+  - William
+femaleFirst:
+  - Abigail
+  - Aileen
+  - Ailsa
+  - Alice
+  - Alison
+  - Amy
+  - Andrea
+  - Ann
+  - Anna
+  - Annabel
+  - Anne
+  - Bridget
+  - Carol
+  - Catherine
+  - Clara
+  - Claire
+  - Clare
+  - Courtney
+  - Cynthia
+  - Eleanor
+  - Elizabeth
+  - Emily
+  - Emma
+  - Fiona
+  - Frances
+  - Gail
+  - Gemma
+  - Gillian
+  - Gilly
+  - Grace
+  - Hanna
+  - Hannah
+  - Harriet
+  - Heather
+  - Helen
+  - Holly
+  - Isabel
+  - Isobel
+  - Isla
+  - Jade
+  - Jane
+  - Janet
+  - Janice
+  - Janine
+  - Jayne
+  - Jean
+  - Jenna
+  - Jennifer
+  - Jenny
+  - Jessica
+  - Jill
+  - Joyce
+  - Kate
+  - Katie
+  - Kimberley
+  - Kirsten
+  - Kirsty
+  - Kylie
+  - Lauren
+  - Lesley
+  - Leslie
+  - Lilleth
+  - Lillian
+  - Lindsay
+  - Lisa
+  - Lorna
+  - Lucy
+  - Lynn
+  - Lynette
+  - Margaret
+  - Maria
+  - Mary
+  - Megan
+  - Moira
+  - Murron
+  - Patricia
+  - Rebecca
+  - Samantha
+  - Sarah
+  - Shannon
+  - Siobhan
+  - Stacey
+  - Theresa
+  - Victoria
+maleLast:
+  - Adams (DEYE)
+  - Anderson (DEYE)
+  - Atkinson (DEYE)
+  - Bailey (DEYE)
+  - Baird (DEYE)
+  - Baker (DEYE)
+  - Barker (DEYE)
+  - Ball (DEYE)
+  - Barnes (DEYE)
+  - Bell (DEYE)
+  - Blake (DEYE)
+  - Blair (DEYE)
+  - Boyd (DEYE)
+  - Brook (DEYE)
+  - Brooks (DEYE)
+  - Brown (DEYE)
+  - Burns (DEYE)
+  - Butler (DEYE)
+  - Cameron (DEYE)
+  - Carter (DEYE)
+  - Chapman (DEYE)
+  - Clark (DEYE)
+  - Clarke (DEYE)
+  - Clyde (DEYE)
+  - Cole (DEYE)
+  - Collins (DEYE)
+  - Cook (DEYE)
+  - Cooper (DEYE)
+  - Cox (DEYE)
+  - Davies (DEYE)
+  - Davis (DEYE)
+  - Dawson (DEYE)
+  - Day (DEYE)
+  - Dixon (DEYE)
+  - Douglas (DEYE)
+  - Drummond (DEYE)
+  - Elliot (DEYE)
+  - Erskine (DEYE)
+  - Evans (DEYE)
+  - Ferguson (DEYE)
+  - Fisher (DEYE)
+  - Fletcher (DEYE)
+  - Forbes (DEYE)
+  - Ford (DEYE)
+  - Forsythe (DEYE)
+  - Foster (DEYE)
+  - Fox (DEYE)
+  - Fraser (DEYE)
+  - Garrow (DEYE)
+  - Gibson (DEYE)
+  - Gray (DEYE)
+  - Green (DEYE)
+  - Hall (DEYE)
+  - Harris (DEYE)
+  - Harrison (DEYE)
+  - Harvey (DEYE)
+  - Heaton (DEYE)
+  - Hill (DEYE)
+  - Holmes (DEYE)
+  - Howard (DEYE)
+  - Hughes (DEYE)
+  - Hunt (DEYE)
+  - Hunter (DEYE)
+  - Jackson (DEYE)
+  - Jenkins (DEYE)
+  - Johnson (DEYE)
+  - Jones (DEYE)
+  - Jonlan (DEYE)
+  - Kerr (DEYE)
+  - King (DEYE)
+  - Knight (DEYE)
+  - Knox (DEYE)
+  - Lawrence (DEYE)
+  - Lee (DEYE)
+  - Lennox (DEYE)
+  - Loy (DEYE)
+  - MacCallum (DEYE)
+  - MacCay (DEYE)
+  - MacColl (DEYE)
+  - MacIntyre (DEYE)
+  - Mackendrick (DEYE)
+  - Mackenzie (DEYE)
+  - MacRae (DEYE)
+  - Marion (DEYE)
+  - Marshall (DEYE)
+  - Martin (DEYE)
+  - Mason (DEYE)
+  - Matthews (DEYE)
+  - Middleton (DEYE)
+  - Milne (DEYE)
+  - Mills (DEYE)
+  - Mitchell (DEYE)
+  - Moore (DEYE)
+  - Mumford (DEYE)
+  - Owen (DEYE)
+  - Owens (DEYE)
+  - Paddon (DEYE)
+  - Parker (DEYE)
+  - Palmer (DEYE)
+  - Payne (DEYE)
+  - Pearce (DEYE)
+  - Pearson (DEYE)
+  - Peters (DEYE)
+  - Peterson (DEYE)
+  - Powell (DEYE)
+  - Price (DEYE)
+  - Pritchard (DEYE)
+  - Ramsay (DEYE)
+  - Reynolds (DEYE)
+  - Richards (DEYE)
+  - Richardson (DEYE)
+  - Roberts (DEYE)
+  - Robertson (DEYE)
+  - Robinson (DEYE)
+  - Rogers (DEYE)
+  - Rory (DEYE)
+  - Ross (DEYE)
+  - Rowe (DEYE)
+  - Russell (DEYE)
+  - Saunders (DEYE)
+  - Sharpe (DEYE)
+  - Shaw (DEYE)
+  - Smith (DEYE)
+  - Stevens (DEYE)
+  - Stewart (DEYE)
+  - Taylor (DEYE)
+  - Thompson (DEYE)
+  - Turner (DEYE)
+  - Varley (DEYE)
+  - Walker (DEYE)
+  - Wallace (DEYE)
+  - Walsh (DEYE)
+  - Ward (DEYE)
+  - Watson (DEYE)
+  - Webb (DEYE)
+  - West (DEYE)
+  - White (DEYE)
+  - Wilkinson (DEYE)
+  - Williams (DEYE)
+  - Wright (DEYE)
+  - Wood (DEYE)
+  - Young (DEYE)
+  - Yates (DEYE)

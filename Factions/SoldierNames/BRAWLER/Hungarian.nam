@@ -1,0 +1,491 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Abel
+  - Adam
+  - Adrian
+  - Akos
+  - Albert
+  - Alex
+  - Andor
+  - Andras
+  - Antal
+  - Arnold
+  - Aron
+  - Arpad
+  - Attila
+  - Balazs
+  - Balint
+  - Barna
+  - Barnabas
+  - Bela
+  - Bence
+  - Bendeguz
+  - Benedek
+  - Benjamin
+  - Bertalan
+  - Botond
+  - Csaba
+  - Csongor
+  - Daniel
+  - David
+  - Denes
+  - Dezso
+  - Dominik
+  - Elemer
+  - Emil
+  - Endre
+  - Erik
+  - Erno
+  - Ervin
+  - Ferenc
+  - Gabor
+  - Gergely
+  - Gergo
+  - Geza
+  - Gusztav
+  - Gyorgy
+  - Gyozo
+  - Gyula
+  - Henrik
+  - Imre
+  - Istvan
+  - Ivan
+  - Janos
+  - Jeno
+  - Jozsef
+  - Kalman
+  - Karoly
+  - Kevin
+  - Kornel
+  - Kristof
+  - Krisztian
+  - Krisztofer
+  - Lajos
+  - Laszlo
+  - Levente
+  - Lorant
+  - Marcell
+  - Mark
+  - Martin
+  - Marton
+  - Mate
+  - Matyas
+  - Mihaly
+  - Miklos
+  - Milan
+  - Nandor
+  - Noel
+  - Norbert
+  - Oliver
+  - Otto
+  - Pal
+  - Patrik
+  - Peter
+  - Richard
+  - Robert
+  - Roland
+  - Rudolf
+  - Sandor
+  - Szabolcs
+  - Szilard
+  - Szilveszter
+  - Tamas
+  - Tibor
+  - Tivadar
+  - Viktor
+  - Vilmos
+  - Vince
+  - Zalan
+  - Zoltan
+  - Zsigmond
+  - Zsolt
+  - Zsombor
+femaleFirst:
+  - Adrienn
+  - Agi
+  - Agnes
+  - Agota
+  - Alberta
+  - Alexa
+  - Alexandra
+  - Aliz
+  - Anasztazia
+  - Andrea
+  - Anett
+  - Angyalka
+  - Aniko
+  - Anita
+  - Anna
+  - Annamaria
+  - Aranka
+  - Aurelia
+  - Barbara
+  - Beata
+  - Beatrix
+  - Bella
+  - Bernadett
+  - Berta
+  - Bettina
+  - Bianka
+  - Boglarka
+  - Bora
+  - Borbala
+  - Boriska
+  - Borka
+  - Brigitta
+  - Cili
+  - Csilla
+  - Dia
+  - Diana
+  - Dora
+  - Dorina
+  - Dorottya
+  - Edina
+  - Edit
+  - Emese
+  - Emma
+  - Eniko
+  - Erika
+  - Ernesztina
+  - Erzsebet
+  - Erzsi
+  - Eszter
+  - Etel
+  - Etelka
+  - Eva
+  - Evelin
+  - Fanni
+  - Franciska
+  - Gabriella
+  - Gitta
+  - Gizella
+  - Gyongyi
+  - Gyorgyi
+  - Hajna
+  - Hajnalka
+  - Hanna
+  - Henrietta
+  - Ibolya
+  - Ica
+  - Ildiko
+  - Ilka
+  - Ilona
+  - Iren
+  - Irenke
+  - Irma
+  - Janka
+  - Jolan
+  - Judit
+  - Julia
+  - Julianna
+  - Juliska
+  - Karola
+  - Karolina
+  - Katalin
+  - Katarina
+  - Kati
+  - Katinka
+  - Kinga
+  - Kitti
+  - Klara
+  - Klaudia
+  - Kriszta
+  - Krisztina
+  - Laura
+  - Lili
+  - Lilla
+  - Linka
+  - Liza
+  - Magdolna
+  - Mara
+  - Margit
+  - Margo
+  - Maria
+  - Mariann
+  - Marianna
+  - Marika
+  - Marta
+  - Melinda
+  - Monika
+  - Nikolett
+  - Nikoletta
+  - Noemi
+  - Nora
+  - Olga
+  - Orsolya
+  - Petra
+  - Piroska
+  - Reka
+  - Renata
+  - Rita
+  - Roza
+  - Rozalia
+  - Rozsa
+  - Sara
+  - Sarolta
+  - Szabina
+  - Szilvia
+  - Terez
+  - Terezia
+  - Timea
+  - Tunde
+  - Valeria
+  - Veronika
+  - Viktoria
+  - Virag
+  - Vivien
+  - Zita
+  - ZsaZsa
+  - Zsanett
+  - Zsofia
+  - Zsuzska
+  - Zsuzsanna
+  - Zsuzsi
+maleLast:
+  - Alfoldi (BRAW)
+  - Andrassy (BRAW)
+  - Annus (BRAW)
+  - Antal (BRAW)
+  - Arany (BRAW)
+  - Bakos (BRAW)
+  - Balassa (BRAW)
+  - Balazs (BRAW)
+  - Balint (BRAW)
+  - Balla (BRAW)
+  - Balog (BRAW)
+  - Balogh (BRAW)
+  - Barati (BRAW)
+  - Barna (BRAW)
+  - Barsony (BRAW)
+  - Barta (BRAW)
+  - Bartok (BRAW)
+  - Bathory (BRAW)
+  - Berzevicky (BRAW)
+  - Biro (BRAW)
+  - Bocskay (BRAW)
+  - Bodnar (BRAW)
+  - Bogdan (BRAW)
+  - Bognar (BRAW)
+  - Borbely (BRAW)
+  - Bori (BRAW)
+  - Boros (BRAW)
+  - Budai (BRAW)
+  - Csillag (BRAW)
+  - Csollany (BRAW)
+  - Csonka (BRAW)
+  - Csurgo (BRAW)
+  - Czako (BRAW)
+  - Czene (BRAW)
+  - Czobor (BRAW)
+  - Dardai (BRAW)
+  - Daroczy (BRAW)
+  - Deak (BRAW)
+  - Dobos (BRAW)
+  - Doczi (BRAW)
+  - Dombi (BRAW)
+  - Dozsa (BRAW)
+  - Dudas (BRAW)
+  - Egerszegi (BRAW)
+  - Eotvos (BRAW)
+  - Fabian (BRAW)
+  - Farago (BRAW)
+  - Farkas (BRAW)
+  - Fazekas (BRAW)
+  - Feher (BRAW)
+  - Fekete (BRAW)
+  - Ferenczy (BRAW)
+  - Fodor (BRAW)
+  - Forgach (BRAW)
+  - Forgacs (BRAW)
+  - Fulop (BRAW)
+  - Gal (BRAW)
+  - Gaspar (BRAW)
+  - Gazdag (BRAW)
+  - Gero (BRAW)
+  - Guba (BRAW)
+  - Gulyas (BRAW)
+  - Gyorffy (BRAW)
+  - Gyulai (BRAW)
+  - Hajdu (BRAW)
+  - Halasz (BRAW)
+  - Halmai (BRAW)
+  - Hamori (BRAW)
+  - Hankiss (BRAW)
+  - Hedervary (BRAW)
+  - Hegedus (BRAW)
+  - Hollo (BRAW)
+  - Horanszky (BRAW)
+  - Horthy (BRAW)
+  - Horvath (BRAW)
+  - Hrutka (BRAW)
+  - Hunyadi (BRAW)
+  - Illes (BRAW)
+  - Illeshazy (BRAW)
+  - Ilyes (BRAW)
+  - Istvanffy (BRAW)
+  - Jagadics (BRAW)
+  - Jakab (BRAW)
+  - Jaszi (BRAW)
+  - Jokai (BRAW)
+  - Jonas (BRAW)
+  - Joo (BRAW)
+  - Juhasz (BRAW)
+  - Kalanyos (BRAW)
+  - Kaldi (BRAW)
+  - Kallay (BRAW)
+  - Kammerer (BRAW)
+  - Karolyi (BRAW)
+  - Katona (BRAW)
+  - Kazinczy (BRAW)
+  - Kelemen (BRAW)
+  - Kemeny (BRAW)
+  - Kerekes (BRAW)
+  - Kertes (BRAW)
+  - Kiraly (BRAW)
+  - Kis (BRAW)
+  - Kiss (BRAW)
+  - Knesevich (BRAW)
+  - Koban (BRAW)
+  - Kocsis (BRAW)
+  - Kodaly (BRAW)
+  - Koranyi (BRAW)
+  - Kortosi (BRAW)
+  - Kossuth (BRAW)
+  - Kovacs (BRAW)
+  - Kovago (BRAW)
+  - Kozma (BRAW)
+  - Kulcsar (BRAW)
+  - Kun (BRAW)
+  - Kurti (BRAW)
+  - Kurtosi (BRAW)
+  - Kurutz (BRAW)
+  - Kuti (BRAW)
+  - Kutsera (BRAW)
+  - Lajtos (BRAW)
+  - Lakatos (BRAW)
+  - Laszlo (BRAW)
+  - Lehotka (BRAW)
+  - Lengyel (BRAW)
+  - Ligeti (BRAW)
+  - Liptak (BRAW)
+  - Lisztes (BRAW)
+  - Lugosi (BRAW)
+  - Lukacs (BRAW)
+  - Madar (BRAW)
+  - Magyar (BRAW)
+  - Major (BRAW)
+  - Malek (BRAW)
+  - Mandula (BRAW)
+  - Markovits (BRAW)
+  - Mate (BRAW)
+  - Matyus (BRAW)
+  - Mecs (BRAW)
+  - Meszaros (BRAW)
+  - Mindszenty (BRAW)
+  - Molnar (BRAW)
+  - Munkacsy (BRAW)
+  - Nadasdy (BRAW)
+  - Nagy (BRAW)
+  - Nemes (BRAW)
+  - Nemeth (BRAW)
+  - Noszaly (BRAW)
+  - Novak (BRAW)
+  - Nyilas (BRAW)
+  - Nyilasi (BRAW)
+  - Olah (BRAW)
+  - Onodi (BRAW)
+  - Orban (BRAW)
+  - Orczy (BRAW)
+  - Orosz (BRAW)
+  - Orsos (BRAW)
+  - Pal (BRAW)
+  - Palagyi (BRAW)
+  - Pandy (BRAW)
+  - Pap (BRAW)
+  - Papp (BRAW)
+  - Partos (BRAW)
+  - Pasztor (BRAW)
+  - Pataki (BRAW)
+  - Pazmany (BRAW)
+  - Pecely (BRAW)
+  - Perneky (BRAW)
+  - Peter (BRAW)
+  - Petofi (BRAW)
+  - Pinter (BRAW)
+  - Pongratz (BRAW)
+  - Pulszky (BRAW)
+  - Racz (BRAW)
+  - Rakosi (BRAW)
+  - Redik (BRAW)
+  - Revay (BRAW)
+  - Rezessy (BRAW)
+  - Ronay (BRAW)
+  - Rosner (BRAW)
+  - Rosza (BRAW)
+  - Rubik (BRAW)
+  - Safar (BRAW)
+  - Sandor (BRAW)
+  - Sebok (BRAW)
+  - Sereny (BRAW)
+  - Simon (BRAW)
+  - Sipos (BRAW)
+  - Soltesz (BRAW)
+  - Solti (BRAW)
+  - Solymosi (BRAW)
+  - Somogyi (BRAW)
+  - Soos (BRAW)
+  - Supola (BRAW)
+  - Suto (BRAW)
+  - Svarcz (BRAW)
+  - Szabo (BRAW)
+  - Szalai (BRAW)
+  - Szalay (BRAW)
+  - Szatmary (BRAW)
+  - Szechenyi (BRAW)
+  - Szekely (BRAW)
+  - Szekeres (BRAW)
+  - Szelepcsenyi (BRAW)
+  - Szeman (BRAW)
+  - Szemere (BRAW)
+  - Szilagyi (BRAW)
+  - Szoke (BRAW)
+  - Szucs (BRAW)
+  - Szuhay (BRAW)
+  - Tabory (BRAW)
+  - Takacs (BRAW)
+  - Tamas (BRAW)
+  - Teleki (BRAW)
+  - Temesvari (BRAW)
+  - Tessedik (BRAW)
+  - Thurzo (BRAW)
+  - Tisza (BRAW)
+  - Tokes (BRAW)
+  - Tokody (BRAW)
+  - Tolgyesi (BRAW)
+  - Torok (BRAW)
+  - Toth (BRAW)
+  - Ujlaky (BRAW)
+  - Urbanik (BRAW)
+  - Vajda (BRAW)
+  - Vamosi (BRAW)
+  - Varadi (BRAW)
+  - Varga (BRAW)
+  - Varkonyi (BRAW)
+  - Vass (BRAW)
+  - Vegh (BRAW)
+  - Verboczy (BRAW)
+  - Veres (BRAW)
+  - Vidrai (BRAW)
+  - Vincze (BRAW)
+  - Virag (BRAW)
+  - Voros (BRAW)
+  - Wessely (BRAW)
+  - Zatony (BRAW)
+  - Zavadszky (BRAW)
+  - Zrinyi (BRAW)
+  - Zsivozky (BRAW)
+  - Zsoldos (BRAW)

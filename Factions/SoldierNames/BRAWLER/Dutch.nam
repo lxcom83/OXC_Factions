@@ -1,0 +1,68 @@
+# A good article about dutch firstnames can be found at
+# http://www.historischnieuwsblad.nl/nl/artikel/5849/voornamen-in-nederland.html
+lookWeights:
+  - 45
+  - 45
+  - 5
+  - 5
+maleFirst:
+  - Jan
+  - Piet
+  - Henk
+  - Peter
+  - Hans
+  - Kees
+  - Wim
+  - Cor
+  - Gerard
+  - Gerrit
+  - Johan
+  - Rudi
+femaleFirst:
+  - Annie (BRAW)
+  - Emma (BRAW)
+  - Marietje (BRAW)
+  - Mien (BRAW)
+  - Willie (BRAW)
+  - Eva (BRAW)
+  - Corrie (BRAW)
+  - Lenie (BRAW)
+  - Greetje (BRAW)
+  - Hanna (BRAW)
+  - Sofie (BRAW)
+  - Ansje (BRAW)
+maleLast:
+  - de Jong (BRAW)
+  - Jansen (BRAW)
+  - de Vries (BRAW)
+  - van de Berg (BRAW)
+  - van Dijk (BRAW)
+  - Bakker (BRAW)
+  - Janssen (BRAW)
+  - Visser (BRAW)
+  - Smit (BRAW)
+  - Meyer (BRAW)
+  - de Boer (BRAW)
+  - Mulder (BRAW)
+  - de Groot (BRAW)
+  - Bos (BRAW)
+  - Vos (BRAW)
+  - Peters (BRAW)
+  - Hendriks (BRAW)
+  - van Leeuwen (BRAW)
+  - Dekker (BRAW)
+  - Brouwer (BRAW)
+  - de Wit (BRAW)
+  - Dijkstra (BRAW)
+  - Smits (BRAW)
+  - de Graaf (BRAW)
+  - van der Meer (BRAW)
+  - van der Linden (BRAW)
+  - Kok (BRAW)
+  - Jacobs (BRAW)
+  - de Haan (BRAW)
+  - Vermeulen (BRAW)
+  - van den Heuvel (BRAW)
+  - van der Veen (BRAW)
+  - van den Broek (BRAW)
+  - de Bruyn  (BRAW)

@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Abhijay
+  - Adil
+  - Chandresh
+  - Dev
+  - Dinesh
+  - Govinda
+  - Jaideep
+  - Kanak
+  - Mahesh
+  - Neelam
+  - Om
+  - Pallav
+  - Parmesh
+  - Rajesh
+  - Ranjit
+  - Samir
+  - Sanjiv
+  - Sudeep
+  - Vihaan
+  - Yogendra
+  - Sachin
+  - Rahul
+  - Anil
+  - Virender
+  - Kapil
+  - Sourav
+  - Harbhajan
+femaleFirst:
+  - Ajita
+  - Amma
+  - Avinashi
+  - Deepti
+  - Gulab
+  - Hina
+  - Indira
+  - Jasweer
+  - Kalinda
+  - Keva
+  - Madhuri
+  - Meera
+  - Neela
+  - Parvati
+  - Priti
+  - Ranhita
+  - Roshan
+  - Savitri
+  - Sitesh
+  - Ushma
+  - Vritika
+  - Zahra
+maleLast:
+  - Sharma (DEYE)
+  - Verma (DEYE)
+  - Chowdhury (DEYE)
+  - Singh (DEYE)
+  - Misra (DEYE)
+  - Kumar (DEYE)
+  - Gupta (DEYE)
+  - Malik (DEYE)
+  - Chopra (DEYE)
+  - Prasad (DEYE)
+  - Acharya (DEYE)
+  - Agarwal (DEYE)
+  - Malhotra (DEYE)
+  - Jain (DEYE)
+  - Saini (DEYE)
+  - Khan (DEYE)
+  - Shah (DEYE)
+  - Narayan (DEYE)
+  - Mistry (DEYE)
+  - Joshi (DEYE)
+  - Goyal (DEYE)
+  - Roy (DEYE)
+  - Tendulkar (DEYE)
+  - Dravid (DEYE)
+  - Kumble (DEYE)
+  - Sehwag (DEYE)
+  - Dev (DEYE)
+  - Ganguly (DEYE)

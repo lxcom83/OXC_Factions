@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Jan
+  - Andrzej
+  - Piotr
+  - Krzysztof
+  - Stanislaw
+  - Tomasz
+  - Pawel
+  - Jozef
+  - Marcin
+  - Marek
+  - Michal
+  - Grzegorz
+  - Jerzy
+  - Tadeusz
+  - Adam
+  - Lukasz
+  - Zbigniew
+  - Ryszard
+  - Dariusz
+  - Henryk
+  - Mariusz
+  - Kazimierz
+  - Wojciech
+  - Robert
+  - Mateusz
+  - Marian
+  - Rafal
+  - Jacek
+  - Janusz
+  - Miroslaw  
+femaleFirst:
+  - Anna
+  - Maria
+  - Katarzyna
+  - Malgorzata
+  - Agnieszka
+  - Krystyna
+  - Barbara
+  - Ewa
+  - Elzbieta
+  - Zofia
+  - Janina
+  - Teresa
+  - Joanna
+  - Magdalena
+  - Monika
+  - Jadwiga
+  - Danuta
+  - Irena
+  - Halina
+  - Helena
+  - Beata
+  - Aleksandra
+  - Marta
+  - Dorota
+  - Marianna
+  - Grazyna
+  - Jolanta
+  - Stanislawa
+  - Iwona
+  - Karolina
+maleLast:
+  - Nowak (HEAVY)
+  - Kowalski (HEAVY)
+  - Wisniewski (HEAVY)
+  - Dabrowski (HEAVY)
+  - Lewandowski (HEAVY)
+  - Wojcik (HEAVY)
+  - Kaminski (HEAVY)
+  - Kowalczyk (HEAVY)
+  - Zielinski (HEAVY)
+  - Szymanski (HEAVY)
+  - Wozniak (HEAVY)
+  - Kozlowski (HEAVY)
+  - Jankowski (HEAVY)
+  - Wojciechowski (HEAVY)
+  - Kwiatkowski (HEAVY)
+  - Kaczmarek (HEAVY)
+  - Mazur (HEAVY)
+  - Krawczyk (HEAVY)
+  - Piotrowski (HEAVY)
+  - Grabowski (HEAVY)
+  - Nowakowski (HEAVY)
+  - Pawlowski (HEAVY)
+  - Michalski (HEAVY)
+  - Nowicki (HEAVY)
+  - Adamczyk (HEAVY)
+  - Dudek (HEAVY)
+  - Zajac (HEAVY)
+  - Wieczorek (HEAVY)
+  - Jablonski (HEAVY)
+  - Krol (HEAVY)
+femaleLast:
+  - Nowak (HEAVY)
+  - Kowalska (HEAVY)
+  - Wisniewska (HEAVY)
+  - Dabrowska (HEAVY)
+  - Lewandowska (HEAVY)
+  - Wojcik (HEAVY)
+  - Kaminska (HEAVY)
+  - Kowalczyk (HEAVY)
+  - Zielinska (HEAVY)
+  - Szymanska (HEAVY)
+  - Wozniak (HEAVY)
+  - Kozlowska (HEAVY)
+  - Jankowska (HEAVY)
+  - Wojciechowska (HEAVY)
+  - Kwiatkowska (HEAVY)
+  - Kaczmarek (HEAVY)
+  - Mazur (HEAVY)
+  - Krawczyk (HEAVY)
+  - Piotrowska (HEAVY)
+  - Grabowska (HEAVY)
+  - Nowakowska (HEAVY)
+  - Pawlowska (HEAVY)
+  - Michalska (HEAVY)
+  - Nowicka (HEAVY)
+  - Adamczyk (HEAVY)
+  - Dudek (HEAVY)
+  - Zajac (HEAVY)
+  - Wieczorek (HEAVY)
+  - Jablonska (HEAVY)
+  - Krol (HEAVY)

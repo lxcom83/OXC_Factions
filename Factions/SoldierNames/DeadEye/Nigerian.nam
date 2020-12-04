@@ -1,0 +1,411 @@
+lookWeight:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Abassi
+  - Abayomi
+  - Abejide
+  - Abiodun
+  - Abiola
+  - Adebayo
+  - Adejola
+  - Adisa
+  - Adunbi
+  - Ajala
+  - Ajani
+  - Akanni
+  - Akin
+  - Akinlabi
+  - Akinlana
+  - Akins
+  - Akono
+  - Amadi
+  - Aniweta
+  - Apara
+  - Ayodele
+  - Azagba
+  - Babafemi
+  - Bem
+  - Boseda
+  - Chidike
+  - Chijioke
+  - Chike
+  - Chukwuma
+  - Dada
+  - David
+  - Dumaka
+  - Ehioze
+  - Ekundayo
+  - Emeka
+  - Emmanuel
+  - Ewansiha
+  - Ezekiel
+  - Fasina
+  - Gowo
+  - Idowu
+  - Imarogbe
+  - Isah
+  - Iyapo
+  - Jaja
+  - Jumoke
+  - Kayode
+  - Kehinde
+  - Kosoko
+  - Kwame
+  - Madu
+  - Mazi
+  - Modupe
+  - Morihinze
+  - Moses
+  - Ndulu
+  - Ngozi
+  - Nosakhere
+  - Nwabudike
+  - Obasi
+  - Obataiye
+  - Obayana
+  - Obi
+  - Obike
+  - Ode
+  - Odion
+  - Ogbonna
+  - Okechuku
+  - Okpara
+  - Oladele
+  - Olafemi
+  - Olaniyan
+  - Olawale
+  - Olawutobi
+  - Olubayo
+  - Olufemi
+  - Olugbala
+  - Olujimi
+  - Olumide
+  - Olumiji
+  - Olushola
+  - Oluwa
+  - Oluwaseyi
+  - Oluyemi
+  - Omolara
+  - Omorede
+  - Onuwachi
+  - Opeyemi
+  - Osahar
+  - Osakwe
+  - Osayaba
+  - Osayande
+  - Osayimwese
+  - Osaze
+  - Samuel
+  - Stanley
+  - Sunday
+  - Taiwo
+  - Tobi
+  - Echechi
+  - Uzoma
+  - Weke
+  - Worie
+femaleFirst:
+  - Abagbe
+  - Abagebe
+  - Abayomi
+  - Abebi
+  - Abegbe
+  - Abeje
+  - Abeke
+  - Abena
+  - Abeo
+  - Abidemi
+  - Abimbola
+  - Abiona
+  - Abisola
+  - Adamma
+  - Adanna
+  - Adanya
+  - Adebola
+  - Adebomi
+  - Adedagbo
+  - Adedewe
+  - Adedoja
+  - Adeleke
+  - Adenrele
+  - Adeola
+  - Aderinola
+  - Adesimbo
+  - Adesina
+  - Adeyemi
+  - Adio
+  - Adjoa
+  - Aduke
+  - Aina
+  - Aiyetoro
+  - Ajala
+  - Ajani
+  - Akanke
+  - Alaba
+  - Alke
+  - Ama
+  - Amonke
+  - Annakiya
+  - Anuli
+  - Arria
+  - Asabi
+  - Auta
+  - Ayo
+  - Ayobami
+  - Ayobunmi
+  - Ayodele
+  - Ayofemi
+  - Ayoka
+  - Ayoluwa
+  - Ayomide
+  - Ayoola
+  - Azalee
+  - Baderinwa
+  - Baina
+  - Bayo
+  - Becca
+  - Bekide
+  - Binah
+  - Bolade
+  - Bolanile
+  - Bunmi
+  - Chidimma
+  - Chika
+  - Chinonso
+  - Chinue
+  - Chioma
+  - Chisom
+  - Chizoba
+  - Cynthia
+  - Dada
+  - Danuwa
+  - Daurama
+  - Dayo
+  - Dubaku
+  - Dumaka
+  - Ebele
+  - Ebun
+  - Edenausegbo
+  - Ehizemen
+  - Ekaghogho
+  - Exenesenarh
+  - Enomwoyi
+  - Esosa
+  - Etinosa
+  - Fabayo
+  - Faraa
+  - Farih
+  - Fayola
+  - Fayolla
+  - Femi
+  - Fola
+  - Folade
+  - Folami
+  - Folashade
+  - Dolayan
+  - Foluke
+  - Gimbya
+  - Hanna
+  - Hasana
+  - Hazika
+  - Hembadoon
+  - Idowu
+  - Ifama
+  - Ife
+  - Ifetayo
+  - Ige
+  - Ijaba
+  - Ikuseghan
+  - Innya
+  - Irawagbon
+  - Isoke
+  - Iverem
+  - Iyabo
+  - Izegbe
+  - Joy
+  - Jumoke
+  - Kehinde
+  - Kinah
+  - Kiziah
+  - Kokumo
+  - Limber
+  - Lina
+  - Lisha
+  - Marjorie
+  - Mbafor
+  - Mbeke
+  - Mhonum
+  - Monifa
+  - Morayo
+  - Natashenka
+  - Ngozi
+  - Nkiruka
+  - Nneka
+  - Nnenaya
+  - Nnenia
+  - Nsia
+  - Nourbese
+  - Nwakaeo
+  - Obioma
+  - Ode
+  - Ofure
+  - Olabunmi
+  - Olaniyi
+  - Olateju
+  - Olayinka
+  - Olubayo
+  - Olubunmi
+  - Olufemi
+  - Olufunke
+  - Olufunmilayo
+  - Oluremi
+  - Omalara
+  - Omolara
+  - Omorenoniwara
+  - Omorose
+  - Omosede
+  - Omosupe
+  - omusupe
+  - Oni
+  - Onyeka
+  - Osayioniwabo
+  - Osemweoyenmwen
+  - Oseye
+  - Sade
+  - Shade
+  - Shiminege
+  - Tanisha
+  - Thema
+  - Theresa
+  - Titilayo
+  - Tobi
+  - Uchefuna
+  - Urbi
+  - Yahimba
+  - Yejide
+  - Yetunde
+  - Yewande
+  - Zuna
+maleLast:
+  - Abdul (DEYE)
+  - Abiodun (DEYE)
+  - Abubakar (DEYE)
+  - Achebe (DEYE)
+  - Adebayo (DEYE)
+  - Adebiyi (DEYE)
+  - Adeyemi (DEYE)
+  - Ahmadu (DEYE)
+  - Aimeihi (DEYE)
+  - Ajuonuma (DEYE)
+  - Akubueze (DEYE)
+  - Alamieyeseigha (DEYE)
+  - Alli (DEYE)
+  - Alvana (DEYE)
+  - Amadi (DEYE)
+  - Amaechi (DEYE)
+  - Amaka (DEYE)
+  - Anakobe (DEYE)
+  - Anjola (DEYE)
+  - Anyene (DEYE)
+  - Arokoyo (DEYE)
+  - Awani (DEYE)
+  - Awiyetu (DEYE)
+  - Awolowo (DEYE)
+  - Aynaw (DEYE)
+  - Ayoola (DEYE)
+  - Babangida (DEYE)
+  - Bugaje (DEYE)
+  - Chidinma (DEYE)
+  - Chinwe (DEYE)
+  - Chukwu (DEYE)
+  - Claaseen (DEYE)
+  - Dhose (DEYE)
+  - Ebuka (DEYE)
+  - Ehi (DEYE)
+  - Ehimen (DEYE)
+  - Ejogo (DEYE)
+  - Eke (DEYE)
+  - Ekwensi (DEYE)
+  - Enuma (DEYE)
+  - Eseoghene (DEYE)
+  - Eventus (DEYE)
+  - Eze (DEYE)
+  - Ezugo (DEYE)
+  - Falmata (DEYE)
+  - Farida (DEYE)
+  - Femi (DEYE)
+  - Garba (DEYE)
+  - Hope (DEYE)
+  - Ibe (DEYE)
+  - Ibori (DEYE)
+  - Ibrahim (DEYE)
+  - Ibru (DEYE)
+  - Ibukun (DEYE)
+  - Iheme (DEYE)
+  - Iniebong (DEYE)
+  - Inusa (DEYE)
+  - Itsifanus (DEYE)
+  - Jangana (DEYE)
+  - Jonathan (DEYE)
+  - Jolawole (DEYE)
+  - Lamidi (DEYE)
+  - Lawal (DEYE)
+  - Madaki (DEYE)
+  - Mahmud (DEYE)
+  - Maikudi (DEYE)
+  - Mantakari (DEYE)
+  - Martins (DEYE)
+  - Mbana (DEYE)
+  - Mbanefo (DEYE)
+  - Memuna (DEYE)
+  - Mohammed (DEYE)
+  - Mshelia (DEYE)
+  - Ngwube (DEYE)
+  - Njoku (DEYE)
+  - Obiola (DEYE)
+  - Obrutse (DEYE)
+  - Ochigbo (DEYE)
+  - Ochonogo (DEYE)
+  - Ogechi (DEYE)
+  - Okah (DEYE)
+  - Okafor (DEYE)
+  - Okeke (DEYE)
+  - Okere (DEYE)
+  - Okereke (DEYE)
+  - Okonkwo (DEYE)
+  - Okoye (DEYE)
+  - Olaoluwa (DEYE)
+  - Olugbenga (DEYE)
+  - Olukayode (DEYE)
+  - Olumide (DEYE)
+  - Olumodeji (DEYE)
+  - Olusanmi (DEYE)
+  - Oluwadamilare (DEYE)
+  - Oluwakemi (DEYE)
+  - Oluwayomi (DEYE)
+  - Oni (DEYE)
+  - Onita (DEYE)
+  - Onyinjuke (DEYE)
+  - Opara (DEYE)
+  - Orakwe (DEYE)
+  - Otaru (DEYE)
+  - Otatoru (DEYE)
+  - Rajuli (DEYE)
+  - Raphael (DEYE)
+  - Saraki (DEYE)
+  - Sekibo (DEYE)
+  - Shuta (DEYE)
+  - Sunny (DEYE)
+  - Temitope (DEYE)
+  - Tosin (DEYE)
+  - Uba (DEYE)
+  - Udoh (DEYE)
+  - Ugbabio (DEYE)
+  - Usman (DEYE)
+  - Wale (DEYE)
+  - Yar-adua (DEYE)
+  - Yindadi (DEYE)
+

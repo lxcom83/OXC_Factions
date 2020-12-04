@@ -1,0 +1,701 @@
+############################
+## FACTIONS - Unit Sprites and Inventory screens- RULESET
+## V0.0.2
+## Lasted Changed by L83
+## Comments: 18-01-2020 - Added Wanderers Unit
+###########################
+armors:
+  - type: F_SECTOID_ARMOR0
+    spriteInv: sectoidInventoryImage
+  - type: CYBERDISC_ARMOR
+    spriteInv: cyberdiscInventoryImage
+  - type: FLOATER_ARMOR0
+    spriteInv: floaterInventoryImage
+  - type: FLOATER_ARMOR1
+    spriteInv: floaterInventoryImage
+  - type: FLOATER_ARMOR2
+    spriteInv: floaterInventoryImage
+  - type: REAPER_ARMOR
+    spriteInv: reaperInventoryImage
+  - type: SNAKEMAN_ARMOR0
+    spriteInv: snakemanInventoryImage
+  - type: SNAKEMAN_ARMOR1
+    spriteInv: snakemanInventoryImage
+  - type: SNAKEMAN_ARMOR2
+    spriteInv: snakemanInventoryImage
+  - type: CHRYSSALID_ARMOR
+    spriteInv: chryssalidInventoryImage
+  - type: ZOMBIE_ARMOR
+    spriteInv: zombieInventoryImage
+  - type: MUTON_ARMOR0
+    spriteInv: mutonInventoryImage
+  - type: MUTON_ARMOR1
+    spriteInv: mutonInventoryImage
+  - type: MUTON_ARMOR2
+    spriteInv: mutonInventoryImage
+  - type: CELATID_ARMOR
+    spriteInv: celatidInventoryImage
+  - type: SILACOID_ARMOR
+    spriteInv: silacoidInventoryImage
+  - type: ETHEREAL_ARMOR0
+    spriteInv: etherealInventoryImage
+  - type: ETHEREAL_ARMOR1
+    spriteInv: etherealInventoryImage
+  - type: ETHEREAL_ARMOR2
+    spriteInv: etherealInventoryImage
+  - type: SECTOPOD_ARMOR
+    spriteInv: sectopodInventoryImage
+  - type: SECTOPOD2_ARMOR
+    spriteInv: sectopodInventoryImage
+  - type: CIVM_ARMOR
+    spriteInv: civilianMInventoryImage
+  - type: CIVF_ARMOR
+    spriteInv: civilianFInventoryImage
+  - type: CIVM_ARMOR_ARMED
+    spriteInv: civilianMInventoryImage
+  - type: CIVF_ARMOR_ARMED
+    spriteInv: civilianFInventoryImage
+  ##TFTF###
+  - type: Tasoth_ARMOR0
+    spriteInv: TasothInventoryImage
+  - type: Tasoth_ARMOR_A
+    spriteInv: TasothInventoryImage
+  - type: Triscene_ARMOR0
+    spriteInv: TrisceneInventoryImage
+  - type: aquatoid_ARMOR0
+    spriteInv: aquatoidInventoryImage
+  - type: gillman_ARMOR0
+    spriteInv: gillmanInventoryImage
+  - type: gillman_ARMOR_A
+    spriteInv: gillmanInventoryImage
+  - type: lobsterman_ARMOR0
+    spriteInv: lobstermanInventoryImage
+  - type: lobsterman_ARMOR1
+    spriteInv: lobstermanInventoryImage
+  - type: lobsterman_ARMOR2
+    spriteInv: lobstermanInventoryImage
+  - type: Deep_one_ARMOR0
+    spriteInv: DeeponeInventoryImage
+  - type: Deep_one2_ARMOR0
+    spriteInv: DeeponeInventoryImage        # Update to Deepone2 image once created
+  - type: Xarquid_ARMOR0
+    spriteInv: XarquidInventoryImage
+  - type: Calcinite_ARMOR0
+    spriteInv: CalciniteInventoryImage
+  - type: GillMan_ARMOR0
+    spriteInv: CalciniteInventoryImage
+  - type: GillMan_ARMOR_A
+    spriteInv: CalciniteInventoryImage
+  - type: BioDrone_ARMOR0
+    spriteInv: BioDroneInventoryImage
+  - type: Tentaculat_ARMOR0
+    spriteInv: TentaculatInventoryImage
+  - type: Tentaculat_ARMOR
+    spriteInv: TentaculatInventoryImage
+  - type: tasothguard_ARMOR
+    spriteInv: tasothguardInventoryImage
+  - type: heavygillman_ARMOR
+    spriteInv: heavygillmanInventoryImage
+  - type: heavyAQUATOID_ARMOR
+    spriteInv: heavyAQUATOIDInventoryImage
+  - type: Hallucinoid_ARMOR
+    spriteInv: HallucinoidInventoryImage     
+  - type: NEW_ZOMBIE_ARMOR
+    spriteInv: NEW_ZOMBIEInventoryImage
+##### fACTIONS UNITS ####
+  - type: CYBORG_ARMOR_1
+    spriteInv: mutonInventoryImage
+  - type: CYBORG_ARMOR_1
+    spriteInv: mutonInventoryImage
+extraSprites:
+  - delete: TFTDReserve
+  - delete: KneelButton
+  - type: ALTGEOBORD.SCR 
+    width: 1400
+    height: 800
+    singleImage: true
+    files:
+      0: Resources/Globe/hybrid_2a.png
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/invcopy_f.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/invcopy_active_f.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/invpaste_F.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/invpaste_empty_F.png
+  - type: ICONS.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/Hybrid_2d.png
+  - type: SCANBORD.PCK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/scanbord_v5.png
+  - type: TAC01.SCR
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Battlescape_UI/TAC01_clean-purple1.png
+  # - type: BIGOBS.PCK
+  #   width: 288
+  #   height: 48
+  #   subX: 32
+  #   subY: 48
+  #   files:
+  #     66: Resources/TFTDWeaponCompilation/Weapons/Terror.png
+  ###############inventory images _ xcom units ########################
+  - typeSingle: UW_MAN_0F0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0F0.png
+  - typeSingle: UW_MAN_0F1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0F1.png
+  - typeSingle: UW_MAN_0F2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0F2.png
+  - typeSingle: UW_MAN_0F3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0F3.png
+  - typeSingle: UW_MAN_0F4.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0F4.png
+    ########### MEN ###########
+  - typeSingle: UW_MAN_0M0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0M0.png
+  - typeSingle: UW_MAN_0M1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0M1.png
+  - typeSingle: UW_MAN_0M2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0M2.png
+  - typeSingle: UW_MAN_0M3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0M3.png
+  - typeSingle: UW_MAN_0M4.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_0M4.png
+###### plastic amour #############
+  - typeSingle: UW_MAN_1F0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1F0.PNG
+  - typeSingle: UW_MAN_1F1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1F1.PNG
+  - typeSingle: UW_MAN_1F2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1F2.PNG
+  - typeSingle: UW_MAN_1F3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1F3.PNG
+  - typeSingle: UW_MAN_1F4.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1F4.PNG
+    ########### MEN ###########
+  - typeSingle: UW_MAN_1M0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1M5.PNG
+  - typeSingle: UW_MAN_1M1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1M1.PNG
+  - typeSingle: UW_MAN_1M2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1M2.PNG
+  - typeSingle: UW_MAN_1M3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1M3a.PNG
+  - typeSingle: UW_MAN_1M4.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_1M4.PNG
+######### TFTD ION ARMOUR LAND ########
+  - typeSingle: UW_MAN_2F0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F0.gif
+  - typeSingle: UW_MAN_2F1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F1.gif
+  - typeSingle: UW_MAN_2F2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F2.gif
+  - typeSingle: UW_MAN_2F3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F3.gif
+    ########### MEN ###########
+  - typeSingle: UW_MAN_2M0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2M0.gif
+  - typeSingle: UW_MAN_2M1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2M1.gif
+  - typeSingle: UW_MAN_2M2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2M2.gif
+  - typeSingle: UW_MAN_2M3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2M3.gif
+############# TFTD MAGNETIC ION UNDERWATER #############
+  - typeSingle: UW_MAN_3F0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F0.gif
+  - typeSingle: UW_MAN_3F1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F1.gif
+  - typeSingle: UW_MAN_3F2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F2.gif
+  - typeSingle: UW_MAN_3F3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_2F3.gif
+    ########### MEN ###########
+  - typeSingle: UW_MAN_3M0.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_3M0.gif
+  - typeSingle: UW_MAN_3M1.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_3M1.gif
+  - typeSingle: UW_MAN_3M2.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_3M2.gif
+  - typeSingle: UW_MAN_3M3.SPK
+    fileSingle: Resources/UNITS/INVENTORY/UW_MAN_3M3.gif
+
+
+  - type: sectoidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/sectoid.png
+  - type: cyberdiscInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/cyberdisc.png
+  - type: floaterInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/floater.png
+  - type: reaperInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/reaper.png
+  - type: snakemanInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/snakeman.png
+  - type: chryssalidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/chryssalid.png
+  - type: zombieInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/zombie.png
+  - type: mutonInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/muton.png
+  - type: celatidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/celatid.png
+  - type: silacoidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/silacoid.png
+  - type: etherealInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/ethereal.png
+  - type: sectopodInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/sectopod.png
+  - type: civilianMInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/civilianm.png
+  - type: civilianFInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/civilianf.png      
+  - type: BACK01.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/b11.PNG
+  - type: BACK01.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/b11.PNG
+  - type: sectopod2InventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/sectopod.png
+  - type: Robot_P.PCK                                 
+    width: 263
+    height: 860
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/units/ROBOT_P.PNG
+  - type: Projectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/AlienArmouryExpanded/sectolaser_bullet.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      61: Resources/AlienArmouryExpanded/sectolaser_hit.gif
+  - type: tasothInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/tasoth.PNG     
+  - type: TrisceneInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Triscene.png
+  - type: aquatoidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/aquatoid.png
+  - type: tasothguardInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Tasothguard.png
+  - type: heavyAQUATOIDInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/heavyAQUATOID.png
+  - type: heavygillmanInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/heavygillman.png
+  - type: gillmanInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/gillman.PNG 
+  - type: lobstermanInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/lobsterman.PNG
+  - type: DeeponeInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Deepone.png
+  - type: XarquidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Xarquid.png
+  - type: CalciniteInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Calcinite.png
+  - type: Gill ManInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/GillMan.png
+  - type: BioDroneInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/BioDrone.png
+  - type: TentaculatInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Tentaculat.png
+  - type: HallucinoidInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/Hallucinoid.png
+  - type: NEW_ZOMBIEInventoryImage.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/ZOMBIE2.png
+################################################
+  - type: MUTON_SAVAGE_INVENTORY.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/MutonSavageInventory.png
+
+      ############################################
+  - type: NEW_ZOMBIE.PCK
+    width: 263                  
+    height: 1400                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/NEW_ZOMBIEV2.PNG 
+  - type: DEEPONE2.PCK
+    width: 256                  
+    height: 1320                 
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Units/DEEPONE2.PNG
+  - type: GILLMAN_F.PCK
+    width: 256                  
+    height: 1320                 
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/GILLMAN_F.PNG
+  - type: BIODRON.PCK
+    width: 256                 
+    height: 80                 
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/BIODRON.PNG
+  - type: TRISCEN.PCK 
+    width: 256                 
+    height: 800                 
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/TRISCEN.PNG
+  - type: heavygillman_sheet.PCK 
+    width: 256                 
+    height: 1320                 
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/heavygillman_sheet.PNG
+  - type: Tentac.PCK       
+    width: 256                 
+    height: 120                 
+    subX: 32                     
+    subY: 40                
+    files:
+      0: Resources/Units/Tentac.PNG
+  - type: CAL_2.PCK      # Calcanite Ion Armour 
+    width: 256                 
+    height: 120                 
+    subX: 32                     
+    subY: 40                
+    files:
+      0: Resources/Units/CAL_2.PNG
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 33
+    subX: 3
+    subY: 3
+    files:
+      0: Resources/BulletSprites/TFTD-UNDERWATER.png
+  - type: TEXTURE.DAT
+    width: 800
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Globe/Factions_new_Textures14.png
+  - type: Tasoths.PCK                 
+    files:
+      0: Units/TRISCEN.PNG
+  - type: OXCF-TDXCOM_0.PCK # this is the underwater only version
+    width: 256                  
+    height: 1440                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/OXCF-TDXCOM_0_V2.PNG
+  - type: OXCF-TDXCOM_1.PCK
+    width: 256                  
+    height: 1400                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/OXCF-TDXCOM_1.PNG
+  - type: OXCF-TDXCOM_2.PCK
+    width: 256                  
+    height: 1520                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/OXCF-TDXCOM_2.PNG
+#############################################
+############## SAVAGES ######################
+#############################################
+  - type: SAVAGE1.PCK
+    width: 512                  
+    height: 720                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/Savage_v3b.PNG
+  - type: MUTON_SAVAGE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1400
+    files:
+      0: Resources/Units/MutonSavageSpritesheet.png
+  - type: CIVM_ARMOR_ARMED.PCK
+    width: 256                  
+    height: 1400                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/WORKING_MALE_CIVS.PNG
+  - type: CIVF_ARMOR_ARMED.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/FINAL_GIRLS_CIV.PNG
+  - type: CYBORG_1.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/CYBORG_V5.png
+  - type: WANDERERS_1.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      # 0: Resources/DISPOSSESSED/1.GIF
+      0: Resources/DISPOSSESSED/WANDERES_V1B.png
+  - type: LOST_ONE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      # 0: Resources/DISPOSSESSED/1.GIF
+      # 0: Resources/DISPOSSESSED/LOSTONE_2c.png
+      0: Resources/DISPOSSESSED/LOSTONE_3_DARKg.png
+#############################################
+  - type: TANK_1.PCK #std tank sprites
+    width: 256                  
+    height: 1480                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/TANK_1.PNG
+  - type: HOVERTANK_1.PCK # std hovertank sprites
+    width: 256                  
+    height: 1480                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/HOVERTANK_1.PNG
+  - type: COELACANTH_1.PCK # std COELACANTH sprites
+    width: 256                  
+    height: 2320                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/COELACANTH_1.PNG
+  - type: DISPLACER_1.PCK # std displacer sprites
+    width: 256                  
+    height: 2320                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/DISPLACER_V3.PNG
+  - type: CYCLOPS.PCK # std displacer sprites
+    width: 325                 
+    height: 456                  
+    subX: 32                     
+    subY: 40                     
+    files:
+      0: Resources/Units/CYCLOPS_V2.PNG
+
+#############################################
+############## INHERITORS ###################
+#############################################
+
+  - type: LAND_WARRIOR_SOLDIER.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/LandWarriorSoldierSpritesheet.png
+
+  - type: ALPHA_FORCE_OPERATOR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/AlphaForceOperatorSpritesheet.png
+ 
+#############################################
+########### INHERITOR INVENTORY #############
+#############################################
+  - type: LAND_WARRIOR_SOLDIER_INVENTORY.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/LandWarriorSoldierInventory.png
+
+  - type: ALPHA_FORCE_OPERATOR_INVENTORY.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/AlienInventory/AlphaForceOperatorInventory.png
+
+

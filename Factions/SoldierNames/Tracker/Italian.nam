@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - Francesco
+  - Alessandro
+  - Andrea
+  - Lorenzo
+  - Matteo
+  - Mattia
+  - Gabriele
+  - Riccardo
+  - Davide
+  - Leonardo
+  - Federico
+  - Luca
+  - Marco
+  - Giuseppe
+  - Tommaso
+  - Antonio
+  - Simone
+  - Giovanni
+  - Samuele
+  - Christian
+  - Alessio
+  - Nicola
+  - Diego
+  - Pietro
+  - Filippo
+  - Edoardo
+  - Cristian
+  - Daniele
+  - Emanuele
+  - Michele
+  - Gennaro
+  - Vincenzo
+  - Pasquale
+  - Carmine
+  - Carmelo
+  - Paolo
+femaleFirst:
+  - Sofia
+  - Giulia
+  - Sara
+  - Martina
+  - Giorgia
+  - Chiara
+  - Aurora
+  - Alice
+  - Emma
+  - Alessia
+  - Anna
+  - Francesca
+  - Noemi
+  - Elisa
+  - Matilde
+  - Giada
+  - Gaia
+  - Greta
+  - Elena
+  - Beatrice
+  - Viola
+  - Rebecca
+  - Nicole
+  - Arianna
+  - Ginevra
+  - Vittoria
+  - Asia
+  - Ilaria
+  - Federica
+  - Marta
+maleLast:
+  - Rossi (TRACK)
+  - Russo (TRACK)
+  - Ferrari (TRACK)
+  - Esposito (TRACK)
+  - Bianchi (TRACK)
+  - Romano (TRACK)
+  - Colombo (TRACK)
+  - Ricci (TRACK)
+  - Marino (TRACK)
+  - Greco (TRACK)
+  - Bruno (TRACK)
+  - Gallo (TRACK)
+  - Conti (TRACK)
+  - De Luca (TRACK)
+  - Mancini (TRACK)
+  - Costa (TRACK)
+  - Giordano (TRACK)
+  - Rizzo (TRACK)
+  - Lombardi (TRACK)
+  - Moretti (TRACK)
+  - Barbieri (TRACK)
+  - Fontana (TRACK)
+  - Santoro (TRACK)
+  - Mariani (TRACK)
+  - Rinaldi (TRACK)
+  - Caruso (TRACK)
+  - Ferrara (TRACK)
+  - Galli (TRACK)
+  - Martini (TRACK)
+  - Leone (TRACK)
+  - Abate (TRACK)
+  - De Simone (TRACK)
+  - Albanese (TRACK)
+  - Genovese (TRACK)
+  - Sansone (TRACK)
+  - Zanon (TRACK)

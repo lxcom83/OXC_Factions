@@ -1,0 +1,99 @@
+lookWeights:
+  - 48
+  - 48
+  - 2
+  - 2
+maleFirst:
+  - Aidan
+  - Andrew
+  - Brendon
+  - Cathal
+  - Cian
+  - Cillian
+  - Conor
+  - Cormac
+  - Daniel
+  - Darragh
+  - David
+  - Donal
+  - Eoghan
+  - Eoin
+  - Finn
+  - Jack
+  - James
+  - John
+  - Liam
+  - Luke
+  - Michael
+  - Mick
+  - Oisin
+  - Owen
+  - Paddy
+  - Padraig
+  - Pat
+  - Patrick
+  - Pete
+  - Ronan
+  - Rory
+  - Sean
+  - Thomas
+femaleFirst:
+  - Aine
+  - Aisling
+  - Aoife
+  - Caoimhe
+  - Ciara
+  - Clara
+  - Fiona
+  - Grainne
+  - Karen
+  - Kate
+  - Kathleen
+  - Lisa
+  - Lorna
+  - Mary
+  - Michelle
+  - Niamh
+  - Orla
+  - Rachel
+  - Roisin
+  - Saoirse
+  - Sarah
+  - Shauna
+  - Sinead
+  - Siobhan
+maleLast:
+  - Brennan (TRACK)
+  - Burke (TRACK)
+  - Byrne (TRACK)
+  - Campbell (TRACK)
+  - Clarke (TRACK)
+  - Collins (TRACK)
+  - Doherty (TRACK)
+  - Doyle (TRACK)
+  - Dunn (TRACK)
+  - Duffy (TRACK)
+  - Farrell (TRACK)
+  - Flanagan (TRACK)
+  - Fitzgerald (TRACK)
+  - Fitzpatrick (TRACK)
+  - Flynn (TRACK)
+  - Gallagher (TRACK)
+  - Kavanagh (TRACK)
+  - Kelly (TRACK)
+  - Kennedy (TRACK)
+  - Lynch (TRACK)
+  - Maguire (TRACK)
+  - McCarthy (TRACK)
+  - McGrath (TRACK)
+  - Moore (TRACK)
+  - Murphy (TRACK)
+  - O'Brien (TRACK)
+  - O'Donnell (TRACK)
+  - O'Neill (TRACK)
+  - Quinn (TRACK)
+  - Reilly (TRACK)
+  - Ryan (TRACK)
+  - Sullivan (TRACK)
+  - Walsh   (TRACK)
+  - Whelan (TRACK)

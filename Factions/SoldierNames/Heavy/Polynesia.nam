@@ -1,0 +1,833 @@
+lookWeights:
+  - 0
+  - 2
+  - 49
+  - 49
+maleFirst:
+  - Aata
+  - Ata
+  - Atawhai
+  - Ahia
+  - Ahinariki
+  - Ahipene
+  - Apirana
+  - Apera
+  - Aperahama
+  - Arapeta
+  - Etera
+  - Hahona
+  - Haimona
+  - Haki
+  - Hara
+  - Hari
+  - Hatarei
+  - Hau
+  - Hehu
+  - Heketoro
+  - Hemi
+  - Hirini
+  - Hiruharama
+  - Hohepa
+  - Honi
+  - Honoiwairua
+  - Hukarere
+  - Hunapo
+  - Iarere
+  - Iehohapata
+  - Ieni
+  - Ietepere
+  - Ietoro
+  - Ihaia
+  - Ihaka
+  - Iharaira
+  - Ihimaera
+  - Ihipa
+  - Ihu
+  - Ikaroa
+  - Inoke
+  - Iorama
+  - Iorangi
+  - Iotama
+  - Ira
+  - Iraia
+  - Iwi
+  - Kai
+  - Kaihautu
+  - Kaili
+  - Kale
+  - Kamaka
+  - Kapena
+  - Kapono
+  - Keahi
+  - Keanu
+  - Kiritowha
+  - Konala
+  - Loe
+  - Mana
+  - Marama
+  - Matiu
+  - Maui
+  - Pio
+  - Piripi
+  - Rangi
+  - Ra
+  - Rameka
+  - Rapata
+  - Rongo
+  - Ruru
+  - Taine
+  - Tama
+  - Tamati
+  - Tane
+  - Tanemahuta
+  - Hatfacoa
+  - Tangi
+  - Tautoru
+  - Tui
+  - Wi
+  - Wiremu
+  - Wiri
+  - Wirimu
+femaleFirst:
+  - Ahere
+  - Ahorangi
+  - Ahuaiti
+  - Ahurewa
+  - Alamea
+  - Aolani
+  - Aratiki
+  - Arikiwi
+  - Aroha
+  - Arorangi
+  - Aruhe
+  - Awa
+  - Awi
+  - Ehetere
+  - Emauha
+  - Emere
+  - Emiri
+  - Epa
+  - Erena
+  - Erene
+  - Erenora
+  - Eruini
+  - Haeata
+  - Hahana
+  - Hakeke
+  - Hanga
+  - Harakeke
+  - Harata
+  - Haukiwaho
+  - Hauku
+  - Haumiaroa
+  - Hauora
+  - Haupuku
+  - Haurahi
+  - Hekeheke
+  - Heni
+  - Hepetema
+  - Hera
+  - Herene
+  - Hihiri
+  - Hinapouri
+  - Hine
+  - Hineana
+  - Hinemoana
+  - Hiri
+  - Hoane
+  - Hoata
+  - Hokioi
+  - Honemoana
+  - Horiana
+  - Horowai
+  - Hotoke
+  - Huhana
+  - Huia
+  - Hukapapa
+  - Ihapera
+  - Inia
+  - Iolana
+  - Irapeta
+  - Irihapeti
+  - Iritana
+  - Irueca
+  - Iucihi
+  - Iwa
+  - Iwalani
+  - Kahikatoa
+  - Kahu
+  - Kahurangi
+  - Kaiarahi
+  - Kaihautu
+  - Kaitaka
+  - Kakama
+  - Kakarauri
+  - Kakariki
+  - Kalea
+  - Kamea
+  - Keoni
+  - Kieli
+  - Kinipela
+  - Kiri
+  - Konane
+  - Kowhai
+  - Mariama
+  - Lahela
+  - Lani
+  - Lealani
+  - Leiko
+  - Liko
+  - Liliha
+  - Luana
+  - Lulani
+  - Maile
+  - Makani
+  - Mahinaarangi
+  - Maleah
+  - Malo
+  - Manaia
+  - Mele
+  - Miliani
+  - Moana
+  - Nalanie
+  - Ngaire
+  - Nohealani
+  - Oke
+  - Onaona  
+  - Papatuanuku
+  - Peata
+  - Petani
+  - Palila
+  - Pekelo
+  - Pilialoha
+  - Tama
+  - Tino Aroha
+  - Ulani
+  - Wiki
+  - Wikitoria
+maleLast:
+  - Amai (HEAVY)
+  - Aperahama (HEAVY)
+  - Atama (HEAVY)
+  - Ahipene (HEAVY)
+  - Ahitana (HEAVY)
+  - Ahuriri (HEAVY)
+  - Aihue (HEAVY)
+  - Akara (HEAVY)
+  - Akariri (HEAVY)
+  - Akuhata (HEAVY)
+  - Alana (HEAVY)
+  - Amohanga (HEAVY)
+  - Anaha (HEAVY)
+  - Anaru (HEAVY)
+  - Aotea (HEAVY)
+  - Apatari (HEAVY)
+  - Acatui (HEAVY)
+  - Ariari (HEAVY)
+  - A Tau (HEAVY)
+  - Atutahi (HEAVY)
+  - Awanui (HEAVY)
+  - Awatere (HEAVY)
+  - Ema (HEAVY)
+  - Eparaima (HEAVY)
+  - Erueti (HEAVY)
+  - Haehae (HEAVY)
+  - Haira (HEAVY)
+  - Hakaraia (HEAVY)
+  - Hakopa (HEAVY)
+  - Hale (HEAVY)
+  - Hamahona (HEAVY)
+  - Hape (HEAVY)
+  - Hapeta (HEAVY)
+  - Hapi (HEAVY)
+  - Hapimana (HEAVY)
+  - Hapuku (HEAVY)
+  - Harakeke (HEAVY)
+  - Harata (HEAVY)
+  - Harawira (HEAVY)
+  - Hari (HEAVY)
+  - Hatarini (HEAVY)
+  - Hatata (HEAVY)
+  - Hati (HEAVY)
+  - Haturini (HEAVY)
+  - Hau (HEAVY)
+  - Haua (HEAVY)
+  - Hauiti (HEAVY)
+  - Haukamau (HEAVY)
+  - Hauraki (HEAVY)
+  - Hautapu (HEAVY)
+  - Hautonga (HEAVY)
+  - Hautu (HEAVY)
+  - Hawea (HEAVY)
+  - Heka (HEAVY)
+  - Hekekia (HEAVY)
+  - Hemania (HEAVY)
+  - Hemara (HEAVY)
+  - Henare (HEAVY)
+  - Herangi (HEAVY)
+  - Herekiuha (HEAVY)
+  - Hereora (HEAVY)
+  - Heretini (HEAVY)
+  - Herewini (HEAVY)
+  - Heta (HEAVY)
+  - Hetaraka (HEAVY)
+  - Heteriki (HEAVY)
+  - Hikawai (HEAVY)
+  - Himiona (HEAVY)
+  - Hinekura (HEAVY)
+  - Hinerangi (HEAVY)
+  - Hinerau (HEAVY)
+  - Hinga (HEAVY)
+  - Hireme (HEAVY)
+  - Hirini (HEAVY)
+  - Hita (HEAVY)
+  - Hoani (HEAVY)
+  - Hoepo (HEAVY)
+  - Hoera (HEAVY)
+  - Hoeta (HEAVY)
+  - Hohaia (HEAVY)
+  - Hohapata (HEAVY)
+  - Hohepa (HEAVY)
+  - Hohia (HEAVY)
+  - Hokianga (HEAVY)
+  - Hokotoki (HEAVY)
+  - Hona (HEAVY)
+  - Hone (HEAVY)
+  - Honetana (HEAVY)
+  - Hongi (HEAVY)
+  - Hoori (HEAVY)
+  - Hopa (HEAVY)
+  - Hori (HEAVY)
+  - Horohau (HEAVY)
+  - Horomona (HEAVY)
+  - Horua (HEAVY)
+  - Hoterene (HEAVY)
+  - Hotu (HEAVY)
+  - Huatahi (HEAVY)
+  - Huhu (HEAVY)
+  - Huiarangia (HEAVY)
+  - Huka (HEAVY)
+  - Humana (HEAVY)
+  - Hunua (HEAVY)
+  - Hura (HEAVY)
+  - Huritu (HEAVY)
+  - Huriwaka (HEAVY)
+  - Ihaea (HEAVY)
+  - Ihaia (HEAVY)
+  - Iona (HEAVY)
+  - Irihapete (HEAVY)
+  - Irimana (HEAVY)
+  - Iti (HEAVY)
+  - Kahale (HEAVY)
+  - Kahananui (HEAVY)
+  - Kahele (HEAVY)
+  - Kahiwai (HEAVY)
+  - Kahiwirori (HEAVY)
+  - Kahue (HEAVY)
+  - Kahukakanui (HEAVY)
+  - Kahukura (HEAVY)
+  - Kaihau (HEAVY)
+  - Kaimoana (HEAVY)
+  - Kainamu (HEAVY)
+  - Kaingariro (HEAVY)
+  - Kainuku (HEAVY)
+  - Kaipapa (HEAVY)
+  - Kairau (HEAVY)
+  - Kaire (HEAVY)
+  - Kaiteke (HEAVY)
+  - Kaiwi (HEAVY)
+  - Kakewahine (HEAVY)
+  - Kalama (HEAVY)
+  - Kalani (HEAVY)
+  - Kalawai'a (HEAVY)
+  - Kalili (HEAVY)
+  - Kalua (HEAVY)
+  - Kama (HEAVY)
+  - Kamaka (HEAVY)
+  - Kamealoha (HEAVY)
+  - Kamira (HEAVY)
+  - Kamuwai (HEAVY)
+  - Kaneri (HEAVY)
+  - Kanuta (HEAVY)
+  - Kapene (HEAVY)
+  - Kaponga (HEAVY)
+  - Kapule (HEAVY)
+  - Karahina (HEAVY)
+  - Karaitiana (HEAVY)
+  - Karaka (HEAVY)
+  - Karakiakore (HEAVY)
+  - Karamaena (HEAVY)
+  - Kararene (HEAVY)
+  - Karati (HEAVY)
+  - Karekare (HEAVY)
+  - Kareko (HEAVY)
+  - Karena (HEAVY)
+  - Katene (HEAVY)
+  - Katete (HEAVY)
+  - Katipa (HEAVY)
+  - Kauamo (HEAVY)
+  - Kaui (HEAVY)
+  - Kaukau (HEAVY)
+  - Kaura (HEAVY)
+  - Kautarewa (HEAVY)
+  - Kawana (HEAVY)
+  - Kawai (HEAVY)
+  - Kawau (HEAVY)
+  - Ka'ana'ana (HEAVY)
+  - Ka'aukai (HEAVY)
+  - Ka'uhane (HEAVY)
+  - Kawiti (HEAVY)
+  - Keahi (HEAVY)
+  - Kealoha (HEAVY)
+  - Keawe (HEAVY)
+  - Kepa (HEAVY)
+  - Kekoa (HEAVY)
+  - Kelekolio (HEAVY)
+  - Keli'i (HEAVY)
+  - Kena (HEAVY)
+  - Keno (HEAVY)
+  - Kepa (HEAVY)
+  - Kerapa (HEAVY)
+  - Kereama (HEAVY)
+  - Kerei (HEAVY)
+  - Keremeneta (HEAVY)
+  - Kereoma (HEAVY)
+  - Kereopa (HEAVY)
+  - Kerepeti (HEAVY)
+  - Kereru (HEAVY)
+  - Kereti (HEAVY)
+  - Kewa (HEAVY)
+  - Kiarie (HEAVY)
+  - Kimura (HEAVY)
+  - Kingi (HEAVY)
+  - Kinihe (HEAVY)
+  - Kino Te Ahiwaka (HEAVY)
+  - Kirikino (HEAVY)
+  - Kirikiri (HEAVY)
+  - Kiriwi (HEAVY)
+  - Kiwara (HEAVY)
+  - Koha (HEAVY)
+  - Kohena (HEAVY)
+  - Kohikikko (HEAVY)
+  - Kohu (HEAVY)
+  - Kokiri (HEAVY)
+  - Komene (HEAVY)
+  - Koni (HEAVY)
+  - Koperau (HEAVY)
+  - Kopiri (HEAVY)
+  - Koroheke (HEAVY)
+  - Korohunga (HEAVY)
+  - Koroi Ngawhau (HEAVY)
+  - Kotuhi (HEAVY)
+  - Kouku (HEAVY)
+  - Kupa (HEAVY)
+  - Kurawhatia (HEAVY)
+  - Kuru (HEAVY)
+  - Kuti (HEAVY)
+  - Kane (HEAVY)
+  - Maaka (HEAVY)
+  - Maeka (HEAVY)
+  - Maere (HEAVY)
+  - Mahaka (HEAVY)
+  - Mahauariki (HEAVY)
+  - Mahelona (HEAVY)
+  - Mahe'ai (HEAVY)
+  - Mahia (HEAVY)
+  - Mahima (HEAVY)
+  - Mahoe (HEAVY)
+  - Mahoe (HEAVY)
+  - Mahu   (HEAVY)
+  - Mahuta (HEAVY)
+  - Mahutoto (HEAVY)
+  - Maihi (HEAVY)
+  - Maipi (HEAVY)
+  - Maka (HEAVY)
+  - Makara (HEAVY)
+  - Makatea (HEAVY)
+  - Makawe (HEAVY)
+  - Makiha (HEAVY)
+  - Makiri (HEAVY)
+  - Manawaroa (HEAVY)
+  - Mane (HEAVY)
+  - Mangu (HEAVY)
+  - Mania (HEAVY)
+  - Maniapoto (HEAVY)
+  - Manihera (HEAVY)
+  - Mare (HEAVY)
+  - Mareroa (HEAVY)
+  - Marino (HEAVY)
+  - Marore (HEAVY)
+  - Marupo (HEAVY)
+  - Matakorama (HEAVY)
+  - Matene (HEAVY)
+  - Matenga (HEAVY)
+  - Materoa (HEAVY)
+  - Matewhitu (HEAVY)
+  - Mau (HEAVY)
+  - Mauhana (HEAVY)
+  - Mauheni (HEAVY)
+  - Maukau (HEAVY)
+  - Mauwhata (HEAVY)
+  - Mawe (HEAVY)
+  - Mawhiu (HEAVY)
+  - Metua (HEAVY)
+  - Mihinui (HEAVY)
+  - Mikaere (HEAVY)
+  - Miki (HEAVY)
+  - Minapara (HEAVY)
+  - Mio (HEAVY)
+  - Moananui (HEAVY)
+  - Moeahu (HEAVY)
+  - Moera (HEAVY)
+  - Meoroa (HEAVY)
+  - Mohi (HEAVY)
+  - Moka (HEAVY)
+  - Moke (HEAVY)
+  - Moke Te Ora (HEAVY)
+  - Monita (HEAVY)
+  - Morehu (HEAVY)
+  - Morete (HEAVY)
+  - Morunga (HEAVY)
+  - Motutere (HEAVY)
+  - Muriwai (HEAVY)
+  - Muru (HEAVY)
+  - Munu (HEAVY)
+  - Natana (HEAVY)
+  - Nawaia (HEAVY)
+  - Neho (HEAVY)
+  - Nehua (HEAVY)
+  - Nene (HEAVY)
+  - Nepia (HEAVY)
+  - Ngahere (HEAVY)
+  - Ngahiwi (HEAVY)
+  - Ngahoro (HEAVY)
+  - Ngaia (HEAVY)
+  - Ngaio (HEAVY)
+  - Ngakaho (HEAVY)
+  - Ngamoenga (HEAVY)
+  - Ngamoki (HEAVY)
+  - Ngamu (HEAVY)
+  - Ngapune (HEAVY)
+  - Ngare (HEAVY)
+  - Ngarara (HEAVY)
+  - Ngata (HEAVY)
+  - Ngatai (HEAVY)
+  - Ngataierua (HEAVY)
+  - Ngataki (HEAVY)
+  - Ngatoko (HEAVY)
+  - Ngatono (HEAVY)
+  - Ngawe (HEAVY)
+  - Ngawharau (HEAVY)
+  - Ngerengere (HEAVY)
+  - Ngohe (HEAVY)
+  - Ngoungou (HEAVY)
+  - Nikau (HEAVY)
+  - Nikora (HEAVY)
+  - Nuitone (HEAVY)
+  - Nukaiahu (HEAVY)
+  - Nutana (HEAVY)
+  - Nutira (HEAVY)
+  - Ohutu (HEAVY)
+  - Oketopa (HEAVY)
+  - Oneroa (HEAVY)
+  - Otene (HEAVY)
+  - Otimi (HEAVY)
+  - Paekou (HEAVY)
+  - Paenga (HEAVY)
+  - Paerata (HEAVY)
+  - Paewai (HEAVY)
+  - Pahau (HEAVY)
+  - Pahi (HEAVY)
+  - Pahua (HEAVY)
+  - Pai (HEAVY)
+  - Paipa (HEAVY)
+  - Pairama (HEAVY)
+  - Pakau (HEAVY)
+  - Paki (HEAVY)
+  - Pakinui (HEAVY)
+  - Pakira (HEAVY)
+  - Paku (HEAVY)
+  - Palakiko (HEAVY)
+  - Panapa (HEAVY)
+  - Panera (HEAVY)
+  - Panina (HEAVY)
+  - Panoho (HEAVY)
+  - Paora (HEAVY)
+  - Papa Titore (HEAVY)
+  - Paparangi (HEAVY)
+  - Paraeroa (HEAVY)
+  - Paraha (HEAVY)
+  - Paraihe (HEAVY)
+  - Paranihi (HEAVY)
+  - Paranihihi (HEAVY)
+  - Paraone (HEAVY)
+  - Parata (HEAVY)
+  - Paratene (HEAVY)
+  - Paratini (HEAVY)
+  - Pare (HEAVY)
+  - Parehe (HEAVY)
+  - Parekaremu (HEAVY)
+  - Pareraukawa (HEAVY)
+  - Paringatai (HEAVY)
+  - Patariki (HEAVY)
+  - Patihana (HEAVY)
+  - Patu (HEAVY)
+  - Patuone (HEAVY)
+  - Patuwai (HEAVY)
+  - Patuwairua (HEAVY)
+  - Paura (HEAVY)
+  - Pauro (HEAVY)
+  - Pawhau (HEAVY)
+  - Peehikuru (HEAVY)
+  - Pepe (HEAVY)
+  - Peita (HEAVY)
+  - Peka (HEAVY)
+  - Peneha (HEAVY)
+  - Penehare (HEAVY)
+  - Peneta (HEAVY)
+  - Penetito (HEAVY)
+  - Pepene (HEAVY)
+  - Pera (HEAVY)
+  - Peraniko (HEAVY)
+  - Perawiti (HEAVY)
+  - Pereki (HEAVY)
+  - Perepe (HEAVY)
+  - Peri (HEAVY)
+  - Pihama (HEAVY)
+  - Pikari (HEAVY)
+  - Pio (HEAVY)
+  - Pirere (HEAVY)
+  - Pirika (HEAVY)
+  - Piripi (HEAVY)
+  - Piwari (HEAVY)
+  - Poa (HEAVY)
+  - Poaro (HEAVY)
+  - Pohe (HEAVY)
+  - Pohio (HEAVY)
+  - Pohopohe (HEAVY)
+  - Poiakino (HEAVY)
+  - Poihipi (HEAVY)
+  - Pokai (HEAVY)
+  - Pomana (HEAVY)
+  - Pomare (HEAVY)
+  - Popata (HEAVY)
+  - Potaka (HEAVY)
+  - Potangaroa (HEAVY)
+  - Potatau (HEAVY)
+  - Poti (HEAVY)
+  - Potiki (HEAVY)
+  - Pouhiki (HEAVY)
+  - Pourewa (HEAVY)
+  - Pouwhare (HEAVY)
+  - Puanga (HEAVY)
+  - Puano (HEAVY)
+  - Puhi (HEAVY)
+  - Phutaniwharau (HEAVY)
+  - Puku (HEAVY)
+  - Puna (HEAVY)
+  - Pura (HEAVY)
+  - Puru (HEAVY)
+  - Purukama (HEAVY)
+  - Puti (HEAVY)
+  - Purutanga (HEAVY)
+  - Raharuhi (HEAVY)
+  - Raihania (HEAVY)
+  - Rakete (HEAVY)
+  - Raki (HEAVY)
+  - Rakiraki (HEAVY)
+  - Rako (HEAVY)
+  - Ranana (HEAVY)
+  - Rangihaeata (HEAVY)
+  - Rangimakere (HEAVY)
+  - Rangipaeroa (HEAVY)
+  - Rangiatakaiwaho (HEAVY)
+  - Rangitaura (HEAVY)
+  - Rangitukiwaho (HEAVY)
+  - Rangiwai (HEAVY)
+  - Rapana (HEAVY)
+  - Rapihana (HEAVY)
+  - Rapira (HEAVY)
+  - Raponi (HEAVY)
+  - Rarere (HEAVY)
+  - Ratahi (HEAVY)
+  - Ratima (HEAVY)
+  - Rauhihi (HEAVY)
+  - Rautangi (HEAVY)
+  - Rawiri (HEAVY)
+  - Rehanga (HEAVY)
+  - Rehutai (HEAVY)
+  - Rei (HEAVY)
+  - Reihana (HEAVY)
+  - Remaha (HEAVY)
+  - Remi (HEAVY)
+  - Remihana (HEAVY)
+  - Renata (HEAVY)
+  - Rerekura (HEAVY)
+  - Reweti (HEAVY)
+  - Rewi (HEAVY)
+  - Rewiti (HEAVY)
+  - Ria (HEAVY)
+  - Rihari (HEAVY)
+  - Rihia (HEAVY)
+  - Riki (HEAVY)
+  - Rikirangi (HEAVY)
+  - Riwhi (HEAVY)
+  - Romana (HEAVY)
+  - Rona (HEAVY)
+  - Ronaki (HEAVY)
+  - Ropata (HEAVY)
+  - Rotoatara (HEAVY)
+  - Tuatara (HEAVY)
+  - Ruawai (HEAVY)
+  - Ruepena (HEAVY)
+  - Ruka (HEAVY)
+  - Rukutai (HEAVY)
+  - Rupaha (HEAVY)
+  - Rurawhe (HEAVY)
+  - Ruru (HEAVY)
+  - Ruwhiu (HEAVY)
+  - Te Puke Nui (HEAVY)
+  - Tare (HEAVY)
+  - Taekata (HEAVY)
+  - Tahana (HEAVY)
+  - Tahere (HEAVY)
+  - Tai (HEAVY)
+  - Taiapa (HEAVY)
+  - Taiaroa (HEAVY)
+  - Taimana (HEAVY)
+  - Taimona (HEAVY)
+  - Taipari (HEAVY)
+  - Taite (HEAVY)
+  - Taitimu (HEAVY)
+  - Taitua (HEAVY)
+  - Tautuha (HEAVY)
+  - Taka (HEAVY)
+  - Takao (HEAVY)
+  - Takarangi (HEAVY)
+  - Takimoana (HEAVY)
+  - Takitimu (HEAVY)
+  - Takoto (HEAVY)
+  - Takuira (HEAVY)
+  - Tamahana (HEAVY)
+  - Tamaikoha (HEAVY)
+  - Tamainu (HEAVY)
+  - Tamaiparea (HEAVY)
+  - Tamaka (HEAVY)
+  - Tamakaha (HEAVY)
+  - Tamaki (HEAVY)
+  - Tamaoho (HEAVY)
+  - Tamapahore (HEAVY)
+  - Tamarau (HEAVY)
+  - Tamatea (HEAVY)
+  - Tamati (HEAVY)
+  - Tamawaru (HEAVY)
+  - Tamihana (HEAVY)
+  - Tamihaua (HEAVY)
+  - Tanara (HEAVY)
+  - Tangaroa (HEAVY)
+  - Tangipo (HEAVY)
+  - Tangohau (HEAVY)
+  - Taniora (HEAVY)
+  - Taniwha (HEAVY)
+  - Tarakaho (HEAVY)
+  - Taranui (HEAVY)
+  - Taratoa (HEAVY)
+  - Tareha (HEAVY)
+  - Tareuke (HEAVY)
+  - tata (HEAVY)
+  - Tau (HEAVY)
+  - Taua (HEAVY)
+  - Tauhore (HEAVY)
+  - taui (HEAVY)
+  - Taira (HEAVY)
+  - Taukamo (HEAVY)
+  - Taumatahera (HEAVY)
+  - Taupo (HEAVY)
+  - Taurua (HEAVY)
+  - Tautari (HEAVY)
+  - Tautuhi (HEAVY)
+  - Tawera (HEAVY)
+  - Tawhai (HEAVY)
+  - Tawhara (HEAVY)
+  - Te Ahwaka (HEAVY)
+  - Te Aho (HEAVY)
+  - Te Akau (HEAVY)
+  - Te Ao (HEAVY)
+  - Te Apa (HEAVY)
+  - Te Aranui (HEAVY)
+  - Te Atua (HEAVY)
+  - Te Awa (HEAVY)
+  - Te Hae (HEAVY)
+  - Te Huia (HEAVY)
+  - Te Kanawa (HEAVY)
+  - Te Kataua (HEAVY)
+  - Te Kepa (HEAVY)
+  - Te Mana (HEAVY)
+  - Te Nga (HEAVY)
+  - Te Owai (HEAVY)
+  - Te Papa (HEAVY)
+  - Te Peke (HEAVY)
+  - Te Tuhi (HEAVY)
+  - Tei (HEAVY)
+  - Tekoikoi (HEAVY)
+  - Tepeke (HEAVY)
+  - Tepere (HEAVY)
+  - Teraki (HEAVY)
+  - Teriroa (HEAVY)
+  - Teremai (HEAVY)
+  - Timu (HEAVY)
+  - Tipene (HEAVY)
+  - Toia (HEAVY)
+  - Tokona (HEAVY)
+  - Tongariro (HEAVY)
+  - Taumaunu (HEAVY)
+  - Tuhapo (HEAVY)
+  - Tuke (HEAVY)
+  - Tupe (HEAVY)
+  - Turei (HEAVY)
+  - Wahi (HEAVY)
+  - Waka (HEAVY)
+  - Wara (HEAVY)
+  - Waiariki (HEAVY)
+  - Waiata (HEAVY)
+  - Waihape (HEAVY)
+  - Wainohu (HEAVY)
+  - Waiohenga (HEAVY)
+  - Waipa (HEAVY)
+  - Waipouri (HEAVY)
+  - Wairua (HEAVY)
+  - Waitara (HEAVY)
+  - Waitoa (HEAVY)
+  - Waitokia (HEAVY)
+  - Waiwiri (HEAVY)
+  - Wanoa (HEAVY)
+  - Wanui (HEAVY)
+  - Warakihi (HEAVY)
+  - Warana (HEAVY)
+  - Warauri (HEAVY)
+  - Warena (HEAVY)
+  - Watene (HEAVY)
+  - Wati (HEAVY)
+  - Wehipeihana (HEAVY)
+  - Wepiha (HEAVY)
+  - Whanga (HEAVY)
+  - Whaekiri (HEAVY)
+  - Whaitiri (HEAVY)
+  - Whakaari (HEAVY)
+  - Whakaata (HEAVY)
+  - Whanaupunga (HEAVY)
+  - Whangapirita (HEAVY)
+  - Wharekawa (HEAVY)
+  - Wharekiri (HEAVY)
+  - Wharepapa (HEAVY)
+  - Wharerau (HEAVY)
+  - Whati (HEAVY)
+  - Whetu (HEAVY)
+  - Whiu (HEAVY)
+  - Wihapi (HEAVY)
+  - Wikaire (HEAVY)
+  - Wikitapu (HEAVY)
+  - Witana (HEAVY)
+  - Witehira (HEAVY)
+  - Witika (HEAVY)
+  - Akamu (HEAVY)

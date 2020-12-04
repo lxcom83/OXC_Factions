@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Jan
+  - Andrzej
+  - Piotr
+  - Krzysztof
+  - Stanislaw
+  - Tomasz
+  - Pawel
+  - Jozef
+  - Marcin
+  - Marek
+  - Michal
+  - Grzegorz
+  - Jerzy
+  - Tadeusz
+  - Adam
+  - Lukasz
+  - Zbigniew
+  - Ryszard
+  - Dariusz
+  - Henryk
+  - Mariusz
+  - Kazimierz
+  - Wojciech
+  - Robert
+  - Mateusz
+  - Marian
+  - Rafal
+  - Jacek
+  - Janusz
+  - Miroslaw  
+femaleFirst:
+  - Anna
+  - Maria
+  - Katarzyna
+  - Malgorzata
+  - Agnieszka
+  - Krystyna
+  - Barbara
+  - Ewa
+  - Elzbieta
+  - Zofia
+  - Janina
+  - Teresa
+  - Joanna
+  - Magdalena
+  - Monika
+  - Jadwiga
+  - Danuta
+  - Irena
+  - Halina
+  - Helena
+  - Beata
+  - Aleksandra
+  - Marta
+  - Dorota
+  - Marianna
+  - Grazyna
+  - Jolanta
+  - Stanislawa
+  - Iwona
+  - Karolina
+maleLast:
+  - Nowak (BRAW)
+  - Kowalski (BRAW)
+  - Wisniewski (BRAW)
+  - Dabrowski (BRAW)
+  - Lewandowski (BRAW)
+  - Wojcik (BRAW)
+  - Kaminski (BRAW)
+  - Kowalczyk (BRAW)
+  - Zielinski (BRAW)
+  - Szymanski (BRAW)
+  - Wozniak (BRAW)
+  - Kozlowski (BRAW)
+  - Jankowski (BRAW)
+  - Wojciechowski (BRAW)
+  - Kwiatkowski (BRAW)
+  - Kaczmarek (BRAW)
+  - Mazur (BRAW)
+  - Krawczyk (BRAW)
+  - Piotrowski (BRAW)
+  - Grabowski (BRAW)
+  - Nowakowski (BRAW)
+  - Pawlowski (BRAW)
+  - Michalski (BRAW)
+  - Nowicki (BRAW)
+  - Adamczyk (BRAW)
+  - Dudek (BRAW)
+  - Zajac (BRAW)
+  - Wieczorek (BRAW)
+  - Jablonski (BRAW)
+  - Krol (BRAW)
+femaleLast:
+  - Nowak (BRAW)
+  - Kowalska (BRAW)
+  - Wisniewska (BRAW)
+  - Dabrowska (BRAW)
+  - Lewandowska (BRAW)
+  - Wojcik (BRAW)
+  - Kaminska (BRAW)
+  - Kowalczyk (BRAW)
+  - Zielinska (BRAW)
+  - Szymanska (BRAW)
+  - Wozniak (BRAW)
+  - Kozlowska (BRAW)
+  - Jankowska (BRAW)
+  - Wojciechowska (BRAW)
+  - Kwiatkowska (BRAW)
+  - Kaczmarek (BRAW)
+  - Mazur (BRAW)
+  - Krawczyk (BRAW)
+  - Piotrowska (BRAW)
+  - Grabowska (BRAW)
+  - Nowakowska (BRAW)
+  - Pawlowska (BRAW)
+  - Michalska (BRAW)
+  - Nowicka (BRAW)
+  - Adamczyk (BRAW)
+  - Dudek (BRAW)
+  - Zajac (BRAW)
+  - Wieczorek (BRAW)
+  - Jablonska (BRAW)
+  - Krol (BRAW)

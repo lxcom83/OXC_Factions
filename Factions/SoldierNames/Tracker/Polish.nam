@@ -1,0 +1,129 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Jan
+  - Andrzej
+  - Piotr
+  - Krzysztof
+  - Stanislaw
+  - Tomasz
+  - Pawel
+  - Jozef
+  - Marcin
+  - Marek
+  - Michal
+  - Grzegorz
+  - Jerzy
+  - Tadeusz
+  - Adam
+  - Lukasz
+  - Zbigniew
+  - Ryszard
+  - Dariusz
+  - Henryk
+  - Mariusz
+  - Kazimierz
+  - Wojciech
+  - Robert
+  - Mateusz
+  - Marian
+  - Rafal
+  - Jacek
+  - Janusz
+  - Miroslaw  
+femaleFirst:
+  - Anna
+  - Maria
+  - Katarzyna
+  - Malgorzata
+  - Agnieszka
+  - Krystyna
+  - Barbara
+  - Ewa
+  - Elzbieta
+  - Zofia
+  - Janina
+  - Teresa
+  - Joanna
+  - Magdalena
+  - Monika
+  - Jadwiga
+  - Danuta
+  - Irena
+  - Halina
+  - Helena
+  - Beata
+  - Aleksandra
+  - Marta
+  - Dorota
+  - Marianna
+  - Grazyna
+  - Jolanta
+  - Stanislawa
+  - Iwona
+  - Karolina
+maleLast:
+  - Nowak (TRACK)
+  - Kowalski (TRACK)
+  - Wisniewski (TRACK)
+  - Dabrowski (TRACK)
+  - Lewandowski (TRACK)
+  - Wojcik (TRACK)
+  - Kaminski (TRACK)
+  - Kowalczyk (TRACK)
+  - Zielinski (TRACK)
+  - Szymanski (TRACK)
+  - Wozniak (TRACK)
+  - Kozlowski (TRACK)
+  - Jankowski (TRACK)
+  - Wojciechowski (TRACK)
+  - Kwiatkowski (TRACK)
+  - Kaczmarek (TRACK)
+  - Mazur (TRACK)
+  - Krawczyk (TRACK)
+  - Piotrowski (TRACK)
+  - Grabowski (TRACK)
+  - Nowakowski (TRACK)
+  - Pawlowski (TRACK)
+  - Michalski (TRACK)
+  - Nowicki (TRACK)
+  - Adamczyk (TRACK)
+  - Dudek (TRACK)
+  - Zajac (TRACK)
+  - Wieczorek (TRACK)
+  - Jablonski (TRACK)
+  - Krol (TRACK)
+femaleLast:
+  - Nowak (TRACK)
+  - Kowalska (TRACK)
+  - Wisniewska (TRACK)
+  - Dabrowska (TRACK)
+  - Lewandowska (TRACK)
+  - Wojcik (TRACK)
+  - Kaminska (TRACK)
+  - Kowalczyk (TRACK)
+  - Zielinska (TRACK)
+  - Szymanska (TRACK)
+  - Wozniak (TRACK)
+  - Kozlowska (TRACK)
+  - Jankowska (TRACK)
+  - Wojciechowska (TRACK)
+  - Kwiatkowska (TRACK)
+  - Kaczmarek (TRACK)
+  - Mazur (TRACK)
+  - Krawczyk (TRACK)
+  - Piotrowska (TRACK)
+  - Grabowska (TRACK)
+  - Nowakowska (TRACK)
+  - Pawlowska (TRACK)
+  - Michalska (TRACK)
+  - Nowicka (TRACK)
+  - Adamczyk (TRACK)
+  - Dudek (TRACK)
+  - Zajac (TRACK)
+  - Wieczorek (TRACK)
+  - Jablonska (TRACK)
+  - Krol (TRACK)

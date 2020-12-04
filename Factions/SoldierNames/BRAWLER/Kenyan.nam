@@ -1,0 +1,727 @@
+lookWeights:
+  - 0
+  - 0
+  - 1
+  - 99
+maleFirst:
+  - Abasi
+  - Adin
+  - Akili
+  - Amali
+  - Amaziah
+  - Ashura
+  - Chege
+  - Chilemba
+  - Chitundu
+  - Chiumbo
+  - Darweshi
+  - Etana
+  - Fadhili
+  - Feruzi
+  - Gachora
+  - Gacoki
+  - Gakere
+  - Gakuru
+  - Gatete
+  - Gathee
+  - Gathii
+  - Gatimu
+  - Gethii
+  - Gichinga
+  - Gicicio
+  - Gikuyu
+  - Githinji
+  - Githogori
+  - Gitonga
+  - Haji
+  - Hala
+  - Hamisi
+  - Hiuhu
+  - Ikinya
+  - Iregi
+  - Irungu
+  - Ita
+  - Itimu
+  - Jaramogi
+  - Jalil
+  - Jimiyu
+  - Jomo
+  - Jamil
+  - Juahar
+  - Jimiyu
+  - Jina
+  - Jirani
+  - Jomo
+  - Kafil
+  - Kagai
+  - Kagunda
+  - Kahiga
+  - Kairu
+  - Kamau
+  - Kamili
+  - Kanja
+  - Kanoro
+  - Karani
+  - Karega
+  - Kariuki
+  - Kereenyaga
+  - Kiambiroiro
+  - Kianjahe
+  - Kiano
+  - Kianyandaarwa
+  - Kiara
+  - Kifimbo
+  - Kihara
+  - Kihiga
+  - Kimathi
+  - Kimotho
+  - Kinoro
+  - Kinyua
+  - Kioi
+  - Kirimi
+  - Kirinyaga
+  - Kithingi
+  - Kiwonto
+  - Koigi
+  - Kuguru
+  - Kwasi
+  - Lipapwiche
+  - Lisimba
+  - Lusala
+  - Macaria
+  - Maina
+  - Maitho
+  - Makalani
+  - Makori
+  - Mathaathi
+  - Matu
+  - Matunde
+  - Maundu
+  - Mbogo
+  - Mbui
+  - Miano
+  - Migwi
+  - Mokabi
+  - Morani
+  - Mosi
+  - Muenda
+  - Muga
+  - Mugendi
+  - Mugi
+  - Mugo
+  - Muiru
+  - Muiruri
+  - Mukanda
+  - Mukiri
+  - Mukuru
+  - Munene
+  - Munoru
+  - Muraguri
+  - Murathi
+  - Muraya
+  - Muriithi
+  - Murimi
+  - Muriu
+  - Muriuki
+  - Muroki
+  - Muruthi
+  - Mutahi
+  - Mutegi
+  - Mutemi
+  - Muthee
+  - Muthemba
+  - Muthengi
+  - Mutheru
+  - Muthomi
+  - Muthuri
+  - Mutira
+  - Mutiri
+  - Mutitu
+  - Mutonyi
+  - Mutua
+  - Muturi
+  - Muugi
+  - Mwaka
+  - Mwangi
+  - Mwara
+  - Mwarania
+  - Mwaria
+  - Mwenda
+  - Nangila
+  - Nangwaya
+  - Ndegwa
+  - Ndemi
+  - Nderu
+  - Ndwiga
+  - Ngare
+  - Ngigi
+  - Ngumo
+  - Njama
+  - Njanu
+  - Njata
+  - Njau
+  - Njiraini
+  - Njiru
+  - Njogu
+  - Njora
+  - Njowga
+  - Njururi
+  - Nyachae
+  - Nyaga
+  - Nyamu
+  - Nyatui
+  - Nyoike
+  - Obama
+  - Obuya
+  - Ochieng
+  - Odikinyi
+  - Odinga
+  - Odonga
+  - Odour
+  - Ohon
+  - Ojwang
+  - Okello
+  - Okeyo
+  - Okoth
+  - Oluoch
+  - Omariba
+  - Omondi
+  - Omwancha
+  - Ongweng
+  - Onindo
+  - Onkwani
+  - Onyango
+  - Opiyo
+  - Osogo
+  - Othiambo
+  - Otenio
+  - Owino
+  - Owiti
+  - Owuor
+  - Pili
+  - Radhi
+  - Riitho
+  - Ruguru
+  - Ruhiu
+  - Runo
+  - Sabra
+  - Safi
+  - Shamim
+  - Shani
+  - Simba
+  - Sokoro
+  - Thabiti
+  - Tumaini
+  - Tuwile
+  - Wachiru
+  - Waga
+  - Waithaka
+  - Waitimu
+  - Waiyaki
+  - Wamai
+  - Wambua
+  - Wamugunda
+  - Wamukota
+  - Wamwara
+  - Wangombe
+  - Wangondu
+  - Wanjala
+  - Wanjohi
+  - Wanyanga
+  - Waruhiu
+  - Warui
+  - Waweru
+  - Wekesa
+femaleFirst:
+  - Aaliyah
+  - Adhra
+  - Adila
+  - Adimu
+  - Adin
+  - Adla
+  - Afaafa
+  - Afifa
+  - Afifah
+  - Afiya
+  - Afrika
+  - Afya
+  - Ahadi
+  - Aida
+  - Ainra
+  - Ajia
+  - Akello
+  - Akila
+  - Akilah
+  - Akili
+  - Aliya
+  - Almasi
+  - Aluna
+  - Amali
+  - Amana
+  - Amaziah
+  - Amina
+  - Aminah
+  - Aminali
+  - Aminifu
+  - Amira
+  - Amne
+  - Angavu
+  - Anisun
+  - Arafa
+  - Arifa
+  - Arusi
+  - Asali
+  - Asatira
+  - Asha
+  - Ashura
+  - Asilia
+  - Asiya
+  - Asma
+  - Asmahani
+  - Asumini
+  - Asya
+  - Awena
+  - Aza
+  - Aziza
+  - Badriya
+  - Bahati
+  - Bahiya
+  - Barke
+  - Basha
+  - Bashaam
+  - Bashira
+  - Basma
+  - Basmah
+  - Batuuli
+  - Baya
+  - Bayyina
+  - Bebi
+  - Bia
+  - Bimbaya
+  - Bimdogo
+  - Bimkubwa
+  - Bimnono
+  - Bishara
+  - Bitisururu
+  - Bititi
+  - Biubwa
+  - Buqisi
+  - Busara
+  - Bushira
+  - Chaniya
+  - Chausiku
+  - Chiku
+  - Chuki
+  - Dabiku
+  - Dafina
+  - Dalila
+  - Dalili
+  - Damisi
+  - Dhakiya
+  - Dhambizao
+  - Dhuriya
+  - Dodo
+  - Ducha
+  - Duni
+  - Durah
+  - Durra
+  - Eidi
+  - Eshe
+  - Etana
+  - Fadhila
+  - Fadhili
+  - Fadiya
+  - Fadari
+  - Fahima
+  - Fahimah
+  - Faida
+  - Faika
+  - Faiza
+  - Faizah
+  - Fanaka
+  - Fanikia
+  - Faraja
+  - Farashuu
+  - Farida
+  - Farisi
+  - Fasaha
+  - Fathiya
+  - Fatima
+  - Fatuma
+  - Fauziya
+  - Feruzi
+  - Fila
+  - Firdawsi
+  - Firyali
+  - Fujo
+  - Furaha
+  - Gasira
+  - Ghalyela
+  - Ghanima
+  - Gharibuu
+  - Gheche
+  - Ghinjo
+  - Ghipe
+  - Habeebah
+  - Habiba
+  - Habibah
+  - Hadhi
+  - Hadiya
+  - Hafidha
+  - Hafsa
+  - Hafsah
+  - Haiba
+  - Haifa
+  - Hakika
+  - Hakima
+  - Hala
+  - Halili
+  - Halima
+  - Halisi
+  - Hamida
+  - Hanaa
+  - Hanifa
+  - Hanuni
+  - Haoniyao
+  - Harbuu
+  - Hartha
+  - Hasanati
+  - Hashiki
+  - Hasijna
+  - Hasina
+  - Hasnaa
+  - Hawa
+  - Hawla
+  - Hazina
+  - Hediye
+  - Hiari
+  - Hiba
+  - Hidaya
+  - Himidi
+  - Hisani
+  - Huruma
+  - Ibtisam
+  - Ikinya
+  - Ilham
+  - Inaya
+  - Intisar
+  - Ita
+  - Itidal
+  - Jaha
+  - Jahi
+  - Jamila
+  - Jana
+  - Jauhar
+  - Jina
+  - Jirani
+  - Johanna
+  - Johari
+  - Jokha
+  - Jumapili
+  - Juwayria
+  - Kabisa
+  - Kadija
+  - Kainda
+  - Kamaria
+  - Kamili
+  - Kanai
+  - Kanika
+  - Karama
+  - Karima
+  - Karimu
+  - Kaweria
+  - Kesi
+  - Khadija
+  - Kibibi
+  - Kifimbo
+  - Kijakazi
+  - Kinaya
+  - Kioni
+  - Kipenzi
+  - Kisima
+  - Kito
+  - Lamia
+  - Latifa
+  - Latifah
+  - Latifu
+  - Layla
+  - Lela
+  - Lila
+  - Madaha
+  - Madiha
+  - Maisha
+  - Makena
+  - Makini
+  - Malaika
+  - Malia
+  - Malika
+  - Malkia
+  - Mariamu
+  - Marini
+  - Marjani
+  - Mashavu
+  - Masika
+  - Maskini
+  - Maulidi
+  - Merah
+  - Mila
+  - Mosi
+  - Muna
+  - Munira
+  - Murua
+  - Mwajuma
+  - Mwamini
+  - Mwasaa
+  - Nabila
+  - Nadra
+  - Nafula
+  - Naima
+  - Najia
+  - Najma
+  - Nana
+  - Ndege
+  - Neema
+  - Nena
+  - Ngina
+  - Nia
+  - Niara
+  - Njeri
+  - Nuha
+  - Nura
+  - Nuru
+  - Paka
+  - Panya
+  - Pasua
+  - Pili
+  - Rabia
+  - Radhi
+  - Rahma
+  - Ramla
+  - Raziya
+  - Reem
+  - Rehema
+  - Rim
+  - Rukiya
+  - Ruqayah
+  - Saada
+  - Sabiha
+  - Sabra
+  - Sadaka
+  - Sadiki
+  - Saida
+  - Sakina
+  - Sala
+  - Salama
+  - Salima
+  - Samiha
+  - Samira
+  - Sanaa
+  - Sanura
+  - Sauda
+  - Shahida
+  - Shamim
+  - Shani
+  - Sharifa
+  - Shawana
+  - Shukura
+  - Siham
+  - Sikudhani
+  - Siri
+  - Sisya
+  - Siti
+  - Subira
+  - Suhaila
+  - Tabia
+  - Tamasha
+  - Tatu
+  - Tawa
+  - Tuhfa
+  - Tumaini
+  - Wambui
+  - Waseme
+  - Yumna
+  - Pusra
+  - Zahra
+  - Zaida
+  - Zaina
+  - Zainabu
+  - Zakiya
+  - Zalika
+  - Zarifa
+  - Zarina
+  - Zawadi
+  - Zera
+  - Zulaykha
+  - Zulekha
+  - Zuwena
+maleLast:
+  - Abdullah (BRAW)
+  - Aga (BRAW)
+  - Ahmed (BRAW)
+  - Akina (BRAW)
+  - Ali (BRAW)
+  - Amanaka (BRAW)
+  - Ambani (BRAW)
+  - Amin (BRAW)
+  - Aneko (BRAW)
+  - Asoyo (BRAW)
+  - Atieno (BRAW)
+  - Audi (BRAW)
+  - Badat (BRAW)
+  - Barasa (BRAW)
+  - Bhudia (BRAW)
+  - Bilali (BRAW)
+  - Birir (BRAW)
+  - Biwott (BRAW)
+  - Boit (BRAW)
+  - Chege (BRAW)
+  - Chelimo (BRAW)
+  - Chepchumba (BRAW)
+  - Chudasama (BRAW)
+  - Daar (BRAW)
+  - Echesa (BRAW)
+  - Ekhalie (BRAW)
+  - Ereng (BRAW)
+  - Gikonyo (BRAW)
+  - Inkera (BRAW)
+  - Irungu (BRAW)
+  - Itote (BRAW)
+  - Jakoyo (BRAW)
+  - Janmohamed (BRAW)
+  - Jesani (BRAW)
+  - Kagwe (BRAW)
+  - Kamande (BRAW)
+  - Kamaru (BRAW)
+  - Kamau (BRAW)
+  - Kamotho (BRAW)
+  - Karanja (BRAW)
+  - Karim (BRAW)
+  - Kariuki (BRAW)
+  - Karumba (BRAW)
+  - Kayange (BRAW)
+  - Keino (BRAW)
+  - Kenga (BRAW)
+  - Kenyatta (BRAW)
+  - Kiano (BRAW)
+  - Kibaki (BRAW)
+  - Kijana (BRAW)
+  - Kimathi (BRAW)
+  - Kimunya (BRAW)
+  - Kipketer (BRAW)
+  - Kipyego (BRAW)
+  - Kitur (BRAW)
+  - Koinange (BRAW)
+  - Konde (BRAW)
+  - Lagat (BRAW)
+  - Loroupe (BRAW)
+  - Luseno (BRAW)
+  - Luvutsi (BRAW)
+  - Macharia (BRAW)
+  - Machogu (BRAW)
+  - Magugu (BRAW)
+  - Makacha (BRAW)
+  - Maruti (BRAW)
+  - Masai (BRAW)
+  - Mathenge (BRAW)
+  - Matiba (BRAW)
+  - Mazrui (BRAW)
+  - Mboya (BRAW)
+  - Mdawida (BRAW)
+  - Mehta (BRAW)
+  - Michucki (BRAW)
+  - Migai (BRAW)
+  - Misiani (BRAW)
+  - Modi (BRAW)
+  - Moi (BRAW)
+  - Muchoki (BRAW)
+  - Mudavadi (BRAW)
+  - Muiruri (BRAW)
+  - Mulama (BRAW)
+  - Muliro (BRAW)
+  - Mumba (BRAW)
+  - Murumbi (BRAW)
+  - Murunga (BRAW)
+  - Murungaru (BRAW)
+  - Musyoka (BRAW)
+  - Muttendango (BRAW)
+  - Mwangi (BRAW)
+  - Mwariama (BRAW)
+  - Mwatha (BRAW)
+  - Ndege (BRAW)
+  - Ndereba (BRAW)
+  - Ngei (BRAW)
+  - Ngoche (BRAW)
+  - Ngugi (BRAW)
+  - Njenga (BRAW)
+  - Njonjo (BRAW)
+  - Njoroge (BRAW)
+  - Njue (BRAW)
+  - Ntalami (BRAW)
+  - Nyachae (BRAW)
+  - Nyandoro (BRAW)
+  - Obama (BRAW)
+  - Obanda (BRAW)
+  - Obuya (BRAW)
+  - Ochieng (BRAW)
+  - Odera (BRAW)
+  - Odhiambo (BRAW)
+  - Odinga (BRAW)
+  - Odumbe (BRAW)
+  - Oduol (BRAW)
+  - Oduor (BRAW)
+  - Ogola (BRAW)
+  - Ogot (BRAW)
+  - Okayo (BRAW)
+  - Okoth (BRAW)
+  - Okumu (BRAW)
+  - Oliech (BRAW)
+  - Olum (BRAW)
+  - Omondi (BRAW)
+  - Ongondo (BRAW)
+  - Onyango (BRAW)
+  - Orengo (BRAW)
+  - Origi (BRAW)
+  - Osiako (BRAW)
+  - Otieno (BRAW)
+  - Otunga (BRAW)
+  - Ouko (BRAW)
+  - Ouma (BRAW)
+  - Oyuga (BRAW)
+  - Patel (BRAW)
+  - Pinto (BRAW)
+  - Quaraishy (BRAW)
+  - Ramrakha (BRAW)
+  - Ring (BRAW)
+  - Rombo (BRAW)
+  - Rono (BRAW)
+  - Rubia (BRAW)
+  - Sadiq (BRAW)
+  - Sande (BRAW)
+  - Santos (BRAW)
+  - Serry (BRAW)
+  - Shah (BRAW)
+  - Shaheen (BRAW)
+  - Sharma (BRAW)
+  - Sheikh (BRAW)
+  - Sorongo (BRAW)
+  - Suji (BRAW)
+  - Tergat (BRAW)
+  - Thuku (BRAW)
+  - Tikolo (BRAW)
+  - Tiyoi (BRAW)
+  - Varaiya (BRAW)
+  - Waciuri (BRAW)
+  - Wainaina (BRAW)
+  - Wainana (BRAW)
+  - Wakiihuri (BRAW)
+  - Wambugu (BRAW)
+  - Wanga (BRAW)
+  - Wangila (BRAW)
+  - Wanja (BRAW)
+  - Wanjiru (BRAW)
+  - Wanyama (BRAW)
+  - Wanyoike (BRAW)
+  - Waruinge (BRAW)
+  - Wa Thiongo (BRAW)
+  - Wa Wamwere (BRAW)
+  - Wa Wanjau (BRAW)

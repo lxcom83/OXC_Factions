@@ -1,0 +1,816 @@
+﻿# =================
+# Luke83 Facilities
+# =================
+
+startingBase:
+# 0/0 1/0 2/0 3/0 4/0 5/0
+# 0/1 1/1 2/1 3/1 4/1 5/1
+# 0/2 1/2 2/2 3/2 4/2 5/2
+# 0/3 1/3 2/3 3/3 4/3 5/3
+# 0/4 1/4 2/4 3/4 4/4 5/4
+# 0/5 1/5 2/5 3/5 4/5 5/5
+#
+# HG1 HG1 HG2 HG2 HG3 HG3
+# HG1 HG1 HG2 HG2 HG3 HG3
+# ACC --- --- --- --- ---
+# LQ1 SRO LAB WOR AMU ---
+# LQ2 SRS FOR FOR MED ---
+# STO STO FOR FOR TRG ---
+#
+# 0/0 HG1 2/0 HG2 4/0 HG3
+# HG1 HG1 HG2 HG2 HG3 HG3
+# 0/2 --- --- --- --- ---
+# 0/3 1/3 2/3 3/3 4/3 ---
+# 0/4 1/4 2/4 FOR 4/4 ---
+# 0/5 1/5 FOR FOR 4/5 ---
+#
+  # facilities:
+  #   - type: STR_HANGAR #HG1
+  #     x: 0
+  #     y: 0
+  #   - type: STR_HANGAR #HG2
+  #     x: 2
+  #     y: 0
+  #   - type: STR_HANGAR #HG3
+  #     x: 4
+  #     y: 0
+  #   - type: STR_ACCESS_LIFT #ACC
+  #     x: 0
+  #     y: 2
+  #   - type: STR_LIVING_QUARTERS #LQ1
+  #     x: 0
+  #     y: 3
+  #   - type: STR_SECURITY_ROOM #SRO
+  #     x: 1
+  #     y: 3
+  #   - type: STR_LABORATORY #LAB
+  #     x: 2
+  #     y: 3
+  #   - type: STR_WORKSHOP #WOR
+  #     x: 3
+  #     y: 3
+  #   - type: STR_ADVANCED_MEDICAL_UNIT #AMU
+  #     x: 4
+  #     y: 3
+  #   - type: STR_MEDICAL_UNIT #MED
+  #     x: 4
+  #     y: 4
+  #   - type: STR_LIVING_QUARTERS #LQ2
+  #     x: 0
+  #     y: 4
+  #   - type: STR_SMALL_RADAR_SYSTEM #SRS
+  #     x: 1
+  #     y: 4
+  #   - type: STR_ALIEN_CONTAINMENT
+  #     x: 2
+  #     y: 4
+  #   - type: STR_LASER_DEFENSE
+  #     x: 3
+  #     y: 4
+  #   - type: STR_PLASMA_DEFENSE
+  #     x: 2
+  #     y: 5
+  #   - type: STR_PSIONIC_LABORATORY
+  #     x: 3
+  #     y: 5
+  #   - type: STR_GENERAL_STORES #STO
+  #     x: 0
+  #     y: 5
+  #   - type: STR_GENERAL_STORES #STO
+  #     x: 1
+  #     y: 5
+  #   - type: STR_TRAINING_ROOM #TRG
+  #     x: 4
+  #     y: 5
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 2
+      y: 2
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_GRAV_SHIELD
+      x: 1
+      y: 0
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_MIND_SHIELD
+      x: 0
+      y: 0
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_HYPER_WAVE_DECODER
+      x: 0
+      y: 1
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_LARGE_RADAR_SYSTEM
+      x: 1
+      y: 1
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_HANGAR
+      x: 0
+      y: 4
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_ALIEN_CONTAINMENT
+      x: 2
+      y: 4
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_PLASMA_DEFENSES
+      x: 2
+      y: 5
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_PSIONIC_LABORATORY
+      x: 3
+      y: 5
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_LASER_DEFENSES
+      x: 3
+      y: 4
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_HANGAR
+      x: 4
+      y: 4
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_LIVING_QUARTERS
+      x: 3
+      y: 2
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_GENERAL_STORES
+      x: 2
+      y: 3
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_LABORATORY
+      x: 3
+      y: 3
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_WORKSHOP
+      x: 4
+      y: 3
+      disabled: false
+      hadPreviousFacility: false
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 1
+      y: 3
+      disabled: false
+      hadPreviousFacility: false
+
+terrains:
+# ===============================================
+# ===== FACILITIES ==============================
+# ===============================================
+  - name: XBASE
+    mapDataSets:
+      - BLANKS
+      - F_XBASE01
+      - F_XBASE6
+      - F_XBASE02
+      - F_XBASE03
+    mapBlocks:
+      - name: F_XBASE_00 # lIFT
+        width: 10
+        length: 10
+      - name: F_XBASE_01 #LIVING qUARTERS 
+        width: 10
+        length: 10
+      - name: F_XBASE_02 # LAB
+        width: 10
+        length: 10
+        # items:
+        #   STR_HUMAN_GUARD_TURRET_SPAWNER:
+        #     - [1, 5, 5]
+      - name: F_XBASE_03 # WORKSHOP
+        width: 10
+        length: 10
+      - name: F_XBASE_04 # SMALL RADAR
+        width: 10
+        length: 10
+      - name: F_XBASE_05 # LARGE RADAR
+        width: 10
+        length: 10
+      - name: F_XBASE_06
+        width: 10
+        length: 10
+      - name: F_XBASE_07
+        width: 10
+        length: 10
+      - name: F_XBASE_08
+        width: 10
+        length: 10
+      - name: F_XBASE_09
+        width: 10
+        length: 10
+      - name: F_XBASE_10
+        width: 10
+        length: 10
+      - name: F_XBASE_11
+        width: 10
+        length: 10
+      - name: F_XBASE_12
+        width: 10
+        length: 10
+      - name: F_XBASE_13
+        width: 10
+        length: 10
+      - name: F_XBASE_14
+        width: 10
+        length: 10
+      - name: F_XBASE_15
+        width: 10
+        length: 10
+      - name: F_XBASE_16
+        width: 10
+        length: 10
+      - name: F_XBASE_17
+        width: 10
+        length: 10
+      - name: F_XBASE_18
+        width: 10
+        length: 10
+      - name: F_XBASE_19
+        width: 10
+        length: 10
+      - name: F_XBASE_20
+        width: 10
+        length: 10
+      - name: F_XBASE_21
+        width: 10
+        length: 10
+      - name: F_XBASE_22 #Drone bay - 1st
+        width: 10
+        length: 10
+      - name: F_XBASE_23
+        width: 10
+        length: 10
+      - name: F_XBASE_24
+        width: 10
+        length: 10
+      - name: F_XBASE_25
+        width: 10
+        length: 10
+      - name: F_XBASE_26 # Medical Bay
+        width: 10
+        length: 10
+      - name: F_XBASE_27 # Training Room
+        width: 10
+        length: 10
+      - name: F_XBASE_28
+        width: 10
+        length: 10
+      - name: F_XBASE_29
+        width: 10
+        length: 10
+      - name: F_XBASE_30
+        width: 10
+        length: 10
+      - name: F_XBASE_31
+        width: 10
+        length: 10
+      - name: F_XBASE_32
+        width: 10
+        length: 10
+      - name: F_XBASE_33
+        width: 10
+        length: 10
+      - name: F_XBASE_34
+        width: 10
+        length: 10
+      # - name: F_XBASE_55 #
+      #   width: 10
+      #   length: 10
+      # - name: F_XBASE_56
+      #   width: 10
+      #   length: 10
+      # - name: F_XBASE_57
+      #   width: 10
+      #   length: 10
+      # - name: F_XBASE_58
+      #   width: 10
+      #   length: 10
+
+facilities:
+# ===============================================
+# ===== FACILITIES ==============================
+# ===============================================
+  - type: STR_ACCESS_LIFT
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    mapName: F_XBASE_00
+  - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 10000
+    personnel: 50
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_01
+  - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 30000
+    labs: 50
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_02
+  - type: STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 800000
+    buildTime: 32
+    monthlyCost: 35000
+    workshops: 50
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_03
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 12
+    monthlyCost: 10000
+    radarRange: 1695
+    radarChance: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_04
+  - type: STR_LARGE_RADAR_SYSTEM
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 800000
+    buildTime: 25
+    monthlyCost: 15000
+    radarRange: 2577
+    radarChance: 20
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_05
+  - type: STR_MISSILE_DEFENSES
+    spriteShape: 2
+    spriteFacility: 23
+    buildCost: 200000
+    buildTime: 16
+    monthlyCost: 5000
+    defense: 500
+    hitRatio: 50
+    fireSound: 5
+    hitSound: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_06
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 5000
+    storage: 50
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_07
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_08
+  - type: STR_LASER_DEFENSES
+    requires:
+      - STR_LASER_DEFENSE
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 400000
+    buildTime: 24
+    monthlyCost: 10000
+    defense: 600
+    hitRatio: 60
+    fireSound: 8
+    hitSound: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_09
+  - type: STR_PLASMA_DEFENSES
+    requires:
+      - STR_PLASMA_DEFENSE
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    buildTime: 34
+    monthlyCost: 12000
+    defense: 900
+    hitRatio: 70
+    fireSound: 9
+    hitSound: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_10
+  - type: STR_FUSION_BALL_DEFENSES
+    requires:
+      - STR_FUSION_DEFENSE
+    spriteShape: 3
+    spriteFacility: 28
+    buildCost: 800000
+    buildTime: 34
+    monthlyCost: 14000
+    defense: 1200
+    hitRatio: 80
+    fireSound: 7
+    hitSound: 10
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_11
+  - type: STR_GRAV_SHIELD
+    requires:
+      - STR_GRAV_SHIELD
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildCost: 1200000
+    buildTime: 38
+    monthlyCost: 15000
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_12
+  - type: STR_MIND_SHIELD
+    requires:
+      - STR_MIND_SHIELD
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    buildTime: 33
+    monthlyCost: 5000
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_13
+  - type: STR_PSIONIC_LABORATORY
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 16000
+    psiLabs: 10
+    mapName: F_XBASE_14
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+  - type: STR_HYPER_WAVE_DECODER
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 1400000
+    buildTime: 26
+    monthlyCost: 30000
+    radarRange: 275900
+    radarChance: 100
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_15
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_16
+  - type: STR_DRONE_BAY # upgrade for hanger
+    # requires:
+    #   - STR_FUSION_BALL_DEFENSES
+    #   - STR_GRAV_SHIELD
+    spriteShape: 112
+    spriteFacility: 112
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 4
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_22
+# Medical Unit
+  - type: STR_MEDICAL_UNIT
+    spriteShape: 1
+    spriteFacility: 109
+    buildCost: 200000
+    buildTime: 10
+    monthlyCost: 40000
+    sickBayAbsoluteBonus: 0.0
+    sickBayRelativeBonus: 5.0
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_26
+  - type: STR_TRAINING_ROOM
+    spriteShape: 1
+    spriteFacility: 111
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 40000
+    personnel: 5
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_27
+  - type: STR_CYBORG_BAY
+    # requires:
+    #   - STR_FUSION_BALL_DEFENSES
+    #   - STR_GRAV_SHIELD
+    spriteShape: 1
+    spriteFacility: 109
+    buildCost: 200000
+    buildTime: 10
+    monthlyCost: 40000
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_28
+  - type: STR_CLONNING_BAY
+    # requires:
+      # - STR_FUSION_BALL_DEFENSES
+      # - STR_GRAV_SHIELD
+    spriteShape: 1
+    spriteFacility: 111
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 40000
+    personnel: 5
+    missileAttraction: 100
+    #canBeBuiltOver: true
+    #buildOverFacilities:
+    #  - STR_LIVING_QUARTERS
+    #destroyedFacility: STR_LIVING_QUARTERS_DAMAGED
+    mapName: F_XBASE_29
+
+
+
+# extraSprites:
+# ===============================================
+# ===== FACILITIES ==============================
+# ===============================================
+  # - type: BASEBITS.PCK
+  #   files:
+  #     301: Resources/facilities/LQ2_1.png
+  #     302: Resources/facilities/LQ2_2.png
+  #     303: Resources/facilities/LQ2_3.png
+  #     304: Resources/facilities/LQ2_4.png
+  #     305: Resources/facilities/Wall_NW.png
+  #     306: Resources/facilities/Wall_NE.png
+  #     307: Resources/facilities/Wall_SW.png
+  #     308: Resources/facilities/Wall_SE.png
+  #     309: Resources/facilities/GS2_1.png
+  #     310: Resources/facilities/GS2_2.png
+  #     311: Resources/facilities/GS2_3.png
+  #     312: Resources/facilities/GS2_4.png
+  #     313: Resources/facilities/Wall_NW.png
+  #     314: Resources/facilities/Wall_NE.png
+  #     315: Resources/facilities/Wall_SW.png
+  #     316: Resources/facilities/Wall_SE.png
+  #     317: Resources/facilities/IP_1.png
+  #     318: Resources/facilities/IP_2.png
+  #     319: Resources/facilities/IP_3.png
+  #     320: Resources/facilities/IP_4.png
+  #     321: Resources/facilities/Wall_NW.png
+  #     322: Resources/facilities/Wall_NE.png
+  #     323: Resources/facilities/Wall_SW.png
+  #     324: Resources/facilities/Wall_SE.png
+  #     325: Resources/facilities/ARMORY.png
+  #     326: Resources/facilities/PRISS_1.png
+  #     327: Resources/facilities/PRISS_2.png
+  #     328: Resources/facilities/PRISS_3.png
+  #     329: Resources/facilities/PRISS_4.png
+  #     330: Resources/facilities/Wall_NW.png
+  #     331: Resources/facilities/Wall_NE.png
+  #     332: Resources/facilities/Wall_SW.png
+  #     333: Resources/facilities/Wall_SE.png
+  #     334: Resources/facilities/Hangar3X3_SpriteFacility01.GIF
+  #     335: Resources/facilities/Hangar3X3_SpriteFacility02.GIF
+  #     336: Resources/facilities/Hangar3X3_SpriteFacility03.GIF
+  #     337: Resources/facilities/Hangar3X3_SpriteFacility04.GIF
+  #     338: Resources/facilities/Hangar3X3_SpriteFacility05.GIF
+  #     339: Resources/facilities/Hangar3X3_SpriteFacility06.GIF
+  #     340: Resources/facilities/Hangar3X3_SpriteFacility07.GIF
+  #     341: Resources/facilities/Hangar3X3_SpriteFacility08.GIF
+  #     342: Resources/facilities/Hangar3X3_SpriteFacility09.GIF
+  #     343: Resources/facilities/Hangar3X3_SpriteShape01.GIF
+  #     344: Resources/facilities/Hangar3X3_SpriteShape02.GIF
+  #     345: Resources/facilities/Hangar3X3_SpriteShape03.GIF
+  #     346: Resources/facilities/Hangar3X3_SpriteShape04.GIF
+  #     347: Resources/facilities/Hangar3X3_SpriteShape05.GIF
+  #     348: Resources/facilities/Hangar3X3_SpriteShape06.GIF
+  #     349: Resources/facilities/Hangar3X3_SpriteShape07.GIF
+  #     350: Resources/facilities/Hangar3X3_SpriteShape08.GIF
+  #     351: Resources/facilities/Hangar3X3_SpriteShape09.GIF
+  #     352: Resources/facilities/IP_1.png
+  #     353: Resources/facilities/IP_2.png
+  #     354: Resources/facilities/IP_3.png
+  #     355: Resources/facilities/IP_4.png
+  #     356: Resources/facilities/Wall_NW.png
+  #     357: Resources/facilities/Wall_NE.png
+  #     358: Resources/facilities/Wall_SW.png
+  #     359: Resources/facilities/Wall_SE.png
+
+
+extraStrings:
+# ===============================================
+# ===== FACILITIES ==============================
+# ===============================================
+# Medical Unit
+  - type: en-US
+    strings:
+      STR_MEDICAL_UNIT: Medical Unit
+      STR_MEDICAL_UNIT_UFOPEDIA: "Medical Unit"
+  - type: en-GB
+    strings:
+      STR_MEDICAL_UNIT: Medical Unit
+      STR_MEDICAL_UNIT_UFOPEDIA: "Medical Unit"
+  - type: fr
+    strings:
+      STR_MEDICAL_UNIT: Unité Médicale
+      STR_MEDICAL_UNIT_UFOPEDIA: "Unité Médicale"
+
+# Advanced Medical Unit
+  - type: en-US
+    strings:
+      STR_ADVANCED_MEDICAL_UNIT: Advanced Medical Unit
+      STR_ADVANCED_MEDICAL_UNIT_UFOPEDIA: "Advanced Medial Unit"
+  - type: en-GB
+    strings:
+      STR_ADVANCED_MEDICAL_UNIT: Advanced Medical Unit
+      STR_ADVANCED_MEDICAL_UNIT_UFOPEDIA: "Advanced Medial Unit"
+  - type: fr
+    strings:
+      STR_ADVANCED_MEDICAL_UNIT: Unité Médicale Avancée
+      STR_ADVANCED_MEDICAL_UNIT_UFOPEDIA: "Unité Médicale Avancée"
+
+# Security Room
+  - type: en-US
+    strings:
+      STR_SECURITY_ROOM: Security Room
+      STR_SECURITY_ROOM_UFOPEDIA: "Security Room"
+  - type: en-GB
+    strings:
+      STR_SECURITY_ROOM: Security Room
+      STR_SECURITY_ROOM_UFOPEDIA: "Security Room"
+  - type: fr
+    strings:
+      STR_SECURITY_ROOM: Poste de Sécurité
+      STR_SECURITY_ROOM_UFOPEDIA: "Poste de Sécurité"
+
+# Security Fortress
+  - type: en-US
+    strings:
+      STR_SECURITY_FORTRESS: Security Fortress
+      STR_SECURITY_FORTRESS_UFOPEDIA: "Security Fortress"
+  - type: en-GB
+    strings:
+      STR_SECURITY_FORTRESS: Security Fortress
+      STR_SECURITY_FORTRESS_UFOPEDIA: "Security Fortress"
+  - type: fr
+    strings:
+      STR_SECURITY_FORTRESS: Forteresse
+      STR_SECURITY_FORTRESS_UFOPEDIA: "Forteresse"
+
+# Training Room
+  - type: en-US
+    strings:
+      STR_TRAINING_ROOM: Training Room
+      STR_TRAINING_ROOM_UFOPEDIA: "Training Room"
+      STR_DRONE_BAY: Training Room
+      STR_DRONE_BAY_UFOPEDIA: "Training Room"
+  - type: en-GB
+    strings:
+      STR_TRAINING_ROOM: Training Room
+      STR_TRAINING_ROOM_UFOPEDIA: "Training Room"
+  - type: fr
+    strings:
+      STR_TRAINING_ROOM: Salle d'Entraînement
+      STR_TRAINING_ROOM_UFOPEDIA: "Salle d'Entraînement"
+
+ufopaedia:
+# ===============================================
+# ===== FACILITIES ==============================
+# ===============================================
+# Medical Unit
+  - id: STR_MEDICAL_UNIT
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_MEDICAL_UNIT_UFOPEDIA
+
+# Advanced Medical Unit
+  - id: STR_ADVANCED_MEDICAL_UNIT
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_ADVANCED_MEDICAL_UNIT_UFOPEDIA
+
+# Security Room
+  - id: STR_SECURITY_ROOM
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_SECURITY_ROOM_UFOPEDIA
+
+# Security Fortress
+  - id: STR_SECURITY_FORTRESS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_SECURITY_FORTRESS_UFOPEDIA
+
+# Training Room
+  - id: STR_TRAINING_ROOM
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRAINING_ROOM_UFOPEDIA
+
+    # Training Room
+  - id: STR_DRONE_BAY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_DRONE_BAY_UFOPEDIA

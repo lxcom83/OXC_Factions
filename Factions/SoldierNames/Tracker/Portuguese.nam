@@ -1,0 +1,361 @@
+lookWeight:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - Afonso
+  - Alberto
+  - Alexandre
+  - Alvaro
+  - Andre
+  - Antonio
+  - Augusto
+  - Bernardo
+  - Bruno
+  - Carlos
+  - Cristiano
+  - Daniel
+  - David
+  - Diogo
+  - Duarte
+  - Eduardo
+  - Fabio
+  - Fernando
+  - Filipe
+  - Flavio
+  - Francisco
+  - Frederico
+  - Gabriel
+  - Goncalo
+  - Guilherme
+  - Gustavo
+  - Helder
+  - Henrique
+  - Hugo
+  - Ivo
+  - Jaime
+  - Joao
+  - Joaquim
+  - Jorge
+  - Jose
+  - Julio
+  - Leonardo
+  - Leonel
+  - Luis
+  - Manuel
+  - Marcelo
+  - Marcio
+  - Marco
+  - Mario
+  - Miguel
+  - Nelson
+  - Nuno
+  - Orlando
+  - Paulo
+  - Pedro
+  - Rafael
+  - Raul
+  - Ricardo
+  - Roberto
+  - Rodolfo
+  - Rodrigo
+  - Rui
+  - Samuel
+  - Sergio
+  - Tiago
+  - Telmo
+  - Tomas
+  - Vasco
+  - Vitor
+femaleFirst:
+  - Alice
+  - Ana
+  - Anabela
+  - Andreia
+  - Angela
+  - Aurora
+  - Barbara
+  - Beatriz
+  - Bia
+  - Carina
+  - Carla
+  - Carolina
+  - Catarina
+  - Catia
+  - Celeste
+  - Celia
+  - Celina
+  - Clara
+  - Claudia
+  - Cristiana
+  - Cristina
+  - Daniela
+  - Dalia
+  - Debora
+  - Diana
+  - Dulce
+  - Elsa
+  - Eva
+  - Fatima
+  - Fernanda
+  - Filipa
+  - Filomena
+  - Flavia
+  - Florbela
+  - Francisca
+  - Gabriela
+  - Gloria
+  - Helena
+  - Ilda
+  - Ines
+  - Irene
+  - Isabel
+  - Joana
+  - Josefina
+  - Julia
+  - Lara
+  - Laura
+  - Leonor
+  - Liliana
+  - Luisa
+  - Madalena
+  - Mafalda
+  - Manuela
+  - Margarida
+  - Maria
+  - Mariana
+  - Marina
+  - Marisa
+  - Marta
+  - Matilde
+  - Monica
+  - Natalia
+  - Nadia
+  - Olivia
+  - Patricia
+  - Paula
+  - Rafaela
+  - Raquel
+  - Rita
+  - Rute
+  - Sandra
+  - Sara
+  - Sofia
+  - Sonia
+  - Soraia
+  - Susana
+  - Tania
+  - Teresa
+  - Telma
+  - Vanessa
+  - Vera
+maleLast:
+  - Abrantes (TRACK)
+  - Abreu (TRACK)
+  - Agostinho (TRACK)
+  - Albano (TRACK)
+  - Albuquerque (TRACK)
+  - Aleixo (TRACK)
+  - Almeida (TRACK)
+  - Alves (TRACK)
+  - Amaro (TRACK)
+  - Amaral (TRACK)
+  - Andrade (TRACK)
+  - Anjos (TRACK)
+  - Antunes (TRACK)
+  - Araujo (TRACK)
+  - Assis (TRACK)
+  - Azevedo (TRACK)
+  - Barata (TRACK)
+  - Barreiras (TRACK)
+  - Barreto (TRACK)
+  - Barros (TRACK)
+  - Barroso (TRACK)
+  - Bastos (TRACK)
+  - Bento (TRACK)
+  - Beja (TRACK)
+  - Borges (TRACK)
+  - Brandao (TRACK)
+  - Brito (TRACK)
+  - Cabral (TRACK)
+  - Cadete (TRACK)
+  - Caetano (TRACK)
+  - Caldeira (TRACK)
+  - Campos (TRACK)
+  - Cardoso (TRACK)
+  - Carneiro (TRACK)
+  - Carrico (TRACK)
+  - Carrilho (TRACK)
+  - Carvalho (TRACK)
+  - Castro (TRACK)
+  - Cavaco (TRACK)
+  - Cavaleiro (TRACK)
+  - Chaves (TRACK)
+  - Coelho (TRACK)
+  - Conceicao (TRACK)
+  - Correia (TRACK)
+  - Cortes (TRACK)
+  - Costa (TRACK)
+  - Coutinho (TRACK)
+  - Couto (TRACK)
+  - Crespo (TRACK)
+  - Cristovao (TRACK)
+  - Cruz (TRACK)
+  - Cunha (TRACK)
+  - Cunhal (TRACK)
+  - Delgado (TRACK)
+  - Dias (TRACK)
+  - Dinis (TRACK)
+  - Dionisio (TRACK)
+  - Domingos (TRACK)
+  - Duarte (TRACK)
+  - Esteves (TRACK)
+  - Farinha (TRACK)
+  - Fernandes (TRACK)
+  - Ferreira (TRACK)
+  - Figueira (TRACK)
+  - Figueiredo (TRACK)
+  - Fitas (TRACK)
+  - Fragoso (TRACK)
+  - Fragata (TRACK)
+  - Francisco (TRACK)
+  - Franco (TRACK)
+  - Freire (TRACK)
+  - Freitas (TRACK)
+  - Fonseca (TRACK)
+  - Fontes (TRACK)
+  - Fortes (TRACK)
+  - Furtado (TRACK)
+  - Galvao (TRACK)
+  - Gama (TRACK)
+  - Garcia (TRACK)
+  - Godinho (TRACK)
+  - Gomes (TRACK)
+  - Goncalves (TRACK)
+  - Gouveia (TRACK)
+  - Graca (TRACK)
+  - Grilo (TRACK)
+  - Guedes (TRACK)
+  - Guerra (TRACK)
+  - Guerreiro (TRACK)
+  - Guimaraes (TRACK)
+  - Henriques (TRACK)
+  - Homem (TRACK)
+  - Horta (TRACK)
+  - Jacinto (TRACK)
+  - Jesus (TRACK)
+  - Lameiras (TRACK)
+  - Laranjeiro (TRACK)
+  - Leal (TRACK)
+  - Lima (TRACK)
+  - Lopes (TRACK)
+  - Lourenco (TRACK)
+  - Luz (TRACK)
+  - Macedo (TRACK)
+  - Machado (TRACK)
+  - Madeira (TRACK)
+  - Maia (TRACK)
+  - Magalhaes (TRACK)
+  - Marques (TRACK)
+  - Martinho (TRACK)
+  - Martins (TRACK)
+  - Marujo (TRACK)
+  - Mateus (TRACK)
+  - Matias (TRACK)
+  - Matos (TRACK)
+  - Maximo (TRACK)
+  - Meireles (TRACK)
+  - Melo (TRACK)
+  - Mendes (TRACK)
+  - Mendonca (TRACK)
+  - Mestre (TRACK)
+  - Mira (TRACK)
+  - Miranda (TRACK)
+  - Moniz (TRACK)
+  - Monteiro (TRACK)
+  - Morais (TRACK)
+  - Moreira (TRACK)
+  - Morgado (TRACK)
+  - Mota (TRACK)
+  - Moura (TRACK)
+  - Mourinho (TRACK)
+  - Nascimento (TRACK)
+  - Neto (TRACK)
+  - Neves (TRACK)
+  - Nobrega (TRACK)
+  - Nogueira (TRACK)
+  - Noronha (TRACK)
+  - Nunes (TRACK)
+  - Oliveira (TRACK)
+  - Pacheco (TRACK)
+  - Pais (TRACK)
+  - Paiva (TRACK)
+  - Parreira (TRACK)
+  - Pato (TRACK)
+  - Peixe (TRACK)
+  - Peixoto (TRACK)
+  - Pereira (TRACK)
+  - Pessoa (TRACK)
+  - Pimentel (TRACK)
+  - Pinheiro (TRACK)
+  - Pinho (TRACK)
+  - Pinto (TRACK)
+  - Pires (TRACK)
+  - Portugal (TRACK)
+  - Povoa (TRACK)
+  - Prata (TRACK)
+  - Queiros (TRACK)
+  - Raimundo (TRACK)
+  - Ramalho (TRACK)
+  - Ramos (TRACK)
+  - Raposo (TRACK)
+  - Rato (TRACK)
+  - Real (TRACK)
+  - Rebelo (TRACK)
+  - Reis (TRACK)
+  - Relvas (TRACK)
+  - Ribeiro (TRACK)
+  - Rio (TRACK)
+  - Rocha (TRACK)
+  - Rodrigues (TRACK)
+  - Ronaldo (TRACK)
+  - Rosario (TRACK)
+  - Roseiro (TRACK)
+  - Salgado (TRACK)
+  - Salgueiro (TRACK)
+  - Sampaio (TRACK)
+  - Sanches (TRACK)
+  - Santana (TRACK)
+  - Santos (TRACK)
+  - Sebastiao (TRACK)
+  - Semedo (TRACK)
+  - Sequeira (TRACK)
+  - Serra (TRACK)
+  - Serrao (TRACK)
+  - Serras (TRACK)
+  - Silva (TRACK)
+  - Silvestre (TRACK)
+  - Silvino (TRACK)
+  - Simoes (TRACK)
+  - Soares (TRACK)
+  - Sobral (TRACK)
+  - Sousa (TRACK)
+  - Tavares (TRACK)
+  - Teixeira (TRACK)
+  - Teles (TRACK)
+  - Torres (TRACK)
+  - Valadas (TRACK)
+  - Valente (TRACK)
+  - Varandas (TRACK)
+  - Varela (TRACK)
+  - Vasconcelos (TRACK)
+  - Vaz (TRACK)
+  - Veloso (TRACK)
+  - Viana (TRACK)
+  - Vicente (TRACK)
+  - Vidal (TRACK)
+  - Vieira (TRACK)
+  - Viegas (TRACK)
+  - Vitorino (TRACK)
+  - Xavier (TRACK)

@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Aaro
+  - Aatu
+  - Akseli
+  - Aleksi
+  - Antti
+  - Arttu
+  - Atte
+  - Eemeli
+  - Eero
+  - Eino
+  - Esko
+  - Elias
+  - Erkki
+  - Heikki
+  - Henrikki
+  - Ilmari
+  - Jaakko
+  - Jere
+  - Jesse
+  - Joel
+  - Joona
+  - Juhani
+  - Juho
+  - Julius
+  - Jussi
+  - Juuso
+  - Kalle
+  - Konsta
+  - Lauri
+  - Leevi
+  - Markku
+  - Matias
+  - Matti
+  - Mika
+  - Mikael
+  - Mikko
+  - Niilo
+  - Niklas
+  - Niko
+  - Onni
+  - Oskari
+  - Roope
+  - Sami
+  - Santeri
+  - Tapani
+  - Tommi
+  - Tuomas
+  - Valtteri
+  - Viljo
+  - Ville
+femaleFirst:
+  - Aino
+  - Anja
+  - Anna
+  - Anneli
+  - Anni
+  - Eila
+  - Elina
+  - Elisa
+  - Emilia
+  - Emma
+  - Emmi
+  - Eveliina
+  - Hanna
+  - Hannele
+  - Helena
+  - Helmi
+  - Iida
+  - Iina
+  - Ilona
+  - Jenni
+  - Johanna
+  - Julia
+  - Kaarina
+  - Karoliina
+  - Katariina
+  - Kristiina
+  - Laura
+  - Leena
+  - Liisa
+  - Maarit
+  - Maija
+  - Maria
+  - Marjatta
+  - Martta
+  - Milla
+  - Minna
+  - Noora
+  - Oona
+  - Pauliina
+  - Pirjo
+  - Riitta
+  - Ritva
+  - Saara
+  - Sanni
+  - Sari
+  - Sofia
+  - Susanna
+  - Tuula
+  - Tuuli
+  - Veera
+maleLast:
+  - Aalto (HEAVY)
+  - Aaltonen (HEAVY)
+  - Aho (HEAVY)
+  - Ahola (HEAVY)
+  - Ahonen (HEAVY)
+  - Anttila (HEAVY)
+  - Arvola (HEAVY)
+  - Eskola (HEAVY)
+  - Haapala (HEAVY)
+  - Haavisto (HEAVY)
+  - Hakala (HEAVY)
+  - Halonen (HEAVY)
+  - Harju (HEAVY)
+  - Hartikainen (HEAVY)
+  - Heikkinen (HEAVY)
+  - Heino (HEAVY)
+  - Heinonen (HEAVY)
+  - Heiskanen (HEAVY)
+  - Hietala (HEAVY)
+  - Hiltunen (HEAVY)
+  - Hirvonen (HEAVY)
+  - Honkanen (HEAVY)
+  - Huttunen (HEAVY)
+  - Ikonen (HEAVY)
+  - Immonen (HEAVY)
+  - Jalonen (HEAVY)
+  - Jokinen (HEAVY)
+  - Kallio (HEAVY)
+  - Karhu (HEAVY)
+  - Karjalainen (HEAVY)
+  - Karppinen (HEAVY)
+  - Kauppinen (HEAVY)
+  - Kemppainen (HEAVY)
+  - Kettunen (HEAVY)
+  - Kinnunen (HEAVY)
+  - Kiviniemi (HEAVY)
+  - Koivisto (HEAVY)
+  - Kokko (HEAVY)
+  - Kokkonen (HEAVY)
+  - Koponen (HEAVY)
+  - Korhonen (HEAVY)
+  - Korpela (HEAVY)
+  - Koskela (HEAVY)
+  - Koski (HEAVY)
+  - Koskinen (HEAVY)
+  - Laakso (HEAVY)
+  - Laaksonen (HEAVY)
+  - Lahti (HEAVY)
+  - Lahtinen (HEAVY)
+  - Laine (HEAVY)
+  - Laitinen (HEAVY)
+  - Lappalainen (HEAVY)
+  - Lehtinen (HEAVY)
+  - Lehto (HEAVY)
+  - Lehtonen (HEAVY)
+  - Leino (HEAVY)
+  - Leinonen (HEAVY)
+  - Lindholm (HEAVY)
+  - Manninen (HEAVY)
+  - Mattila (HEAVY)
+  - Miettinen (HEAVY)
+  - Mikkola (HEAVY)
+  - Mikkonen (HEAVY)
+  - Moilanen (HEAVY)
+  - Mustonen (HEAVY)
+  - Niemi (HEAVY)
+  - Nieminen (HEAVY)
+  - Niskanen (HEAVY)
+  - Nurmi (HEAVY)
+  - Nurminen (HEAVY)
+  - Nyman (HEAVY)
+  - Ojala (HEAVY)
+  - Oksanen (HEAVY)
+  - Partanen (HEAVY)
+  - Peltola (HEAVY)
+  - Peltonen (HEAVY)
+  - Pesonen (HEAVY)
+  - Pulkkinen (HEAVY)
+  - Rajala (HEAVY)
+  - Rantala (HEAVY)
+  - Rantanen (HEAVY)
+  - Rautiainen (HEAVY)
+  - Rautio (HEAVY)
+  - Rissanen (HEAVY)
+  - Saari (HEAVY)
+  - Saarinen (HEAVY)
+  - Saimi (HEAVY)
+  - Salminen (HEAVY)
+  - Salo (HEAVY)
+  - Salonen (HEAVY)
+  - Savolainen (HEAVY)
+  - Suominen (HEAVY)
+  - Toivonen (HEAVY)
+  - Tuominen (HEAVY)
+  - Turunen (HEAVY)
+  - Uusitalo (HEAVY)
+  - Vainio (HEAVY)
+  - Virtanen (HEAVY)
+  - Vuorinen (HEAVY)
+  - Ylitalo (HEAVY)

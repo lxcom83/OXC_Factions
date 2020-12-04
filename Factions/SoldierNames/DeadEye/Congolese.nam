@@ -1,0 +1,487 @@
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Aimé Dorian
+  - Alban
+  - Ange
+  - Annoud Prestige
+  - Appollinaire
+  - Arcel
+  - Archange
+  - Aristide
+  - Armand
+  - Arthur
+  - Awax
+  - Baurion
+  - Ben
+  - Benjamin
+  - Bensadaa
+  - Bonte
+  - Boris
+  - Bouse
+  - Calice
+  - Céléstin
+  - Chatel
+  - Cherald
+  - Cherubin
+  - Chriss
+  - Christian
+  - Claude
+  - Davy
+  - Dbacom
+  - Donnel
+  - Dorian
+  - Dos
+  - Dulcine
+  - Eden
+  - Edvin
+  - Elyse
+  - Eudes
+  - Evrard
+  - Fred
+  - Fresnel
+  - Gata
+  - Geslin
+  - Giordani
+  - Guychel
+  - Harold
+  - Heldora
+  - Hilde
+  - Japhet
+  - Joad Louad
+  - Jules
+  - Julle
+  - Karome
+  - Leonce
+  - Lima
+  - Lionel
+  - Lucien
+  - Mack
+  - Marzin
+  - Mbayo
+  - Milan
+  - Murphy
+  - Oudry
+  - Pascal
+  - Paterne
+  - Patrick
+  - Prevner
+  - Prince
+  - Ray
+  - Régis
+  - Resnik
+  - Rishi
+  - Rodrigue
+  - Rudolf
+  - Sajila
+  - Severin
+  - Shabani
+  - Stanis
+  - Stephane
+  - Sylvio
+  - Thierry
+  - Van Carrel
+  - Yohan
+femaleFirst:
+  - Arich
+  - Arrielle
+  - Ashley
+  - Aubierge
+  - Aude
+  - Belcha
+  - Belvie
+  - Brunelle
+  - Capricia
+  - Carole
+  - Cecile
+  - Celvie
+  - Chanfrelle
+  - Christelle
+  - Christiane
+  - Clavidia
+  - Darlène
+  - Deborah
+  - Diche
+  - Dina
+  - Docile
+  - Djany
+  - Emmanuelle
+  - Estelle
+  - Fallone
+  - Fernande
+  - Florèse
+  - Gaelle
+  - Garcia
+  - Geanna
+  - Giovanna
+  - Gloire
+  - Grace
+  - Granie
+  - Jaelle
+  - Jannie
+  - Jeanny
+  - Jelvie
+  - Jessica
+  - Jen
+  - Jodrey
+  - Jolienne
+  - Judith
+  - Julie
+  - Jupsie
+  - Keicha
+  - Liu
+  - Lys
+  - Melaine
+  - Merveille
+  - Michelle
+  - Parfaite
+  - Patrique
+  - Polly
+  - Privel
+  - Lirna
+  - Madelenne
+  - Manu
+  - Mary
+  - Mbeko
+  - Milyne
+  - Monia
+  - Nardelie
+  - Nathalie
+  - Nel
+  - Nicia
+  - Nuptia
+  - Opportune
+  - Patricia
+  - Pitchou
+  - Raan-sady
+  - Reine
+  - Rose
+  - Rosa
+  - Rudelle
+  - Sabrina
+  - Sagely
+  - Sidorelle
+  - Sony
+  - Staelle
+  - Synthyche
+  - Tan
+  - Vanessa
+  - Winnie
+  - Yornella
+maleLast:
+  - Akindele (DEYE)
+  - Alphonse (DEYE)
+  - Anaclet (DEYE)
+  - Augustin (DEYE)
+  - Aurelie (DEYE)
+  - Axele (DEYE)
+  - Badibanga (DEYE)
+  - Bakaji (DEYE)
+  - Bakwamba (DEYE)
+  - Bangamba (DEYE)
+  - Bantu (DEYE)
+  - Biampata (DEYE)
+  - Bilenga (DEYE)
+  - Bilenge (DEYE)
+  - Bilengi (DEYE)
+  - Bilonda (DEYE)
+  - Bilumbu (DEYE)
+  - Bitala (DEYE)
+  - Bitelu (DEYE)
+  - Biumba (DEYE)
+  - Buabu (DEYE)
+  - Buikalu (DEYE)
+  - Bukaka (DEYE)
+  - Buluba (DEYE)
+  - Busasa (DEYE)
+  - Buta (DEYE)
+  - Dikembe (DEYE)
+  - Dikengu (DEYE)
+  - Dikiyu (DEYE)
+  - Dishi (DEYE)
+  - Diyoka (DEYE)
+  - Evariste (DEYE)
+  - Felicien (DEYE)
+  - Francky (DEYE)
+  - Francois (DEYE)
+  - Gabriel (DEYE)
+  - Ganeramba (DEYE)
+  - Gaston (DEYE)
+  - Gilbert (DEYE)
+  - Gourmand (DEYE)
+  - Henri (DEYE)
+  - Honore (DEYE)
+  - Ilunga (DEYE)
+  - Jean (DEYE)
+  - Joseph (DEYE)
+  - Justin (DEYE)
+  - Kabala (DEYE)
+  - Kabamba (DEYE)
+  - Kabanda (DEYE)
+  - Kabanga (DEYE)
+  - Kabasela (DEYE)
+  - Kabemba (DEYE)
+  - Kabeya (DEYE)
+  - Kaboka (DEYE)
+  - Kabombo (DEYE)
+  - Kabongo (DEYE)
+  - Kabukala (DEYE)
+  - Kabunda (DEYE)
+  - Kabundangoji (DEYE)
+  - Kabungama (DEYE)
+  - Kabwa (DEYE)
+  - Kabwaya (DEYE)
+  - Kadilu (DEYE)
+  - Kadimu (DEYE)
+  - Kajangala (DEYE)
+  - Kajila (DEYE)
+  - Kajimba (DEYE)
+  - Kakokopo (DEYE)
+  - Kalala (DEYE)
+  - Kalanga (DEYE)
+  - Kalawanda (DEYE)
+  - Kalengedi (DEYE)
+  - Kaleuka (DEYE)
+  - Kalombo (DEYE)
+  - Kalonji (DEYE)
+  - Kalubi (DEYE)
+  - Kalunguji (DEYE)
+  - Kamanga (DEYE)
+  - Kambaja (DEYE)
+  - Kambala (DEYE)
+  - Kamulete (DEYE)
+  - Kamwania (DEYE)
+  - Kanda (DEYE)
+  - Kankolongo (DEYE)
+  - Kankonda (DEYE)
+  - Kanku (DEYE)
+  - Kanungu (DEYE)
+  - Kanyandu (DEYE)
+  - Kanyinda (DEYE)
+  - Kapinga (DEYE)
+  - Kapongo (DEYE)
+  - Kasala (DEYE)
+  - Kasampu (DEYE)
+  - Kasenga (DEYE)
+  - Kasongo (DEYE)
+  - Kasuku (DEYE)
+  - Kasulu (DEYE)
+  - Kaswaswa (DEYE)
+  - Katamba (DEYE)
+  - Katanda (DEYE)
+  - Katanga (DEYE)
+  - Katekelayi (DEYE)
+  - Katuku (DEYE)
+  - Katundu (DEYE)
+  - Kayemba (DEYE)
+  - Kayembe (DEYE)
+  - Kayowa (DEYE)
+  - Kilunsila (DEYE)
+  - Kimba (DEYE)
+  - Kishi (DEYE)
+  - Koloyi (DEYE)
+  - Komba (DEYE)
+  - Konji (DEYE)
+  - Kulondi (DEYE)
+  - Kutemba (DEYE)
+  - Lala (DEYE)
+  - Lemba (DEYE)
+  - Lengela (DEYE)
+  - Leonard (DEYE)
+  - Lisa (DEYE)
+  - Londa (DEYE)
+  - Longa (DEYE)
+  - Luadia (DEYE)
+  - Luamba (DEYE)
+  - Luangoyi (DEYE)
+  - Lubanga (DEYE)
+  - Lubanza (DEYE)
+  - Lubuya (DEYE)
+  - Lukodi (DEYE)
+  - Lukoji (DEYE)
+  - Lukusa (DEYE)
+  - Luluabourg (DEYE)
+  - Lumbala (DEYE)
+  - Lumbombo (DEYE)
+  - Lupenzu (DEYE)
+  - Lusamba (DEYE)
+  - Lutexa (DEYE)
+  - Lutonga (DEYE)
+  - Lutundula (DEYE)
+  - Mabele (DEYE)
+  - Mabixa (DEYE)
+  - Malumba (DEYE)
+  - Mampuya (DEYE)
+  - Manyangana (DEYE)
+  - Martin (DEYE)
+  - Matamba (DEYE)
+  - Matembela (DEYE)
+  - Mayi (DEYE)
+  - Mbayi (DEYE)
+  - Mbimbi (DEYE)
+  - Mbiya (DEYE)
+  - Mbiyamuenza (DEYE)
+  - Mbiye (DEYE)
+  - Mbombo (DEYE)
+  - Mbuyamba (DEYE)
+  - Mbuyangudi (DEYE)
+  - Mbuyi (DEYE)
+  - Mbwaya (DEYE)
+  - Meso (DEYE)
+  - Meta (DEYE)
+  - Mfunyi (DEYE)
+  - Miabi (DEYE)
+  - Mianbabu (DEYE)
+  - Milabi (DEYE)
+  - Misenga (DEYE)
+  - Moise (DEYE)
+  - Mokola (DEYE)
+  - Moyo (DEYE)
+  - Mpala (DEYE)
+  - Mpanda (DEYE)
+  - Mpoloto (DEYE)
+  - Mpoyi (DEYE)
+  - Mpuka (DEYE)
+  - Mpunga (DEYE)
+  - Mpungapoyi (DEYE)
+  - Muadi (DEYE)
+  - Muamba (DEYE)
+  - Muanza (DEYE)
+  - Mubenga (DEYE)
+  - Mubiayi (DEYE)
+  - Mubimalu (DEYE)
+  - Mubitende (DEYE)
+  - Mudiayi (DEYE)
+  - Mudipuekesha (DEYE)
+  - Mufika (DEYE)
+  - Mufonkola (DEYE)
+  - Mufuansanyi (DEYE)
+  - Mujinga (DEYE)
+  - Mukadi (DEYE)
+  - Mukala (DEYE)
+  - Mukanda (DEYE)
+  - Mukanya (DEYE)
+  - Mukendi (DEYE)
+  - Mukenga (DEYE)
+  - Mukinda (DEYE)
+  - Mukuma (DEYE)
+  - Mulaja (DEYE)
+  - Mulanga (DEYE)
+  - Mulelalupu (DEYE)
+  - Mulenda (DEYE)
+  - Mulombo (DEYE)
+  - Mulopo (DEYE)
+  - Mulopue (DEYE)
+  - Mulowaluendu (DEYE)
+  - Muluila (DEYE)
+  - Mulumba (DEYE)
+  - Mundamunya (DEYE)
+  - Munsense (DEYE)
+  - Muntshiamba (DEYE)
+  - Munyampala (DEYE)
+  - Mupompa (DEYE)
+  - Mupoyi (DEYE)
+  - Musalu (DEYE)
+  - Musebela (DEYE)
+  - Mushikila (DEYE)
+  - Mushiya (DEYE)
+  - Musuamba (DEYE)
+  - Mutombo (DEYE)
+  - Muya (DEYE)
+  - Mvita (DEYE)
+  - Mwamba (DEYE)
+  - Mwanankesa (DEYE)
+  - Mwenza (DEYE)
+  - Mwepu (DEYE)
+  - Ndanda (DEYE)
+  - Ndaya (DEYE)
+  - Ndelela (DEYE)
+  - Ngalula (DEYE)
+  - Ngandu (DEYE)
+  - Ngeleka (DEYE)
+  - Ngelema (DEYE)
+  - Ngomba (DEYE)
+  - Ngonga (DEYE)
+  - Ngoyi (DEYE)
+  - Ninette (DEYE)
+  - Nkanda (DEYE)
+  - Nkitabungi (DEYE)
+  - Nkomo (DEYE)
+  - Nkongolo (DEYE)
+  - Noel (DEYE)
+  - Norbert (DEYE)
+  - Nseya (DEYE)
+  - Nshila (DEYE)
+  - Nshinga (DEYE)
+  - Nsombamanya (DEYE)
+  - Nsudila (DEYE)
+  - Ntalaja (DEYE)
+  - Ntambwe (DEYE)
+  - Ntita (DEYE)
+  - Ntombolo (DEYE)
+  - Ntondolo (DEYE)
+  - Ntumba (DEYE)
+  - Nyanzala (DEYE)
+  - Nyenyempa (DEYE)
+  - Nyoka (DEYE)
+  - Nzambi (DEYE)
+  - Nzangula (DEYE)
+  - Nzemba (DEYE)
+  - Odia (DEYE)
+  - Phillipe (DEYE)
+  - Pierre (DEYE)
+  - Rachelle (DEYE)
+  - Samuela (DEYE)
+  - Shaddai (DEYE)
+  - Stella (DEYE)
+  - Talatala (DEYE)
+  - Thomas (DEYE)
+  - Tshanda (DEYE)
+  - Tshiabu (DEYE)
+  - Tshialu (DEYE)
+  - Tshiamanina (DEYE)
+  - Tshiambi (DEYE)
+  - Tshiambula (DEYE)
+  - Tshiambwaya (DEYE)
+  - Tshianzambonga (DEYE)
+  - Tshibaka (DEYE)
+  - Tshibala (DEYE)
+  - Tshibalabala (DEYE)
+  - Tshibangu (DEYE)
+  - Tshibelu (DEYE)
+  - Tshibola (DEYE)
+  - Tshibwabwa (DEYE)
+  - Tshidibi (DEYE)
+  - Tshidindu (DEYE)
+  - Tshidingi (DEYE)
+  - Tshiebelela (DEYE)
+  - Tshiepela (DEYE)
+  - Tshifunka (DEYE)
+  - Tshikondo (DEYE)
+  - Tshikulu (DEYE)
+  - Tshikumini (DEYE)
+  - Tshilenga (DEYE)
+  - Tshimanga (DEYE)
+  - Tshimbi (DEYE)
+  - Tshimbombo (DEYE)
+  - Tshimini (DEYE)
+  - Tshiminyi (DEYE)
+  - Tshimowa (DEYE)
+  - Tshimpaka (DEYE)
+  - Tshimwena (DEYE)
+  - Tshipanda (DEYE)
+  - Tshipayayi (DEYE)
+  - Tshisekedi (DEYE)
+  - Tshiswaka (DEYE)
+  - Tshitambala (DEYE)
+  - Tshitoko (DEYE)
+  - Tshiula (DEYE)
+  - Tshiyola (DEYE)
+  - Tuendela (DEYE)
+  - Yabukalanga (DEYE)
+  - Yamba (DEYE)
+  - Yampanya (DEYE)
+  - Yowa (DEYE)

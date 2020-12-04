@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Aaron
+  - Adam
+  - Adrian
+  - Alfredo
+  - Austin
+  - Brandon
+  - Brian
+  - Calvin
+  - Carl
+  - Chance
+  - Charlie
+  - Clarence
+  - Cody
+  - Connor
+  - Damian
+  - Donald
+  - Dwight
+  - Dylan
+  - Ed
+  - Eduardo
+  - Elliott
+  - Ethan
+  - Evan
+  - Ezekiel
+  - Garrett
+  - George
+  - Giovanni
+  - Grayson
+  - James
+  - Jason
+  - Jay
+  - Jeremy
+  - Joel
+  - John
+  - Joshua
+  - Keith
+  - Kevin
+  - Lester
+  - Liam
+  - Mark
+  - Omar
+  - Oscar
+  - Owen
+  - Parker
+  - Pete
+  - Rick
+  - Robert
+  - Samuel
+  - Santiago
+  - Saul
+  - Scott
+  - Seth
+  - Shawn
+  - Simon
+  - Spencer
+  - Steven
+  - Timothy
+  - Tom
+  - Tucker
+  - Victor
+  - Vincent
+  - Virgil
+femaleFirst:
+  - Adriana
+  - Alexandra
+  - Alexis
+  - Allison
+  - Angela
+  - Anna
+  - Audrey
+  - Barbara
+  - Bethany
+  - Brianna
+  - Cadence
+  - Catherine
+  - Chelsea
+  - Chloe
+  - Cora
+  - Denise
+  - Esperanza
+  - Esther
+  - Evelyn
+  - Faith
+  - Gabrielle
+  - Georgia
+  - Guadalupe
+  - Isabel
+  - Jasmine
+  - Jillian
+  - Julia
+  - Kaitlyn
+  - Kara
+  - Karen
+  - Kelly
+  - Layla
+  - Lily
+  - Lucy
+  - Madeline
+  - Madison
+  - Margaret
+  - Maria
+  - Melanie
+  - Melissa
+  - Mia
+  - Michelle
+  - Miranda
+  - Olivia
+  - Paige
+  - Patricia
+  - Reese
+  - Riley
+  - Sarah
+  - Savannah
+  - Selena
+  - Sigourney
+  - Taylor
+  - Tiffany
+  - Vanessa
+  - Violet
+  - Zoey
+maleLast:
+  - Becker (BRAW)
+  - Benedict (BRAW)
+  - Bowers (BRAW)
+  - Bradley (BRAW)
+  - Brewster (BRAW)
+  - Bryant (BRAW)
+  - Burroughs (BRAW)
+  - Carlton (BRAW)
+  - Carr (BRAW)
+  - Carter (BRAW)
+  - Chase (BRAW)
+  - Childers (BRAW)
+  - Colby (BRAW)
+  - Crawley (BRAW)
+  - Crossett (BRAW)
+  - Daley (BRAW)
+  - Davies (BRAW)
+  - Dodge (BRAW)
+  - Evans (BRAW)
+  - Gallagher (BRAW)
+  - Gates (BRAW)
+  - Goddard (BRAW)
+  - Grady (BRAW)
+  - Griffith (BRAW)
+  - Gutierrez (BRAW)
+  - Harding (BRAW)
+  - Harper (BRAW)
+  - Hicks (BRAW)
+  - Horton (BRAW)
+  - Hudson (BRAW)
+  - Hunt (BRAW)
+  - Johnson (BRAW)
+  - Kay (BRAW)
+  - Kellogg (BRAW)
+  - Kemp (BRAW)
+  - Kendrick (BRAW)
+  - King (BRAW)
+  - Kirk (BRAW)
+  - Lawson (BRAW)
+  - Machado (BRAW)
+  - McNeil (BRAW)
+  - Meador (BRAW)
+  - Miller (BRAW)
+  - Mitchell (BRAW)
+  - Morris (BRAW)
+  - Nash (BRAW)
+  - North (BRAW)
+  - O'Connell (BRAW)
+  - Ortiz (BRAW)
+  - Palacios (BRAW)
+  - Partridge (BRAW)
+  - Patrick (BRAW)
+  - Perkins (BRAW)
+  - Porter (BRAW)
+  - Prewitt (BRAW)
+  - Rapp (BRAW)
+  - Ritchie (BRAW)
+  - Rooney (BRAW)
+  - Rossi (BRAW)
+  - Salomon (BRAW)
+  - Scroggins (BRAW)
+  - Shelley (BRAW)
+  - Smiley (BRAW)
+  - Sorensen (BRAW)
+  - Stein (BRAW)
+  - Stephens (BRAW)
+  - Stoddard (BRAW)
+  - Thompson (BRAW)
+  - Tirado (BRAW)
+  - Underwood (BRAW)
+  - Wade (BRAW)
+  - Wagner (BRAW)
+  - Webb (BRAW)

@@ -1,0 +1,2460 @@
+############################
+## FACTIONS - ufos orgnaic ( snakewomen) - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+ufos: # These UFOs are an alteration to the orginal designs done by jackstraw2323, i look forward to expanding his work...Luke83.
+  - type: SNAKEFLEET01
+    size: STR_VERY_SMALL
+    modSprite: PlaceHolder
+    sprite: 0
+    damageMax: 70
+    speedMax: 2200
+    accel: 10
+    power: 20
+    range: 25
+    score: 100
+    reload: 30
+    shieldCapacity: 20
+    shieldRecharge: 150
+    hunterKillerPercentage: 100
+    huntSpeed: 60
+    radarRange: 200
+    radarChance: 30
+    sightRange: 60
+    huntMode: 0
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: SNAKEFLEET01
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET01
+          width: 10
+          length: 10
+  - type: SNAKEFLEET02
+    size: STR_SMALL
+    modSprite: PlaceHolder
+    sprite: 1
+    damageMax: 450
+    speedMax: 1000
+    accel: 6
+    power: 10
+    range: 10
+    score: 150
+    reload: 5
+    armor: 10
+    shieldCapacity: 45
+    shieldRecharge: 150
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: SNAKEFLEET02
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET02
+          width: 20
+          length: 10
+  - type: SNAKEFLEET03
+    size: STR_SMALL
+    modSprite: PlaceHolder
+    sprite: 2
+    damageMax: 300
+    speedMax: 2700
+    accel: 12
+    power: 20
+    range: 40
+    score: 250
+    reload: 25
+    shieldCapacity: 20
+    shieldRecharge: 150
+    avoidBonus: 80
+    hunterKillerPercentage: 25
+    huntSpeed: 100
+    radarRange: 200
+    radarChance: 30
+    sightRange: 60
+    huntMode: 0
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: SNAKEFLEET03
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET03
+          width: 10
+          length: 20
+  - type: SNAKEFLEET04
+    size: STR_MEDIUM_UC
+    modSprite: PlaceHolder
+    sprite: 3
+    damageMax: 550
+    speedMax: 1200
+    accel: 8
+    power: 10
+    range: 10
+    score: 150
+    reload: 5
+    armor: 20
+    shieldCapacity: 75
+    shieldRecharge: 200
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: SNAKEFLEET04
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET04
+          width: 20
+          length: 20
+  - type: SNAKEFLEET05
+    modSprite: PlaceHolder
+    size: STR_MEDIUM_UC
+    sprite: 4
+    damageMax: 1500
+    speedMax: 1500
+    accel: 7
+    power: 50
+    range: 50
+    score: 500
+    reload: 40
+    armor: 20
+    shieldCapacity: 150
+    shieldRecharge: 200
+    breakOffTime: 450
+    battlescapeTerrainData:
+      name: SNAKEFLEET05
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET05
+          width: 20
+          length: 30
+  - type: SNAKEFLEET06
+    size: STR_LARGE
+    modSprite: PlaceHolder
+    sprite: 7
+    damageMax: 1700
+    speedMax: 2000
+    accel: 9
+    power: 30
+    range: 10
+    score: 800
+    reload: 5
+    armor: 25
+    shieldCapacity: 170
+    shieldRecharge: 200
+    breakOffTime: 650
+    battlescapeTerrainData:
+      name: SNAKEFLEET06
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET06
+          width: 20
+          length: 20
+  - type: SNAKEFLEET07
+    size: STR_LARGE
+    modSprite: PlaceHolder
+    sprite: 5
+    damageMax: 2000
+    speedMax: 1750
+    accel: 7
+    power: 65
+    range: 50
+    score: 1000
+    reload: 40
+    armor: 30
+    shieldCapacity: 200
+    shieldRecharge: 200
+    breakOffTime: 650
+    battlescapeTerrainData:
+      name: SNAKEFLEET07
+      mapDataSets:
+        - BLANKS
+        - SNAKEFLEET6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
+      mapBlocks:
+        - name: SNAKEFLEET07
+          width: 20
+          length: 30
+  # - type: SNAKEFLEET08
+  #   size: STR_VERY_LARGE
+  #   sprite: 6
+  #   damageMax: 3000
+  #   speedMax: 5000
+  #   accel: 6
+  #   power: 110
+  #   range: 69
+  #   score: 700
+  #   reload: 20
+  #   breakOffTime: 4000
+  #   battlescapeTerrainData:
+  #     name: SNAKEFLEET08
+  #     mapDataSets:
+  #       - BLANKS
+        # - SNAKEFLEET6
+        # - SnakePit_v2
+        # - SnakePit_v3
+  #     mapBlocks:
+  #       - name: WSNAKEFLEET08
+  #         width: 30
+  #         length: 30
+
+extraSprites:
+  - type: PlaceHolder
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Vessels/DogfightImage/placeholder.gif
+
+extraStrings:
+  - type: en-US
+    strings:
+      SNAKEFLEET01: Nimble Fighter
+      SNAKEFLEET01_UFOPEDIA: Small and fast interceptor fighter, is a very difficult target to shoot down. However, its armour and shields are limited by its size, making it a fragile target. They are often used in large numbers to establish air supremacy in a war zone.
+      SNAKEFLEET02: Transport Barge
+      SNAKEFLEET02_UFOPEDIA: One of the most abundant ships in the fleet, it is used in a variety of missions. It is poorly armed, only has point defense cannons, but its armor is formidable. It is usually escorted by ships better prepared for combat.
+      SNAKEFLEET03: Blockade Runner
+      SNAKEFLEET03_UFOPEDIA: Ultra fast and maneuverable ship, designed to break blockades and supply garrisons and fortresses under siege. Because of its slim silhouette is very difficult to track and shoot, uses stealth to complete their objectives.
+      SNAKEFLEET04: Support Boat
+      SNAKEFLEET04_UFOPEDIA: This ship is widely used for various tasks, from supplying bases to building fortresses. It has a large team of engineers and a large armor to resist enemy fire in battle zones. It is very slow and its weapons are very weak.
+      SNAKEFLEET05: Frigate
+      SNAKEFLEET05_UFOPEDIA: One of the most powerful and feared ships in the enemy fleet, has high-powered cannons and long range, but slow firing. It has additional shields and armor that gives it unprecedented resistance. It is the alien equivalent of our Battleships.
+      SNAKEFLEET06: Destroyer
+      SNAKEFLEET06_UFOPEDIA: This combat vessel is equipped with excellent short range AA cannons. Its function in the fleet is to provide anti-aircraft support and deter hostile fighters from approaching slower and less armed ships.
+      SNAKEFLEET07: Cruiser
+      SNAKEFLEET07_UFOPEDIA: A better armored version of the Frigate, it is used as the flagship of enemy fleets. Its extended hull allows to add another high-powered cannon, as well as more armor. It usually represents the most important ship in a battle group, leading the assault or retreat.
+      # WOS__SUPPLY_SHIP: WOS SUPPLY SHIP
+  - type: es-ES
+    strings:
+      SNAKEFLEET01: Caza ágil
+      SNAKEFLEET01_UFOPEDIA: Pequeño y rápido caza interceptor, es un blanco muy difícil de derribar. Sin embargo, su blindaje y escudos son limitados por su tamaño, volviéndolo un blanco frágil. Suelen emplearse en grandes números para establecer supremacía aérea en una zona de guerra.
+      SNAKEFLEET02: Barcaza de transporte
+      SNAKEFLEET02_UFOPEDIA: Una de las naves más abundantes de la flota, se usa en gran variedad de misiones. Está pobremente armada, unicamente posee cañones de punto de defensa, pero su blindaje es formidable. Suele ser escoltada por naves mejores preparadas para el combate.
+      SNAKEFLEET03: Rompebloqueos
+      SNAKEFLEET03_UFOPEDIA: Ultra rápida y maniobrable nave, diseñada para romper bloqueos y suministrar guarniciones y fortalezas bajo asedio. Por su delgada silueta es muy difícil de rastrear y abatir, emplea el sigilo para completar sus objetivos.
+      SNAKEFLEET04: Buque de apoyo
+      SNAKEFLEET04_UFOPEDIA: Este buque es ampliamente usado para diversas tareas, desde suministrar bases hasta construir fortalezas. Cuenta con un amplio equipo de ingenieros y un amplio blindaje para resistir fuego enemigo en zonas de batalla. Es muy lento y sus armas son muy débiles.
+      SNAKEFLEET05: Fragata
+      SNAKEFLEET05_UFOPEDIA: Una de las naves más poderosas y temidas de la Flota enemiga, posee cañones de alta potencia y largo alcance, pero que disparan lento. Cuenta con escudos y blindaje adicional que le brinda una resistencia sin precedentes. Es el equivalente alienígena de nuestros Acorazados.
+      SNAKEFLEET06: Destructor
+      SNAKEFLEET06_UFOPEDIA: Esta nave de combate está equipada con excelentes cañones AA de corto alcance. Su función en la flota es proveer apoyo antiaéreo y disuadir a cazas hostiles de acercarse a buques más lentos y menos armados.
+      SNAKEFLEET07: Crucero
+      SNAKEFLEET07_UFOPEDIA: Versión mejor blindada de la Fragata, es empleada como nave insignia de las flotas enemigas. Su casco ampliado permite añadir otro cañón de alta potencia, así como más blindaje. Suele representar la nave más importante de un grupo de batalla, liderando el asalto o la retirada.
+
+alienDeployments: #done
+  - type: SNAKEFLEET01
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET02
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET03
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_VIBRO_BLADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET04
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET05
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET06
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET07
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_ACID_HEAVY_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+
+##################### UNDERWATER VERSIONS #######################
+
+  - type: SNAKEFLEET01_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET02_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 40
+    length: 40
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET03_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_VIBRO_BLADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET04_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET05_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET06_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: SNAKEFLEET07_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_ACID_HEAVY_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+          -
+            - STR_ACID_HEAVY
+            - STR_ACID_HEAVY_CLIP
+            - STR_ACID_HEAVY_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_ACID
+            - STR_ACID_CLIP
+            - STR_ACID_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER	
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_ACID_RIFLE
+            - STR_ACID_RIFLE_CLIP
+            - STR_ACID_RIFLE_CLIP
+            - STR_SONIC_PULSER
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+
+ufopaedia:
+#Snake Fleet
+######################
+  - id: SNAKEFLEET01
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET01
+    text: SNAKEFLEET01_UFOPEDIA
+  - id: SNAKEFLEET02
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET02
+    text: SNAKEFLEET02_UFOPEDIA
+  - id: SNAKEFLEET03
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET03
+    text: SNAKEFLEET03_UFOPEDIA
+  - id: SNAKEFLEET04
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET04
+    text: SNAKEFLEET04_UFOPEDIA
+  - id: SNAKEFLEET05
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET05
+    text: SNAKEFLEET05_UFOPEDIA
+  - id: SNAKEFLEET06
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET06
+    text: SNAKEFLEET06_UFOPEDIA
+  - id: SNAKEFLEET07
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SNAKEFLEET07
+    text: SNAKEFLEET07_UFOPEDIA

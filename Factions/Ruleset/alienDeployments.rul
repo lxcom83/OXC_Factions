@@ -1,0 +1,4953 @@
+alienDeployments:
+############################
+## FACTIONS - alien Deployments -std - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+  # - delete: STR_ALIEN_TERROR
+##############Factions - New Missions ##################
+  - type: UNDERWATER_TERRAFORM_1
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMIC_LANCE
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMIC_LANCE
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMIC_LANCE
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMIC_LANCE
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMIC_LANCE
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_THERMIC_LANCE
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_THERMIC_LANCE
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+    width: 50
+    length: 50
+    height: 6
+    civilians: 0
+    terrains:
+      - UNDERWATER_TERRAFORM_1
+    alert: TERRAFORM
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_TERRAFORM
+    enviroEffects: STR_Underwater
+    duration: [4, 10]
+    despawnPenalty: 100
+
+  - type: STR_LIBERATION_BLESSED
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 5
+    civilians: 16
+    terrains:
+      - OXC_SLAVES #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_ETHERAL
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 5
+    civilians: 16
+    terrains:
+      - OXC_SLAVES #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_ETHERAL
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 5
+    civilians: 16
+    terrains:
+      - OXC_SLAVES #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_SNAKEWOMEN_MATRIARCHY
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 5
+    civilians: 16
+    terrains:
+      - OXC_SLAVES #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+  - type: STR_LIBERATION_2_BLESSED
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 40
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES2 #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_2_ETHERAL
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 40
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES2 #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_2_SNAKEWOMEN_MATRIARCHY
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 40
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES2 #mapname used
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+
+  - type: STR_LIBERATION_3_BLESSED
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_VIBRO_BLADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - P_SLAVES
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_3_ETHERAL
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_VIBRO_BLADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - P_SLAVES
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+
+  - type: STR_LIBERATION_3_SNAKEWOMEN_MATRIARCHY
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_VIBRO_BLADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - P_SLAVES
+    alert: STR_LIBERATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: LIBERATION SITE #what it is called on Geoscape
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 1000
+    abortPenalty: 500
+
+# ##### Salvage Options#####
+#   - type: STR_SAVAGE_SALVAGE
+#     data:
+#       - alienRank: 5
+#         lowQty: 4
+#         highQty: 6
+#         dQty: 1
+#         percentageOutsideUfo: 70
+#         itemSets:
+#           -
+#             - STR_SAVAGE_DEATH_AXEL
+#             - STR_SR3_VIKHR
+#             - STR_SR3_VIKHR_CLIP
+#             - STR_SR3_VIKHR_CLIP
+#           -
+#             - STR_SAVAGE_DEATH_AXE
+#             - STR_ALIEN_GRENADE
+#             - STR_ALIEN_GRENADE
+#             - STR_ALIEN_GRENADE
+#           -
+#             - STR_THUNDERSTICK
+#             - STR_SAWEDOFF_SHOTGUN
+#             - STR_SAWEDOFF_SHOTGUN_CLIP
+#             - STR_SAWEDOFF_SHOTGUN_CLIP
+#           -
+#             - STR_SAVAGE_DEATH_AXE
+#             - STR_ALIEN_GRENADE
+#             - STR_ALIEN_GRENADE
+#             - STR_ALIEN_GRENADE
+#           -
+#             - STR_SAVAGE_DEATH_AXEL
+#             - STR_SR3_VIKHR
+#             - STR_SR3_VIKHR_CLIP
+#             - STR_SR3_VIKHR_CLIP
+#       - alienRank: 6
+#         lowQty: 2
+#         highQty: 5
+#         dQty: 2
+#         percentageOutsideUfo: 50
+#         itemSets:
+#           -
+#             []
+#           -
+#             []
+#           -
+#             []
+#       - alienRank: 7
+#         lowQty: 1
+#         highQty: 3
+#         dQty: 2
+#         percentageOutsideUfo: 50
+#         itemSets:
+#           -
+#             []
+#           -
+#             []
+#           -
+#             []
+#     width: 40
+#     length: 40
+#     height: 5
+#     civilians: 5
+#     terrains:
+#       - RUINED_URBAN #mapname used
+#     alert: STR_SALVAGE_SITE
+#     alertBackground: BACK03.SCR #change background image
+#     briefing:
+#       palette: 2
+#       music: GMENBASE    
+#     markerName: SALVAGE OPERATION #what it is called on Geoscape
+#     duration: [4, 10]
+#     despawnPenalty: 20
+
+#   - type: STR_SCAVENGERS_SALVAGE
+#     data:
+#       - alienRank: 5
+#         lowQty: 4
+#         highQty: 6
+#         dQty: 1
+#         percentageOutsideUfo: 70
+#         itemSets:
+#           -
+#             - STR_PLASMA_PISTOL
+#             - STR_PLASMA_PISTOL_CLIP
+#             - STR_PLASMA_PISTOL_CLIP
+#           -
+#             - STR_PLASMA_RIFLE
+#             - STR_PLASMA_RIFLE_CLIP
+#             - STR_ALIEN_GRENADE
+#             - STR_PLASMA_RIFLE_CLIP
+#           -
+#             - STR_HEAVY_PLASMA
+#             - STR_HEAVY_PLASMA_CLIP
+#             - STR_ALIEN_GRENADE
+#             - STR_HEAVY_PLASMA_CLIP
+#       - alienRank: 6
+#         lowQty: 2
+#         highQty: 5
+#         dQty: 2
+#         percentageOutsideUfo: 50
+#         itemSets:
+#           -
+#             []
+#           -
+#             []
+#           -
+#             []
+#       - alienRank: 7
+#         lowQty: 1
+#         highQty: 3
+#         dQty: 2
+#         percentageOutsideUfo: 50
+#         itemSets:
+#           -
+#             []
+#           -
+#             []
+#           -
+#             []
+#     width: 40
+#     length: 40
+#     height: 5
+#     civilians: 5
+#     terrains:
+#       - RUINED_URBAN #mapname used
+#     alert: STR_SALVAGE_SITE
+#     alertBackground: BACK03.SCR #change background image
+#     briefing:
+#       palette: 2
+#       music: GMENBASE    
+#     markerName: SALVAGE OPERATION #what it is called on Geoscape
+#     duration: [4, 10]
+#     despawnPenalty: 20
+
+
+##### Salvage Options#####
+  - type: STR_SAVAGE_SCOUTS_SALVAGE
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    civilians: 5
+    terrains:
+      - RUINED_URBAN #mapname used
+    alert: STR_SALVAGE_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: SALVAGE OPERATION #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 50
+
+  - type: STR_SCAVENGERS_SCOUTS_SALVAGE
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 40
+    length: 40
+    height: 5
+    civilians: 5
+    terrains:
+      - RUINED_URBAN #mapname used
+    alert: STR_SALVAGE_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: SALVAGE OPERATION #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 50
+
+
+  - type: STR_INHERITORS_SCOUTS_SALVAGE
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_CAR15
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_CAR15
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_CAR15
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_CAR15_CLIP
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+    width: 40
+    length: 40
+    height: 5
+    civilians: 5
+    terrains:
+      - RUINED_URBAN #mapname used
+    alert: STR_SALVAGE_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: SALVAGE OPERATION #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 50
+
+
+#####END####
+  - type: STR_salvageoperation_UW
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - UNDERWATER_TERRAFORM_1 #test map
+    alert: STR_UW_SALVAGE_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: UNDERWATER SALVAGE OPERATION #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 50
+    # abortPenalty: 100
+
+
+  #   ########LIBERATION##########
+  
+  - type: STR_BLESSED_SCOUTS_LIBERATION
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_LIBERATION_SITE
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+  
+
+  - type: STR_ETHERAL_HIGH_COMMAND_SCOUTS_LIBERATION
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_LIBERATION_SITE
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+
+  - type: STR_SNAKEWOMEN_MATRIARCHY_SCOUTS_LIBERATION
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+    width: 50
+    length: 50
+    height: 6
+    civilians: 16
+    terrains:
+      - OXC_SLAVES
+    alert: STR_ALIENS_TERRORISE
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_LIBERATION_SITE
+    markerIcon: 9
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+  
+##################################################
+#####EXTERMINATE#####
+  - type: STR_EXTERMINATE_CITY
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 5
+    # civilians: 5
+    terrains:
+      - ALIEN_LAND_CITY #mapname used
+    alert: STR_EXTERMINATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: EXTERMINATE #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+  - type: STR_EXTERMINATE_CITY_UW
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 30
+    length: 40
+    height: 6
+    # civilians: 5
+    terrains:
+      - ALIEN_WATER_CITY #mapname used
+    alert: STR_UW_EXTERMINATION_SITE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: EXTERMINATE_UW #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+  ####EXTERNMINATE END###########
+
+####NUKEZONE####
+  - type: STR_SAVAGE_NUKEZONE
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADEP
+      - alienRank: 6
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADEP
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 5
+    # civilians: 5
+    terrains:
+      - NUKECITY #mapname used
+    alert: STR_NUKEZONE
+    alertBackground: BACK03.SCR #change background image
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: NUKEZONE #what it is called on Geoscape
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+    nextStage: STR_CAVE_TEST
+
+
+  - type: STR_CAVE_TEST
+    data:
+      - alienRank: 0
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 2
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 3
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 4
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_HEAVY_PLASMA_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 5
+    terrains:
+      - UNDERGROUND
+    shade: 5
+    race: STR_MIXED
+    # winCutscene: winGame
+    # loseCutscene: loseGame
+    # abortCutscene: loseGame
+    briefing:
+      textOffset: -16
+      palette: 6
+      music: GMNEWMAR
+      showTarget: false
+      showCraft: false
+      background: BACK01.SCR
+    # script: BOSSBATTLE
+    # objectiveType: 14
+    # objectivesRequired: 1
+    despawnPenalty: 100
+    abortPenalty: 100
+    ####NUKE END#####
+
+
+
+######### RAID MAPS ################
+
+  - type: STR_RAIDER_SPAWN_GRASS
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+            - STR_HATCHET
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SLEDGEHAMMER
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_HEAVY_CANNON
+            - STR_HC_I_AMMO
+            - STR_HC_I_AMMO
+            - STR_KNIFE
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_RIFLE_CLIP
+            - STR_KNIFE
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_SLEDGEHAMMER
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_ROCKET_LAUNCHER
+            - STR_SMALL_ROCKET
+            - STR_SMALL_ROCKET
+            - STR_SMALL_ROCKET
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_SLEDGEHAMMER
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+            - STR_HATCHET
+          -
+            - STR_LASER_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_DART_PISTOL
+            - STR_DART_PISTOL_ACID_CLIP
+            - STR_DART_PISTOL_ACID_CLIP
+            - STR_GRENADE
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_VIBRO_BLADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_SLEDGEHAMMER
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+            - STR_HATCHET
+          -
+            - STR_LASER_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_SLEDGEHAMMER
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+            - STR_HATCHET
+          -
+            - STR_LASER_PISTOL
+            - STR_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_GRENADE
+            - STR_VIBRO_BLADE
+    width: 40
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - ISLAND
+    alert: STR_RAIDER_ATTACK
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RAIDER_ATTACK_GRASS
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+
+
+  - type: STR_RAIDER_SPAWN_OCEAN_DUNES
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_PISTOL
+            - STR_PISTOL_CLIP
+            - STR_PISTOL_CLIP
+          -
+            - STR_RIFLE
+            - STR_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_PISTOL_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+          -
+            - STR_GAUSS_PISTOL
+            - STR_GAUSS_RIFLE_CLIP
+            - STR_ALIEN_GRENADE
+            - STR_VIBRO_BLADE
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_VIBRO_BLADE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 40
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - DRY_PIPES
+    alert: STR_RAIDER_ATTACK
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RAIDER_ATTACK-SAND
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+
+  - type: STR_RAIDER_SPAWN_NUKEZONE
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+            - STR_SAWEDOFF_SHOTGUN_CLIP
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXEL
+            - STR_SR3_VIKHR
+            - STR_SR3_VIKHR_CLIP
+            - STR_SR3_VIKHR_CLIP
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 30
+    length: 40
+    height: 6
+    civilians: 5
+    terrains:
+      - NUKECITY_B # A is the smalller buildings
+    alert: STR_RAIDER_ATTACK
+    alertBackground: BACK03.SCR
+    briefing:
+      palette: 2
+      music: GMENBASE    
+    markerName: STR_RAIDER_ATTACK_NUKE
+    duration: [4, 10]
+    despawnPenalty: 100
+    abortPenalty: 100
+
+###############################################
+
+
+  # - type: STR_MARS_CYDONIA_LANDING
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 0
+  #       percentageOutsideUfo: 60
+  #       itemSets:
+  #         -
+  #           - STR_PLASMA_PISTOL
+  #           - STR_PLASMA_PISTOL_CLIP
+  #         -
+  #           - STR_PLASMA_RIFLE
+  #           - STR_PLASMA_RIFLE_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #     - alienRank: 1
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_PLASMA_PISTOL
+  #           - STR_PLASMA_PISTOL_CLIP
+  #         -
+  #           - STR_PLASMA_RIFLE
+  #           - STR_PLASMA_RIFLE_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #     - alienRank: 0
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_PLASMA_PISTOL
+  #           - STR_PLASMA_PISTOL_CLIP
+  #         -
+  #           - STR_PLASMA_RIFLE
+  #           - STR_PLASMA_RIFLE_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #     - alienRank: 6
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 0
+  #       percentageOutsideUfo: 100
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 6
+  #   terrains:
+  #     - MARS
+  #   shade: 15
+  #   race: STR_SECTOID
+  #   nextStage: STR_MARS_THE_FINAL_ASSAULT
+  #   finalDestination: true
+  #   loseCutscene: loseGame
+  #   abortCutscene: loseGame
+  #   briefing:
+  #     textOffset: -16
+  #     palette: 6
+  #     music: GMNEWMAR
+  #     showTarget: false
+  # - type: STR_MARS_THE_FINAL_ASSAULT
+  #   data:
+  #     - alienRank: 0
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #     - alienRank: 2
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_BLASTER_LAUNCHER
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #         -
+  #           - STR_BLASTER_LAUNCHER
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #         -
+  #           - STR_BLASTER_LAUNCHER
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #           - STR_BLASTER_BOMB
+  #     - alienRank: 3
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #     - alienRank: 4
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #     - alienRank: 5
+  #       lowQty: 3
+  #       highQty: 5
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #         -
+  #           - STR_HEAVY_PLASMA
+  #           - STR_HEAVY_PLASMA_CLIP
+  #           - STR_ALIEN_GRENADE
+  #           - STR_HEAVY_PLASMA_CLIP
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 4
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 60
+  #   length: 60
+  #   height: 6
+  #   terrains:
+  #     - UBASE
+  #   shade: 5
+  #   race: STR_MIXED
+  #   winCutscene: winGame
+  #   loseCutscene: loseGame
+  #   abortCutscene: loseGame
+  #   briefing:
+  #     textOffset: -16
+  #     palette: 6
+  #     music: GMNEWMAR
+  #     showTarget: false
+  #     showCraft: false
+  #     background: BACK01.SCR
+  #   script: BOSSBATTLE
+  #   objectiveType: 14
+  #   objectivesRequired: 1
+
+  # - type: STR_PORT_TERROR
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 4
+  #   civilians: 16
+  #   terrains:
+  #     - PORT
+  #   script: PORT_TERROR
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  #   alert: STR_ALIENS_LAUNCH_PORT_TERROR
+  #   alertBackground: BACK03.SCR
+  #   markerName: STR_TERROR_SITE
+  #   duration: [4, 10]
+  #   despawnPenalty: 1000
+  # - type: STR_ISLAND_TERROR
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 4
+  #   civilians: 16
+  #   terrains:
+  #     - ISLAND
+  #   script: ISLAND_TERROR
+  #   briefing:
+  #     palette: 4
+  #     music: GMISPOSH
+  #   alert: STR_ALIENS_LAUNCH_ISLAND_TERROR
+  #   alertBackground: BACK03.SCR
+  #   markerName: STR_TERROR_SITE
+  #   duration: [4, 10]
+  #   despawnPenalty: 1000
+  # - type: STR_CARGO_SHIP_P1
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_VIBRO_BLADE
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 30
+  #   length: 70
+  #   height: 4
+  #   civilians: 16
+  #   script: SHIP_P1
+  #   terrains:
+  #     - CARGO
+  #   nextStage: STR_CARGO_SHIP_P2
+  #   briefing:
+  #     title: STR_SHIP_RESCUE_MISSION
+  #     desc: STR_SHIP_RESCUE_P1_BRIEFING
+  #     palette: 4
+  #     music: GMISPOSH
+  #   alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
+  #   alertBackground: BACK03.SCR
+  #   markerName: STR_TERROR_SITE
+  #   duration: [4, 10]
+  #   despawnPenalty: 1000
+  # - type: STR_CARGO_SHIP_P2
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_VIBRO_BLADE
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 30
+  #   length: 70
+  #   height: 4
+  #   civilians: 16
+  #   script: SHIP_P2
+  #   terrains:
+  #     - CARGO
+  #   shade: 0
+  #   briefing:
+  #     title: STR_SHIP_RESCUE_MISSION
+  #     desc: STR_SHIP_RESCUE_P2_BRIEFING
+  #     palette: 4
+  #     music: GMISPOSH
+  #     background: BACK01.SCR
+  #   markerName: STR_TERROR_SITE
+  # - type: STR_CRUISE_SHIP_P1
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 30
+  #   length: 70
+  #   height: 4
+  #   civilians: 16
+  #   script: SHIP_P1
+  #   terrains:
+  #     - LINERT
+  #   nextStage: STR_CRUISE_SHIP_P2
+  #   briefing:
+  #     title: STR_SHIP_RESCUE_MISSION
+  #     desc: STR_SHIP_RESCUE_P1_BRIEFING
+  #     palette: 4
+  #     music: GMISPOSH
+  #   alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
+  #   alertBackground: BACK03.SCR
+  #   markerName: STR_TERROR_SITE
+  #   duration: [4, 10]
+  #   despawnPenalty: 1000
+  # - type: STR_CRUISE_SHIP_P2
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_VIBRO_BLADE
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 30
+  #   length: 70
+  #   height: 4
+  #   civilians: 16
+  #   script: SHIP_P2
+  #   terrains:
+  #     - LINERB
+  #   shade: 0
+  #   briefing:
+  #     title: STR_SHIP_RESCUE_MISSION
+  #     desc: STR_SHIP_RESCUE_P2_BRIEFING
+  #     palette: 4
+  #     music: GMISPOSH
+  #     background: BACK01.SCR
+  #   markerName: STR_TERROR_SITE
+  # - type: STR_ARTIFACT_SITE_P1
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       extraQty: 2
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       extraQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       extraQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 50
+  #   length: 50
+  #   height: 4
+  #   terrains:
+  #     - ALART
+  #   script: ARTIFACT_P1
+  #   nextStage: STR_ARTIFACT_SITE_P2
+  #   briefing:
+  #     title: STR_ALIEN_CONTACT_SITE_MISSION
+  #     palette: 4
+  #     music: GMATTBAS
+  #   alert: STR_ALIEN_ACTIVITY_DETECTED
+  #   alertBackground: BACK03.SCR
+  #   markerName: STR_ARTIFACT_SITE
+  #   duration: [4, 10]
+  #   despawnPenalty: 2000
+  #   objectiveFailed: [STR_ALIEN_SYNOMIUM_DEVICE_FAILED, -750]
+  # - type: STR_ARTIFACT_SITE_P2
+  #   data:
+  #     - alienRank: 5
+  #       lowQty: 4
+  #       highQty: 6
+  #       dQty: 1
+  #       extraQty: 2
+  #       percentageOutsideUfo: 70
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 4
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 2
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 20
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_THERMIC_LANCE
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #     - alienRank: 1
+  #       lowQty: 1
+  #       highQty: 1
+  #       dQty: 0
+  #       extraQty: 2
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 6
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       extraQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 2
+  #       extraQty: 2
+  #       percentageOutsideUfo: 50
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #   width: 40
+  #   length: 40
+  #   height: 4
+  #   terrains:
+  #     - GRUNGE
+  #   shade: 15
+  #   depth: [3, 3]
+  #   script: ARTIFACT_P2
+  #   briefing:
+  #     title: STR_ALIEN_CONTACT_SITE_MISSION
+  #     palette: 4
+  #     music: GMATTBAS
+  #     background: BACK01.SCR
+  #   markerName: STR_ARTIFACT_SITE
+  #   objectiveType: 3
+  #   objectivesRequired: 1
+  #   objectiveComplete: [STR_ALIEN_SYNOMIUM_DEVICE_DESTROYED, 750]
+  #   objectiveFailed: [STR_ALIEN_SYNOMIUM_DEVICE_FAILED, -750]
+  #   objectivePopup: STR_CONTROL_CENTER_DESTROYED
+  # - type: STR_ALIEN_BASE_ASSAULT
+  #   data:
+  #     - alienRank: 6
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 5
+  #       lowQty: 7
+  #       highQty: 9
+  #       dQty: 5
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 4
+  #       lowQty: 3
+  #       highQty: 4
+  #       dQty: 2
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_HEAVY_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 2
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_MC_READER
+  #     - alienRank: 2
+  #       lowQty: 2
+  #       highQty: 3
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 1
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 0
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #   width: 60
+  #   length: 60
+  #   height: 4
+  #   terrains:
+  #     - ENTRY
+  #   shade: 15
+  #   depth: [3, 3]
+  #   race: STR_MIXED_CREW
+  #   markerName: STR_ALIEN_BASE
+  #   markerIcon: 7
+  #   genMission:
+  #     STR_ALIEN_SUPPLY: 100
+  #   genMissionFreq: 6
+  #   script: ALIEN_COLONY_P1
+  #   alienBase: true    # this is only to tell new battle mode what to do with this deployment
+  #   nextStage: STR_ALIEN_COLONY_P2
+  #   briefing:
+  #     title: STR_ALIEN_COLONY_ATTACK_MISSION
+  #     desc: STR_ALIEN_COLONY_P1_BRIEFING
+  #     palette: 4
+  #     music: GMATTBAS
+  #     background: BACK01.SCR
+  #   points: 5
+  # - type: STR_ALIEN_COLONY_P2
+  #   data:
+  #     - alienRank: 6
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 7
+  #       lowQty: 1
+  #       highQty: 3
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           []
+  #         -
+  #           []
+  #         -
+  #           []
+  #     - alienRank: 5
+  #       lowQty: 7
+  #       highQty: 9
+  #       dQty: 5
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 4
+  #       lowQty: 3
+  #       highQty: 4
+  #       dQty: 2
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMIC_LANCE
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #     - alienRank: 3
+  #       lowQty: 2
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_PISTOL
+  #           - STR_PISTOL_POWER_CLIP
+  #           - STR_PISTOL_POWER_CLIP
+  #         -
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #           - STR_MC_READER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_MC_READER
+  #     - alienRank: 2
+  #       lowQty: 2
+  #       highQty: 3
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 1
+  #       lowQty: 2
+  #       highQty: 4
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #         -
+  #           - STR_DISRUPTOR_PULSE_LAUNCHER
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #           - STR_DISRUPTOR_AMMO
+  #     - alienRank: 0
+  #       lowQty: 1
+  #       highQty: 2
+  #       dQty: 1
+  #       percentageOutsideUfo: 0
+  #       itemSets:
+  #         -
+  #           - STR_SONIC_BLASTA_RIFLE
+  #           - STR_BLASTA_POWER_CLIP
+  #           - STR_BLASTA_POWER_CLIP
+  #         -
+  #           - STR_SONIC_CANNON
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_CANNON_POWER_CLIP
+  #           - STR_SONIC_PULSER
+  #           - STR_SONIC_PULSER
+  #         -
+  #           - STR_THERMAL_SHOK_LAUNCHER
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #           - STR_THERMAL_SHOK_BOMB
+  #   width: 60
+  #   length: 60
+  #   height: 4
+  #   shade: 0
+  #   depth: [3, 3]
+  #   terrains:
+  #     - A_BASE
+  #   race: STR_LOBSTERMAN
+  #   script: ALIEN_COLONY_P2
+  #   briefing:
+  #     title: STR_ALIEN_COLONY_ATTACK_MISSION
+  #     palette: 4
+  #     music: GMATTBAS
+  #     background: BACK01.SCR
+  #   objectiveType: 3
+  #   alienBase: true    # this is only to tell new battle mode what to do with this deployment
+  #   objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+  #   objectivePopup: STR_CONTROL_CENTER_DESTROYED
+
+
+  - type: STR_SCAVENGERS_BASE_ASSAULT
+    data:
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 5
+        lowQty: 5
+        highQty: 7
+        dQty: 4
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_SMALL_LAUNCHER
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+            - STR_STUN_BOMB
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_PISTOL
+            - STR_PLASMA_PISTOL_CLIP
+            - STR_PLASMA_PISTOL_CLIP
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 1
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_PLASMA_RIFLE
+            - STR_PLASMA_RIFLE_CLIP
+            - STR_PLASMA_RIFLE_CLIP
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_BLASTER_LAUNCHER
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+            - STR_BLASTER_BOMB
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEAVY_PLASMA
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_HEAVY_PLASMA_CLIP
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    terrains:
+      - OLD_PORT
+    # shade: 15
+    script: OLD_PORT_SCRIPT
+    briefing:
+      textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+    objectiveType: 3
+    markerName: STR_ALIEN_BASE
+    markerIcon: 7
+    genMission:
+      STR_ALIEN_SUPPLY: 100
+    genMissionFreq: 6
+    alienBase: true    # this is only to tell new battle mode what to do with this deployment
+    objectiveComplete: [STR_ALIEN_BASE_CONTROL_DESTROYED, 500]
+    objectivePopup: STR_CONTROL_CENTER_DESTROYED
+    points: 1

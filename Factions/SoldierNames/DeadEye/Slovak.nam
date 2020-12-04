@@ -1,0 +1,184 @@
+lookWeights:
+  - 45
+  - 55
+  - 0
+  - 0
+maleFirst:
+  - Andrej
+  - Arpad
+  - Branislav
+  - Ctibor
+  - David
+  - Dusan
+  - Frantisek
+  - Jakub
+  - Jan
+  - Jaroslav
+  - Jozef
+  - Juraj
+  - Julius
+  - Ladislav
+  - Lubomir
+  - Lubos
+  - Ludovit
+  - Lukas
+  - Martin
+  - Matej
+  - Michal
+  - Milan
+  - Miroslav
+  - Mojmir
+  - Ondrej
+  - Pavol
+  - Peter
+  - Radomir
+  - Radoslav
+  - Rastislav
+  - Richard
+  - Roman
+  - Slavomir
+  - Stanislav
+  - Tomas
+  - Vladimir
+  - Vratko
+  - Zdeno
+femaleFirst:
+  - Adela
+  - Agata
+  - Andrea
+  - Anna
+  - Dasa
+  - Elena
+  - Eva
+  - Hana
+  - Helena
+  - Ivana
+  - Jarmila
+  - Jaroslava
+  - Katarina
+  - Karolina
+  - Kristina
+  - Kvetoslava
+  - Lenka
+  - Linda
+  - Lucia
+  - Ludmila
+  - Maria
+  - Michaela
+  - Milena
+  - Monika
+  - Natalia
+  - Nela
+  - Petra
+  - Tatiana
+  - Tereza
+  - Veronika
+  - Viera
+  - Zdenka
+  - Zoja
+  - Zora
+  - Zuzana
+maleLast:
+  - Baca (DEYE)
+  - Banik (DEYE)
+  - Beno (DEYE)
+  - Bezdicka (DEYE)
+  - Bondra (DEYE)
+  - Bosansky (DEYE)
+  - Brezina (DEYE)
+  - Cernuska (DEYE)
+  - Cyprich (DEYE)
+  - Dano (DEYE)
+  - Dula (DEYE)
+  - Filip (DEYE)
+  - Gernic (DEYE)
+  - Gregor (DEYE)
+  - Gregus (DEYE)
+  - Goga (DEYE)
+  - Halak (DEYE)
+  - Halda (DEYE)
+  - Haluska (DEYE)
+  - Hascak (DEYE)
+  - Holub (DEYE)
+  - Horvath (DEYE)
+  - Janik (DEYE)
+  - Janosik (DEYE)
+  - Janoska (DEYE)
+  - Jurina (DEYE)
+  - Keniz (DEYE)
+  - Kmet (DEYE)
+  - Kolesar (DEYE)
+  - Kolnik (DEYE)
+  - Kostrec (DEYE)
+  - Kovac (DEYE)
+  - Liptak (DEYE)
+  - Liska (DEYE)
+  - Lukac (DEYE)
+  - Majesky (DEYE)
+  - Marian (DEYE)
+  - Medved (DEYE)
+  - Mihalik (DEYE)
+  - Mikus (DEYE)
+  - Mojzis (DEYE)
+  - Molnar (DEYE)
+  - Nagy (DEYE)
+  - Nemec (DEYE)
+  - Novak (DEYE)
+  - Ondrejkovic (DEYE)
+  - Ondrus (DEYE)
+  - Oravec (DEYE)
+  - Pasko (DEYE)
+  - Pavlas (DEYE)
+  - Pavuk (DEYE)
+  - Prochazka (DEYE)
+  - Rakocz (DEYE)
+  - Senko (DEYE)
+  - Skokan (DEYE)
+  - Slezak (DEYE)
+  - Sloboda (DEYE)
+  - Slovak (DEYE)
+  - Szabo (DEYE)
+  - Toma (DEYE)
+  - Valovsky (DEYE)
+  - Varga (DEYE)
+  - Vaskovic (DEYE)
+  - Viktorin (DEYE)
+femaleLast:
+  - Adamcova (DEYE)
+  - Banasova (DEYE)
+  - Dubovska (DEYE)
+  - Durianova (DEYE)
+  - Farkasovska (DEYE)
+  - Ficova (DEYE)
+  - Filipova (DEYE)
+  - Haluskova (DEYE)
+  - Heckova (DEYE)
+  - Hubinska (DEYE)
+  - Janosikova (DEYE)
+  - Kocisova (DEYE)
+  - Kovacikova (DEYE)
+  - Kovacova (DEYE)
+  - Kovacova (DEYE)
+  - Krajcirova (DEYE)
+  - Kubincova (DEYE)
+  - Luptakova (DEYE)
+  - Mala (DEYE)
+  - Malachovska (DEYE)
+  - Martinova (DEYE)
+  - Matusova (DEYE)
+  - Melcerova (DEYE)
+  - Mikusova (DEYE)
+  - Moravcova (DEYE)
+  - Nemcova (DEYE)
+  - Oravcova (DEYE)
+  - Patrikova (DEYE)
+  - Peskova (DEYE)
+  - Petrovicka (DEYE)
+  - Plchova (DEYE)
+  - Puchertova (DEYE)
+  - Rusova (DEYE)
+  - Senkova (DEYE)
+  - Simekova (DEYE)
+  - Slobodova (DEYE)
+  - Sturova (DEYE)
+  - Vacvalova (DEYE)

@@ -1,0 +1,160 @@
+# Note: It's not a coincidence that the last names mirror the male names, traditionally "last" names in ethiopia are the father or grandfather's first name.
+lookWeights:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Abebe
+  - Adamu
+  - Ahadu
+  - Alem
+  - Alemu
+  - Alem Neh
+  - Amara
+  - Amare
+  - Assefa
+  - Asnake
+  - Bekele
+  - Berhanu
+  - Berihun
+  - Bogale
+  - Brehan
+  - Brehanu
+  - Dabir
+  - Dahnay
+  - Daniachew
+  - Dawit
+  - Demeke
+  - Demissie
+  - Desta
+  - Gebra Hana
+  - Gebre Kiristos
+  - Gere Mariam
+  - Geriel
+  - Getachew
+  - Geteye
+  - Girma
+  - Hagos
+  - Hakim
+  - Iskinder
+  - Kaleb
+  - Kebede
+  - Kelile
+  - Lake
+  - Lebna
+  - Lemma
+  - Li'ol
+  - Mebrete
+  - Mebreatu
+  - Mechela
+  - Melku
+  - Mulu Alem
+  - Negasi
+  - Nigus
+  - Tesfa
+  - Tesfaye
+  - Wendimu
+  - Werkneh
+  - Yonas
+femaleFirst:
+  - Aamina
+  - Abeba
+  - Abebech
+  - Abrihet
+  - Adina
+  - Afework
+  - Afeworki
+  - Aisha
+  - Alem Nesh
+  - Amira
+  - Asnaku
+  - Aster
+  - Ayana
+  - Berta
+  - Bogalech
+  - Brehane
+  - Brihan
+  - Dahnay
+  - Demeku
+  - Desta
+  - Edom
+  - Eldana
+  - Eleni
+  - Elhanan
+  - Elsa
+  - Gabra
+  - Genet
+  - Hagos
+  - Helen
+  - Kassa
+  - Kebedech
+  - Lakech
+  - Lielit
+  - Makeda
+  - Martha
+  - Melke
+  - Meseret
+  - Mihret
+  - Mulu Ken
+  - Nigest
+  - Rahel
+  - Samrawit
+  - Sara
+  - Tenagne
+  - Werknesh
+  - Yenee
+  - Zema
+maleLast:
+  - Abebe (DEYE)
+  - Adamu (DEYE)
+  - Ahadu (DEYE)
+  - Alem (DEYE)
+  - Alemu (DEYE)
+  - Alem Neh (DEYE)
+  - Amara (DEYE)
+  - Amare (DEYE)
+  - Assefa (DEYE)
+  - Asnake (DEYE)
+  - Bekele (DEYE)
+  - Berhanu (DEYE)
+  - Berihun (DEYE)
+  - Bogale (DEYE)
+  - Brehan (DEYE)
+  - Brehanu (DEYE)
+  - Dabir (DEYE)
+  - Dahnay (DEYE)
+  - Daniachew (DEYE)
+  - Dawit (DEYE)
+  - Demeke (DEYE)
+  - Demissie (DEYE)
+  - Desta (DEYE)
+  - Gebra Hana (DEYE)
+  - Gebre Kiristos (DEYE)
+  - Gere Mariam (DEYE)
+  - Geriel (DEYE)
+  - Getachew (DEYE)
+  - Geteye (DEYE)
+  - Girma (DEYE)
+  - Hagos (DEYE)
+  - Hakim (DEYE)
+  - Iskinder (DEYE)
+  - Kaleb (DEYE)
+  - Kebede (DEYE)
+  - Kelile (DEYE)
+  - Lake (DEYE)
+  - Lebna (DEYE)
+  - Lemma (DEYE)
+  - Li'ol (DEYE)
+  - Mebrete (DEYE)
+  - Mebreatu (DEYE)
+  - Mechela (DEYE)
+  - Melku (DEYE)
+  - Mulu Alem (DEYE)
+  - Negasi (DEYE)
+  - Nigus (DEYE)
+  - Tesfa (DEYE)
+  - Tesfaye (DEYE)
+  - Wendimu (DEYE)
+  - Werkneh (DEYE)
+  - Yonas (DEYE)

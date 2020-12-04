@@ -1,0 +1,110 @@
+lookWeights:
+  - 47
+  - 50
+  - 2
+  - 1
+maleFirst:
+  - Francesco
+  - Alessandro
+  - Andrea
+  - Lorenzo
+  - Matteo
+  - Mattia
+  - Gabriele
+  - Riccardo
+  - Davide
+  - Leonardo
+  - Federico
+  - Luca
+  - Marco
+  - Giuseppe
+  - Tommaso
+  - Antonio
+  - Simone
+  - Giovanni
+  - Samuele
+  - Christian
+  - Alessio
+  - Nicola
+  - Diego
+  - Pietro
+  - Filippo
+  - Edoardo
+  - Cristian
+  - Daniele
+  - Emanuele
+  - Michele
+  - Gennaro
+  - Vincenzo
+  - Pasquale
+  - Carmine
+  - Carmelo
+  - Paolo
+femaleFirst:
+  - Sofia
+  - Giulia
+  - Sara
+  - Martina
+  - Giorgia
+  - Chiara
+  - Aurora
+  - Alice
+  - Emma
+  - Alessia
+  - Anna
+  - Francesca
+  - Noemi
+  - Elisa
+  - Matilde
+  - Giada
+  - Gaia
+  - Greta
+  - Elena
+  - Beatrice
+  - Viola
+  - Rebecca
+  - Nicole
+  - Arianna
+  - Ginevra
+  - Vittoria
+  - Asia
+  - Ilaria
+  - Federica
+  - Marta
+maleLast:
+  - Rossi (HEAVY)
+  - Russo (HEAVY)
+  - Ferrari (HEAVY)
+  - Esposito (HEAVY)
+  - Bianchi (HEAVY)
+  - Romano (HEAVY)
+  - Colombo (HEAVY)
+  - Ricci (HEAVY)
+  - Marino (HEAVY)
+  - Greco (HEAVY)
+  - Bruno (HEAVY)
+  - Gallo (HEAVY)
+  - Conti (HEAVY)
+  - De Luca (HEAVY)
+  - Mancini (HEAVY)
+  - Costa (HEAVY)
+  - Giordano (HEAVY)
+  - Rizzo (HEAVY)
+  - Lombardi (HEAVY)
+  - Moretti (HEAVY)
+  - Barbieri (HEAVY)
+  - Fontana (HEAVY)
+  - Santoro (HEAVY)
+  - Mariani (HEAVY)
+  - Rinaldi (HEAVY)
+  - Caruso (HEAVY)
+  - Ferrara (HEAVY)
+  - Galli (HEAVY)
+  - Martini (HEAVY)
+  - Leone (HEAVY)
+  - Abate (HEAVY)
+  - De Simone (HEAVY)
+  - Albanese (HEAVY)
+  - Genovese (HEAVY)
+  - Sansone (HEAVY)
+  - Zanon (HEAVY)

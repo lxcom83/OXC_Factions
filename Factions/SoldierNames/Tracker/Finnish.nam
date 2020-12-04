@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Aaro
+  - Aatu
+  - Akseli
+  - Aleksi
+  - Antti
+  - Arttu
+  - Atte
+  - Eemeli
+  - Eero
+  - Eino
+  - Esko
+  - Elias
+  - Erkki
+  - Heikki
+  - Henrikki
+  - Ilmari
+  - Jaakko
+  - Jere
+  - Jesse
+  - Joel
+  - Joona
+  - Juhani
+  - Juho
+  - Julius
+  - Jussi
+  - Juuso
+  - Kalle
+  - Konsta
+  - Lauri
+  - Leevi
+  - Markku
+  - Matias
+  - Matti
+  - Mika
+  - Mikael
+  - Mikko
+  - Niilo
+  - Niklas
+  - Niko
+  - Onni
+  - Oskari
+  - Roope
+  - Sami
+  - Santeri
+  - Tapani
+  - Tommi
+  - Tuomas
+  - Valtteri
+  - Viljo
+  - Ville
+femaleFirst:
+  - Aino
+  - Anja
+  - Anna
+  - Anneli
+  - Anni
+  - Eila
+  - Elina
+  - Elisa
+  - Emilia
+  - Emma
+  - Emmi
+  - Eveliina
+  - Hanna
+  - Hannele
+  - Helena
+  - Helmi
+  - Iida
+  - Iina
+  - Ilona
+  - Jenni
+  - Johanna
+  - Julia
+  - Kaarina
+  - Karoliina
+  - Katariina
+  - Kristiina
+  - Laura
+  - Leena
+  - Liisa
+  - Maarit
+  - Maija
+  - Maria
+  - Marjatta
+  - Martta
+  - Milla
+  - Minna
+  - Noora
+  - Oona
+  - Pauliina
+  - Pirjo
+  - Riitta
+  - Ritva
+  - Saara
+  - Sanni
+  - Sari
+  - Sofia
+  - Susanna
+  - Tuula
+  - Tuuli
+  - Veera
+maleLast:
+  - Aalto (TRACK)
+  - Aaltonen (TRACK)
+  - Aho (TRACK)
+  - Ahola (TRACK)
+  - Ahonen (TRACK)
+  - Anttila (TRACK)
+  - Arvola (TRACK)
+  - Eskola (TRACK)
+  - Haapala (TRACK)
+  - Haavisto (TRACK)
+  - Hakala (TRACK)
+  - Halonen (TRACK)
+  - Harju (TRACK)
+  - Hartikainen (TRACK)
+  - Heikkinen (TRACK)
+  - Heino (TRACK)
+  - Heinonen (TRACK)
+  - Heiskanen (TRACK)
+  - Hietala (TRACK)
+  - Hiltunen (TRACK)
+  - Hirvonen (TRACK)
+  - Honkanen (TRACK)
+  - Huttunen (TRACK)
+  - Ikonen (TRACK)
+  - Immonen (TRACK)
+  - Jalonen (TRACK)
+  - Jokinen (TRACK)
+  - Kallio (TRACK)
+  - Karhu (TRACK)
+  - Karjalainen (TRACK)
+  - Karppinen (TRACK)
+  - Kauppinen (TRACK)
+  - Kemppainen (TRACK)
+  - Kettunen (TRACK)
+  - Kinnunen (TRACK)
+  - Kiviniemi (TRACK)
+  - Koivisto (TRACK)
+  - Kokko (TRACK)
+  - Kokkonen (TRACK)
+  - Koponen (TRACK)
+  - Korhonen (TRACK)
+  - Korpela (TRACK)
+  - Koskela (TRACK)
+  - Koski (TRACK)
+  - Koskinen (TRACK)
+  - Laakso (TRACK)
+  - Laaksonen (TRACK)
+  - Lahti (TRACK)
+  - Lahtinen (TRACK)
+  - Laine (TRACK)
+  - Laitinen (TRACK)
+  - Lappalainen (TRACK)
+  - Lehtinen (TRACK)
+  - Lehto (TRACK)
+  - Lehtonen (TRACK)
+  - Leino (TRACK)
+  - Leinonen (TRACK)
+  - Lindholm (TRACK)
+  - Manninen (TRACK)
+  - Mattila (TRACK)
+  - Miettinen (TRACK)
+  - Mikkola (TRACK)
+  - Mikkonen (TRACK)
+  - Moilanen (TRACK)
+  - Mustonen (TRACK)
+  - Niemi (TRACK)
+  - Nieminen (TRACK)
+  - Niskanen (TRACK)
+  - Nurmi (TRACK)
+  - Nurminen (TRACK)
+  - Nyman (TRACK)
+  - Ojala (TRACK)
+  - Oksanen (TRACK)
+  - Partanen (TRACK)
+  - Peltola (TRACK)
+  - Peltonen (TRACK)
+  - Pesonen (TRACK)
+  - Pulkkinen (TRACK)
+  - Rajala (TRACK)
+  - Rantala (TRACK)
+  - Rantanen (TRACK)
+  - Rautiainen (TRACK)
+  - Rautio (TRACK)
+  - Rissanen (TRACK)
+  - Saari (TRACK)
+  - Saarinen (TRACK)
+  - Saimi (TRACK)
+  - Salminen (TRACK)
+  - Salo (TRACK)
+  - Salonen (TRACK)
+  - Savolainen (TRACK)
+  - Suominen (TRACK)
+  - Toivonen (TRACK)
+  - Tuominen (TRACK)
+  - Turunen (TRACK)
+  - Uusitalo (TRACK)
+  - Vainio (TRACK)
+  - Virtanen (TRACK)
+  - Vuorinen (TRACK)
+  - Ylitalo (TRACK)

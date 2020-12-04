@@ -1,0 +1,833 @@
+lookWeights:
+  - 0
+  - 2
+  - 49
+  - 49
+maleFirst:
+  - Aata
+  - Ata
+  - Atawhai
+  - Ahia
+  - Ahinariki
+  - Ahipene
+  - Apirana
+  - Apera
+  - Aperahama
+  - Arapeta
+  - Etera
+  - Hahona
+  - Haimona
+  - Haki
+  - Hara
+  - Hari
+  - Hatarei
+  - Hau
+  - Hehu
+  - Heketoro
+  - Hemi
+  - Hirini
+  - Hiruharama
+  - Hohepa
+  - Honi
+  - Honoiwairua
+  - Hukarere
+  - Hunapo
+  - Iarere
+  - Iehohapata
+  - Ieni
+  - Ietepere
+  - Ietoro
+  - Ihaia
+  - Ihaka
+  - Iharaira
+  - Ihimaera
+  - Ihipa
+  - Ihu
+  - Ikaroa
+  - Inoke
+  - Iorama
+  - Iorangi
+  - Iotama
+  - Ira
+  - Iraia
+  - Iwi
+  - Kai
+  - Kaihautu
+  - Kaili
+  - Kale
+  - Kamaka
+  - Kapena
+  - Kapono
+  - Keahi
+  - Keanu
+  - Kiritowha
+  - Konala
+  - Loe
+  - Mana
+  - Marama
+  - Matiu
+  - Maui
+  - Pio
+  - Piripi
+  - Rangi
+  - Ra
+  - Rameka
+  - Rapata
+  - Rongo
+  - Ruru
+  - Taine
+  - Tama
+  - Tamati
+  - Tane
+  - Tanemahuta
+  - Hatfacoa
+  - Tangi
+  - Tautoru
+  - Tui
+  - Wi
+  - Wiremu
+  - Wiri
+  - Wirimu
+femaleFirst:
+  - Ahere
+  - Ahorangi
+  - Ahuaiti
+  - Ahurewa
+  - Alamea
+  - Aolani
+  - Aratiki
+  - Arikiwi
+  - Aroha
+  - Arorangi
+  - Aruhe
+  - Awa
+  - Awi
+  - Ehetere
+  - Emauha
+  - Emere
+  - Emiri
+  - Epa
+  - Erena
+  - Erene
+  - Erenora
+  - Eruini
+  - Haeata
+  - Hahana
+  - Hakeke
+  - Hanga
+  - Harakeke
+  - Harata
+  - Haukiwaho
+  - Hauku
+  - Haumiaroa
+  - Hauora
+  - Haupuku
+  - Haurahi
+  - Hekeheke
+  - Heni
+  - Hepetema
+  - Hera
+  - Herene
+  - Hihiri
+  - Hinapouri
+  - Hine
+  - Hineana
+  - Hinemoana
+  - Hiri
+  - Hoane
+  - Hoata
+  - Hokioi
+  - Honemoana
+  - Horiana
+  - Horowai
+  - Hotoke
+  - Huhana
+  - Huia
+  - Hukapapa
+  - Ihapera
+  - Inia
+  - Iolana
+  - Irapeta
+  - Irihapeti
+  - Iritana
+  - Irueca
+  - Iucihi
+  - Iwa
+  - Iwalani
+  - Kahikatoa
+  - Kahu
+  - Kahurangi
+  - Kaiarahi
+  - Kaihautu
+  - Kaitaka
+  - Kakama
+  - Kakarauri
+  - Kakariki
+  - Kalea
+  - Kamea
+  - Keoni
+  - Kieli
+  - Kinipela
+  - Kiri
+  - Konane
+  - Kowhai
+  - Mariama
+  - Lahela
+  - Lani
+  - Lealani
+  - Leiko
+  - Liko
+  - Liliha
+  - Luana
+  - Lulani
+  - Maile
+  - Makani
+  - Mahinaarangi
+  - Maleah
+  - Malo
+  - Manaia
+  - Mele
+  - Miliani
+  - Moana
+  - Nalanie
+  - Ngaire
+  - Nohealani
+  - Oke
+  - Onaona  
+  - Papatuanuku
+  - Peata
+  - Petani
+  - Palila
+  - Pekelo
+  - Pilialoha
+  - Tama
+  - Tino Aroha
+  - Ulani
+  - Wiki
+  - Wikitoria
+maleLast:
+  - Amai (BRAW)
+  - Aperahama (BRAW)
+  - Atama (BRAW)
+  - Ahipene (BRAW)
+  - Ahitana (BRAW)
+  - Ahuriri (BRAW)
+  - Aihue (BRAW)
+  - Akara (BRAW)
+  - Akariri (BRAW)
+  - Akuhata (BRAW)
+  - Alana (BRAW)
+  - Amohanga (BRAW)
+  - Anaha (BRAW)
+  - Anaru (BRAW)
+  - Aotea (BRAW)
+  - Apatari (BRAW)
+  - Acatui (BRAW)
+  - Ariari (BRAW)
+  - A Tau (BRAW)
+  - Atutahi (BRAW)
+  - Awanui (BRAW)
+  - Awatere (BRAW)
+  - Ema (BRAW)
+  - Eparaima (BRAW)
+  - Erueti (BRAW)
+  - Haehae (BRAW)
+  - Haira (BRAW)
+  - Hakaraia (BRAW)
+  - Hakopa (BRAW)
+  - Hale (BRAW)
+  - Hamahona (BRAW)
+  - Hape (BRAW)
+  - Hapeta (BRAW)
+  - Hapi (BRAW)
+  - Hapimana (BRAW)
+  - Hapuku (BRAW)
+  - Harakeke (BRAW)
+  - Harata (BRAW)
+  - Harawira (BRAW)
+  - Hari (BRAW)
+  - Hatarini (BRAW)
+  - Hatata (BRAW)
+  - Hati (BRAW)
+  - Haturini (BRAW)
+  - Hau (BRAW)
+  - Haua (BRAW)
+  - Hauiti (BRAW)
+  - Haukamau (BRAW)
+  - Hauraki (BRAW)
+  - Hautapu (BRAW)
+  - Hautonga (BRAW)
+  - Hautu (BRAW)
+  - Hawea (BRAW)
+  - Heka (BRAW)
+  - Hekekia (BRAW)
+  - Hemania (BRAW)
+  - Hemara (BRAW)
+  - Henare (BRAW)
+  - Herangi (BRAW)
+  - Herekiuha (BRAW)
+  - Hereora (BRAW)
+  - Heretini (BRAW)
+  - Herewini (BRAW)
+  - Heta (BRAW)
+  - Hetaraka (BRAW)
+  - Heteriki (BRAW)
+  - Hikawai (BRAW)
+  - Himiona (BRAW)
+  - Hinekura (BRAW)
+  - Hinerangi (BRAW)
+  - Hinerau (BRAW)
+  - Hinga (BRAW)
+  - Hireme (BRAW)
+  - Hirini (BRAW)
+  - Hita (BRAW)
+  - Hoani (BRAW)
+  - Hoepo (BRAW)
+  - Hoera (BRAW)
+  - Hoeta (BRAW)
+  - Hohaia (BRAW)
+  - Hohapata (BRAW)
+  - Hohepa (BRAW)
+  - Hohia (BRAW)
+  - Hokianga (BRAW)
+  - Hokotoki (BRAW)
+  - Hona (BRAW)
+  - Hone (BRAW)
+  - Honetana (BRAW)
+  - Hongi (BRAW)
+  - Hoori (BRAW)
+  - Hopa (BRAW)
+  - Hori (BRAW)
+  - Horohau (BRAW)
+  - Horomona (BRAW)
+  - Horua (BRAW)
+  - Hoterene (BRAW)
+  - Hotu (BRAW)
+  - Huatahi (BRAW)
+  - Huhu (BRAW)
+  - Huiarangia (BRAW)
+  - Huka (BRAW)
+  - Humana (BRAW)
+  - Hunua (BRAW)
+  - Hura (BRAW)
+  - Huritu (BRAW)
+  - Huriwaka (BRAW)
+  - Ihaea (BRAW)
+  - Ihaia (BRAW)
+  - Iona (BRAW)
+  - Irihapete (BRAW)
+  - Irimana (BRAW)
+  - Iti (BRAW)
+  - Kahale (BRAW)
+  - Kahananui (BRAW)
+  - Kahele (BRAW)
+  - Kahiwai (BRAW)
+  - Kahiwirori (BRAW)
+  - Kahue (BRAW)
+  - Kahukakanui (BRAW)
+  - Kahukura (BRAW)
+  - Kaihau (BRAW)
+  - Kaimoana (BRAW)
+  - Kainamu (BRAW)
+  - Kaingariro (BRAW)
+  - Kainuku (BRAW)
+  - Kaipapa (BRAW)
+  - Kairau (BRAW)
+  - Kaire (BRAW)
+  - Kaiteke (BRAW)
+  - Kaiwi (BRAW)
+  - Kakewahine (BRAW)
+  - Kalama (BRAW)
+  - Kalani (BRAW)
+  - Kalawai'a (BRAW)
+  - Kalili (BRAW)
+  - Kalua (BRAW)
+  - Kama (BRAW)
+  - Kamaka (BRAW)
+  - Kamealoha (BRAW)
+  - Kamira (BRAW)
+  - Kamuwai (BRAW)
+  - Kaneri (BRAW)
+  - Kanuta (BRAW)
+  - Kapene (BRAW)
+  - Kaponga (BRAW)
+  - Kapule (BRAW)
+  - Karahina (BRAW)
+  - Karaitiana (BRAW)
+  - Karaka (BRAW)
+  - Karakiakore (BRAW)
+  - Karamaena (BRAW)
+  - Kararene (BRAW)
+  - Karati (BRAW)
+  - Karekare (BRAW)
+  - Kareko (BRAW)
+  - Karena (BRAW)
+  - Katene (BRAW)
+  - Katete (BRAW)
+  - Katipa (BRAW)
+  - Kauamo (BRAW)
+  - Kaui (BRAW)
+  - Kaukau (BRAW)
+  - Kaura (BRAW)
+  - Kautarewa (BRAW)
+  - Kawana (BRAW)
+  - Kawai (BRAW)
+  - Kawau (BRAW)
+  - Ka'ana'ana (BRAW)
+  - Ka'aukai (BRAW)
+  - Ka'uhane (BRAW)
+  - Kawiti (BRAW)
+  - Keahi (BRAW)
+  - Kealoha (BRAW)
+  - Keawe (BRAW)
+  - Kepa (BRAW)
+  - Kekoa (BRAW)
+  - Kelekolio (BRAW)
+  - Keli'i (BRAW)
+  - Kena (BRAW)
+  - Keno (BRAW)
+  - Kepa (BRAW)
+  - Kerapa (BRAW)
+  - Kereama (BRAW)
+  - Kerei (BRAW)
+  - Keremeneta (BRAW)
+  - Kereoma (BRAW)
+  - Kereopa (BRAW)
+  - Kerepeti (BRAW)
+  - Kereru (BRAW)
+  - Kereti (BRAW)
+  - Kewa (BRAW)
+  - Kiarie (BRAW)
+  - Kimura (BRAW)
+  - Kingi (BRAW)
+  - Kinihe (BRAW)
+  - Kino Te Ahiwaka (BRAW)
+  - Kirikino (BRAW)
+  - Kirikiri (BRAW)
+  - Kiriwi (BRAW)
+  - Kiwara (BRAW)
+  - Koha (BRAW)
+  - Kohena (BRAW)
+  - Kohikikko (BRAW)
+  - Kohu (BRAW)
+  - Kokiri (BRAW)
+  - Komene (BRAW)
+  - Koni (BRAW)
+  - Koperau (BRAW)
+  - Kopiri (BRAW)
+  - Koroheke (BRAW)
+  - Korohunga (BRAW)
+  - Koroi Ngawhau (BRAW)
+  - Kotuhi (BRAW)
+  - Kouku (BRAW)
+  - Kupa (BRAW)
+  - Kurawhatia (BRAW)
+  - Kuru (BRAW)
+  - Kuti (BRAW)
+  - Kane (BRAW)
+  - Maaka (BRAW)
+  - Maeka (BRAW)
+  - Maere (BRAW)
+  - Mahaka (BRAW)
+  - Mahauariki (BRAW)
+  - Mahelona (BRAW)
+  - Mahe'ai (BRAW)
+  - Mahia (BRAW)
+  - Mahima (BRAW)
+  - Mahoe (BRAW)
+  - Mahoe (BRAW)
+  - Mahu   (BRAW)
+  - Mahuta (BRAW)
+  - Mahutoto (BRAW)
+  - Maihi (BRAW)
+  - Maipi (BRAW)
+  - Maka (BRAW)
+  - Makara (BRAW)
+  - Makatea (BRAW)
+  - Makawe (BRAW)
+  - Makiha (BRAW)
+  - Makiri (BRAW)
+  - Manawaroa (BRAW)
+  - Mane (BRAW)
+  - Mangu (BRAW)
+  - Mania (BRAW)
+  - Maniapoto (BRAW)
+  - Manihera (BRAW)
+  - Mare (BRAW)
+  - Mareroa (BRAW)
+  - Marino (BRAW)
+  - Marore (BRAW)
+  - Marupo (BRAW)
+  - Matakorama (BRAW)
+  - Matene (BRAW)
+  - Matenga (BRAW)
+  - Materoa (BRAW)
+  - Matewhitu (BRAW)
+  - Mau (BRAW)
+  - Mauhana (BRAW)
+  - Mauheni (BRAW)
+  - Maukau (BRAW)
+  - Mauwhata (BRAW)
+  - Mawe (BRAW)
+  - Mawhiu (BRAW)
+  - Metua (BRAW)
+  - Mihinui (BRAW)
+  - Mikaere (BRAW)
+  - Miki (BRAW)
+  - Minapara (BRAW)
+  - Mio (BRAW)
+  - Moananui (BRAW)
+  - Moeahu (BRAW)
+  - Moera (BRAW)
+  - Meoroa (BRAW)
+  - Mohi (BRAW)
+  - Moka (BRAW)
+  - Moke (BRAW)
+  - Moke Te Ora (BRAW)
+  - Monita (BRAW)
+  - Morehu (BRAW)
+  - Morete (BRAW)
+  - Morunga (BRAW)
+  - Motutere (BRAW)
+  - Muriwai (BRAW)
+  - Muru (BRAW)
+  - Munu (BRAW)
+  - Natana (BRAW)
+  - Nawaia (BRAW)
+  - Neho (BRAW)
+  - Nehua (BRAW)
+  - Nene (BRAW)
+  - Nepia (BRAW)
+  - Ngahere (BRAW)
+  - Ngahiwi (BRAW)
+  - Ngahoro (BRAW)
+  - Ngaia (BRAW)
+  - Ngaio (BRAW)
+  - Ngakaho (BRAW)
+  - Ngamoenga (BRAW)
+  - Ngamoki (BRAW)
+  - Ngamu (BRAW)
+  - Ngapune (BRAW)
+  - Ngare (BRAW)
+  - Ngarara (BRAW)
+  - Ngata (BRAW)
+  - Ngatai (BRAW)
+  - Ngataierua (BRAW)
+  - Ngataki (BRAW)
+  - Ngatoko (BRAW)
+  - Ngatono (BRAW)
+  - Ngawe (BRAW)
+  - Ngawharau (BRAW)
+  - Ngerengere (BRAW)
+  - Ngohe (BRAW)
+  - Ngoungou (BRAW)
+  - Nikau (BRAW)
+  - Nikora (BRAW)
+  - Nuitone (BRAW)
+  - Nukaiahu (BRAW)
+  - Nutana (BRAW)
+  - Nutira (BRAW)
+  - Ohutu (BRAW)
+  - Oketopa (BRAW)
+  - Oneroa (BRAW)
+  - Otene (BRAW)
+  - Otimi (BRAW)
+  - Paekou (BRAW)
+  - Paenga (BRAW)
+  - Paerata (BRAW)
+  - Paewai (BRAW)
+  - Pahau (BRAW)
+  - Pahi (BRAW)
+  - Pahua (BRAW)
+  - Pai (BRAW)
+  - Paipa (BRAW)
+  - Pairama (BRAW)
+  - Pakau (BRAW)
+  - Paki (BRAW)
+  - Pakinui (BRAW)
+  - Pakira (BRAW)
+  - Paku (BRAW)
+  - Palakiko (BRAW)
+  - Panapa (BRAW)
+  - Panera (BRAW)
+  - Panina (BRAW)
+  - Panoho (BRAW)
+  - Paora (BRAW)
+  - Papa Titore (BRAW)
+  - Paparangi (BRAW)
+  - Paraeroa (BRAW)
+  - Paraha (BRAW)
+  - Paraihe (BRAW)
+  - Paranihi (BRAW)
+  - Paranihihi (BRAW)
+  - Paraone (BRAW)
+  - Parata (BRAW)
+  - Paratene (BRAW)
+  - Paratini (BRAW)
+  - Pare (BRAW)
+  - Parehe (BRAW)
+  - Parekaremu (BRAW)
+  - Pareraukawa (BRAW)
+  - Paringatai (BRAW)
+  - Patariki (BRAW)
+  - Patihana (BRAW)
+  - Patu (BRAW)
+  - Patuone (BRAW)
+  - Patuwai (BRAW)
+  - Patuwairua (BRAW)
+  - Paura (BRAW)
+  - Pauro (BRAW)
+  - Pawhau (BRAW)
+  - Peehikuru (BRAW)
+  - Pepe (BRAW)
+  - Peita (BRAW)
+  - Peka (BRAW)
+  - Peneha (BRAW)
+  - Penehare (BRAW)
+  - Peneta (BRAW)
+  - Penetito (BRAW)
+  - Pepene (BRAW)
+  - Pera (BRAW)
+  - Peraniko (BRAW)
+  - Perawiti (BRAW)
+  - Pereki (BRAW)
+  - Perepe (BRAW)
+  - Peri (BRAW)
+  - Pihama (BRAW)
+  - Pikari (BRAW)
+  - Pio (BRAW)
+  - Pirere (BRAW)
+  - Pirika (BRAW)
+  - Piripi (BRAW)
+  - Piwari (BRAW)
+  - Poa (BRAW)
+  - Poaro (BRAW)
+  - Pohe (BRAW)
+  - Pohio (BRAW)
+  - Pohopohe (BRAW)
+  - Poiakino (BRAW)
+  - Poihipi (BRAW)
+  - Pokai (BRAW)
+  - Pomana (BRAW)
+  - Pomare (BRAW)
+  - Popata (BRAW)
+  - Potaka (BRAW)
+  - Potangaroa (BRAW)
+  - Potatau (BRAW)
+  - Poti (BRAW)
+  - Potiki (BRAW)
+  - Pouhiki (BRAW)
+  - Pourewa (BRAW)
+  - Pouwhare (BRAW)
+  - Puanga (BRAW)
+  - Puano (BRAW)
+  - Puhi (BRAW)
+  - Phutaniwharau (BRAW)
+  - Puku (BRAW)
+  - Puna (BRAW)
+  - Pura (BRAW)
+  - Puru (BRAW)
+  - Purukama (BRAW)
+  - Puti (BRAW)
+  - Purutanga (BRAW)
+  - Raharuhi (BRAW)
+  - Raihania (BRAW)
+  - Rakete (BRAW)
+  - Raki (BRAW)
+  - Rakiraki (BRAW)
+  - Rako (BRAW)
+  - Ranana (BRAW)
+  - Rangihaeata (BRAW)
+  - Rangimakere (BRAW)
+  - Rangipaeroa (BRAW)
+  - Rangiatakaiwaho (BRAW)
+  - Rangitaura (BRAW)
+  - Rangitukiwaho (BRAW)
+  - Rangiwai (BRAW)
+  - Rapana (BRAW)
+  - Rapihana (BRAW)
+  - Rapira (BRAW)
+  - Raponi (BRAW)
+  - Rarere (BRAW)
+  - Ratahi (BRAW)
+  - Ratima (BRAW)
+  - Rauhihi (BRAW)
+  - Rautangi (BRAW)
+  - Rawiri (BRAW)
+  - Rehanga (BRAW)
+  - Rehutai (BRAW)
+  - Rei (BRAW)
+  - Reihana (BRAW)
+  - Remaha (BRAW)
+  - Remi (BRAW)
+  - Remihana (BRAW)
+  - Renata (BRAW)
+  - Rerekura (BRAW)
+  - Reweti (BRAW)
+  - Rewi (BRAW)
+  - Rewiti (BRAW)
+  - Ria (BRAW)
+  - Rihari (BRAW)
+  - Rihia (BRAW)
+  - Riki (BRAW)
+  - Rikirangi (BRAW)
+  - Riwhi (BRAW)
+  - Romana (BRAW)
+  - Rona (BRAW)
+  - Ronaki (BRAW)
+  - Ropata (BRAW)
+  - Rotoatara (BRAW)
+  - Tuatara (BRAW)
+  - Ruawai (BRAW)
+  - Ruepena (BRAW)
+  - Ruka (BRAW)
+  - Rukutai (BRAW)
+  - Rupaha (BRAW)
+  - Rurawhe (BRAW)
+  - Ruru (BRAW)
+  - Ruwhiu (BRAW)
+  - Te Puke Nui (BRAW)
+  - Tare (BRAW)
+  - Taekata (BRAW)
+  - Tahana (BRAW)
+  - Tahere (BRAW)
+  - Tai (BRAW)
+  - Taiapa (BRAW)
+  - Taiaroa (BRAW)
+  - Taimana (BRAW)
+  - Taimona (BRAW)
+  - Taipari (BRAW)
+  - Taite (BRAW)
+  - Taitimu (BRAW)
+  - Taitua (BRAW)
+  - Tautuha (BRAW)
+  - Taka (BRAW)
+  - Takao (BRAW)
+  - Takarangi (BRAW)
+  - Takimoana (BRAW)
+  - Takitimu (BRAW)
+  - Takoto (BRAW)
+  - Takuira (BRAW)
+  - Tamahana (BRAW)
+  - Tamaikoha (BRAW)
+  - Tamainu (BRAW)
+  - Tamaiparea (BRAW)
+  - Tamaka (BRAW)
+  - Tamakaha (BRAW)
+  - Tamaki (BRAW)
+  - Tamaoho (BRAW)
+  - Tamapahore (BRAW)
+  - Tamarau (BRAW)
+  - Tamatea (BRAW)
+  - Tamati (BRAW)
+  - Tamawaru (BRAW)
+  - Tamihana (BRAW)
+  - Tamihaua (BRAW)
+  - Tanara (BRAW)
+  - Tangaroa (BRAW)
+  - Tangipo (BRAW)
+  - Tangohau (BRAW)
+  - Taniora (BRAW)
+  - Taniwha (BRAW)
+  - Tarakaho (BRAW)
+  - Taranui (BRAW)
+  - Taratoa (BRAW)
+  - Tareha (BRAW)
+  - Tareuke (BRAW)
+  - tata (BRAW)
+  - Tau (BRAW)
+  - Taua (BRAW)
+  - Tauhore (BRAW)
+  - taui (BRAW)
+  - Taira (BRAW)
+  - Taukamo (BRAW)
+  - Taumatahera (BRAW)
+  - Taupo (BRAW)
+  - Taurua (BRAW)
+  - Tautari (BRAW)
+  - Tautuhi (BRAW)
+  - Tawera (BRAW)
+  - Tawhai (BRAW)
+  - Tawhara (BRAW)
+  - Te Ahwaka (BRAW)
+  - Te Aho (BRAW)
+  - Te Akau (BRAW)
+  - Te Ao (BRAW)
+  - Te Apa (BRAW)
+  - Te Aranui (BRAW)
+  - Te Atua (BRAW)
+  - Te Awa (BRAW)
+  - Te Hae (BRAW)
+  - Te Huia (BRAW)
+  - Te Kanawa (BRAW)
+  - Te Kataua (BRAW)
+  - Te Kepa (BRAW)
+  - Te Mana (BRAW)
+  - Te Nga (BRAW)
+  - Te Owai (BRAW)
+  - Te Papa (BRAW)
+  - Te Peke (BRAW)
+  - Te Tuhi (BRAW)
+  - Tei (BRAW)
+  - Tekoikoi (BRAW)
+  - Tepeke (BRAW)
+  - Tepere (BRAW)
+  - Teraki (BRAW)
+  - Teriroa (BRAW)
+  - Teremai (BRAW)
+  - Timu (BRAW)
+  - Tipene (BRAW)
+  - Toia (BRAW)
+  - Tokona (BRAW)
+  - Tongariro (BRAW)
+  - Taumaunu (BRAW)
+  - Tuhapo (BRAW)
+  - Tuke (BRAW)
+  - Tupe (BRAW)
+  - Turei (BRAW)
+  - Wahi (BRAW)
+  - Waka (BRAW)
+  - Wara (BRAW)
+  - Waiariki (BRAW)
+  - Waiata (BRAW)
+  - Waihape (BRAW)
+  - Wainohu (BRAW)
+  - Waiohenga (BRAW)
+  - Waipa (BRAW)
+  - Waipouri (BRAW)
+  - Wairua (BRAW)
+  - Waitara (BRAW)
+  - Waitoa (BRAW)
+  - Waitokia (BRAW)
+  - Waiwiri (BRAW)
+  - Wanoa (BRAW)
+  - Wanui (BRAW)
+  - Warakihi (BRAW)
+  - Warana (BRAW)
+  - Warauri (BRAW)
+  - Warena (BRAW)
+  - Watene (BRAW)
+  - Wati (BRAW)
+  - Wehipeihana (BRAW)
+  - Wepiha (BRAW)
+  - Whanga (BRAW)
+  - Whaekiri (BRAW)
+  - Whaitiri (BRAW)
+  - Whakaari (BRAW)
+  - Whakaata (BRAW)
+  - Whanaupunga (BRAW)
+  - Whangapirita (BRAW)
+  - Wharekawa (BRAW)
+  - Wharekiri (BRAW)
+  - Wharepapa (BRAW)
+  - Wharerau (BRAW)
+  - Whati (BRAW)
+  - Whetu (BRAW)
+  - Whiu (BRAW)
+  - Wihapi (BRAW)
+  - Wikaire (BRAW)
+  - Wikitapu (BRAW)
+  - Witana (BRAW)
+  - Witehira (BRAW)
+  - Witika (BRAW)
+  - Akamu (BRAW)

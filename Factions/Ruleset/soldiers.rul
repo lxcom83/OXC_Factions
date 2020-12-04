@@ -1,0 +1,349 @@
+############################
+## FACTIONS - soldiers - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_BRAWLER
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 50
+      health: 33
+      bravery: 10
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 30
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 30
+    soldierNames:
+      - delete
+      - SoldierNames/Brawler/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_TRACKER
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 55
+      stamina: 55
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 50
+      throwing: 60
+      strength: 25
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 20
+    soldierNames:
+      - delete
+      - SoldierNames/Tracker/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_DEADEYE
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 40
+      firing: 60
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 35
+    soldierNames:
+      - delete
+      - SoldierNames/DeadEye/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_HEAVY
+    costBuy: 60000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 30
+      bravery: 10
+      reactions: 30
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 45
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 15
+    soldierNames:
+      - delete
+      - SoldierNames/Heavy/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_ELITE
+    costBuy: 80000
+    requires:
+      - STR_FUTURE_STORY_ARC
+    costSalary: 60000
+    minStats:
+      tu: 53
+      stamina: 50
+      health: 40
+      bravery: 30
+      reactions: 40
+      firing: 50
+      throwing: 60
+      strength: 27
+      psiStrength: 0
+      psiSkill: 0
+      melee: 27
+    maxStats:
+      tu: 65
+      stamina: 70
+      health: 50
+      bravery: 60
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_NONE_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 25
+    soldierNames:
+      - delete
+      - SoldierNames/Elites/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+  - type: STR_F_SECTOID          #Kneeling has been turned off
+    costBuy: 0
+    costSalary: 35000
+    requires:
+      - STR_FUTURE_STORY_ARC
+    minStats:
+      tu: 35
+      stamina: 60
+      health: 20
+      bravery: 50
+      reactions: 35
+      firing: 30
+      throwing: 30
+      strength: 20
+      psiStrength: 20
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 70
+    armor: F_SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    femaleFrequency: 0
+    soldierNames:
+      - delete
+      - AlienSoldierName/
+    deathMale: [41, 42, 43]
+  # - type: STR_NEW_ZOMBIE # used for testing only
+  #   costBuy: 80000
+  #   costSalary: 40000
+  #   minStats:
+  #     tu: 53
+  #     stamina: 50
+  #     health: 30
+  #     bravery: 30
+  #     reactions: 40
+  #     firing: 50
+  #     throwing: 60
+  #     strength: 27
+  #     psiStrength: 0
+  #     psiSkill: 0
+  #     melee: 27
+  #   maxStats:
+  #     tu: 60
+  #     stamina: 70
+  #     health: 40
+  #     bravery: 60
+  #     reactions: 60
+  #     firing: 70
+  #     throwing: 80
+  #     strength: 40
+  #     psiStrength: 100
+  #     psiSkill: 16
+  #     melee: 40
+  #   statCaps:
+  #     tu: 80
+  #     stamina: 100
+  #     health: 60
+  #     bravery: 100
+  #     reactions: 100
+  #     firing: 120
+  #     throwing: 120
+  #     strength: 70
+  #     psiStrength: 100
+  #     psiSkill: 100
+  #     melee: 220
+  #   armor: STR_NEW_ZOMBIE_ARMOR0
+  #   standHeight: 22
+  #   kneelHeight: 14
+  #   femaleFrequency: 0
+  #   soldierNames:
+  #     - delete
+  #     - AlienSoldierName/
+  #   deathMale: [41, 42, 43]
+  #   deathFemale: [44, 45, 46]
+
+

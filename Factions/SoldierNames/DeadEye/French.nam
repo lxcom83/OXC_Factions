@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Alain
+  - Alban
+  - Armand
+  - Benoit
+  - Bruno
+  - Calvin
+  - Christian
+  - Claude
+  - Corentin
+  - Damien
+  - Denis
+  - Emile
+  - Etienne
+  - Ethan
+  - Fabien
+  - Francis
+  - Frederic
+  - Gaston
+  - Gerard
+  - Guillaume
+  - Henri
+  - Hugo
+  - Jacques
+  - Jean
+  - Jules
+  - Leon
+  - Lionel
+  - Louis
+  - Lucas
+  - Mathis
+  - Marc
+  - Marcel
+  - Michel
+  - Nathan
+  - Nicolas
+  - Olivier
+  - Pascal
+  - Paul
+  - Pierre
+  - Philippe
+  - Quentin
+  - Raphael
+  - Remi
+  - Rene
+  - Robert
+  - Roger
+  - Sebastien
+  - Simon
+  - Sylvain
+  - Thibault
+  - Victor
+  - Vincent
+  - Yves
+femaleFirst:
+  - Anne
+  - Audrey
+  - Brigitte
+  - Camille
+  - Catherine
+  - Chantal
+  - Claire
+  - Clara
+  - Cloe
+  - Danielle
+  - Dominique
+  - Elisabeth
+  - Eva
+  - Florence
+  - Francoise
+  - Gaelle
+  - Geraldine
+  - Helene
+  - Isabelle
+  - Ludivine
+  - Lydia
+  - Jacqueline
+  - Jeanne
+  - Julie
+  - Laure
+  - Lina
+  - Lilou
+  - Maelys
+  - Marie
+  - Marion
+  - Marguerite
+  - Maud
+  - Murielle
+  - Nathalie
+  - Odile
+  - Rachel
+  - Rose
+  - Sabine
+  - Sandrine
+  - Stephanie
+  - Sonia
+  - Sylvie
+  - Valerie
+  - Veronique
+  - Zoe
+maleLast:
+  - Andre (DEYE)
+  - Berger (DEYE)
+  - Bernard (DEYE)
+  - Bertrand (DEYE)
+  - Bonnet (DEYE)
+  - Bouissou (DEYE)
+  - Bourgeois (DEYE)
+  - Bouton (DEYE)
+  - Bouvier (DEYE)
+  - Blanc (DEYE)
+  - Blondel (DEYE)
+  - Buchard (DEYE)
+  - Caron (DEYE)
+  - Chevalier (DEYE)
+  - Coicard (DEYE)
+  - Collet (DEYE)
+  - Collignon (DEYE)
+  - Coste (DEYE)
+  - Couturier (DEYE)
+  - Clement (DEYE)
+  - Cuvelier (DEYE)
+  - Dagallier (DEYE)
+  - Delorme (DEYE)
+  - Dreyfus (DEYE)
+  - Dubois (DEYE)
+  - Ducourtioux (DEYE)
+  - Dujardin (DEYE)
+  - Dumont (DEYE)
+  - Dupuis (DEYE)
+  - Dupre (DEYE)
+  - Duval (DEYE)
+  - Fabre (DEYE)
+  - Faure (DEYE)
+  - Fontaine (DEYE)
+  - Fournier (DEYE)
+  - Gaillard (DEYE)
+  - Garcia (DEYE)
+  - Gaudrin (DEYE)
+  - Gautier (DEYE)
+  - Gressier (DEYE)
+  - Guerin (DEYE)
+  - Guillot (DEYE)
+  - Girard (DEYE)
+  - Giraudon (DEYE)
+  - Heroin (DEYE)
+  - Lacroix (DEYE)
+  - Laroyenne (DEYE)
+  - Lambert (DEYE)
+  - Laroche (DEYE)
+  - Larue (DEYE)
+  - Laurent (DEYE)
+  - Leclerc (DEYE)
+  - Lecointe (DEYE)
+  - Lecomte (DEYE)
+  - Leduc (DEYE)
+  - Lefevre (DEYE)
+  - Legrand (DEYE)
+  - Leroy (DEYE)
+  - Luget (DEYE)
+  - Marcelle (DEYE)
+  - Martin (DEYE)
+  - Menardier (DEYE)
+  - Mercier (DEYE)
+  - Meunier (DEYE)
+  - Moreau (DEYE)
+  - Morel (DEYE)
+  - Morin (DEYE)
+  - Mathieu (DEYE)
+  - Muller (DEYE)
+  - Pecheux (DEYE)
+  - Pelletier (DEYE)
+  - Perrin (DEYE)
+  - Perrot (DEYE)
+  - Petit (DEYE)
+  - Picar (DEYE)
+  - Roussel (DEYE)
+  - Revenu (DEYE)
+  - Roux (DEYE)
+  - Richard (DEYE)
+  - Simon (DEYE)
+  - Thomas (DEYE)
+  - Verdier (DEYE)

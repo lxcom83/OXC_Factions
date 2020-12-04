@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Abdullah
+  - Abu
+  - Ahmed
+  - Ali
+  - Bilal
+  - Fadil
+  - Farid
+  - Faysal
+  - Ghassan
+  - Habib
+  - Hakim
+  - Hassan
+  - Ibrahim
+  - Khalid
+  - Mahmoud
+  - Muhammad
+  - Najib
+  - Nasir
+  - Omar
+  - Rashid
+  - Tariq
+  - Yusuf
+femaleFirst:
+  - Alia
+  - Amirah
+  - Asma
+  - Farah
+  - Fatima
+  - Ghaliya
+  - Hafsa
+  - Haniya
+  - Iman
+  - Jalila
+  - Jawahir
+  - Karima
+  - Laila
+  - Latifa
+  - Malaika
+  - Maryam
+  - Mona
+  - Nadia
+  - Noor
+  - Rafiqa
+  - Samira
+  - Sumayya
+maleLast:
+  - Abdullah (DEYE)
+  - Ahmed (DEYE)
+  - El-Amin (DEYE)
+  - Hakim (DEYE)
+  - Hussain (DEYE)
+  - Karim (DEYE)
+  - Muhammad (DEYE)
+  - Sultan (DEYE)
+  - Qureshi (DEYE)
+  - Malouf (DEYE)
+  - Hajjar (DEYE)
+  - Asaf (DEYE)
+  - Khouri (DEYE)
+  - Tahan (DEYE)
+  - Wasem (DEYE)
+  - Mustafa (DEYE)
+  - Hadad (DEYE)
+  - Kanaan (DEYE)
+  - Islam (DEYE)
+  - Nasri (DEYE)
+  - Kassab (DEYE)
+  - Ibrahim (DEYE)

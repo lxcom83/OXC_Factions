@@ -1,0 +1,2303 @@
+############################
+## FACTIONS - UFOs SAVAGE RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+###########################
+ufos:
+  - type: STR_SAVAGE01 #RAIDER
+    size: STR_VERY_SMALL
+    modSprite: UFORAIDER
+    damageMax: 400
+    speedMax: 2600
+    accel: 7
+    power: 20
+    range: 62
+    score: 60
+    reload: 15
+    breakOffTime: 1000
+    battlescapeTerrainData:
+      name: SAVAGE01
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE01
+          width: 10
+          length: 10
+  - type: STR_SAVAGE02 #SCANNER
+    size: STR_SMALL
+    modSprite: UFOSCANNER
+    damageMax: 80
+    speedMax: 2300
+    accel: 12
+    power: 0
+    range: 0
+    score: 80
+    reload: 56
+    breakOffTime: 175
+    battlescapeTerrainData:
+      name: SAVAGE02
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE02
+          width: 10
+          length: 20
+  - type: STR_SAVAGE03 #
+    size: STR_SMALL
+    modSprite: UFOSURVEY
+    damageMax: 100
+    speedMax: 2200
+    accel: 12
+    power: 0
+    range: 0
+    score: 100
+    reload: 56
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: SAVAGE03
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE03
+          width: 20
+          length: 20
+  - type: STR_SAVAGE04 #MEDIUM_SCOUT
+    size: STR_MEDIUM_UC
+    modSprite: UFOSCOUT
+    damageMax: 200
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 40
+    score: 150
+    reload: 56
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: SAVAGE04
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE04
+          width: 20
+          length: 10
+          items:
+            STR_ELERIUM_115:
+              - [8, 8, 0]
+  - type: STR_SAVAGE05
+    size: STR_MEDIUM_UC
+    modSprite: UFOCLONER
+    damageMax: 450
+    speedMax: 4100
+    accel: 7
+    power: 35
+    range: 62
+    score: 460
+    reload: 36
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: SAVAGE05
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE05
+          width: 20
+          length: 20
+          items:
+            STR_ELERIUM_115:
+              - [5, 5, 1]
+  - type: STR_SAVAGE06
+    size: STR_LARGE
+    modSprite: UFOLABSHIP
+    damageMax: 375
+    speedMax: 3000
+    accel: 9
+    power: 30
+    range: 62
+    score: 500
+    reload: 48
+    breakOffTime: 800
+    battlescapeTerrainData:
+      name: SAVAGE06
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE06
+          width: 20
+          length: 20
+          # items:
+          #   STR_ELERIUM_115:
+          #     - [3, 14, 2]
+          #     - [25, 14, 2]
+  - type: STR_SAVAGE07
+    size: STR_LARGE
+    modSprite: UFOSUPPLYSHIP
+    damageMax: 2200
+    speedMax: 3200
+    accel: 6
+    power: 60
+    range: 62
+    score: 800
+    reload: 24
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: SAVAGE07
+      mapDataSets:
+      - BLANKS
+      - SAVAGE-T
+      - SAVAGE-T2
+      - NUKE3
+      - SAVAGE-T3
+      mapBlocks:
+        - name: SAVAGE07
+          width: 30
+          length: 20
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SAVAGE01: SAVAGE TRUCK
+      STR_SAVAGE02: SAVAGE TRUCK & WAR CART
+      STR_SAVAGE03: SAVAGE TRUCK & WAR LARGE CART
+      STR_SAVAGE04: SAVAGE CRAWLER
+      STR_SAVAGE05: SAVAGE WAR CRAWLER
+      STR_SAVAGE06: SAVAGE CARGO CRAWLER
+      STR_SAVAGE07: SAVAGE SLAVE CRAWLER
+      # STR_SAVAGE08: SAVAGE SCOUTS # BIKES WITH SIDECARS
+
+extraSprites:
+  - type: PlaceHolder
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Vessels/DogfightImage/placeholder.gif
+ufopaedia:
+  - id: STR_SAVAGE01
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 12800
+  - id: STR_SAVAGE02
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 12900
+  - id: STR_SAVAGE03
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 13000
+  - id: STR_SAVAGE04
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 13100
+  - id: STR_SAVAGE05
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 13200
+    listOrder: 13300
+  - id: STR_SAVAGE06
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 13400
+  - id: STR_SAVAGE07
+    type_id: 9
+    section: STR_UFOS
+    text: STR_TEST_UFOPEDIA
+    listOrder: 13600
+
+
+alienDeployments: #done
+  - type: STR_SAVAGE01
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE02
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_THUNDERSTICK
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE03
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE04
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE05
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE06
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE07
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    briefing:
+      palette: 4
+
+
+################# UNDERATER VERSION ###############
+
+  - type: STR_SAVAGE01_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE02_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_THUNDERSTICK
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE03_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE04_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE05_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE06_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_PLASMA_CARBINE
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_PLASMA_ENERGY_BATTERY_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: STR_SAVAGE07_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+          -
+            - STR_SAVAGE_ULTRA_MACHETE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SAVAGE_DEATH_AXE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_THUNDERSTICK
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+          -
+            - STR_SAWEDOFF_SHOTGUN
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_12GAUGE_BUCKSHOT_X2
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_CARAVAN_KILLER
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_12GAUGE_BUCKSHOT_X15
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 6
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4

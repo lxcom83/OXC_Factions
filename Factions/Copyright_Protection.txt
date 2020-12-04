@@ -1,0 +1,12 @@
+Please manually copy all the ".tab" files from TFTD/UNITS to Factions/UNITS folder.
+
+The Exact files are:
+Xarquid.tab
+Tentac.tab
+Tasoths.tab
+Lobster.tab
+Hallucin.tab
+Gillman.tab
+Deepone.tab
+Calc.tab
+Aqua.tab

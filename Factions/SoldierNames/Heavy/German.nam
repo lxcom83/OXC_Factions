@@ -1,0 +1,77 @@
+lookWeights:
+  - 44
+  - 44
+  - 9
+  - 3
+maleFirst:
+  - Thomas
+  - Andreas
+  - Michael
+  - Frank
+  - Peter
+  - Joerg
+  - Uwe
+  - Matthias
+  - Stefan
+  - Juergen
+  - Ralf
+  - Bernd
+  - Klaus
+  - Torsten
+  - Hans
+  - Rainer
+  - Jens
+  - Martin
+  - Dirk
+  - Wolfgang
+  - Norbert
+  - Holger
+  - Kai
+  - Joachim
+  - Christian
+  - Karsten
+  - Dieter
+femaleFirst:
+  - Susanne
+  - Sabine
+  - Petra
+  - Birgit
+  - Andrea
+  - Gabriele
+  - Martina
+  - Heike
+  - Ute
+  - Barbara
+  - Bettina
+  - Karin
+  - Angelika
+  - Monika
+  - Angela
+maleLast:
+  - Mueller (HEAVY)
+  - Schmidt (HEAVY)
+  - Schneider (HEAVY)
+  - Fischer (HEAVY)
+  - Weber (HEAVY)
+  - Meyer (HEAVY)
+  - Wagner (HEAVY)
+  - Becker (HEAVY)
+  - Schulz (HEAVY)
+  - Hoffmann (HEAVY)
+  - Schaefer (HEAVY)
+  - Koch (HEAVY)
+  - Bauer (HEAVY)
+  - Richter (HEAVY)
+  - Klein (HEAVY)
+  - Wolf (HEAVY)
+  - Schroeder  (HEAVY)
+  - Neumann (HEAVY)
+  - Schwarz (HEAVY)
+  - Zimmermann (HEAVY)
+  - Braun (HEAVY)
+  - Krueger (HEAVY)
+  - Hartmann (HEAVY)
+  - Lange (HEAVY)
+  - Schmitz (HEAVY)
+  - Krause (HEAVY)
+  - Meier (HEAVY)

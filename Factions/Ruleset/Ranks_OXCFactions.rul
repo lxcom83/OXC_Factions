@@ -1,0 +1,37 @@
+############################
+## FACTIONS - ranks - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+extraSprites:
+##########################################
+############### RANKS ####################
+##########################################
+  - type: SMOKE.PCK
+    files:
+      20: Resources/Ranks/Rank Option Blue-Black/Rank_0_B.png
+      21: Resources/Ranks/Rank Option Blue-Black/Rank_1_B.png
+      22: Resources/Ranks/Rank Option Blue-Black/Rank_2_B.png
+      23: Resources/Ranks/Rank Option Blue-Black/Rank_3_B.png
+      24: Resources/Ranks/Rank Option Blue-Black/Rank_4_B.png
+      25: Resources/Ranks/Rank Option Blue-Black/Rank_5_B.png
+  - type: BASEBITS.PCK
+    files:
+      42: Resources/Ranks/Rank Option Blue-Black/Rank_0_B.png
+      43: Resources/Ranks/Rank Option Blue-Black/Rank_1_B.png
+      44: Resources/Ranks/Rank Option Blue-Black/Rank_2_B.png
+      45: Resources/Ranks/Rank Option Blue-Black/Rank_3_B.png
+      46: Resources/Ranks/Rank Option Blue-Black/Rank_4_B.png
+      47: Resources/Ranks/Rank Option Blue-Black/Rank_5_B.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ROOKIE: "Private"
+      STR_SQUADDIE: "Sergeant"
+      STR_SERGEANT: "Lieutenant"
+      STR_CAPTAIN: "Captain"
+      STR_COLONEL: "Colonel"
+      STR_COMMANDER: "General"
+

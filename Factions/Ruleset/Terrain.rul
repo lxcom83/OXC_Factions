@@ -1,0 +1,3955 @@
+############################
+## FACTIONS - TERRAIN RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+###########################
+globe:
+  textures:
+    - id: -1
+      terrain:
+        - name: RUINED_URBAN # SALVAGE MISSIONS - ON LAND, OBVIOUSLY
+          weight: 100
+      # deployments:
+      #   STR_TERROR_MISSION: 100
+    - id: -2
+      terrain:
+        - name: OXC_SLAVES # Liberation mission map
+          weight: 20
+        - name: OXC_SLAVES2 # SLAVE Liberation mission map 2
+          weight: 20
+        - name: P_SLAVES # Liberation mission map 3
+          weight: 20
+        - name: ISLAND # island map, stop the raid
+          weight: 20
+    - id: -3
+      terrain:
+        - name: UNDERWATER_TERRAFORM_1 # TERRAFORM1
+          weight: 100
+    - id: -4
+      terrain:
+        - name: ORGANIC_CITY
+          weight: 20
+        - name: UNDERGROUND
+          weight: 20
+        - name: ALIEN_LAND_CITY
+          weight: 20
+        - name: ALIEN_WATER_CITY
+          weight: 20
+        - name: INHERITOR_XCOM_BASE
+          weight: 20
+        - name: GRUNGE_BASE
+          weight: 20
+        - name: OLD_PORT
+          weight: 20
+        - name: SCAVENGERS_LAIR
+          weight: 20
+    # - id: -5
+    #   deployments:
+    #     STR_TERROR_MISSION: 100
+    - id: 0
+      terrain:
+        - name: DRY_ATLAN # TFTD Maps # Dry maps to be modifeid to include human camp sites
+          weight: 20
+        - name: DRY_GAL # TFTD Maps # Dry maps to be modifeid to include human camp sites
+          weight: 20
+        - name: DRY_SEABED # TFTD Maps
+          weight: 20
+    - id: 1
+      terrain:
+        - name: FOREST
+    - id: 2
+      terrain:
+        - name: CULTA # 
+          weight: 30
+        - name: FOREST # 
+          weight: 70
+        # - name: INFECTED_VILLAGE
+        #   weight: 20
+    - id: 3
+      terrain:
+        - name: CULTA # 
+          weight: 30
+        - name: FOREST # 
+          weight: 70
+    - id: 4
+      terrain:
+        - name: ALIEN_FOREST
+          weight: 40
+        - name: INFECTED_VILLAGE
+          weight: 20
+    - id: 5
+      terrain:
+        - name: MOUNT
+    - id: 6
+      terrain:
+        - name: NUKEZONE #(Fallout style world)
+          weight: 70
+        # - name: NUKECITY #(Fallout style world)
+        #   weight: 15
+        - name: NUKECITY_B #(Fallout style world)
+          weight: 15
+        # - name: OXC_SLAVES # Liberation mission map
+        #   weight: 20
+    - id: 7
+      terrain:
+        - name: DESERT
+    - id: 8
+      terrain:
+        - name: DESERT
+    - id: 9
+      terrain:
+        - name: POLAR
+    - id: 10
+      terrain:
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+        - name: FOREST
+          area: [0, 360, -90, 0]
+    - id: 11
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+    - id: 12
+      terrain:
+        - name: POLAR
+    - id: 13 # Shallow Water
+      fakeUnderwater: true    
+      terrain:
+        - name: VOLC # Water Test
+          weight: 10
+        - name: ATLAN # TFTD Maps
+          weight: 10
+        - name: GAL # TFTD Maps
+          weight: 10
+        - name: CORAL # TFTD Maps
+          weight: 10
+        - name: SEABED # TFTD Maps
+          weight: 20
+        - name: MSUNK # TFTD Maps
+          weight: 10
+        - name: MU # Maya TFTD Maps
+          weight: 10
+        - name: U_PLANE # Maya TFTD Maps ALART
+          weight: 10
+        # - name: ORGANIC_CITY
+        #   weight: 10
+    - id: 14 # Mid water
+      # startingCondition: STR_UW_2
+      fakeUnderwater: true    
+      terrain:
+        - name: ATLAN # TFTD Maps
+          weight: 10
+        # - name: GAL # TFTD Maps
+        #   weight: 10
+        # - name: CORAL # TFTD Maps
+        #   weight: 10
+        - name: MSUNK # TFTD Maps
+          weight: 10
+        - name: MU # Maya TFTD Maps
+          weight: 10
+        # - name: ORGANIC_CITY
+        #   weight: 10
+        - name: ALART # Maya TFTD Maps
+          weight: 10
+    - id: 15 # Deep water 
+      # startingCondition: STR_UW_2
+      fakeUnderwater: true  
+      terrain:
+        - name: VOLC # Water Test
+          weight: 10
+        - name: ATLAN # TFTD Maps
+          weight: 10
+        - name: GAL # TFTD Maps
+          weight: 10
+        - name: CORAL # TFTD Maps
+          weight: 10
+        - name: PIPES # TFTD Maps
+          weight: 10
+        - name: SEABED # TFTD Maps
+          weight: 20
+        # - name: MSUNK # TFTD Maps
+        #   weight: 10
+        # - name: MU # Maya TFTD Maps
+        #   weight: 10
+        - name: U_PLANE # Maya TFTD Maps ALART
+          weight: 10
+        - name: ALART # Maya TFTD Maps
+          weight: 10
+    - id: 16 # Deep water 
+      # startingCondition: STR_UW_2
+      fakeUnderwater: true  
+      terrain:
+        - name: VOLC # Water Test
+          weight: 10
+        - name: ATLAN # TFTD Maps
+          weight: 10
+        - name: GAL # TFTD Maps
+          weight: 10
+        - name: CORAL # TFTD Maps
+          weight: 10
+        - name: PIPES # TFTD Maps
+          weight: 10
+        - name: SEABED # TFTD Maps
+          weight: 20
+        # - name: MSUNK # TFTD Maps
+        #   weight: 10
+        # - name: MU # Maya TFTD Maps
+        #   weight: 10
+        - name: U_PLANE # Maya TFTD Maps ALART
+          weight: 10
+        - name: ALART # Maya TFTD Maps
+          weight: 10
+    - id: 17 # Deep water 
+      # startingCondition: STR_UW_2
+      fakeUnderwater: true  
+      terrain:
+        - name: VOLC # Water Test
+          weight: 10
+        - name: ATLAN # TFTD Maps
+          weight: 10
+        - name: GAL # TFTD Maps
+          weight: 10
+        - name: CORAL # TFTD Maps
+          weight: 10
+        - name: PIPES # TFTD Maps
+          weight: 10
+        - name: SEABED # TFTD Maps
+          weight: 20
+        # - name: MSUNK # TFTD Maps
+        #   weight: 10
+        # - name: MU # Maya TFTD Maps
+        #   weight: 10
+        - name: U_PLANE # Maya TFTD Maps ALART
+          weight: 10
+        - name: ALART # Maya TFTD Maps
+          weight: 10
+    - id: 18 # new desert
+      terrain:
+        - name: DESERT
+    - id: 19 # grassy sand
+      terrain: 
+        - name: DESERT
+    - id: 20
+      terrain:
+        - name: CULTA # 
+          weight: 30
+        - name: FOREST # 
+          weight: 70
+    - id: 21
+      terrain:
+        - name: CULTA # 
+          weight: 30
+        - name: FOREST # 
+          weight: 70
+    - id: 22 #snowy Grass
+      terrain:
+        - name: CULTA # 
+          weight: 30
+        - name: FOREST # 
+          weight: 70
+terrains:
+  - name: OLD_PORT
+    script: OLD_PORT_SCRIPT
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+      - XENOFORM1
+      - XENOFORM2
+      - traitor_pack1
+      - traitor_pack2
+    mapBlocks:
+      - name: F-TRAITORB00
+        width: 10
+        length: 10
+        groups: 1
+      - name: F-TRAITORB01
+        width: 10
+        length: 10
+        groups: 1
+      - name: F-TRAITORB02
+        width: 20
+        length: 20
+      - name: F-TRAITORB03
+        width: 20
+        length: 20
+      - name: F-TRAITORB04
+        width: 20
+        length: 20
+      - name: F-TRAITORB05
+        width: 20
+        length: 10
+      - name: F-TRAITORB06
+        width: 20
+        length: 10
+      - name: F-TRAITORB07
+        width: 20
+        length: 10
+        groups: 3
+      - name: F-TRAITORB08
+        width: 20
+        length: 10
+      - name: F-TRAITORB09
+        width: 10
+        length: 10
+      - name: F-TRAITORB10
+        width: 10
+        length: 10
+      - name: F-TRAITORB11
+        width: 10
+        length: 10
+      - name: F-TRAITORB12
+        width: 10
+        length: 10
+      - name: F-TRAITORB13
+        width: 10
+        length: 10
+      - name: F-TRAITORB14
+        width: 10
+        length: 10
+      - name: F-TRAITORB15
+        width: 10
+        length: 10
+      - name: F-TRAITORB16
+        width: 10
+        length: 10
+      - name: F-TRAITORB17
+        width: 20
+        length: 20
+      - name: F-TRAITORB18
+        width: 20
+        length: 20
+      - name: F-TRAITORB19
+        width: 20
+        length: 20
+      # - name: F-TRAITORB20
+      #   width: 20
+      #   length: 20
+      #   groups: 5
+      - name: F-TRAITORB20
+        width: 20
+        length: 20
+      - name: F-TRAITORB21
+        width: 20
+        length: 20
+      - name: AIRPORT_N
+        width: 10
+        length: 10
+        groups: 3
+      - name: AIRPORT_S
+        width: 10
+        length: 10
+        groups: 4
+  - name: IDT_PLANE
+    # script: OLD_PORT_SCRIPT
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - IDT_PLANE
+      - PORT01_UFO
+    mapBlocks:
+      - name: HIJACKED_PLANE01
+        width: 30
+        length: 20
+        # groups: 1
+  - name: OLD_PORT_ROAD
+    # script: OLD_PORT_SCRIPT
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - IDT_PLANE_2
+      - IDT_PLANE_3
+      - PORT01_UFO
+      - PORT02_UFO
+      - PORT05_UFO
+    mapBlocks:
+      - name: AIRPORT_NS_ROAD
+        width: 10
+        length: 10
+        groups: 3
+      - name: AIRPORT_EW_ROAD
+        width: 10
+        length: 10
+        groups: 2
+      - name: AIRPORT_X_ROAD
+        width: 10
+        length: 10
+        groups: 4
+  - name: INHERITOR_XCOM_BASE
+    script: INHERITOR_1
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - T_XBASE1
+      - T_XBASE2
+      - T_XBASE3
+      - T_XBASE4
+    mapBlocks:
+      - name: Traitor_XBASE_00 # lIFT
+        width: 10
+        length: 10
+        groups: 1  # lANDING zONE - LIFT
+      - name: Traitor_XBASE_16 # hANGER
+        width: 20
+        length: 20
+        groups: 1  # lANDING zONE - HANGER
+      - name: Traitor_XBASE_01 # LIVING QUARTERS
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_02 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_03 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_04 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_05 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_06 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_07 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_08 # 
+        width: 10
+        length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_09 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_10 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_11 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_12 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      # - name: Traitor_XBASE_13 # 
+      #   width: 10
+      #   length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_14 # PSI LAB
+        width: 10
+        length: 10
+        # groups: 6  # 
+      - name: Traitor_XBASE_20 #  empty
+        width: 10
+        length: 10
+        groups: 6  # 
+
+
+  - name: UNDERWATER_TERRAFORM_1
+    script: UW_TERRAFORM_1
+    enviroEffects: STR_Underwater
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - PYRAMID3
+      - GRUNGE1_L83
+      - UINT3
+      - PYRAMID4
+      - UW_city2
+      - U_PODS2
+      - SAND
+    depth: [1, 2]
+    mapBlocks:
+      - name: WATER_TERRAFORM01
+        width: 20
+        length: 20
+        # groups: 3  # Buildings
+      # - name: WATER_TERRAFORM02
+      #   width: 20
+      #   length: 20
+      #   # groups: 3  # Buildings
+      # - name: WATER_TERRAFORM03
+      #   width: 20
+      #   length: 20
+      #   # groups: 3  # Buildings
+
+  - name: OXC_SLAVES
+    script: SLAVE
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    civilianTypes:
+      - STR_HUMAN_CIVILIAN_MALE_NPC
+      - MALE_CIVILIAN
+      - STR_HUMAN_CIVILIAN_FEMALE_NPC
+      - FEMALE_CIVILIAN
+    mapDataSets:
+      - BLANKS
+      - AREA51_b1
+      - CARGOSHIP4
+      - DAWNURBITS
+      - FACTORYC
+      - OXC-SLAVES
+    mapBlocks:
+      - name: OXC-SLAVES01
+        width: 10
+        length: 10
+        groups: 2 # landing zone
+      - name: OXC-SLAVES02
+        width: 10
+        length: 10
+        # groups: 3  # Buildings
+      - name: OXC-SLAVES03
+        width: 10
+        length: 10
+        # groups: 3  # Buildings
+      - name: OXC-SLAVES04
+        width: 10
+        length: 10
+        # groups: 4 # OPEN SPACE
+      - name: OXC-SLAVES05
+        width: 20
+        length: 20
+        # groups: 3 # OPEN SPACE
+  - name: OXC_SLAVES-GUARDS
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    mapDataSets:
+      - BLANKS
+      - MARS2
+      - Alien_Plants
+      - U_Wall01
+      - MARS3
+      - DAWNURBITS
+      - FACTORYC-L83
+    mapBlocks:
+      - name: SLAVES-GUARDS12
+        width: 10
+        length: 10
+        groups: 3  
+        items:
+          STR_PROXIMITY_MINE:
+            - [2, 2, 0]
+            - [3, 5, 0]
+            - [5, 7, 0]
+            - [4, 5, 0]
+            - [8, 2, 0]
+          STR_IN_MINE:
+            - [7, 7, 0]
+            - [3, 3, 0]
+            - [7, 3, 0]
+            - [3, 5, 0]
+            - [7, 5, 0]
+        fuseTimers:
+          STR_IN_MINE: [0, 0]
+          STR_PROXIMITY_MINE: [0, 0]
+      - name: SLAVES-GUARDS13
+        width: 10
+        length: 10
+        groups: 3  
+        items:
+          STR_PROXIMITY_MINE:
+            - [2, 5, 0]
+            - [5, 2, 0]
+            - [5, 4, 0]
+            - [8, 5, 0]
+            - [8, 6, 0]
+            - [8, 2, 0]
+          STR_IN_MINE:
+            - [7, 7, 0]
+            - [3, 3, 0]
+            - [3, 5, 0]
+            - [5, 7, 0]
+            - [5, 3, 0]
+        fuseTimers:
+          STR_IN_MINE: [0, 0]
+          STR_PROXIMITY_MINE: [0, 0]
+      - name: SLAVES-GUARDS14
+        width: 10
+        length: 10
+        groups: 3  
+      - name: SLAVES-GUARDS15
+        width: 10
+        length: 10
+        groups: 3  
+      - name: SLAVES-GUARDS16
+        width: 10
+        length: 10
+        groups: 3  
+      - name: SLAVES-GUARDS17
+        width: 10
+        length: 10
+        groups: 3  
+        items:
+          STR_PROXIMITY_MINE:
+            - [2, 7, 0]
+            - [3, 3, 0]
+            - [5, 5, 0]
+            - [5, 8, 0]
+            - [8, 8, 0]
+            - [2, 8, 0]
+            - [8, 2, 0]
+          STR_IN_MINE:
+            - [7, 7, 0]
+            - [3, 7, 0]
+            - [5, 7, 0]
+            - [5, 3, 0]
+            - [7, 5, 0]
+        fuseTimers:
+          STR_IN_MINE: [0, 0]
+          STR_PROXIMITY_MINE: [0, 0]
+
+  - name: OXC_SLAVES2
+    script: SLAVE2
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    civilianTypes:
+      - STR_HUMAN_CIVILIAN_MALE_NPC
+      - MALE_CIVILIAN
+      - STR_HUMAN_CIVILIAN_FEMALE_NPC
+      - FEMALE_CIVILIAN
+    mapDataSets:
+      - BLANKS
+      - OXC-SLAVES-2
+      - GROUND
+      - MARS3
+      - OXC-SLAVES
+      - OXC-SLAVES-3
+      - DOORS1
+      - Urban_Goods
+    mapBlocks:
+      - name: ALT_SLAVES_1
+        width: 10
+        length: 10
+        # groups: 4 # HUMAN HOUSE
+      - name: ALT_SLAVES_2
+        width: 10
+        length: 10
+      - name: ALT_SLAVES_3
+        width: 10
+        length: 10
+      - name: ALT_SLAVES_4
+        width: 10
+        length: 20
+      - name: ALT_SLAVES_5
+        width: 20
+        length: 10
+        # groups: 4 # HUMAN HOUSE
+      # - name: ALT_SLAVES03
+      #   width: 10
+      #   length: 10
+        # groups: 3  # Buildings
+      # - name: ALT_SLAVES04
+      #   width: 10
+      #   length: 10
+        # groups: 4 # OPEN SPACE
+      - name: ALT_SLAVES_7
+        width: 10
+        length: 10
+        groups: 2  # LANDING ZONE
+      - name: ALT_SLAVES_6
+        width: 10
+        length: 10
+        groups: 2  # LANDING ZONE
+      - name: ALT_SLAVES_8
+        width: 20
+        length: 10
+      - name: ALT_SLAVES_9
+        width: 10
+        length: 20
+
+  - name: OXC_SLAVES2_ALIENS
+    # script: SLAVE2
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    civilianTypes:
+      - STR_HUMAN_CIVILIAN_MALE_NPC
+      - MALE_CIVILIAN
+      - STR_HUMAN_CIVILIAN_FEMALE_NPC
+      - FEMALE_CIVILIAN
+    mapDataSets:
+      - BLANKS
+      - OXC-SLAVES-2
+      - GROUND
+      - MARS3
+      - OXC-SLAVES
+      - OXC-SLAVES-3
+      - DOORS1
+      - U_BASE3A
+      - U_BASE2
+    mapBlocks:
+      - name: ALT_SLAVES_10
+        width: 20
+        length: 20
+    mapBlocks:
+      - name: ALT_SLAVES_11
+        width: 10
+        length: 10
+      #   groups: 3 # aliens
+
+  - name: OXC_SLAVES2-WATER
+    mapDataSets:
+      - BLANKS
+      - OXC-SLAVES-2
+      - GROUND
+      - MARS3
+      - OXC-SLAVES
+      - OXC-SLAVES-3
+      - Q_WATER
+    mapBlocks:
+      - name: ALT_SLAVES_15
+        width: 10
+        length: 10
+        groups: 2
+      - name: ALT_SLAVES_16
+        width: 10
+        length: 10
+        groups: 2
+      - name: ALT_SLAVES_17
+        width: 10
+        length: 10
+        groups: 2
+      - name: ALT_SLAVES_18
+        width: 10
+        length: 10
+        groups: 2
+      - name: ALT_SLAVES_19
+        width: 10
+        length: 10
+        groups: 2
+
+
+
+  - name: P_SLAVES
+    script: OXC-SLAVES-4
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    civilianTypes:
+      - STR_HUMAN_CIVILIAN_MALE_NPC
+      - MALE_CIVILIAN
+      - STR_HUMAN_CIVILIAN_FEMALE_NPC
+      - FEMALE_CIVILIAN
+    mapDataSets:
+      - BLANKS
+      - POLARMOUNTBITS
+      - GREENHOUSE
+      - POLAR_L83
+      - LIFTERL83
+      - U_BASE3A
+      - POLAR_DOORS
+      - POLAR_WALL
+      - OXC-SLAVES
+    mapBlocks:
+      - name: P_SLAVES00
+        width: 10
+        length: 10
+        groups: 4 # [2, 3, 4] # LIFT (CROSSING)
+      - name: P_SLAVES01
+        width: 10
+        length: 10
+        groups:  [2, 3] # 2 # link tunnel E-W
+      - name: P_SLAVES02
+        width: 10
+        length: 10
+        groups: [2, 3] # link tunnel N-S
+      - name: P_SLAVES03
+        width: 10
+        length: 10
+        groups:  [2, 3] # 3  # link tunnel N-S
+      - name: P_SLAVES04
+        width: 10
+        length: 10
+        groups: [2, 3] # 2 # link tunnel E-W
+      - name: P_SLAVES05
+        width: 10
+        length: 10
+        groups: [2, 3] # 2 # link tunnel E-W
+      - name: P_SLAVES06
+        width: 10
+        length: 10
+      #   groups: [0, 1]  # LANDING ZONE
+      - name: P_SLAVES07
+        width: 10
+        length: 10
+      #   groups: [0, 1]  # LANDING ZONE
+      - name: P_SLAVES08
+        width: 10
+        length: 10
+        # groups: 1  # LANDING ZONE
+      - name: P_SLAVES10
+        width: 20
+        length: 20
+      #   groups: 3 # aliens
+      - name: P_SLAVES15
+        width: 10
+        length: 10
+      - name: P_SLAVES16
+        width: 10
+        length: 10
+      # - name: P_SLAVES17
+      #   width: 10
+      #   length: 10
+      # - name: P_SLAVES18
+      #   width: 10
+      #   length: 10
+  - name: NUKEZONE
+    script: NUKE
+    # enviroEffects: STR_LAND
+    # startingCondition: STR_TOXIC
+    # music:
+    #   - NUKE
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - Nuke_WATER_2
+    mapBlocks:
+      - name: NUKE00
+        width: 10
+        length: 10
+        groups: 2 # landing zone
+      - name: NUKE01
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE02
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE03
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE07
+        width: 10
+        length: 10
+        groups: 1
+      - name: NUKE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: NUKE09
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE10
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE11
+        width: 10
+        length: 10
+        groups: 1
+      - name: NUKE12
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE13
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE14
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE15
+        width: 10
+        length: 10
+        groups: 4 # std
+      - name: NUKE16
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE17
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+      - name: NUKE18
+        width: 10
+        length: 10
+        groups: 3  # Buildings
+  - name: NUKECITY
+    script: NUKECITY
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    mapBlocks:
+      # - name: NUKECITY00 # this map was created just to see concept - do not bring in game, its too large :)
+      #   width: 40
+      #   length: 40
+      #   # groups: 6
+      - name: NUKECITY01
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY02
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY03
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY04
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY05
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY06
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY07
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY08
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY09
+        width: 30
+        length: 30
+        groups: 4
+  - name: NUKECITY_B
+    script: NUKECITY_B
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - Nuke1
+      - Nuke2
+      - Nuke3
+      - NUKE_WATER_2
+      - NUKE_UNDERGROUND
+      - NUKE_CITY
+      - NUKE_CITY_2
+    mapBlocks:
+      # - name: NUKECITY00 # this map was created just to see concept - do not bring in game, its too large :)
+      #   width: 40
+      #   length: 40
+      #   # groups: 6
+      - name: NUKECITY01
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY02
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY03
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY04
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY05
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY06
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY07
+        width: 30
+        length: 30
+        groups: 4
+      - name: NUKECITY08
+        width: 20
+        length: 20
+        groups: 3
+      - name: NUKECITY09
+        width: 30
+        length: 30
+        groups: 4
+  - name: UNDERGROUND              # Luke83  UNDERGROUND set - base blocks - to mix with other sets!
+    script:  UNDERG
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS	
+      - UNDERG
+      - UNDERG-2
+      - U_temple
+      - Under_Base
+      - Under_Base2
+    mapBlocks:
+      - name: UNDERG00
+        width: 10
+        length: 10
+      - name: UNDERG01
+        width: 10
+        length: 10
+      # - name: UNDERG02
+      #   width: 10
+      #   length: 10
+      - name: UNDERG03
+        width: 10
+        length: 10
+      - name: UNDERG04
+        width: 20
+        length: 20
+      - name: UNDERG05
+        width: 10
+        length: 10
+      - name: UNDERG06
+        width: 10
+        length: 10
+      - name: UNDERG07
+        width: 10
+        length: 10
+      - name: UNDERG08
+        width: 10
+        length: 10
+      - name: UNDERG09 # Xcom Spawn
+        width: 10
+        length: 10
+        groups: 2
+      - name: UNDERG10
+        width: 10
+        length: 10
+      - name: UNDERG11
+        width: 10
+        length: 10
+      - name: UNDERG12
+        width: 10
+        length: 10
+      - name: UNDERG14
+        width: 10
+        length: 10
+########################################## STD MAPBASED MISSIONS - LAND BASED  #######################
+  - name: UNDERGROUND2              # Luke83  UNDERGROUND2 -Snakeman base
+    script:  UNDERG2
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS	
+      - UNDERG
+      - UNDERG-2
+      - BloodP
+      - SnakePit_v2
+      - LifterL83
+      - U_DISEC1
+      - U_BASE2
+      - UINT2L83B
+    mapBlocks:
+      - name: UNDERG_M1 # undermount
+        width: 10
+        length: 10
+      - name: UNDERG_M2 # secret cave
+        width: 10
+        length: 10
+      - name: UNDERG_M3 # secret cave
+        width: 10
+        length: 10
+      - name: UNDERG_M4
+        width: 10
+        length: 10
+        groups: 2
+      - name: UNDERG_M5 # Dead Human food
+        width: 10
+        length: 10
+      # - name: UNDERG_M6
+      #   width: 20
+      #   length: 20
+      # - name: UNDERG_M7
+      #   width: 10
+      #   length: 10
+      # - name: UNDERG_M8
+      #   width: 10
+      #   length: 10
+      - name: UNDERG_M9 # Command Station
+        width: 10
+        length: 10
+        groups: 4
+      # - name: UNDERG_M10
+      #   width: 10
+      #   length: 10
+      - name: UNDERG_M11 # Tunnel - Xcom spawn
+        width: 10
+        length: 10
+        groups: 2
+      - name: UNDERG_M12 # Random
+        width: 10
+        length: 10
+      - name: UNDERG_M13 # undermount
+        width: 10
+        length: 10
+      - name: UNDERG_M14 # spawn chamber
+        width: 20
+        length: 20
+        groups: 3
+      - name: UNDERG_M15 # Elevator
+        width: 10
+        length: 10
+        groups: 1
+      - name: UNDERG_M16 # Dead Cow room
+        width: 20
+        length: 20
+        groups: 3
+      # - name: UNDERG_M17
+      #   width: 10
+      #   length: 10
+
+      #SCAVENGERS_LAIR
+  - name: SCAVENGERS_LAIR             # Luke83  UNDERGROUND set - base blocks - to mix with other sets!
+    script:  UNDERG_SCAV
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS	
+      - UNDERG-3
+      - UNDERG_WATER
+      - Under_Base_S
+      - Under_Base_S_2
+      - Under_Base2_SCAV
+      - Urban_goods
+      - Medical_OXCF
+    mapBlocks:
+      - name: UNDERG_SCAV00 #BUILDING
+        width: 10
+        length: 10
+      - name: UNDERG_SCAV01 #BUILDING
+        width: 10
+        length: 10
+      # - name: UNDERG_SCAV02 #BUILDING
+      #   width: 10
+      #   length: 10
+      - name: UNDERG_SCAV03 #OPEN
+        width: 10
+        length: 10
+      - name: UNDERG_SCAV04 # lARGE BUIDLINGS
+        width: 20
+        length: 20
+      - name: UNDERG_SCAV05
+        width: 10
+        length: 10
+      - name: UNDERG_SCAV06
+        width: 20
+        length: 10
+      - name: UNDERG_SCAV07
+        width: 20
+        length: 10
+      - name: UNDERG_SCAV08
+        width: 20
+        length: 10
+      - name: UNDERG_SCAV09 # 
+        width: 10
+        length: 10
+        # groups: 6
+      - name: UNDERG_SCAV10
+        width: 10
+        length: 10
+        # groups: 6
+      - name: UNDERG_SCAV11 # Large buildings
+        width: 20
+        length: 20
+      - name: UNDERG_SCAV12
+        width: 10
+        length: 10
+      - name: UNDERG_SCAV13
+        width: 10
+        length: 10
+
+########################################## STD MAPBASED MISSIONS - LAND BASED  #######################
+  - name: INFECTED_VILLAGE
+    mapDataSets:
+      - BLANKS
+      - INFECTED_PLANTS
+      - INFECTED_VILBITS
+      - INFECTED_VILBAN
+      - INFECTED_VILFRNITURE
+    script: INFECTED_VILLAGE
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: INFECTED_VILBAN00 
+        width: 10
+        length: 10
+        groups: 1
+      - name: INFECTED_VILBAN06 
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN07
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN08
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN09
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN10
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN11
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN12
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN13 #PLANTS
+        width: 10
+        length: 10
+        # groups: [0, 5]
+      - name: INFECTED_VILBAN14
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN15
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN16
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN17 # PLANTS
+        width: 10
+        length: 10
+      - name: INFECTED_VILBAN18 # plants
+        width: 10
+        length: 10
+      - name: INFECTED_VILBAN50
+        width: 10
+        length: 10
+      - name: INFECTED_VILBAN53 
+        width: 20
+        length: 20
+      - name: INFECTED_VILBAN55
+        width: 10
+        length: 10
+  - name: VILLAGE
+    mapDataSets:
+      - BLANKS
+      - INFECTED_PLANTS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: VILBAN_B00 #CLEARING
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN_B04 #F - FENCED
+        width: 10
+        length: 10
+      - name: VILBAN_B05 #F - FENCED
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B06 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B07 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B08 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B09 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B10 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B11 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B12 # HOUSE
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN_B13 #F
+        width: 10
+        length: 10
+      - name: VILBAN_B14 # HOUSE
+        width: 20
+        length: 20
+      - name: VILBAN_B15 # HOUSE
+        width: 20
+        length: 20
+      - name: VILBAN_B16 # HOUSE
+        width: 20
+        length: 20
+      - name: VILBAN_B17 #F
+        width: 10
+        length: 10
+      - name: VILBAN_B18 #F
+        width: 10
+        length: 10
+      - name: VILBAN_B19 #F
+        width: 10
+        length: 10
+      - name: VILBAN_B20 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B21 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B22 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B23 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B24 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B25 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B26 # road
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN_B30 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B31 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B32 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B33 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B34 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B35 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B36 # road
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN_B40 # road
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN_B50 # HOUSE
+        width: 10
+        length: 10
+      # - name: VILBAN_B51
+      #   width: 20
+      #   length: 20
+      # - name: VILBAN_B52 #bf
+      #   width: 10
+      #   length: 10
+      - name: VILBAN_B53 # HOUSE
+        width: 20
+        length: 20
+      - name: VILBAN_B54 #F
+        width: 10
+        length: 10
+      - name: VILBAN_B55 # HOUSE
+        width: 10
+        length: 10
+  - name: INFECTED_ROAD_B
+    # script: RUINED_URBAN_B
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2_PURPLE
+      - ALIENCULT_PURPLE
+      - ALIENBARN_PURPLE
+      - ROADS
+      - VILROADS_PURPLE
+    mapBlocks:
+      - name: INFECTED_ROAD_B00 #X
+        width: 10
+        length: 10
+        groups: 4 #was 2
+      - name: INFECTED_ROAD_B01 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: INFECTED_ROAD_B02  #EW
+        width: 10
+        length: 10 
+        groups: 2 #was 4
+      - name: INFECTED_ROAD_B03 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: INFECTED_ROAD_B04 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: INFECTED_ROAD_B05   #X
+        width: 10
+        length: 10 
+        groups: 4  #was 2
+      - name: INFECTED_ROAD_B06 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: INFECTED_ROAD_B07  #X
+        width: 10
+        length: 10
+        groups: 4  #was 2
+      - name: INFECTED_ROAD_B08 #EW
+        width: 10
+        length: 10
+        groups: 2  #was 4
+      - name: INFECTED_ROAD_B09 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: INFECTED_ROAD_B10 #NS
+        width: 10
+        length: 10
+        groups: 3
+  - name: ALIEN_FOREST  # barrls still need to be removed from map set
+    script: ALIEN_FOREST
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - RUINED_FOREST
+      - ALIENCULT2_PURPLE
+      - ALIENCULT_PURPLE
+      - ALIENBARN_PURPLE
+    mapBlocks:
+      - name: ALIENFOREST01
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST02
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST03  #Partially Clear area
+        width: 10
+        length: 10 
+        # groups: 3
+      - name: ALIENFOREST04 # Hill
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENFOREST05 # Large Hills
+        width: 20
+        length: 20
+      - name: ALIENFOREST06 # Mega Hill
+        width: 20
+        length: 20
+      - name: ALIENFOREST07 #Partially Clear area
+        width: 10
+        length: 10
+        # groups: 3
+      # - name: ALIENFOREST08 # Infection Barrel
+      #   width: 10
+      #   length: 10
+      #   groups: 2
+      #   items:
+      #     CIVM_CORPSE:
+      #       - [6, 5, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      # - name: ALIENFOREST09 # Infection Barrel
+      #   width: 10
+      #   length: 10
+      #   groups: 2
+      #   items:
+      #     CIVM_CORPSE:
+      #       - [5, 8, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      # - name: ALIENFOREST10  # Infection Barrel
+      #   width: 10
+      #   length: 10
+      #   groups: 2
+      #   items:
+      #     CIVM_CORPSE:
+      #       - [4, 7, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST13  # Large Hill
+        width: 20
+        length: 20
+        groups: 4
+      # - name: ALIENFOREST14 # Mega Hill with Infection Barrel
+      #   width: 20
+      #   length: 20
+      #   groups: 2
+      - name: ALIENFOREST15 # building
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST16 # long block Block
+        width: 10
+        length: 10
+        groups: 4
+      # - name: ALIENFOREST17   # Infection Barrel
+      #   width: 10
+      #   length: 10
+      #   groups: 2
+      #   items:
+      #     CIVM_CORPSE:
+      #       - [6, 4, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST18 # Partially Clear Block
+        width: 10
+        length: 10 
+        # groups: 3
+      - name: ALIENFOREST19 # Large Farm estate
+        width: 20
+        length: 20
+        groups: 4
+      - name: ALIENFOREST20 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST21 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST22 # Large Blocks
+        width: 20
+        length: 20 
+        groups: 2
+      - name: ALIENFOREST23 # Large Blocks
+        width: 20
+        length: 20 
+        groups: 2
+      - name: ALIENFOREST24 # Partially Clear Block
+        width: 10
+        length: 10
+      - name: ALIENFOREST25 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST26 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST27 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST28 # Partially Clear Block
+        width: 10
+        length: 10
+        groups: 3
+      - name: ALIENFOREST29 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST30 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST31 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST32 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST33 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST34 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+  - name: ALIEN_WATER_CITY  # barrls still need to be removed from map set
+    script: ALIEN_WATER_CITY_1
+    enviroEffects: STR_Underwater 
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    mapDataSets:
+      - BLANKS
+      - PYRAMID3
+      - UW_city
+      - UINT3
+      - CORAL2
+      - UW_city2
+      - ROCKS2
+      - WEEDS2
+    mapBlocks:
+      - name: ALIEN_WATER_CITY00
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_WATER_CITY01 #building
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY02 #building
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY03 #clear
+        width: 10
+        length: 10
+        groups: 4 # semiclear zone
+      - name: ALIEN_WATER_CITY04 #pyramid
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY05 #clear
+        width: 10
+        length: 10
+        groups: 4 # semiclear zone
+      - name: ALIEN_WATER_CITY06 #mixed
+        width: 20
+        length: 20
+      - name: ALIEN_WATER_CITY07 #clear
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY08 #pyramid
+        width: 20
+        length: 20
+      - name: ALIEN_WATER_CITY09 #pyramid
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY10 #building
+        width: 10
+        length: 10
+      - name: ALIEN_WATER_CITY11 #clear
+        width: 10
+        length: 10
+  - name: ALIEN_LAND_CITY  # barrls still need to be removed from map set
+    script: ALIEN_City_Land
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - MARS2
+      - ALIEN_Plants
+      - U_Wall01
+      - MARS3
+      - ALIEN_GOODS
+    mapBlocks:
+      - name: ALIEN_LAND_CITY00
+        width: 10
+        length: 10
+        # groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY01
+        width: 10
+        length: 10
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY02
+        width: 10
+        length: 10
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY03
+        width: 10
+        length: 10
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY04
+        width: 10
+        length: 10
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY05
+        width: 20
+        length: 20
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY06
+        width: 20
+        length: 20
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY07
+        width: 20
+        length: 20
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY08
+        width: 20
+        length: 20
+        # groups: 2 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY09
+        width: 10
+        length: 10
+  - name: ALIEN_LAND_CITY_ROAD 
+    # script: ALIEN_City_Land
+    mapDataSets:
+      - BLANKS
+      - MARS2
+      - ALIEN_Plants
+      - U_Wall01
+      - MARS3
+    mapBlocks:
+      - name: ALIEN_LAND_CITY12 #tower
+        width: 10
+        length: 10
+        groups: 3 #NS
+        # groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY13 # path
+        width: 10
+        length: 10
+        groups: 3 #NS
+        # groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY14 # level change
+        width: 10
+        length: 10
+        groups: 3 #NS
+      - name: ALIEN_LAND_CITY15 #tower
+        width: 10
+        length: 10
+        groups: 3 #NS
+        # groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY16 # path
+        width: 10
+        length: 10
+        groups: 3 #NS
+        # groups: 1 #Landable for UFOs/Crafts
+      - name: ALIEN_LAND_CITY17 # level change
+        width: 10
+        length: 10
+        groups: 3 #NS
+  - name: RUINED_URBAN 
+    script: RUINED_URBAN
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2_PURPLE
+      - RUINEDCITY-PURPLE
+      - ALIENCULT_PURPLE
+      - ALIENBARN_PURPLE
+    mapBlocks:
+      - name: RUINED_URBAN00
+        width: 20
+        length: 20
+      - name: RUINED_URBAN01
+        width: 10
+        length: 10
+      - name: RUINED_URBAN02  
+        width: 10
+        length: 10 
+        items:
+            STR_GENERIC_BOX:
+              - [4, 3, 1]
+        randomizedItems:
+              - position: [4, 3, 1]
+                amount: 5
+                mixed: true
+                itemList: &RandomLootWeapons [STR_GLOCK, STR_9MM_PISTOL_X10, STR_9MM_PISTOL_X10, STR_NAIL_GUN, STR_NAILS_BOX_X50, STR_NAILS_BOX_X50, STR_PIPE_BOMB, STR_PIPE_BOMB, STR_MOLOTOV_COCKTAIL, STR_MOLOTOV_COCKTAIL, STR_EXPLOSIVES] # Test Civilian Weapons
+
+      - name: RUINED_URBAN03
+        width: 10
+        length: 10
+        items:
+            STR_RESOURCES_PALLET:
+              - [4, 3, 1]
+            STR_GENERIC_BOX:
+              - [5, 6, 0]
+        randomizedItems:
+              - position: [4, 3, 1]
+                amount: 5
+                mixed: true
+                itemList: &RandomResourcesPalletMaterials [STR_LEAD_PIPE, STR_SCRAP_METAL, STR_CERAMIC_PLATE, STR_ELECTRONICS_SCRAP, STR_FUEL_CAN, STR_ALIEN_PLASTIC, STR_ALIEN_CRYSTAL, STR_DEPLETED_URANIUM_BRIEFCASE, STR_ALIEN_ALLOY_PLATE] # Test Supplies
+              - position: [5, 6, 0]
+                amount: 3
+                mixed: true
+                itemList: *RandomLootWeapons
+
+      - name: RUINED_URBAN04
+        width: 10
+        length: 10
+      - name: RUINED_URBAN05  
+        width: 10
+        length: 10 
+        items:
+            STR_WEAPONS_CRATE:
+              - [3, 2, 1]
+        randomizedItems:
+              - position: [3, 2, 1]
+                amount: 2
+                mixed: true
+                itemList: &RandomWeaponsCrateLowWeapon [STR_CAR15, STR_TAVOR, STR_VZ58, STR_MPX] # Test Weapons
+              - position: [3, 2, 1]
+                amount: 4
+                mixed: true
+                itemList: &RandomWeaponsCrateAmmo [STR_5_56MM_NATO_RIFLE_X30, STR_7_62MM_SOVIET_RIFLE_X30, STR_9MM_PISTOL_X30, STR_9MM_RIFLE_X20, STR_12GAUGE_BUCKSHOT_X15, STR_12GAUGE_BUCKSHOT_X2, STR_EXPLOSIVES]
+      - name: RUINED_URBAN06
+        width: 10
+        length: 10
+        items:
+            STR_GENERIC_BOX:
+              - [2, 4, 0]
+        randomizedItems:
+              - position: [4, 2, 1]
+                amount: 3
+                mixed: true
+                itemList: &RandomLootMelee [STR_KNIFE, STR_LEAD_PIPE, STR_TIRE_IRON, STR_BASEBALL_BAT, STR_HATCHET, STR_PIPE_WRENCH] # Test Random Stuff 
+      - name: RUINED_URBAN07
+        width: 10
+        length: 10
+        items:
+            STR_GENERIC_BOX:
+              - [4, 2, 1]
+              - [2, 4, 0]
+        randomizedItems:
+              - position: [4, 2, 1]
+                amount: 3
+                mixed: true
+                itemList: *RandomLootMelee 
+              - position: [2, 4, 0]
+                amount: 5
+                mixed: true
+                itemList: &RandomLootMaterials [STR_LEAD_PIPE, STR_CANNED_FOOD, STR_TIRE_IRON, STR_CERAMIC_PLATE, STR_ELECTRONICS_SCRAP ,STR_SCRAP_METAL, STR_STEEL_INGOT, STR_PIPE_BOMB] # Test Random Stuff 
+
+      - name: RUINED_URBAN08  
+        width: 20
+        length: 20 
+        items:
+            STR_RESOURCES_PALLET:
+              - [12, 9, 0]
+              - [8, 7, 0]
+            STR_GENERIC_BOX:
+              - [2, 13, 0]
+        randomizedItems:
+              - position: [12, 9, 0]
+                amount: 10
+                mixed: true
+                itemList: *RandomResourcesPalletMaterials 
+              - position: [8, 7, 0]
+                amount: 8
+                mixed: true
+                itemList: *RandomResourcesPalletMaterials 
+              - position: [2, 13, 0]
+                amount: 6
+                mixed: true
+                itemList: &RandomLootWeapons [STR_LEAD_PIPE, STR_CANNED_FOOD, STR_TIRE_IRON, STR_CERAMIC_PLATE, STR_ELECTRONICS_SCRAP, STR_SCRAP_METAL, STR_STEEL_INGOT, STR_PIPE_BOMB] # Test Random Stuff 
+ 
+  - name: RUINED_URBAN_B # This is the ROADS mapblock
+    # script: RUINED_URBAN_B
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2_PURPLE
+      - ALIENCULT_PURPLE
+      - ALIENBARN_PURPLE
+      - ROADS
+    mapBlocks:
+      - name: RUINED_URBAN_B00 #X
+        width: 10
+        length: 10
+        groups: 4 #was 2
+      - name: RUINED_URBAN_B01 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B02  #EW
+        width: 10
+        length: 10 
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B03 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B04 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B05   #X
+        width: 10
+        length: 10 
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B06 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B07  #X
+        width: 10
+        length: 10
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B08 #EW
+        width: 10
+        length: 10
+        groups: 2  #was 4
+      - name: RUINED_URBAN_B09 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B10 #NS
+        width: 10
+        length: 10
+        groups: 3 #NS
+  - name: ORGANIC_CITY
+    script: ORGANIC1
+    # enviroEffects: STR_LAND
+    mapDataSets:
+      - BLANKS
+      - SEA_UFO
+      - ORGANIC1L83
+      - ORGANIC2L83
+      - ORGANIC3L83
+      - FLOAT_UFO
+      - EXIT_POINT
+    mapBlocks:
+      - name: ORGANIC_CITY_01 #
+        width: 10
+        length: 10
+        # groups: 4 #
+      - name: ORGANIC_CITY_02 #
+        width: 10
+        length: 10
+        # groups: 2 #
+      - name:  ORGANIC_CITY_03 #
+        width: 20
+        length: 20 
+        # groups: 1 # Landing
+      - name: ORGANIC_CITY_04 #
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ORGANIC_CITY_05 #
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ORGANIC_CITY_06 #
+        width: 10
+        length: 10
+        groups: 2 # Landing
+      - name: ORGANIC_CITY_07 #
+        width: 10
+        length: 10
+        groups: 2 # Landing
+      - name: ORGANIC_CITY_08 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_09 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_10 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_12 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_13 #
+        width: 20
+        length: 20
+      #   # groups: 3
+      - name: ORGANIC_CITY_14 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_15 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_16 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_17 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_18 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_19 #
+        width: 10
+        length: 10
+      #   # groups: 3
+      - name: ORGANIC_CITY_20 #
+        width: 20
+        length: 20
+      #   # groups: 3
+      - name: ORGANIC_CITY_21 #
+        width: 10
+        length: 10
+        groups: 5
+  - name: DRY_ATLAN
+    # music:
+    #   - U
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_ATLANTIS
+      - DRY_UFOBITS
+    # ambience: 67
+    mapBlocks:
+      - name: DRY_ATLAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_ATLAN01
+        width: 10
+        length: 10
+      - name: DRY_ATLAN02
+        width: 10
+        length: 10
+      - name: DRY_ATLAN03
+        width: 10
+        length: 10
+      - name: DRY_ATLAN04
+        width: 10
+        length: 10
+      - name: DRY_ATLAN05
+        width: 10
+        length: 10
+      - name: DRY_ATLAN06
+        width: 10
+        length: 10
+      - name: DRY_ATLAN07
+        width: 10
+        length: 10
+      - name: DRY_ATLAN08
+        width: 10
+        length: 10
+      - name: DRY_ATLAN09
+        width: 10
+        length: 10
+      - name: DRY_ATLAN10
+        width: 20
+        length: 20
+      - name: DRY_ATLAN11
+        width: 20
+        length: 20
+  - name: DRY_CORAL
+    # music:
+    #   - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_WEEDS
+      - DRY_CORAL
+      - DRY_ROCKS
+    # ambience: 67
+    script: THREEBIG
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: DRY_CORAL00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_CORAL01
+        width: 10
+        length: 10
+      - name: DRY_CORAL02
+        width: 10
+        length: 10
+      - name: DRY_CORAL03
+        width: 10
+        length: 10
+      - name: DRY_CORAL04
+        width: 10
+        length: 10
+      - name: DRY_CORAL05
+        width: 10
+        length: 10
+      - name: DRY_CORAL06
+        width: 10
+        length: 10
+      - name: DRY_CORAL07
+        width: 10
+        length: 10
+      - name: DRY_CORAL08
+        width: 10
+        length: 10
+      - name: DRY_CORAL09
+        width: 20
+        length: 20
+      - name: DRY_CORAL10
+        width: 20
+        length: 20
+      - name: DRY_CORAL11
+        width: 20
+        length: 20
+  - name: DRY_SEABED
+    # music:
+    #   - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_ROCKS
+      - DRY_WEEDS
+      - DRY_DEBRIS
+      - DRY_UFOBITS
+  #   ambience: 67
+    script: THREEBIG
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: DRY_SEABED00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_SEABED01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_SEABED02
+        width: 10
+        length: 10
+      - name: DRY_SEABED03
+        width: 10
+        length: 10
+      - name: DRY_SEABED04
+        width: 10
+        length: 10
+      - name: DRY_SEABED05
+        width: 10
+        length: 10
+      - name: DRY_SEABED06
+        width: 10
+        length: 10
+      - name: DRY_SEABED07
+        width: 10
+        length: 10
+      - name: DRY_SEABED08
+        width: 10
+        length: 10
+      - name: DRY_SEABED09
+        width: 10
+        length: 10
+      - name: DRY_SEABED10
+        width: 20
+        length: 20
+      - name: DRY_SEABED11
+        width: 20
+        length: 20
+      - name: DRY_SEABED12
+        width: 20
+        length: 20
+  - name: DRY_PIPES
+    # music:
+    #   - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_PIPES
+      - DRY_UFOBITS
+      - NUKE3
+      - MICROFARM
+    script: THREEBIG
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: DRY_PIPES00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_PIPES01
+        width: 10
+        length: 10
+      - name: DRY_PIPES02 #building
+        width: 10
+        length: 10
+      - name: DRY_PIPES03 #pipes
+        width: 10
+        length: 10
+      - name: DRY_PIPES04 #building
+        width: 10
+        length: 10
+      - name: DRY_PIPES05 #building
+        width: 10
+        length: 10
+      - name: DRY_PIPES06
+        width: 10
+        length: 10
+      - name: DRY_PIPES07 #building
+        width: 10
+        length: 10
+      - name: DRY_PIPES08 #building
+        width: 20
+        length: 20
+      - name: DRY_PIPES09 #building
+        width: 20
+        length: 20
+      - name: DRY_PIPES10 #building
+        width: 20
+        length: 20
+      - name: DRY_PIPES11 #building
+        width: 20
+        length: 20
+  - name: D_PLANE
+    # music:
+    #   - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_PLANE
+      - DRY_UFOBITS
+    # depth: [1, 2]
+  #   ambience: 67
+    script: D_PLANE
+    # enviroEffects: STR_LAND
+    mapBlocks:
+      - name: DRY_PLANE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_PLANE01
+        width: 10
+        length: 10
+      - name: DRY_PLANE02
+        width: 10
+        length: 10
+      - name: DRY_PLANE03
+        width: 10
+        length: 10
+      - name: DRY_PLANE04
+        width: 10
+        length: 10
+      - name: DRY_PLANE05
+        width: 10
+        length: 10
+      - name: DRY_PLANE06
+        width: 10
+        length: 10
+      - name: DRY_PLANE07
+        width: 10
+        length: 10
+      - name: DRY_PLANE08
+        width: 10
+        length: 10
+      - name: DRY_PLANE09
+        width: 10
+        length: 10
+      - name: DRY_PLANE10
+        width: 10
+        length: 10
+      - name: DRY_PLANE11
+        width: 10
+        length: 10
+      - name: DRY_PLANE12
+        width: 10
+        length: 10
+      - name: DRY_PLANE13
+        width: 20
+        length: 20
+      - name: DRY_PLANE14
+        width: 20
+        length: 20
+      - name: DRY_PLANE15
+        width: 20
+        length: 20
+      - name: DRY_PLANE16
+        width: 20
+        length: 20
+      - name: DRY_PLANE17
+        width: 10
+        length: 10
+      - name: DRY_PLANE18
+        width: 10
+        length: 10
+      - name: DRY_PLANE19
+        width: 10
+        length: 10
+      - name: DRY_PLANE20
+        width: 10
+        length: 10
+  - name: DRY_GAL
+    # music:
+    #   - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - DRY_SAND
+      - DRY_ROCKS
+      - DRY_ASUNK
+      - DRY_UFOBITS
+    mapBlocks:
+      - name: DRY_GAL01
+        width: 20
+        length: 20
+      - name: DRY_GAL02
+        width: 20
+        length: 20
+      - name: DRY_GAL03
+        width: 20
+        length: 20
+      - name: DRY_GAL04
+        width: 10
+        length: 10
+      - name: DRY_GAL05
+        width: 10
+        length: 10
+      - name: DRY_GAL06
+        width: 10
+        length: 10
+      - name: DRY_GAL07
+        width: 10
+        length: 10
+      - name: DRY_GAL08
+        width: 10
+        length: 10
+      - name: DRY_GAL09
+        width: 10
+        length: 10
+      - name: DRY_GAL10
+        width: 10
+        length: 10
+      - name: DRY_GAL11
+        width: 10
+        length: 10
+      - name: DRY_GAL12
+        width: 10
+        length: 10
+      - name: DRY_GAL13
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_GAL14
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_GAL15
+        width: 10
+        length: 10
+        groups: 1
+      - name: DRY_GAL16
+        width: 10
+        length: 10
+        groups: 1
+######################## TFTD Standard Map based Missions ########################
+  - name: PIPES
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - PIPES
+      - UFOBITS
+    enviroEffects: STR_Underwater
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: PIPES00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PIPES01
+        width: 10
+        length: 10
+      - name: PIPES02
+        width: 10
+        length: 10
+      - name: PIPES03
+        width: 10
+        length: 10
+      - name: PIPES04
+        width: 10
+        length: 10
+      - name: PIPES05
+        width: 10
+        length: 10
+      - name: PIPES06
+        width: 10
+        length: 10
+      - name: PIPES07
+        width: 10
+        length: 10
+      - name: PIPES08
+        width: 20
+        length: 20
+      - name: PIPES09
+        width: 20
+        length: 20
+      - name: PIPES10
+        width: 20
+        length: 20
+      - name: PIPES11
+        width: 20
+        length: 20
+  - name: GAL
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ROCKS
+      - ASUNK
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    mapBlocks:
+      - name: GAL01
+        width: 20
+        length: 20
+      - name: GAL02
+        width: 20
+        length: 20
+      - name: GAL03
+        width: 20
+        length: 20
+      - name: GAL04
+        width: 10
+        length: 10
+      - name: GAL05
+        width: 10
+        length: 10
+      - name: GAL06
+        width: 10
+        length: 10
+      - name: GAL07
+        width: 10
+        length: 10
+      - name: GAL08
+        width: 10
+        length: 10
+      - name: GAL09
+        width: 10
+        length: 10
+      - name: GAL10
+        width: 10
+        length: 10
+      - name: GAL11
+        width: 10
+        length: 10
+      - name: GAL12
+        width: 10
+        length: 10
+      - name: GAL13
+        width: 10
+        length: 10
+        groups: 1
+      - name: GAL14
+        width: 10
+        length: 10
+        groups: 1
+      - name: GAL15
+        width: 10
+        length: 10
+        groups: 1
+      - name: GAL16
+        width: 10
+        length: 10
+        groups: 1
+  - name: MSUNK
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - MSUNK1
+      - MSUNK2
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: MSUNK00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MSUNK01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MSUNK02
+        width: 20
+        length: 20
+      - name: MSUNK03
+        width: 20
+        length: 20
+      - name: MSUNK04
+        width: 20
+        length: 20
+      - name: MSUNK05
+        width: 20
+        length: 20
+      - name: MSUNK06
+        width: 20
+        length: 20
+      - name: MSUNK07
+        width: 10
+        length: 10
+      - name: MSUNK08
+        width: 10
+        length: 10
+      - name: MSUNK09
+        width: 10
+        length: 10
+      - name: MSUNK10
+        width: 10
+        length: 10
+      - name: MSUNK11
+        width: 10
+        length: 10
+      - name: MSUNK12
+        width: 10
+        length: 10
+      - name: MSUNK13
+        width: 10
+        length: 10
+  - name: VOLC
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - VOLC
+      - UFOBITS
+    script: UNDERWATER_DEFAULT
+    enviroEffects: STR_Underwater 
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    mapBlocks:
+      - name: VOLC00
+        width: 10
+        length: 10
+        groups: 1
+      - name: VOLC01
+        width: 10
+        length: 10
+      - name: VOLC02
+        width: 10
+        length: 10
+      - name: VOLC03
+        width: 10
+        length: 10
+      - name: VOLC04
+        width: 10
+        length: 10
+      - name: VOLC05
+        width: 10
+        length: 10
+      - name: VOLC06
+        width: 10
+        length: 10
+      - name: VOLC07
+        width: 10
+        length: 10
+      - name: VOLC08
+        width: 10
+        length: 10
+      - name: VOLC09
+        width: 20
+        length: 20
+      - name: VOLC10
+        width: 20
+        length: 20
+      - name: VOLC11
+        width: 20
+        length: 20
+  - name: CORAL
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - WEEDS
+      - CORAL
+      - ROCKS
+    enviroEffects: STR_Underwater 
+    # startingCondition: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: CORAL00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CORAL01
+        width: 10
+        length: 10
+      - name: CORAL02
+        width: 10
+        length: 10
+      - name: CORAL03
+        width: 10
+        length: 10
+      - name: CORAL04
+        width: 10
+        length: 10
+      - name: CORAL05
+        width: 10
+        length: 10
+      - name: CORAL06
+        width: 10
+        length: 10
+      - name: CORAL07
+        width: 10
+        length: 10
+      - name: CORAL08
+        width: 10
+        length: 10
+      - name: CORAL09
+        width: 20
+        length: 20
+      - name: CORAL10
+        width: 20
+        length: 20
+      - name: CORAL11
+        width: 20
+        length: 20
+  - name: ALART
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ROCKS
+      - WEEDS
+      - UW_PYRAMID
+      - UFOBITS
+    depth: [1, 2]
+    enviroEffects: STR_Underwater
+    # ambience: 67
+    mapBlocks:
+      - name: ALART00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ALART01
+        width: 10
+        length: 10
+      - name: ALART02
+        width: 10
+        length: 10
+      - name: ALART03
+        width: 10
+        length: 10
+      - name: ALART04
+        width: 10
+        length: 10
+      - name: ALART05
+        width: 10
+        length: 10
+      - name: ALART06
+        width: 10
+        length: 10
+      - name: ALART07
+        width: 10
+        length: 10
+      - name: ALART08
+        width: 10
+        length: 10
+      - name: ALART09
+        width: 20
+        length: 20
+        groups: 6
+      - name: ALART10
+        width: 20
+        length: 20
+      - name: ALART11
+        width: 20
+        length: 20
+  - name: SEABED
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ROCKS
+      - WEEDS
+      - DEBRIS
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: SEABED00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED02
+        width: 10
+        length: 10
+      - name: SEABED03
+        width: 10
+        length: 10
+      - name: SEABED04
+        width: 10
+        length: 10
+      - name: SEABED05
+        width: 10
+        length: 10
+      - name: SEABED06
+        width: 10
+        length: 10
+      - name: SEABED07
+        width: 10
+        length: 10
+      - name: SEABED08
+        width: 10
+        length: 10
+      - name: SEABED09
+        width: 10
+        length: 10
+      - name: SEABED10
+        width: 20
+        length: 20
+      - name: SEABED11
+        width: 20
+        length: 20
+      - name: SEABED12
+        width: 20
+        length: 20
+  - name: ATLAN
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    mapBlocks:
+      - name: ATLAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLAN01
+        width: 10
+        length: 10
+      - name: ATLAN02
+        width: 10
+        length: 10
+      - name: ATLAN03
+        width: 10
+        length: 10
+      - name: ATLAN04
+        width: 10
+        length: 10
+      - name: ATLAN05
+        width: 10
+        length: 10
+      - name: ATLAN06
+        width: 10
+        length: 10
+      - name: ATLAN07
+        width: 10
+        length: 10
+      - name: ATLAN08
+        width: 10
+        length: 10
+      - name: ATLAN09
+        width: 10
+        length: 10
+      - name: ATLAN10
+        width: 20
+        length: 20
+      - name: ATLAN11
+        width: 20
+        length: 20
+  - name: MU
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - MU
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    mapBlocks:
+      - name: MU00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MU01
+        width: 10
+        length: 10
+      - name: MU02
+        width: 10
+        length: 10
+      - name: MU03
+        width: 10
+        length: 10
+      - name: MU04
+        width: 10
+        length: 10
+      - name: MU05
+        width: 10
+        length: 10
+      - name: MU06
+        width: 10
+        length: 10
+      - name: MU07
+        width: 10
+        length: 10
+      - name: MU08
+        width: 10
+        length: 10
+      - name: MU09
+        width: 20
+        length: 20
+      - name: MU10
+        width: 20
+        length: 20
+      - name: MU11
+        width: 20
+        length: 20
+  - name: U_PLANE
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - U_PLANE
+      - UFOBITS
+    enviroEffects: STR_Underwater 
+    depth: [1, 2]
+    # ambience: 67
+    script: D_PLANE
+    mapBlocks:
+      - name: PLANE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLANE01
+        width: 10
+        length: 10
+      - name: PLANE02
+        width: 10
+        length: 10
+      - name: PLANE03
+        width: 10
+        length: 10
+      - name: PLANE04
+        width: 10
+        length: 10
+      - name: PLANE05
+        width: 10
+        length: 10
+      - name: PLANE06
+        width: 10
+        length: 10
+      - name: PLANE07
+        width: 10
+        length: 10
+      - name: PLANE08
+        width: 10
+        length: 10
+      - name: PLANE09
+        width: 10
+        length: 10
+      - name: PLANE10
+        width: 10
+        length: 10
+      - name: PLANE11
+        width: 10
+        length: 10
+      - name: PLANE12
+        width: 10
+        length: 10
+      - name: PLANE13
+        width: 20
+        length: 20
+      - name: PLANE14
+        width: 20
+        length: 20
+      - name: PLANE15
+        width: 20
+        length: 20
+      - name: PLANE16
+        width: 20
+        length: 20
+      - name: PLANE17
+        width: 10
+        length: 10
+      - name: PLANE18
+        width: 10
+        length: 10
+      - name: PLANE19
+        width: 10
+        length: 10
+      - name: PLANE20
+        width: 10
+        length: 10
+  - name: A_BASE #TFTD WATER BASE _UNDERGROUND SECTION
+    script: UW_BASE1
+    music:
+      - GMTACWET
+    depth: [1, 1]
+    enviroEffects: STR_Underwater 
+    # ambience: 67
+    mapDataSets:
+      - BLANKS
+      - ORGANIC1
+      - ORGANIC2
+      - ORGANIC3
+      - PSYNOM
+    mapBlocks:
+      - name: A_BASE00
+        width: 10
+        length: 10
+        groups: 2
+        revealedFloors: 2
+      - name: A_BASE07
+        width: 10
+        length: 10
+        groups: 4
+      - name: A_BASE08
+        width: 10
+        length: 10
+        groups: 3
+      - name: A_BASE09
+        width: 10
+        length: 10
+        groups: 3
+      - name: A_BASE11
+        width: 20
+        length: 20
+        groups: 3
+      - name: A_BASE12
+        width: 20
+        length: 20
+        groups: 3
+      - name: A_BASE13
+        width: 20
+        length: 20
+        groups: 3
+      - name: A_BASE14
+        width: 20
+        length: 20
+        groups: 3
+      - name: A_BASE15
+        width: 20
+        length: 20
+        groups: 1
+        items:
+          STR_ZRBITE:
+            - [14, 14, 2]
+            - [4, 10, 2]
+  - name: ISLAND
+    script: ISLAND_TERROR
+    # music:
+    #   - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - SEA_UFO
+      - ISLAND1
+      - ISLAND2
+      - ISLAND3
+    # ambience: 67
+    # ambientVolume: 0.25
+    mapBlocks:
+      - name: ISLAND00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLAND01
+        width: 10
+        length: 10
+        groups: 1
+      - name: ISLAND02
+        width: 20
+        length: 20
+      - name: ISLAND03
+        width: 20
+        length: 20
+      # - name: ISLAND04
+      #   width: 20
+      #   length: 20
+      #   groups: 2
+      # - name: ISLAND05
+      #   width: 20
+      #   length: 20
+      #   groups: 3
+      - name: ISLAND06
+        width: 20
+        length: 20
+      # - name: ISLAND07
+      #   width: 10
+      #   length: 10
+      #   groups: 4
+      - name: ISLAND08
+        width: 10
+        length: 10
+      - name: ISLAND09
+        width: 10
+        length: 10
+      - name: ISLAND10
+        width: 10
+        length: 10
+      - name: ISLAND11
+        width: 10
+        length: 10
+      - name: ISLAND12
+        width: 10
+        length: 10
+      - name: ISLAND13
+        width: 10
+        length: 10
+      - name: ISLAND14
+        width: 10
+        length: 10
+  - name: GRUNGE_BASE
+    script: GRUNGE_BASE
+    music:
+      - GMTACWET
+    depth: [1, 3]
+    enviroEffects: STR_Underwater 
+    #ambience: 67
+    # ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - GRUNGE1_L83a
+      - GRUNGE2_L83a
+      - GRUNGE3_L83a
+      - GRUNGE4_L83a
+      - GRUNGE5_L83a
+      - UFOBITS_L83a
+      - ORGANIC1L83
+      - ORGANIC3L83_B
+      - GRUNGE1_L83B
+    mapBlocks:
+      - name: B_GRUNGE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: B_GRUNGE01 # mIXED
+        width: 10
+        length: 10
+        groups: 1
+      - name: B_GRUNGE02 # Lift
+        width: 10
+        length: 10
+        groups: 6
+      - name: B_GRUNGE03 #Mixed
+        width: 10
+        length: 10
+        groups: 1
+      - name: B_GRUNGE04 # Lift
+        width: 10
+        length: 10
+        groups: 6
+        revealedFloors: 3
+      # - name: GRUNGE05
+      #   width: 10
+      #   length: 10
+      - name: B_GRUNGE06
+        width: 10
+        length: 10
+      - name: B_GRUNGE07
+        width: 10
+        length: 10
+      - name: B_GRUNGE08 # Mixed
+        width: 10
+        length: 10
+      - name: B_GRUNGE09
+        width: 10
+        length: 10
+      - name: B_GRUNGE10  # lARGE oRGANIC
+        width: 20
+        length: 20
+      - name: B_GRUNGE11
+        width: 20
+        length: 20
+      - name: B_GRUNGE12
+        width: 20
+        length: 20
+      # - name: GRUNGE13
+      #   width: 20
+      #   length: 20
+      - name: B_GRUNGE14
+        width: 20
+        length: 20
+      # - name: B_GRUNGE15
+      #   width: 20
+      #   length: 20
+      #   groups: 7
+############################### Special Missions #####################
+  # - name: RUINED_TERROR
+  #   mapDataSets:
+  #     - BLANKS
+  #     - ROADS
+  #     - URBITS
+  #     - URBAN
+  #     - FRNITURE
+  #     - MADDECOR
+  #     - RUINEDCITY
+  #   civilianTypes:
+  #     - MALE_CIVILIAN
+  #     - FEMALE_CIVILIAN
+  #   script: RUINED_TERROR
+  #   mapBlocks:
+  #     - name: RUINED_TERROR00 #Landingzone Dirt 1
+  #       width: 10
+  #       length: 10
+  #       groups: 1
+mapScripts:
+  - type: XBASE
+    commands:
+  #   - type: digTunnel
+  #     direction: both
+  #     tunnelData:
+  #       level: 0
+  #       MCDReplacements:
+  #         - type: westWall
+  #           set: 1
+  #           entry: 13
+  #         - type: northWall
+  #           set: 1
+  #           entry: 14
+    - type: fillArea
+      blocks: 20
+  - type: INFECTED_VILLAGE
+    commands:
+    - type: addLine  # Trying to add Roads to map
+      terrain: INFECTED_ROAD_B
+      label: 1
+      direction: vertical
+      executionChances: 20
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      terrain: INFECTED_ROAD_B
+      label: 2
+      conditionals: -1
+      executionChances: 20
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      terrain: INFECTED_ROAD_B
+      executionChances: 10
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+      # terrain: VILLAGE
+      groups: 1
+    - type: addUFO
+      # terrain: VILLAGE
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 2
+      executionChances: 30
+    - type: addBlock
+      terrain: VILLAGE
+      size: 1
+      executionChances: 70
+      executions: 2
+      rects:
+        - [0, 0, 3, 3]
+    - type: addBlock
+      terrain: VILLAGE
+      size: 1
+      executionChances: 70
+      executions: 2
+      rects:
+        - [3, 3, 7, 7]
+    - type: addBlock
+      terrain: VILLAGE
+      size: 2
+      executionChances: 50
+      executions: 1
+      rects:
+        - [0, 0, 3, 3]
+    - type: fillArea
+  - type: NUKE
+    commands:
+    - type: addUFO
+      groups: 2
+    - type: addCraft
+      groups: 2
+    - type: fillArea
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [1, 4, 3, 4, 3, 4, 3, 4, 4, 1, 3, 4, 3, 3, 3, 1, 1, 1]
+  - type: NUKECITY
+    commands:   
+    - type: addCraft
+      executions: 1
+      terrain: NUKEZONE
+      groups: 2
+    - type: addUFO
+      terrain: NUKEZONE
+      groups: 2
+      executions: 1
+    - type: addBlock # Smaller Building
+      groups: 3
+      size: 2
+      executionChances: 30
+      executions: 1
+    - type: addBlock # Mid size Blocks
+      groups: 4
+      size: 3
+      executionChances: 100
+      executions: 1
+    - type: fillArea
+      terrain: NUKEZONE
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15,]
+      maxUses: [4, 3, 4, 3, 4, 3, 4, 4, 3, 4, 3, 3, 3,]
+  - type: NUKECITY_B
+    commands:   
+    - type: addCraft
+      executions: 1
+      terrain: NUKEZONE
+      groups: 2
+    - type: addUFO
+      terrain: NUKEZONE
+      groups: 2
+      executions: 1
+    - type: addBlock # Smaller Building
+      groups: 3
+      size: 2
+      executionChances: 100
+      executions: 1
+    - type: addBlock # Smaller Building
+      groups: 3
+      size: 2
+      executionChances: 60
+      executions: 1
+    - type: fillArea
+      terrain: NUKEZONE
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15,]
+      maxUses: [4, 3, 4, 3, 4, 3, 4, 4, 3, 4, 3, 3, 3,]
+  - type: SLAVE             # HUMAN SLAVE SETTLEMENT    
+    commands:
+    - type: addCraft
+      executions: 1
+      groups: 2
+    # - type: addUFO
+    #   groups: 2
+    #   executions: 1
+    - type: addLine
+      terrain: OXC_SLAVES-GUARDS
+      direction: vertical
+      executionChances: 100
+      # groups: 3
+      # blocks: [0, 1, 2, 3, 4, 5, ]        
+      # freqs: [1, 1, 0, 1, 1, 1, ]        
+      rects:
+        - [1, 1, 3, 3]
+    - type: addBlock #Need working large mountains
+      executionChances: 100
+      executions: 2
+      size: 2
+    # - type: addBlock
+    #   groups: 1
+    #   executions: 2
+    - type: fillArea
+
+  - type: SLAVE2            # HUMAN SLAVE SETTLEMENT 2   
+    commands:
+    - type: addLine
+      terrain: OXC_SLAVES2-WATER
+      direction: horizontal
+      executionChances: 100
+      # groups: 2
+      rects:
+        - [1, 1, 1, 3]
+    - type: addCraft
+      executions: 1
+      groups: 2
+    # - type: addUFO
+    #   # groups: 2
+    #   executions: 1
+    - type: addBlock # LARGE ALIEN BUILDING
+      terrain: OXC_SLAVES2_ALIENS
+      executionChances: 50
+      executions: 1
+      size: 2
+    - type: addBlock
+      size: [2, 1]
+      executionChances: 50
+      executions: 1    
+    - type: addBlock
+      size: [1, 2]
+      executionChances: 50
+      executions: 1  
+    - type: addBlock
+      groups: 2
+      executions: 4  
+    - type: addBlock # LARGE ALIEN BUILDING
+      terrain: OXC_SLAVES2_ALIENS
+      executionChances: 100
+      executions: 2
+      # groups: 3 #ALIEN
+    # - type: addBlock # LARGE ALIEN BUILDING
+    #   executionChances: 100
+    #   executions: 4
+      # groups: 4 #HUMAN
+    - type: fillArea
+
+  - type: OXC-SLAVES-4             # HUMAN SLAVE SETTLEMENT    
+    commands:
+    # - type: addLine  # Trying to add Roads to map
+    #   # terrain: INFECTED_ROAD_B
+    #   label: 1
+    #   direction: vertical
+    #   executionChances: 100
+    #   rects:
+    #     - [1, 1, 3, 1]
+    # - type: addLine # Trying to add Roads to map
+    #   label: 2
+    #   # conditionals: -1
+    #   executionChances: 100
+    #   direction: horizontal
+    #   rects:
+    #     - [1, 1, 1, 3]
+    - type: addLine
+      # conditionals: [-1, -2]
+      executionChances: 100
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock #Need working large mountains
+      executionChances: 100
+      executions: 1
+      size: 2
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: fillArea
+  - type: UNDERG               # Lukes Underground map     
+    commands:
+    - type: addBlock # Xcom spawn maps
+      groups: 2
+      executions: 2
+    - type: addBlock
+      groups: 4
+      executions: 2
+    - type: fillArea
+  - type: UNDERG_SCAV               # Lukes Underground map     
+    commands:
+    - type: addBlock
+      executionChances: 100
+      executions: 1
+      size: 2
+    - type: addBlock # Xcom spawn maps
+      terrain: UNDERGROUND 
+      groups: 2
+      executions: 2
+    - type: addBlock # FILLER MAPS
+      terrain: UNDERGROUND 
+      executionChances: 75
+      executions: 2
+    - type: addBlock
+      executionChances: 100
+      size: [2, 1]
+      executions: 1
+    - type: addBlock # FILLER MAPS
+      terrain: UNDERGROUND 
+      executionChances: 45
+      executions: 1
+    - type: addBlock #
+      terrain: UNDERGROUND 
+      groups: 2
+      size: 2
+      executions: 1
+    - type: fillArea
+  - type: ORGANIC1          # Lukes Gillman Village     
+    commands:
+    - type: addBlock
+      executionChances: 100
+      executions: 1
+      groups: 5
+    - type: addCraft
+      executions: 1
+      groups: 2
+    # - type: addUFO
+    #   groups: 2
+    #   executions: 1
+    - type: addBlock #Need working large mountains
+      executionChances: 100
+      executions: 2
+      size: 2
+    # - type: addBlock
+    #   groups: 1
+    #   executions: 2
+    - type: fillArea
+  - type: UNDERG2              # test map     
+    commands:
+    - type: addBlock # Xcom spawn maps
+      groups: 2
+      executions: 2
+    - type: addBlock # Alien Elevator
+      groups: 1
+      executions: 1
+    - type: addBlock # Command
+      groups: 4
+      executions: 1
+    - type: addBlock # large block test
+      executionChances: 100
+      executions: 1
+      groups: 3
+      size: 2
+    - type: addBlock 
+      executions: 1
+    - type: fillArea
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+        MCDReplacements:
+          - type: westWall
+            set: 4
+            entry: 9 
+          - type: northWall
+            set: 4
+            entry: 8
+          - type: corner
+            set: 4
+            entry: 14
+          - type: floor
+            set: 4
+            entry: 29
+  - type: ORGANIC_CITY              # Lukes Organic CIty 
+    commands:
+    - type: addCraft
+      executions: 1
+      groups: 2
+    - type: addUFO
+      groups: 2
+      executions: 1
+    - type: addBlock #Need working large mountains
+      executionChances: 100
+      executions: 2
+      size: 2
+    # - type: addBlock
+    #   groups: 1
+    #   executions: 2
+    - type: fillArea
+  - type: ALIEN_FOREST                     #Luke83 Mapscript - 
+    commands:
+    - type: addCraft
+    - type: addUFO
+      executions: 1
+    - type: addBlock #Need working large mountains
+      executionChances: 60
+      executions: 2
+      size: 2
+    - type: addBlock 
+      groups: 4
+      executionChances: 70
+      maxUses: 4
+    # - type: removeBlock
+    #   conditionals: 2
+    #   rects:
+    #     - [0, 2, 1, 1]
+    # - type: addBlock  # HILLS - was working
+    #   groups: 5
+    #   executionChances: 40
+    #   maxUses: 4
+    - type: fillArea
+      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]        
+      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] 
+  - type: ALIEN_WATER_CITY_1                 #Luke83 Mapscript - 
+    commands:
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addUFO
+      executions: 1
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 2
+    # - type: addBlock #Need working large mountains
+    #   terrain: ALIEN_FOREST
+    #   executionChances: 60
+    #   executions: 1
+    #   size: 2
+    # - type: addBlock 
+    #   executions: 1
+    #   executionChances: 70
+    #   size: 2
+    # - type: addBlock 
+    #   executions: 1
+    #   executionChances: 40
+    #   size: 2
+    # - type: addBlock 
+    #   executions: 3
+    #   terrain: ALIEN_FOREST
+    #   executionChances: 60
+    #   groups: 1
+    # - type: addBlock 
+    #   executions: 3
+    #   terrain: ALIEN_FOREST
+    #   executionChances: 35
+    #   groups: 1
+    - type: fillArea
+  - type: ALIEN_City_Land                    #Luke83 Mapscript - 
+    commands:
+    - type: addLine
+      terrain: ALIEN_LAND_CITY_ROAD
+      direction: vertical
+      # executionChances: 100
+      groups: 3
+      rects:
+        - [1, 1, 3, 3]
+    - type: addCraft
+      terrain: ALIEN_FOREST
+      executions: 1
+    - type: addUFO
+      terrain: ALIEN_FOREST
+      executions: 1
+    # - type: addBlock #Need working large mountains
+    #   terrain: ALIEN_FOREST
+    #   executionChances: 60
+    #   executions: 1
+    #   size: 2
+    - type: addBlock 
+      executions: 1
+      executionChances: 70
+      size: 2
+    - type: addBlock 
+      executions: 1
+      executionChances: 40
+      size: 2
+    - type: addBlock 
+      executions: 3
+      terrain: ALIEN_FOREST
+      executionChances: 60
+      groups: 1
+    - type: addBlock 
+      executions: 3
+      terrain: ALIEN_FOREST
+      executionChances: 35
+      groups: 1
+    - type: fillArea
+      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]        
+      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] 
+  - type: RUINED_URBAN                    #Luke83 Mapscript - Ruined Urban
+    commands:
+    - type: addCraft 
+      terrain: ALIEN_FOREST
+      executions: 1
+      groups: 1
+    # - type: addUFO
+    #   terrain: ALIEN_FOREST
+    #   groups: 1
+    #   executions: 1
+    - type: addLine  # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 1
+      direction: vertical
+      executionChances: 75
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 2
+      conditionals: -1
+      executionChances: 75
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      executionChances: 75
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4] # Trying to add Roads to map
+    - type: addBlock # 
+      size: 2
+      executions: 2
+      executionChances: 75
+    - type: fillArea
+ ####UW_TERRAFORM_1####   
+  - type: UW_TERRAFORM_1 #DRY_SEABED_DRY_PIPES_MSUNK_DRY_CORAL
+    commands:
+    - type: addCraft
+      terrain: CORAL
+      executions: 1
+      groups: 1
+    - type: addBlock # adds Pyramid
+      size: 2
+      executions: 1
+    - type: addBlock
+      terrain: CORAL
+      executions: 4
+      executionChances: 90
+    - type: addBlock
+      terrain: MSUNK
+      executions: 4
+      # executionChances: 80
+    - type: addBlock # adds large coral
+      terrain: CORAL
+      size: 2
+      executions: 1
+      executionChances: 80
+    - type: addBlock
+      terrain: CORAL
+      executions: 2
+      executionChances: 30
+    - type: fillArea
+      terrain: SEABED
+      groups: 1
+    #################################
+  - type: DEFAULT #DRY_ATLAN_MU_DRY_GAL_VOLCANO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: fillArea
+  - type: UNDERWATER_DEFAULT #ATLAN_MU_GAL_VOLCANO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: fillArea
+  - type: THREEBIG #DRY_SEABED_DRY_PIPES_MSUNK_DRY_CORAL
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+  - type: D_PLANE
+    commands:
+    - type: resize
+      size: 5
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      blocks: [13, 14]
+      rects:
+        - [2, 0, 2, 2]
+    - type: addBlock
+      blocks: [17, 18]
+      rects:
+        - [3, 0, 1, 1]
+    - type: addBlock
+      blocks: [15, 16]
+      rects:
+        - [2, 3, 2, 2]
+    - type: addBlock
+      blocks: [19, 20]
+      rects:
+        - [3, 3, 1, 1]
+    - type: addBlock
+      blocks: 12
+      rects:
+        - [0, 0, 1, 5]
+    - type: addBlock
+      blocks: [8, 9, 10, 11]
+      rects:
+        - [1, 0, 1, 5]
+    - type: addBlock
+      blocks: [8, 9, 10, 11]
+      rects:
+        - [2, 0, 1, 5]
+    - type: addBlock
+      blocks: [6, 7]
+      rects:
+        - [3, 0, 1, 5]
+    - type: addBlock
+      blocks: [4, 5]
+      rects:
+        - [4, 0, 1, 5]
+    - type: fillArea
+      blocks: [1, 2, 3]
+  - type: ALIENBASE # Default alien base on Land
+    commands:
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      size: 2
+      groups: 3
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+      groups: [0, 1]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 2
+            entry: 18
+          - type: northWall
+            set: 2
+            entry: 17
+          - type: corner
+            set: 2
+            entry: 19
+          - type: floor
+            set: 1
+            entry: 63
+
+  - type: UW_BASE1  #TFTD ALIEN BASE _ UNGERGROUND ONLY
+    commands:
+    - type: addBlock
+      size: 2
+      groups: 1
+    - type: addBlock
+      executions: 2
+      groups: 2
+    - type: addBlock
+      size: 2
+      executions: 4
+      groups: 3
+    - type: fillArea
+      groups: [3, 4]
+      freqs: [3, 2]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 1
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 2
+  - type: GRUNGE_BASE
+    commands:
+    # - type: addBlock
+    #   groups: 7
+    #   size: 2
+    - type: addBlock
+      executions: 2
+      groups: 6
+    - type: addBlock
+      groups: 1
+      executions: 2
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: fillArea
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 1
+  - type: ISLAND_TERROR
+    commands:
+    # - type: addBlock
+    #   size: 2
+    #   groups: 2
+    #   rects:
+    #     - [0,3,5,2]
+    # - type: addBlock
+    #   size: 2
+    #   groups: 3
+    #   rects:
+    #     - [0,3,5,2]
+    # - type: addBlock
+    #   groups: 4
+    #   rects:
+    #     - [0,4,5,1]
+    - type: addCraft
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+  - type: INHERITOR_1
+    commands:
+    - type: addBlock
+      executionChances: 100
+      groups: 1
+      executions: 1
+    - type: addBlock
+      executionChances: 100
+      size: 2
+      groups: 1
+      executions: 2
+    - type: addBlock
+      executionChances: 100
+      groups: 6
+      executions: 2
+    - type: fillArea
+    - type: digTunnel  # Dig Tunels MUST be the lastCommand in the Script, as it only digs through previouse blocks
+      direction: both
+      tunnelData:
+        level: 0
+        MCDReplacements:
+          - type: westWall
+            set: 1 # what MCDset the item you want is in
+            entry: 13 # what number that item is ( a value of 0 just removes it)
+          - type: northWall
+            set: 1
+            entry: 14
+          # - type: corner
+          #   set: 4
+          #   entry: 14
+          # - type: floor
+          #   set: 1
+          #   entry: 7
+  - type: OLD_PORT_SCRIPT
+    commands:
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addLine  # Trying to add Roads to map
+      terrain: OLD_PORT_ROAD
+      label: 1
+      direction: vertical
+      executionChances: 35
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      terrain: OLD_PORT_ROAD
+      label: 2
+      conditionals: -1
+      executionChances: 35
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      terrain: OLD_PORT_ROAD
+      executionChances: 55
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+      # terrain: CORAL
+      executions: 1
+      groups: 1
+    - type: addUFO
+      UFOName: STR_PBATTLESHIP
+      executions: 1 
+      groups: 1
+      executionChances: 30
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addUFO
+      UFOName: STR_P4_A
+      executions: 1 
+      executionChances: 40
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 1
+    - type: addBlock
+      executionChances: 50
+      size: [2, 1]
+      executions: 1
+    - type: addUFO
+      UFOName: STR_P8_A
+      executions: 1 
+      groups: 1
+      executionChances: 70
+    - type: addUFO
+      UFOName: STR_P6_A
+      executions: 1 
+      groups: 1
+      executionChances: 85
+    - type: addBlock
+      size: 2
+      executions: 1
+      executionChances: 85
+    - type: addUFO
+      UFOName: STR_PSCOUT
+      executions: 1 
+      groups: 1
+      executionChances: 90
+    - type: addUFO
+      UFOName: STR_PTOWER
+      executions: 1 
+      groups: 1
+    - type: fillArea
+      # groups: 1
+
+extraStrings:
+  - type: en-US
+    strings:
+      MAP_UNDERGROUND : UNDERGROUND
+      # MAP_UNDERGROUND2 : UNDERGROUND2
+      MAP_DRY_ATLAN: DRY ATLANTIS # TFTD
+      MAP_DRY_PIPES: DRY RESEARCH STATION #TFTD
+      MAP_D_PLANE: CRASHED PLANE #TFTD
+      MAP_DRY_GAL: BEACHED GALLION # TFTD
+      MAP_DRY_CORAL: DRY CORAL # TFTD
+      MAP_ALIEN_FOREST: Alien Forest
+      MAP_RUINED_URBAN: RUINED URBAN
+      MAP_DRY_SEABED: DRY SEABED
+      MAP_NUKEZONE: NUKE ZONE
+      MAP_NUKECITY: LARGE NUKE CITY
+      MAP_NUKECITY_B: SMALL NUKE CITY
+      MAP_INFECTED_VILLAGE: INFECTED VILLAGE
+      MAP_ORGANIC_CITY: ORGANIC VILLAGE #DEEPTRENCH
+      MAP_ALIEN_LAND_CITY: ALIEN CITY
+      MAP_OXC_SLAVES: SLAVE SETTLEMENT
+      MAP_OXC_SLAVES2: SLAVE SETTLEMENT 2
+      MAP_ALIEN_WATER_CITY : UNDERWATER Alien City
+      # MAP_DEEPTRENCH: TRENCHES
+      # MAP_DEEPTRENCH_BASE: TRENCH BASE TEST
+      ############### Underwater Missions below ##########
+      MAP_VOLC: VOLCANIC SEA FLOOR
+      MAP_CORAL: CORAL SEA FLOOR # TFTD
+      MAP_ATLAN: ATLANTIS RUINS # TFTD
+      MAP_PIPES: RESEARCH STATION #TFTD
+      MAP_GAL: WRECKED GALLION #TFTD
+      MAP_SEABED: SEABED
+      MAP_MSUNK: SUNKEN CARGO
+      MAP_MU: MAYAN TEMPLE
+      MAP_U_PLANE: SUNKEN PLANE
+      MAP_ALART: ARTIFACT 
+      MAP_UNDERWATER_TERRAFORM_1: UW_TERRAFORM_1
+      # MAP____: UNDERSEA FACTORY
+
+
+      

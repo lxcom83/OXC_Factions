@@ -1,0 +1,560 @@
+lookWeights:
+  - 50
+  - 43
+  - 7
+  - 0
+maleFirst:
+  - Adrian
+  - Aleksander
+  - Alexander
+  - Alf
+  - Alfred
+  - Anders
+  - Andreas
+  - Anton
+  - Arne
+  - Artur
+  - Arvid
+  - Asbjoorn
+  - Atle
+  - Balder
+  - Baldur
+  - Benjamin
+  - Bjorn
+  - Boone
+  - Borg
+  - Brander
+  - Burnaby
+  - Burr
+  - Busby
+  - Cadby
+  - Canute
+  - Carr
+  - Cawley
+  - Christian
+  - Christoffer
+  - Colby
+  - Dag
+  - Danby
+  - Delling
+  - Daniel
+  - Didrik
+  - Edvard
+  - Einar
+  - Eirik
+  - Elvis
+  - Emil
+  - Eric
+  - Erik
+  - Erlend
+  - Erling
+  - Espen
+  - Even
+  - Fredrik
+  - Frode
+  - Gunnar
+  - Haakon
+  - Haavard
+  - Hans
+  - Harald
+  - Havard
+  - Henning
+  - Henrik
+  - Ivar
+  - Jakob
+  - Jan
+  - Jens
+  - Joachim
+  - Joakim
+  - Johan
+  - Jokkum
+  - Jon
+  - Jonas
+  - Jorgen
+  - Julius
+  - Kare
+  - Karl
+  - Kjell
+  - Knut
+  - knute
+  - Kristian
+  - Kristoffer
+  - Lars
+  - Leif
+  - Ludvik
+  - Mads
+  - Magnus
+  - Marcus
+  - Marius
+  - Martin
+  - Martinus
+  - Mathias
+  - Matias
+  - Mats
+  - Mikkel
+  - Mons
+  - Nikolai
+  - Nils
+  - Olaf
+  - Olan
+  - Ole
+  - Pal
+  - Paul
+  - Peder
+  - Per
+  - Petter
+  - Reidar
+  - Rolf
+  - Sander
+  - Sebastian
+  - Sigurd
+  - Simen
+  - Sindre
+  - Stian
+  - Svein
+  - Svend
+  - Sverre
+  - Thomas
+  - Thor
+  - Tobias
+  - Tomas
+  - Tor
+  - Vegar
+  - Vegard
+femaleFirst:
+  - Abigael
+  - Adelis
+  - Agot
+  - Alberte
+  - Alfhild
+  - Ane
+  - Annbjorg
+  - Annborg
+  - Arnbjorg
+  - Asdis
+  - Aslaug
+  - Benedikte
+  - Bergit
+  - Bergliot
+  - Berit
+  - Brigit
+  - Canutte
+  - Cathrine
+  - Dagrun
+  - Fredrika
+  - Gerdy
+  - Grete
+  - Grethe
+  - Gry
+  - Gudlaug
+  - Gunnhild
+  - Gunnvor
+  - Halldora
+  - Hege
+  - Heidrun
+  - Hjordis
+  - Idunn
+  - Inge
+  - Ingebjorg
+  - Ingfrid
+  - Inghild
+  - Ingvild
+  - Janne
+  - Johanne
+  - Jorunn
+  - Kanutte
+  - Kari
+  - Karita
+  - Karoline
+  - Kirsten
+  - Kjellfrid
+  - Kjersti
+  - Kjerstin
+  - Kristi
+  - Kristine
+  - Lise
+  - Lovise
+  - Magnhild
+  - Margarete
+  - Margarethe
+  - Margrethe
+  - Marit
+  - Rebekka
+  - Silje
+  - Sofia
+  - Solaug
+  - Thorbjorg
+  - Torbjorg
+  - Torhilda
+  - Torid
+  - Toril
+  - Urd
+  - Valdis
+  - Vendela
+  - Vibeke
+  - Viva
+  - Waldis
+  - Yngvild
+maleLast:
+  - Aamodt (TRACK)
+  - Aas (TRACK)
+  - Aasen (TRACK)
+  - Aasgaard (TRACK)
+  - Abel (TRACK)
+  - Abrahamsen (TRACK)
+  - Alsgaard (TRACK)
+  - Alving (TRACK)
+  - Amundsen (TRACK)
+  - Amundson (TRACK)
+  - Andersen (TRACK)
+  - Andreassen (TRACK)
+  - Andresen (TRACK)
+  - Andsnes (TRACK)
+  - Antonisen (TRACK)
+  - Antonsen (TRACK)
+  - Arnesen (TRACK)
+  - Arup (TRACK)
+  - Asheim (TRACK)
+  - Aune (TRACK)
+  - Bakke (TRACK)
+  - Bakken (TRACK)
+  - Balle (TRACK)
+  - Baltzersen (TRACK)
+  - Berg (TRACK)
+  - Berge (TRACK)
+  - Berntsen (TRACK)
+  - Birkeland (TRACK)
+  - Birknes (TRACK)
+  - Bjoenkaer (TRACK)
+  - Bjoerndalen (TRACK)
+  - Bjone (TRACK)
+  - Bjordal (TRACK)
+  - Bjorlo (TRACK)
+  - Bjornebye (TRACK)
+  - Bjornson (TRACK)
+  - Bjornstad (TRACK)
+  - Blix (TRACK)
+  - Bo (TRACK)
+  - Bocklin (TRACK)
+  - Boe (TRACK)
+  - Borkman (TRACK)
+  - Brack (TRACK)
+  - Brandes (TRACK)
+  - Brat (TRACK)
+  - Brataas (TRACK)
+  - Bredesen (TRACK)
+  - Brekke (TRACK)
+  - Brenden (TRACK)
+  - Brogger (TRACK)
+  - Brovik (TRACK)
+  - Buraas (TRACK)
+  - Burass (TRACK)
+  - Christensen (TRACK)
+  - Christiansen (TRACK)
+  - Daehle (TRACK)
+  - Daehlie (TRACK)
+  - Dahl (TRACK)
+  - Dahn (TRACK)
+  - Dahue (TRACK)
+  - Danielsen (TRACK)
+  - Dybendahl (TRACK)
+  - Edvardsen (TRACK)
+  - Eftevang (TRACK)
+  - Eggen (TRACK)
+  - Eide (TRACK)
+  - Eliassen (TRACK)
+  - Elieson (TRACK)
+  - Ellingsen (TRACK)
+  - Elvsted (TRACK)
+  - Engen (TRACK)
+  - Enger (TRACK)
+  - Englund (TRACK)
+  - Engstrand (TRACK)
+  - Eriksen (TRACK)
+  - Ertzgard (TRACK)
+  - Evensen (TRACK)
+  - Fagerberg (TRACK)
+  - Fagernes (TRACK)
+  - Falck (TRACK)
+  - Fjaerestad (TRACK)
+  - Fjortoft (TRACK)
+  - Flemmen (TRACK)
+  - Flo (TRACK)
+  - Folkow (TRACK)
+  - Fosli (TRACK)
+  - Franck (TRACK)
+  - Fredriksen (TRACK)
+  - Fretheim (TRACK)
+  - Fuglesang (TRACK)
+  - Fuglestad (TRACK)
+  - Furuseth (TRACK)
+  - Gabler (TRACK)
+  - Gabrielsen (TRACK)
+  - Garborg (TRACK)
+  - Gimle (TRACK)
+  - Gjeldnes (TRACK)
+  - Gjelland (TRACK)
+  - Gjessing (TRACK)
+  - Grieg (TRACK)
+  - Grimseth (TRACK)
+  - Grimsmo (TRACK)
+  - Gritdal (TRACK)
+  - Grodas (TRACK)
+  - Groenvold (TRACK)
+  - Gronelv (TRACK)
+  - Guidon (TRACK)
+  - Gulbrandsen (TRACK)
+  - Gundersen (TRACK)
+  - Gunderson (TRACK)
+  - Gunnestad (TRACK)
+  - Gylfason (TRACK)
+  - Haakonsen (TRACK)
+  - Haarberg (TRACK)
+  - Haarland (TRACK)
+  - Haartz (TRACK)
+  - Hagen (TRACK)
+  - Halskar (TRACK)
+  - Halvorsen (TRACK)
+  - Hammer (TRACK)
+  - Hanevold (TRACK)
+  - Hanke (TRACK)
+  - Hansen (TRACK)
+  - Hanssen (TRACK)
+  - Hanstveit (TRACK)
+  - Hartmark (TRACK)
+  - Hasso (TRACK)
+  - Hasund (TRACK)
+  - Haug (TRACK)
+  - Hauge (TRACK)
+  - Haugen (TRACK)
+  - Haugland (TRACK)
+  - Haugsrud (TRACK)
+  - Heiberg (TRACK)
+  - Helgeland (TRACK)
+  - Helgerod (TRACK)
+  - Helland (TRACK)
+  - Helmer (TRACK)
+  - Henriksen (TRACK)
+  - Herdal (TRACK)
+  - Heyerdahl (TRACK)
+  - Hoan (TRACK)
+  - Hoeg (TRACK)
+  - Hoen (TRACK)
+  - Holm (TRACK)
+  - Holmann (TRACK)
+  - Holth (TRACK)
+  - Hopen (TRACK)
+  - Horn (TRACK)
+  - Hultgreen (TRACK)
+  - Hustveit (TRACK)
+  - Ibsen (TRACK)
+  - Ingebriktsson (TRACK)
+  - Ingstad (TRACK)
+  - Isaksen (TRACK)
+  - Iversen (TRACK)
+  - Jacobsen (TRACK)
+  - Jagge (TRACK)
+  - Jakobsen (TRACK)
+  - Jasperson (TRACK)
+  - Jelesens (TRACK)
+  - Jensen (TRACK)
+  - Jenssen (TRACK)
+  - Jevne (TRACK)
+  - Johannessen (TRACK)
+  - Johansen (TRACK)
+  - Johnsen (TRACK)
+  - Jorgensen (TRACK)
+  - Juell (TRACK)
+  - Kaland (TRACK)
+  - Karlan (TRACK)
+  - Karlsen (TRACK)
+  - Kase (TRACK)
+  - Kildal (TRACK)
+  - Kippe (TRACK)
+  - Kjeldaas (TRACK)
+  - Kjelstrup (TRACK)
+  - Kjorestad (TRACK)
+  - Kjorsvik (TRACK)
+  - Klovstod (TRACK)
+  - Knudsen (TRACK)
+  - Knutsen (TRACK)
+  - Koht (TRACK)
+  - Koss (TRACK)
+  - Krafft (TRACK)
+  - Kristensen (TRACK)
+  - Kristiansen (TRACK)
+  - Kristoffersen (TRACK)
+  - Krogstad (TRACK)
+  - Kultin (TRACK)
+  - Kvarme (TRACK)
+  - Landa (TRACK)
+  - Langslet (TRACK)
+  - Lanser (TRACK)
+  - Larsen (TRACK)
+  - Leirfall (TRACK)
+  - Leonhardsen (TRACK)
+  - Lid (TRACK)
+  - Lie (TRACK)
+  - Lien (TRACK)
+  - Lier (TRACK)
+  - Lind (TRACK)
+  - Lindahl (TRACK)
+  - Linde (TRACK)
+  - Listow (TRACK)
+  - Ljoekelsoey (TRACK)
+  - Loevaas (TRACK)
+  - Lorch (TRACK)
+  - Lous (TRACK)
+  - Lovborg (TRACK)
+  - Ludwigsen (TRACK)
+  - Lund (TRACK)
+  - Lunde (TRACK)
+  - Lyen (TRACK)
+  - Malmros (TRACK)
+  - Malmstrom (TRACK)
+  - Manders (TRACK)
+  - Marken (TRACK)
+  - Martinsen (TRACK)
+  - Mathiesen (TRACK)
+  - Mathisen (TRACK)
+  - Meling (TRACK)
+  - Meyer (TRACK)
+  - Midttun (TRACK)
+  - Mikkelsen (TRACK)
+  - Mikkelsplass (TRACK)
+  - Mo (TRACK)
+  - Moen (TRACK)
+  - Mork (TRACK)
+  - Mostue (TRACK)
+  - Munch (TRACK)
+  - Myhre (TRACK)
+  - Mykland (TRACK)
+  - Myklebust (TRACK)
+  - Myrland (TRACK)
+  - Naess (TRACK)
+  - Nanstveit (TRACK)
+  - Naustvik (TRACK)
+  - Neilsen (TRACK)
+  - Nerhus (TRACK)
+  - Nielsen (TRACK)
+  - Nilsen (TRACK)
+  - Njerve (TRACK)
+  - Njos (TRACK)
+  - Noberg (TRACK)
+  - Nore (TRACK)
+  - Nyberg (TRACK)
+  - Nygard (TRACK)
+  - Odegard (TRACK)
+  - Oedegaard (TRACK)
+  - Oesten (TRACK)
+  - Olsen (TRACK)
+  - Omholt (TRACK)
+  - Orden (TRACK)
+  - Orthe (TRACK)
+  - Ostenstad (TRACK)
+  - Ottesen (TRACK)
+  - Paldan (TRACK)
+  - Paulsen (TRACK)
+  - Pedersen (TRACK)
+  - Pederssen (TRACK)
+  - Pettersen (TRACK)
+  - Poulsen (TRACK)
+  - Prydz (TRACK)
+  - Quisling (TRACK)
+  - Ramsfeld (TRACK)
+  - Ramsfjell (TRACK)
+  - Rank (TRACK)
+  - Ranning (TRACK)
+  - Rasmussen (TRACK)
+  - Ratkje (TRACK)
+  - Rekdal (TRACK)
+  - Resi (TRACK)
+  - Retter (TRACK)
+  - Ribur (TRACK)
+  - Riseth (TRACK)
+  - Rodahl (TRACK)
+  - Rovlund (TRACK)
+  - Ruud (TRACK)
+  - Saeterstoel (TRACK)
+  - Saether (TRACK)
+  - Salvesen (TRACK)
+  - Sandvik (TRACK)
+  - Schei (TRACK)
+  - Schjerven (TRACK)
+  - Schroder (TRACK)
+  - Schwane (TRACK)
+  - Schytte (TRACK)
+  - Selle (TRACK)
+  - Selling (TRACK)
+  - Selvik (TRACK)
+  - Sikveland (TRACK)
+  - Simonsen (TRACK)
+  - Sivertsen (TRACK)
+  - Sivertson (TRACK)
+  - Sivlee (TRACK)
+  - Sjo (TRACK)
+  - Sjovold (TRACK)
+  - Skarsgaard (TRACK)
+  - Skarsgard (TRACK)
+  - Skavlan (TRACK)
+  - Skjelbraid (TRACK)
+  - Skjolsvold (TRACK)
+  - Skovgaard (TRACK)
+  - Skreien (TRACK)
+  - Smilla (TRACK)
+  - Solbakken (TRACK)
+  - Solbakker (TRACK)
+  - Solberg (TRACK)
+  - Solheim (TRACK)
+  - Solness (TRACK)
+  - Solskaer (TRACK)
+  - Sondral (TRACK)
+  - Sorensen (TRACK)
+  - Stamso (TRACK)
+  - Steen (TRACK)
+  - Stensrud (TRACK)
+  - Stianson (TRACK)
+  - Stirner (TRACK)
+  - Storelid (TRACK)
+  - Stram (TRACK)
+  - Strand (TRACK)
+  - Strandli (TRACK)
+  - Svasand (TRACK)
+  - Svendson (TRACK)
+  - Svenoy (TRACK)
+  - Syversen (TRACK)
+  - Tangen (TRACK)
+  - Tangvik (TRACK)
+  - Tesman (TRACK)
+  - Thomassen (TRACK)
+  - Thonstad (TRACK)
+  - Thoresen (TRACK)
+  - Thorsen (TRACK)
+  - Thue (TRACK)
+  - Thulesius (TRACK)
+  - Thune (TRACK)
+  - Thymann (TRACK)
+  - Tobiassen (TRACK)
+  - Tonder (TRACK)
+  - Tonsberg (TRACK)
+  - Torgereen (TRACK)
+  - Torp (TRACK)
+  - Traa (TRACK)
+  - Tunold (TRACK)
+  - Tveit (TRACK)
+  - Ulstein (TRACK)
+  - Ulving (TRACK)
+  - Utskjoer (TRACK)
+  - Veitberg (TRACK)
+  - Vigeland (TRACK)
+  - Vik (TRACK)
+  - Vind (TRACK)
+  - Waldum (TRACK)
+  - Wangel (TRACK)
+  - Wangen (TRACK)
+  - Wassmo (TRACK)
+  - Wikborg (TRACK)
+  - Wullum (TRACK)
+  - Yons (TRACK)
+  - Ytterhus (TRACK)
+  - Zakariassen (TRACK)

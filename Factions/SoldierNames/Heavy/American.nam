@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Aaron
+  - Adam
+  - Adrian
+  - Alfredo
+  - Austin
+  - Brandon
+  - Brian
+  - Calvin
+  - Carl
+  - Chance
+  - Charlie
+  - Clarence
+  - Cody
+  - Connor
+  - Damian
+  - Donald
+  - Dwight
+  - Dylan
+  - Ed
+  - Eduardo
+  - Elliott
+  - Ethan
+  - Evan
+  - Ezekiel
+  - Garrett
+  - George
+  - Giovanni
+  - Grayson
+  - James
+  - Jason
+  - Jay
+  - Jeremy
+  - Joel
+  - John
+  - Joshua
+  - Keith
+  - Kevin
+  - Lester
+  - Liam
+  - Mark
+  - Omar
+  - Oscar
+  - Owen
+  - Parker
+  - Pete
+  - Rick
+  - Robert
+  - Samuel
+  - Santiago
+  - Saul
+  - Scott
+  - Seth
+  - Shawn
+  - Simon
+  - Spencer
+  - Steven
+  - Timothy
+  - Tom
+  - Tucker
+  - Victor
+  - Vincent
+  - Virgil
+femaleFirst:
+  - Adriana
+  - Alexandra
+  - Alexis
+  - Allison
+  - Angela
+  - Anna
+  - Audrey
+  - Barbara
+  - Bethany
+  - Brianna
+  - Cadence
+  - Catherine
+  - Chelsea
+  - Chloe
+  - Cora
+  - Denise
+  - Esperanza
+  - Esther
+  - Evelyn
+  - Faith
+  - Gabrielle
+  - Georgia
+  - Guadalupe
+  - Isabel
+  - Jasmine
+  - Jillian
+  - Julia
+  - Kaitlyn
+  - Kara
+  - Karen
+  - Kelly
+  - Layla
+  - Lily
+  - Lucy
+  - Madeline
+  - Madison
+  - Margaret
+  - Maria
+  - Melanie
+  - Melissa
+  - Mia
+  - Michelle
+  - Miranda
+  - Olivia
+  - Paige
+  - Patricia
+  - Reese
+  - Riley
+  - Sarah
+  - Savannah
+  - Selena
+  - Sigourney
+  - Taylor
+  - Tiffany
+  - Vanessa
+  - Violet
+  - Zoey
+maleLast:
+  - Becker (HEAVY)
+  - Benedict (HEAVY)
+  - Bowers (HEAVY)
+  - Bradley (HEAVY)
+  - Brewster (HEAVY)
+  - Bryant (HEAVY)
+  - Burroughs (HEAVY)
+  - Carlton (HEAVY)
+  - Carr (HEAVY)
+  - Carter (HEAVY)
+  - Chase (HEAVY)
+  - Childers (HEAVY)
+  - Colby (HEAVY)
+  - Crawley (HEAVY)
+  - Crossett (HEAVY)
+  - Daley (HEAVY)
+  - Davies (HEAVY)
+  - Dodge (HEAVY)
+  - Evans (HEAVY)
+  - Gallagher (HEAVY)
+  - Gates (HEAVY)
+  - Goddard (HEAVY)
+  - Grady (HEAVY)
+  - Griffith (HEAVY)
+  - Gutierrez (HEAVY)
+  - Harding (HEAVY)
+  - Harper (HEAVY)
+  - Hicks (HEAVY)
+  - Horton (HEAVY)
+  - Hudson (HEAVY)
+  - Hunt (HEAVY)
+  - Johnson (HEAVY)
+  - Kay (HEAVY)
+  - Kellogg (HEAVY)
+  - Kemp (HEAVY)
+  - Kendrick (HEAVY)
+  - King (HEAVY)
+  - Kirk (HEAVY)
+  - Lawson (HEAVY)
+  - Machado (HEAVY)
+  - McNeil (HEAVY)
+  - Meador (HEAVY)
+  - Miller (HEAVY)
+  - Mitchell (HEAVY)
+  - Morris (HEAVY)
+  - Nash (HEAVY)
+  - North (HEAVY)
+  - O'Connell (HEAVY)
+  - Ortiz (HEAVY)
+  - Palacios (HEAVY)
+  - Partridge (HEAVY)
+  - Patrick (HEAVY)
+  - Perkins (HEAVY)
+  - Porter (HEAVY)
+  - Prewitt (HEAVY)
+  - Rapp (HEAVY)
+  - Ritchie (HEAVY)
+  - Rooney (HEAVY)
+  - Rossi (HEAVY)
+  - Salomon (HEAVY)
+  - Scroggins (HEAVY)
+  - Shelley (HEAVY)
+  - Smiley (HEAVY)
+  - Sorensen (HEAVY)
+  - Stein (HEAVY)
+  - Stephens (HEAVY)
+  - Stoddard (HEAVY)
+  - Thompson (HEAVY)
+  - Tirado (HEAVY)
+  - Underwood (HEAVY)
+  - Wade (HEAVY)
+  - Wagner (HEAVY)
+  - Webb (HEAVY)

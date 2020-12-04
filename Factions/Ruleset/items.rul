@@ -1,0 +1,4673 @@
+############################
+## FACTIONS - items - RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+####### New Special Type Numbers ######
+  # - type: STR_ZRBITE_REACTOR = 15
+  # - type: STR_CHEMICAL_BATTERIES = 16
+  # - type: STR_NUCLEAR_REACTOR = 17
+  # - type: STR_PSIONIC_CRYSTAL = 18
+  # - type: STR_BIO_FUEL_CELL = 19
+  # - type: STR_CHAOS_CELL = 20
+  # - type: STR_ELECTRONICS = 21
+  # - type: STR_FOOD = 22
+  # - type: STR_CLONING_EQUIPMENT = 23
+  # - type: STR_LEARNING_ARRAY = 24
+  # - type: STR_SURGERY_EQUIPMENT = 25
+  # - type: STR_MEDICAL_EQUIPMENT = 26
+  # - type: STR_AQUA_PLASTICS = 27
+  # - type: STR_TITANIUM_ALLOY = 28
+  # - type: STR_URANIUM = 29
+  # - type: STR_NOAHRITE_ORE = 30
+  # - type: STR_REFINED_NOAHRITE = 31
+  # - type: STR_STEEL = 33
+  # - type: STR_CRYSTAL_SHARDS = 34
+  # - type: STR_FUSION_CORE = 35
+  # - type:  STR_CERAMICS = 36
+
+#
+#
+items:
+  - type: STR_ITEM_CREATE
+    size: 0.8
+    costBuy: 0
+    costSell: 0
+    transferTime: 0
+  - type: STR_STINGRAY_LAUNCHER
+    size: 0.8
+    costBuy: 16000
+    costSell: 12000
+    transferTime: 48
+  - type: STR_STINGRAY_MISSILES
+    size: 0.4
+    costBuy: 3000
+    costSell: 2400
+    transferTime: 48
+    clipSize: 1
+  - type: STR_AVALANCHE_LAUNCHER
+    size: 1
+    costBuy: 17000
+    costSell: 12750
+    transferTime: 48
+  - type: STR_AVALANCHE_MISSILES
+    size: 1.5
+    costBuy: 9000
+    costSell: 7200
+    transferTime: 48
+    clipSize: 1
+  - type: STR_CANNON
+    size: 1.5
+    costBuy: 30000
+    costSell: 22500
+    transferTime: 48
+  - type: STR_CANNON_ROUNDS_X50
+    size: 0.1
+    costBuy: 1240
+    costSell: 1012
+    transferTime: 96
+    clipSize: 50
+  - type: STR_FUSION_BALL_LAUNCHER
+    size: 2.0
+    costSell: 281000
+    transferTime: 48
+  - type: STR_FUSION_BALL
+    size: 0.6
+    costSell: 53300
+    transferTime: 48
+    clipSize: 1
+  - type: STR_LASER_CANNON
+    size: 2.0
+    costSell: 211000
+    transferTime: 48
+  - type: STR_PLASMA_BEAM
+    size: 1.2
+    costSell: 267300
+    transferTime: 48
+  - type: STR_TANK_CANNON
+    size: 6
+    costBuy: 420000
+    costSell: 340000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    weight: 1
+    bigSprite: 43
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_HWP_CANNON_SHELLS
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 0
+  - type: STR_HWP_CANNON_SHELLS
+    size: 0.1
+    costBuy: 200
+    costSell: 100
+    requiresBuy: 
+     - STR_FUTURE_STORY_ARC
+    transferTime: 48
+    weight: 1
+    hitSound: 13
+    hitAnimation: 26
+    power: 60
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+  - type: STR_TANK_ROCKET_LAUNCHER
+    size: 6
+    costBuy: 480000
+    costSell: 360000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    weight: 1
+    bigSprite: 42
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 0
+    fireSound: 52
+    compatibleAmmo:
+      - STR_HWP_ROCKETS
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 1
+  - type: STR_HWP_ROCKETS
+    size: 0.6
+    costBuy: 3000
+    costSell: 2250
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 48
+    weight: 1
+    hitSound: 0
+    hitAnimation: 0
+    power: 85
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+  - type: STR_TANK_LASER_CANNON
+    size: 6
+    costSell: 594000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    weight: 1
+    bigSprite: 54
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 5
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 110
+    damageType: 4
+    accuracySnap: 50
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+  - type: STR_HOVERTANK_PLASMA
+    size: 6
+    costSell: 980000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    weight: 1
+    bigSprite: 40
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 8
+    fireSound: 18
+    hitSound: 19
+    power: 110
+    damageType: 5
+    hitAnimation: 46
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+    turretType: 3
+  - type: STR_HOVERTANK_LAUNCHER
+    size: 6
+    costSell: 1043000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    weight: 1
+    bigSprite: 40
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 10
+    fireSound: 53
+    compatibleAmmo:
+      - STR_HWP_FUSION_BOMB
+    accuracyAimed: 100
+    tuAimed: 66
+    battleType: 1
+    fixedWeapon: true
+    waypoints: 9
+    invWidth: 2
+    invHeight: 3
+    turretType: 4
+  - type: STR_HWP_FUSION_BOMB
+    size: 0.6
+    costSell: 31500
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 48
+    weight: 1
+    hitSound: 0
+    hitAnimation: 0
+    power: 140
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    blastRadius: 11
+  - type: STR_PISTOL
+    size: 0.1
+    costBuy: 800
+    costSell: 600
+    weight: 5
+    bigSprite: 3
+    floorSprite: 3
+    handSprite: 96
+    bulletSprite: 1
+    fireSound: 4
+    compatibleAmmo:
+      - STR_PISTOL_CLIP
+    accuracySnap: 60
+    accuracyAimed: 78
+    tuSnap: 18
+    tuAimed: 30
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+  - type: STR_PISTOL_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 3
+    bigSprite: 4
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 12
+    vaporColor: 1
+    vaporDensity: 1
+  - type: STR_RIFLE
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 1
+    floorSprite: 1
+    handSprite: 0
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_RIFLE_CLIP
+    accuracyAuto: 35
+    accuracySnap: 60
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+  - type: STR_RIFLE_CLIP
+    size: 0.1
+    costBuy: 200
+    costSell: 150
+    weight: 3
+    bigSprite: 2
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    vaporColor: 1
+    vaporDensity: 5
+  - type: STR_HEAVY_CANNON
+    size: 0.3
+    costBuy: 6400
+    costSell: 4800
+    weight: 18
+    bigSprite: 11
+    floorSprite: 11
+    handSprite: 24
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_HC_AP_AMMO
+      - STR_HC_HE_AMMO
+      - STR_HC_I_AMMO
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+  - type: STR_HC_AP_AMMO
+    size: 0.1
+    costBuy: 300
+    costSell: 225
+    weight: 6
+    bigSprite: 12
+    floorSprite: 12
+    hitSound: 13
+    hitAnimation: 26
+    power: 56
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 4
+    vaporDensity: 10
+  - type: STR_HC_HE_AMMO
+    size: 0.1
+    costBuy: 500
+    costSell: 275
+    weight: 6
+    bigSprite: 13
+    floorSprite: 13
+    hitSound: 0
+    hitAnimation: 0
+    power: 52
+    damageType: 3
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 3
+    vaporDensity: 10
+  - type: STR_HC_I_AMMO
+    size: 0.1
+    costBuy: 400
+    costSell: 300
+    weight: 6
+    bigSprite: 14
+    floorSprite: 14
+    hitSound: 0
+    hitAnimation: 0
+    power: 60
+    damageType: 2
+    clipSize: 6
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_AUTO_CANNON
+    size: 0.3
+    costBuy: 13500
+    costSell: 10125
+    weight: 19
+    bigSprite: 7
+    floorSprite: 7
+    handSprite: 32
+    bulletSprite: 3
+    fireSound: 12
+    compatibleAmmo:
+      - STR_AC_AP_AMMO
+      - STR_AC_HE_AMMO
+      - STR_AC_I_AMMO
+    accuracyAuto: 32
+    accuracySnap: 56
+    accuracyAimed: 82
+    tuAuto: 40
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+  - type: STR_AC_AP_AMMO
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 5
+    bigSprite: 8
+    floorSprite: 8
+    hitSound: 13
+    hitAnimation: 26
+    power: 42
+    damageType: 1
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 1
+    vaporDensity: 5
+  - type: STR_AC_HE_AMMO
+    size: 0.1
+    costBuy: 700
+    costSell: 560
+    weight: 5
+    bigSprite: 9
+    floorSprite: 9
+    hitSound: 0
+    hitAnimation: 0
+    power: 44
+    damageType: 3
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 1
+    vaporDensity: 5
+  - type: STR_AC_I_AMMO
+    size: 0.1
+    costBuy: 650
+    costSell: 520
+    weight: 5
+    bigSprite: 10
+    floorSprite: 10
+    hitSound: 0
+    hitAnimation: 0
+    power: 48
+    damageType: 2
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 1
+    vaporDensity: 5
+  - type: STR_ROCKET_LAUNCHER
+    size: 0.4
+    costBuy: 4000
+    costSell: 3000
+    weight: 10
+    bigSprite: 15
+    floorSprite: 15
+    handSprite: 72
+    bulletSprite: 0
+    fireSound: 52
+    compatibleAmmo:
+      - STR_SMALL_ROCKET
+      - STR_LARGE_ROCKET
+      - STR_INCENDIARY_ROCKET
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+  - type: STR_SMALL_ROCKET
+    size: 0.2
+    costBuy: 600
+    costSell: 480
+    weight: 6
+    bigSprite: 16
+    floorSprite: 16
+    hitSound: 0
+    hitAnimation: 0
+    power: 75
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColor: 4
+    vaporDensity: 8
+  - type: STR_LARGE_ROCKET
+    size: 0.2
+    costBuy: 900
+    costSell: 720
+    weight: 8
+    bigSprite: 17
+    floorSprite: 17
+    hitSound: 0
+    hitAnimation: 0
+    power: 100
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColor: 4
+    vaporDensity: 15
+  - type: STR_INCENDIARY_ROCKET
+    size: 0.2
+    costBuy: 1200
+    costSell: 960
+    weight: 8
+    bigSprite: 18
+    floorSprite: 18
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColor: 4
+    vaporDensity: 15
+  - type: STR_LASER_PISTOL
+    size: 0.1
+    costSell: 20000
+    weight: 7
+    bigSprite: 5
+    floorSprite: 5
+    handSprite: 112
+    bulletSprite: 5
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 46
+    damageType: 4
+    accuracyAuto: 28
+    accuracySnap: 40
+    accuracyAimed: 68
+    tuAuto: 25
+    tuSnap: 20
+    tuAimed: 55
+    clipSize: -1
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_LASER_RIFLE
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 0
+    floorSprite: 0
+    handSprite: 8
+    bulletSprite: 6
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 60
+    damageType: 4
+    accuracyAuto: 46
+    accuracySnap: 65
+    accuracyAimed: 100
+    tuAuto: 34
+    tuSnap: 25
+    tuAimed: 50
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_HEAVY_LASER
+    size: 0.3
+    costSell: 61000
+    weight: 18
+    bigSprite: 6
+    floorSprite: 6
+    handSprite: 16
+    bulletSprite: 7
+    fireSound: 11
+    hitSound: 19
+    hitAnimation: 36
+    power: 85
+    damageType: 4
+    accuracySnap: 50
+    accuracyAimed: 84
+    tuSnap: 33
+    tuAimed: 75
+    clipSize: -1
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_GRENADE
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    power: 50
+    damageType: 3
+    battleType: 4
+    blastRadius: 5
+  - type: STR_SMOKE_GRENADE
+    size: 0.1
+    costBuy: 150
+    costSell: 120
+    weight: 3
+    bigSprite: 20
+    floorSprite: 20
+    power: 60
+    damageType: 9
+    battleType: 4
+    blastRadius: 5
+  - type: STR_PROXIMITY_GRENADE
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 21
+    floorSprite: 21
+    power: 70
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+  - type: STR_HIGH_EXPLOSIVE
+    size: 0.2
+    costBuy: 1500
+    costSell: 1200
+    weight: 6
+    bigSprite: 22
+    floorSprite: 22
+    power: 110
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 5
+  - type: STR_PROXIMITY_MINE
+    size: 0.1
+    weight: 3
+    bigSprite: -1
+    floorSprite: -1
+    power: 90
+    damageType: 3
+    battleType: 5
+    blastRadius: 5
+    armor: 150
+    recover: false
+  - type: STR_IN_MINE
+    size: 0.1
+    weight: 3
+    bigSprite: -1
+    floorSprite: -1
+    power: 90
+    damageType: 2
+    battleType: 5
+    blastRadius: 5
+    armor: 150
+    recover: false
+  - type: STR_MOTION_SCANNER
+    size: 0.1
+    costSell: 45600
+    weight: 3
+    bigSprite: 23
+    floorSprite: 23
+    battleType: 7
+    tuUse: 25
+  - type: STR_MEDI_KIT
+    size: 0.1
+    costSell: 46500
+    weight: 5
+    bigSprite: 24
+    floorSprite: 24
+    battleType: 6
+    invWidth: 1
+    invHeight: 2
+    painKiller: 10
+    heal: 10
+    stimulant: 10
+    woundRecovery: 1
+    healthRecovery: 3
+    stunRecovery: 4
+    energyRecovery: 10
+    tuUse: 10
+    flatRate: true
+  - type: STR_PSI_AMP
+    requires:
+      - STR_PSI_AMP
+    size: 0.1
+    costSell: 194700
+    weight: 10
+    bigSprite: 33
+    floorSprite: 32
+    handSprite: 88
+    hitSound: 36
+    battleType: 9
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    tuUse: 25
+    flatRate: true
+  - type: STR_STUN_ROD
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 26
+    floorSprite: 26
+    handSprite: 80
+    meleeSound: 54
+    power: 65
+    damageType: 6
+    accuracyMelee: 100
+    tuMelee: 30
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    skillApplied: false
+    clipSize: -1
+  - type: STR_ELECTRO_FLARE
+    size: 0.1
+    costBuy: 60
+    costSell: 40
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    power: 15
+    battleType: 10
+    armor: 8
+  - type: STR_CORPSE
+    weight: 22
+    bigSprite: 45
+    floorSprite: 39
+    invWidth: 2
+    invHeight: 3
+    recover: false
+#############################################
+############## SAVAGES ######################
+#############################################
+  - type: STR_CORPSE_SAVAGE_SOLDIER
+    weight: 22
+    bigSprite: 1120
+    floorSprite: 1538
+    invWidth: 2
+    invHeight: 3
+    size: 0.4
+    costSell: 20000
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_MUTON_SAVAGE_CORPSE
+    weight: 30
+    bigSprite: 1121
+    floorSprite: 1539
+    invWidth: 2
+    invHeight: 3
+    size: 0.4
+    costSell: 20000
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CYBORG_CORPSE
+    weight: 50
+    bigSprite: 1156
+    floorSprite: 1551
+    invWidth: 2
+    invHeight: 3
+    size: 0.5
+    costSell: 20000
+    recoveryPoints: 10
+    battleType: 11
+    armor: 40
+#############################################
+############## INHERITORS ###################
+#############################################
+  - type: STR_LAND_WARRIOR_SOLDIER_CORPSE
+    weight: 22
+    bigSprite: 2000
+    floorSprite: 2000
+    invWidth: 2
+    invHeight: 3
+    size: 0.4
+    costSell: 20000
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_ALPHA_FORCE_OPERATOR_CORPSE
+    weight: 30
+    bigSprite: 2001
+    floorSprite: 2001
+    invWidth: 2
+    invHeight: 3
+    size: 0.4
+    costSell: 20000
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+#############################################
+  - type: STR_CORPSE_ARMOR
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 28
+    floorSprite: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_CORPSE_SUIT
+    name: STR_CORPSE
+    weight: 26
+    bigSprite: 44
+    floorSprite: 41
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    recover: false
+ ###TFTD UNITS####   
+  - type: STR_CORPSE_AQUA_ARMOR
+    name: STR_CORPSE
+    weight: 35
+    bigSprite: 1154
+    floorSprite: 1549
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    recover: false
+  - type: STR_CORPSE_ION
+    name: STR_CORPSE
+    weight: 40
+    bigSprite: 1155
+    floorSprite: 1550
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    recover: false
+  - type: STR_HEAVY_PLASMA
+    requires:
+      - STR_HEAVY_PLASMA
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 30
+    floorSprite: 29
+    handSprite: 40
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_HEAVY_PLASMA_CLIP
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+  - type: STR_HEAVY_PLASMA_CLIP
+    requires:
+      - STR_HEAVY_PLASMA_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 25
+    floorSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 115
+    damageType: 5
+    clipSize: 35
+    battleType: 2
+    recoveryPoints: 1
+    vaporColor: 3
+    vaporDensity: 10
+  - type: STR_PLASMA_RIFLE
+    requires:
+      - STR_PLASMA_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 31
+    floorSprite: 30
+    handSprite: 48
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_PLASMA_RIFLE_CLIP
+    requires:
+      - STR_PLASMA_RIFLE_CLIP
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 41
+    floorSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 80
+    damageType: 5
+    clipSize: 28
+    battleType: 2
+    recoveryPoints: 1
+    vaporColor: 4
+    vaporDensity: 10
+  - type: STR_PLASMA_PISTOL
+    requires:
+      - STR_PLASMA_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 32
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_PISTOL_CLIP
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 85
+    tuAuto: 30
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_PLASMA_PISTOL_CLIP
+    requires:
+      - STR_PLASMA_PISTOL_CLIP
+    size: 0.1
+    costSell: 4440
+    weight: 3
+    bigSprite: 34
+    floorSprite: 33
+    hitSound: 19
+    hitAnimation: 46
+    power: 52
+    damageType: 5
+    clipSize: 26
+    battleType: 2
+    recoveryPoints: 1
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_BLASTER_LAUNCHER
+    requires:
+      - STR_BLASTER_LAUNCHER
+    size: 0.3
+    costSell: 144000
+    weight: 16
+    bigSprite: 35
+    floorSprite: 34
+    handSprite: 56
+    bulletSprite: 10
+    fireSound: 53
+    compatibleAmmo:
+      - STR_BLASTER_BOMB
+    accuracyAimed: 120
+    tuAimed: 66
+    battleType: 1
+    twoHanded: true
+    waypoints: 9
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 40
+  - type: STR_BLASTER_BOMB
+    requires:
+      - STR_BLASTER_BOMB
+    size: 0.2
+    costSell: 17028
+    weight: 3
+    bigSprite: 36
+    floorSprite: 35
+    hitSound: 0
+    hitAnimation: 0
+    power: 200
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 1
+    blastRadius: 10
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_SMALL_LAUNCHER
+    requires:
+      - STR_SMALL_LAUNCHER
+    size: 0.2
+    costSell: 120000
+    weight: 10
+    bigSprite: 37
+    floorSprite: 36
+    handSprite: 64
+    bulletSprite: 9
+    fireSound: 53
+    compatibleAmmo:
+      - STR_STUN_BOMB
+    accuracySnap: 65
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4
+  - type: STR_STUN_BOMB
+    requires:
+      - STR_STUN_BOMB
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    bigSprite: 38
+    floorSprite: 37
+    hitSound: 0
+    hitAnimation: 0
+    power: 90
+    damageType: 6
+    clipSize: 1
+    battleType: 2
+    recoveryPoints: 1
+  - type: STR_ALIEN_GRENADE
+    requires:
+      - STR_ALIEN_GRENADE
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 39
+    floorSprite: 38
+    power: 90
+    damageType: 3
+    battleType: 4
+    recoveryPoints: 1
+    blastRadius: 5
+  - type: STR_ELERIUM_115
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 56
+    floorSprite: 37
+    invWidth: 1
+    invHeight: 1
+    recoveryPoints: 5
+  - type: STR_MIND_PROBE
+    requires:
+      - STR_MIND_PROBE
+    size: 0.1
+    costSell: 304000
+    weight: 5
+    bigSprite: 29
+    floorSprite: 28
+    hitSound: 37    
+    battleType: 8
+    invWidth: 2
+    invHeight: 2
+    tuUse: 50
+    recoveryPoints: 1
+  - type: STR_SECTOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 46
+    floorSprite: 42
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_SNAKEMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 50
+    floorSprite: 46
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_ETHEREAL_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 25
+    bigSprite: 49
+    floorSprite: 45
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_MUTON_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 48
+    floorSprite: 44
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_FLOATER_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 52
+    floorSprite: 48
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CELATID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 35
+    bigSprite: 47
+    floorSprite: 43
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_SILACOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 51
+    floorSprite: 47
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_CHRYSSALID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 53
+    floorSprite: 49
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+  - type: STR_REAPER_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: REAPER_CORPSE_1
+    name: STR_REAPER_CORPSE
+    floorSprite: 52
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: REAPER_CORPSE_2
+    floorSprite: 55
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: REAPER_CORPSE_3
+    floorSprite: 54
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: REAPER_CORPSE_4
+    floorSprite: 53
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_SECTOPOD_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: SECTOPOD_CORPSE_1
+    name: STR_SECTOPOD_CORPSE
+    floorSprite: 60
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: SECTOPOD_CORPSE_2
+    floorSprite: 61
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SECTOPOD_CORPSE_3
+    floorSprite: 62
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: SECTOPOD_CORPSE_4
+    floorSprite: 63
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_CYBERDISC_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+    power: 120
+    blastRadius: 6
+  - type: CYBERDISC_CORPSE_1
+    name: STR_CYBERDISC_CORPSE
+    floorSprite: 56
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: CYBERDISC_CORPSE_2
+    floorSprite: 57
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: CYBERDISC_CORPSE_3
+    name: STR_CYBERDISC_CORPSE
+    floorSprite: 58
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: CYBERDISC_CORPSE_4
+    name: STR_CYBERDISC_CORPSE
+    floorSprite: 59
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HOVERTANK_CORPSE_1
+    floorSprite: 64
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: HOVERTANK_CORPSE_2
+    floorSprite: 65
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: HOVERTANK_CORPSE_3
+    floorSprite: 66
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: HOVERTANK_CORPSE_4
+    floorSprite: 67
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TANK_CORPSE_1
+    floorSprite: 68
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TANK_CORPSE_2
+    floorSprite: 69
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TANK_CORPSE_3
+    floorSprite: 70
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: TANK_CORPSE_4
+    floorSprite: 71
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: CIVM_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 45
+    floorSprite: 50
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+  - type: CIVF_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 45
+    floorSprite: 51
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: false
+###start###
+  - type: STR_ELERIUM-115_POWER_SOURCE 
+    size: 0.7
+    costSell: 250000
+    specialType: 2
+    recoveryPoints: 20
+  # - type: STR_UFO_NAVIGATION
+  #   size: 0.2
+  #   costSell: 80000
+  #   specialType: 3
+  #   recoveryPoints: 5
+  # - type: STR_UFO_CONSTRUCTION #- remove later
+  #   size: 0.1
+  #   costSell: 20000
+  #   specialType: 4
+  #   recoveryPoints: 2
+  # - type: STR_ALIEN_FOOD
+  #   size: 0.2
+  #   costSell: 5000
+  #   specialType: 5
+  #   recoveryPoints: 2
+  # - type: STR_ALIEN_REPRODUCTION
+  #   size: 0.2
+  #   costSell: 40000
+  #   specialType: 6
+  #   recoveryPoints: 2
+  # - type: STR_ALIEN_ENTERTAINMENT
+  #   size: 0.2
+  #   costSell: 20000
+  #   specialType: 7
+  #   recoveryPoints: 2
+  # - type: STR_ALIEN_SURGERY
+  #   size: 0.2
+  #   costSell: 38000
+  #   specialType: 8
+  #   recoveryPoints: 2
+  # - type: STR_EXAMINATION_ROOM
+  #   size: 0.2
+  #   costSell: 9000
+  #   specialType: 9
+  #   recoveryPoints: 2 
+  - type: STR_ALIEN_ALLOYS
+    size: 0.1
+    costSell: 6500
+    specialType: 10
+    recoveryPoints: 1
+    # recoveryDividers:
+    #   STR_UFO: 10
+    #   STR_OTHER: 150
+  # - type: STR_ALIEN_HABITAT #-remove later
+  #   size: 0.1
+  #   costSell: 100
+  #   specialType: 11
+  #   recoveryPoints: 1
+  - type: STR_ZRBITE_REACTOR
+    size: 0.2
+    costSell: 80000
+    specialType: 15
+    recoveryPoints: 5
+  - type: STR_CHEMICAL_BATTERIES
+    size: 0.2
+    costSell: 80000
+    specialType: 16
+    recoveryPoints: 5
+  - type: STR_NUCLEAR_REACTOR
+    size: 0.2
+    costSell: 80000
+    specialType: 17
+    recoveryPoints: 5
+  - type: STR_PSIONIC_CRYSTAL
+    size: 0.2
+    costSell: 80000
+    specialType: 18
+    recoveryPoints: 5
+  - type: STR_BIO_FUEL_CELL
+    size: 0.2
+    costSell: 80000
+    specialType: 19
+    recoveryPoints: 5
+  - type: STR_CHAOS_CELL
+    size: 0.2
+    costSell: 80000
+    specialType: 20
+    recoveryPoints: 5
+  - type: STR_ELECTRONICS
+    size: 0.2
+    costSell: 80000
+    specialType: 21
+    recoveryPoints: 5
+  - type: STR_FOOD
+    size: 0.2
+    costSell: 5000
+    specialType: 22
+    recoveryPoints: 2
+  - type: STR_CLONING_EQUIPMENT
+    size: 0.2
+    costSell: 40000
+    specialType: 23
+    recoveryPoints: 2
+  - type: STR_LEARNING_ARRAY
+    size: 0.2
+    costSell: 20000
+    specialType: 24
+    recoveryPoints: 2
+  - type: STR_SURGERY_EQUIPMENT
+    size: 0.2
+    costSell: 38000
+    specialType: 25
+    recoveryPoints: 2
+  - type: STR_MEDICAL_EQUIPMENT
+    size: 0.2
+    costSell: 9000
+    specialType: 26
+    recoveryPoints: 2
+  - type: STR_AQUA_PLASTICS
+    size: 0.1
+    costSell: 6500
+    specialType: 27
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  - type: STR_TITANIUM_ALLOY
+    size: 0.1
+    costSell: 6500
+    specialType: 28
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  - type: STR_URANIUM
+    size: 0.1
+    costSell: 6500
+    specialType: 29
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  - type: STR_NOAHRITE_ORE
+    size: 0.1
+    costSell: 6500
+    specialType: 30
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  - type: STR_REFINED_NOAHRITE
+    size: 0.1
+    costSell: 6500
+    specialType: 31
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  # - type: STR_ELERIUM-115_REACTOR
+  #   size: 0.2
+  #   costSell: 80000
+  #   specialType: 32
+  #   recoveryPoints: 5
+  - type: STR_STEEL
+    size: 0.2
+    costSell: 80000
+    specialType: 33
+    recoveryPoints: 2
+  - type: STR_CRYSTAL_SHARDS
+    size: 0.2
+    costSell: 80000
+    specialType: 34
+    recoveryPoints: 2
+  - type: STR_FUSION_CORE
+    size: 0.2
+    costSell: 80000
+    specialType: 35
+    recoveryPoints: 2
+  - type: STR_CERAMICS
+    categories: [STR_RESCOURCES_STASH]
+    size: 0.1
+    costSell: 6500
+    specialType: 36
+    recoveryPoints: 1
+    recoveryDividers:
+      STR_UFO: 10
+      STR_OTHER: 150
+  ###end###
+  - type: STR_PERSONAL_ARMOR
+    size: 0.8
+    costSell: 54000
+  - type: STR_POWER_SUIT
+    size: 0.8
+    costSell: 85000
+  - type: STR_FLYING_SUIT
+    size: 0.8
+    costSell: 115000
+  - type: CYBERDISC_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 46
+    power: 130
+    damageType: 5
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 60
+    clipSize: -1
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    vaporColor: 2
+    vaporDensity: 10
+    recover: false
+  - type: REAPER_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 59 }
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: CHRYSSALID_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 61 }
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    zombieUnit: STR_ZOMBIE
+    flatRate: true
+  - type: CELATID_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 8
+    fireSound: 51
+    hitSound: 19
+    hitAnimation: 46
+    power: 140
+    damageType: 8
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    arcingShot: true
+    vaporColor: 2
+    vaporDensity: 10
+  - type: SILACOID_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 58 }
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 50
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    clipSize: -1
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+  - type: SECTOPOD_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 58 }
+    floorSprite: 31
+    handSprite: 104
+    fireSound: 18
+    hitSound: 19
+    hitAnimation: 46
+    power: 100
+    damageType: 4
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
+  - type: ZOMBIE_WEAPON
+    weight: 3
+    bigSprite:  { mod: xcom1, index: 57 }
+    meleeSound: 48
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    flatRate: true
+  - type: STR_SECTOID_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SECTOID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_SNAKEMAN_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SNAKEMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_ETHEREAL_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 80000
+  - type: STR_ETHEREAL_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_ETHEREAL_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_MUTON_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_FLOATER_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_ENGINEER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_MEDIC
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_NAVIGATOR
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_FLOATER_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_CELATID_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_SILACOID_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_CHRYSSALID_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_REAPER_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+  - type: STR_SECTOPOD_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 80000
+  - type: STR_CYBERDISC_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 80000
+# Special Psi Weapon for Aliens.
+# Usage of this is hard-coded.
+# DO NOT DELETE!
+  - type: ALIEN_PSI_WEAPON
+    hitSound: 36
+    battleType: 9
+    tuUse: 25
+    flatRate: true
+    recover: false
+  - type: STR_LOSTONE_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 1122
+    floorSprite: 1553
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  ###########################################UFO ITEMS#################################
+  - type: SECTOPOD2_WEAPON
+    weight: 3
+    bigSprite: { mod: xcom1, index: 60 }
+    floorSprite: 31
+    handSprite: 104
+    fireSound: 99
+    power: 130
+    damageType: 4
+    accuracySnap: 55
+    accuracyAimed: 95
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 11
+    hitAnimation: 66
+    recover: false
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_MUTON_BERZERK_CORPSE
+    size: 0.4
+    costSell: 5000
+    weight: 80
+    bigSprite: 48
+    floorSprite: 44
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    recover: true
+  - type: STR_SECTOPOD2_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 120000
+  - type: STR_MUTON_BERZERK
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 120000
+  - type: STR_CHRYSSALID_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 100000
+  ###########################################EXPANDED TFTD ITEMS#################################
+  - type: STR_DEEP_ONE_CORPSE             # Deepone
+    size: 0.6
+    costSell: 5000
+    weight: 60
+    bigSprite: 1112
+    floorSprite: 1501
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_DEEP_ONE_SOLDIER
+    recover: true
+    liveAlien: true
+    size: 0.6
+    costSell: 5000
+    weight: 60
+    bigSprite: 1112
+    floorSprite: 1501
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CALCINITE_CORPSE
+    size: 0.6
+    costSell: 5000
+    weight: 60
+    bigSprite: 1111
+    floorSprite: 1500
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CALCINITE_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_TENTACULAT_CORPSE
+    costSell: 5000
+    name: STR_TENTACULAT_CORPSE
+    size: 0.4
+    weight: 40
+    bigSprite: 1118
+    floorSprite: 1510
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    recover: true
+    battleType: 11
+    power: 90
+    blastRadius: 5
+  - type: TENTACULAT_WEAPON
+    weight: 3
+    bigSprite: 71
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    clipSize: -1
+    strengthApplied: true
+    damageType: 8
+    accuracyMelee: 90
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: STR_CORPSE_TASOTH_A
+    costSell: 5000
+    name: STR_CORPSE_TASOTH_A
+    weight: 40
+    bigSprite: 1116
+    floorSprite: 1509
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    recover: true
+  - type: STR_TASOTH_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 1116
+    floorSprite: 1509
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_CORPSE_AQUATOID_A
+    costSell: 5000
+    name: STR_CORPSE_AQUATOID_A
+    weight: 30
+    bigSprite: 1119
+    floorSprite: 1520
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 26
+    recover: true
+  - type: STR_CORPSE_LOBSTER_A
+    costSell: 5000
+    name: STR_CORPSE_LOBSTER_A
+    weight: 40
+    bigSprite: 1113
+    floorSprite: 1502
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 26
+    recover: true
+  - type: STR_CORPSE_GILLMAN_A
+    costSell: 5000
+    name: STR_CORPSE_GILLMAN_A
+    weight: 40
+    bigSprite: 1139 # 1115
+    floorSprite: 1508
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 26
+    recover: true
+  - type: STR_CORPSE_GILLMAN_FEMALE
+    costSell: 5000
+    name: STR_CORPSE_GILLMAN_FEMALE
+    weight: 40
+    bigSprite: 1139
+    floorSprite: 1536
+    invWidth: 2
+    invHeight: 3
+    battleType: 11
+    recoveryPoints: 5
+    armor: 26
+    recover: true
+  - type: STR_GILLMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 1139 #1115
+    floorSprite: 1508
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_HEAVY_GILLMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 40
+    bigSprite: 1117
+    floorSprite: 1519
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_BIODRONE_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 1114
+    floorSprite: 1503
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+    power: 120
+    blastRadius: 6
+  - type: STR_LOBSTERMAN_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 45
+    bigSprite: 1113
+    floorSprite: 1502
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 3
+    battleType: 11
+    armor: 26
+  - type: STR_HALLUCINOID_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: HALLUCINOID_CORPSE_1
+    name: STR_HALLUCINOID_CORPSE
+    floorSprite: 1511
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: HALLUCINOID_CORPSE_2
+    floorSprite: 1512
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HALLUCINOID_CORPSE_3
+    floorSprite: 1513
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: HALLUCINOID_CORPSE_4
+    floorSprite: 1514
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_XARQUID_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: XARQUID_CORPSE_1
+    name: STR_XARQUID_CORPSE
+    floorSprite: 1515
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: XARQUID_CORPSE_2
+    floorSprite: 1516
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: XARQUID_CORPSE_3
+    floorSprite: 1517
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: XARQUID_CORPSE_4
+    floorSprite: 1518
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_TENTACULAT_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 80000
+  - type: STR_TASOTH_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 90000
+  - type: STR_TASOTH_SQUAD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 70000
+  - type: STR_TASOTH_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_AQUATOID_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_LOBSTERMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_GILLMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_GILLMAN_FEMALE_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_HEAVY_GILLMAN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 50000
+  - type: STR_TRISCENE_CORPSE
+    size: 1
+    costSell: 20000
+    battleType: 11
+  - type: TRISCENE_CORPSE_1
+    name: STR_TRISCENE_CORPSE
+    floorSprite: 1504
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recoveryPoints: 3
+  - type: TRISCENE_CORPSE_2
+    floorSprite: 1505
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TRISCENE_CORPSE_3
+    floorSprite: 1506
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TRISCENE_CORPSE_4
+    floorSprite: 1507
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  #################### NEW ITEMS ####################
+  - type: STR_GREY_CORPSE
+    name: STR_GREY_CORPSE
+    costSell: 5000
+    size: 0.4
+    weight: 30
+    bigSprite: 46
+    floorSprite: 42
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    recover: true
+  - type: STR_GREY_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 100000
+  - type: STR_BROWN_SOLDIER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 25000
+  - type: STR_CORPSE_BROWN_SOLDIER
+    name: STR_CORPSE_BROWN_SOLDIER
+    costSell: 10000
+    weight: 30
+    bigSprite: 45
+    floorSprite: 50
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    recover: true
+    size: 0.4
+    recoveryPoints: 5
+    battleType: 11
+  - type: STR_NEW_ZOMBIE_CORPSE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 100000
+  - type: STR_NEW_ZOMBIE_CORPSE          ##NEW ZOMBIE CORPSE ##
+    costSell: 5000
+    weight: 40
+    bigSprite: 47
+    floorSprite: 43
+    invWidth: 2
+    invHeight: 3
+    armor: 26
+    recover: true
+    size: 0.4
+    recoveryPoints: 10
+    battleType: 11
+  - type: STR_DEEP_ONE2_CORPSE             # Deepone
+    size: 0.6
+    costSell: 5000
+    weight: 60
+    bigSprite: 52
+    floorSprite: 48
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_DEEP_ONE2_SOLDIER
+    recover: true
+    liveAlien: true
+    size: 0.6
+    costSell: 5000
+    weight: 60
+    bigSprite: 52
+    floorSprite: 48
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_AQUATOID_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 30
+    bigSprite: 1119
+    floorSprite: 1520
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+  - type: STR_PLASTIC_AQUA_ARMOR
+    size: 0.8
+    costSell: 54000
+  - type: STR_ION_ARMOR
+    size: 0.8
+    costSell: 85000
+  - type: STR_MAGNETIC_ION_ARMOR
+    size: 0.8
+    costSell: 115000
+  - type: STR_BIODRONE_MELEE_WEAPON
+    bigSprite: 1152 #
+    meleeSound: 26
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: STR_LOBSTERMAN_MELEE_WEAPON
+    bigSprite: 1166 #
+    meleeSound: 42
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: HALLUCINOID_WEAPON
+    bigSprite: 1167 #
+    meleeSound: 26
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: CALCINITE_WEAPON
+    bigSprite: 1165 #
+    meleeSound: 16
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: XARQUID_WEAPON
+    weight: 3
+    bigSprite: 1167 #
+    floorSprite: 29
+    handSprite: 40
+    fireSound: 37
+    hitSound: 31
+    hitAnimation: 46
+    power: 130
+    damageType: 12
+    accuracySnap: 75
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
+    vaporColor: 3
+    vaporDensity: 30
+  - type: DEEP_ONE_WEAPON 
+    bigSprite: 1152 #
+    bulletSprite: 8
+    fireSound: 40
+    hitSound: 41
+    power: 100
+    damageType: 14
+    accuracyAuto: 50
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    arcingShot: true
+    vaporColor: 3
+    vaporDensity: 30
+    hitAnimation: -1
+  - type: STR_TRISCENE_MELEE_WEAPON
+    bigSprite: 1162
+    handSprite: 41
+    meleeSound: 44
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: STR_TRIBIO_SONIC_WEAPON
+    weight: 3
+    bigSprite: 1163    # to fix fake number used, must fix this later
+    floorSprite: 40 # to fix fake number used, must fix this later
+    handSprite: 40
+    fireSound: 36
+    hitSound: 190
+    hitAnimation: 46
+    power: 110
+    damageType: 12
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    bulletSprite: 8
+    recover: false
+    vaporColor: 3
+    vaporDensity: 30
+  - type: ZOMBIE_WEAPON
+    bigSprite: 1164 
+    meleeSound: 42
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+############################################	
+############ TFTD WEAPONS #################
+##########################################
+
+####################################
+############# GAUSS ###############
+##################################
+  - type: STR_GAUSS_PISTOL
+    size: 0.1
+    costSell: 24000
+    weight: 2
+    bigSprite: 950
+    floorSprite: 950
+    handSprite: 950
+    bulletSprite: 20
+    fireSound: 170
+    reloadSound: 218
+    compatibleAmmo:
+      - STR_GAUSS_PISTOL_CLIP
+    accuracyAuto: 65
+    accuracySnap: 80
+    accuracyAimed: 120
+    tuAuto: 20
+    tuSnap: 15
+    tuAimed: 30
+    autoRange: 14
+    snapRange: 15
+    aimRange: 30
+    dropoff: 5
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    kneelBonus: 125
+    tuLoad: 4     #cost of loading weapon.
+    tuUnload: 2    #cost of unloading weapon.
+    armor: 200
+    listOrder: 3200
+  - type: STR_GAUSS_PISTOL_CLIP
+    size: 0.1
+    costSell: 6000
+    weight: 1
+    bigSprite: 951
+    floorSprite: 951
+    hitSound: 173
+    hitAnimation: 86
+    power: 65
+    damageBonus:
+      firing: 0.1
+    damageType: 11
+    clipSize: 24
+    battleType: 2
+    armor: 100
+    damageAlter:
+      RandomType: 7
+      ToTile: 1.5
+      ArmorEffectiveness: 0.4
+      ToStun: 0.0
+    listOrder: 3201
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_GAUSS_RIFLE
+    size: 0.2
+    costSell: 50000
+    weight: 8
+    bigSprite: 952
+    floorSprite: 952
+    handSprite: 958
+    bulletSprite: 20
+    fireSound: 171
+    reloadSound: 219
+    compatibleAmmo:
+      - STR_GAUSS_RIFLE_CLIP
+    accuracyAuto: 70
+    accuracySnap: 90
+    accuracyAimed: 125
+    tuAuto: 30
+    tuSnap: 20
+    tuAimed: 50
+    autoRange: 12
+    snapRange: 18
+    aimRange: 40
+    minRange: 4
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 5
+    armor: 300
+    listOrder: 3202
+  - type: STR_GAUSS_RIFLE_CLIP
+    size: 0.1
+    costSell: 8000
+    weight: 2
+    bigSprite: 953
+    floorSprite: 953
+    hitSound: 173
+    hitAnimation: 86
+    power: 80
+    damageBonus:
+      firing: 0.1
+    damageType: 11
+    clipSize: 40
+    battleType: 2
+    autoShots: 5
+    armor: 150
+    damageAlter:
+      RandomType: 7
+      ToTile: 1.5
+      ArmorEffectiveness: 0.4
+      ToStun: 0.0
+    listOrder: 3203
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_GAUSS_SNIPER_RIFLE
+    size: 0.2
+    costSell: 70000
+    weight: 8
+    bigSprite: 954
+    floorSprite: 954
+    handSprite: 966
+    bulletSprite: 20
+    fireSound: 171
+    reloadSound: 219
+    compatibleAmmo:
+      - STR_GAUSS_SNIPER_RIFLE_CLIP
+    accuracyAimed: 50
+    tuAimed: 25
+    aimRange: 100
+    minRange: 10
+    dropoff: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    kneelBonus: 200
+    accuracyMultiplier:
+      firing: 2.0
+    experienceTrainingMode: 14
+    armor: 300
+    listOrder: 3204
+  - type: STR_GAUSS_SNIPER_RIFLE_CLIP
+    size: 0.1
+    costSell: 10000
+    weight: 2
+    bigSprite: 955
+    floorSprite: 955
+    hitSound: 173
+    hitAnimation: 86
+    power: 100
+    damageBonus:
+      firing: 0.3
+    damageType: 11
+    clipSize: 24
+    battleType: 2
+    armor: 150
+    damageAlter:
+      RandomType: 7
+      ToTile: 2.0
+      ArmorEffectiveness: 0.1
+      ToHealth: 1.25
+      ToWound: 0.5
+      RandomWound: false
+      ToStun: 0.0
+    listOrder: 3205
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_HEAVY_GAUSS
+    size: 0.3
+    costSell: 100000
+    weight: 16
+    bigSprite: 956
+    floorSprite: 956
+    handSprite: 974
+    bulletSprite: 20
+    fireSound: 172
+    reloadSound: 220
+    compatibleAmmo:
+      - STR_HEAVY_GAUSS_CLIP
+    accuracyAuto: 65
+    accuracySnap: 80
+    accuracyAimed: 120
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 60
+    autoRange: 12
+    snapRange: 18
+    aimRange: 40
+    minRange: 4
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 400
+    listOrder: 3206
+  - type: STR_HEAVY_GAUSS_CLIP
+    size: 0.1
+    costSell: 12000
+    weight: 2
+    bigSprite: 957
+    floorSprite: 957
+    hitSound: 173
+    hitAnimation: 86
+    power: 125
+    damageBonus:
+      firing: 0.1
+    damageType: 11
+    clipSize: 30
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 200
+    damageAlter:
+      RandomType: 7
+      ToTile: 1.5
+      ArmorEffectiveness: 0.4
+      ToStun: 0.0
+    listOrder: 3207
+    vaporColor: 2
+    vaporDensity: 10
+#######################################
+########### DART/GAS GUNS ############
+#####################################
+  - type: STR_DART_PISTOL
+    size: 0.1
+    costBuy: 800
+    costSell: 600
+    weight: 5
+    bigSprite: 958
+    floorSprite: 958
+    handSprite: 982
+    bulletSprite: 1
+    fireSound: [175, 176]
+    compatibleAmmo:
+      - STR_DART_PISTOL_AP_CLIP
+      - STR_DART_PISTOL_ACID_CLIP
+      - STR_DART_PISTOL_STUN_CLIP
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 20
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    listOrder: 3208
+
+  - type: STR_DART_PISTOL_AP_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 959
+    floorSprite: 959
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 16
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    listOrder: 3209
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_DART_PISTOL_ACID_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 960
+    floorSprite: 960
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 16
+    damageType: 8
+    clipSize: 12
+    battleType: 2
+    listOrder: 3210
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_DART_PISTOL_STUN_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 961
+    floorSprite: 961
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 12
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToStun: 1.5
+      RandomWound: false
+      ToWound: 0.20
+    damageType: 6
+    clipSize: 12
+    battleType: 2
+    listOrder: 3211
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_DART_RIFLE
+    size: 0.2
+    costBuy: 3000
+    costSell: 2250
+    weight: 8
+    bigSprite: 962
+    floorSprite: 962
+    handSprite: 990
+    bulletSprite: 2
+    fireSound: [175, 176]
+    compatibleAmmo:
+      - STR_DART_RIFLE_AP_CLIP
+      - STR_DART_RIFLE_ACID_CLIP
+      - STR_DART_RIFLE_STUN_CLIP
+    accuracyAuto: 40
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuAuto: 40
+    tuSnap: 35
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 3212
+
+  - type: STR_DART_RIFLE_AP_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 963
+    floorSprite: 963
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    listOrder: 3213
+
+  - type: STR_DART_RIFLE_ACID_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 964
+    floorSprite: 964
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 32
+    damageType: 8
+    clipSize: 12
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    listOrder: 3214
+
+  - type: STR_DART_RIFLE_STUN_CLIP
+    size: 0.1
+    costBuy: 70
+    costSell: 52
+    weight: 2
+    bigSprite: 965
+    floorSprite: 965
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 25
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmorPre: 0.05
+      ToStun: 2.2
+      RandomWound: false
+      ToWound: 0.35
+    damageType: 6
+    clipSize: 22
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 5
+    listOrder: 3215
+
+  - type: STR_GAS_CANNON
+    size: 0.3
+    costBuy: 6400
+    costSell: 4800
+    weight: 17
+    bigSprite: 966
+    floorSprite: 966
+    handSprite: 998
+    bulletSprite: 4
+    fireSound: 12
+    compatibleAmmo:
+      - STR_GC_AP_AMMO
+      - STR_GC_HE_AMMO
+      - STR_GC_P_AMMO
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 40
+    tuAimed: 75
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3216
+
+  - type: STR_GC_AP_AMMO
+    size: 0.1
+    costBuy: 300
+    costSell: 225
+    weight: 5
+    bigSprite: 967
+    floorSprite: 967
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 26
+    power: 60
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    listOrder: 3216
+
+  - type: STR_GC_HE_AMMO
+    size: 0.1
+    costBuy: 500
+    costSell: 275
+    weight: 6
+    bigSprite: 968
+    floorSprite: 968
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 8
+    power: 65
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    listOrder: 3217
+
+  - type: STR_GC_P_AMMO
+    size: 0.1
+    costBuy: 400
+    costSell: 300
+    weight: 6
+    bigSprite: 969
+    floorSprite: 969
+    handSprite: 4
+    hitSound: [177, 178]
+    hitAnimation: 8
+    power: 60
+    damageType: 2
+    clipSize: 8
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 15
+    listOrder: 3218
+
+#############################################
+########### AQUATIC ALIENS GUNS ############
+###########################################
+  - type: STR_VIBRO_BLADE
+    requires:
+      - STR_VIBRO_BLADE
+    size: 0.3
+    costSell: 1500
+    transferTime: 48
+    weight: 10
+    bigSprite: 970
+    floorSprite: 970
+    handSprite: 1006
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 80
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3219
+
+  - type: STR_SONIC_PULSER
+    requires:
+      - STR_SONIC_PULSER
+    size: 0.1
+    costSell: 14850
+    weight: 3
+    bigSprite: 971
+    floorSprite: 971
+    handSprite: 1014
+    power: 120
+    damageType: 12
+    battleType: 4
+    recoveryPoints: 1
+    armor: 150
+    blastRadius: 5
+    attraction: 1
+    hitAnimation: 8
+    listOrder: 3220
+
+  - type: STR_SONIC_PISTOL
+    requires:
+      - STR_SONIC_PISTOL
+    size: 0.1
+    costSell: 84000
+    weight: 3
+    bigSprite: 972
+    floorSprite: 972
+    handSprite: 1022
+    bulletSprite: 21  #(21x35=735)
+    fireSound: 182
+    hitSound: 187
+    compatibleAmmo:
+      - STR_PISTOL_POWER_CLIP
+    accuracySnap: 65
+    accuracyAimed: 85
+    tuSnap: 30
+    tuAimed: 50
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 45
+    attraction: 1
+    listOrder: 3221
+
+  - type: STR_PISTOL_POWER_CLIP
+    requires:
+      - STR_PISTOL_POWER_CLIP
+    size: 0.1
+    costSell: 4440
+    weight: 3
+    bigSprite: 973
+    floorSprite: 973
+    handSprite: 4
+    hitSound: 31
+    hitAnimation: 46
+    power: 80
+    damageType: 12
+    clipSize: 20
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 3
+    vaporDensity: 30
+    listOrder: 3222
+  - type: STR_SONIC_BLASTA_RIFLE
+    requires:
+      - STR_SONIC_BLASTA_RIFLE
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 974
+    floorSprite: 974
+    handSprite: 1030
+    bulletSprite: 21  #(21x35=735)
+    fireSound: 184
+    hitSound: 187
+    compatibleAmmo:
+      - STR_BLASTA_POWER_CLIP
+    accuracySnap: 75
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 1
+    listOrder: 3223
+  - type: STR_BLASTA_POWER_CLIP
+    requires:
+      - STR_BLASTA_POWER_CLIP
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 975
+    floorSprite: 975
+    handSprite: 4   # was 432 to be fixed (efrenespartano 11-Sep-11)
+    hitSound: 31
+    hitAnimation: 46
+    power: 95
+    damageType: 12
+    clipSize: 15
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 3
+    vaporDensity: 30
+    listOrder: 3224
+  - type: STR_SONIC_CANNON
+    requires:
+      - STR_SONIC_CANNON
+    size: 0.2
+    costSell: 171600
+    weight: 8
+    bigSprite: 976
+    floorSprite: 976
+    handSprite: 1038
+    bulletSprite: 21  #(21x35=735)
+    hitSound: 187
+    fireSound: 186
+    compatibleAmmo:
+      - STR_CANNON_POWER_CLIP
+    accuracySnap: 80
+    accuracyAimed: 115
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    attraction: 1
+    listOrder: 3225
+  - type: STR_CANNON_POWER_CLIP
+    requires:
+      - STR_CANNON_POWER_CLIP
+    size: 0.3
+    costSell: 9590
+    weight: 3
+    bigSprite: 977
+    floorSprite: 977
+    handSprite: 4   # was 200, to be updated (efrenespartano 11-Sep-19)
+    hitSound: 31
+    hitAnimation: 46
+    power: 130
+    damageType: 12
+    clipSize: 10
+    battleType: 2
+    recoveryPoints: 1
+    armor: 50
+    attraction: 1
+    vaporColor: 3
+    vaporDensity: 30
+    listOrder: 3226
+  - type: STR_THERMIC_LANCE
+    requires:
+      - STR_THERMIC_LANCE
+    size: 0.3
+    costSell: 1800
+    transferTime: 48
+    weight: 10
+    bigSprite: 978
+    floorSprite: 978
+    handSprite: 1046
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 160
+    tuMelee: 15
+    power: 110
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    listOrder: 3227
+  - type: STR_HEAVY_THERMIC_LANCE
+#    requires:
+#      - STR_HEAVY_THERMIC_LANCE
+    size: 0.3
+    costSell: 2000
+    transferTime: 48
+    weight: 15
+    bigSprite: 979   
+    floorSprite: 979 
+    handSprite: 1054
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 160
+    tuMelee: 20
+    power: 150
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3228
+  - type: STR_TESLA_LANCE
+#    requires:
+#      - STR_TESLA_LANCE
+    size: 0.3
+    costSell: 1500
+    transferTime: 48
+    weight: 12
+    bigSprite: 980   
+    floorSprite: 980 
+    handSprite: 1062
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 160
+    tuMelee: 20
+    power: 60
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 0.4
+      ToStun: 2.3
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    listOrder: 3229
+  - type: STR_CONCUSSION_CANNON
+#    categories: [STR_SHOTGUNS, STR_HEAVY_WEAPONS, STR_ALIEN_TECH, STR_SONIC, STR_UNDERWATER]
+#    requires:
+#      - STR_CONCUSSION_CANNON
+    size: 0.5
+    costSell: 800000
+    weight: 18
+    bigSprite: 981
+    floorSprite: 981
+    handSprite: 1062
+    bulletSprite: 5
+    fireSound: 188
+    compatibleAmmo:
+      - STR_CONCUSSION_CANNON_CLIP
+    accuracyCloseQuarters: 50
+    accuracySnap: 25
+    accuracyAimed: 50
+    tuSnap: 30
+    tuAimed: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    aimRange: 22
+    snapRange: 18
+    dropoff: 4
+    attraction: 10
+    listOrder: 3230
+  - type: STR_CONCUSSION_CANNON_CLIP
+#    categories: [STR_SHOTGUNS, STR_HEAVY_WEAPONS, STR_ALIEN_TECH, STR_SONIC, STR_CLIPS, STR_UNDERWATER]
+#    requires:
+#      - STR_CONCUSSION_CANNON_CLIP
+    size: 0.4
+    costSell: 15600
+    weight: 5
+    bigSprite: 982
+    floorSprite: 982
+    hitSound: 0
+    hitAnimation: 26
+    power: 45
+    damageType: 6
+    clipSize: 10
+    costThrow:
+      energy: 10
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunSpread: 30
+    shotgunPellets: 10
+    waypoints: 0
+    armor: 50
+    invWidth: 1
+    invHeight: 2
+    attraction: 10
+    listOrder: 3231
+  - type: STR_ZRBITE
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 56
+    floorSprite: 79
+    invWidth: 2
+    invHeight: 1
+    attraction: 4
+    recoveryPoints: 5
+  # - type: STR_MC_READER
+  #   requires:
+  #     - STR_MC_READER
+  #   size: 0.1
+  #   costSell: 304000
+  #   weight: 7
+  #   bigSprite: 29
+  #   floorSprite: 77
+  #   handSprite: 376
+  #   hitSound: 43
+  #   battleType: 8
+  #   invWidth: 2
+  #   invHeight: 2
+  #   tuUse: 50
+  #   recoveryPoints: 1
+  #   attraction: 1
+  - type: DISPLACER_CORPSE_1
+    floorSprite: 1544
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_2
+    floorSprite: 1545
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_3
+    floorSprite: 1546
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: DISPLACER_CORPSE_4
+    floorSprite: 1547
+    invWidth: 0
+    invHeight: 0
+    recover: false
+  - type: STR_ZRBITE
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 1140
+    floorSprite: 1537
+    invWidth: 2
+    invHeight: 1
+    attraction: 4
+    recoveryPoints: 5
+  - type: COELACANTH_CORPSE_1
+    floorSprite: 1540
+    invWidth: 0
+    invHeight: 0
+    recover: false
+    battleType: 11
+  - type: COELACANTH_CORPSE_2
+    floorSprite: 1541
+    invWidth: 0
+    invHeight: 0
+    recover: false
+    battleType: 11
+  - type: COELACANTH_CORPSE_3
+    floorSprite: 1542
+    invWidth: 0
+    invHeight: 0
+    recover: false
+    battleType: 11
+  - type: COELACANTH_CORPSE_4
+    floorSprite: 1543
+    invWidth: 0
+    invHeight: 0
+    recover: false
+    battleType: 11
+  - type: STR_COELACANTH_AQUA_JET
+    size: 6
+    costBuy: 480000
+    costSell: 360000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    bigSprite: 1159
+    fireSound: 23
+    bulletSprite: 0
+    compatibleAmmo:
+      - STR_HWP_AQUA_JET_MISSILES
+    accuracySnap: 55
+    accuracyAimed: 115
+    tuSnap: 45
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 1
+    # underwaterOnly: true
+  - type: STR_HWP_AQUA_JET_MISSILES
+    size: 0.6
+    costBuy: 3000
+    costSell: 2250
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 48
+    power: 90
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    hitAnimation: 8
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_COELACANTH_GAUSS
+    size: 6
+    costSell: 594000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    bigSprite: 1158
+    fireSound: 34
+    accuracySnap: 50
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+    battleType: 1
+    # special behaviour here: for a HWP with compatible ammo, setting a clipSize
+    # defines the max ammo for the HWP, and the clipSize on the weapon dictates
+    # how many rounds it adds.
+    compatibleAmmo:
+      - STR_GAUSS_CANNON_AMMO
+    clipSize: 50
+  - type: STR_GAUSS_CANNON_AMMO
+    size: 0.1
+    clipSize: 1
+    costSell: 200
+    transferTime: 48
+    battleType: 2
+    bulletSprite: 6
+    hitSound: 31
+    hitAnimation: 46
+    power: 110
+    damageType: 4
+    vaporColor: 2
+    vaporDensity: 10
+  - type: STR_DISPLACER_SONIC
+    size: 6
+    costSell: 980000
+    requiresBuy:
+     - STR_FUTURE_STORY_ARC
+    transferTime: 96
+    bigSprite: 1161 #54
+    bulletSprite: 8
+    fireSound: 186 #36
+    hitSound: 31
+    power: 130
+    damageType: 12
+    hitAnimation: 46
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    fixedWeapon: true
+    clipSize: 100
+    invWidth: 2
+    invHeight: 3
+    turretType: 3
+    vaporColor: 3
+    vaporDensity: 30
+  - type: STR_DISPLACER_PWT
+    size: 6
+    costSell: 1043000
+    transferTime: 96
+    bigSprite: 1160 #1160 ori=43
+    bulletSprite: 10
+    fireSound: 26
+    compatibleAmmo:
+      - STR_HWP_DISPLACER_PWT
+    accuracyAimed: 100
+    tuAimed: 66
+    battleType: 1
+    fixedWeapon: true
+    waypoints: 9
+    invWidth: 2
+    invHeight: 3
+    turretType: 4
+    # underwaterOnly: false
+  - type: STR_HWP_DISPLACER_PWT
+    size: 0.6
+    costSell: 31500
+    transferTime: 48
+    power: 140
+    damageType: 3
+    clipSize: 8
+    battleType: 2
+    blastRadius: 11
+    hitAnimation: 8
+    vaporColor: 1
+    vaporDensity: 15
+  - type: STR_HYDRO_JET_CANNON
+    size: 0.3
+    costBuy: 13500
+    costSell: 10125
+    weight: 19
+    bigSprite: 7
+    floorSprite: 7
+    handSprite: 32
+    bulletSprite: 3
+    fireSound: 23
+    compatibleAmmo:
+      - STR_HJC_AP_AMMO
+      - STR_HJC_HE_AMMO
+      - STR_HJC_P_AMMO
+    accuracyAuto: 40
+    accuracySnap: 50
+    accuracyAimed: 80
+    tuAuto: 40
+    tuSnap: 35
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    underwaterOnly: true
+  - type: STR_HJC_AP_AMMO
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 5
+    bigSprite: 8
+    floorSprite: 13
+    handSprite: 296
+    hitSound: 21
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+  - type: STR_HJC_HE_AMMO
+    size: 0.1
+    costBuy: 700
+    costSell: 560
+    weight: 5
+    bigSprite: 9
+    floorSprite: 14
+    handSprite: 280
+    hitSound: 0
+    hitAnimation: 8
+    power: 50
+    damageType: 3
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    vaporColor: 0
+    vaporDensity: 10
+  - type: STR_HJC_P_AMMO
+    size: 0.1
+    costBuy: 650
+    costSell: 520
+    weight: 5
+    bigSprite: 10
+    floorSprite: 12
+    handSprite: 288
+    hitSound: 0
+    hitAnimation: 8
+    power: 40
+    damageType: 2
+    clipSize: 14
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 40
+    attraction: 1
+    vaporColor: 0
+    vaporDensity: 10
+  - type: STR_TORPEDO_LAUNCHER
+    size: 0.4
+    costBuy: 4000
+    costSell: 3000
+    weight: 10
+    bigSprite: 15
+    floorSprite: 15
+    handSprite: 72
+    bulletSprite: 0
+    fireSound: 23
+    compatibleAmmo:
+      - STR_SMALL_TORPEDO
+      # - STR_SMART_TORPEDO_SMALL
+      - STR_LARGE_TORPEDO
+      # - STR_SMART_TORPEDO_LARGE
+      - STR_PHOSPHOROUS_TORPEDO
+    accuracySnap: 50
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    underwaterOnly: true
+  - type: STR_SMALL_TORPEDO
+    size: 0.2
+    costBuy: 600
+    costSell: 480
+    weight: 5
+    bigSprite: 16
+    floorSprite: 16
+    handSprite: 304
+    hitSound: 0
+    hitAnimation: 8
+    power: 80
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    armor: 50
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_LARGE_TORPEDO
+    size: 0.2
+    costBuy: 900
+    costSell: 720
+    weight: 8
+    bigSprite: 17
+    floorSprite: 17
+    handSprite: 312
+    hitSound: 0
+    hitAnimation: 8
+    power: 90
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    armor: 50
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_PHOSPHOROUS_TORPEDO
+    size: 0.2
+    costBuy: 1200
+    costSell: 960
+    weight: 8
+    bigSprite: 18
+    floorSprite: 18
+    handSprite: 320
+    hitSound: 0
+    hitAnimation: 8
+    power: 80
+    damageType: 2
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    vaporColor: 1
+    vaporDensity: 20
+  - type: STR_MAGNA_BLAST_GRENADE
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 19
+    floorSprite: 19
+    handSprite: 120
+    power: 50
+    damageType: 3
+    battleType: 4
+    armor: 150
+    blastRadius: 5
+    hitAnimation: 8
+  - type: STR_DYE_GRENADE
+    size: 0.1
+    costBuy: 150
+    costSell: 120
+    weight: 3
+    bigSprite: 20
+    floorSprite: 19
+    handSprite: 120
+    # Applying Zombie's patch here, because I happen to agree with him.
+    power: 60
+    damageType: 9
+    battleType: 4
+    armor: 110
+    blastRadius: 5
+    hitAnimation: 8
+  - type: STR_PARTICLE_DISTURBANCE_GRENADE
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 3
+    bigSprite: 21
+    floorSprite: 21
+    handSprite: 120
+    power: 70
+    damageType: 3
+    battleType: 5
+    armor: 90
+    blastRadius: 5
+    hitAnimation: 8
+  - type: STR_MAGNA_PACK_EXPLOSIVE
+    size: 0.25
+    costBuy: 1500
+    costSell: 1200
+    weight: 6
+    bigSprite: 22
+    floorSprite: 22
+    handSprite: 352
+    power: 100
+    damageType: 3
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    armor: 140
+    blastRadius: 5
+    hitAnimation: 8
+  - type: STR_THERMAL_TAZER
+    size: 0.1
+    costBuy: 1260
+    costSell: 945
+    weight: 6
+    bigSprite: 26
+    floorSprite: 26
+    handSprite: 152
+    meleeSound: 60
+    power: 80
+    damageType: 6
+    accuracyMelee: 100
+    skillApplied: false
+    tuMelee: 40
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+  - type: STR_CHEMICAL_FLARE
+    size: 0.1
+    costBuy: 60
+    costSell: 40
+    weight: 3
+    bigSprite: 55
+    floorSprite: 72
+    handSprite: 360
+    power: 15
+    battleType: 10
+    armor: 40
+#  - type: STR_DISRUPTOR_PULSE_LAUNCHER    ################ Need Graphics for this gun ###########
+#    requires:
+#      - STR_DISRUPTOR_PULSE_LAUNCHER 
+#    size: 0.3
+#    costSell: 144000
+#    weight: 12
+#    bigSprite: 35
+#    floorSprite: 34
+#    handSprite: 56
+#    bulletSprite: 10
+#    fireSound: 26
+#    compatibleAmmo:
+#      - STR_DISRUPTOR_AMMO
+#    accuracyAimed: 120
+#    tuAimed: 66
+#    battleType: 1
+#    twoHanded: true
+#    waypoints: 9
+#    invWidth: 2
+#    invHeight: 3
+#    recoveryPoints: 5
+#    armor: 40
+#    attraction: 1
+#    underwaterOnly: true
+#  - type: STR_DISRUPTOR_AMMO           
+#    requires:
+#      - STR_DISRUPTOR_AMMO
+#    size: 0.2
+#    costSell: 17028
+#    weight: 4
+#    bigSprite: 36
+#    floorSprite: 35
+#    handSprite: 328
+#    hitSound: 0
+#    hitAnimation: 8
+#    power: 210
+#    damageType: 3
+#    clipSize: 1
+#    battleType: 2
+#    invWidth: 1
+#    invHeight: 2
+#    recoveryPoints: 1
+#    armor: 60
+#    blastRadius: 11
+#    attraction: 1
+#    vaporColor: 1
+#    vaporDensity: 15
+
+  - type: STR_THERMAL_SHOK_LAUNCHER
+    requires:
+      - STR_THERMAL_SHOK_LAUNCHER
+    size: 0.2
+    costSell: 120000
+    weight: 8
+    bigSprite: 2008
+    floorSprite: 2008
+    handSprite: 64
+    bulletSprite: 9
+    fireSound: 41
+    compatibleAmmo:
+      - STR_THERMAL_SHOK_BOMB
+    accuracySnap: 70
+    accuracyAimed: 120
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 2
+    recoveryPoints: 4
+    attraction: 1
+  - type: STR_THERMAL_SHOK_BOMB
+    requires:
+      - STR_THERMAL_SHOK_BOMB
+    size: 0.1
+    costSell: 15200
+    weight: 3
+    bigSprite: 2009
+    floorSprite: 2009
+    # handSprite: 368
+    hitSound: 0
+    hitAnimation: 8
+    power: 120
+    damageType: 6
+    clipSize: 1
+    battleType: 2
+    recoveryPoints: 1
+    armor: 60
+    attraction: 1
+    vaporColor: 1
+    vaporDensity: 10
+
+###################NEW#############################
+  - type: STR_SMALL_LAUNCHER
+    compatibleAmmo:
+      - STR_STUN_BOMB
+      - STR_ELERIUM_BOMB
+    fireSound: 12
+    aimRange: 12
+    snapRange: 8
+  - type: STR_ELERIUM_BOMB
+    requires:
+      - STR_ELERIUM_BOMB
+    size: 0.1
+    costSell: 13000
+    weight: 3
+    bigSprite: 125
+    floorSprite: 110
+    hitSound: 0
+    hitAnimation: 0
+    power: 80
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    blastRadius: 4
+    listOrder: 5901
+  - type: STR_TOXIGUN
+    requires:
+      - STR_TOXIGUN
+    size: 0.2
+    costSell: 91000
+    weight: 3
+    bigSprite: 123
+    floorSprite: 108
+    handSprite: 234
+    bulletSprite: 200
+    fireSound: 55
+    compatibleAmmo:
+      - STR_TOXIGUN_FLASK
+    accuracySnap: 35
+    tuSnap: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 3
+    armor: 20
+    attraction: 1
+    listOrder: 5950
+  - type: STR_TOXIGUN_FLASK
+    requires:
+      - STR_TOXIGUN_FLASK
+    size: 0.1
+    costSell: 9000
+    weight: 2
+    bigSprite: 124
+    floorSprite: 109
+    hitSound: 19
+    hitAnimation: 56
+    power: 45
+    damageType: 8
+    clipSize: 10
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    recoveryPoints: 1
+    attraction: 1
+    shotgunPellets: 5
+    listOrder: 5951
+    vaporColor: 1
+    vaporDensity: 5
+  - type: STR_PLASMA_CASTER
+    requires:
+      - STR_PLASMA_CASTER
+    size: 0.2
+    costSell: 115000
+    weight: 6
+    bigSprite: 121
+    floorSprite: 106
+    handSprite: 226
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_CASTER_CLIP
+    accuracySnap: 45
+    tuSnap: 35
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recoveryPoints: 3
+    armor: 50
+    attraction: 1
+    listOrder: 5550
+  - type: STR_PLASMA_CASTER_CLIP
+    requires:
+      - STR_PLASMA_CASTER_CLIP
+    size: 0.1
+    costSell: 2400
+    weight: 3
+    bigSprite: 122
+    floorSprite: 107
+    hitSound: 19
+    hitAnimation: 46
+    power: 35
+    damageType: 5
+    clipSize: 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    shotgunPellets: 5
+    listOrder: 5551
+    vaporColor: 1
+    vaporDensity: 15
+  - type: STR_PLASMA_SNIPER_RIFLE
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+    size: 0.2
+    costSell: 135000
+    weight: 6
+    bigSprite: 117
+    floorSprite: 102
+    handSprite: 210
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    accuracySnap: 90
+    accuracyAimed: 150
+    tuSnap: 50
+    tuAimed: 70
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    attraction: 1
+    listOrder: 5150
+  - type: STR_PLASMA_SNIPER_RIFLE_CLIP
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    size: 0.1
+    costSell: 5400
+    weight: 3
+    bigSprite: 118
+    floorSprite: 103
+    hitSound: 19
+    hitAnimation: 46
+    power: 95
+    damageType: 5
+    clipSize: 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 5151
+  - type: STR_PLASMA_BLASTER
+    requires:
+      - STR_PLASMA_BLASTER
+    size: 0.2
+    costSell: 241600
+    weight: 12
+    bigSprite: 119
+    floorSprite: 104
+    handSprite: 218
+    bulletSprite: 8
+    fireSound: 18
+    compatibleAmmo:
+      - STR_PLASMA_BLASTER_CLIP
+    accuracySnap: 55
+    accuracyAimed: 95
+    tuSnap: 45
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    armor: 50
+    attraction: 1
+    listOrder: 4980
+  - type: STR_PLASMA_BLASTER_CLIP
+    requires:
+      - STR_PLASMA_BLASTER_CLIP
+    size: 0.4
+    costSell: 12520
+    weight: 4
+    bigSprite: 120
+    floorSprite: 105
+    power: 100
+    damageType: 3
+    clipSize: 12
+    battleType: 2
+    recoveryPoints: 1
+    blastRadius: 3
+    attraction: 1
+    listOrder: 4981
+  - type: Tentaculat_WEAPON2                  ### Weapon for Tentaculat - make NEW Zombies not OLD Zombies ###
+    weight: 3
+    bigSprite: { mod: xcom1, index: 71 }
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 49
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    zombieUnit: STR_NEW_ZOMBIE
+    flatRate: true
+  - type: STR_HUMAN_GUARD_TURRET_SPAWNER
+    spawnUnit: STR_GUARD_TURRET
+    spawnUnitFaction: 1
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+    hitAnimation: 1990
+ufopaedia:
+  - id: STR_ELERIUM_BOMB
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_ELERIUM_BOMB
+    text: STR_ELERIUM_BOMB_UFOPEDIA
+    listOrder: 5701
+  - id: STR_TOXIGUN
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_TOXIGUN
+    text: STR_TOXIGUN_UFOPEDIA
+    listOrder: 5750
+  - id: STR_TOXIGUN_FLASK
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_TOXIGUN_FLASK
+    text: STR_TOXIGUN_FLASK_UFOPEDIA
+    listOrder: 5751
+  - id: STR_PLASMA_CASTER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_CASTER
+    text: STR_PLASMA_CASTER_UFOPEDIA
+    listOrder: 5150
+  - id: STR_PLASMA_CASTER_CLIP
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_CASTER_CLIP
+    text: STR_PLASMA_CASTER_CLIP_UFOPEDIA
+    listOrder: 5151
+  - id: STR_PLASMA_SNIPER_RIFLE
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE
+    text: STR_PLASMA_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 4950
+  - id: STR_PLASMA_SNIPER_RIFLE_CLIP
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_SNIPER_RIFLE_CLIP
+    text: STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA
+    listOrder: 4951
+  - id: STR_PLASMA_BLASTER
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_BLASTER
+    text: STR_PLASMA_BLASTER_UFOPEDIA
+    listOrder: 4790
+  - id: STR_PLASMA_BLASTER_CLIP
+    type_id: 4
+    section: STR_ALIEN_ARTIFACTS
+    requires:
+      - STR_PLASMA_BLASTER_CLIP
+    text: STR_PLASMA_BLASTER_CLIP_UFOPEDIA
+    listOrder: 4791
+extraSprites:
+
+  - type: HANDOB.PCK
+    files:
+      210: Resources/AlienArmouryExpanded/handob_Aliensniperrifle/
+      218: Resources/AlienArmouryExpanded/handob_Plasmadestroyer/
+      226: Resources/AlienArmouryExpanded/handob_Plasmacaster/
+      234: Resources/AlienArmouryExpanded/handob_Toxigun/
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      950: Resources/TFTDWeaponCompilation/HandGaussPistol.png
+      958: Resources/TFTDWeaponCompilation/HandGaussRifle.png
+      966: Resources/TFTDWeaponCompilation/HandGaussSniper.png
+      974: Resources/TFTDWeaponCompilation/HandHeavyGauss.png
+      982: Resources/TFTDWeaponCompilation/HandDartPistol.png
+      990: Resources/TFTDWeaponCompilation/HandDartRifle.png
+      998: Resources/TFTDWeaponCompilation/HandGasCannon.png  
+      1006: Resources/TFTDWeaponCompilation/HandVibroBlade.png
+      1014: Resources/TFTDWeaponCompilation/HandSonicPulser.gif
+      1022: Resources/TFTDWeaponCompilation/HandSonicPistol.png
+      1030: Resources/TFTDWeaponCompilation/HandSonicBlastaRifle.png
+      1038: Resources/TFTDWeaponCompilation/HandSonicCannon.png
+      1046: Resources/TFTDWeaponCompilation/HandThermicLance.png #does HEAVY THERMIC ALSO (Not anymore. -efrenespartano 7-Aug-19)
+      1054: Resources/TFTDWeaponCompilation/HandHeavyThermicLance.png
+      1062: Resources/TFTDWeaponCompilation/HandTeslaLance.png
+      1070: Resources/TFTDWeaponCompilation/HandConcussionCannon.png
+      1078: Resources/SNAKEWOMEN/Acid/handob_Acid.png
+      1086: Resources/SNAKEWOMEN/Acid/handob_Acid_clip.png
+      1094: Resources/SNAKEWOMEN/AcidGunMV/handob_AcidGunMV.png
+      # 1102: Resources/SNAKEWOMEN/AcidGunMV/handob_StimmG.gif
+      1110: Resources/SNAKEWOMEN/AcidHeavy/handob_AcidHeavy.png
+      1118: Resources/SNAKEWOMEN/AcidHeavy/handob_AcidHeavy_clip.png
+  
+  - typeSingle: ACIDUPIMAGE
+    fileSingle: Resources/SNAKEWOMEN/Acid/UPACID.png
+  - typeSingle: ACIDCLIPUPIMAGE
+    fileSingle: Resources/SNAKEWOMEN/Acid/UPACID_CLIP.png
+  - typeSingle: ACIDHEAVYUPIMAGE
+    fileSingle: Resources/SNAKEWOMEN/AcidHeavy/upAcidHeavy.png
+  - typeSingle: ACIDHEAVYCLIPUPIMAGE
+    fileSingle: Resources/SNAKEWOMEN/AcidHeavy/upAcidHeavy_clip.png
+
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/AlienArmouryExpanded/Bullets/toxic_hit.gif
+  - type: BIGOBS.PCK
+    files:
+      117: Resources/AlienArmouryExpanded/Aliensniperrifle.gif
+      118: Resources/AlienArmouryExpanded/Aliensniperrifle_Clip.gif
+      119: Resources/AlienArmouryExpanded/Plasmadestroyer.gif
+      120: Resources/AlienArmouryExpanded/Plasmadestroyer_Clip.gif
+      121: Resources/AlienArmouryExpanded/Plasmacaster.gif
+      122: Resources/AlienArmouryExpanded/Plasmacaster_clip.gif
+      123: Resources/AlienArmouryExpanded/Toxigun.gif
+      124: Resources/AlienArmouryExpanded/Toxigun_flask.gif
+      125: Resources/AlienArmouryExpanded/big_SL_EleriumBomb.gif
+#
+      950: Resources/TFTDWeaponCompilation/BigGaussPistol.png
+      951: Resources/TFTDWeaponCompilation/BigGaussPistolClip.png
+      952: Resources/TFTDWeaponCompilation/BigGaussRifle.png
+      953: Resources/TFTDWeaponCompilation/BigGaussRifleClip.png
+      954: Resources/TFTDWeaponCompilation/BigGaussSniper.png
+      955: Resources/TFTDWeaponCompilation/BigGaussSniperClip.png
+      956: Resources/TFTDWeaponCompilation/BigHeavyGauss.png
+      957: Resources/TFTDWeaponCompilation/BigHeavyGaussClip.png
+      958: Resources/TFTDWeaponCompilation/BigDartPistol.png
+      959: Resources/TFTDWeaponCompilation/BigDartPistolClipA.png
+      960: Resources/TFTDWeaponCompilation/BigDartPistolClipAcid.png
+      961: Resources/TFTDWeaponCompilation/BigDartPistolClipStun.png
+      962: Resources/TFTDWeaponCompilation/BigDartRifle.png
+      963: Resources/TFTDWeaponCompilation/BigDartRifleClipA.png
+      964: Resources/TFTDWeaponCompilation/BigDartRifleClipAcid.png
+      965: Resources/TFTDWeaponCompilation/BigDartRifleClipStun.png
+      966: Resources/TFTDWeaponCompilation/BigGasCannon.png
+      967: Resources/TFTDWeaponCompilation/BigGasCannonAmmoAcid.png
+      968: Resources/TFTDWeaponCompilation/BigGasCannonAmmoHE.png
+      969: Resources/TFTDWeaponCompilation/BigGasCannonAmmoI.png
+      970: Resources/TFTDWeaponCompilation/BigVibroBlade.png
+      971: Resources/TFTDWeaponCompilation/BigSonicPulser.png
+      972: Resources/TFTDWeaponCompilation/BigSonicPistol.png
+      973: Resources/TFTDWeaponCompilation/BigSonicPistolClip.png
+      974: Resources/TFTDWeaponCompilation/BigSonicBlastaRifle.png
+      975: Resources/TFTDWeaponCompilation/BigSonicBlastaRifleClip.png
+      976: Resources/TFTDWeaponCompilation/BigSonicCannon.png
+      977: Resources/TFTDWeaponCompilation/BigSonicCannonClip.png
+      978: Resources/TFTDWeaponCompilation/BigThermicLance.gif
+      979: Resources/TFTDWeaponCompilation/BigHeavyThermicLance.gif
+      980: Resources/TFTDWeaponCompilation/BigTeslaLance.gif
+      981: Resources/TFTDWeaponCompilation/BigConcussionCannon.png
+      982: Resources/TFTDWeaponCompilation/BigConcussionCannonClip.png
+#
+      1111: Resources/UNITS/BIGOBS/calcinite_corpse.gif
+      1112: Resources/UNITS/BIGOBS/deepone_corpse.gif
+      1113: Resources/UNITS/BIGOBS/lobsterman_corpse.gif
+      1114: Resources/UNITS/BIGOBS/biodrone_corpse.gif
+      1115: Resources/Units/BIGOBS/gillman_corpse.gif
+      1116: Resources/UNITS/BIGOBS/bigobs_TASOTH_CORPSE.gif
+      1117: Resources/Units/BIGOBS/bigob_heavygillman.PNG
+      1118: Resources/UNITS/BIGOBS/TENTACULAT_CORPSE.gif
+      1119: Resources/UNITS/BIGOBS/aquatoid_inv_corpse.gif
+      1120: Resources/UNITS/BIGOBS/savage_corpse.png
+      1121: Resources/UNITS/BIGOBS/BigMutonSavageCorpse.png
+      1122: Resources/UNITS/BIGOBS/LOSTONE_BIGOBS.PNG
+      # 1123: Resources/UNITS/BIGOBS/BigMutonSavageCorpse.png
+
+      1139: Resources/Units/BIGOBS/gillman_Female_corpse.gif
+      1140: Resources/Zbrite/bigob_Zrbite.png
+      1150: Resources/UNITS/BIGOBS/calcinite_claw.png              # 2fix
+      1151: Resources/UNITS/BIGOBS/lobsterman_claw.png            # 2fix
+      1152: Resources/UNITS/BIGOBS/biodrone_shock.png
+      1153: Resources/UNITS/BIGOBS/biodrone_module.png
+      1154: Resources/UNITS/BIGOBS/PLASTIC.PNG
+      1155: Resources/UNITS/BIGOBS/TFTD_ION_corpse.GIF
+      1156: Resources/UNITS/BIGOBS/CYBORG_CORPSE.png
+      1158: Resources/UNITS/BIGOBS/TFTD_TANK_1.png
+      1159: Resources/UNITS/BIGOBS/TFTD_TANK_2.png
+      1160: Resources/UNITS/BIGOBS/TFTD_TANK_3.png
+      1161: Resources/UNITS/BIGOBS/TFTD_TANK_4.png
+      1162: Resources/UNITS/BIGOBS/WEAPONS/TFTD-4_UFO.png #TRI JAWS
+      1163: Resources/UNITS/BIGOBS/WEAPONS/TFTD-2_UFO.png #sONIC ATTACK
+      1164: Resources/UNITS/BIGOBS/WEAPONS/TFTD-9_UFO.png #ZOMBIE BITE
+      1165: Resources/UNITS/BIGOBS/WEAPONS/TFTD-1_UFO.png #CAL HAND ATTACK
+      1166: Resources/UNITS/BIGOBS/WEAPONS/TFTD-5_UFO.png #CRAB HAND ATTACK
+      1167: Resources/UNITS/BIGOBS/WEAPONS/TFTD-3_UFO.png #HUL ATTACK
+      1168: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/BigOb_DroneSmoke_Weapon.png
+      1169: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/BigOb_DroneScanner_Weapon.png
+      1170: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/BigOb_DroneTaser_Weapon.png
+      1171: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneScout/BigOb_DroneScout_Corpse.png
+
+      2000: Resources/UNITS/BIGOBS/BigLandWarriorSoldierCorpse.png
+      2001: Resources/UNITS/BIGOBS/BigAlphaForceOperatorCorpse.png
+      2002: Resources/SNAKEWOMEN/Acid/bigob_Acid_V2.png
+      2003: Resources/SNAKEWOMEN/Acid/bigob_Acid_Clip.gif
+      2004: Resources/SNAKEWOMEN/AcidGunMV/bigob_Acid_Rifle_v2.png
+      2005: Resources/SNAKEWOMEN/AcidGunMV/bigob_AcidGunMV_Clip.gif
+      2006: Resources/SNAKEWOMEN/AcidHeavy/BIGOB_AcidHeavy_V2.png
+      2007: Resources/SNAKEWOMEN/AcidHeavy/bigob_AcidHeavy_Clip.gif
+      2008: Resources/TFTDWeaponCompilation/BIGOBS_THERMAL.gif
+      2009: Resources/TFTDWeaponCompilation/BIGOBS_THERMAL_CLIP.gif
+      # 1128: Resources/UNITS/BIGOBS/TRISCENE_Jaws.gif
+
+  - type: FLOOROB.PCK
+    files:
+      102: Resources/AlienArmouryExpanded/floorob_Aliensniperrifle.gif
+      103: Resources/AlienArmouryExpanded/floorob_Aliensniperrifle_Clip.gif
+      104: Resources/AlienArmouryExpanded/floorob_Plasmadestroyer.gif
+      105: Resources/AlienArmouryExpanded/floorob_Plasmadestroyer_Clip.gif
+      106: Resources/AlienArmouryExpanded/floorob_Plasmacaster.gif
+      107: Resources/AlienArmouryExpanded/floorob_Plasmacaster_Clip.gif
+      108: Resources/AlienArmouryExpanded/floorob_Toxigun.gif
+      109: Resources/AlienArmouryExpanded/floorob_Toxigun_flask.gif
+      110: Resources/AlienArmouryExpanded/floorobj_EleriumBomb.gif
+#
+      950: Resources/TFTDWeaponCompilation/FloorGaussPistol.png
+      951: Resources/TFTDWeaponCompilation/FloorGaussPistolClip.png
+      952: Resources/TFTDWeaponCompilation/FloorGaussRifle.png
+      953: Resources/TFTDWeaponCompilation/FloorGaussRifleClip.png
+      954: Resources/TFTDWeaponCompilation/FloorGaussSniper.png
+      955: Resources/TFTDWeaponCompilation/FloorGaussSniperClip.png
+      956: Resources/TFTDWeaponCompilation/FloorHeavyGauss.png
+      957: Resources/TFTDWeaponCompilation/FloorHeavyGaussClip.png
+      958: Resources/TFTDWeaponCompilation/FloorDartPistol.png
+      959: Resources/TFTDWeaponCompilation/FloorDartPistolClipA.png
+      960: Resources/TFTDWeaponCompilation/FloorDartPistolClipAcid.png
+      961: Resources/TFTDWeaponCompilation/FloorDartPistolClipStun.png
+      962: Resources/TFTDWeaponCompilation/FloorDartRifle.png
+      963: Resources/TFTDWeaponCompilation/FloorDartRifleClipA.png
+      964: Resources/TFTDWeaponCompilation/FloorDartRifleClipAcid.png
+      965: Resources/TFTDWeaponCompilation/FloorDartRifleClipStun.png
+      966: Resources/TFTDWeaponCompilation/FloorGasCannon.png
+      967: Resources/TFTDWeaponCompilation/FloorGasCannonAmmoAcid.png
+      968: Resources/TFTDWeaponCompilation/FloorGasCannonAmmoHE.png
+      969: Resources/TFTDWeaponCompilation/FloorGasCannonAmmoI.png
+      970: Resources/TFTDWeaponCompilation/FloorVibroBlade.png
+      971: Resources/TFTDWeaponCompilation/FloorSonicPulser.png
+      972: Resources/TFTDWeaponCompilation/FloorSonicPistol.png
+      973: Resources/TFTDWeaponCompilation/FloorSonicPistolClip.png
+      974: Resources/TFTDWeaponCompilation/FloorSonicBlastaRifle.png
+      975: Resources/TFTDWeaponCompilation/FloorSonicBlastaRifleClip.png
+      976: Resources/TFTDWeaponCompilation/FloorSonicCannon.png
+      977: Resources/TFTDWeaponCompilation/FloorSonicCannonClip.png
+      978: Resources/TFTDWeaponCompilation/FloorThermicLance.gif
+      979: Resources/TFTDWeaponCompilation/FloorHeavyThermicLance.gif
+      980: Resources/TFTDWeaponCompilation/FloorTeslaLance.gif
+      981: Resources/TFTDWeaponCompilation/FloorConcussionCannon.png
+      982: Resources/TFTDWeaponCompilation/FloorConcussionCannonClip.png
+#
+      1500: Resources/UNITS/FLOOROB/calcinite_corpse.gif
+      1501: Resources/UNITS/FLOOROB/deepone_corpse.gif
+      1502: Resources/UNITS/FLOOROB/lobsterman_corpse.gif
+      1503: Resources/UNITS/FLOOROB/biodrone_corpse.gif
+      1504: Resources/UNITS/FLOOROB/TRISCENE_CORPSE_1.gif
+      1505: Resources/UNITS/FLOOROB/TRISCENE_CORPSE_2.gif
+      1506: Resources/UNITS/FLOOROB/TRISCENE_CORPSE_3.gif
+      1507: Resources/UNITS/FLOOROB/TRISCENE_CORPSE_4.gif
+      1508: Resources/UNITS/FLOOROB/gillman_corpse.gif
+      1509: Resources/UNITS/FLOOROB/floorob_TASOTH_CORPSE.gif
+      1510: Resources/UNITS/FLOOROB/floorob_TENTACULAT_CORPSE.gif
+      1511: Resources/UNITS/FLOOROB/floorob_HALLUCINOID_CORPSE_1.png
+      1512: Resources/UNITS/FLOOROB/floorob_HALLUCINOID_CORPSE_2.png
+      1513: Resources/UNITS/FLOOROB/floorob_HALLUCINOID_CORPSE_3.png
+      1514: Resources/UNITS/FLOOROB/floorob_HALLUCINOID_CORPSE_4.png
+      1515: Resources/UNITS/FLOOROB/floorob_XARQUID_CORPSE_1.PNG
+      1516: Resources/UNITS/FLOOROB/floorob_XARQUID_CORPSE_2.PNG
+      1517: Resources/UNITS/FLOOROB/floorob_XARQUID_CORPSE_3.PNG
+      1518: Resources/UNITS/FLOOROB/floorob_XARQUID_CORPSE_4.PNG
+      1519: Resources/UNITS/FLOOROB/floorob_heavygillman.png
+      1520: Resources/UNITS/FLOOROB/AQUA.gif
+      1536: Resources/UNITS/FLOOROB/gillman_FEMALE_corpse.gif
+      1537: Resources/Zbrite/floorob_Zrbite.png
+      1538: Resources/UNITS/FLOOROB/savage_floorob.png
+      1539: Resources/UNITS/FLOOROB/FloorMutonSavageCorpse.png
+      1540: Resources/UNITS/FLOOROB/floor_COELACANTH1.png
+      1541: Resources/UNITS/FLOOROB/floor_COELACANTH2.png
+      1542: Resources/UNITS/FLOOROB/floor_COELACANTH3.png
+      1543: Resources/UNITS/FLOOROB/floor_COELACANTH4.png
+      1544: Resources/UNITS/FLOOROB/floor_DISRUPTOR1.png
+      1545: Resources/UNITS/FLOOROB/floor_DISRUPTOR2.png
+      1546: Resources/UNITS/FLOOROB/floor_DISRUPTOR3.png
+      1547: Resources/UNITS/FLOOROB/floor_DISRUPTOR4.png
+      # 1548: Resources/UNITS/FLOOROB/RESYS_floorob.png
+      1549: Resources/UNITS/FLOOROB/XCOM10_Corpse.GIF
+      1550: Resources/UNITS/FLOOROB/XCOM11_Corpse.GIF
+      1551: Resources/UNITS/FLOOROB/floorob_CYBORG.png
+      1552: Resources/Drones/HELLRAZORS_DRONES/Dones_V1/DroneScout/FloorOb_DroneScout_Corpse.png
+      1553: Resources/UNITS/FLOOROB/LOSTONE_CORPSE.png
+      # 7353: Resources/AlienArmouryExpanded/FloorFusionTorch.gif
+      # 7354: Resources/AlienArmouryExpanded/FloorFusionTorchPower.gif
+      # 7355: Resources/AlienArmouryExpanded/floorob_StunRifle.gif
+      # 7356: Resources/AlienArmouryExpanded/floorob_StunGunClip.gif
+      # 7363: Resources/AlienArmouryExpanded/FloorFusionTorch.gif
+      # 7364: Resources/AlienArmouryExpanded/FloorFusionTorchPower.gif
+      
+      2000: Resources/UNITS/FLOOROB/FloorLandWarriorSoldierCorpse.png
+      2001: Resources/UNITS/FLOOROB/FloorAlphaForceOperatorCorpse.png 
+      2002: Resources/SNAKEWOMEN/Acid/floorob_Acid.gif
+      2003: Resources/SNAKEWOMEN/Acid/floorob_Acid_Clip.gif
+      2004: Resources/SNAKEWOMEN/AcidGunMV/floorob_AcidGunMV.gif
+      2005: Resources/SNAKEWOMEN/AcidGunMV/floorob_AcidGunMV_Clip.gif
+      2006: Resources/SNAKEWOMEN/AcidHeavy/floorob_AcidHeavy.gif
+      2007: Resources/SNAKEWOMEN/AcidHeavy/floorob_AcidHeavy_Clip.gif
+      2008: Resources/TFTDWeaponCompilation/FLOOROB_THERMAL.gif
+      2009: Resources/TFTDWeaponCompilation/FLOOROB_THERMAL_CLIP.gif
+  - type: Projectiles
+    width: 105
+    height: 9
+    subX: 3
+    subY: 3
+    files:
+      700: Resources/BulletSprites/GaussBulletSprite.png #20x35
+      735: Resources/BulletSprites/SonicBulletSprite.png #21x35
+#      770: Resources/BulletSprites/ExplosiveBulletSprite.png # 22x35
+
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      20: Resources/BulletSprites/GaussPurpleHit.png
+      30: Resources/BulletSprites/SonicYellowHitAnimation.png
+
+extraSounds:
+- type: BATTLE.CAT
+  files:
+      55: Resources/Sound/AlienAcid.wav
+      57: Resources/Sound/Secdeath.wav
+      59: Resources/Sound/Calcinite.wav
+      60: Resources/Sound/Schrill.wav
+      61: Resources/Sound/tadeath.wav
+      99: Resources/Sound/sectolaser.wav
+      151: Resources/Sound/TRISCENE_DEATH.wav
+      154: Resources/Sound/CalcinitDead.wav
+      155: Resources/Sound/DeepOneDead.wav
+      156: Resources/Sound/LobsterDead.wav
+      157: Resources/Sound/BiodronDead.wav
+      158: Resources/Sound/TentMuv.wav
+      159: Resources/Sound/HallucinoidMuv.wav
+      160: Resources/Sound/GilmenDed.wav
+      161: Resources/Sound/TasothDed.wav
+      162: Resources/Sound/TentakulatDed.wav
+      163: Resources/Sound/HallucinoidDed.wav
+      164: Resources/Sound/XsarkvidDed.wav
+      170: Resources/Sound/GaussPistol.wav
+      171: Resources/Sound/GaussRifle.wav
+      172: Resources/Sound/GaussHeavy.wav
+      173: Resources/Sound/GaussHit.wav
+      175: Resources/Sound/DartFire1.wav
+      176: Resources/Sound/DartFire2.wav
+      177: Resources/Sound/DartHit1.wav
+      178: Resources/Sound/DartHit2.wav
+      179: Resources/Sound/VibroBlade.wav
+      180: Resources/Sound/VibroBladeHit.wav
+      181: Resources/Sound/SonicPistol1.wav
+      182: Resources/Sound/SonicPistol2.wav
+      183: Resources/Sound/SonicRifle1.wav
+      184: Resources/Sound/SonicRifle2.wav
+      185: Resources/Sound/SonicCannon1.wav
+      186: Resources/Sound/SonicCannon2.wav
+      187: Resources/Sound/SonicHit.wav
+      188: Resources/Sound/SonicDest.wav
+      189: Resources/Sound/SonicDestHit1.wav
+      190: Resources/Sound/SonicDestHit2.wav
+      218: Resources/Sound/GuassPistolReload.WAV
+      219: Resources/Sound/GuassReload.WAV
+      220: Resources/Sound/GuassHreload.WAV
+      221: Resources/Sound/PlasmaPistolReload.WAV
+      222: Resources/Sound/PlasmaReload.WAV
+      223: Resources/Sound/SonicPistolReload.WAV
+      224: Resources/Sound/SonicReload.WAV
+      231: Resources/Sound/BadassChryssalid_aggro.wav
+      232: Resources/Sound/sam0012.wav #- TFTD TANK
+      233: Resources/Sound/sam0061.wav #- TFTD DISPLACER 
+      234: Resources/Drones/HELLRAZORS_DRONES/Sound_Shoot_DroneSmoke.wav
+      235: Resources/Drones/HELLRAZORS_DRONES/Sound_Shoot_DroneTaser.wav
+      236: Resources/Sound/AcidFire.wav
+      237: Resources/Sound/AcidHit.wav
+
+musics:
+  - type: GMTACWET
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. Versatile and deadly weapon."
+      STR_ELERIUM_BOMB: Elerium Bomb
+      STR_ELERIUM_BOMB_UFOPEDIA: "Elerium Bomb, used mainly by alien terrorists, is a powerful and deadly ammunition for Small Launcher."
+      STR_PLASMA_CASTER: Plasma Caster
+      STR_PLASMA_CASTER_CLIP: Plasma Caster Clip
+      STR_PLASMA_CASTER_UFOPEDIA: "This plasma pistol variant fires its charged particles at a wide spread, making it a devastating weapon."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "This roughly cubic device is used as ammunition for a Plasma Caster.  It contains a small quantity of Elerium."
+      STR_PLASMA_SNIPER_RIFLE: Plasma Sniper Rifle
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Plasma Sniper Rifle Clip
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "This is an extremely precise and powerful weapon based on accelerating particles from within a minute anti-gravity field."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "This small object is used as a power source for a Plasma Sniper Rifle - a precision alien weapon.  Contains a small quantity of Elerium."
+      STR_PLASMA_BLASTER: Plasma Blaster
+      STR_PLASMA_BLASTER_CLIP: Plasma Blaster Clip
+      STR_PLASMA_BLASTER_UFOPEDIA: "This is a devastating anti-armor weapon based on plasma technology, vaporizing everything around the impact point."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "This compact device is used as ammunition for a Plasma Blaster.  It contains a small quantity of Elerium."
+      STR_TOXIGUN: Toxigun
+      STR_TOXIGUN_FLASK: Toxigun Flask
+      STR_TOXIGUN_UFOPEDIA: "This weapon squirts a complex mixture of powerful chemical agents, able to dissolve almost any material known to Earth science within a few seconds.  Naturally, it is deadly to all living beings."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "This small tank filled with potent acid functions as ammunition for the Toxigun."
+      STR_GAUSS_PISTOL: Gauss Pistol
+      STR_GAUSS_PISTOL_CLIP: Gauss Pistol Clip
+      STR_GAUSS_RIFLE: Gauss Rifle
+      STR_GAUSS_RIFLE_CLIP: Gauss Rifle Clip
+      STR_GAUSS_SNIPER_RIFLE: Gauss Sniper Rifle
+      STR_GAUSS_SNIPER_RIFLE_CLIP: Gauss Sniper Rifle
+      STR_HEAVY_GAUSS: Heavy Gauss
+      STR_HEAVY_GAUSS_CLIP: Heavy Gauss
+      STR_DART_PISTOL: Dart Pistol
+      STR_DART_PISTOL_AP_CLIP: Dart Pistol AP Clip
+      STR_DART_PISTOL_ACID_CLIP: Dart Pistol Acid Clip
+      STR_DART_PISTOL_STUN_CLIP: Dart Pistol Stun Clip
+      STR_DART_RIFLE: Dart Rifle
+      STR_DART_RIFLE_AP_CLIP: Dart Rifle AP Clip
+      STR_DART_RIFLE_ACID_CLIP: Dart Rifle Acid Clip
+      STR_DART_RIFLE_STUN_CLIP: Dart Rifle Stun Clip
+      STR_GAS_CANNON: Gas Cannon
+      STR_GC_AP_AMMO: Gas Cannon AP Mag
+      STR_GC_HE_AMMO: Gas Cannon HE Mag
+      STR_GC_P_AMMO: Gas Cannon INC Mag
+      STR_VIBRO_BLADE: Vibro Blade
+      STR_SONIC_PULSER: Sonic Pulser
+      STR_SONIC_PISTOL: Sonic Pistol 
+      STR_PISTOL_POWER_CLIP: Sonic Pistol Power Clip
+      STR_SONIC_BLASTA_RIFLE: Sonic Blasta Rifle
+      STR_BLASTA_POWER_CLIP: Sonic Blasta Rifle Power Clip
+      STR_SONIC_CANNON: Sonic Cannon
+      STR_CANNON_POWER_CLIP: Sonic Cannon Power Clip 
+      STR_THERMIC_LANCE: Thermic Lance
+      STR_HEAVY_THERMIC_LANCE: Heavy Thermic Lance
+      STR_TESLA_LANCE: Tesla Lance
+      STR_CONCUSSION_CANNON: Concussion Cannon
+      STR_CONCUSSION_CANNON_CLIP: Concussion Cannon Shells Container
+
+  - type: en-GB
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Compact but powerful alien launcher, useful in a variety of combat scenarios. Versatile and deadly weapon."
+      STR_ELERIUM_BOMB: Elerium Bomb
+      STR_ELERIUM_BOMB_UFOPEDIA: "Elerium Bomb, used mainly by alien terrorists, is a powerful and deadly ammunition for Small Launcher."
+      STR_PLASMA_CASTER: Plasma Caster
+      STR_PLASMA_CASTER_CLIP: Plasma Caster Clip
+      STR_PLASMA_CASTER_UFOPEDIA: "This plasma pistol variant fires its charged particles at a wide spread, making it a devastating weapon."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "This roughly cubic device is used as ammunition for a Plasma Caster.  It contains a small quantity of Elerium."
+      STR_PLASMA_SNIPER_RIFLE: Plasma Sniper Rifle
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Plasma Sniper Rifle Clip
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "This is an extremely precise and powerful weapon based on accelerating particles from within a minute anti-gravity field."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "This small object is used as a power source for a plasma sniper rifle - a precision alien weapon.  Contains a small quantity of Elerium."
+      STR_PLASMA_BLASTER: Plasma Blaster
+      STR_PLASMA_BLASTER_CLIP: Plasma Blaster Clip
+      STR_PLASMA_BLASTER_UFOPEDIA: "This is a devastating anti-armour weapon based on plasma technology, vaporizing everything around the impact point."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "This compact device is used as ammunition for a Plasma Blaster.  It contains a small quantity of Elerium."
+      STR_TOXIGUN: Toxigun
+      STR_TOXIGUN_FLASK: Toxigun Flask
+      STR_TOXIGUN_UFOPEDIA: "This weapon squirts a complex mixture of powerful chemical agents, able to dissolve almost any material known to Earth science within a few seconds.  Naturally, it is deadly to all living beings."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "This small tank filled with potent acid functions as ammunition for the Toxigun."
+      STR_GAUSS_PISTOL: Gauss Pistol
+      STR_GAUSS_PISTOL_CLIP: Gauss Pistol Clip
+      STR_GAUSS_RIFLE: Gauss Rifle
+      STR_GAUSS_RIFLE_CLIP: Gauss Rifle Clip
+      STR_GAUSS_SNIPER_RIFLE: Gauss Sniper Rifle
+      STR_GAUSS_SNIPER_RIFLE_CLIP: Gauss Sniper Rifle
+      STR_HEAVY_GAUSS: Heavy Gauss
+      STR_HEAVY_GAUSS_CLIP: Heavy Gauss
+      STR_DART_PISTOL: Dart Pistol
+      STR_DART_PISTOL_AP_CLIP: Dart Pistol AP Clip
+      STR_DART_PISTOL_ACID_CLIP: Dart Pistol Acid Clip
+      STR_DART_PISTOL_STUN_CLIP: Dart Pistol Stun Clip
+      STR_DART_RIFLE: Dart Rifle
+      STR_DART_RIFLE_AP_CLIP: Dart Rifle AP Clip
+      STR_DART_RIFLE_ACID_CLIP: Dart Rifle Acid Clip
+      STR_DART_RIFLE_STUN_CLIP: Dart Rifle Stun Clip
+      STR_GAS_CANNON: Gas Cannon
+      STR_GC_AP_AMMO: Gas Cannon AP Mag
+      STR_GC_HE_AMMO: Gas Cannon HE Mag
+      STR_GC_P_AMMO: Gas Cannon INC Mag
+      STR_VIBRO_BLADE: Vibro Blade
+      STR_SONIC_PULSER: Sonic Pulser
+      STR_SONIC_PISTOL: Sonic Pistol 
+      STR_PISTOL_POWER_CLIP: Sonic Pistol Power Clip
+      STR_SONIC_BLASTA_RIFLE: Sonic Blasta Rifle
+      STR_BLASTA_POWER_CLIP: Sonic Blasta Rifle Power Clip
+      STR_SONIC_CANNON: Sonic Cannon
+      STR_CANNON_POWER_CLIP: Sonic Cannon Power Clip 
+      STR_THERMIC_LANCE: Thermic Lance
+      STR_HEAVY_THERMIC_LANCE: Heavy Thermic Lance
+      STR_TESLA_LANCE: Tesla Lance
+      STR_CONCUSSION_CANNON: Concussion Cannon
+      STR_CONCUSSION_CANNON_CLIP: Concussion Cannon Shells Container
+
+  - type: de
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Eine kompakte aber sehr wirksame außerirdische Abschussrampe, die sich in verschiedenen Kampfszenarien als nützlich erweist. Es ist eine vielseitige und tödliche Waffe."
+      STR_ELERIUM_BOMB: Eleriumbombe
+      STR_ELERIUM_BOMB_UFOPEDIA: "Die Eleriumbombe, die hauptsächlich von den Außerirdischen benutzt wird ist eine mächtige und tödliche Munition für die kleine Abschussrampe."
+      STR_PLASMA_CASTER: Plasma Flinte
+      STR_PLASMA_CASTER_CLIP: Plasma Flintenmunition
+      STR_PLASMA_CASTER_UFOPEDIA: "Diese Flintenvariation der Plasmapistole feuert stark gestreute Plasma-Partikel, was sie zu einer verheerenden Nahkampfwaffe macht."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Dieses würfelförmige Gerät wird als Minution für die Plasmaflinte verwendet.  Es enthält eine geringe Menge Elerium."
+      STR_PLASMA_SNIPER_RIFLE: Plasmascharfschützengewehr
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Plasmascharfschützengewehrmunition
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Das ist eine extrem  genaue und mächtige Waffe, die auf beschleunigten Teilchen aus einem Antigravitationsfeld beruht."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Dieser kleine Gegenstand wird als Kraftquelle für das Plasmapräzisionsgewehr benutzt.  Es verwendet kleine Mengen an Elerium."
+      STR_PLASMA_BLASTER: Plasma Blaster
+      STR_PLASMA_BLASTER_CLIP: Plasma Blaster Munition
+      STR_PLASMA_BLASTER_UFOPEDIA: "Dies ist eine vernichtende Waffe gegen Panzerungen, welche auf der Plasmatechnologie basiert. Sie verdampft alles an dem Ort des Einschlags."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Dieser kompakte Gegenstand wird als Munition für den Plasma Blaster verwendet. Es benutzt kleine Mengen an Elerium."
+      STR_TOXIGUN: Giftschleuder
+      STR_TOXIGUN_FLASK: Giftschleuderfläschchen
+      STR_TOXIGUN_UFOPEDIA: "Diese Waffe verspritzt eine komplexe Mischung aggressiver Chemikalien, die nahezu jedes auf der Erde bekannte Material innerhalb weniger Skunden auflöst.  Damit ist sie natürlich für alle Lebewesen tödlich."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Dieser kleine Behälter ist mit starker Säure gefüllt, die als Munition für die Giftschleuder fungiert."
+  - type: pl-PL
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Mała gabarytowo, lecz potężna wyrzutnia, użyteczna w różnorodnych sytuacjach taktycznych. Wszechstronna i zabójcza broń."
+      STR_ELERIUM_BOMB: Bomba eleryjna
+      STR_ELERIUM_BOMB_UFOPEDIA: "Bomba eleryjna, używana głównie przez obcych terrorystów, to potężna amunicja alternatywna do wyrzutni bomb ogłuszających."
+      STR_PLASMA_CASTER: Miotacz plazmy
+      STR_PLASMA_CASTER_CLIP: Magazynek miotacza plazmy
+      STR_PLASMA_CASTER_UFOPEDIA: "Ta odmiana pistoletu plazmowego wystrzeliwuje naładowane cząstki szerokim wachlarzem, co czyni z niej bardzo groźną broń."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "To z grubsza sześcienne urządzenie to amunicja dla ręcznego miotacza plazmy.  Zawiera ono małą ilość Elerium."
+      STR_PLASMA_SNIPER_RIFLE: Snajperka plazmowa
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Magazynek snajperki plazmowej
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Niezwykle precyzyjna i potężna broń, bazująca na technologii przyspieszania cząstek w słabym polu antygrawitacyjnym."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Ten mały obiekt służy za źródło zasilania plazmowej snajperki - karabinu precyzyjnego obcych.  Zawiera małą ilość Elerium."
+      STR_PLASMA_BLASTER: Działko plazmowe
+      STR_PLASMA_BLASTER_CLIP: Magazynek działka plazmowego
+      STR_PLASMA_BLASTER_UFOPEDIA: "Ręczne działko plazmowe to potężna broń przeciwpancerna piechoty, opierająca się na technologii plazmowej.  Odparowuje ona wszystko, co znajduje się w pobliżu punktu trafienia."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "To kompaktowe urządzenie to amunicja dla ręcznego działka plazmowego.  Zawiera małą ilość Elerium."
+      STR_TOXIGUN: Kwasomiot
+      STR_TOXIGUN_FLASK: Zbiornik z kwasem
+      STR_TOXIGUN_UFOPEDIA: "Ta broń strzyka skomplikowaną mieszaniną silnie aktywnych związków chemicznych, zdolnych w kilka sekund rozpuścić niemal każdy materiał znany ziemskiej nauce.  Jest ona oczywiście śmiertelna dla wszystkich żywych istot."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Ten mały zbiornik zawiera silnie żrącą substancję, służącą jako amunicja dla kwasomiotu."
+  - type: cs-CZ
+    strings:
+      STR_PLASMA_CASTER: Plazmový rozptylomet
+      STR_PLASMA_CASTER_CLIP: Zásobník plazmového rozptylometu
+      STR_PLASMA_CASTER_UFOPEDIA: "Tato varianta plazmové pistole vystřeluje nabité částice v širokém rozptylu, což z ní dělá ničivou zbraň."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Toto zhruba krychlovité zařízení je užito jako munice pro Plazmový rozptylomet.  Obsahuje malé množství Eleria."
+      STR_PLASMA_SNIPER_RIFLE: Plazmová odstřelovací puška
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Zásobník plazmové odstřelovací pušky
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Tato velice přesná a účinná zbraň je založena na urychlování částic uvnitř krátkodobého antigravitačního pole."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Tento malý objekt je používán jako munice pro Plazmovou odstřelovačku - přesnou Cizáckou zbraň.  Obsahuje malé množství Eleria."
+      STR_PLASMA_BLASTER: Plazmový kanón
+      STR_PLASMA_BLASTER_CLIP: Zásobník plazmového kanónu
+      STR_PLASMA_BLASTER_UFOPEDIA: "Tato ničivá protipancéřová zbraň založená na plazmové technologii je schopná vypařit cokoliv v okolí dopadu střely."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Toto kompaktní zařízení je používáno jako munice pro Plazmový kanón.  Obsahuje malé množství Eleria."
+      STR_TOXIGUN: Toxizbraň
+      STR_TOXIGUN_FLASK: Toxiampule
+      STR_TOXIGUN_UFOPEDIA: "Tato zbraň vystřeluje komplexní kombinaci žíravých chemických složek schopných během několika sekund roztavit jakýkoli materiál známý pozemské vědě.  To z ji samozřejmě dělá smrtelnou všem žijícím bytostem."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Tato malá nádobka je naplněna nebezpečnou kyselinou a funguje jako munice pro Toxizbraň."
+  - type: sk-SK
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Kompaktný, ale pritom účinný mimozemský raketomet vhodný pre nasadenie v rôznorodých bojových situáciách."
+      STR_ELERIUM_BOMB: Elériová bomba
+      STR_ELERIUM_BOMB_UFOPEDIA: "Elériová bomba je využívaná najmä mimozemskými teroristickými jednotkami. Jedná sa o veľmi účinnú a smrtiacu muníciu pre malý odpaľovač."
+      STR_PLASMA_CASTER: Plazmový vrhač
+      STR_PLASMA_CASTER_CLIP: Zásobník plazmového vrhača
+      STR_PLASMA_CASTER_UFOPEDIA: "Tento variant plazmovej pištole vystreľuje nabité častice v širokom rozptyle, čo z neho robí veľmi ničivú zbraň."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Toto zariadenie v tvare kocky sa používa ako munícia pre plazmový vrhač. Obsahuje malé množstvá eléria."
+      STR_PLASMA_SNIPER_RIFLE: Plazmová ostreľovačská puška
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Zásobník plazmovej ostreľovačky
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Táto extrémne precízna a účinná zbraň je založená na časticiach urýchlených v dočasnom antigravitačnom poli.  "
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Tento malý objekt sa používa ako zdroj energie pre plazmovú ostreľovačskú pušku – veľmi presnú mimozemskú zbraň. Obsahuje malé množstvo eléria."
+      STR_PLASMA_BLASTER: Plazmomet
+      STR_PLASMA_BLASTER_CLIP: Zásobník plazmometu
+      STR_PLASMA_BLASTER_UFOPEDIA: "Toto je extrémne ničivá protipancierová zbraň založená na technológii plazmových zbraní. Dokáže vymazať všetko v mieste dopadu."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Toto kompaktné zariadenie sa používa ako munícia pre plazmomet. Obsahuje malé množstvo eléria."
+      STR_TOXIGUN: Toxizbraň
+      STR_TOXIGUN_FLASK: Banka pre toxizbraň
+      STR_TOXIGUN_UFOPEDIA: "Táto zbraň vystreľuje komplexnú zmes silných chemických látok, ktoré dokážu za niekoľko sekúnd rozložiť takmer každý známy pozemský materiál. Čo ju robí smrteľnou pre všetky živé bytosti."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Táto malá nádobka naplnená účinnou kyselinou funguje ako munícia pre toxizbraň."
+  - type: fr
+    strings:
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Un lance-grenade extra-terrestre compact mais puissant, le petit lancer est utile dans une variété de scénarios. C'est une arme versatile et meurtrière."
+      STR_ELERIUM_BOMB: "Bombe à l'Elerium"
+      STR_ELERIUM_BOMB_UFOPEDIA: "La bombe à l'Elerium, utilisée principalement par les terroristes extra-terrestres, est une munition puissante et meurtrière pour le petit lanceur."
+      STR_PLASMA_CASTER: Lanceur Plasma
+      STR_PLASMA_CASTER_CLIP: Chargeur de Lanceur Plasma
+      STR_PLASMA_CASTER_UFOPEDIA: "Cette version modifiée du Pistolet Plasma projette ses particules à très haute vitesse, ce qui en fait une arme redoutable."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Ce petit objet cubique n'est autre qu'un chargeur de Lanceur Plasma.  Contient de l'Elerium en petite quantité."
+      STR_PLASMA_SNIPER_RIFLE: Fusil Plasma de Précision
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Chargeur de Fusil Plasma de Précision
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Ce fusil, d'une précision diabolique, exploite toute la puissance de la technologie Plasma, basée sur l'accélération de particules au sein d'un mini champ gravitationnel."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Munition pour Fusil Plasma de Précision.  Contient une petite quantité d'Elerium."
+      STR_PLASMA_BLASTER: Blaster Plasma
+      STR_PLASMA_BLASTER_CLIP: Chargeur de Blaster Plasma
+      STR_PLASMA_BLASTER_UFOPEDIA: "C'est assurément l'une des armes les plus puissantes. Basée sur la technologie Plasma, cette arme est particulièrement efficace à l'encontre des blindages. Détruit absolument tout en son point d'impact."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Munition pour Blaster Plasma.  Contient de l'Elerium."
+      STR_TOXIGUN: Pistolet à Toxine
+      STR_TOXIGUN_FLASK: Fiole pour Pistolet à Toxine
+      STR_TOXIGUN_UFOPEDIA: "Cette arme projette une mixture composée de puissants agents chimiques, capable de dissoudre en à peine quelques secondes toute matière avec laquelle elle entrerait en contact.  Elle s'avère naturellement fatale pour tout être vivant."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Petite fiole remplie d'acide qui permet d'approvisionner le Pistolet à Toxine."
+  - type: ru
+    strings:
+      STR_SMALL_LAUNCHER: Компактная установка
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Небольшая, но мощная установка пришельцев, стреляющая различными типами снарядов. Гибкое и опасное оружие."
+      STR_STUN_BOMB_UFOPEDIA: "Парализующая бомба применяется пришельцами для захвата живых людей, но эффективна и против большинства видов пришельцев. Используется как боеприпас для компактной установки."
+      STR_ELERIUM_BOMB: Элериумная бомба
+      STR_ELERIUM_BOMB_UFOPEDIA: "Элериумная бомба, применяющаяся пришельцами-террористами, является мощным и смертельным боеприпасом к компактной установке."
+      STR_PLASMA_CASTER: Плазменный кастер
+      STR_PLASMA_CASTER_CLIP: Магазин к плазменному кастеру
+      STR_PLASMA_CASTER_UFOPEDIA: "Эта разновидность плазменного пистолета выстреливает заряженные частицы с большим разбросом, что превращает его в разрушительное оружие."
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Это кубическое устройство используется в качестве боеприпасов для плазменного кастера. Оно содержит небольшое количество элериума, который мы можем извлечь в своих целях."
+      STR_PLASMA_SNIPER_RIFLE: Плазменная снайперская винтовка
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Маг. для плазм. снайп. винтовки
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Это сверхвысокоточное и мощное оружие в полной мере использует все преимущества плазменной технологии благодаря создаваемому внутри винтовки антигравитационному полю небольшого объема, значительно разгоняющему частицы перед выстрелом."
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Это небольшой предмет используется в качестве источника питания для плазменной снайперской винтовки - высокоточного инопланетного оружия. Содержит небольшое количество элериума, который мы можем извлечь в своих целях."
+      STR_PLASMA_BLASTER: Плазменный бластер
+      STR_PLASMA_BLASTER_CLIP: Магазин для плазменного бластера
+      STR_PLASMA_BLASTER_UFOPEDIA: "Это разрушительное бронебойное оружие, созданное на основе плазменной технологии, которое испаряет все вокруг точки попадания."
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Это небольшое устройство используется в качестве боеприпасов для плазменного бластера. Оно содержит небольшое количество элериума, который мы можем извлечь в своих целях."
+      STR_TOXIGUN: Токсиган
+      STR_TOXIGUN_FLASK: Колба для токсигана
+      STR_TOXIGUN_UFOPEDIA: "Это оружие разбрызгивает сложную смесь сильнодействующих химических веществ, способных растворить практически любой материал, известный земной науке, за несколько секунд. Естественно, токсин смертельно опасен для всех живых существ."
+      STR_TOXIGUN_FLASK_UFOPEDIA: "Эта небольшая колба, заполненная сильнодействующей кислотой, выполняет роль боеприпасов для токсигана."
+  - type: uk
+    strings:
+      STR_SMALL_LAUNCHER: Компактна установка
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Невелика, але потужна установка прибульців, що стріляє різними типами снарядів. Гнучка і небезбечна зброя"
+      STR_STUN_BOMB: Парализуюча бомба
+      STR_STUN_BOMB_UFOPEDIA: "Парализуюча бомба використовується прибульцями для захоплення живих людей, але ефективна і проти більшости видів прибульців. Використовюється як боєприпас для компактної установки."
+      STR_ELERIUM_BOMB: Елерiумна бомба
+      STR_ELERIUM_BOMB_UFOPEDIA: "Елерiумна бомба, що застосовується прибульцями-терористами, є потужним та смертельним боєприпасом до компактної установки."
+  - type: it
+    strings:
+      STR_ELERIUM_BOMB: "Bomba all'Elerium"
+      STR_ELERIUM_BOMB_UFOPEDIA: "Bomba ad Elerium, usata maggiormente dai terroristi alieni, è una bomba potente e letale da usare con un lancia bombe."
+      STR_PLASMA_BLASTER: Plasma Blaster
+      STR_PLASMA_BLASTER_CLIP: Caricatore per Plasma Blaseter
+      STR_PLASMA_BLASTER_CLIP_UFOPEDIA: "Questo piccolo dispositivo è usato come munizione per il Plasma Blaster. Contiene piccole quantità d'Elerium."
+      STR_PLASMA_BLASTER_UFOPEDIA: "Questa devastante arma anti-corazza basata sulla tecnologia al plasma vaporizza qualsiasi cosa attorno il punto d'impatto."
+      STR_PLASMA_CASTER: Plasma Caster
+      STR_PLASMA_CASTER_CLIP: Caricatore per Plasma Caster
+      STR_PLASMA_CASTER_CLIP_UFOPEDIA: "Questo dispositivo vagamente cubico è usato come munizione per il Plasma Caster. Contiene piccole quantità d'Elerium."
+      STR_PLASMA_CASTER_UFOPEDIA: "Questa variante della Pistola al Plasma spara un ampio raggio di particelle cariche, rendendola un'arma devastante."
+      STR_PLASMA_SNIPER_RIFLE: Fucile di Precisione al Plasma
+      STR_PLASMA_SNIPER_RIFLE_CLIP: Caricatore per Fucile di Precisione al Plasma
+      STR_PLASMA_SNIPER_RIFLE_CLIP_UFOPEDIA: "Questo piccolo oggetto è usato come sorgente d'energia per il Fucile di Precisione al Plasma, un'arma di precisione aliena. Contiene una piccola quantità d'Elerium."
+      STR_PLASMA_SNIPER_RIFLE_UFOPEDIA: "Questa è un'arma estremamente potente e precisa basata sull'accelerazione di particelle all'interno di un piccolo campo di anti-gravità."
+      STR_SMALL_LAUNCHER_UFOPEDIA: "Lanciagranate alieno compatto ma potente, utile in una gran varietà di combattimenti. Arma versatile e letale."
+      STR_TOXIGUN: Toxigun
+      STR_TOXIGUN_FLASK: Fiasca per Toxigun
+      STR_TOXIGUN_FLASK_UFOPEDIA: Questa piccola fiasca piena di un potente acido funziona come munizione per la Toxigun
+      STR_TOXIGUN_UFOPEDIA: "Quest'arma spruzza una complessa mistura di potenti agenti chimici, capaci di dissolvere praticamente ogni materiale conosciuto dalla scienza Terrestre, fino a qualche secondo fa. Naturalmente, è letale per tutti gli esseri viventi."

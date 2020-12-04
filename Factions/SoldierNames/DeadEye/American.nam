@@ -1,0 +1,200 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Aaron
+  - Adam
+  - Adrian
+  - Alfredo
+  - Austin
+  - Brandon
+  - Brian
+  - Calvin
+  - Carl
+  - Chance
+  - Charlie
+  - Clarence
+  - Cody
+  - Connor
+  - Damian
+  - Donald
+  - Dwight
+  - Dylan
+  - Ed
+  - Eduardo
+  - Elliott
+  - Ethan
+  - Evan
+  - Ezekiel
+  - Garrett
+  - George
+  - Giovanni
+  - Grayson
+  - James
+  - Jason
+  - Jay
+  - Jeremy
+  - Joel
+  - John
+  - Joshua
+  - Keith
+  - Kevin
+  - Lester
+  - Liam
+  - Mark
+  - Omar
+  - Oscar
+  - Owen
+  - Parker
+  - Pete
+  - Rick
+  - Robert
+  - Samuel
+  - Santiago
+  - Saul
+  - Scott
+  - Seth
+  - Shawn
+  - Simon
+  - Spencer
+  - Steven
+  - Timothy
+  - Tom
+  - Tucker
+  - Victor
+  - Vincent
+  - Virgil
+femaleFirst:
+  - Adriana
+  - Alexandra
+  - Alexis
+  - Allison
+  - Angela
+  - Anna
+  - Audrey
+  - Barbara
+  - Bethany
+  - Brianna
+  - Cadence
+  - Catherine
+  - Chelsea
+  - Chloe
+  - Cora
+  - Denise
+  - Esperanza
+  - Esther
+  - Evelyn
+  - Faith
+  - Gabrielle
+  - Georgia
+  - Guadalupe
+  - Isabel
+  - Jasmine
+  - Jillian
+  - Julia
+  - Kaitlyn
+  - Kara
+  - Karen
+  - Kelly
+  - Layla
+  - Lily
+  - Lucy
+  - Madeline
+  - Madison
+  - Margaret
+  - Maria
+  - Melanie
+  - Melissa
+  - Mia
+  - Michelle
+  - Miranda
+  - Olivia
+  - Paige
+  - Patricia
+  - Reese
+  - Riley
+  - Sarah
+  - Savannah
+  - Selena
+  - Sigourney
+  - Taylor
+  - Tiffany
+  - Vanessa
+  - Violet
+  - Zoey
+maleLast:
+  - Becker (DEYE)
+  - Benedict (DEYE)
+  - Bowers (DEYE)
+  - Bradley (DEYE)
+  - Brewster (DEYE)
+  - Bryant (DEYE)
+  - Burroughs (DEYE)
+  - Carlton (DEYE)
+  - Carr (DEYE)
+  - Carter (DEYE)
+  - Chase (DEYE)
+  - Childers (DEYE)
+  - Colby (DEYE)
+  - Crawley (DEYE)
+  - Crossett (DEYE)
+  - Daley (DEYE)
+  - Davies (DEYE)
+  - Dodge (DEYE)
+  - Evans (DEYE)
+  - Gallagher (DEYE)
+  - Gates (DEYE)
+  - Goddard (DEYE)
+  - Grady (DEYE)
+  - Griffith (DEYE)
+  - Gutierrez (DEYE)
+  - Harding (DEYE)
+  - Harper (DEYE)
+  - Hicks (DEYE)
+  - Horton (DEYE)
+  - Hudson (DEYE)
+  - Hunt (DEYE)
+  - Johnson (DEYE)
+  - Kay (DEYE)
+  - Kellogg (DEYE)
+  - Kemp (DEYE)
+  - Kendrick (DEYE)
+  - King (DEYE)
+  - Kirk (DEYE)
+  - Lawson (DEYE)
+  - Machado (DEYE)
+  - McNeil (DEYE)
+  - Meador (DEYE)
+  - Miller (DEYE)
+  - Mitchell (DEYE)
+  - Morris (DEYE)
+  - Nash (DEYE)
+  - North (DEYE)
+  - O'Connell (DEYE)
+  - Ortiz (DEYE)
+  - Palacios (DEYE)
+  - Partridge (DEYE)
+  - Patrick (DEYE)
+  - Perkins (DEYE)
+  - Porter (DEYE)
+  - Prewitt (DEYE)
+  - Rapp (DEYE)
+  - Ritchie (DEYE)
+  - Rooney (DEYE)
+  - Rossi (DEYE)
+  - Salomon (DEYE)
+  - Scroggins (DEYE)
+  - Shelley (DEYE)
+  - Smiley (DEYE)
+  - Sorensen (DEYE)
+  - Stein (DEYE)
+  - Stephens (DEYE)
+  - Stoddard (DEYE)
+  - Thompson (DEYE)
+  - Tirado (DEYE)
+  - Underwood (DEYE)
+  - Wade (DEYE)
+  - Wagner (DEYE)
+  - Webb (DEYE)

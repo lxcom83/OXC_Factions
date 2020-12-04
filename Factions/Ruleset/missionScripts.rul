@@ -1,0 +1,1335 @@
+############################
+## FACTIONS - mission scripts- RULESET
+## V0.0.2
+## Lasted Changed by L83
+## Comments: 23-03-2020 - Added The Arrival to game
+###########################
+
+missionScripts:
+  - delete: recurringTerror
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+
+
+  - type: researchRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    researchTriggers:
+      STR_THE_MARTIAN_SOLUTION: true
+    startDelay: 150
+    targetBaseOdds: 100
+    useTable: false
+    label: 1
+
+  - type: beginnerRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 14
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1]
+    label: 2
+    startDelay: 150
+
+  - type: experiencedRetaliation
+    minDifficulty: 1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 13
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2]
+    label: 3
+    startDelay: 150
+
+  - type: veteranRetaliation
+    minDifficulty: 2
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 12
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3]
+    label: 4
+    startDelay: 150
+
+  - type: geniusRetaliation
+    minDifficulty: 3
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 11
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4]
+    label: 5
+    startDelay: 150
+
+  - type: superhumanRetaliation
+    minDifficulty: 4
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 10
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4, -5]
+    startDelay: 150
+
+##################################
+  - type: STR_raiders_missions  # Savage Raids on Human settlements - Island maps
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 12  
+    startDelay: 3900
+    executionOdds: 60
+    randomDelay: 18000
+    # avoidRepeats: 6                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+    # varName: raid_var    
+    missionWeights:
+      0:
+        STR_RAIDERS_GRASS: 35
+        STR_RAIDERS_OCEAN_DUNES : 35
+        # STR_RAIDERS_OCEAN_SNOW : 35
+      # 2:
+      #   STR_RAIDERS_BEACH_SAND: 100
+      # 4:
+      #   STR_RAIDERS_GRASS: 100
+      # 6:
+      #   STR_RAIDERS_GRASS: 100
+    useTable: false
+
+  - type: STR_raiders_missions_2  # Savage Raids on Human settlements - Island maps
+    firstMonth: 0                       # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 12  
+    startDelay: 7000
+    executionOdds: 30
+    randomDelay: 4000
+    # avoidRepeats: 6                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+    # varName: raid_var2    
+    missionWeights:
+      0:
+        STR_RAIDERS_NUKEZONE: 50
+        # STR_RAIDERS_XENOVILLAGE: 50
+      # 2:
+      #   STR_RAIDERS_BEACH_SAND: 100
+      # 4:
+      #   STR_RAIDERS_BEACH_SAND: 100
+      # 6:
+      #   STR_RAIDERS_BEACH_SAND: 100
+    useTable: false
+
+##### SALVAGE MISSION #####
+
+  - type: STR_salvageoperation       #LAND ONLY               # the type/name is used for overwriting or deleting purposes.
+    firstMonth: 0 #should be 0                      # months this command runs on, 0 runs on startup of a new game (default 0)
+    lastMonth: 12                        # don't run after this month. in this context we mean "run once". -1 denotes no limit (default -1)
+    missionWeights:                     # the type of mission to spawn (omit to pick one from the mission table) (default none)
+      0:                                # these are split into monthly chunks, and can contain multiple entries,
+        # STR_SAVAGE_SCOUTS_SALVAGE: 33          # including weighted odds, but there is a caveat here:
+        # # STR_SAVAGE_ASSAULT_SALVAGE: 10         # you cannot mix and match missions with mission site objectives (ie: terror) with regular missions,
+        # STR_SCAVENGERS_SCOUTS_SALVAGE: 33          # including weighted odds, but there is a caveat here:
+        STR_INHERITORS_SCOUTS_SALVAGE: 33      # exactly the same thing. similarly, terror missions should not appear in regional mission weights (regions.rul)
+    executionOdds: 70                  # % chances of this command executing (default 100)
+    targetBaseOdds: 20                  # % chances of this mission targeting a region containing an xcom base instead of random (default 0)
+    startDelay: 8000
+    researchTriggers:
+      STR_HYBRID_CRAFT : false
+    randomDelay: 14000                    # number of minutes to delay the start of the mission (rounded down to the nearest 30, 0 to use the wave timer from the mission itself) (default 0)
+    minDifficulty: 0                    # this command only applies to difficulty levels of this or above (default 0)
+    # maxRuns: 12                         # this mission type can only execute this number of times, -1 for infinite (default -1)
+    avoidRepeats: 12                    # this means "store an array of the 12 previous coordinates, and don't use them again" (default 0)
+    varName: Salvage_land               # this is an internal variable name, used for tracking maxruns and avoidRepeats (default none)
+    useTable: false        
+
+  - type: STR_salvageoperation_mixed  # go to location, recover goods, kill any enemies nearby
+    missionWeights:
+      0:
+        STR_salvageoperation_UW: 10
+        STR_SAVAGE_SCOUTS_SALVAGE: 10          
+        STR_SNAKEWOMEN_MATRIARCHY_SCOUTS_SALVAGE: 10        
+        STR_SCAVENGERS_SCOUTS_SALVAGE: 10         
+        STR_INHERITORS_SCOUTS_SALVAGE: 10  
+    firstMonth: 0 
+    lastMonth: 24   
+    useTable: false
+    researchTriggers:
+      STR_HYBRID_CRAFT : true
+    executionOdds: 50
+    maxRuns: 12                         
+    avoidRepeats: 6                    
+    varName: Salvage_Mixed  
+    startDelay:  8080
+    randomDelay: 14000
+
+
+  - type: liberation  # Save Humans from Alien City
+    firstMonth : 0  
+    executionOdds: 100
+    varName: Lib_Var
+    maxRuns: 12                         
+    avoidRepeats: 6  
+    missionWeights:
+      0:
+        STR_BLESSED_LIBERATION: 33
+        STR_ETHERAL_HIGH_COMMAND_LIBERATION: 33
+        STR_SNAKEWOMEN_MATRIARCHY_LIBERATION: 33
+        STR_BLESSED_LIBERATION_2: 33
+        STR_ETHERAL_HIGH_COMMAND_LIBERATION_2: 33
+        STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_2: 33
+        # STR_BLESSED_LIBERATION_3: 33
+        # STR_ETHERAL_HIGH_COMMAND_LIBERATION_3: 33
+        # STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_3: 33
+      # 5:
+      #           STR_BLESSED_ELITE_LIBERATION: 100
+    useTable: false
+    startDelay: 10080
+    randomDelay: 28000
+
+  # - type: liberation2  # Save Humans from Alien City
+  #   firstMonth : 0  
+  #   executionOdds: 100
+  #   varName: Lib_Var2
+  #   maxRuns: 12                         
+  #   avoidRepeats: 6  
+  #   missionWeights:
+  #     0:
+  #       STR_BLESSED_LIBERATION: 33
+  #       STR_ETHERAL_HIGH_COMMAND_LIBERATION: 33
+  #       STR_SNAKEWOMEN_MATRIARCHY_LIBERATION: 33
+  #       STR_BLESSED_LIBERATION_2: 33
+  #       STR_ETHERAL_HIGH_COMMAND_LIBERATION_2: 33
+  #       STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_2: 33
+  #       STR_BLESSED_LIBERATION_3: 33
+  #       # STR_ETHERAL_HIGH_COMMAND_LIBERATION_3: 33
+  #       # STR_SNAKEWOMEN_MATRIARCHY_LIBERATION_3: 33
+  #     # 5:
+  #     #           STR_BLESSED_ELITE_LIBERATION: 100
+  #   useTable: false
+  #   startDelay: 0
+  #   # randomDelay: 28000
+
+###################### BASE SPAWNING ###############
+
+  - type: STR_factionbasespawn_MUTON_WARPACK #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_MUTON_WARPACK: 50
+        # STR_SPAWN_ETHERAL_HIGH_COMMAND_SCOUTS: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_MUTON_WARPACK_startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 5
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 20
+        STR_EUROPE: 5
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 20
+        STR_SOUTH_EAST_ASIA: 5
+        STR_AUSTRALASIA: 5
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 5
+  #       # STR_NORTH_ATLANTIC:
+  #       # STR_SOUTH_ATLANTIC:
+  #       # STR_NORTH_PACIFIC:
+  #       # STR_INDIAN_OCEAN:
+
+
+  - type: STR_factionbasespawn_BLESSED #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_BLESSED: 50
+        # STR_SPAWN_ETHERAL_HIGH_COMMAND_SCOUTS: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_blessed_startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 20
+        STR_NORTH_AFRICA: 20
+        STR_SOUTHERN_AFRICA: 20
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 5
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 5
+  #       # STR_NORTH_ATLANTIC:
+  #       # STR_SOUTH_ATLANTIC:
+  #       # STR_NORTH_PACIFIC:
+  #       # STR_INDIAN_OCEAN:
+
+
+  - type: STR_factionbasespawn_SNAKEWOMEN_MATRIARCHY #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_SNAKEWOMEN_MATRIARCHY: 50
+        # STR_SPAWN_ETHERAL_HIGH_COMMAND_SCOUTS: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_SNAKEWOMEN_MATRIARCHY_start
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 20
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 5
+        STR_EUROPE: 5
+        STR_NORTH_AFRICA: 5
+        STR_SOUTHERN_AFRICA: 20
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 5
+        STR_AUSTRALASIA: 20
+        STR_NORTH_ATLANTIC: 5
+        # STR_SOUTH_ATLANTIC: 
+        # STR_NORTH_PACIFIC: 5
+        # STR_INDIAN_OCEAN: 5
+  #       # STR_NORTH_ATLANTIC:
+  #       # STR_SOUTH_ATLANTIC:
+  #       # STR_NORTH_PACIFIC:
+  #       # STR_INDIAN_OCEAN:
+
+  - type: STR_factionbasespawn_ETHERAL_HIGH_COMMAND #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        # STR_SPAWN_STARTING_BASE_BLESSED: 50
+        STR_SPAWN_STARTING_BASE_ETHERAL_HIGH_COMMAND: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_Etheral_Startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 20
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 5
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 20
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 5
+
+
+  - type: STR_factionbasespawn_MECHARMY #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        # STR_SPAWN_STARTING_BASE_MECHARMY: 50
+        STR_SPAWN_STARTING_BASE_MECH-ARMY: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_Etheral_Startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 20
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 5
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 20
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 5
+
+
+
+  - type: STR_factionbasespawn_AQUATICS_UNDERWATER #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_AQUATICS_UNDERWATER: 100
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_aquatics_UW_Startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        # STR_AFRICA: 10
+        # STR_NORTH_AMERICA: 10
+        # STR_ARCTIC: 5
+        # STR_ANTARCTICA: 5
+        # STR_SOUTH_AMERICA: 10
+        # STR_EUROPE: 10
+        # STR_NORTH_AFRICA: 10
+        # STR_SOUTHERN_AFRICA: 10
+        # STR_CENTRAL_ASIA: 10
+        # STR_SOUTH_EAST_ASIA: 10
+        # STR_AUSTRALASIA: 10
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 25
+        STR_NORTH_PACIFIC: 25
+        STR_INDIAN_OCEAN: 5
+
+  - type: STR_factionbasespawn_GILLMAN_KINGDOM_UNDERWATER #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_GILLMAN_KINGDOM_UNDERWATER: 100
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_GILLMAN_KINGDOM_UW_Startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        # STR_AFRICA: 10
+        # STR_NORTH_AMERICA: 10
+        # STR_ARCTIC: 5
+        # STR_ANTARCTICA: 5
+        # STR_SOUTH_AMERICA: 10
+        # STR_EUROPE: 10
+        # STR_NORTH_AFRICA: 10
+        # STR_SOUTHERN_AFRICA: 10
+        # STR_CENTRAL_ASIA: 10
+        # STR_SOUTH_EAST_ASIA: 10
+        # STR_AUSTRALASIA: 10
+        STR_NORTH_ATLANTIC: 25
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 25
+
+
+
+
+  - type: STR_factionbasespawn_INHERITORS #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_BASE_INHERITORS_ONGOING: 50
+        # STR_SPAWN_ETHERAL_HIGH_COMMAND_SCOUTS: 50
+    useTable: false
+    firstMonth : 0  #should be 0 
+    lastMonth : 0
+    startDelay: 0
+    varName: BaseSpawner_startup_Land_INHERITORS_startup
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        # STR_ANTARCTICA: 5
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 20
+        STR_NORTH_AFRICA: 20
+        STR_SOUTHERN_AFRICA: 20
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 5
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 5
+  #       # STR_NORTH_ATLANTIC:
+  #       # STR_SOUTH_ATLANTIC:
+  #       # STR_NORTH_PACIFIC:
+  #       # STR_INDIAN_OCEAN:
+# ################ RE-OCCURING BASE BUILDING MISSIONS   #####################
+
+
+
+  # - type: STR_factionbasespawn_GILLMAN_KINGDOM_UNDERWATER_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_STARTING_BASE_GILLMAN_KINGDOM_UNDERWATER_ONGOING: 100
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 2000
+  #   randomDelay: 12000
+  #   varName: BaseSpawner_startup_GILLMAN_KINGDOM_UW_OnGoing
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 10
+  #   regionWeights:
+  #     0:     
+  #       # STR_AFRICA: 10
+  #       # STR_NORTH_AMERICA: 10
+  #       # STR_ARCTIC: 5
+  #       # STR_ANTARCTICA: 5
+  #       # STR_SOUTH_AMERICA: 10
+  #       # STR_EUROPE: 10
+  #       # STR_NORTH_AFRICA: 10
+  #       # STR_SOUTHERN_AFRICA: 10
+  #       # STR_CENTRAL_ASIA: 10
+  #       # STR_SOUTH_EAST_ASIA: 10
+  #       # STR_AUSTRALASIA: 10
+  #       STR_NORTH_ATLANTIC: 25
+  #       STR_SOUTH_ATLANTIC: 25
+  #       STR_NORTH_PACIFIC: 25
+  #       STR_INDIAN_OCEAN: 25
+
+  # - type: STR_factionbasespawn_GILLMAN_KINGDOM_UNDERWATER_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_STARTING_BASE_AQUATICS_UNDERWATER_ONGOING: 100
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 2000
+  #   randomDelay: 12000
+  #   varName: BaseSpawner_startup__AQUATICS_UW_OnGoing
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 5
+  #   regionWeights:
+  #     0:     
+  #       # STR_AFRICA: 10
+  #       # STR_NORTH_AMERICA: 10
+  #       # STR_ARCTIC: 5
+  #       # STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 10
+  #       STR_NORTH_AFRICA: 10
+  #       STR_SOUTHERN_AFRICA: 10
+  #       # STR_CENTRAL_ASIA: 10
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 10
+  #       STR_NORTH_ATLANTIC: 15
+  #       STR_SOUTH_ATLANTIC: 15
+  #       STR_NORTH_PACIFIC: 15
+  #       STR_INDIAN_OCEAN: 15
+
+
+  # - type: STR_factionbasespawn_ETHERAL_HIGH_COMMAND_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_BASE_ETHERAL_HIGH_COMMAND_ONGOING: 50
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 5
+  #   varName: BaseSpawner_startup_Land_Etheral_ONGOING
+  #   maxRuns: 10
+  #   targetBaseOdds: 5
+  #   executionOdds: 5
+  #   regionWeights:
+  #     0:     
+  #       STR_ARCTIC: 20
+  #       STR_ANTARCTICA: 20
+  #       STR_NORTH_AMERICA: 20
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 10
+  #       STR_NORTH_AFRICA: 10
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 10
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 10
+  # #       # STR_NORTH_ATLANTIC:
+  # #       # STR_SOUTH_ATLANTIC:
+  # #       # STR_NORTH_PACIFIC:
+  # #       # STR_INDIAN_OCEAN:
+
+  # - type: STR_factionbasespawn_BLESSED_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_BASE_BLESSED_ONGOING: 50
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 0
+  #   varName: BaseSpawner_startup_Land_BLESSED_ONGOING
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 5
+  #   regionWeights:
+  #     0:     
+  #       STR_ARCTIC: 10
+  #       STR_ANTARCTICA: 10
+  #       STR_NORTH_AMERICA: 20
+  #       STR_SOUTH_AMERICA: 30
+  #       STR_EUROPE: 20
+  #       STR_NORTH_AFRICA: 20
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 10
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 10
+  # #       # STR_NORTH_ATLANTIC:
+  # #       # STR_SOUTH_ATLANTIC:
+  # #       # STR_NORTH_PACIFIC:
+  # #       # STR_INDIAN_OCEAN:
+
+
+
+  # - type: STR_factionbasespawn_SNAKEWOMEN_MATRIARCHY_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_BASE_SNAKEWOMEN_MATRIARCHY_ONGOING: 50
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 0
+  #   varName: BaseSpawner_startup_Land_BLESSED_ONGOING
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 5
+  #   regionWeights:
+  #     0:     
+  #       STR_ARCTIC: 10
+  #       STR_ANTARCTICA: 10
+  #       STR_NORTH_AMERICA: 20
+  #       STR_SOUTH_AMERICA: 30
+  #       STR_EUROPE: 20
+  #       STR_NORTH_AFRICA: 20
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 10
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 10
+  # #       # STR_NORTH_ATLANTIC:
+  # #       # STR_SOUTH_ATLANTIC:
+  # #       # STR_NORTH_PACIFIC:
+  # #       # STR_INDIAN_OCEAN:
+
+  # - type: STR_factionbasespawn_MECHARMY_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_BASE_MECHARMY_ONGOING: 50
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 10
+  #   startDelay: 0
+  #   varName: BaseSpawner_startup_Land_MECHARMY_ONGOING
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 5
+  #   regionWeights:
+  #     0:     
+  #       STR_ARCTIC: 5
+  #       STR_ANTARCTICA: 5
+  #       STR_NORTH_AMERICA: 5
+  #       STR_SOUTH_AMERICA: 5
+  #       STR_EUROPE: 5
+  #       STR_NORTH_AFRICA: 20
+  #       STR_SOUTHERN_AFRICA: 20
+  #       STR_CENTRAL_ASIA: 20
+  #       STR_SOUTH_EAST_ASIA: 20
+  #       STR_AUSTRALASIA: 5
+  # #       # STR_NORTH_ATLANTIC:
+  # #       # STR_SOUTH_ATLANTIC:
+  # #       # STR_NORTH_PACIFIC:
+  # #       # STR_INDIAN_OCEAN:
+
+
+
+  # - type: STR_factionbasespawn_HUMANS_ONGOING #test to spawn Alien Starting bases Faction Group:
+  #   missionWeights:
+  #     0:
+  #       STR_SPAWN_BASE_INHERITORS_ONGOING: 50
+  #   useTable: false
+  #   firstMonth : 0  #should be 0 
+  #   lastMonth : 5
+  #   startDelay: 0
+  #   varName: BaseSpawner_startup_humans_ONGOING
+  #   maxRuns: 5
+  #   targetBaseOdds: 5
+  #   executionOdds: 10
+  #   regionWeights:
+  #     0:     
+  #       # STR_ARCTIC: 20
+  #       # STR_ANTARCTICA: 20
+  #       STR_NORTH_AMERICA: 10
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 20
+  #       STR_NORTH_AFRICA: 10
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 20
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 10
+  # #       # STR_NORTH_ATLANTIC:
+  # #       # STR_SOUTH_ATLANTIC:
+  #       STR_NORTH_PACIFIC: 2
+  # #       # STR_INDIAN_OCEAN:
+
+
+
+##### VANILLA UFO & TFTD MISSIONS _ TO BE REVIEW  #####
+
+  - type: researchRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    researchTriggers:
+      STR_THE_MARTIAN_SOLUTION: true
+    startDelay: 150
+    targetBaseOdds: 100
+    useTable: false
+    label: 1
+
+  - type: beginnerRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 14
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1]
+    label: 2
+    startDelay: 150
+
+  - type: experiencedRetaliation
+    minDifficulty: 1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 13
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2]
+    label: 3
+    startDelay: 150
+
+  - type: veteranRetaliation
+    minDifficulty: 2
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 12
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3]
+    label: 4
+    startDelay: 150
+
+  - type: geniusRetaliation
+    minDifficulty: 3
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 11
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4]
+    label: 5
+    startDelay: 150
+
+  - type: superhumanRetaliation
+    minDifficulty: 4
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 10
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-1, -2, -3, -4, -5]
+    startDelay: 150
+
+  - type: researchRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    researchTriggers:
+      STR_THE_ULTIMATE_THREAT: true
+    startDelay: 150
+    targetBaseOdds: 100
+    useTable: false
+    label: 3
+  - type: beginnerRetaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 14
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3]
+    label: 4
+    startDelay: 150
+  - type: experiencedRetaliation
+    minDifficulty: 1
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 13
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3, -4]
+    label: 5
+    startDelay: 150
+  - type: veteranRetaliation
+    minDifficulty: 2
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 12
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3, -4, -5]
+    label: 6
+    startDelay: 150
+  - type: geniusRetaliation
+    minDifficulty: 3
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 10
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3, -4, -5, -6]
+    label: 7
+    startDelay: 150
+  - type: superhumanRetaliation
+    minDifficulty: 4
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    firstMonth: 8
+    targetBaseOdds: 100
+    useTable: false
+    conditionals: [-3, -4, -5, -6, -7]
+    startDelay: 150
+
+
+
+  # - type: DEFEND_FACTION_BASE # LIGHT MISSIONS - SAVE THE FACTIONS BASE AND WIN THEM AS NEW FRIEND
+  #   firstMonth : 4  #
+  #   varName: DFB01_VAR
+  #   maxRuns: 10
+  #   targetBaseOdds: 50
+  #   executionOdds: 100
+  #   researchTriggers:
+  #     STR_NICE_LOVE_MONKEY : true
+  #     STR_EVIL_LOVE_MONKEY : false
+  #   missionWeights:
+  #     0:
+  #       STR_DFB_Xeno: 50
+  #       STR_DFB_Grass: 50
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 10
+  #       STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 10
+  #       STR_NORTH_AFRICA: 5
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 5
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 5
+  #       STR_NORTH_ATLANTIC: 5
+  #       STR_SOUTH_ATLANTIC: 5
+  #       STR_NORTH_PACIFIC: 5
+  #       STR_INDIAN_OCEAN: 5
+  #   useTable: false
+  #   startDelay: 0 #28080
+  #   randomDelay: 28000
+
+  # - type: EXTERMINATE # DARK MISSIONS - EXTERMINATES the Alien Civilian population
+  #   firstMonth : 4  #
+  #   varName: EXTERNMINATE_VARIABLE
+  #   maxRuns: 10
+  #   targetBaseOdds: 50
+  #   executionOdds: 100
+  #   researchTriggers:
+  #     STR_EVIL_LOVE_MONKEY : true
+        # STR_NICE_LOVE_MONKEY : false
+  #   missionWeights:
+  #     0:
+  #       # STR_EXTERMINATE_CITY: 50
+  #       STR_EXTERMINATE_CITY_UW: 50
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 10
+  #       STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 10
+  #       STR_NORTH_AFRICA: 5
+  #       STR_SOUTHERN_AFRICA: 10
+  #       STR_CENTRAL_ASIA: 5
+  #       STR_SOUTH_EAST_ASIA: 10
+  #       STR_AUSTRALASIA: 5
+  #       STR_NORTH_ATLANTIC: 5
+  #       STR_SOUTH_ATLANTIC: 5
+  #       STR_NORTH_PACIFIC: 5
+  #       STR_INDIAN_OCEAN: 5
+  #   useTable: false
+  #   startDelay: 0 #28080
+    #randomDelay: 28000
+
+
+  # - type: faction_UFO_Patrols_UW
+  #   missionWeights:
+  #     0:
+  #       STR_PATROL_AQUATICS: 50
+  #       STR_PATROL_GILLMAN_KINGDOM: 50
+  #   lastMonth: 15
+  #   targetBaseOdds: 40
+  #   # raceWeights:
+  #   #   0:
+  #   #     STR_SECTOID: 100
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 5
+  #       STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 5
+  #       STR_EUROPE: 5
+  #       STR_NORTH_AFRICA: 5
+  #       STR_SOUTHERN_AFRICA: 5
+  #       STR_CENTRAL_ASIA: 5
+  #       STR_SOUTH_EAST_ASIA: 5
+  #       STR_AUSTRALASIA: 5
+  #       STR_NORTH_ATLANTIC: 5
+  #       STR_SOUTH_ATLANTIC: 5
+  #       STR_NORTH_PACIFIC: 5
+  #       STR_INDIAN_OCEAN: 5
+  #   startDelay: 120
+  #   randomDelay: 1800
+
+
+  # - type: faction_UFO_Patrols
+  #   missionWeights:
+  #     0:
+  #       STR_PATROL_ETHERAL_HIGH_COMMAND: 50   #STR_ETHERAL_HIGH_COMMAND_SCOUTS
+  #       STR_PATROL_MUTON WARPACK: 50
+  #   lastMonth: 15
+  #   targetBaseOdds: 40
+  #   # raceWeights:
+  #   #   0:
+  #   #     STR_SECTOID: 100
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 5
+  #       STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 5
+  #       STR_EUROPE: 5
+  #       STR_NORTH_AFRICA: 5
+  #       STR_SOUTHERN_AFRICA: 5
+  #       STR_CENTRAL_ASIA: 5
+  #       STR_SOUTH_EAST_ASIA: 5
+  #       STR_AUSTRALASIA: 5
+  #       STR_NORTH_ATLANTIC: 5
+  #       STR_SOUTH_ATLANTIC: 5
+  #       STR_NORTH_PACIFIC: 5
+  #       STR_INDIAN_OCEAN: 5
+  #   startDelay: 120
+  #   randomDelay: 1800
+
+  # - type: faction_Human_Traitors_Patrols
+  #   missionWeights:
+  #     0:
+  #       STR_INHERITORS_SCOUTS_PATROL: 50   
+  #       STR_SCAVENGERS_SCOUTS_RAID_MISSIONS: 50
+  #   lastMonth: 15
+  #   targetBaseOdds: 70
+  #   # raceWeights:
+  #   #   0:
+  #   #     STR_SECTOID: 100
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 5
+  #       STR_SOUTH_AMERICA: 10
+  #       STR_EUROPE: 5
+  #       STR_NORTH_AFRICA: 10
+  #       STR_SOUTHERN_AFRICA: 5
+  #       STR_CENTRAL_ASIA: 10
+  #       STR_SOUTH_EAST_ASIA: 5
+  #       STR_AUSTRALASIA: 5
+  #   startDelay: 120
+  #   randomDelay: 1800
+
+  # - type: STR_ABDUCTIONS
+  #   missionWeights:
+  #     0:
+  #       STR_MechArmy_ABDUCTIONS: 50   
+  #       STR_SNAKEWOMEN_MATRIARCHY_ABDUCTIONS : 20
+  #       #STR_PATROL_MUTON WARPACK: 50
+  #   lastMonth: 15
+  #   executionOdds: 40
+  #   targetBaseOdds: 40
+  #   # raceWeights:
+  #   #   0:
+  #   #     STR_SECTOID: 100
+  #   regionWeights:
+  #     0:     
+  #       STR_NORTH_AMERICA: 5
+  #       STR_ANTARCTICA: 5
+  #       STR_SOUTH_AMERICA: 5
+  #       STR_EUROPE: 5
+  #       STR_NORTH_AFRICA: 5
+  #       STR_SOUTHERN_AFRICA: 5
+  #       STR_CENTRAL_ASIA: 5
+  #       STR_SOUTH_EAST_ASIA: 5
+  #       STR_AUSTRALASIA: 5
+  #       STR_NORTH_ATLANTIC: 5
+  #       STR_SOUTH_ATLANTIC: 5
+  #       STR_NORTH_PACIFIC: 5
+  #       STR_INDIAN_OCEAN: 5
+  #   startDelay: 3200
+  #   randomDelay: 3300
+
+# ############### hunters ####################
+#   - type: Alien_Hunters
+#     missionWeights:
+#       0:
+#         STR_Alien_Hunters_SNAKEWOMEN_MATRIARCHY: 30
+#         STR_Alien_Hunters_Blessed: 30
+#         STR_Alien_Hunters_MUTONS: 60
+#     lastMonth: 10
+#     executionOdds: 50
+#     targetBaseOdds: 30
+#     # raceWeights:
+#     #   0:
+#     #     STR_SECTOID: 100
+#     regionWeights:
+#       0:     
+#         STR_NORTH_AMERICA: 5
+#         STR_ANTARCTICA: 5
+#         STR_SOUTH_AMERICA: 5
+#         STR_EUROPE: 5
+#         STR_NORTH_AFRICA: 5
+#         STR_SOUTHERN_AFRICA: 5
+#         STR_CENTRAL_ASIA: 5
+#         STR_SOUTH_EAST_ASIA: 5
+#         STR_AUSTRALASIA: 5
+#         STR_NORTH_ATLANTIC: 5
+#         # STR_SOUTH_ATLANTIC: 5
+#         # STR_NORTH_PACIFIC: 5
+#         # STR_INDIAN_OCEAN: 5
+#     startDelay: 46250
+#     randomDelay: 25000
+
+
+  - type: STR_factionbasespawn_THEARRIVAL_1 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_1
+    # minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 0
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+  
+  - type: STR_factionbasespawn_THEARRIVAL_2 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_2
+    # minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 0
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 0
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 10
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+  
+  - type: STR_factionbasespawn_THEARRIVAL_3 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_3
+    # minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 0
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 10
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+
+  - type: STR_factionbasespawn_THEARRIVAL_4 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_4
+    # minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 0
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 0
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 5
+
+  - type: STR_factionbasespawn_THEARRIVAL_5 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_5
+    # minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 0
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 0
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 0
+
+  - type: STR_factionbasespawn_THEARRIVAL_6 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_6
+    minDifficulty: 2
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 5
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 5
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 10
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+
+  - type: STR_factionbasespawn_THEARRIVAL_7 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_7
+    minDifficulty: 3
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 5
+        STR_SOUTH_AMERICA: 5
+        STR_EUROPE: 5
+        STR_NORTH_AFRICA: 5
+        STR_SOUTHERN_AFRICA: 5
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 5
+        STR_AUSTRALASIA: 5
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+
+  - type: STR_factionbasespawn_THEARRIVAL_8 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_8
+    minDifficulty: 3
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        STR_SOUTH_AMERICA: 5
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 5
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 5
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 0
+
+  - type: STR_factionbasespawn_THEARRIVAL_9 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_9
+    minDifficulty: 4
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 0
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 0
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 0
+        STR_CENTRAL_ASIA: 10
+        STR_SOUTH_EAST_ASIA: 0
+        STR_AUSTRALASIA: 10
+        STR_NORTH_ATLANTIC: 0
+        STR_SOUTH_ATLANTIC: 5
+        STR_NORTH_PACIFIC: 0
+        STR_INDIAN_OCEAN: 5
+
+  - type: STR_factionbasespawn_THEARRIVAL_10 #test to spawn Alien Starting bases Faction Group:
+    missionWeights:
+      0:
+        STR_SPAWN_STARTING_BASE_DISPOSSESSED: 50
+    useTable: false
+    firstMonth : 14 #should be 0 
+    lastMonth : 14
+    startDelay: 2000
+    # researchTriggers:
+    #   STR_THE_MARTIAN_SOLUTION: true
+    varName: BaseSpawner_startup_Land_DISPOSSESSED_ARRIVAL_10
+    minDifficulty: 4
+    maxRuns: 1
+    targetBaseOdds: 5
+    executionOdds: 100
+    regionWeights:
+      0:     
+        STR_NORTH_AMERICA: 10
+        STR_SOUTH_AMERICA: 0
+        STR_EUROPE: 10
+        STR_NORTH_AFRICA: 0
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 10
+        STR_AUSTRALASIA: 0
+        STR_NORTH_ATLANTIC: 5
+        STR_SOUTH_ATLANTIC: 0
+        STR_NORTH_PACIFIC: 5
+        STR_INDIAN_OCEAN: 0

@@ -1,0 +1,833 @@
+lookWeights:
+  - 0
+  - 2
+  - 49
+  - 49
+maleFirst:
+  - Aata
+  - Ata
+  - Atawhai
+  - Ahia
+  - Ahinariki
+  - Ahipene
+  - Apirana
+  - Apera
+  - Aperahama
+  - Arapeta
+  - Etera
+  - Hahona
+  - Haimona
+  - Haki
+  - Hara
+  - Hari
+  - Hatarei
+  - Hau
+  - Hehu
+  - Heketoro
+  - Hemi
+  - Hirini
+  - Hiruharama
+  - Hohepa
+  - Honi
+  - Honoiwairua
+  - Hukarere
+  - Hunapo
+  - Iarere
+  - Iehohapata
+  - Ieni
+  - Ietepere
+  - Ietoro
+  - Ihaia
+  - Ihaka
+  - Iharaira
+  - Ihimaera
+  - Ihipa
+  - Ihu
+  - Ikaroa
+  - Inoke
+  - Iorama
+  - Iorangi
+  - Iotama
+  - Ira
+  - Iraia
+  - Iwi
+  - Kai
+  - Kaihautu
+  - Kaili
+  - Kale
+  - Kamaka
+  - Kapena
+  - Kapono
+  - Keahi
+  - Keanu
+  - Kiritowha
+  - Konala
+  - Loe
+  - Mana
+  - Marama
+  - Matiu
+  - Maui
+  - Pio
+  - Piripi
+  - Rangi
+  - Ra
+  - Rameka
+  - Rapata
+  - Rongo
+  - Ruru
+  - Taine
+  - Tama
+  - Tamati
+  - Tane
+  - Tanemahuta
+  - Hatfacoa
+  - Tangi
+  - Tautoru
+  - Tui
+  - Wi
+  - Wiremu
+  - Wiri
+  - Wirimu
+femaleFirst:
+  - Ahere
+  - Ahorangi
+  - Ahuaiti
+  - Ahurewa
+  - Alamea
+  - Aolani
+  - Aratiki
+  - Arikiwi
+  - Aroha
+  - Arorangi
+  - Aruhe
+  - Awa
+  - Awi
+  - Ehetere
+  - Emauha
+  - Emere
+  - Emiri
+  - Epa
+  - Erena
+  - Erene
+  - Erenora
+  - Eruini
+  - Haeata
+  - Hahana
+  - Hakeke
+  - Hanga
+  - Harakeke
+  - Harata
+  - Haukiwaho
+  - Hauku
+  - Haumiaroa
+  - Hauora
+  - Haupuku
+  - Haurahi
+  - Hekeheke
+  - Heni
+  - Hepetema
+  - Hera
+  - Herene
+  - Hihiri
+  - Hinapouri
+  - Hine
+  - Hineana
+  - Hinemoana
+  - Hiri
+  - Hoane
+  - Hoata
+  - Hokioi
+  - Honemoana
+  - Horiana
+  - Horowai
+  - Hotoke
+  - Huhana
+  - Huia
+  - Hukapapa
+  - Ihapera
+  - Inia
+  - Iolana
+  - Irapeta
+  - Irihapeti
+  - Iritana
+  - Irueca
+  - Iucihi
+  - Iwa
+  - Iwalani
+  - Kahikatoa
+  - Kahu
+  - Kahurangi
+  - Kaiarahi
+  - Kaihautu
+  - Kaitaka
+  - Kakama
+  - Kakarauri
+  - Kakariki
+  - Kalea
+  - Kamea
+  - Keoni
+  - Kieli
+  - Kinipela
+  - Kiri
+  - Konane
+  - Kowhai
+  - Mariama
+  - Lahela
+  - Lani
+  - Lealani
+  - Leiko
+  - Liko
+  - Liliha
+  - Luana
+  - Lulani
+  - Maile
+  - Makani
+  - Mahinaarangi
+  - Maleah
+  - Malo
+  - Manaia
+  - Mele
+  - Miliani
+  - Moana
+  - Nalanie
+  - Ngaire
+  - Nohealani
+  - Oke
+  - Onaona  
+  - Papatuanuku
+  - Peata
+  - Petani
+  - Palila
+  - Pekelo
+  - Pilialoha
+  - Tama
+  - Tino Aroha
+  - Ulani
+  - Wiki
+  - Wikitoria
+maleLast:
+  - Amai (DEYE)
+  - Aperahama (DEYE)
+  - Atama (DEYE)
+  - Ahipene (DEYE)
+  - Ahitana (DEYE)
+  - Ahuriri (DEYE)
+  - Aihue (DEYE)
+  - Akara (DEYE)
+  - Akariri (DEYE)
+  - Akuhata (DEYE)
+  - Alana (DEYE)
+  - Amohanga (DEYE)
+  - Anaha (DEYE)
+  - Anaru (DEYE)
+  - Aotea (DEYE)
+  - Apatari (DEYE)
+  - Acatui (DEYE)
+  - Ariari (DEYE)
+  - A Tau (DEYE)
+  - Atutahi (DEYE)
+  - Awanui (DEYE)
+  - Awatere (DEYE)
+  - Ema (DEYE)
+  - Eparaima (DEYE)
+  - Erueti (DEYE)
+  - Haehae (DEYE)
+  - Haira (DEYE)
+  - Hakaraia (DEYE)
+  - Hakopa (DEYE)
+  - Hale (DEYE)
+  - Hamahona (DEYE)
+  - Hape (DEYE)
+  - Hapeta (DEYE)
+  - Hapi (DEYE)
+  - Hapimana (DEYE)
+  - Hapuku (DEYE)
+  - Harakeke (DEYE)
+  - Harata (DEYE)
+  - Harawira (DEYE)
+  - Hari (DEYE)
+  - Hatarini (DEYE)
+  - Hatata (DEYE)
+  - Hati (DEYE)
+  - Haturini (DEYE)
+  - Hau (DEYE)
+  - Haua (DEYE)
+  - Hauiti (DEYE)
+  - Haukamau (DEYE)
+  - Hauraki (DEYE)
+  - Hautapu (DEYE)
+  - Hautonga (DEYE)
+  - Hautu (DEYE)
+  - Hawea (DEYE)
+  - Heka (DEYE)
+  - Hekekia (DEYE)
+  - Hemania (DEYE)
+  - Hemara (DEYE)
+  - Henare (DEYE)
+  - Herangi (DEYE)
+  - Herekiuha (DEYE)
+  - Hereora (DEYE)
+  - Heretini (DEYE)
+  - Herewini (DEYE)
+  - Heta (DEYE)
+  - Hetaraka (DEYE)
+  - Heteriki (DEYE)
+  - Hikawai (DEYE)
+  - Himiona (DEYE)
+  - Hinekura (DEYE)
+  - Hinerangi (DEYE)
+  - Hinerau (DEYE)
+  - Hinga (DEYE)
+  - Hireme (DEYE)
+  - Hirini (DEYE)
+  - Hita (DEYE)
+  - Hoani (DEYE)
+  - Hoepo (DEYE)
+  - Hoera (DEYE)
+  - Hoeta (DEYE)
+  - Hohaia (DEYE)
+  - Hohapata (DEYE)
+  - Hohepa (DEYE)
+  - Hohia (DEYE)
+  - Hokianga (DEYE)
+  - Hokotoki (DEYE)
+  - Hona (DEYE)
+  - Hone (DEYE)
+  - Honetana (DEYE)
+  - Hongi (DEYE)
+  - Hoori (DEYE)
+  - Hopa (DEYE)
+  - Hori (DEYE)
+  - Horohau (DEYE)
+  - Horomona (DEYE)
+  - Horua (DEYE)
+  - Hoterene (DEYE)
+  - Hotu (DEYE)
+  - Huatahi (DEYE)
+  - Huhu (DEYE)
+  - Huiarangia (DEYE)
+  - Huka (DEYE)
+  - Humana (DEYE)
+  - Hunua (DEYE)
+  - Hura (DEYE)
+  - Huritu (DEYE)
+  - Huriwaka (DEYE)
+  - Ihaea (DEYE)
+  - Ihaia (DEYE)
+  - Iona (DEYE)
+  - Irihapete (DEYE)
+  - Irimana (DEYE)
+  - Iti (DEYE)
+  - Kahale (DEYE)
+  - Kahananui (DEYE)
+  - Kahele (DEYE)
+  - Kahiwai (DEYE)
+  - Kahiwirori (DEYE)
+  - Kahue (DEYE)
+  - Kahukakanui (DEYE)
+  - Kahukura (DEYE)
+  - Kaihau (DEYE)
+  - Kaimoana (DEYE)
+  - Kainamu (DEYE)
+  - Kaingariro (DEYE)
+  - Kainuku (DEYE)
+  - Kaipapa (DEYE)
+  - Kairau (DEYE)
+  - Kaire (DEYE)
+  - Kaiteke (DEYE)
+  - Kaiwi (DEYE)
+  - Kakewahine (DEYE)
+  - Kalama (DEYE)
+  - Kalani (DEYE)
+  - Kalawai'a (DEYE)
+  - Kalili (DEYE)
+  - Kalua (DEYE)
+  - Kama (DEYE)
+  - Kamaka (DEYE)
+  - Kamealoha (DEYE)
+  - Kamira (DEYE)
+  - Kamuwai (DEYE)
+  - Kaneri (DEYE)
+  - Kanuta (DEYE)
+  - Kapene (DEYE)
+  - Kaponga (DEYE)
+  - Kapule (DEYE)
+  - Karahina (DEYE)
+  - Karaitiana (DEYE)
+  - Karaka (DEYE)
+  - Karakiakore (DEYE)
+  - Karamaena (DEYE)
+  - Kararene (DEYE)
+  - Karati (DEYE)
+  - Karekare (DEYE)
+  - Kareko (DEYE)
+  - Karena (DEYE)
+  - Katene (DEYE)
+  - Katete (DEYE)
+  - Katipa (DEYE)
+  - Kauamo (DEYE)
+  - Kaui (DEYE)
+  - Kaukau (DEYE)
+  - Kaura (DEYE)
+  - Kautarewa (DEYE)
+  - Kawana (DEYE)
+  - Kawai (DEYE)
+  - Kawau (DEYE)
+  - Ka'ana'ana (DEYE)
+  - Ka'aukai (DEYE)
+  - Ka'uhane (DEYE)
+  - Kawiti (DEYE)
+  - Keahi (DEYE)
+  - Kealoha (DEYE)
+  - Keawe (DEYE)
+  - Kepa (DEYE)
+  - Kekoa (DEYE)
+  - Kelekolio (DEYE)
+  - Keli'i (DEYE)
+  - Kena (DEYE)
+  - Keno (DEYE)
+  - Kepa (DEYE)
+  - Kerapa (DEYE)
+  - Kereama (DEYE)
+  - Kerei (DEYE)
+  - Keremeneta (DEYE)
+  - Kereoma (DEYE)
+  - Kereopa (DEYE)
+  - Kerepeti (DEYE)
+  - Kereru (DEYE)
+  - Kereti (DEYE)
+  - Kewa (DEYE)
+  - Kiarie (DEYE)
+  - Kimura (DEYE)
+  - Kingi (DEYE)
+  - Kinihe (DEYE)
+  - Kino Te Ahiwaka (DEYE)
+  - Kirikino (DEYE)
+  - Kirikiri (DEYE)
+  - Kiriwi (DEYE)
+  - Kiwara (DEYE)
+  - Koha (DEYE)
+  - Kohena (DEYE)
+  - Kohikikko (DEYE)
+  - Kohu (DEYE)
+  - Kokiri (DEYE)
+  - Komene (DEYE)
+  - Koni (DEYE)
+  - Koperau (DEYE)
+  - Kopiri (DEYE)
+  - Koroheke (DEYE)
+  - Korohunga (DEYE)
+  - Koroi Ngawhau (DEYE)
+  - Kotuhi (DEYE)
+  - Kouku (DEYE)
+  - Kupa (DEYE)
+  - Kurawhatia (DEYE)
+  - Kuru (DEYE)
+  - Kuti (DEYE)
+  - Kane (DEYE)
+  - Maaka (DEYE)
+  - Maeka (DEYE)
+  - Maere (DEYE)
+  - Mahaka (DEYE)
+  - Mahauariki (DEYE)
+  - Mahelona (DEYE)
+  - Mahe'ai (DEYE)
+  - Mahia (DEYE)
+  - Mahima (DEYE)
+  - Mahoe (DEYE)
+  - Mahoe (DEYE)
+  - Mahu   (DEYE)
+  - Mahuta (DEYE)
+  - Mahutoto (DEYE)
+  - Maihi (DEYE)
+  - Maipi (DEYE)
+  - Maka (DEYE)
+  - Makara (DEYE)
+  - Makatea (DEYE)
+  - Makawe (DEYE)
+  - Makiha (DEYE)
+  - Makiri (DEYE)
+  - Manawaroa (DEYE)
+  - Mane (DEYE)
+  - Mangu (DEYE)
+  - Mania (DEYE)
+  - Maniapoto (DEYE)
+  - Manihera (DEYE)
+  - Mare (DEYE)
+  - Mareroa (DEYE)
+  - Marino (DEYE)
+  - Marore (DEYE)
+  - Marupo (DEYE)
+  - Matakorama (DEYE)
+  - Matene (DEYE)
+  - Matenga (DEYE)
+  - Materoa (DEYE)
+  - Matewhitu (DEYE)
+  - Mau (DEYE)
+  - Mauhana (DEYE)
+  - Mauheni (DEYE)
+  - Maukau (DEYE)
+  - Mauwhata (DEYE)
+  - Mawe (DEYE)
+  - Mawhiu (DEYE)
+  - Metua (DEYE)
+  - Mihinui (DEYE)
+  - Mikaere (DEYE)
+  - Miki (DEYE)
+  - Minapara (DEYE)
+  - Mio (DEYE)
+  - Moananui (DEYE)
+  - Moeahu (DEYE)
+  - Moera (DEYE)
+  - Meoroa (DEYE)
+  - Mohi (DEYE)
+  - Moka (DEYE)
+  - Moke (DEYE)
+  - Moke Te Ora (DEYE)
+  - Monita (DEYE)
+  - Morehu (DEYE)
+  - Morete (DEYE)
+  - Morunga (DEYE)
+  - Motutere (DEYE)
+  - Muriwai (DEYE)
+  - Muru (DEYE)
+  - Munu (DEYE)
+  - Natana (DEYE)
+  - Nawaia (DEYE)
+  - Neho (DEYE)
+  - Nehua (DEYE)
+  - Nene (DEYE)
+  - Nepia (DEYE)
+  - Ngahere (DEYE)
+  - Ngahiwi (DEYE)
+  - Ngahoro (DEYE)
+  - Ngaia (DEYE)
+  - Ngaio (DEYE)
+  - Ngakaho (DEYE)
+  - Ngamoenga (DEYE)
+  - Ngamoki (DEYE)
+  - Ngamu (DEYE)
+  - Ngapune (DEYE)
+  - Ngare (DEYE)
+  - Ngarara (DEYE)
+  - Ngata (DEYE)
+  - Ngatai (DEYE)
+  - Ngataierua (DEYE)
+  - Ngataki (DEYE)
+  - Ngatoko (DEYE)
+  - Ngatono (DEYE)
+  - Ngawe (DEYE)
+  - Ngawharau (DEYE)
+  - Ngerengere (DEYE)
+  - Ngohe (DEYE)
+  - Ngoungou (DEYE)
+  - Nikau (DEYE)
+  - Nikora (DEYE)
+  - Nuitone (DEYE)
+  - Nukaiahu (DEYE)
+  - Nutana (DEYE)
+  - Nutira (DEYE)
+  - Ohutu (DEYE)
+  - Oketopa (DEYE)
+  - Oneroa (DEYE)
+  - Otene (DEYE)
+  - Otimi (DEYE)
+  - Paekou (DEYE)
+  - Paenga (DEYE)
+  - Paerata (DEYE)
+  - Paewai (DEYE)
+  - Pahau (DEYE)
+  - Pahi (DEYE)
+  - Pahua (DEYE)
+  - Pai (DEYE)
+  - Paipa (DEYE)
+  - Pairama (DEYE)
+  - Pakau (DEYE)
+  - Paki (DEYE)
+  - Pakinui (DEYE)
+  - Pakira (DEYE)
+  - Paku (DEYE)
+  - Palakiko (DEYE)
+  - Panapa (DEYE)
+  - Panera (DEYE)
+  - Panina (DEYE)
+  - Panoho (DEYE)
+  - Paora (DEYE)
+  - Papa Titore (DEYE)
+  - Paparangi (DEYE)
+  - Paraeroa (DEYE)
+  - Paraha (DEYE)
+  - Paraihe (DEYE)
+  - Paranihi (DEYE)
+  - Paranihihi (DEYE)
+  - Paraone (DEYE)
+  - Parata (DEYE)
+  - Paratene (DEYE)
+  - Paratini (DEYE)
+  - Pare (DEYE)
+  - Parehe (DEYE)
+  - Parekaremu (DEYE)
+  - Pareraukawa (DEYE)
+  - Paringatai (DEYE)
+  - Patariki (DEYE)
+  - Patihana (DEYE)
+  - Patu (DEYE)
+  - Patuone (DEYE)
+  - Patuwai (DEYE)
+  - Patuwairua (DEYE)
+  - Paura (DEYE)
+  - Pauro (DEYE)
+  - Pawhau (DEYE)
+  - Peehikuru (DEYE)
+  - Pepe (DEYE)
+  - Peita (DEYE)
+  - Peka (DEYE)
+  - Peneha (DEYE)
+  - Penehare (DEYE)
+  - Peneta (DEYE)
+  - Penetito (DEYE)
+  - Pepene (DEYE)
+  - Pera (DEYE)
+  - Peraniko (DEYE)
+  - Perawiti (DEYE)
+  - Pereki (DEYE)
+  - Perepe (DEYE)
+  - Peri (DEYE)
+  - Pihama (DEYE)
+  - Pikari (DEYE)
+  - Pio (DEYE)
+  - Pirere (DEYE)
+  - Pirika (DEYE)
+  - Piripi (DEYE)
+  - Piwari (DEYE)
+  - Poa (DEYE)
+  - Poaro (DEYE)
+  - Pohe (DEYE)
+  - Pohio (DEYE)
+  - Pohopohe (DEYE)
+  - Poiakino (DEYE)
+  - Poihipi (DEYE)
+  - Pokai (DEYE)
+  - Pomana (DEYE)
+  - Pomare (DEYE)
+  - Popata (DEYE)
+  - Potaka (DEYE)
+  - Potangaroa (DEYE)
+  - Potatau (DEYE)
+  - Poti (DEYE)
+  - Potiki (DEYE)
+  - Pouhiki (DEYE)
+  - Pourewa (DEYE)
+  - Pouwhare (DEYE)
+  - Puanga (DEYE)
+  - Puano (DEYE)
+  - Puhi (DEYE)
+  - Phutaniwharau (DEYE)
+  - Puku (DEYE)
+  - Puna (DEYE)
+  - Pura (DEYE)
+  - Puru (DEYE)
+  - Purukama (DEYE)
+  - Puti (DEYE)
+  - Purutanga (DEYE)
+  - Raharuhi (DEYE)
+  - Raihania (DEYE)
+  - Rakete (DEYE)
+  - Raki (DEYE)
+  - Rakiraki (DEYE)
+  - Rako (DEYE)
+  - Ranana (DEYE)
+  - Rangihaeata (DEYE)
+  - Rangimakere (DEYE)
+  - Rangipaeroa (DEYE)
+  - Rangiatakaiwaho (DEYE)
+  - Rangitaura (DEYE)
+  - Rangitukiwaho (DEYE)
+  - Rangiwai (DEYE)
+  - Rapana (DEYE)
+  - Rapihana (DEYE)
+  - Rapira (DEYE)
+  - Raponi (DEYE)
+  - Rarere (DEYE)
+  - Ratahi (DEYE)
+  - Ratima (DEYE)
+  - Rauhihi (DEYE)
+  - Rautangi (DEYE)
+  - Rawiri (DEYE)
+  - Rehanga (DEYE)
+  - Rehutai (DEYE)
+  - Rei (DEYE)
+  - Reihana (DEYE)
+  - Remaha (DEYE)
+  - Remi (DEYE)
+  - Remihana (DEYE)
+  - Renata (DEYE)
+  - Rerekura (DEYE)
+  - Reweti (DEYE)
+  - Rewi (DEYE)
+  - Rewiti (DEYE)
+  - Ria (DEYE)
+  - Rihari (DEYE)
+  - Rihia (DEYE)
+  - Riki (DEYE)
+  - Rikirangi (DEYE)
+  - Riwhi (DEYE)
+  - Romana (DEYE)
+  - Rona (DEYE)
+  - Ronaki (DEYE)
+  - Ropata (DEYE)
+  - Rotoatara (DEYE)
+  - Tuatara (DEYE)
+  - Ruawai (DEYE)
+  - Ruepena (DEYE)
+  - Ruka (DEYE)
+  - Rukutai (DEYE)
+  - Rupaha (DEYE)
+  - Rurawhe (DEYE)
+  - Ruru (DEYE)
+  - Ruwhiu (DEYE)
+  - Te Puke Nui (DEYE)
+  - Tare (DEYE)
+  - Taekata (DEYE)
+  - Tahana (DEYE)
+  - Tahere (DEYE)
+  - Tai (DEYE)
+  - Taiapa (DEYE)
+  - Taiaroa (DEYE)
+  - Taimana (DEYE)
+  - Taimona (DEYE)
+  - Taipari (DEYE)
+  - Taite (DEYE)
+  - Taitimu (DEYE)
+  - Taitua (DEYE)
+  - Tautuha (DEYE)
+  - Taka (DEYE)
+  - Takao (DEYE)
+  - Takarangi (DEYE)
+  - Takimoana (DEYE)
+  - Takitimu (DEYE)
+  - Takoto (DEYE)
+  - Takuira (DEYE)
+  - Tamahana (DEYE)
+  - Tamaikoha (DEYE)
+  - Tamainu (DEYE)
+  - Tamaiparea (DEYE)
+  - Tamaka (DEYE)
+  - Tamakaha (DEYE)
+  - Tamaki (DEYE)
+  - Tamaoho (DEYE)
+  - Tamapahore (DEYE)
+  - Tamarau (DEYE)
+  - Tamatea (DEYE)
+  - Tamati (DEYE)
+  - Tamawaru (DEYE)
+  - Tamihana (DEYE)
+  - Tamihaua (DEYE)
+  - Tanara (DEYE)
+  - Tangaroa (DEYE)
+  - Tangipo (DEYE)
+  - Tangohau (DEYE)
+  - Taniora (DEYE)
+  - Taniwha (DEYE)
+  - Tarakaho (DEYE)
+  - Taranui (DEYE)
+  - Taratoa (DEYE)
+  - Tareha (DEYE)
+  - Tareuke (DEYE)
+  - tata (DEYE)
+  - Tau (DEYE)
+  - Taua (DEYE)
+  - Tauhore (DEYE)
+  - taui (DEYE)
+  - Taira (DEYE)
+  - Taukamo (DEYE)
+  - Taumatahera (DEYE)
+  - Taupo (DEYE)
+  - Taurua (DEYE)
+  - Tautari (DEYE)
+  - Tautuhi (DEYE)
+  - Tawera (DEYE)
+  - Tawhai (DEYE)
+  - Tawhara (DEYE)
+  - Te Ahwaka (DEYE)
+  - Te Aho (DEYE)
+  - Te Akau (DEYE)
+  - Te Ao (DEYE)
+  - Te Apa (DEYE)
+  - Te Aranui (DEYE)
+  - Te Atua (DEYE)
+  - Te Awa (DEYE)
+  - Te Hae (DEYE)
+  - Te Huia (DEYE)
+  - Te Kanawa (DEYE)
+  - Te Kataua (DEYE)
+  - Te Kepa (DEYE)
+  - Te Mana (DEYE)
+  - Te Nga (DEYE)
+  - Te Owai (DEYE)
+  - Te Papa (DEYE)
+  - Te Peke (DEYE)
+  - Te Tuhi (DEYE)
+  - Tei (DEYE)
+  - Tekoikoi (DEYE)
+  - Tepeke (DEYE)
+  - Tepere (DEYE)
+  - Teraki (DEYE)
+  - Teriroa (DEYE)
+  - Teremai (DEYE)
+  - Timu (DEYE)
+  - Tipene (DEYE)
+  - Toia (DEYE)
+  - Tokona (DEYE)
+  - Tongariro (DEYE)
+  - Taumaunu (DEYE)
+  - Tuhapo (DEYE)
+  - Tuke (DEYE)
+  - Tupe (DEYE)
+  - Turei (DEYE)
+  - Wahi (DEYE)
+  - Waka (DEYE)
+  - Wara (DEYE)
+  - Waiariki (DEYE)
+  - Waiata (DEYE)
+  - Waihape (DEYE)
+  - Wainohu (DEYE)
+  - Waiohenga (DEYE)
+  - Waipa (DEYE)
+  - Waipouri (DEYE)
+  - Wairua (DEYE)
+  - Waitara (DEYE)
+  - Waitoa (DEYE)
+  - Waitokia (DEYE)
+  - Waiwiri (DEYE)
+  - Wanoa (DEYE)
+  - Wanui (DEYE)
+  - Warakihi (DEYE)
+  - Warana (DEYE)
+  - Warauri (DEYE)
+  - Warena (DEYE)
+  - Watene (DEYE)
+  - Wati (DEYE)
+  - Wehipeihana (DEYE)
+  - Wepiha (DEYE)
+  - Whanga (DEYE)
+  - Whaekiri (DEYE)
+  - Whaitiri (DEYE)
+  - Whakaari (DEYE)
+  - Whakaata (DEYE)
+  - Whanaupunga (DEYE)
+  - Whangapirita (DEYE)
+  - Wharekawa (DEYE)
+  - Wharekiri (DEYE)
+  - Wharepapa (DEYE)
+  - Wharerau (DEYE)
+  - Whati (DEYE)
+  - Whetu (DEYE)
+  - Whiu (DEYE)
+  - Wihapi (DEYE)
+  - Wikaire (DEYE)
+  - Wikitapu (DEYE)
+  - Witana (DEYE)
+  - Witehira (DEYE)
+  - Witika (DEYE)
+  - Akamu (DEYE)

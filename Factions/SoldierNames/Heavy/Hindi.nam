@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Abhijay
+  - Adil
+  - Chandresh
+  - Dev
+  - Dinesh
+  - Govinda
+  - Jaideep
+  - Kanak
+  - Mahesh
+  - Neelam
+  - Om
+  - Pallav
+  - Parmesh
+  - Rajesh
+  - Ranjit
+  - Samir
+  - Sanjiv
+  - Sudeep
+  - Vihaan
+  - Yogendra
+  - Sachin
+  - Rahul
+  - Anil
+  - Virender
+  - Kapil
+  - Sourav
+  - Harbhajan
+femaleFirst:
+  - Ajita
+  - Amma
+  - Avinashi
+  - Deepti
+  - Gulab
+  - Hina
+  - Indira
+  - Jasweer
+  - Kalinda
+  - Keva
+  - Madhuri
+  - Meera
+  - Neela
+  - Parvati
+  - Priti
+  - Ranhita
+  - Roshan
+  - Savitri
+  - Sitesh
+  - Ushma
+  - Vritika
+  - Zahra
+maleLast:
+  - Sharma (HEAVY)
+  - Verma (HEAVY)
+  - Chowdhury (HEAVY)
+  - Singh (HEAVY)
+  - Misra (HEAVY)
+  - Kumar (HEAVY)
+  - Gupta (HEAVY)
+  - Malik (HEAVY)
+  - Chopra (HEAVY)
+  - Prasad (HEAVY)
+  - Acharya (HEAVY)
+  - Agarwal (HEAVY)
+  - Malhotra (HEAVY)
+  - Jain (HEAVY)
+  - Saini (HEAVY)
+  - Khan (HEAVY)
+  - Shah (HEAVY)
+  - Narayan (HEAVY)
+  - Mistry (HEAVY)
+  - Joshi (HEAVY)
+  - Goyal (HEAVY)
+  - Roy (HEAVY)
+  - Tendulkar (HEAVY)
+  - Dravid (HEAVY)
+  - Kumble (HEAVY)
+  - Sehwag (HEAVY)
+  - Dev (HEAVY)
+  - Ganguly (HEAVY)

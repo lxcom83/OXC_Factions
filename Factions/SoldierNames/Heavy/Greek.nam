@@ -1,0 +1,1141 @@
+lookWeights:
+  - 50
+  - 49
+  - 1
+  - 0
+maleFirst:
+  - Abderus
+  - Absyrtus
+  - Abydos
+  - Acastus
+  - Achates
+  - Achelous
+  - Acheron
+  - Achilles
+  - Achlys
+  - Acrisius
+  - Actaeon
+  - Acteon
+  - Adelphos
+  - Admes
+  - Admetus
+  - Adonis
+  - Adras
+  - Adrastos
+  - Adrastus
+  - Adrian
+  - Aeacus
+  - Aeetes
+  - Aegeus
+  - Aegis
+  - Aegisthus
+  - Aegyptus
+  - Aeneas
+  - Aeolus
+  - Aesculapius
+  - Aeson
+  - Aetos
+  - Agamedes
+  - Agape
+  - Agatone
+  - Aindreas
+  - Aindriu
+  - Ajax
+  - Akil
+  - Alasd
+  - Alcander
+  - Alcinoos
+  - Alcinous
+  - Alcnaeon
+  - Alcyoneus
+  - Alddes
+  - Alessandro
+  - Alex
+  - Alexander
+  - Alexandras
+  - Alexandros
+  - Alexandrukas
+  - Alexei
+  - Alexio
+  - Alix
+  - Aloeus
+  - Alpheus
+  - Altair
+  - Amaoebus
+  - Ambrocio
+  - Ambrose
+  - Ambrus
+  - Amphiaraus
+  - Amphion
+  - Amphitryon
+  - Ampyx
+  - Amycus
+  - Anastagio
+  - Anastasio
+  - Anastasios
+  - Anastasius
+  - Anasztaz
+  - Anatol
+  - Anatole
+  - Anatoli
+  - Anatolijus
+  - Anatolio
+  - Ancaeus
+  - Anchises
+  - Andor
+  - Andreas
+  - Andres
+  - Andreus
+  - Andrew
+  - Andries
+  - Androgeus
+  - Androu
+  - Anstice
+  - Anstiss
+  - Antaeus
+  - Antares
+  - Anteros
+  - Antilochus
+  - Antinous
+  - Antiphates
+  - Anton
+  - Antony
+  - Aonghas
+  - Apollo
+  - Apoloniusz
+  - Apostolos
+  - Arcadicus
+  - Arcas
+  - Arcenio
+  - Archemorus
+  - Ares
+  - Argo
+  - Argos
+  - Argus
+  - Arion
+  - Aristaeus
+  - Aristo
+  - Arsen
+  - Arsenio
+  - Artemas
+  - Artemesio
+  - Artemus
+  - Ascalaphus
+  - Asklepios
+  - Asopus
+  - Athamas
+  - Athan
+  - Athanasios
+  - Athanasius
+  - Atlas
+  - Atreus
+  - Attis
+  - Autolycus
+  - Avernus
+  - Baccaus
+  - Baccus
+  - Balasi
+  - Baltsaros
+  - Baptiste
+  - Basil
+  - Basile
+  - Basilio
+  - Baste
+  - Bastiaan
+  - Bastien
+  - Baucis
+  - Bazyli
+  - Bemus
+  - Biton
+  - Boreas
+  - Brasidas
+  - Briareus
+  - Brygus
+  - Butades
+  - Cadmus
+  - Caesare
+  - Calchas
+  - Calisto
+  - Capaneus
+  - Caseareo
+  - Castor
+  - Cecrops
+  - Celeus
+  - Cenon
+  - Cephalus
+  - Cepheus
+  - Cesare
+  - Cetus
+  - Ceyx
+  - Chris
+  - Christan
+  - Christiano
+  - Christoph
+  - Christopher
+  - Christophoros
+  - Christos
+  - Chruse
+  - Chrysostom
+  - Cimon
+  - Cirio
+  - Ciro
+  - Claas
+  - Claus
+  - Cleobis
+  - Cleon
+  - Cletus
+  - Cleytus
+  - Clio
+  - Cocytus
+  - Coeus
+  - Coireall
+  - Cole
+  - Colin
+  - Colum
+  - Corban
+  - Coridan
+  - Corybantes
+  - Corydon
+  - Cos
+  - Cosmas
+  - Cosmo
+  - Cottus
+  - Creon
+  - Cretien
+  - Cristoforo
+  - Cristophe
+  - Cronus
+  - Ctesippus
+  - Cyrano
+  - Cyrek
+  - Cyril
+  - Cyrus
+  - Cyryl
+  - Damae
+  - Damalis
+  - Damaris
+  - Damaskenos
+  - Damaskinos
+  - Damen
+  - Dameon
+  - Damian
+  - Damion
+  - Damon
+  - Danaus
+  - Dardanus
+  - Darian
+  - Darien
+  - Darion
+  - Darrian
+  - Darrien
+  - Darrion
+  - Daymon
+  - Deke
+  - Dekel
+  - Dekle
+  - Delbin
+  - Demetre
+  - Demetri
+  - Demetrios
+  - Demetrius
+  - Demitri
+  - Demitrius
+  - Demodocus
+  - Demophon
+  - Demoritus
+  - Denes
+  - Dennis
+  - Deo
+  - Deucalion
+  - Doran
+  - Dorian
+  - Dorion
+  - Drakon
+  - Drew
+  - Dymas
+  - Eachann
+  - Efterpi
+  - Egidio
+  - Eleftherios
+  - Elek
+  - Eleutherios
+  - Eli
+  - Enceladus
+  - Endre
+  - Endymion
+  - Eneas
+  - Eoghan
+  - Epeius
+  - Erasmus
+  - Erebus
+  - Erechtheus
+  - Erichthonius
+  - Erymanthus
+  - Erysichthon
+  - Eryx
+  - Estevao
+  - Eteocles
+  - Etor
+  - Eubuleus
+  - Eugen
+  - Eugene
+  - Eugenio
+  - Eugenios
+  - Eumaeus
+  - Eupeithes
+  - Euphrosyne
+  - Eurus
+  - Euryalus
+  - Eurylochus
+  - Eurymachus
+  - Eurypylus
+  - Eurystheus
+  - Euryton
+  - Eusebius
+  - Eustace
+  - Eustachy
+  - Eustis
+  - Evan
+  - Evzen
+  - Fedor
+  - Feodor
+  - Feodras
+  - Filippo
+  - Filips
+  - Flip
+  - Fulop
+  - Gaelan
+  - Galan
+  - Galen
+  - Galinthias
+  - Galyn
+  - Gelasius
+  - Georg
+  - George
+  - Georges
+  - Giles
+  - Glaucus
+  - Goran
+  - Graeae
+  - Gregoire
+  - Gregoly
+  - Gregor
+  - Gregorie
+  - Gregorior
+  - Gregory
+  - Gregos
+  - Grigor
+  - Grigorov
+  - Gruev
+  - Guilio
+  - Gyes
+  - Gyoergy
+  - Gyorgy
+  - Gyuri
+  - Haemon
+  - Hali
+  - Halithersis
+  - Hector
+  - Helios
+  - Herodotus
+  - Homar
+  - Homer
+  - Homeros
+  - Homerus
+  - Hypnos
+  - Ibycus
+  - Icarius
+  - Icarus
+  - Icelos
+  - Icos
+  - Idas
+  - Igorr
+  - Inachus
+  - Iorgas
+  - Iphitus
+  - Istvan
+  - Ivan
+  - Ivankor
+  - Ixion
+  - Jaison
+  - Jase
+  - Jasen
+  - Jason
+  - Jayce
+  - Jayr
+  - Jaysen
+  - Jayson
+  - Jencir
+  - Jeno
+  - Jeroenr
+  - Jerome
+  - Jerzyr
+  - Jirkar
+  - Jorenr
+  - Julius
+  - Jurgisr
+  - Kadmus
+  - Kairos
+  - Khristos
+  - Khrystiyanr
+  - Kit
+  - Klaasr
+  - Klaus
+  - Korudon
+  - Kosmosr
+  - Kratos
+  - Krikor
+  - Krischnan
+  - Kristian
+  - Kristofr
+  - Krystupasr
+  - Krzysztofr
+  - Kuirilr
+  - Kyrillos
+  - Kyrillosr
+  - Kyros
+  - Ladon
+  - Laertes
+  - Laestrygones
+  - Laius
+  - Lander
+  - Laocoon
+  - Laomedon
+  - Leander
+  - Leandro
+  - Leonidas
+  - Lichas
+  - Linus
+  - Lippio
+  - Lotus
+  - Loxias
+  - Luke
+  - Lycaon
+  - Lycomedes
+  - Lycurgus
+  - Lynceus
+  - Lysander
+  - Marcario
+  - Maurice
+  - Medus
+  - Melampus
+  - Melancton
+  - Melanthius
+  - Menelaus
+  - Menoeceus
+  - Mentor
+  - Midas
+  - Mikolas
+  - Miles
+  - Milo
+  - Minos
+  - Momus
+  - Mopsus
+  - Moses
+  - Myles
+  - Myron
+  - Narkis
+  - Nauplius
+  - Neleus
+  - Nemo
+  - Nemos
+  - Neo
+  - Nicholas
+  - Nicholaus
+  - Nicias
+  - Nick
+  - Nicodemus
+  - Nicolas
+  - Nicolaus
+  - Nik
+  - Nike
+  - Niklaus
+  - Nikodem
+  - Nikolai
+  - Nikolajis
+  - Nikolos
+  - Niles
+  - Nilo
+  - Nilos
+  - Nisus
+  - Notus
+  - Obiareus
+  - Oighrig
+  - Oles
+  - Orrin
+  - Orthros
+  - Otis
+  - Pan
+  - Panagiotis
+  - Pancratius
+  - Panos
+  - Panteleimon
+  - Papandrou
+  - Paris
+  - Patroclus
+  - Patroklos
+  - Pavlos
+  - Peadair
+  - Peder
+  - Pegeen
+  - Peleus
+  - Pelias
+  - Pello
+  - Pelops
+  - Pero
+  - Perrin
+  - Peterke
+  - Petrelis
+  - Petros
+  - Petter
+  - Phantasos
+  - Phaon
+  - Philemon
+  - Philip
+  - Philipp
+  - Philippe
+  - Phillip
+  - Philo
+  - Phineas
+  - Phineus
+  - Phrixus
+  - Phylo
+  - Piero
+  - Pierro
+  - Pieter
+  - Pietr
+  - Pietro
+  - Pilib
+  - Piotr
+  - Pippo
+  - Pirithous
+  - Pirro
+  - Pittheus
+  - Plato
+  - Platon
+  - Plexippus
+  - Plutus
+  - Pollux
+  - Poseidon
+  - Preben
+  - Priam
+  - Priapus
+  - Procrustes
+  - Prokopios
+  - Prometheus
+  - Prophyrios
+  - Protesilaus
+  - Ptolemy
+  - Pyramus
+  - Rasmus
+  - Rhodes
+  - Risto
+  - Sabastian
+  - Salmoneus
+  - Scopas
+  - Sebasten
+  - Sebastian
+  - Sebastiano
+  - Simon
+  - Sinon
+  - Socrates
+  - Sofronio
+  - Soterios
+  - Spyridon
+  - Stamitos
+  - Stavros
+  - Steafan
+  - Stefan
+  - Stefano
+  - Stefanos
+  - Stefford
+  - Stefon
+  - Stephano
+  - Stephanos
+  - Stephen
+  - Stephon
+  - Steven
+  - Steverino
+  - Takis
+  - Talos
+  - Talus
+  - Tantalus
+  - Tarasios
+  - Teague
+  - Telamon
+  - Telegonus
+  - Telemachus
+  - Telephus
+  - Tellus
+  - Teodors
+  - Teofile
+  - Teuthras
+  - Thad
+  - Thaddeus
+  - Thaddius
+  - Thadeus
+  - Thais
+  - Thanatos
+  - Thanos
+  - Thaumas
+  - Theo
+  - Theociymenus
+  - Theodon
+  - Theodore
+  - Theodosios
+  - Theodrekr
+  - Theodric
+  - Theon
+  - Theophile
+  - Theophilus
+  - Theron
+  - Therron
+  - Thersites
+  - Theseus
+  - Thomas
+  - Thyestes
+  - Tiege
+  - Tim
+  - Timeus
+  - Timmy
+  - Timocrates
+  - Timoleon
+  - Timon
+  - Timotheos
+  - Timothy
+  - Timun
+  - Tiomoid
+  - Tito
+  - Titos
+  - Titus
+  - Tityus
+  - Tivadar
+  - Todor
+  - Toxeus
+  - Triton
+  - Trophonius
+  - Turannos
+  - Tydeus
+  - Tylissus
+  - Tymek
+  - Tymon
+  - Tyndareus
+  - Typhoeus
+  - Typhon
+  - Tyrone
+  - Ulysses
+  - Urian
+  - Vasileios
+  - Vasilios
+  - Vasilis
+  - Vasos
+  - VasyItso
+  - Vasyklo
+  - Vasyl
+  - Xanthus
+  - Xeno
+  - Xenophon
+  - Xenos
+  - Xerxes
+  - Xuthus
+  - Xylon
+  - Yanni
+  - Yehor
+  - Yuri
+  - Zale
+  - Zarek
+  - Zelotes
+  - Zeno
+  - Zenobio
+  - Zenon
+  - Zenos
+  - Zephyr
+  - Zero
+  - Zerro
+  - Zetes
+  - Zoltan
+  - Zoltar
+  - Zorba
+  - Zotico
+femaleFirst:
+  - Acacia
+  - Acantha
+  - Aegea
+  - Aeola
+  - Agalia
+  - Alala
+  - Aldora
+  - Aleni
+  - Anatolia
+  - Andrianna
+  - Anemone
+  - Angeline
+  - Aphrodite
+  - Athena
+  - Athenagora
+  - Calantha
+  - Calida
+  - Cassia
+  - Cyra
+  - Damia
+  - Daphne
+  - Deianira
+  - Delia
+  - Dido
+  - Dimitra
+  - Echo
+  - Elma
+  - Elpida
+  - Emalia
+  - Erianthe
+  - Euphemia
+  - Euphenia
+  - Evadne
+  - Evanthe
+  - Fotini
+  - Galatea
+  - Georgia
+  - Halcyone
+  - Helena
+  - Helia
+  - Hera
+  - Hermione
+  - Isadora
+  - Jocasta
+  - Kalidas
+  - Kaligenia
+  - Kalligenia
+  - Kallirrhoe
+  - Kalonice
+  - Kyriakoula
+  - Lalage
+  - Leandra
+  - Leda
+  - Lycoris
+  - Lyris
+  - Marina
+  - Medora
+  - Melantha
+  - Melina
+  - Melissa
+  - Mona
+  - Neola
+  - Neona
+  - Nerissa
+  - Niobe
+  - Olga
+  - Orthia
+  - Pandora
+  - Pangiota
+  - Pelagia
+  - Penelope
+  - Persephone
+  - Philantha
+  - Philomela
+  - Philomena
+  - Philothea
+  - Phoebe
+  - Rhea
+  - Saphhira
+  - Sofronia
+  - Stamata
+  - Stella
+  - Tassia
+  - Tassula
+  - Tessa
+  - Thaddea
+  - Thalassa
+  - Tharsia
+  - Theodosia
+  - Theophilia
+  - Thetis
+  - Timothea
+  - Toula
+  - Xantippe
+  - Yana
+  - Zenaida
+  - Zenobia
+  - Zephyra
+  - Zoe
+maleLast:
+  - Alexopoulos (HEAVY)
+  - Anagyros (HEAVY)
+  - Anastassios (HEAVY)
+  - Andreadis (HEAVY)
+  - Andreos (HEAVY)
+  - Andriopoulos (HEAVY)
+  - Andronikos (HEAVY)
+  - Andros (HEAVY)
+  - Androuchelli (HEAVY)
+  - Androupolos (HEAVY)
+  - Androutsos (HEAVY)
+  - Angelis (HEAVY)
+  - Angelomatis (HEAVY)
+  - Angelos (HEAVY)
+  - Anistonopoulos (HEAVY)
+  - Anninos (HEAVY)
+  - Antikatzides (HEAVY)
+  - Antonatos (HEAVY)
+  - Antonious (HEAVY)
+  - Argyra (HEAVY)
+  - Athanasiadis (HEAVY)
+  - Athanassiadi (HEAVY)
+  - Averoff (HEAVY)
+  - Axelos (HEAVY)
+  - Bakirdzis (HEAVY)
+  - Bakogianni (HEAVY)
+  - Balanos (HEAVY)
+  - Bazignos (HEAVY)
+  - Bessarion (HEAVY)
+  - Bizos (HEAVY)
+  - Borbokis (HEAVY)
+  - Botsaris (HEAVY)
+  - Boudouris (HEAVY)
+  - Bourgani (HEAVY)
+  - Capodistria (HEAVY)
+  - Carides (HEAVY)
+  - Castriota (HEAVY)
+  - Catalactus (HEAVY)
+  - Chacoliades (HEAVY)
+  - Chakiris (HEAVY)
+  - Christodoulos (HEAVY)
+  - Clerides (HEAVY)
+  - Constandouros (HEAVY)
+  - Constantinis (HEAVY)
+  - Cosmatos (HEAVY)
+  - Costanduros (HEAVY)
+  - Costi (HEAVY)
+  - Cotsadis (HEAVY)
+  - Couloumbis (HEAVY)
+  - Coulouris (HEAVY)
+  - Deligiannis (HEAVY)
+  - Deligiorgis (HEAVY)
+  - Delivorias (HEAVY)
+  - Dellas (HEAVY)
+  - Demertzis (HEAVY)
+  - Demosthenous (HEAVY)
+  - Dimas (HEAVY)
+  - Dimitrakos (HEAVY)
+  - Dimitriades (HEAVY)
+  - Dimitris (HEAVY)
+  - Dimotsios (HEAVY)
+  - Diomedes (HEAVY)
+  - Dontas (HEAVY)
+  - Doxiadis (HEAVY)
+  - Dukakis (HEAVY)
+  - Duvis (HEAVY)
+  - Economakis (HEAVY)
+  - Economos (HEAVY)
+  - Eliades (HEAVY)
+  - Elipandas (HEAVY)
+  - Ellinas (HEAVY)
+  - Farakos (HEAVY)
+  - Fettas (HEAVY)
+  - Florakis (HEAVY)
+  - Galonopoulas (HEAVY)
+  - Gatsioudis (HEAVY)
+  - Gatzioudis (HEAVY)
+  - Gavrielides (HEAVY)
+  - Gennadios (HEAVY)
+  - Genovelis (HEAVY)
+  - Georghios (HEAVY)
+  - Giorgiou (HEAVY)
+  - Gislenus (HEAVY)
+  - Gizikis (HEAVY)
+  - Glezos (HEAVY)
+  - Gogos (HEAVY)
+  - Gonatas (HEAVY)
+  - Goulandris (HEAVY)
+  - Gounaris (HEAVY)
+  - Gousetti (HEAVY)
+  - Grivas (HEAVY)
+  - Hagiorgis (HEAVY)
+  - Hajiyanni (HEAVY)
+  - Halara (HEAVY)
+  - Harteros (HEAVY)
+  - Iakovakis (HEAVY)
+  - Iakovos (HEAVY)
+  - Iatrides (HEAVY)
+  - Ioannidis (HEAVY)
+  - Ioannos (HEAVY)
+  - Issigonis (HEAVY)
+  - Joakimides (HEAVY)
+  - Kairis (HEAVY)
+  - Kaklamanakis (HEAVY)
+  - Kakoulli (HEAVY)
+  - Kalergi (HEAVY)
+  - Kallabis (HEAVY)
+  - Kalvos (HEAVY)
+  - Kanaris (HEAVY)
+  - Kanellopoulos (HEAVY)
+  - Kaphandaris (HEAVY)
+  - Karahi (HEAVY)
+  - Karaiskakis (HEAVY)
+  - Karamanlis (HEAVY)
+  - Karatossos (HEAVY)
+  - Karoki (HEAVY)
+  - Karyoti (HEAVY)
+  - Kasomoulis (HEAVY)
+  - Katsantonis (HEAVY)
+  - Katsaris (HEAVY)
+  - Kenteris (HEAVY)
+  - Khadjikyriakos (HEAVY)
+  - Klaras (HEAVY)
+  - Kochalakos (HEAVY)
+  - Koffa (HEAVY)
+  - Kokkinos (HEAVY)
+  - Kokotis (HEAVY)
+  - Kolettis (HEAVY)
+  - Kollias (HEAVY)
+  - Kolokotronis (HEAVY)
+  - Kondylis (HEAVY)
+  - Kontoghiorghes (HEAVY)
+  - Korais (HEAVY)
+  - Korkizoglu (HEAVY)
+  - Korres (HEAVY)
+  - Koryzis (HEAVY)
+  - Koskotas (HEAVY)
+  - Kostanopoulos (HEAVY)
+  - Kostopulos (HEAVY)
+  - Kotaridos (HEAVY)
+  - Koukodimos (HEAVY)
+  - Koukoudimos (HEAVY)
+  - Koumoundouros (HEAVY)
+  - Koundouriotis (HEAVY)
+  - Kourniakis (HEAVY)
+  - Kousoulas (HEAVY)
+  - Kozani (HEAVY)
+  - Kritopoulos (HEAVY)
+  - Kyprianos (HEAVY)
+  - Kyriacos (HEAVY)
+  - Kyriakos (HEAVY)
+  - Kyriazis (HEAVY)
+  - Lambrakis (HEAVY)
+  - Lambrianos (HEAVY)
+  - Lambrinos (HEAVY)
+  - Lathouris (HEAVY)
+  - Lazardis (HEAVY)
+  - Leonidis (HEAVY)
+  - Lianis (HEAVY)
+  - Logotheti (HEAVY)
+  - Louca (HEAVY)
+  - Louganis (HEAVY)
+  - Louvaris (HEAVY)
+  - Lyssarides (HEAVY)
+  - Maganas (HEAVY)
+  - Magos (HEAVY)
+  - Maharis (HEAVY)
+  - Makarezos (HEAVY)
+  - Makrigiannis (HEAVY)
+  - Malachias (HEAVY)
+  - Maliagros (HEAVY)
+  - Mangakis (HEAVY)
+  - Marcoullides (HEAVY)
+  - Mardas (HEAVY)
+  - Marinatos (HEAVY)
+  - Markezinis (HEAVY)
+  - Markoulides (HEAVY)
+  - Markoullides (HEAVY)
+  - Marsolais (HEAVY)
+  - Martis (HEAVY)
+  - Matacena (HEAVY)
+  - Mavridos (HEAVY)
+  - Mavrogordatos (HEAVY)
+  - Mavrokordatos (HEAVY)
+  - Mavromikhalis (HEAVY)
+  - Mavros (HEAVY)
+  - Mavroudis (HEAVY)
+  - Maximos (HEAVY)
+  - Melas (HEAVY)
+  - Meletoglos (HEAVY)
+  - Melikis (HEAVY)
+  - Melissanides (HEAVY)
+  - Mercouri (HEAVY)
+  - Merukides (HEAVY)
+  - Messimeris (HEAVY)
+  - Metaxas (HEAVY)
+  - Michaelis (HEAVY)
+  - Mikalis (HEAVY)
+  - Mikhalakopoulos (HEAVY)
+  - Militis (HEAVY)
+  - Mitros (HEAVY)
+  - Mitsotakis (HEAVY)
+  - Monomachus (HEAVY)
+  - Moscopolis (HEAVY)
+  - Moumoulidis (HEAVY)
+  - Muscouri (HEAVY)
+  - Mylonas (HEAVY)
+  - Nafpliotis (HEAVY)
+  - Negris (HEAVY)
+  - Niarkhos (HEAVY)
+  - Nikolaides (HEAVY)
+  - Onassis (HEAVY)
+  - Orphanides (HEAVY)
+  - Oxinos (HEAVY)
+  - Palamas (HEAVY)
+  - Pallis (HEAVY)
+  - Panagiatopoulos (HEAVY)
+  - Panagiopoulos (HEAVY)
+  - Panagiotopos (HEAVY)
+  - Panagou (HEAVY)
+  - Panagoulias (HEAVY)
+  - Panagoulis (HEAVY)
+  - Panaotis (HEAVY)
+  - Panavoglos (HEAVY)
+  - Panayi (HEAVY)
+  - Panayides (HEAVY)
+  - Panayiotopoulos (HEAVY)
+  - Panayiotos (HEAVY)
+  - Pangalos (HEAVY)
+  - Papadakis (HEAVY)
+  - Papademetrios (HEAVY)
+  - Papadias (HEAVY)
+  - Papadopolos (HEAVY)
+  - Papadopoulos (HEAVY)
+  - Papadoupolos (HEAVY)
+  - Papafagos (HEAVY)
+  - Papageorgios (HEAVY)
+  - Papagos (HEAVY)
+  - Papakostas (HEAVY)
+  - Papamichael (HEAVY)
+  - Papanastasiou (HEAVY)
+  - Papandreou (HEAVY)
+  - Papasotiriou (HEAVY)
+  - Papatamelis (HEAVY)
+  - Papathanassios (HEAVY)
+  - Papoulias (HEAVY)
+  - Pappas (HEAVY)
+  - Parastadidis (HEAVY)
+  - Pattakos (HEAVY)
+  - Pavlakakis (HEAVY)
+  - Pentzopoulos (HEAVY)
+  - Pesmazoglos (HEAVY)
+  - Pheraios (HEAVY)
+  - Philipousis (HEAVY)
+  - Pierides (HEAVY)
+  - Pietris (HEAVY)
+  - Pipinelis (HEAVY)
+  - Pittakis (HEAVY)
+  - Pittakys (HEAVY)
+  - Plastiras (HEAVY)
+  - Polides (HEAVY)
+  - Polycarpous (HEAVY)
+  - Polychroniadis (HEAVY)
+  - Polychronios (HEAVY)
+  - Polydoros (HEAVY)
+  - Polymeropoulos (HEAVY)
+  - Polymeros (HEAVY)
+  - Polyzos (HEAVY)
+  - Popotas (HEAVY)
+  - Porpurogenitos (HEAVY)
+  - Pratkanis (HEAVY)
+  - Prevalakis (HEAVY)
+  - Primikynos (HEAVY)
+  - Psara (HEAVY)
+  - Psaros (HEAVY)
+  - Psaroulakis (HEAVY)
+  - Rallis (HEAVY)
+  - Saltsidis (HEAVY)
+  - Samos (HEAVY)
+  - Sampras (HEAVY)
+  - Sanassis (HEAVY)
+  - Sarakatsani (HEAVY)
+  - Saraphis (HEAVY)
+  - Sardzetakis (HEAVY)
+  - Sarris (HEAVY)
+  - Sartzetakis (HEAVY)
+  - Sarus (HEAVY)
+  - Savakis (HEAVY)
+  - Savalos (HEAVY)
+  - Savvides (HEAVY)
+  - Sbokos (HEAVY)
+  - Senteildis (HEAVY)
+  - Siantos (HEAVY)
+  - Sicilianos (HEAVY)
+  - Simopoulos (HEAVY)
+  - Sirtis (HEAVY)
+  - Skandalis (HEAVY)
+  - Skiotis (HEAVY)
+  - Skouloudis (HEAVY)
+  - Skouphas (HEAVY)
+  - Solomos (HEAVY)
+  - Sophoulis (HEAVY)
+  - Souvaltzis (HEAVY)
+  - Stamanakis (HEAVY)
+  - Stasi (HEAVY)
+  - Stavrakis (HEAVY)
+  - Stavrianakis (HEAVY)
+  - Stavrianos (HEAVY)
+  - Stephanopoulos (HEAVY)
+  - Stoikos (HEAVY)
+  - Strapoudopolos (HEAVY)
+  - Stratis (HEAVY)
+  - Stroubakos (HEAVY)
+  - Taliadoros (HEAVY)
+  - Tathouris (HEAVY)
+  - Tavoularis (HEAVY)
+  - Terzin (HEAVY)
+  - Theodopoulos (HEAVY)
+  - Theodorakis (HEAVY)
+  - Theophanous (HEAVY)
+  - Theothanos (HEAVY)
+  - Theotokis (HEAVY)
+  - Touliatos (HEAVY)
+  - Tournikiotis (HEAVY)
+  - Tragianopoulos (HEAVY)
+  - Trikoupis (HEAVY)
+  - Tsakolov (HEAVY)
+  - Tsaldaris (HEAVY)
+  - Tsatsos (HEAVY)
+  - Tsavdaridos (HEAVY)
+  - Tsiamita (HEAVY)
+  - Tsigakos (HEAVY)
+  - Tsikouna (HEAVY)
+  - Tsiolakoudi (HEAVY)
+  - Tsirigolis (HEAVY)
+  - Tsirimokos (HEAVY)
+  - Tsolakoglos (HEAVY)
+  - Tsoni (HEAVY)
+  - Tsouderos (HEAVY)
+  - Tsougarakis (HEAVY)
+  - Tsoutsouvas (HEAVY)
+  - Tsyoma (HEAVY)
+  - Tzannetakis (HEAVY)
+  - Tzivas (HEAVY)
+  - Vadeki (HEAVY)
+  - Valaoritis (HEAVY)
+  - Valvis (HEAVY)
+  - Vaphiadis (HEAVY)
+  - Vardakastanis (HEAVY)
+  - Varvaressos (HEAVY)
+  - Vasdeki (HEAVY)
+  - Vasdekis (HEAVY)
+  - Vasiliou (HEAVY)
+  - Vassilides (HEAVY)
+  - Vatatzes (HEAVY)
+  - Veloukhiotis (HEAVY)
+  - Venizelos (HEAVY)
+  - Verdanis (HEAVY)
+  - Vergopoulos (HEAVY)
+  - Vlakhos (HEAVY)
+  - Voulgaris (HEAVY)
+  - Voulgaropoulos (HEAVY)
+  - Vouris (HEAVY)
+  - Xanthos (HEAVY)
+  - Xenakis (HEAVY)
+  - Xydis (HEAVY)
+  - Yannopoulos (HEAVY)
+  - Yialouris (HEAVY)
+  - Ypsilantis (HEAVY)
+  - Zafiropoulos (HEAVY)
+  - Zaimis (HEAVY)
+  - Zakhariadis (HEAVY)
+  - Zarikos (HEAVY)
+  - Zervakos (HEAVY)
+  - Zervas (HEAVY)
+  - Zikos (HEAVY)
+  - Zindilis (HEAVY)
+  - Zisimides (HEAVY)
+  - Zographas (HEAVY)
+  - Zoitakis (HEAVY)
+  - Zolotas (HEAVY)

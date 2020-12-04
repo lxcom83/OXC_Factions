@@ -1,0 +1,786 @@
+lookWeights:
+  - 49
+  - 49
+  - 2
+  - 0
+maleFirst:
+  - Absalon
+  - Adam
+  - Adolf
+  - Albert
+  - Alex
+  - Alexander
+  - Alf
+  - Alfred
+  - Allan
+  - Anders
+  - Andreas
+  - Anker
+  - Anton
+  - Arne
+  - Arnold
+  - Aron
+  - Arthur
+  - Arvid
+  - Asbjoorn
+  - Asger
+  - Aske
+  - Asmus
+  - August
+  - Axel
+  - Bendt
+  - Benjamin
+  - Benny
+  - Bent
+  - Bernhard
+  - Bernt
+  - Bertel
+  - Berthel
+  - Bertram
+  - Birger
+  - Bjarke
+  - Bjarne
+  - Bjork
+  - Bjorn
+  - Bo
+  - Boje
+  - Borge
+  - Boye
+  - Brian
+  - Bruno
+  - Carsten
+  - Casper
+  - Chresten
+  - Chris
+  - Christen
+  - Christian
+  - Christoffer
+  - Christopher
+  - Claus
+  - Daniel
+  - Danni
+  - Danny
+  - David
+  - Dennis
+  - Ditlev
+  - Edvard
+  - Edvin
+  - Egon
+  - Eigil
+  - Ejgil
+  - Ejnar
+  - Ejner
+  - Ejvind
+  - Elias
+  - Elmer
+  - Elo
+  - Emanuel
+  - Emil
+  - Erik
+  - Erland
+  - Erling
+  - Ernst
+  - Esajas
+  - Esben
+  - Eskild
+  - Evald
+  - Ferdinand
+  - Filip
+  - Finn
+  - Flemming
+  - Frands
+  - Frank
+  - Frans
+  - Freddy
+  - Frede
+  - Frederik
+  - Frithiof
+  - Frithjof
+  - Frits
+  - Frode
+  - Georg
+  - Gerhard
+  - Germund
+  - Gert
+  - Gorm
+  - Gotfred
+  - Gregers
+  - Gunder
+  - Gunnar
+  - Gunner
+  - Gustav
+  - Harald
+  - Hardy
+  - Harry
+  - Helge
+  - Helmer
+  - Hemming
+  - Henning
+  - Henrik
+  - Henry
+  - Herman
+  - Hjalmar
+  - Hjalte
+  - Holger
+  - Hugo
+  - Immanuel
+  - Ingolf
+  - Ivan
+  - Ivar
+  - Iver
+  - Jacob
+  - Jakob
+  - Jan
+  - Jannick
+  - Jannik
+  - Jens
+  - Jeppe
+  - Jeremias
+  - Jes
+  - Jesper
+  - Jim
+  - Jimmi
+  - Jimmy
+  - Joachim
+  - Joakim
+  - Joel
+  - Johan
+  - Johannes
+  - John
+  - Johnny
+  - Jon
+  - Jonas
+  - Jonatan
+  - Jonathan
+  - Jorgen
+  - Jorn
+  - Josef
+  - Jul
+  - Julian
+  - Julius
+  - Just
+  - Kaj
+  - Kaleb
+  - Karl
+  - Karsten
+  - Kasper
+  - Keld
+  - Ken
+  - Kenneth
+  - Kent
+  - Kevin
+  - Kim
+  - Kjeld
+  - Klaus
+  - Knud
+  - Kresten
+  - Kristen
+  - Kristian
+  - Kristoffer
+  - Kurt
+  - Lars
+  - Lasse
+  - Lau
+  - Lauge
+  - Laurids
+  - Laurits
+  - Lauritz
+  - Laurs
+  - Laust
+  - Lave
+  - Leif
+  - Lennart
+  - Leo
+  - Leon
+  - Lucas
+  - Ludvig
+  - Lukas
+  - Lykke
+  - Mads
+  - Magnus
+  - Malte
+  - Malthe
+  - Marc
+  - Marcus
+  - Marinus
+  - Marius
+  - Mark
+  - Markus
+  - Martin
+  - Mathias
+  - Mathies
+  - Matthaeus
+  - Matthias
+  - Max
+  - Michael
+  - Mikael
+  - Mike
+  - Mikkel
+  - Mogens
+  - Morten
+  - Mourits
+  - Nick
+  - Nicki
+  - Nicklas
+  - Nicolai
+  - Nicolaj
+  - Niels
+  - Niklas
+  - Nikolai
+  - Nikolaj
+  - Nils
+  - Nis
+  - Noah
+  - Olaf
+  - Olav
+  - Ole
+  - Oliver
+  - Oluf
+  - Orla
+  - Oscar
+  - Oskar
+  - Osvald
+  - Otto
+  - Ove
+  - Palle
+  - Patrick
+  - Paul
+  - Paulus
+  - Paw
+  - Peder
+  - Per
+  - Peter
+  - Philip
+  - Phillip
+  - Poul
+  - Povl
+  - Preben
+  - Rasmus
+  - Rene
+  - Richard
+  - Robert
+  - Robin
+  - Rolf
+  - Ronald
+  - Ronni
+  - Ronnie
+  - Rune
+  - Samuel
+  - Sebastian
+  - Severin
+  - Sigfred
+  - Sigurd
+  - Silas
+  - Simon
+  - Sofus
+  - Sonny
+  - Sophus
+  - Soren
+  - Steen
+  - Stefan
+  - Steffen
+  - Sten
+  - Stephan
+  - Steven
+  - Stig
+  - Storm
+  - Sune
+  - Svend
+  - Tage
+  - Teddy
+  - Theis
+  - Theodor
+  - Thomas
+  - Thor
+  - Thorbjorn
+  - Thorkild
+  - Thorvald
+  - Thyge
+  - Tim
+  - Tobias
+  - Toke
+  - Tom
+  - Tomas
+  - Tommy
+  - Tonni
+  - Tonny
+  - Tony
+  - Torben
+  - Torkild
+  - Torsten
+  - Troels
+  - Tue
+  - Uffe
+  - Ulf
+  - Ulrik
+  - Vagn
+  - Valdemar
+  - Valentin
+  - Verner
+  - Victor
+  - Viggo
+  - Viktor
+  - Vilhelm
+  - Villads
+  - Villy
+  - William
+  - Willy
+  - Zacharias
+  - Zakarias
+  - Hans
+femaleFirst:
+  - Abellona
+  - Abelone
+  - Abigale
+  - Adela
+  - Agneta
+  - Alberte
+  - Albertha
+  - Alisa
+  - Almeta
+  - Alvilda
+  - Ane
+  - Anesa
+  - Anina
+  - Annalisa
+  - Anndrea
+  - Annelise
+  - Annemette
+  - Annina
+  - Aren
+  - Arisje
+  - Arvada
+  - Asa
+  - Astrid
+  - Belenda
+  - Belinde
+  - Bente
+  - Bergitte
+  - Bergliot
+  - Birgita
+  - Birgitte
+  - Birte
+  - Britta
+  - Brunhilde
+  - Caia
+  - Caja
+  - Cathrine
+  - Clady
+  - Dagmar
+  - Dana
+  - Ditte
+  - Dorete
+  - Dorothea
+  - Ebba
+  - Elle
+  - Else
+  - Eva
+  - Federikke
+  - Freja
+  - Freya
+  - Fritz
+  - Gelsomina
+  - Gerdi
+  - Gitte
+  - Gjerta
+  - Greta
+  - Grete
+  - Grethe
+  - Gry
+  - Gudrun
+  - Gulla
+  - Gullan
+  - Gunilla
+  - Gytha
+  - Hanne
+  - Helle
+  - Ide
+  - Idunn
+  - Inga
+  - Ingeborg
+  - Ingelise
+  - Inger
+  - Ingred
+  - Janne
+  - Jannicke
+  - Jensine
+  - Johanne
+  - Kaia
+  - Kaja
+  - Karen
+  - Karin
+  - Karon
+  - Karoline
+  - Karren
+  - Karrin
+  - Karyn
+  - Katrine
+  - Kirsten
+  - Kolinka
+  - Kristine
+  - Laila
+  - Larina
+  - Larine
+  - Laerke
+  - Lecia
+  - Lisbet
+  - Lise
+  - Lone
+  - Lovise
+  - Magdalone
+  - Malene
+  - Maren
+  - Margareta
+  - Margarete
+  - Margaretha
+  - Margarethe
+  - Margerethe
+  - Marika
+  - Marike
+  - Mathilde
+  - Matilde
+  - Merete
+  - Meta
+  - Metalise
+  - Mettalisa
+  - Mettalise
+  - Mia
+  - Pernille
+  - Rebekka
+  - Rikke
+  - Silje
+  - Solvej
+  - Stefania
+  - Thorbjorg
+  - Thorborg
+  - Thordis
+  - Thorid
+  - Thurid
+  - Torbjorg
+  - Torid
+  - Toril
+  - Ulrica
+  - Ulrike
+  - Urd
+  - Vibeke
+  - Anne
+  - Mette
+  - Anna
+  - Susanne
+  - Lene
+  - Inge
+  - Maria
+  - Marianne
+  - Camilla
+  - Pia
+  - Jette
+  - Charlotte
+  - Louise
+maleLast:
+  - Adriansen (BRAW)
+  - Andersen (BRAW)
+  - Andreasen (BRAW)
+  - Andresen (BRAW)
+  - Any (BRAW)
+  - Arge (BRAW)
+  - Arneborg (BRAW)
+  - Assenbjerg (BRAW)
+  - Auken (BRAW)
+  - Bach (BRAW)
+  - Bak (BRAW)
+  - Bang (BRAW)
+  - Bau (BRAW)
+  - Bech (BRAW)
+  - Beck (BRAW)
+  - Bekker (BRAW)
+  - Berg (BRAW)
+  - Bertelsen (BRAW)
+  - Berthelsen (BRAW)
+  - Billes (BRAW)
+  - Binzer (BRAW)
+  - Bjerregaard (BRAW)
+  - Blach (BRAW)
+  - Bock (BRAW)
+  - Bogedal (BRAW)
+  - Bondo (BRAW)
+  - Bonnikson (BRAW)
+  - Brahe (BRAW)
+  - Brandhorst (BRAW)
+  - Brandt (BRAW)
+  - Branstedt (BRAW)
+  - Broberg (BRAW)
+  - Brondun (BRAW)
+  - Bruun (BRAW)
+  - Burmeister (BRAW)
+  - Cabble (BRAW)
+  - Carlsen (BRAW)
+  - Carstensen (BRAW)
+  - Ceder (BRAW)
+  - Chemnitz (BRAW)
+  - Christensen (BRAW)
+  - Christiansen (BRAW)
+  - Christoffersen (BRAW)
+  - Clahn (BRAW)
+  - Clausen (BRAW)
+  - Claussen (BRAW)
+  - Colding (BRAW)
+  - Crumlin (BRAW)
+  - Dahl (BRAW)
+  - Dalum (BRAW)
+  - Dam (BRAW)
+  - Damgaard (BRAW)
+  - Damsgaard (BRAW)
+  - Danielsen (BRAW)
+  - Danielsson (BRAW)
+  - Didenksen (BRAW)
+  - Drusse (BRAW)
+  - Ebel (BRAW)
+  - Eberlein (BRAW)
+  - Ejlersgaard (BRAW)
+  - Eldjarn (BRAW)
+  - Ellegaard (BRAW)
+  - Eriksen (BRAW)
+  - Espersen (BRAW)
+  - Fajl (BRAW)
+  - Falkoner (BRAW)
+  - Fallingborg (BRAW)
+  - Fenger (BRAW)
+  - Fetterlein (BRAW)
+  - Fine (BRAW)
+  - Fog (BRAW)
+  - Follerup (BRAW)
+  - Frandsen (BRAW)
+  - Frandson (BRAW)
+  - Frederiksen (BRAW)
+  - Fredskild (BRAW)
+  - Friis (BRAW)
+  - Fynbo (BRAW)
+  - Gade (BRAW)
+  - Gimsing (BRAW)
+  - Glob (BRAW)
+  - Goldbaek (BRAW)
+  - Gram (BRAW)
+  - Gran (BRAW)
+  - Gregersen (BRAW)
+  - Greve (BRAW)
+  - Grimlot (BRAW)
+  - Gruntvig (BRAW)
+  - Guildenstern (BRAW)
+  - Guldbrandsen (BRAW)
+  - Haeg (BRAW)
+  - Halkenhvad (BRAW)
+  - Hamburger (BRAW)
+  - Hammer (BRAW)
+  - Hamsun (BRAW)
+  - Hannestad (BRAW)
+  - Hansen (BRAW)
+  - Hardenberg (BRAW)
+  - Hasso (BRAW)
+  - Hedegaard (BRAW)
+  - Hedhoft (BRAW)
+  - Heiberg (BRAW)
+  - Heintze (BRAW)
+  - Helveg (BRAW)
+  - Henriksen (BRAW)
+  - Hermansen (BRAW)
+  - Hjelmslev (BRAW)
+  - Hoegh (BRAW)
+  - Hogh (BRAW)
+  - Holby (BRAW)
+  - Holm (BRAW)
+  - Holst (BRAW)
+  - Horby (BRAW)
+  - Hoyer (BRAW)
+  - Hvass (BRAW)
+  - Hviid (BRAW)
+  - Hylgaard (BRAW)
+  - Iversen (BRAW)
+  - Jacobsen (BRAW)
+  - Jakkelsen (BRAW)
+  - Jakobsen (BRAW)
+  - Jamissen (BRAW)
+  - Jaspersen (BRAW)
+  - Jensen (BRAW)
+  - Jeppesen (BRAW)
+  - Jepsen (BRAW)
+  - Jespersen (BRAW)
+  - Jessen (BRAW)
+  - Johannsen (BRAW)
+  - Johansen (BRAW)
+  - Johansson (BRAW)
+  - Johnsen (BRAW)
+  - Jorgensen (BRAW)
+  - Juhl (BRAW)
+  - Junge (BRAW)
+  - Karlsen (BRAW)
+  - Karseffni (BRAW)
+  - Kaustrop (BRAW)
+  - Kingo (BRAW)
+  - Kirkeby (BRAW)
+  - Kjaer (BRAW)
+  - Kjeldsen (BRAW)
+  - Kjolbye (BRAW)
+  - Klausen (BRAW)
+  - Klindt (BRAW)
+  - Knudsen (BRAW)
+  - Knutzen (BRAW)
+  - Koch (BRAW)
+  - Kock (BRAW)
+  - Kofod (BRAW)
+  - Kolb (BRAW)
+  - Kotzebue (BRAW)
+  - Krak (BRAW)
+  - Kristensen (BRAW)
+  - Kristiansen (BRAW)
+  - Kristoffersen (BRAW)
+  - Krogh (BRAW)
+  - Kruhl (BRAW)
+  - Kruse (BRAW)
+  - Lagermann (BRAW)
+  - Lander (BRAW)
+  - Langvardt (BRAW)
+  - Larsen (BRAW)
+  - Lassen (BRAW)
+  - Laudrup (BRAW)
+  - Laugeson (BRAW)
+  - Laundsen (BRAW)
+  - Lauridsen (BRAW)
+  - Lauritsen (BRAW)
+  - Lauritzen (BRAW)
+  - Laursen (BRAW)
+  - Lavrsen (BRAW)
+  - Licht (BRAW)
+  - Lillesoe (BRAW)
+  - Lind (BRAW)
+  - Lobing (BRAW)
+  - Lorenz (BRAW)
+  - Loyen (BRAW)
+  - Lund (BRAW)
+  - Lundgaard (BRAW)
+  - Lundgard (BRAW)
+  - Lundvall (BRAW)
+  - Lynnerup (BRAW)
+  - Madsen (BRAW)
+  - Maj (BRAW)
+  - Majland (BRAW)
+  - Mandelbrot (BRAW)
+  - Markert (BRAW)
+  - Mathiasen (BRAW)
+  - Mathiesen (BRAW)
+  - Meindl (BRAW)
+  - Meinert (BRAW)
+  - Meling (BRAW)
+  - Meulengracht (BRAW)
+  - Mikkelsen (BRAW)
+  - Milling (BRAW)
+  - Moesgaard (BRAW)
+  - Mogensen (BRAW)
+  - Moller (BRAW)
+  - Molnar (BRAW)
+  - Moltke (BRAW)
+  - Mortensen (BRAW)
+  - Most (BRAW)
+  - Munk (BRAW)
+  - Nerhus (BRAW)
+  - Niebuhr (BRAW)
+  - Nielsen (BRAW)
+  - Nielson (BRAW)
+  - Nilsson (BRAW)
+  - Nissen (BRAW)
+  - Norgaard (BRAW)
+  - Nygaard (BRAW)
+  - Nylen (BRAW)
+  - Obel (BRAW)
+  - Olesen (BRAW)
+  - Olrik (BRAW)
+  - Olsen (BRAW)
+  - Orum (BRAW)
+  - Ostergaard (BRAW)
+  - Ostgerg (BRAW)
+  - Ottesen (BRAW)
+  - Overgaard (BRAW)
+  - Pallesen (BRAW)
+  - Palsson (BRAW)
+  - Paulsen (BRAW)
+  - Pedersen (BRAW)
+  - Petersen (BRAW)
+  - Piechnik (BRAW)
+  - Pilegaard (BRAW)
+  - Poertner (BRAW)
+  - Poulsen (BRAW)
+  - Qvist (BRAW)
+  - Raaby (BRAW)
+  - Rasmussen (BRAW)
+  - Ravn (BRAW)
+  - Reuter (BRAW)
+  - Rieper (BRAW)
+  - Riis (BRAW)
+  - Rink (BRAW)
+  - Riseger (BRAW)
+  - Roesdahl (BRAW)
+  - Rohrmann (BRAW)
+  - Ronholt (BRAW)
+  - Ronne (BRAW)
+  - Rosenkrantz (BRAW)
+  - Rriis (BRAW)
+  - Rude (BRAW)
+  - Sand (BRAW)
+  - Sandstrod (BRAW)
+  - Schjonberg (BRAW)
+  - Schmeichel (BRAW)
+  - Schmidt (BRAW)
+  - Schou (BRAW)
+  - Schultz (BRAW)
+  - Seidenfaden (BRAW)
+  - Sellevold (BRAW)
+  - Simonsen (BRAW)
+  - Skaarup (BRAW)
+  - Skou (BRAW)
+  - Skov (BRAW)
+  - Skovgaard (BRAW)
+  - Soerensen (BRAW)
+  - Solvig (BRAW)
+  - Sondergaard (BRAW)
+  - Sonne (BRAW)
+  - Sorensen (BRAW)
+  - Sponneck (BRAW)
+  - Staer (BRAW)
+  - Steffensen (BRAW)
+  - Steincke (BRAW)
+  - Stenger (BRAW)
+  - Storegaard (BRAW)
+  - Stubbe (BRAW)
+  - Stuer (BRAW)
+  - Svendsen (BRAW)
+  - Tarnovius (BRAW)
+  - Teglbjaerg (BRAW)
+  - Telling (BRAW)
+  - Thodberg (BRAW)
+  - Thomsen (BRAW)
+  - Thornom (BRAW)
+  - Thorsen (BRAW)
+  - Thunmark (BRAW)
+  - Thygesen (BRAW)
+  - Thyregod (BRAW)
+  - Tilling (BRAW)
+  - Toefting (BRAW)
+  - Toft (BRAW)
+  - Toksvig (BRAW)
+  - Tommen (BRAW)
+  - Tyllesen (BRAW)
+  - Uhre (BRAW)
+  - Vestergaard (BRAW)
+  - Vilfort (BRAW)
+  - Villadsen (BRAW)
+  - Villumsen (BRAW)
+  - Ving (BRAW)
+  - Virl (BRAW)
+  - Wain (BRAW)
+  - Werlauff (BRAW)
+  - Wieghorst (BRAW)
+  - Willadsen (BRAW)
+  - Winther (BRAW)
+  - Witzke (BRAW)
+  - Wiuff (BRAW)
+  - Zinck (BRAW)
+  - Zoega (BRAW)

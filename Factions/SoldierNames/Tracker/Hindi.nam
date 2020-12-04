@@ -1,0 +1,85 @@
+lookWeights:
+  - 1
+  - 1
+  - 80
+  - 18
+maleFirst:
+  - Abhijay
+  - Adil
+  - Chandresh
+  - Dev
+  - Dinesh
+  - Govinda
+  - Jaideep
+  - Kanak
+  - Mahesh
+  - Neelam
+  - Om
+  - Pallav
+  - Parmesh
+  - Rajesh
+  - Ranjit
+  - Samir
+  - Sanjiv
+  - Sudeep
+  - Vihaan
+  - Yogendra
+  - Sachin
+  - Rahul
+  - Anil
+  - Virender
+  - Kapil
+  - Sourav
+  - Harbhajan
+femaleFirst:
+  - Ajita
+  - Amma
+  - Avinashi
+  - Deepti
+  - Gulab
+  - Hina
+  - Indira
+  - Jasweer
+  - Kalinda
+  - Keva
+  - Madhuri
+  - Meera
+  - Neela
+  - Parvati
+  - Priti
+  - Ranhita
+  - Roshan
+  - Savitri
+  - Sitesh
+  - Ushma
+  - Vritika
+  - Zahra
+maleLast:
+  - Sharma (TRACK)
+  - Verma (TRACK)
+  - Chowdhury (TRACK)
+  - Singh (TRACK)
+  - Misra (TRACK)
+  - Kumar (TRACK)
+  - Gupta (TRACK)
+  - Malik (TRACK)
+  - Chopra (TRACK)
+  - Prasad (TRACK)
+  - Acharya (TRACK)
+  - Agarwal (TRACK)
+  - Malhotra (TRACK)
+  - Jain (TRACK)
+  - Saini (TRACK)
+  - Khan (TRACK)
+  - Shah (TRACK)
+  - Narayan (TRACK)
+  - Mistry (TRACK)
+  - Joshi (TRACK)
+  - Goyal (TRACK)
+  - Roy (TRACK)
+  - Tendulkar (TRACK)
+  - Dravid (TRACK)
+  - Kumble (TRACK)
+  - Sehwag (TRACK)
+  - Dev (TRACK)
+  - Ganguly (TRACK)

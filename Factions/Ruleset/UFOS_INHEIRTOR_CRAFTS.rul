@@ -1,0 +1,2376 @@
+############################
+## FACTIONS UFO INHERITORS RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+###########################
+ufos: # These UFOs are an alteration to the orginal designs done by jackstraw2323, i look forward to expanding his work...Luke83.
+  - type: OXCF-LIGHTNIN_9
+    size: STR_VERY_SMALL
+    modSprite: PlaceHolder
+    sprite: 0
+    damageMax: 70
+    speedMax: 2200
+    accel: 12
+    power: 20
+    range: 25
+    score: 100
+    reload: 30
+    breakOffTime: 200
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_9
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_9
+          width: 10
+          length: 10
+  - type: OXCF-LIGHTNIN_1
+    size: STR_SMALL
+    modSprite: PlaceHolder
+    sprite: 1
+    damageMax: 200
+    speedMax: 2400
+    accel: 9
+    power: 20
+    range: 25
+    score: 150
+    reload: 30
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_1
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_1
+          width: 20
+          length: 10
+  - type: OXCF-LIGHTNIN_3 #MEDICAL TRANSPORT
+    size: STR_SMALL
+    modSprite: PlaceHolder
+    sprite: 2
+    damageMax: 300
+    speedMax: 2700
+    accel: 9
+    power: 20
+    range: 69
+    score: 250
+    reload: 40
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_3
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_3
+          width: 20
+          length: 20
+  - type: OXCF-LIGHTNIN_5 # ENG
+    size: STR_MEDIUM_UC
+    modSprite: PlaceHolder
+    sprite: 3
+    damageMax: 500
+    speedMax: 4000
+    accel: 8
+    power: 40
+    range: 69
+    score: 500
+    reload: 40
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_5
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_5
+          width: 20
+          length: 20
+  - type: OXCF-LIGHTNIN_7 # MIXED
+    size: STR_MEDIUM_UC
+    modSprite: PlaceHolder
+    sprite: 4
+    damageMax: 500
+    speedMax: 4300
+    accel: 8
+    power: 40
+    range: 69
+    score: 500
+    reload: 40
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_7
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_7
+          width: 20
+          length: 20
+  - type: OXCF-LIGHTNIN_6 # cargo
+    size: STR_LARGE
+    modSprite: PlaceHolder
+    sprite: 7
+    damageMax: 2200
+    speedMax: 3200
+    accel: 6
+    power: 60
+    range: 69
+    score: 800
+    reload: 20
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_6
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_6
+          width: 20
+          length: 20
+  - type: OXCF-LIGHTNIN_4 #Assult
+    size: STR_LARGE
+    modSprite: PlaceHolder
+    sprite: 5
+    damageMax: 1200
+    speedMax: 4800
+    accel: 6
+    power: 80
+    range: 69
+    score: 1000
+    reload: 20
+    breakOffTime: 2000
+    battlescapeTerrainData:
+      name: OXCF-LIGHTNIN_4
+      mapDataSets:
+        - BLANKS
+        - OXCF_LIGHTNIA
+        - OXCF_LIGHTNIA_B
+        - OXCF_LIGHTNIA_D
+      mapBlocks:
+        - name: OXCF-LIGHTNIN_4
+          width: 30
+          length: 20
+
+extraSprites:
+  - type: PlaceHolder
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Vessels/DogfightImage/placeholder.gif
+      
+
+extraStrings:
+  - type: en-US
+    strings:
+      OXCF-LIGHTNIN_9: Inheitor Scout #SCOUT
+      OXCF-LIGHTNIN_1: Inheirtor Recon Craft #RECON
+      OXCF-LIGHTNIN_3: Inheirtor Medical Transport #MEDICAL TRANSPORT
+      OXCF-LIGHTNIN_5: Inheirtor Engineering Craft # ENG
+      OXCF-LIGHTNIN_7: Inheirtor Multirole Ship #MIXED
+      OXCF-LIGHTNIN_6: Inheirtor Cargo Transport #CARGO
+      OXCF-LIGHTNIN_4: Inheirtor AWACS #COMMAND CONTROL
+      # OXCF-LIGHTNIN_8: L-08
+
+
+alienDeployments: #done
+#Commander (alienRank: 0) Counselor
+#Leader (alienRank: 1) General (on Power Suit)
+#Engineer (alienRank: 2) TALOS Soldier/TALOS Sapper
+#Medic (alienRank: 3) Scientific/Spy Agent
+#Navigator (alienRank: 4) Pilot/Brown Delta Force Operator
+#Soldier (alienRank: 5) Land Warrior Green Soldier
+#Terrorist 1 (alienRank: 6) Merkava Tank/M1 Abrams
+#Terrorist 2 (alienRank: 7) Combat Jacket Dog/Grunt
+
+  - type: OXCF-LIGHTNIN_9
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+    width: 40
+    length: 40
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_1
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+    width: 40
+    length: 40
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_3
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_5
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_7
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_6
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_4
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    briefing:
+      palette: 4
+      music: GMISPOSH
+      
+######################### UNDERWATER VERSIONS ##############
+
+
+  - type: OXCF-LIGHTNIN_9_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+    width: 40
+    length: 40
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_1_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+    width: 40
+    length: 40
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_3_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 2
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 35
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+    width: 50
+    length: 50
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_5_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 9
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+    width: 50
+    length: 50
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_7_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 3
+        highQty: 5
+        dQty: 4
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 30
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+    width: 50
+    length: 50
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_6_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH
+  - type: OXCF-LIGHTNIN_4_UNDERWATER
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 4
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_TAVOR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_G11
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_G11_CLIP
+            - STR_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_CAR15
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_TITANIUM_SHIELD
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_XM29_OICW
+            - STR_XM29_KE_CLIP
+            - STR_XM29_KE_CLIP
+            - STR_XM29_HE_CLIP
+            - STR_XM29_HE_CLIP
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_MOTION_SCANNER
+            - STR_GRENADE
+          -
+            - STR_VZ58
+            - STR_MOTION_SCANNER
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_MPX
+            - STR_MOTION_SCANNER
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+            - STR_SONIC_PULSER
+          -
+            - STR_COMPACT_SCAR
+            - STR_MOTION_SCANNER
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_MOTION_SCANNER
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_TITANIUM_SHIELD
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+          -
+            - STR_LASER_RIFLE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+            - STR_GRENADE
+            - STR_GRENADE
+          -
+            - STR_COMPACT_SCAR
+            - STR_TITANIUM_SHIELD
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_GRENADE
+            - STR_HIGH_EXPLOSIVE
+            - STR_HIGH_EXPLOSIVE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_SR3_VIKHR
+            - STR_TITANIUM_SHIELD
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+            - STR_HIGH_EXPLOSIVE
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_VZ58
+            - STR_7_62MM_SOVIET_RIFLE_X30
+            - STR_7_62MM_SOVIET_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_MPX
+            - STR_9MM_PISTOL_X30
+            - STR_9MM_PISTOL_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_COMPACT_SCAR
+            - STR_5_56MM_NATO_RIFLE_X30
+            - STR_5_56MM_NATO_RIFLE_X30
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+          -
+            - STR_LASER_PISTOL
+            - STR_SR3_VIKHR
+            - STR_9MM_RIFLE_X20
+            - STR_9MM_RIFLE_X20
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+          -
+            - STR_LASER_PISTOL
+            - STR_GRENADE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 50
+    length: 50
+    height: 5
+    enviroEffects: STR_Underwater
+    briefing:
+      palette: 4
+      music: GMISPOSH

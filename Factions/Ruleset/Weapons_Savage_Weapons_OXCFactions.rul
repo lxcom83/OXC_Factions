@@ -1,0 +1,498 @@
+items:
+############################
+## FACTIONS - WEAPONS - SAVAGE RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+###########################
+####################################
+############# SAVAGES ##############
+####################################
+  - type: STR_SAVAGE_DEATH_AXE
+    categories: [STR_MELEE, STR_SAVAGE_EQUIPMENT]
+    size: 0.15
+    costBuy: 0 #300
+    costSell: 200
+    weight: 6
+    bigSprite: 750
+    floorSprite: 750
+    handSprite: 2800
+    meleeSound: 54
+#    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+#    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 4
+    meleeMultiplier:
+      flatHundred: 0.65
+      melee: 0.55
+    costMelee:
+      time: 10
+      energy: 3
+    power: 45
+    damageType: 7
+    damageBonus:
+      strength: 0.35
+      melee: 0.7
+    damageAlter:
+      RandomType: 6
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.1
+      ToHealth: 0.40
+      ToMorale: 5.0
+      ToWound: 1.5
+    accuracyMelee: 85
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    armor: 100
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    tags:
+      SPECIAL_WOUND: 2
+      WOUND_FACTOR: 3
+    listOrder: 2501
+  - type: STR_SAVAGE_ULTRA_MACHETE
+    categories: [STR_MELEE, STR_SAVAGE_EQUIPMENT]
+    size: 0.15
+    costBuy: 0 #300
+    costSell: 200
+    weight: 6
+    bigSprite: 751
+    floorSprite: 751
+    handSprite: 2808
+    meleeSound: 54
+#    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+#    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 4
+    meleeMultiplier:
+      flatHundred: 0.65
+      melee: 0.55
+    costMelee:
+      time: 10
+      energy: 3
+    power: 45
+    damageType: 7
+    damageBonus:
+      strength: 0.35
+      melee: 0.7
+    damageAlter:
+      RandomType: 5
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.1
+      ToHealth: 0.40
+      ToMorale: 5.0
+      ToWound: 1.5
+    accuracyMelee: 85
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    armor: 100
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    tags:
+      SPECIAL_WOUND: 2
+      WOUND_FACTOR: 3
+    listOrder: 2502
+  - type: STR_THUNDERSTICK
+    categories: [STR_EXPLOSIVES, STR_SAVAGE_EQUIPMENT]
+    size: 0.1
+    costBuy: 0 # 300
+    costSell: 240
+    weight: 5
+    bigSprite: 752
+    floorSprite: 752
+    handSprite: 2816
+    hitSound: 0
+    hitAnimation: 0
+    fuseType: -2
+#    fuseTriggerEvents:
+#      defaultBehavior: false
+#      throwExplode: true
+#    explosionHitSound: [144, 145, 146, 147]
+    power: 40
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    costThrow:
+      energy: 2
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 25
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 2
+    invHeight: 3
+    blastRadius: 3
+    listOrder: 2503
+
+
+  - type: STR_SR3_VIKHR
+    categories: [STR_BALLISTIC_TECH, STR_FIREARMS, STR_ULTRA_COMPACT_WEAPONS, STR_CARBINES, STR_SAVAGE_EQUIPMENT, STR_INHEIRTORS_EQUIPMENT]
+    size: 0.3
+    costBuy: 0 # 12000
+    costSell: 5000
+    weight: 8
+    bigSprite: 753
+    floorSprite: 753
+    handSprite: 2824
+    bulletSprite: 1
+    fireSound: 4
+    bulletSpeed: 15
+    compatibleAmmo:
+      - STR_9MM_RIFLE_X20
+    accuracyAuto: 50
+    accuracySnap: 60
+    accuracyAimed: 90
+    accuracyCloseQuarters: 95
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 45
+    costThrow:
+      energy: 14
+    battleType: 1
+    twoHanded: false
+#    oneHandedPenalty: 25
+    invWidth: 1
+    invHeight: 2
+    armor: 30
+    autoRange: 11
+    snapRange: 18
+    aimRange: 25
+    attraction: 12
+    listOrder: 2504
+  - type: STR_9MM_RIFLE_X20
+    size: 0.05
+    costBuy: 0 #1000
+    costSell: 500
+    weight: 3
+    bigSprite: 760
+    floorSprite: 760
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    damageAlter:
+      ToStun: 0.5
+    clipSize: 24
+    costThrow:
+      energy: 6
+    battleType: 2
+    armor: 30
+    listOrder: 2505
+    vaporColor: 1
+    vaporDensity: 10
+
+  - type: STR_SAWEDOFF_SHOTGUN
+    categories: [STR_BALLISTIC_TECH, STR_FIREARMS, STR_SAVAGE_EQUIPMENT, STR_SCAVENGER_EQUIPMENT, STR_SHOTGUNS] 
+    size: 0.2
+    costSell: 3000
+    weight: 6
+    bigSprite: 754
+    floorSprite: 754
+    handSprite: 2832
+    bulletSprite: 1
+    fireSound: 164
+    compatibleAmmo:
+      - STR_12GAUGE_BUCKSHOT_X2
+    accuracyCloseQuarters: 150
+    accuracySnap: 55
+    accuracyAimed: 80
+    accuracyAuto: 40
+    tuSnap: 20
+    tuAimed: 30
+    tuAuto: 25
+    snapRange: 4
+    aimRange: 4
+    autoRange: 4
+    dropoff: 3
+    autoShots: 2
+    tuLoad: 10
+    battleType: 1
+    twoHanded: false
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    attraction: 7
+    listOrder: 2506
+  - type: STR_12GAUGE_BUCKSHOT_X2 #Buckshot
+    categories: [STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costBuy: 0 #900
+    costSell: 250
+    weight: 3
+    bigSprite: 761
+    floorSprite: 761
+    power: 25
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: false
+      ToWound: 1.2
+      RandomWound: true
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 2
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 6
+    shotgunSpread: 50
+    battleType: 2
+    armor: 250
+    tags:
+      SPECIAL_WOUND: 2
+      WOUND_FACTOR: 3
+    listOrder: 2507
+    vaporColor: 1
+    vaporDensity: 10
+
+  - type: STR_PLASMA_CARBINE
+    categories: [STR_PLASMA_TECH, STR_FIREARMS, STR_CARBINES, STR_SAVAGE_EQUIPMENT, STR_SCAVENGER_EQUIPMENT, STR_MUTON_WARPACK_EQUIPMENT]
+    size: 0.2
+    costBuy: 0 # 2000
+    costSell: 1750
+    weight: 10
+    bigSprite: 755
+    floorSprite: 755
+    handSprite: 2840
+    bulletSprite: 8
+    fireSound: 18
+    bulletSpeed: 25
+#    reloadSound: [186, 187, 188, 189]
+    compatibleAmmo:
+      - STR_PLASMA_ENERGY_BATTERY_X20
+    accuracyCloseQuarters: 120
+    accuracySnap: 70
+    accuracyAimed: 110
+    accuracyAuto: 65
+    tuAuto: 45
+    tuSnap: 29
+    tuAimed: 65
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2508
+  - type: STR_PLASMA_ENERGY_BATTERY_X20
+#    requires:
+#      - STR_PLASMA_ENERGY_BATTERY_X20
+    size: 0.1
+    costSell: 5400
+    weight: 3 # 3
+    bigSprite: 762
+    floorSprite: 762
+    hitSound: 19
+    hitAnimation: 46
+    power: 50 # 95
+    damageType: 5
+    clipSize: 20 # 8
+    battleType: 2
+    recoveryPoints: 1
+    attraction: 1
+    listOrder: 2509
+    armor: 30 # 20
+    vaporColor: 3
+    vaporDensity: 10
+
+  - type: STR_CARAVAN_KILLER
+    categories: [STR_BALLISTIC_TECH, STR_FIREARMS, STR_SAVAGE_EQUIPMENT, STR_SCAVENGER_EQUIPMENT, STR_SHOTGUNS] 
+    size: 0.2
+    costSell: 3000
+    weight: 9
+    bigSprite: 756
+    floorSprite: 756
+    handSprite: 2848
+    bulletSprite: 1
+    fireSound: 4
+    compatibleAmmo:
+      - STR_12GAUGE_BUCKSHOT_X15
+    accuracyCloseQuarters: 150
+    accuracySnap: 55
+    accuracyAimed: 70
+#    accuracyAuto: 40
+    tuSnap: 15
+    tuAimed: 30
+#    tuAuto: 25
+    snapRange: 4
+    aimRange: 4
+#    autoRange: 4
+    dropoff: 3
+#    autoShots: 2
+    tuLoad: 10
+    battleType: 1
+    twoHanded: true
+    shotgunChoke: 100
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    attraction: 7
+    listOrder: 2510
+  - type: STR_12GAUGE_BUCKSHOT_X15 #Buckshot
+    categories: [STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costBuy: 0 # 900
+    costSell: 250
+    weight: 3
+    bigSprite: 763
+    floorSprite: 763
+    power: 25
+    damageType: 1
+    damageAlter:
+      RandomType: 7
+      IgnoreOverKill: false
+      ToWound: 1.2
+      RandomWound: true
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 15
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 6
+    shotgunSpread: 50
+    battleType: 2
+    armor: 250
+    tags:
+      SPECIAL_WOUND: 2
+      WOUND_FACTOR: 3
+    listOrder: 2511
+    vaporColor: 3
+    vaporDensity: 10
+
+ufopaedia:
+  - id: STR_SAVAGE_DEATH_AXE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SAVAGE_DEATH_AXE_UFOPEDIA
+
+  - id: STR_SAVAGE_ULTRA_MACHETE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SAVAGE_ULTRA_MACHETE_UFOPEDIA
+
+  - id: STR_THUNDERSTICK
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_THUNDERSTICK_UFOPEDIA
+
+  - id: STR_SR3_VIKHR
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SR3_VIKHR_UFOPEDIA
+  - id: STR_9MM_RIFLE_X20
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_SAWEDOFF_SHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SAWEDOFF_SHOTGUN_UFOPEDIA
+  - id: STR_12GAUGE_BUCKSHOT_X2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_PLASMA_CARBINE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PLASMA_CARBINE_UFOPEDIA
+  - id: STR_PLASMA_ENERGY_BATTERY_X20
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_CARAVAN_KILLER
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CARAVAN_KILLER_UFOPEDIA
+  - id: STR_12GAUGE_BUCKSHOT_X15
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      750: Resources/Savage/BigSavageDeathAxe.png
+      751: Resources/Savage/BigSavageUltraMachete.png
+      752: Resources/Savage/BigThunderstick.png
+      753: Resources/Savage/BigSR3Vikhr.png
+      754: Resources/Savage/BigSawedOffShotgun.png
+      755: Resources/Savage/BigPlasmaCarbine.png
+      756: Resources/Savage/BigCaravanKiller.png
+      760: Resources/Savage/BigSR3VikhrMagazine.png
+      761: Resources/Savage/BigSawedOffShotgunShells.png
+      762: Resources/Savage/BigPlasmaCarbineBattery.png
+      763: Resources/Savage/BigCaravanKillerMagazine.png
+
+  - type: FLOOROB.PCK
+    files:
+      750: Resources/Savage/FloorSavageDeathAxe.png
+      751: Resources/Savage/FloorSavageUltraMachete.png
+      752: Resources/Savage/FloorThunderstick.png
+      753: Resources/Savage/FloorSR3Vikhr.png
+      754: Resources/Savage/FloorSawedOffShotgun.png
+      755: Resources/Savage/FloorPlasmaCarbine.png
+      756: Resources/Savage/FloorCaravanKiller.png
+      760: Resources/Savage/FloorSR3VikhrMagazine.png
+      761: Resources/Savage/FloorSawedOffShotgunShells.png
+      762: Resources/Savage/FloorPlasmaCarbineBattery.png
+      763: Resources/Savage/FloorCaravanKillerMagazine.png
+
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      2800: Resources/Savage/HandSavageDeathAxe.png
+      2808: Resources/Savage/HandSavageUltraMachete.png
+      2816: Resources/Savage/HandThunderstick.png
+      2824: Resources/Savage/HandSR3Vikhr.png
+      2832: Resources/Savage/HandSawedOffShotgun.png
+      2840: Resources/Savage/HandPlasmaCarbine.png
+      2848: Resources/Savage/HandCaravanKiller.png
+
+#extraSounds:
+#  - type: BATTLE.CAT
+#    files:
+#      1164: Resources/9MM/9MM.wav
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SAVAGE_DEATH_AXE: Savage Death Axe
+      STR_SAVAGE_DEATH_AXE_UFOPEDIA: The Savage Death Axe is a very powerful and iconic melee weapon of the Savage warriors. It's made from pieces of junk, but the blade always stays sharp, no matter how rusty the rest of the weapon is. It has a shark's mouth painted on it to terrify the enemy, even though no Savage really knows what a shark was or where they lived.
+      STR_SAVAGE_ULTRA_MACHETE: Savage Ultra Machete
+      STR_SAVAGE_ULTRA_MACHETE_UFOPEDIA: The Ultra Machete is a cousin of the Death Axe, similarly constructed, but with a machete or sword at the end of the weapon. It is awarded to Savages who prove to be effective with the basic machete and very commonly, their personal machete is added to this weapon, elevating it to the Ultra category in the name of the V8, their cult.
+      STR_THUNDERSTICK: Thunderstick
+      STR_THUNDERSTICK_UFOPEDIA: This throwing weapon usually consists of a long stick as a spear and a set of cans of various origins (dog food, soda, paint, etc.) filled with plastic explosives and equipped with a fuse that explodes on contact. It is used in vehicular combat characteristic of the Savage and is particularly dangerous because of its ability to go as far as it is thrown (which is usually very far)
+      STR_SR3_VIKHR: SR-3 Vikhr
+      STR_9MM_RIFLE_X20: 9mm Rifle Rounds (x20)
+      STR_SR3_VIKHR_UFOPEDIA: A compact weapon of Russian origin, it was designed shortly before the First Alien War to be used by Spetznaz groups. Originally it was used only by Inheritor troops, but an arsenal was raided by a group of Savages and dozens of these weapons were distributed among the many V8 worshippers. And they liked it. It's small size and light weight meant they could be used with one hand.
+      STR_SAWEDOFF_SHOTGUN: Sawed Off Shotgun
+      STR_12GAUGE_BUCKSHOT_X2: "12. Gauge Buckshot Shells (x2)"
+      STR_SAWEDOFF_SHOTGUN_UFOPEDIA: Classic hunting shotgun, but with the stock and barrel cut to the size of a handgun. It is an incredibly popular weapon because of its practicality and firepower, although its low ammunition limits its use. The Old World mobsters nicknamed it 'Lupara' and it seems that this custom persists in some inhabitants of the Wastelands. The road warriors love it.
+      STR_PLASMA_CARBINE: Plasma Carbine
+      STR_PLASMA_ENERGY_BATTERY_X20: Plasma Energy Battery (x20)
+      STR_PLASMA_CARBINE_UFOPEDIA: One of the many weapons adapted from the weaponry brought by the Ethereal faction in the Great War. Its use was exclusive to the powerful Muton soldiers, but in time many humans got their hands on these Carbines. Over the years a folding Parachute butt and an additional grip were added to add stability to the weapon, although it looks almost identical to the original weapon.
+      STR_CARAVAN_KILLER: Caravan Killer
+      STR_12GAUGE_BUCKSHOT_X15: "12. Gauge Buckshot Shells (x15)"
+      STR_CARAVAN_KILLER_UFOPEDIA: A dreaded weapon that lives up to its name. Adapted from a riot control shotgun, its firing mechanism was modified to make it automatic and the possibility of using wide magazines was adapted to maximize the amount of ammunition carried. Widely used by raiders to ambush caravans and settlements. Recommended for use over short distances to maximize its devastating firepower.ended for use over short distances to maximize its devastating firepower.

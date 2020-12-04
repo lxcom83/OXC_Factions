@@ -1,0 +1,13 @@
+name: "Xcom Factions"
+version: "0.1.0"
+author: "Luke83"
+description: " An alternative timeline for Xcom"
+id: Xcom Factions
+master: xcom1
+isMaster: true
+loadResources:
+  # - TFTD
+  - UFO
+reservedSpace: 8
+requiredExtendedVersion: "5.5.1"
+resourceConfig: transparency.rul

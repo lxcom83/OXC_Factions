@@ -1,0 +1,411 @@
+lookWeight:
+  - 0
+  - 0
+  - 0
+  - 100
+maleFirst:
+  - Abassi
+  - Abayomi
+  - Abejide
+  - Abiodun
+  - Abiola
+  - Adebayo
+  - Adejola
+  - Adisa
+  - Adunbi
+  - Ajala
+  - Ajani
+  - Akanni
+  - Akin
+  - Akinlabi
+  - Akinlana
+  - Akins
+  - Akono
+  - Amadi
+  - Aniweta
+  - Apara
+  - Ayodele
+  - Azagba
+  - Babafemi
+  - Bem
+  - Boseda
+  - Chidike
+  - Chijioke
+  - Chike
+  - Chukwuma
+  - Dada
+  - David
+  - Dumaka
+  - Ehioze
+  - Ekundayo
+  - Emeka
+  - Emmanuel
+  - Ewansiha
+  - Ezekiel
+  - Fasina
+  - Gowo
+  - Idowu
+  - Imarogbe
+  - Isah
+  - Iyapo
+  - Jaja
+  - Jumoke
+  - Kayode
+  - Kehinde
+  - Kosoko
+  - Kwame
+  - Madu
+  - Mazi
+  - Modupe
+  - Morihinze
+  - Moses
+  - Ndulu
+  - Ngozi
+  - Nosakhere
+  - Nwabudike
+  - Obasi
+  - Obataiye
+  - Obayana
+  - Obi
+  - Obike
+  - Ode
+  - Odion
+  - Ogbonna
+  - Okechuku
+  - Okpara
+  - Oladele
+  - Olafemi
+  - Olaniyan
+  - Olawale
+  - Olawutobi
+  - Olubayo
+  - Olufemi
+  - Olugbala
+  - Olujimi
+  - Olumide
+  - Olumiji
+  - Olushola
+  - Oluwa
+  - Oluwaseyi
+  - Oluyemi
+  - Omolara
+  - Omorede
+  - Onuwachi
+  - Opeyemi
+  - Osahar
+  - Osakwe
+  - Osayaba
+  - Osayande
+  - Osayimwese
+  - Osaze
+  - Samuel
+  - Stanley
+  - Sunday
+  - Taiwo
+  - Tobi
+  - Echechi
+  - Uzoma
+  - Weke
+  - Worie
+femaleFirst:
+  - Abagbe
+  - Abagebe
+  - Abayomi
+  - Abebi
+  - Abegbe
+  - Abeje
+  - Abeke
+  - Abena
+  - Abeo
+  - Abidemi
+  - Abimbola
+  - Abiona
+  - Abisola
+  - Adamma
+  - Adanna
+  - Adanya
+  - Adebola
+  - Adebomi
+  - Adedagbo
+  - Adedewe
+  - Adedoja
+  - Adeleke
+  - Adenrele
+  - Adeola
+  - Aderinola
+  - Adesimbo
+  - Adesina
+  - ABRAWmi
+  - Adio
+  - Adjoa
+  - Aduke
+  - Aina
+  - Aiyetoro
+  - Ajala
+  - Ajani
+  - Akanke
+  - Alaba
+  - Alke
+  - Ama
+  - Amonke
+  - Annakiya
+  - Anuli
+  - Arria
+  - Asabi
+  - Auta
+  - Ayo
+  - Ayobami
+  - Ayobunmi
+  - Ayodele
+  - Ayofemi
+  - Ayoka
+  - Ayoluwa
+  - Ayomide
+  - Ayoola
+  - Azalee
+  - Baderinwa
+  - Baina
+  - Bayo
+  - Becca
+  - Bekide
+  - Binah
+  - Bolade
+  - Bolanile
+  - Bunmi
+  - Chidimma
+  - Chika
+  - Chinonso
+  - Chinue
+  - Chioma
+  - Chisom
+  - Chizoba
+  - Cynthia
+  - Dada
+  - Danuwa
+  - Daurama
+  - Dayo
+  - Dubaku
+  - Dumaka
+  - Ebele
+  - Ebun
+  - Edenausegbo
+  - Ehizemen
+  - Ekaghogho
+  - Exenesenarh
+  - Enomwoyi
+  - Esosa
+  - Etinosa
+  - Fabayo
+  - Faraa
+  - Farih
+  - Fayola
+  - Fayolla
+  - Femi
+  - Fola
+  - Folade
+  - Folami
+  - Folashade
+  - Dolayan
+  - Foluke
+  - Gimbya
+  - Hanna
+  - Hasana
+  - Hazika
+  - Hembadoon
+  - Idowu
+  - Ifama
+  - Ife
+  - Ifetayo
+  - Ige
+  - Ijaba
+  - Ikuseghan
+  - Innya
+  - Irawagbon
+  - Isoke
+  - Iverem
+  - Iyabo
+  - Izegbe
+  - Joy
+  - Jumoke
+  - Kehinde
+  - Kinah
+  - Kiziah
+  - Kokumo
+  - Limber
+  - Lina
+  - Lisha
+  - Marjorie
+  - Mbafor
+  - Mbeke
+  - Mhonum
+  - Monifa
+  - Morayo
+  - Natashenka
+  - Ngozi
+  - Nkiruka
+  - Nneka
+  - Nnenaya
+  - Nnenia
+  - Nsia
+  - Nourbese
+  - Nwakaeo
+  - Obioma
+  - Ode
+  - Ofure
+  - Olabunmi
+  - Olaniyi
+  - Olateju
+  - Olayinka
+  - Olubayo
+  - Olubunmi
+  - Olufemi
+  - Olufunke
+  - Olufunmilayo
+  - Oluremi
+  - Omalara
+  - Omolara
+  - Omorenoniwara
+  - Omorose
+  - Omosede
+  - Omosupe
+  - omusupe
+  - Oni
+  - Onyeka
+  - Osayioniwabo
+  - Osemweoyenmwen
+  - Oseye
+  - Sade
+  - Shade
+  - Shiminege
+  - Tanisha
+  - Thema
+  - Theresa
+  - Titilayo
+  - Tobi
+  - Uchefuna
+  - Urbi
+  - Yahimba
+  - Yejide
+  - Yetunde
+  - Yewande
+  - Zuna
+maleLast:
+  - Abdul (BRAW)
+  - Abiodun (BRAW)
+  - Abubakar (BRAW)
+  - Achebe (BRAW)
+  - Adebayo (BRAW)
+  - Adebiyi (BRAW)
+  - ABRAWmi (BRAW)
+  - Ahmadu (BRAW)
+  - Aimeihi (BRAW)
+  - Ajuonuma (BRAW)
+  - Akubueze (BRAW)
+  - Alamieyeseigha (BRAW)
+  - Alli (BRAW)
+  - Alvana (BRAW)
+  - Amadi (BRAW)
+  - Amaechi (BRAW)
+  - Amaka (BRAW)
+  - Anakobe (BRAW)
+  - Anjola (BRAW)
+  - Anyene (BRAW)
+  - Arokoyo (BRAW)
+  - Awani (BRAW)
+  - Awiyetu (BRAW)
+  - Awolowo (BRAW)
+  - Aynaw (BRAW)
+  - Ayoola (BRAW)
+  - Babangida (BRAW)
+  - Bugaje (BRAW)
+  - Chidinma (BRAW)
+  - Chinwe (BRAW)
+  - Chukwu (BRAW)
+  - Claaseen (BRAW)
+  - Dhose (BRAW)
+  - Ebuka (BRAW)
+  - Ehi (BRAW)
+  - Ehimen (BRAW)
+  - Ejogo (BRAW)
+  - Eke (BRAW)
+  - Ekwensi (BRAW)
+  - Enuma (BRAW)
+  - Eseoghene (BRAW)
+  - Eventus (BRAW)
+  - Eze (BRAW)
+  - Ezugo (BRAW)
+  - Falmata (BRAW)
+  - Farida (BRAW)
+  - Femi (BRAW)
+  - Garba (BRAW)
+  - Hope (BRAW)
+  - Ibe (BRAW)
+  - Ibori (BRAW)
+  - Ibrahim (BRAW)
+  - Ibru (BRAW)
+  - Ibukun (BRAW)
+  - Iheme (BRAW)
+  - Iniebong (BRAW)
+  - Inusa (BRAW)
+  - Itsifanus (BRAW)
+  - Jangana (BRAW)
+  - Jonathan (BRAW)
+  - Jolawole (BRAW)
+  - Lamidi (BRAW)
+  - Lawal (BRAW)
+  - Madaki (BRAW)
+  - Mahmud (BRAW)
+  - Maikudi (BRAW)
+  - Mantakari (BRAW)
+  - Martins (BRAW)
+  - Mbana (BRAW)
+  - Mbanefo (BRAW)
+  - Memuna (BRAW)
+  - Mohammed (BRAW)
+  - Mshelia (BRAW)
+  - Ngwube (BRAW)
+  - Njoku (BRAW)
+  - Obiola (BRAW)
+  - Obrutse (BRAW)
+  - Ochigbo (BRAW)
+  - Ochonogo (BRAW)
+  - Ogechi (BRAW)
+  - Okah (BRAW)
+  - Okafor (BRAW)
+  - Okeke (BRAW)
+  - Okere (BRAW)
+  - Okereke (BRAW)
+  - Okonkwo (BRAW)
+  - Okoye (BRAW)
+  - Olaoluwa (BRAW)
+  - Olugbenga (BRAW)
+  - Olukayode (BRAW)
+  - Olumide (BRAW)
+  - Olumodeji (BRAW)
+  - Olusanmi (BRAW)
+  - Oluwadamilare (BRAW)
+  - Oluwakemi (BRAW)
+  - Oluwayomi (BRAW)
+  - Oni (BRAW)
+  - Onita (BRAW)
+  - Onyinjuke (BRAW)
+  - Opara (BRAW)
+  - Orakwe (BRAW)
+  - Otaru (BRAW)
+  - Otatoru (BRAW)
+  - Rajuli (BRAW)
+  - Raphael (BRAW)
+  - Saraki (BRAW)
+  - Sekibo (BRAW)
+  - Shuta (BRAW)
+  - Sunny (BRAW)
+  - Temitope (BRAW)
+  - Tosin (BRAW)
+  - Uba (BRAW)
+  - Udoh (BRAW)
+  - Ugbabio (BRAW)
+  - Usman (BRAW)
+  - Wale (BRAW)
+  - Yar-adua (BRAW)
+  - Yindadi (BRAW)
+

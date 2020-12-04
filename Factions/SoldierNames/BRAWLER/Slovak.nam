@@ -1,0 +1,184 @@
+lookWeights:
+  - 45
+  - 55
+  - 0
+  - 0
+maleFirst:
+  - Andrej
+  - Arpad
+  - Branislav
+  - Ctibor
+  - David
+  - Dusan
+  - Frantisek
+  - Jakub
+  - Jan
+  - Jaroslav
+  - Jozef
+  - Juraj
+  - Julius
+  - Ladislav
+  - Lubomir
+  - Lubos
+  - Ludovit
+  - Lukas
+  - Martin
+  - Matej
+  - Michal
+  - Milan
+  - Miroslav
+  - Mojmir
+  - Ondrej
+  - Pavol
+  - Peter
+  - Radomir
+  - Radoslav
+  - Rastislav
+  - Richard
+  - Roman
+  - Slavomir
+  - Stanislav
+  - Tomas
+  - Vladimir
+  - Vratko
+  - Zdeno
+femaleFirst:
+  - Adela
+  - Agata
+  - Andrea
+  - Anna
+  - Dasa
+  - Elena
+  - Eva
+  - Hana
+  - Helena
+  - Ivana
+  - Jarmila
+  - Jaroslava
+  - Katarina
+  - Karolina
+  - Kristina
+  - Kvetoslava
+  - Lenka
+  - Linda
+  - Lucia
+  - Ludmila
+  - Maria
+  - Michaela
+  - Milena
+  - Monika
+  - Natalia
+  - Nela
+  - Petra
+  - Tatiana
+  - Tereza
+  - Veronika
+  - Viera
+  - Zdenka
+  - Zoja
+  - Zora
+  - Zuzana
+maleLast:
+  - Baca (BRAW)
+  - Banik (BRAW)
+  - Beno (BRAW)
+  - Bezdicka (BRAW)
+  - Bondra (BRAW)
+  - Bosansky (BRAW)
+  - Brezina (BRAW)
+  - Cernuska (BRAW)
+  - Cyprich (BRAW)
+  - Dano (BRAW)
+  - Dula (BRAW)
+  - Filip (BRAW)
+  - Gernic (BRAW)
+  - Gregor (BRAW)
+  - Gregus (BRAW)
+  - Goga (BRAW)
+  - Halak (BRAW)
+  - Halda (BRAW)
+  - Haluska (BRAW)
+  - Hascak (BRAW)
+  - Holub (BRAW)
+  - Horvath (BRAW)
+  - Janik (BRAW)
+  - Janosik (BRAW)
+  - Janoska (BRAW)
+  - Jurina (BRAW)
+  - Keniz (BRAW)
+  - Kmet (BRAW)
+  - Kolesar (BRAW)
+  - Kolnik (BRAW)
+  - Kostrec (BRAW)
+  - Kovac (BRAW)
+  - Liptak (BRAW)
+  - Liska (BRAW)
+  - Lukac (BRAW)
+  - Majesky (BRAW)
+  - Marian (BRAW)
+  - Medved (BRAW)
+  - Mihalik (BRAW)
+  - Mikus (BRAW)
+  - Mojzis (BRAW)
+  - Molnar (BRAW)
+  - Nagy (BRAW)
+  - Nemec (BRAW)
+  - Novak (BRAW)
+  - Ondrejkovic (BRAW)
+  - Ondrus (BRAW)
+  - Oravec (BRAW)
+  - Pasko (BRAW)
+  - Pavlas (BRAW)
+  - Pavuk (BRAW)
+  - Prochazka (BRAW)
+  - Rakocz (BRAW)
+  - Senko (BRAW)
+  - Skokan (BRAW)
+  - Slezak (BRAW)
+  - Sloboda (BRAW)
+  - Slovak (BRAW)
+  - Szabo (BRAW)
+  - Toma (BRAW)
+  - Valovsky (BRAW)
+  - Varga (BRAW)
+  - Vaskovic (BRAW)
+  - Viktorin (BRAW)
+femaleLast:
+  - Adamcova (BRAW)
+  - Banasova (BRAW)
+  - Dubovska (BRAW)
+  - Durianova (BRAW)
+  - Farkasovska (BRAW)
+  - Ficova (BRAW)
+  - Filipova (BRAW)
+  - Haluskova (BRAW)
+  - Heckova (BRAW)
+  - Hubinska (BRAW)
+  - Janosikova (BRAW)
+  - Kocisova (BRAW)
+  - Kovacikova (BRAW)
+  - Kovacova (BRAW)
+  - Kovacova (BRAW)
+  - Krajcirova (BRAW)
+  - Kubincova (BRAW)
+  - Luptakova (BRAW)
+  - Mala (BRAW)
+  - Malachovska (BRAW)
+  - Martinova (BRAW)
+  - Matusova (BRAW)
+  - Melcerova (BRAW)
+  - Mikusova (BRAW)
+  - Moravcova (BRAW)
+  - Nemcova (BRAW)
+  - Oravcova (BRAW)
+  - Patrikova (BRAW)
+  - Peskova (BRAW)
+  - Petrovicka (BRAW)
+  - Plchova (BRAW)
+  - Puchertova (BRAW)
+  - Rusova (BRAW)
+  - Senkova (BRAW)
+  - Simekova (BRAW)
+  - Slobodova (BRAW)
+  - Sturova (BRAW)
+  - Vacvalova (BRAW)

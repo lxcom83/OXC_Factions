@@ -1,0 +1,89 @@
+OXC-FACTIONS
+by Luke83
+
+WHAT DOES THIS MOD DO?
+Its a Mashup of UFO, TFTD and a few Crazy Ideas from the IDT :) It is inteneded as an alternate timeline telling an entirely NEW story. It is also intended to more of a non-liniar game with to allow a new experience each time you play BUT that may take some time to get it to work correctly so my only adivce is Pick your targets carefully.
+
+WHY WAS IT MADE?
+Mostly for myself, but its one of the first Hybrid Mods to be publically released so im sure another 10 will rise up shortly claiming i did it wrong but hey, who cares.
+
+WHAT IS THIS MOD ABOUT?
+An alternative dimension where the Aliens won the first War and took over the World.
+
+Is the Mod finsihed?
+NO, not even close, i expect it will be drawing close to completeion sometime in 2022 but it is playable.
+
+Special Thanks to ( in no particular order):
+efrenespartano 
+Meridian  
+Yanks   
+Hobbes  
+wolwerin
+ALdorn  
+SupSuper
+ohartenstein23
+Warboy  
+BombBloke 
+B__0
+THE IDT COMMUNITY!
+
+
+
+Borrowed Files from Other mods:
+Honestly, i am not sure whos work has ended up in here as i found some in mods that are no longer supported and when i contact the people i am told Oh i didnt make that either...SO, A special thanks to the entire OPENXCOM community, past and present, the names below are just of the people i KNOW i borrowed some assets from, if you find something of yours in this mod, Just send me a PM and i will add you :)
+SupSuper
+Warboy
+Civilian
+Reaver of Darkness
+efrenespartano 
+wolwerin
+chaosshade 
+Darklord42
+Ethereal 
+NORD 
+XOPS
+bulletdesigner 
+surt (opengameart forums)
+Dioxine
+Solarius Scorch
+BIGGIEBOY
+Robin
+HellRazor
+
+
+HOW DO I INSTALL THIS MOD?
+- Open your "user" folder (normally Documents/MyGames/Openxcom, though it can be set up differently),
+- Copy the entire Pyramid Rebirth folder to the "/mods" folder,
+- Enable the mod from the Game Options menu.
+
+HOW DO I PROVIDE FEEDBACK?
+IDT Discord Server here: https://discord.gg/aMVdFJ6
+
+
+
+
+CHANGELOG:
+
+v0.1.0: 31-DEC-19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESCOURCE LINKS:
+https://openxcom.org/forum/index.php/topic,2198.msg21962.html#msg21962

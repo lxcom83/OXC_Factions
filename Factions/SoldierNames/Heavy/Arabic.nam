@@ -1,0 +1,74 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Abdullah
+  - Abu
+  - Ahmed
+  - Ali
+  - Bilal
+  - Fadil
+  - Farid
+  - Faysal
+  - Ghassan
+  - Habib
+  - Hakim
+  - Hassan
+  - Ibrahim
+  - Khalid
+  - Mahmoud
+  - Muhammad
+  - Najib
+  - Nasir
+  - Omar
+  - Rashid
+  - Tariq
+  - Yusuf
+femaleFirst:
+  - Alia
+  - Amirah
+  - Asma
+  - Farah
+  - Fatima
+  - Ghaliya
+  - Hafsa
+  - Haniya
+  - Iman
+  - Jalila
+  - Jawahir
+  - Karima
+  - Laila
+  - Latifa
+  - Malaika
+  - Maryam
+  - Mona
+  - Nadia
+  - Noor
+  - Rafiqa
+  - Samira
+  - Sumayya
+maleLast:
+  - Abdullah (HEAVY)
+  - Ahmed (HEAVY)
+  - El-Amin (HEAVY)
+  - Hakim (HEAVY)
+  - Hussain (HEAVY)
+  - Karim (HEAVY)
+  - Muhammad (HEAVY)
+  - Sultan (HEAVY)
+  - Qureshi (HEAVY)
+  - Malouf (HEAVY)
+  - Hajjar (HEAVY)
+  - Asaf (HEAVY)
+  - Khouri (HEAVY)
+  - Tahan (HEAVY)
+  - Wasem (HEAVY)
+  - Mustafa (HEAVY)
+  - Hadad (HEAVY)
+  - Kanaan (HEAVY)
+  - Islam (HEAVY)
+  - Nasri (HEAVY)
+  - Kassab (HEAVY)
+  - Ibrahim (HEAVY)

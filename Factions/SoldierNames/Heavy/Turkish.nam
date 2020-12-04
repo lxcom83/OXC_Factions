@@ -1,0 +1,400 @@
+lookWeights:
+  - 8
+  - 16
+  - 8
+  - 1
+maleFirst:
+  - Abdullah
+  - Adem
+  - Adil
+  - Adnan
+  - Ahmet
+  - Akif
+  - Ali
+  - Alp
+  - Alper
+  - Altan
+  - Arda
+  - Arif
+  - Atilla
+  - Aydemir
+  - Ayhan
+  - Aykut
+  - Aziz
+  - Baha
+  - Bahri
+  - Barlas
+  - Bedri
+  - Bekir
+  - Berk
+  - Bilal
+  - Birol
+  - Bora
+  - Burak
+  - Burhan
+  - Cahit
+  - Can
+  - Caner
+  - Cem
+  - Cemal
+  - Cengiz
+  - Cenk
+  - Cihan
+  - Cumhur
+  - Davut
+  - Doruk
+  - Dursun
+  - Efe
+  - Ekrem
+  - Emin
+  - Emrah
+  - Emre
+  - Engin
+  - Enver
+  - Erdal
+  - Eren
+  - Erhan
+  - Erkan
+  - Erol
+  - Ethem
+  - Fahri
+  - Faruk
+  - Fatih
+  - Fehmi
+  - Ferdi
+  - Ferhat
+  - Feridun
+  - Fikret
+  - Furkan
+  - Hakan
+  - Halil
+  - Haluk
+  - Hamdi
+  - Hamza
+  - Harun
+  - Hasan
+  - Hayri
+  - Hikmet
+  - Hilmi
+  - Kaan
+  - Kadir
+  - Kemal
+  - Kenan
+  - Kerem
+  - Koray
+  - Korhan
+  - Levent
+  - Mahir
+  - Mahmut
+  - Mehmet
+  - Melih
+  - Mert
+  - Mete
+  - Metin
+  - Mithat
+  - Muammer
+  - Muhammet
+  - Muhsin
+  - Murat
+  - Musa
+  - Mustafa
+  - Muzaffer
+  - Naci
+  - Nazmi
+  - Necdet
+  - Nihat
+  - Niyazi
+  - Nuri
+  - Okan
+  - Oktay
+  - Onur
+  - Orhan
+  - Osman
+  - Ozan
+  - Ramazan
+  - Remzi
+  - Sabri
+  - Salih
+  - Sedat
+  - Selim
+  - Semih
+  - Sercan
+  - Serdar
+  - Serhat
+  - Serkan
+  - Sinan
+  - Soner
+  - Taha
+  - Tahir
+  - Tahsin
+  - Taner
+  - Tarkan
+  - Tayfun
+  - Tayyar
+  - Temel
+  - Teoman
+  - Tevfik
+  - Timur
+  - Tolga
+  - Tosun
+  - Tuna
+  - Tuncay
+  - Turan
+  - Turgut
+  - Ufuk
+  - Umut
+  - Utku
+  - Uzay
+  - Vedat
+  - Veli
+  - Veysel
+  - Volkan
+  - Vural
+  - Yahya
+  - Yakup
+  - Yasin
+  - Yavuz
+  - Yusuf
+  - Zafer
+  - Zeki
+  - Zeynel
+  - Ziya
+femaleFirst:
+  - Adile
+  - Alev
+  - Arzu
+  - Asena
+  - Ayda
+  - Aydan
+  - Ayla
+  - Aylin
+  - Aysel
+  - Aysu
+  - Aysun
+  - Bahar
+  - Bengi
+  - Bilge
+  - Birsen
+  - Burcu
+  - Canan
+  - Ceren
+  - Ceyda
+  - Damla
+  - Demet
+  - Deniz
+  - Didem
+  - Dilara
+  - Duygu
+  - Ebru
+  - Ece
+  - Eda
+  - Elif
+  - Emel
+  - Emine
+  - Esra
+  - Evrim
+  - Eylem
+  - Ezgi
+  - Fatma
+  - Filiz
+  - Gamze
+  - Gizem
+  - Hande
+  - Hatice
+  - Irmak
+  - Jale
+  - Lale
+  - Leyla
+  - Melis
+  - Meltem
+  - Meral
+  - Merve
+  - Meryem
+  - Nalan
+  - Nazan
+  - Nesrin
+  - Nezihe
+  - Nihan
+  - Nil
+  - Nur
+  - Olcay
+  - Oya
+  - Pervin
+  - Rabia
+  - Reyhan
+  - Sabiha
+  - Safiye
+  - Sanem
+  - Seda
+  - Selma
+  - Semiha
+  - Sevgi
+  - Sevil
+  - Sevim
+  - Sibel
+  - Sinem
+  - Suna
+  - Yaprak
+  - Yasemin
+  - Yeliz
+  - Yonca
+  - Zehra
+  - Zekiye
+  - Zeynep
+maleLast:
+  - Acar (HEAVY)
+  - Ak (HEAVY)
+  - Akarsu (HEAVY)
+  - Akkaya (HEAVY)
+  - Aksoy (HEAVY)
+  - Akturan (HEAVY)
+  - Albayrak (HEAVY)
+  - Alkan (HEAVY)
+  - Alpsoy (HEAVY)
+  - Altay (HEAVY)
+  - Altuner (HEAVY)
+  - Aras (HEAVY)
+  - Arslan (HEAVY)
+  - Atakan (HEAVY)
+  - Atalay (HEAVY)
+  - Atasoy (HEAVY)
+  - Atik (HEAVY)
+  - Atmaca (HEAVY)
+  - Ay (HEAVY)
+  - Ayaz (HEAVY)
+  - Balaban (HEAVY)
+  - Barlas (HEAVY)
+  - Batu (HEAVY)
+  - Baycan (HEAVY)
+  - Bayraktar (HEAVY)
+  - Bozkurt (HEAVY)
+  - Bulut (HEAVY)
+  - Can (HEAVY)
+  - Canatan (HEAVY)
+  - Cansu (HEAVY)
+  - Cesur (HEAVY)
+  - Davulcu (HEAVY)
+  - Demirci (HEAVY)
+  - Dikmen (HEAVY)
+  - Doruk (HEAVY)
+  - Durak (HEAVY)
+  - Durmaz (HEAVY)
+  - Dursun (HEAVY)
+  - Durukan (HEAVY)
+  - Eker (HEAVY)
+  - Ekinci (HEAVY)
+  - Elvan (HEAVY)
+  - Erdem (HEAVY)
+  - Eren (HEAVY)
+  - Erken (HEAVY)
+  - Erkmen (HEAVY)
+  - Erkulu (HEAVY)
+  - Ersoy (HEAVY)
+  - Eser (HEAVY)
+  - Gencer (HEAVY)
+  - Gezer (HEAVY)
+  - Hakyemez (HEAVY)
+  - Hamarat (HEAVY)
+  - Haznedar (HEAVY)
+  - Kahraman (HEAVY)
+  - Kalender (HEAVY)
+  - Kalyoncu (HEAVY)
+  - Kaplan (HEAVY)
+  - Kara (HEAVY)
+  - Karabulut (HEAVY)
+  - Karaca (HEAVY)
+  - Karaduman (HEAVY)
+  - Karakaya (HEAVY)
+  - Karakurt (HEAVY)
+  - Karaman (HEAVY)
+  - Karatay (HEAVY)
+  - Karpuzcu (HEAVY)
+  - Kartal (HEAVY)
+  - Kavlak (HEAVY)
+  - Kavuncu (HEAVY)
+  - Kaya (HEAVY)
+  - Kayahan (HEAVY)
+  - Kayhan (HEAVY)
+  - Kaymaz (HEAVY)
+  - Kazak (HEAVY)
+  - Kazan (HEAVY)
+  - Kesen (HEAVY)
+  - Keskin (HEAVY)
+  - Kocaman (HEAVY)
+  - Konuk (HEAVY)
+  - Koparan (HEAVY)
+  - Korkmaz (HEAVY)
+  - Korkusuz (HEAVY)
+  - Korkut (HEAVY)
+  - Koyuncu (HEAVY)
+  - Kozan (HEAVY)
+  - Kurt (HEAVY)
+  - Kutlu (HEAVY)
+  - Kuyumcu (HEAVY)
+  - Kuzucu (HEAVY)
+  - Mercan (HEAVY)
+  - Mutlu (HEAVY)
+  - Nurlu (HEAVY)
+  - Ocak (HEAVY)
+  - Okan (HEAVY)
+  - Okuyan (HEAVY)
+  - Okyay (HEAVY)
+  - Olcay (HEAVY)
+  - Oray (HEAVY)
+  - Ordu (HEAVY)
+  - Pala (HEAVY)
+  - Pehlivan (HEAVY)
+  - Peker (HEAVY)
+  - Polat (HEAVY)
+  - Poyraz (HEAVY)
+  - Sancaktar (HEAVY)
+  - Sayan (HEAVY)
+  - Saydam (HEAVY)
+  - Sazak (HEAVY)
+  - Semerci (HEAVY)
+  - Sert (HEAVY)
+  - Seymen (HEAVY)
+  - Sezer (HEAVY)
+  - Solak (HEAVY)
+  - Solmaz (HEAVY)
+  - Soysal (HEAVY)
+  - Sunay (HEAVY)
+  - Sungur (HEAVY)
+  - Sur (HEAVY)
+  - Tahmaz (HEAVY)
+  - Tan (HEAVY)
+  - Tarhan (HEAVY)
+  - Tekcan (HEAVY)
+  - Tekin (HEAVY)
+  - Tezcan (HEAVY)
+  - Tezel (HEAVY)
+  - Topal (HEAVY)
+  - Toprak (HEAVY)
+  - Torun (HEAVY)
+  - Tufan (HEAVY)
+  - Tuncer (HEAVY)
+  - Turna (HEAVY)
+  - Ulucan (HEAVY)
+  - Ulusoy (HEAVY)
+  - Ural (HEAVY)
+  - Uslu (HEAVY)
+  - Usta (HEAVY)
+  - Uyar (HEAVY)
+  - Uygun (HEAVY)
+  - Uysal (HEAVY)
+  - Uzel (HEAVY)
+  - Uzuner (HEAVY)
+  - Varan (HEAVY)
+  - Vardar (HEAVY)
+  - Vural (HEAVY)
+  - Vurgun (HEAVY)
+  - Yalman (HEAVY)
+  - Yaman (HEAVY)
+  - Yazgan (HEAVY)
+  - Yener (HEAVY)
+  - Yolcu (HEAVY)
+  - Yorulmaz (HEAVY)
+  - Yurdakul (HEAVY)
+  - Yurtseven (HEAVY)
+  - Zeren (HEAVY)
+  - Zorlu (HEAVY)

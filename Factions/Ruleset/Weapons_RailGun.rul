@@ -1,0 +1,580 @@
+############################
+## FACTIONS - weapons railguns- RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 00-00-2020 -
+###########################
+craftWeapons:              ##############tyran_nick's Railgun Tech############
+  - type: STR_MASS_CANNON_UC
+    sprite: 11
+    sound: 9
+    damage: 100
+    range: 60
+    accuracy: 70
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 8
+    ammoMax: 120
+    rearmRate: 120
+    launcher: STR_MASS_CANNON
+    projectileType: 4
+items:
+  - type: STR_BLASTER_LAUNCHER
+    compatibleAmmo:
+      - STR_BLASTER_BOMB
+      - STR_MASS_ACCELERATOR_ROCKET
+  #- type: STR_ROCKET_LAUNCHER
+    #compatibleAmmo:
+      #- STR_SMALL_ROCKET
+      #- STR_LARGE_ROCKET
+      #- STR_INCENDIARY_ROCKET
+      #- STR_MASS_ACCELERATOR_ROCKET
+  - type: STR_MASS_CANNON
+    size: 1.2
+    costSell: 295000
+    transferTime: 48
+    listOrder: 610
+  - type: STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    requires:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    size: 0.2
+    costSell: 104000
+    weight: 6
+    bigSprite: 60
+    floorSprite: 80
+    handSprite: 130
+    bulletSprite: 8
+    fireSound: 55
+    compatibleAmmo:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    accuracySnap: 90
+    accuracyAimed: 160
+    tuSnap: 30
+    tuAimed: 48
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    bulletSpeed: 5
+    listOrder: 4814
+  - type: STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    requires:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    size: 0.1
+    costSell: 4500
+    weight: 3
+    bigSprite: 65
+    floorSprite: 85
+    hitSound: 56
+    hitAnimation: 26
+    power: 125
+    damageType: 15
+    clipSize: 32
+    battleType: 2
+    armor: 30
+    listOrder: 4815
+  - type: STR_MASS_ACCELERATOR_RIFLE
+    requires:
+      - STR_MASS_ACCELERATOR_RIFLE
+    size: 0.1
+    costSell: 90000
+    weight: 5
+    bigSprite: 61
+    floorSprite: 81
+    handSprite: 139
+    bulletSprite: 8
+    fireSound: 55
+    compatibleAmmo:
+      - STR_MASS_ACCELERATOR_RIFLE_CLIP
+    accuracyAuto: 60
+    accuracySnap: 90
+    accuracyAimed: 100
+    tuAuto: 35
+    tuSnap: 28
+    tuAimed: 55
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 40
+    bulletSpeed: 5
+    listOrder: 4812
+  - type: STR_MASS_ACCELERATOR_RIFLE_CLIP
+    requires:
+      - STR_MASS_ACCELERATOR_RIFLE_CLIP
+    size: 0.1
+    costSell: 4000
+    weight: 3
+    bigSprite: 66
+    floorSprite: 85
+    hitSound: 56
+    hitAnimation: 26
+    power: 105
+    damageType: 15
+    clipSize: 30
+    battleType: 2
+    armor: 30
+    listOrder: 4813
+  - type: STR_MASS_ACCELERATOR_PISTOL
+    requires:
+      - STR_MASS_ACCELERATOR_PISTOL
+    size: 0.1
+    costSell: 45000
+    weight: 3
+    bigSprite: 62
+    floorSprite: 82
+    handSprite: 147
+    bulletSprite: 8
+    fireSound: 55
+    compatibleAmmo:
+      - STR_MASS_ACCELERATOR_PISTOL_CLIP
+    accuracyAuto: 50
+    accuracySnap: 70
+    accuracyAimed: 90
+    tuAuto: 28
+    tuSnap: 30
+    tuAimed: 58
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    armor: 40
+    bulletSpeed: 5
+    listOrder: 4810
+  - type: STR_MASS_ACCELERATOR_PISTOL_CLIP
+    requires:
+      - STR_MASS_ACCELERATOR_PISTOL_CLIP
+    size: 0.1
+    costSell: 2500
+    weight: 3
+    bigSprite: 67
+    floorSprite: 85
+    hitSound: 56
+    hitAnimation: 26
+    power: 60
+    damageType: 15
+    clipSize: 28
+    battleType: 2
+    armor: 30
+    listOrder: 4811
+  - type: STR_MASS_ACCELERATOR_CANNON
+    requires:
+      - STR_MASS_ACCELERATOR_CANNON
+    size: 0.2
+    costSell: 140000
+    weight: 8
+    bigSprite: 63
+    floorSprite: 83
+    handSprite: 155
+    bulletSprite: 8
+    fireSound: 55
+    compatibleAmmo:
+      - STR_MASS_ACCELERATOR_CANNON_CLIP
+    accuracyAuto: 55
+    accuracySnap: 80
+    accuracyAimed: 120
+    tuAuto: 35
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    armor: 45
+    bulletSpeed: 5
+    listOrder: 4816
+  - type: STR_MASS_ACCELERATOR_CANNON_CLIP
+    requires:
+      - STR_MASS_ACCELERATOR_CANNON_CLIP
+    size: 0.1
+    costSell: 6000
+    weight: 6
+    bigSprite: 68
+    floorSprite: 86
+    hitSound: 56
+    hitAnimation: 26
+    power: 155
+    damageType: 15
+    clipSize: 46
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    listOrder: 4817
+  - type: STR_MASS_ACCELERATOR_GRENADE
+    requires:
+      - STR_MASS_ACCELERATOR_GRENADE
+    size: 0.1
+    costSell: 12000
+    weight: 3
+    bigSprite: 64
+    floorSprite: 84
+    power: 120
+    damageType: 3
+    battleType: 4
+    armor: 20
+    blastRadius: 4
+    listOrder: 4818
+  - type: STR_MASS_ACCELERATOR_ROCKET
+    requires:
+      - STR_MASS_ACCELERATOR_ROCKET  
+    size: 0.2
+    costSell: 16000
+    weight: 4
+    bigSprite: 69
+    floorSprite: 87
+    hitSound: 0
+    hitAnimation: 0
+    power: 280
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    armor: 20
+    blastRadius: 5
+    ##listOrder: 3420	# Rocket Launcher
+    listOrder: 5720	
+research:
+  - name: STR_MASS_ACCELERATOR_WEAPONS
+    cost: 200
+    points: 20
+    dependencies:
+      - STR_ELERIUM_115
+      - STR_HEAVY_PLASMA
+      - STR_HEAVY_PLASMA_CLIP
+      - STR_HEAVY_LASER
+  - name: STR_MASS_ACCELERATOR_GRENADE
+    cost: 200
+    points: 20
+    dependencies:
+      - STR_MASS_ACCELERATOR_WEAPONS	  
+  - name: STR_MASS_ACCELERATOR_PISTOL
+    cost: 550
+    points: 20
+    dependencies:
+      - STR_MASS_ACCELERATOR_WEAPONS
+  - name: STR_MASS_ACCELERATOR_PISTOL_CLIP
+    cost: 0
+    dependencies: 
+      - STR_MASS_ACCELERATOR_PISTOL
+  - name: STR_MASS_ACCELERATOR_RIFLE
+    cost: 650
+    points: 25
+    dependencies:
+      - STR_MASS_ACCELERATOR_PISTOL
+  - name: STR_MASS_ACCELERATOR_RIFLE_CLIP
+    cost: 0
+    dependencies: 
+      - STR_MASS_ACCELERATOR_RIFLE
+  - name: STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    cost: 700
+    points: 25
+    dependencies:
+      - STR_MASS_ACCELERATOR_RIFLE
+  - name: STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    cost: 0
+    dependencies: 
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE
+  - name: STR_MASS_ACCELERATOR_CANNON
+    cost: 850
+    points: 30
+    dependencies:
+      - STR_MASS_ACCELERATOR_RIFLE
+  - name: STR_MASS_ACCELERATOR_CANNON_CLIP
+    cost: 0
+    dependencies: 
+      - STR_MASS_ACCELERATOR_CANNON
+  - name: STR_MASS_ACCELERATOR_ROCKET
+    cost: 80
+    points: 5
+    dependencies:
+      - STR_MASS_ACCELERATOR_WEAPONS
+      - STR_BLASTER_LAUNCHER
+      - STR_BLASTER_BOMB
+  - name: STR_CRAFT_MASS_CANNON
+    cost: 700
+    points: 25
+    dependencies:
+      - STR_MASS_ACCELERATOR_CANNON
+manufacture:
+  - name: STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    space: 4
+    time: 900
+    cost: 90000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+  - name: STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    space: 4
+    time: 90
+    cost: 3500
+    requiredItems:
+      STR_ELERIUM_115: 3
+  - name: STR_MASS_ACCELERATOR_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_MASS_ACCELERATOR_RIFLE
+    space: 4
+    time: 850
+    cost: 75000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+      STR_ELERIUM_115: 2
+  - name: STR_MASS_ACCELERATOR_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MASS_ACCELERATOR_RIFLE
+    space: 4
+    time: 85
+    cost: 3000
+    requiredItems:
+      STR_ELERIUM_115: 3
+  - name: STR_MASS_ACCELERATOR_PISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_MASS_ACCELERATOR_PISTOL
+    space: 3
+    time: 650
+    cost: 30000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 2
+  - name: STR_MASS_ACCELERATOR_PISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MASS_ACCELERATOR_PISTOL
+    space: 3
+    time: 65
+    cost: 1550
+    requiredItems:
+      STR_ELERIUM_115: 3
+  - name: STR_MASS_ACCELERATOR_CANNON
+    category: STR_WEAPON
+    requires:
+      - STR_MASS_ACCELERATOR_CANNON
+    space: 5
+    time: 1100
+    cost: 120000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+      STR_ELERIUM_115: 2
+  - name: STR_MASS_ACCELERATOR_CANNON_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MASS_ACCELERATOR_CANNON_CLIP
+    space: 4
+    time: 85
+    cost: 4800
+    requiredItems:
+      STR_ELERIUM_115: 4
+  - name: STR_MASS_ACCELERATOR_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_MASS_ACCELERATOR_GRENADE
+    space: 2
+    time: 225
+    cost: 8000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 3
+  - name: STR_MASS_ACCELERATOR_ROCKET
+    category: STR_AMMUNITION
+    requires:
+      - STR_MASS_ACCELERATOR_ROCKET
+    space: 3
+    time: 220
+    cost: 8000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 3
+  - name: STR_MASS_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_CRAFT_MASS_CANNON
+    space: 8
+    time: 550
+    cost: 260000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+      STR_ELERIUM_115: 15	  
+ufopaedia:
+  - id: STR_MASS_ACCELERATOR_WEAPONS
+    type_id: 7
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: MASS_BIG
+    text: STR_MASS_ACCELERATOR_WEAPONS_UFOPEDIA
+    text_width: 300
+    listOrder: 4805
+    requires:
+      - STR_MASS_ACCELERATOR_WEAPONS
+  - id: STR_MASS_ACCELERATOR_PISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_PISTOL_UFOPEDIA
+    listOrder: 4810
+    requires:
+      - STR_MASS_ACCELERATOR_PISTOL
+  - id: STR_MASS_ACCELERATOR_PISTOL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MASS_ACCELERATOR_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_RIFLE_UFOPEDIA
+    listOrder: 4812
+    requires:
+      - STR_MASS_ACCELERATOR_RIFLE
+  - id: STR_MASS_ACCELERATOR_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MASS_ACCELERATOR_SNIPER_RIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_SNIPER_RIFLE_UFOPEDIA
+    listOrder: 4814
+    requires:
+      - STR_MASS_ACCELERATOR_SNIPER_RIFLE
+  - id: STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MASS_ACCELERATOR_CANNON
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_CANNON_UFOPEDIA
+    listOrder: 4816
+    requires:
+      - STR_MASS_ACCELERATOR_CANNON
+  - id: STR_MASS_ACCELERATOR_CANNON_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MASS_ACCELERATOR_GRENADE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_GRENADE_UFOPEDIA
+    listOrder: 4818
+    requires:
+      - STR_MASS_ACCELERATOR_GRENADE
+  - id: STR_MASS_ACCELERATOR_ROCKET
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MASS_ACCELERATOR_ROCKET_UFOPEDIA
+    listOrder: 4819
+    requires:
+      - STR_MASS_ACCELERATOR_ROCKET
+  - id: STR_MASS_CANNON_UC
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    requires:
+      - STR_CRAFT_MASS_CANNON
+    image_id: MASS_CANNON
+    listOrder: 1110
+    text: STR_MASS_CANNON_UFOPEDIA	  
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MASS_CANNON_UC: MASS CANNON
+      STR_MASS_CANNON: Mass Cannon
+      STR_CRAFT_MASS_CANNON: Craft Mass Cannon
+      STR_MASS_CANNON_UFOPEDIA: THE MASS CANNON IS THE APOGEE OF MASS ACCELERATOR TECHNOLOGY. FIRING REPEATED DENSE BURST OF BARYONS AT CLOSE TO RELATIVISTIC SPEEDS, IT CAN PENETRATE ANY ARMOR. ITS RATE OF FIRE IS REDUCED TO AVOID INHIBITING THE FLIGHT CHARACTERISTICS OF THE CRAFTS.
+      STR_MASS_ACCELERATOR_WEAPONS: Mass Accelerator Technology
+      STR_MASS_ACCELERATOR_WEAPONS_UFOPEDIA: By reverse engineering alien artifacts human technology has made great advances. We have been able to weaponise techonologies that up until now seemed to be well outside our reach. Mass acccelerator weapons shoot ultrasonic dense bursts of baryons to the target, with a combined kinetic and thermal energy that the destructive potential of alien plasma techonology. With further research we should be able to derive reliable weapons from the early prototypes.
+      STR_MASS_ACCELERATOR_PISTOL: Mass Accelerator Pistol
+      STR_MASS_ACCELERATOR_PISTOL_UFOPEDIA: This is the first production level design of mass accelerator weapons. The mass accelerator pistol is a very potent sidearm, surpassing previous human weapon designs. 
+      STR_MASS_ACCELERATOR_PISTOL_CLIP: Mass Accelerator Pistol Clip
+      STR_MASS_ACCELERATOR_RIFLE: Mass Accelerator Rifle
+      STR_MASS_ACCELERATOR_RIFLE_UFOPEDIA: The experience from the mass accelerator pistol allowed us to design even more potent firearms. The mass accelerator rifle has superior destructive power, range and clip capacity. This is the human responce to alien technology. 
+      STR_MASS_ACCELERATOR_RIFLE_CLIP: Mass Accelerator Rifle Clip
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE: Mass Accelerator Sniper Rifle
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE_UFOPEDIA: The sniper rifle is a supercharged version of the mass accelerator rifle. While it is not capable of auto bursts due to overheating it delivers a stronger punch. Adapted alien techonology has been used to reduce its recoil, thus allowing for very accurate long range shots.
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP: Mass Accelerator Sniper Rifle Clip
+      STR_MASS_ACCELERATOR_CANNON: Mass Accelerator Cannon
+      STR_MASS_ACCELERATOR_CANNON_UFOPEDIA: The mass accelerator cannon is the apogee of the portable mass accelerator techonology. Although it is less accurate than its smaller counterparts, nothing can match its destructive potential. 
+      STR_MASS_ACCELERATOR_CANNON_CLIP: Mass Accelerator Cannon Clip
+      STR_MASS_ACCELERATOR_GRENADE: Mass Accelerator Grenade
+      STR_MASS_ACCELERATOR_GRENADE_UFOPEDIA: This grenade is built around an unstable mass accelerator power unit. Once primed, the uncontrolable acceleration results in a powerful explosion. Due to the nature of the payload the effective radius of its explosion is smaller than other advanced grenades.
+      STR_MASS_ACCELERATOR_ROCKET: Mass Accelerator Rocket
+      STR_MASS_ACCELERATOR_ROCKET_UFOPEDIA: This is a human technology blaster bomb variant. The payload is an unstable mass accelerator power unit that goes critical nanoseconds before impact. It has smaller blast radius than the alien blaster bomb, but a superior destructive power.  It is fired by the blaster launcher.
+  - type: en-GB
+    strings:
+      STR_MASS_CANNON_UC: MASS CANNON
+      STR_MASS_CANNON: Mass Cannon
+      STR_CRAFT_MASS_CANNON: Craft Mass Cannon
+      STR_MASS_CANNON_UFOPEDIA: THE MASS CANNON IS THE APOGEE OF MASS ACCELERATOR TECHNOLOGY. FIRING REPEATED DENSE BURST OF BARYONS AT CLOSE TO RELATIVISTIC SPEEDS, IT CAN PENETRATE ANY ARMOR. ITS RATE OF FIRE IS REDUCED TO AVOID INHIBITING THE FLIGHT CHARACTERISTICS OF THE CRAFTS.
+      STR_MASS_ACCELERATOR_WEAPONS: Mass Accelerator Technology
+      STR_MASS_ACCELERATOR_WEAPONS_UFOPEDIA: By reverse engineering alien artifacts human technology has made great advances. We have been able to weaponise techonologies that up until now seemed to be well outside our reach. Mass acccelerator weapons shoot ultrasonic dense bursts of baryons to the target, with a combined kinetic and thermal energy that the destructive potential of alien plasma techonology. With further research we should be able to derive reliable weapons from the early prototypes.
+      STR_MASS_ACCELERATOR_PISTOL: Mass Accelerator Pistol
+      STR_MASS_ACCELERATOR_PISTOL_UFOPEDIA: This is the first production level design of mass accelerator weapons. The mass accelerator pistol is a very potent sidearm, surpassing previous human weapon designs.
+      STR_MASS_ACCELERATOR_PISTOL_CLIP: Mass Accelerator Pistol Clip
+      STR_MASS_ACCELERATOR_RIFLE: Mass Accelerator Rifle
+      STR_MASS_ACCELERATOR_RIFLE_UFOPEDIA: The experience from the mass accelerator pistol allowed us to design even more potent firearms. The mass accelerator rifle has superior destructive power, range and clip capacity. This is the human responce to alien technology. 
+      STR_MASS_ACCELERATOR_RIFLE_CLIP: Mass Accelerator Rifle Clip
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE: Mass Accelerator Sniper Rifle
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE_UFOPEDIA: The sniper rifle is a supercharged version of the mass accelerator rifle. While it is not capable of auto bursts due to overheating it delivers a stronger punch. Adapted alien techonology has been used to reduce its recoil, thus allowing for very accurate long range shots.
+      STR_MASS_ACCELERATOR_SNIPER_RIFLE_CLIP: Mass Accelerator Sniper Rifle Clip
+      STR_MASS_ACCELERATOR_CANNON: Mass Accelerator Cannon
+      STR_MASS_ACCELERATOR_CANNON_UFOPEDIA: The mass accelerator cannon is the apogee of the portable mass accelerator techonology. Although it is less accurate than its smaller counterparts, nothing can match its destructive potential. 
+      STR_MASS_ACCELERATOR_CANNON_CLIP: Mass Accelerator Cannon Clip
+      STR_MASS_ACCELERATOR_GRENADE: Mass Accelerator Grenade
+      STR_MASS_ACCELERATOR_GRENADE_UFOPEDIA: This grenade is built around an unstable mass accelerator power unit. Once primed, the uncontrolable acceleration results in a powerful explosion. Due to the nature of the payload the effective radius of its explosion is smaller than other advanced grenades.
+      STR_MASS_ACCELERATOR_ROCKET: Mass Accelerator Rocket
+      STR_MASS_ACCELERATOR_ROCKET_UFOPEDIA: This is a human technology blaster bomb variant. The payload is an unstable mass accelerator power unit that goes critical nanoseconds before impact. It has smaller blast radius than the alien blaster bomb, but a superior destructive power. It is fired by the blaster launcher.
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      60: Resources/RailGun/RailSniper.gif
+      61: Resources/RailGun/RailRifle.gif
+      62: Resources/RailGun/RailPistol.gif
+      63: Resources/RailGun/RailCannon.gif
+      64: Resources/RailGun/RailGrenade.gif
+      65: Resources/RailGun/RailClipSniper.gif
+      66: Resources/RailGun/RailClipRifle.gif
+      67: Resources/RailGun/RailClipPistol.gif
+      68: Resources/RailGun/RailClipCannon.gif
+      69: Resources/RailGun/RailRocketSmall.gif
+  - type: BASEBITS.PCK
+    files:
+      59: Resources/RailGun/Basebits/railcraft.gif
+  - type: INTICON.PCK
+    files:
+      16: Resources/RailGun/Inticon/railcraft.gif
+  - type: FLOOROB.PCK
+    files:
+      80: Resources/RailGun/floorob_RailSniper.gif
+      81: Resources/RailGun/floorob_RailRifle.gif
+      82: Resources/RailGun/floorob_RailPistol.gif
+      83: Resources/RailGun/floorob_RailCannon.gif
+      84: Resources/RailGun/floorob_RailGrenade.gif
+      85: Resources/RailGun/floorob_RailClip.gif
+      86: Resources/RailGun/floorob_RailClipCannon.gif
+      87: Resources/RailGun/floorob_RailRocketSmall.gif
+  - type: HANDOB.PCK
+    files:
+      130: Resources/RailGun/HandOb_RailSniper/
+      139: Resources/RailGun/HandOb_RailRifle/
+      147: Resources/RailGun/HandOb_RailPistol/
+      155: Resources/RailGun/HandOb_RailCannon/
+  - type: MASS_BIG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/RailGun/Ufopedia/Particle_Accelerator_Ufo.gif	  
+  - type: MASS_CANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/RailGun/Ufopedia/Mass_Cannon_Ufo.gif	
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      55: Resources/RailGun/Sounds/largegun.wav
+      56: Resources/RailGun/Sounds/lashit.wav

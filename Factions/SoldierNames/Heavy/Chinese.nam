@@ -1,0 +1,1007 @@
+# Note: "first" names here are family names, "last" names are given names.
+lookWeights:
+  - 1
+  - 1
+  - 93
+  - 5
+maleFirst:
+  - An
+  - Ang
+  - Ao
+  - Au
+  - Au Yeung
+  - Bai
+  - Ban
+  - Bao
+  - Bau
+  - Bi
+  - Bo
+  - Bu
+  - Cai
+  - Cao
+  - Cha
+  - Chai
+  - Cham
+  - Chan
+  - Chang
+  - Chao
+  - Chau
+  - Che
+  - Cheah
+  - Chee
+  - Chen
+  - Cheng
+  - Cheong
+  - Chern
+  - Cheung
+  - Chew
+  - Chi
+  - Chia
+  - Chiang
+  - Chiao
+  - Chien
+  - Chim
+  - Chin
+  - Ching
+  - Chiong
+  - Chiou
+  - Chiu
+  - Cho
+  - Choi
+  - Chong
+  - Choo
+  - Chou
+  - Chow
+  - Choy
+  - Chu
+  - Chua
+  - Cheang
+  - Chui
+  - Chun
+  - Chung
+  - Cong
+  - Cui
+  - Dai
+  - Dang
+  - Dea
+  - Deng
+  - Ding
+  - Do
+  - Dong
+  - Doo
+  - Du
+  - Duan
+  - Dung
+  - Eng
+  - Fan
+  - Fang
+  - Fei
+  - Feng
+  - Fok
+  - Fong
+  - Foo
+  - Fu
+  - Fung
+  - Gan
+  - Gang
+  - Gao
+  - Gau
+  - Ge
+  - Geng
+  - Go
+  - Goh
+  - Gong
+  - Gu
+  - Guan
+  - Guo
+  - Ha
+  - Hai
+  - Han
+  - Hang
+  - Hao
+  - Hau
+  - He
+  - Ho
+  - Hoh
+  - Hom
+  - Hon
+  - Hong
+  - Hoo
+  - Hou
+  - Hsi
+  - Hsia
+  - Hsiao
+  - Hsieh
+  - Hsiung
+  - Hsu
+  - Hsueh
+  - Hu
+  - Hua
+  - Huang
+  - Hui
+  - Huie
+  - Hum
+  - Hung
+  - Huo
+  - Hwang
+  - Hy
+  - Ing
+  - Ip
+  - Jan
+  - Jang
+  - Jen
+  - Jeng
+  - Jeung
+  - Jew
+  - Ji
+  - Jia
+  - Jian
+  - Jiang
+  - Jiao
+  - Jim
+  - Jin
+  - Jing
+  - Jo
+  - Joe
+  - Jong
+  - Joo
+  - Jou
+  - Jow
+  - Ju
+  - Jue
+  - Jung
+  - Kam
+  - Kan
+  - Kang
+  - Kao
+  - Kau
+  - Ke
+  - Keng
+  - Kho
+  - Khoo
+  - Kiang
+  - King
+  - Ko
+  - Koh
+  - Kong
+  - Koo
+  - Kook
+  - Kou
+  - Ku
+  - Kuan
+  - Kuang
+  - Kuk
+  - Kung
+  - Kuang
+  - Kuo
+  - Kwan
+  - Kwock
+  - Kwok
+  - Kwon
+  - Kwong
+  - Lai
+  - Lam
+  - Lan
+  - Lang
+  - Lao
+  - Lau
+  - Lee
+  - Lei
+  - Leng
+  - Leong
+  - Leung
+  - Lew
+  - Li
+  - Lian
+  - Liang
+  - Liao
+  - Liaw
+  - Lien
+  - Liew
+  - Lim
+  - Lin
+  - Ling
+  - Liou
+  - Liu
+  - Lo
+  - Loh
+  - Lok
+  - Long
+  - Loo
+  - Lou
+  - Louie
+  - Lu
+  - Lua
+  - Lui
+  - Luk
+  - Lum
+  - Lung
+  - Luo
+  - Ma
+  - Mah
+  - Mai
+  - Mak
+  - Man
+  - Mao
+  - Mar
+  - Mau
+  - May
+  - Mei
+  - Meng
+  - Miao
+  - Min
+  - Ming
+  - Miu
+  - Mo
+  - Mok
+  - Mon
+  - Mou
+  - Moy
+  - Mu
+  - Mui
+  - Na
+  - Ng
+  - Ngai
+  - Ngan
+  - Ngo
+  - Ni
+  - Nie
+  - Ning
+  - Niu
+  - On
+  - Ong
+  - Ou
+  - Ou Yang
+  - Ow
+  - Owyang
+  - Pan
+  - Pang
+  - Pao
+  - Pei
+  - Peng
+  - Pi
+  - Ping
+  - Po
+  - Pon
+  - Pong
+  - Poon
+  - Pu
+  - Pun
+  - Qi
+  - Qian
+  - Qiao
+  - Qin
+  - Qiu
+  - Qu
+  - Quan
+  - Que
+  - Rao
+  - Ren
+  - Rong
+  - Ruan
+  - Sam
+  - San
+  - Sang
+  - Seto
+  - Sha
+  - Sham
+  - Shan
+  - Shang
+  - Shao
+  - Shaw
+  - Shek
+  - Shen
+  - Sheng
+  - Sheu
+  - Shi
+  - Shiau
+  - Shieh
+  - Shih
+  - Shing
+  - Shiu
+  - Shu
+  - Shum
+  - Shy
+  - Shyu
+  - Si
+  - Sieh
+  - Sin
+  - Sing
+  - Sit
+  - Situ
+  - Siu
+  - So
+  - Soh
+  - Song
+  - Soo
+  - Soo Hoo
+  - Soon
+  - Soong
+  - Su
+  - Suen
+  - Sui
+  - Sum
+  - Sun
+  - Sung
+  - Sze
+  - Szeto
+  - Tai
+  - Tam
+  - Tan
+  - Tang
+  - Tao
+  - Tay
+  - Te
+  - Teh
+  - Teng
+  - Teo
+  - Tian
+  - Tien
+  - Tin
+  - Ting
+  - Tiu
+  - To
+  - Toh
+  - Tom
+  - Tong
+  - Tsai
+  - Tsang
+  - Tsao
+  - Tsay
+  - Tse
+  - Tseng
+  - Tso
+  - Tsoi
+  - Tsou
+  - Tsu
+  - Tsui
+  - Tu
+  - Tuan
+  - Tung
+  - Tzeng
+  - U
+  - Un
+  - Ung
+  - Wah
+  - Wai
+  - Wan
+  - Wang
+  - Wee
+  - Wei
+  - Wen
+  - Weng
+  - Wing
+  - Wong
+  - Woo
+  - Woon
+  - Wu
+  - Xi
+  - Xia
+  - Xiang
+  - Xiao
+  - Xie
+  - Xin
+  - Xing
+  - Xiong
+  - Xu
+  - Xue
+  - Yam
+  - Yan
+  - Yang
+  - Yao
+  - Yap
+  - Yau
+  - Yaw
+  - Ye
+  - Yee
+  - Yeh
+  - Yen
+  - Yep
+  - Yeung
+  - Yi
+  - Yim
+  - Yin
+  - Ying
+  - Yip
+  - Yiu
+  - Yong
+  - Yoo
+  - Yoon
+  - You
+  - Young
+  - Yu
+  - Yuan
+  - Yue
+  - Yuen
+  - Yun
+  - Yung
+  - Zang
+  - Zeng
+  - Zha
+  - Zhan
+  - Zhang
+  - Zhao
+  - Zhen
+  - Zheng
+  - Zhong
+  - Zhou
+  - Zhu
+  - Zhuang
+  - Zhuo
+  - Zong
+  - Zou
+femaleFirst:
+  - An
+  - Ang
+  - Ao
+  - Au
+  - Au Yeung
+  - Bai
+  - Ban
+  - Bao
+  - Bau
+  - Bi
+  - Bo
+  - Bu
+  - Cai
+  - Cao
+  - Cha
+  - Chai
+  - Cham
+  - Chan
+  - Chang
+  - Chao
+  - Chau
+  - Che
+  - Cheah
+  - Chee
+  - Chen
+  - Cheng
+  - Cheong
+  - Chern
+  - Cheung
+  - Chew
+  - Chi
+  - Chia
+  - Chiang
+  - Chiao
+  - Chien
+  - Chim
+  - Chin
+  - Ching
+  - Chiong
+  - Chiou
+  - Chiu
+  - Cho
+  - Choi
+  - Chong
+  - Choo
+  - Chou
+  - Chow
+  - Choy
+  - Chu
+  - Chua
+  - Cheang
+  - Chui
+  - Chun
+  - Chung
+  - Cong
+  - Cui
+  - Dai
+  - Dang
+  - Dea
+  - Deng
+  - Ding
+  - Do
+  - Dong
+  - Doo
+  - Du
+  - Duan
+  - Dung
+  - Eng
+  - Fan
+  - Fang
+  - Fei
+  - Feng
+  - Fok
+  - Fong
+  - Foo
+  - Fu
+  - Fung
+  - Gan
+  - Gang
+  - Gao
+  - Gau
+  - Ge
+  - Geng
+  - Go
+  - Goh
+  - Gong
+  - Gu
+  - Guan
+  - Guo
+  - Ha
+  - Hai
+  - Han
+  - Hang
+  - Hao
+  - Hau
+  - He
+  - Ho
+  - Hoh
+  - Hom
+  - Hon
+  - Hong
+  - Hoo
+  - Hou
+  - Hsi
+  - Hsia
+  - Hsiao
+  - Hsieh
+  - Hsiung
+  - Hsu
+  - Hsueh
+  - Hu
+  - Hua
+  - Huang
+  - Hui
+  - Huie
+  - Hum
+  - Hung
+  - Huo
+  - Hwang
+  - Hy
+  - Ing
+  - Ip
+  - Jan
+  - Jang
+  - Jen
+  - Jeng
+  - Jeung
+  - Jew
+  - Ji
+  - Jia
+  - Jian
+  - Jiang
+  - Jiao
+  - Jim
+  - Jin
+  - Jing
+  - Jo
+  - Joe
+  - Jong
+  - Joo
+  - Jou
+  - Jow
+  - Ju
+  - Jue
+  - Jung
+  - Kam
+  - Kan
+  - Kang
+  - Kao
+  - Kau
+  - Ke
+  - Keng
+  - Kho
+  - Khoo
+  - Kiang
+  - King
+  - Ko
+  - Koh
+  - Kong
+  - Koo
+  - Kook
+  - Kou
+  - Ku
+  - Kuan
+  - Kuang
+  - Kuk
+  - Kung
+  - Kuang
+  - Kuo
+  - Kwan
+  - Kwock
+  - Kwok
+  - Kwon
+  - Kwong
+  - Lai
+  - Lam
+  - Lan
+  - Lang
+  - Lao
+  - Lau
+  - Lee
+  - Lei
+  - Leng
+  - Leong
+  - Leung
+  - Lew
+  - Li
+  - Lian
+  - Liang
+  - Liao
+  - Liaw
+  - Lien
+  - Liew
+  - Lim
+  - Lin
+  - Ling
+  - Liou
+  - Liu
+  - Lo
+  - Loh
+  - Lok
+  - Long
+  - Loo
+  - Lou
+  - Louie
+  - Lu
+  - Lua
+  - Lui
+  - Luk
+  - Lum
+  - Lung
+  - Luo
+  - Ma
+  - Mah
+  - Mai
+  - Mak
+  - Man
+  - Mao
+  - Mar
+  - Mau
+  - May
+  - Mei
+  - Meng
+  - Miao
+  - Min
+  - Ming
+  - Miu
+  - Mo
+  - Mok
+  - Mon
+  - Mou
+  - Moy
+  - Mu
+  - Mui
+  - Na
+  - Ng
+  - Ngai
+  - Ngan
+  - Ngo
+  - Ni
+  - Nie
+  - Ning
+  - Niu
+  - On
+  - Ong
+  - Ou
+  - Ou Yang
+  - Ow
+  - Owyang
+  - Pan
+  - Pang
+  - Pao
+  - Pei
+  - Peng
+  - Pi
+  - Ping
+  - Po
+  - Pon
+  - Pong
+  - Poon
+  - Pu
+  - Pun
+  - Qi
+  - Qian
+  - Qiao
+  - Qin
+  - Qiu
+  - Qu
+  - Quan
+  - Que
+  - Rao
+  - Ren
+  - Rong
+  - Ruan
+  - Sam
+  - San
+  - Sang
+  - Seto
+  - Sha
+  - Sham
+  - Shan
+  - Shang
+  - Shao
+  - Shaw
+  - Shek
+  - Shen
+  - Sheng
+  - Sheu
+  - Shi
+  - Shiau
+  - Shieh
+  - Shih
+  - Shing
+  - Shiu
+  - Shu
+  - Shum
+  - Shy
+  - Shyu
+  - Si
+  - Sieh
+  - Sin
+  - Sing
+  - Sit
+  - Situ
+  - Siu
+  - So
+  - Soh
+  - Song
+  - Soo
+  - Soo Hoo
+  - Soon
+  - Soong
+  - Su
+  - Suen
+  - Sui
+  - Sum
+  - Sun
+  - Sung
+  - Sze
+  - Szeto
+  - Tai
+  - Tam
+  - Tan
+  - Tang
+  - Tao
+  - Tay
+  - Te
+  - Teh
+  - Teng
+  - Teo
+  - Tian
+  - Tien
+  - Tin
+  - Ting
+  - Tiu
+  - To
+  - Toh
+  - Tom
+  - Tong
+  - Tsai
+  - Tsang
+  - Tsao
+  - Tsay
+  - Tse
+  - Tseng
+  - Tso
+  - Tsoi
+  - Tsou
+  - Tsu
+  - Tsui
+  - Tu
+  - Tuan
+  - Tung
+  - Tzeng
+  - U
+  - Un
+  - Ung
+  - Wah
+  - Wai
+  - Wan
+  - Wang
+  - Wee
+  - Wei
+  - Wen
+  - Weng
+  - Wing
+  - Wong
+  - Woo
+  - Woon
+  - Wu
+  - Xi
+  - Xia
+  - Xiang
+  - Xiao
+  - Xie
+  - Xin
+  - Xing
+  - Xiong
+  - Xu
+  - Xue
+  - Yam
+  - Yan
+  - Yang
+  - Yao
+  - Yap
+  - Yau
+  - Yaw
+  - Ye
+  - Yee
+  - Yeh
+  - Yen
+  - Yep
+  - Yeung
+  - Yi
+  - Yim
+  - Yin
+  - Ying
+  - Yip
+  - Yiu
+  - Yong
+  - Yoo
+  - Yoon
+  - You
+  - Young
+  - Yu
+  - Yuan
+  - Yue
+  - Yuen
+  - Yun
+  - Yung
+  - Zang
+  - Zeng
+  - Zha
+  - Zhan
+  - Zhang
+  - Zhao
+  - Zhen
+  - Zheng
+  - Zhong
+  - Zhou
+  - Zhu
+  - Zhuang
+  - Zhuo
+  - Zong
+  - Zou
+maleLast:
+  - An (HEAVY)
+  - Bao (HEAVY)
+  - Bo (HEAVY)
+  - Bing (HEAVY)
+  - Cai (HEAVY)
+  - Chen (HEAVY)
+  - Cheng (HEAVY)
+  - Chung (HEAVY)
+  - Confucius (HEAVY)
+  - Cong (HEAVY)
+  - De (HEAVY)
+  - Deshi (HEAVY)
+  - Dewei (HEAVY)
+  - Dong (HEAVY)
+  - Feng (HEAVY)
+  - Fo-hai (HEAVY)
+  - Fo-hsing (HEAVY)
+  - Gan (HEAVY)
+  - Gan (HEAVY)
+  - Gao (HEAVY)
+  - Genjo (HEAVY)
+  - Guo (HEAVY)
+  - Ho (HEAVY)
+  - Hsin (HEAVY)
+  - Hu (HEAVY)
+  - Hui (HEAVY)
+  - Hui-chao (HEAVY)
+  - Huik'o (HEAVY)
+  - Jian (HEAVY)
+  - Jiang (HEAVY)
+  - Jie (HEAVY)
+  - Jin (HEAVY)
+  - Jing (HEAVY)
+  - Jun (HEAVY)
+  - Kang (HEAVY)
+  - Kong (HEAVY)
+  - Lao-Tzu (HEAVY)
+  - Lee (HEAVY)
+  - Lei (HEAVY)
+  - Li (HEAVY)
+  - Liang (HEAVY)
+  - Liko (HEAVY)
+  - Li-liang (HEAVY)
+  - Long (HEAVY)
+  - Manchu (HEAVY)
+  - Meng (HEAVY)
+  - Ming (HEAVY)
+  - Niao-ka (HEAVY)
+  - Ning (HEAVY)
+  - On (HEAVY)
+  - Peng (HEAVY)
+  - Qiang (HEAVY)
+  - Qing-Nan (HEAVY)
+  - Quon (HEAVY)
+  - Shen (HEAVY)
+  - Shi (HEAVY)
+  - Shing (HEAVY)
+  - Song (HEAVY)
+  - Sun (HEAVY)
+  - Tao (HEAVY)
+  - Tian (HEAVY)
+  - Tung (HEAVY)
+  - Uang (HEAVY)
+  - Wang (HEAVY)
+  - Wei (HEAVY)
+  - Wen (HEAVY)
+  - Woo (HEAVY)
+  - Wu-pen (HEAVY)
+  - Xiaoping (HEAVY)
+  - Yao (HEAVY)
+  - Ye (HEAVY)
+  - Yo (HEAVY)
+  - Yong (HEAVY)
+  - Yu (HEAVY)
+  - Yuan (HEAVY)
+  - Zong (HEAVY)
+  - Zhu (HEAVY)
+  - Zhuang (HEAVY)
+femaleLast:
+  - Ah lam (HEAVY)
+  - Ai (HEAVY)
+  - An (HEAVY)
+  - Bao (HEAVY)
+  - Bi (HEAVY)
+  - Cai (HEAVY)
+  - Chan (HEAVY)
+  - Chen (HEAVY)
+  - Chen-chio (HEAVY)
+  - Chen-tao (HEAVY)
+  - Chow (HEAVY)
+  - Chu hua (HEAVY)
+  - Chun (HEAVY)
+  - Chyou (HEAVY)
+  - Cui (HEAVY)
+  - Dai (HEAVY)
+  - Da-Shin (HEAVY)
+  - Dan (HEAVY)
+  - Da-xia (HEAVY)
+  - E (HEAVY)
+  - Fai (HEAVY)
+  - Fang (HEAVY)
+  - Fang hua (HEAVY)
+  - Feng (HEAVY)
+  - Genji (HEAVY)
+  - Guanyin (HEAVY)
+  - Hong (HEAVY)
+  - Hua (HEAVY)
+  - Huan (HEAVY)
+  - Hui (HEAVY)
+  - Hui fang (HEAVY)
+  - Jiao (HEAVY)
+  - Jing Wei (HEAVY)
+  - Ju (HEAVY)
+  - Juan (HEAVY)
+  - Jun (HEAVY)
+  - Kimora (HEAVY)
+  - Lan (HEAVY)
+  - Le (HEAVY)
+  - Lee (HEAVY)
+  - Lei (HEAVY)
+  - Lian (HEAVY)
+  - Lien (HEAVY)
+  - Li Hua (HEAVY)
+  - Li Mei (HEAVY)
+  - Li Ming (HEAVY)
+  - Lin (HEAVY)
+  - Ling (HEAVY)
+  - Lixue (HEAVY)
+  - Mee (HEAVY)
+  - Mei (HEAVY)
+  - Mingmei (HEAVY)
+  - Quan (HEAVY)
+  - Shu Fang (HEAVY)
+  - Ting (HEAVY)
+  - Ushi (HEAVY)
+  - Xiang (HEAVY)
+  - Xiao-Niao (HEAVY)
+  - Xiao-Xing (HEAVY)
+  - Xin (HEAVY)
+  - Xiu Mei (HEAVY)
+  - Yin (HEAVY)
+  - Yu (HEAVY)
+  - Zan (HEAVY)
+  - Zhengqiu (HEAVY)
+  - Zhi (HEAVY)
+  - Zhijuan (HEAVY)
+  - Zi (HEAVY)
+ 

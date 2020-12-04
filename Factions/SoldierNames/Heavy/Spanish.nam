@@ -1,0 +1,247 @@
+lookWeights:
+  - 4
+  - 88
+  - 4
+  - 4
+maleFirst:
+  - Aaron
+  - Adan
+  - Alberto
+  - Alejandro
+  - Alfonso
+  - Andres
+  - Angel
+  - Antonio
+  - Augusto
+  - Benedicto
+  - Benjamin
+  - Carlos
+  - Daniel
+  - David
+  - Diego
+  - Eduardo
+  - Elias
+  - Eliseo
+  - Enrique
+  - Emanuel
+  - Eric
+  - Ernesto
+  - Esteban
+  - Fabio
+  - Felipe
+  - Felix
+  - Fernando
+  - Fidel
+  - Fortunato
+  - Francisco
+  - Gabriel
+  - Gerardo
+  - Hugo
+  - Humberto
+  - Ismael
+  - Ivan
+  - Jacobo
+  - Jaime
+  - Javier
+  - Jesus
+  - Joel
+  - Jorge
+  - Jose
+  - Juan
+  - Julian
+  - Leo
+  - Leonardo
+  - Lucas
+  - Luis
+  - Manuel
+  - Marco
+  - Marcos
+  - Martin
+  - Matias
+  - Mateo
+  - Maximiliano
+  - Miguel
+  - Nataniel
+  - Nicolas
+  - Noe
+  - Octavio
+  - Orlando
+  - Oscar
+  - Pablo
+  - Pedro
+  - Rafael
+  - Ramon
+  - Raul
+  - Rene
+  - Ricardo
+  - Roberto
+  - Rolando
+  - Salvador
+  - Santiago
+  - Sebastian
+  - Sergio
+  - Silvestre
+  - Stefano
+  - Teodoro
+  - Tito
+  - Tomas
+  - Valentin
+  - Vicente
+  - Victor
+  - Xavier
+femaleFirst:
+  - Adriana
+  - Aida
+  - Alejandra
+  - Alexia
+  - Alma
+  - Ana
+  - Angela
+  - Angelica
+  - Aurora
+  - Barbara
+  - Bianca
+  - Brenda
+  - Carina
+  - Carla
+  - Carolina
+  - Casandra
+  - Catalina
+  - Claudia
+  - Cristina
+  - Dolores
+  - Dora
+  - Elena
+  - Eliana
+  - Elvira
+  - Ema
+  - Esmeralda
+  - Eva
+  - Felicia
+  - Fiona
+  - Gabriela
+  - Gloria
+  - Guadalupe
+  - Ines
+  - Isabel
+  - Jesica
+  - Juana
+  - Laura
+  - Lidia
+  - Liliana
+  - Linda
+  - Lisa
+  - Lorena
+  - Magdalena
+  - Marcela
+  - Margarita
+  - Maria
+  - Mariana
+  - Marisol
+  - Monica
+  - Nadia
+  - Nancy
+  - Natalia
+  - Noemi
+  - Olivia
+  - Patricia
+  - Paulina
+  - Raquel
+  - Rosa
+  - Selena
+  - Sofia
+  - Sonia
+  - Talia
+  - Tatiana
+  - Teresa
+  - Vanesa
+  - Veronica
+  - Victoria
+  - Yolanda
+maleLast:
+  - Aguilar (HEAVY)
+  - Alba (HEAVY)
+  - Alonso (HEAVY)
+  - Alvarado (HEAVY)
+  - Alvarez (HEAVY)
+  - Avila (HEAVY)
+  - Calderon (HEAVY)
+  - Campos (HEAVY)
+  - Cardenas (HEAVY)
+  - Castilla (HEAVY)
+  - Cervantes (HEAVY)
+  - Chavez (HEAVY)
+  - Cortez (HEAVY)
+  - Cruz (HEAVY)
+  - De La Cruz (HEAVY)
+  - De La Rosa (HEAVY)
+  - De Soto (HEAVY)
+  - Diaz (HEAVY)
+  - Dominguez (HEAVY)
+  - Estrada (HEAVY)
+  - Falcon (HEAVY)
+  - Fernandez (HEAVY)
+  - Figueroa (HEAVY)
+  - Flores (HEAVY)
+  - Fuentes (HEAVY)
+  - Garcia (HEAVY)
+  - Garza (HEAVY)
+  - Gomez (HEAVY)
+  - Gonzalez (HEAVY)
+  - Guerrero (HEAVY)
+  - Gutierrez (HEAVY)
+  - Guzman (HEAVY)
+  - Hernandez (HEAVY)
+  - Herrera (HEAVY)
+  - Jimenez (HEAVY)
+  - Juarez (HEAVY)
+  - Leon (HEAVY)
+  - Lima (HEAVY)
+  - Lopez (HEAVY)
+  - Loya (HEAVY)
+  - Lucio (HEAVY)
+  - Luna (HEAVY)
+  - Martinez (HEAVY)
+  - Medina (HEAVY)
+  - Mejia (HEAVY)
+  - Mendez (HEAVY)
+  - Mendoza (HEAVY)
+  - Miranda (HEAVY)
+  - Montero (HEAVY)
+  - Montes (HEAVY)
+  - Morales (HEAVY)
+  - Moreno (HEAVY)
+  - Munoz (HEAVY)
+  - Navarro (HEAVY)
+  - Nunez (HEAVY)
+  - Ortega (HEAVY)
+  - Ortiz (HEAVY)
+  - Pacheco (HEAVY)
+  - Pascual (HEAVY)
+  - Perez (HEAVY)
+  - Ramirez (HEAVY)
+  - Ramos (HEAVY)
+  - Reyes (HEAVY)
+  - Rios (HEAVY)
+  - Rivera (HEAVY)
+  - Rodriguez (HEAVY)
+  - Romero (HEAVY)
+  - Rosa (HEAVY)
+  - Ruiz (HEAVY)
+  - Sanchez (HEAVY)
+  - Sandoval (HEAVY)
+  - Santa Cruz (HEAVY)
+  - Santana (HEAVY)
+  - Santiago (HEAVY)
+  - Santos (HEAVY)
+  - Sosa (HEAVY)
+  - Suarez (HEAVY)
+  - Tapia (HEAVY)
+  - Torres (HEAVY)
+  - Trejo (HEAVY)
+  - Trevino (HEAVY)
+  - Trujillo (HEAVY)
+  - Valdez (HEAVY)
+  - Vasquez (HEAVY)
+  - Vega (HEAVY)
+  - Velasquez (HEAVY)

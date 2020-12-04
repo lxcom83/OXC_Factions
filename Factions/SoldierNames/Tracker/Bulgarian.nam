@@ -1,0 +1,251 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandar
+  - Andon
+  - Andrey
+  - Andrian
+  - Anton
+  - Antoni
+  - Angel
+  - Apostol
+  - Atanas
+  - Bogdan
+  - Bogomil
+  - Borislav
+  - Boyko
+  - Damyan
+  - Danail
+  - Desislav
+  - Dimitar
+  - Dragomir
+  - Gavrail
+  - Georgi
+  - Hristo
+  - Ilian
+  - Iliya
+  - Ivan
+  - Ivaylo
+  - Ivo
+  - Kaloyan
+  - Kiril
+  - Konstantin
+  - Krasimir
+  - Krastyo
+  - Lyuben
+  - Lyubomir
+  - Lyudmil
+  - Marko
+  - Miroslav
+  - Momchil
+  - Nikola
+  - Ognyan
+  - Penko
+  - Petar
+  - Plamen
+  - Radomir
+  - Samuil
+  - Spas
+  - Stanimir
+  - Stanislav
+  - Stoyan
+  - Teodor
+  - Tihomir
+  - Todor
+  - Toma
+  - Tsvetan
+  - Vasil
+  - Ventsislav
+  - Viktor
+  - Vladimir
+  - Vladislav
+  - Yanko
+  - Yoan
+  - Yordan
+  - Yosif
+  - Zahari
+  - Zhivko
+  - Zlatko
+femaleFirst:
+  - Ana
+  - Antonia
+  - Bilyana
+  - Bisera
+  - Bogomila
+  - Borislava
+  - Boyana
+  - Desislava
+  - Elisaveta
+  - Emiliya
+  - Gergana
+  - Hristina
+  - Iva
+  - Ivana
+  - Ivelina
+  - Ivet
+  - Izabela
+  - Krasimira
+  - Lidiya
+  - Lilyana
+  - Lyubina
+  - Lyubomira
+  - Lyudmila
+  - Maya
+  - Mirela
+  - Miroslava
+  - Nadejda
+  - Nevena
+  - Nikolina
+  - Pavla
+  - Pavlina
+  - Radomira
+  - Radoslava
+  - Radostina
+  - Rayna
+  - Rosa
+  - Rositsa
+  - Silviya
+  - Simona
+  - Snezhana
+  - Sofiya
+  - Stanislava
+  - Stanka
+  - Stoyanka
+  - Svetla
+  - Svetlana
+  - Tanya
+  - Tatyana
+  - Teodora
+  - Tereza
+  - Tsveta
+  - Tsvetelina
+  - Veselina
+  - Viktoria
+  - Violeta
+  - Vladimira
+  - Yana
+  - Yoana
+  - Yordanka
+maleLast:
+  - Aleksandrov (TRACK)
+  - Andonov (TRACK)
+  - Andreev (TRACK)
+  - Antonov (TRACK)
+  - Antoniev (TRACK)
+  - Angelov (TRACK)
+  - Apostolov (TRACK)
+  - Atanasov (TRACK)
+  - Bogdanov (TRACK)
+  - Bogomilov (TRACK)
+  - Borislavov (TRACK)
+  - Boykov (TRACK)
+  - Damyanov (TRACK)
+  - Danailov (TRACK)
+  - Desislavov (TRACK)
+  - Dimitrov (TRACK)
+  - Dragomirov (TRACK)
+  - Gavrailov (TRACK)
+  - Georgiev (TRACK)
+  - Hristov (TRACK)
+  - Ilianov (TRACK)
+  - Iliev (TRACK)
+  - Ivanov (TRACK)
+  - Ivaylov (TRACK)
+  - Kaloyan (TRACK)
+  - Kirilov (TRACK)
+  - Konstantinov (TRACK)
+  - Krasimirov (TRACK)
+  - Lyubenov (TRACK)
+  - Lyubomirov (TRACK)
+  - Lyudmilov (TRACK)
+  - Markov (TRACK)
+  - Miroslavov (TRACK)
+  - Momchilov (TRACK)
+  - Nikolaev (TRACK)
+  - Ognyanov (TRACK)
+  - Penkov (TRACK)
+  - Petrov (TRACK)
+  - Plamenov (TRACK)
+  - Radomirov (TRACK)
+  - Samuilov (TRACK)
+  - Spasov (TRACK)
+  - Stanimirov (TRACK)
+  - Stanislavov (TRACK)
+  - Stoyanov (TRACK)
+  - Teodorov (TRACK)
+  - Tihomirov (TRACK)
+  - Todorov (TRACK)
+  - Tomov (TRACK)
+  - Tsvetanov (TRACK)
+  - Vasilev (TRACK)
+  - Ventsislavov (TRACK)
+  - Vladimirov (TRACK)
+  - Vladislavov (TRACK)
+  - Yordanov (TRACK)
+  - Yosifov (TRACK)
+  - Zahariev (TRACK)
+  - Zhivkov (TRACK)
+  - Zlatkov (TRACK)
+femaleLast:
+  - Aleksandrov (TRACK)
+  - Andonov (TRACK)
+  - Andreev (TRACK)
+  - Antonov (TRACK)
+  - Antoniev (TRACK)
+  - Angelov (TRACK)
+  - Apostolov (TRACK)
+  - Atanasov (TRACK)
+  - Bogdanov (TRACK)
+  - Bogomilov (TRACK)
+  - Borislavov (TRACK)
+  - Boykov (TRACK)
+  - Damyanov (TRACK)
+  - Danailov (TRACK)
+  - Desislavov (TRACK)
+  - Dimitrov (TRACK)
+  - Dragomirov (TRACK)
+  - Gavrailov (TRACK)
+  - Georgiev (TRACK)
+  - Hristov (TRACK)
+  - Ilianov (TRACK)
+  - Iliev (TRACK)
+  - Ivanov (TRACK)
+  - Ivaylov (TRACK)
+  - Kaloyan (TRACK)
+  - Kirilov (TRACK)
+  - Konstantinov (TRACK)
+  - Krasimirov (TRACK)
+  - Lyubenov (TRACK)
+  - Lyubomirov (TRACK)
+  - Lyudmilov (TRACK)
+  - Markov (TRACK)
+  - Miroslavov (TRACK)
+  - Momchilov (TRACK)
+  - Nikolaev (TRACK)
+  - Ognyanov (TRACK)
+  - Penkov (TRACK)
+  - Petrov (TRACK)
+  - Plamenov (TRACK)
+  - Radomirov (TRACK)
+  - Samuilov (TRACK)
+  - Spasov (TRACK)
+  - Stanimirov (TRACK)
+  - Stanislavov (TRACK)
+  - Stoyanov (TRACK)
+  - Teodorov (TRACK)
+  - Tihomirov (TRACK)
+  - Todorov (TRACK)
+  - Tomov (TRACK)
+  - Tsvetanov (TRACK)
+  - Vasilev (TRACK)
+  - Ventsislavov (TRACK)
+  - Vladimirov (TRACK)
+  - Vladislavov (TRACK)
+  - Yordanov (TRACK)
+  - Yosifov (TRACK)
+  - Zahariev (TRACK)
+  - Zhivkov (TRACK)
+  - Zlatkov (TRACK)

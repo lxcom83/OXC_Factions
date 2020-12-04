@@ -1,0 +1,166 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandr
+  - Aleksey
+  - Anatoliy
+  - Andrey
+  - Anton
+  - Artem
+  - Artur
+  - Boris
+  - Denis
+  - Dmitriy
+  - Eduard
+  - Evgeniy
+  - Gennadiy
+  - Georgiy
+  - Grigoriy
+  - Igor
+  - Ilya
+  - Ivan
+  - Konstantin
+  - Leonid
+  - Maxim
+  - Mihail
+  - Nikolay
+  - Oleg
+  - Pavel
+  - Petr
+  - Roman
+  - Ruslan
+  - Sergey
+  - Stanislav
+  - Vadim
+  - Valentin
+  - Valeriy
+  - Vasiliy
+  - Viktor
+  - Vitaliy
+  - Vladimir
+  - Vladislav
+  - Vyacheslav
+  - Yuriy
+femaleFirst:
+  - Albina
+  - Aleksandra
+  - Alla
+  - Alyona
+  - Anastasiya
+  - Anna
+  - Antonina
+  - Darya
+  - Ekaterina
+  - Elena
+  - Evgeniya
+  - Galina
+  - Inna
+  - Irina
+  - Kristina
+  - Kseniya
+  - Larisa
+  - Lidiya
+  - Liliya
+  - Lyubov
+  - Lyudmila
+  - Margarita
+  - Marina
+  - Mariya
+  - Nadezhda
+  - Natalya
+  - Nina
+  - Oksana
+  - Olesya
+  - Olga
+  - Raisa
+  - Svetlana
+  - Tamara
+  - Tatyana
+  - Valentina
+  - Varvara
+  - Vera
+  - Viktoriya
+  - Yulia
+  - Zinaida
+  - Zoya  
+maleLast:
+  - Alekseev (TRACK)
+  - Andreev (TRACK)
+  - Antonov (TRACK)
+  - Borisov (TRACK)
+  - Fedorov (TRACK)
+  - Egorov (TRACK)
+  - Grigoryev (TRACK)
+  - Gromov (TRACK)
+  - Ivanov (TRACK)
+  - Komarov (TRACK)
+  - Korolyov (TRACK)
+  - Kozlov (TRACK)
+  - Kuzmin (TRACK)
+  - Kuznetsov (TRACK)
+  - Lebedev (TRACK)
+  - Makarov (TRACK)
+  - Mihailov (TRACK)
+  - Morozov (TRACK)
+  - Nikitin (TRACK)
+  - Nikolaev (TRACK)
+  - Novikov (TRACK)
+  - Orlov (TRACK)
+  - Pavlov (TRACK)
+  - Petrov (TRACK)
+  - Popov (TRACK)
+  - Romanov (TRACK)
+  - Semyonov (TRACK)
+  - Sergeev (TRACK)
+  - Smirnov (TRACK)
+  - Sokolov (TRACK)
+  - Solovyov (TRACK)
+  - Stepanov (TRACK)
+  - Vasilyev (TRACK)
+  - Volkov (TRACK)
+  - Vorobyov (TRACK)
+  - Yakovlev (TRACK)
+  - Zaitsev (TRACK)
+  - Zaharov (TRACK)
+femaleLast:
+  - Alekseeva (TRACK)
+  - Andreeva (TRACK)
+  - Antonova (TRACK)
+  - Borisova (TRACK)
+  - Fedorova (TRACK)
+  - Egorova (TRACK)
+  - Grigoryeva (TRACK)
+  - Gromova (TRACK)
+  - Ivanova (TRACK)
+  - Komarova (TRACK)
+  - Korolyova (TRACK)
+  - Kozlova (TRACK)
+  - Kuzmina (TRACK)
+  - Kuznetsova (TRACK)
+  - Lebedeva (TRACK)
+  - Makarova (TRACK)
+  - Mihailova (TRACK)
+  - Morozova (TRACK)
+  - Nikitina (TRACK)
+  - Nikolaeva (TRACK)
+  - Novikova (TRACK)
+  - Orlova (TRACK)
+  - Pavlova (TRACK)
+  - Petrova (TRACK)
+  - Popova (TRACK)
+  - Romanova (TRACK)
+  - Semyonova (TRACK)
+  - Sergeeva (TRACK)
+  - Smirnova (TRACK)
+  - Sokolova (TRACK)
+  - Solovyova (TRACK)
+  - Stepanova (TRACK)
+  - Vasilyeva (TRACK)
+  - Volkova (TRACK)
+  - Vorobyova (TRACK)
+  - Yakovleva (TRACK)
+  - Zaitseva (TRACK)
+  - Zaharova (TRACK)

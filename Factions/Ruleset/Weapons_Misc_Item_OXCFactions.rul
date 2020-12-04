@@ -1,0 +1,530 @@
+items:
+############################
+## FACTIONS - WEAPONS MISC ITEMS RULESET
+## V0.0.1
+## Lasted Changed by L83
+## Comments: 06-01-2020 -added weapons from efrenespartano.
+####################################
+########### MISC ITEMS #############
+####################################
+####################################
+########## BOXES, CRATES ###########
+####################################
+
+  - type: STR_GENERIC_BOX
+    size: 0.5
+    weight: 50
+    bigSprite: 1500
+    floorSprite: 1500
+    costThrow:
+      energy: 20
+    battleType: 10
+    armor: 20
+    recover: false
+    invWidth: 2
+    invHeight: 2
+
+  - type: STR_RESOURCES_PALLET
+    size: 0.5
+    weight: 75
+    bigSprite: 1501
+    floorSprite: 1501
+    costThrow:
+      energy: 30
+    battleType: 10
+    armor: 20
+    recover: false
+    invWidth: 2
+    invHeight: 2
+
+  - type: STR_WEAPONS_CRATE
+    size: 0.5
+    weight: 65
+    bigSprite: 1502
+    floorSprite: 1502
+    costThrow:
+      energy: 20
+    battleType: 10
+    armor: 20
+    recover: false
+    invWidth: 2
+    invHeight: 2
+
+  - type: STR_ALIEN_ALLOY_PLATE
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1503
+    floorSprite: 1503
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 1
+    attraction: 2
+    listOrder: 4200
+
+  - type: STR_ALIEN_CRYSTAL
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1504
+    floorSprite: 1504
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4201
+
+  - type: STR_ALIEN_PLASTIC
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1505
+    floorSprite: 1505
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4202
+
+  - type: STR_CANNED_FOOD
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1506
+    floorSprite: 1506
+    battleType: 6
+    allowSelfHeal: true
+    isConsumable: true
+    medikitType: 3
+    painKiller: 1
+    costUse:
+      time: 35
+      energy: -25
+      morale: -25
+      health: -3
+    costThrow:
+      time: 10
+    flatThrow:
+      time: true
+    invWidth: 2
+    invHeight: 1
+    experienceTrainingMode: 21
+    recoveryPoints: 10
+    invWidth: 2
+    invHeight: 1
+    attraction: 2
+    listOrder: 4203
+
+  - type: STR_CERAMIC_PLATE
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1507
+    floorSprite: 1507
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 2
+    listOrder: 4204
+
+  - type: STR_DEPLETED_URANIUM_BRIEFCASE
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1508
+    floorSprite: 1508
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4205
+
+  - type: STR_ELECTRONICS_SCRAP
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1509
+    floorSprite: 1509
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4206
+
+  - type: STR_EXPLOSIVES
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1510
+    floorSprite: 1510
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 1
+    invHeight: 1
+    attraction: 2
+    listOrder: 4207
+
+  - type: STR_FUEL_CAN
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1511
+    floorSprite: 1511
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 2
+    listOrder: 4208
+
+  - type: STR_NOHARITE_ORE
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1512
+    floorSprite: 1512
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 1
+    invHeight: 1
+    attraction: 2
+    listOrder: 4209
+
+  - type: STR_PSIONIC_ALIEN_CRYSTAL
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1513
+    floorSprite: 1523
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4210
+
+  - type: STR_REFINED_NOHARITE
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1514
+    floorSprite: 1514
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 1
+    attraction: 2
+    listOrder: 4211
+
+  - type: STR_SCRAP_METAL
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1515
+    floorSprite: 1515
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 2
+    attraction: 2
+    listOrder: 4212
+
+  - type: STR_STEEL_INGOT
+    size: 0.1
+    costSell: 100
+    weight: 3
+    bigSprite: 1516
+    floorSprite: 1516
+    battleType: 10
+    armor: 20
+    recover: true
+    invWidth: 2
+    invHeight: 1
+    attraction: 2
+    listOrder: 4213
+
+research:
+  - name: STR_ALIEN_ALLOY_PLATE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_ALIEN_CRYSTAL
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_ALIEN_PLASTIC
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_CANNED_FOOD
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_CERAMIC_PLATE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_DEPLETED_URANIUM_BRIEFCASE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_ELECTRONICS_SCRAP
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_EXPLOSIVES
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_FUEL_CAN
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_NOHARITE_ORE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_PSIONIC_ALIEN_CRYSTAL
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_REFINED_NOHARITE
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_SCRAP_METAL
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+  - name: STR_STEEL_INGOT
+    cost: 2
+    points: 2
+    needItem: true
+    destroyItem: true
+#    listOrder: 57240
+
+ufopaedia:
+  - id: STR_GENERIC_BOX
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GENERIC_BOX_UFOPEDIA
+
+  - id: STR_RESOURCES_PALLET
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_RESOURCES_PALLET_UFOPEDIA
+
+  - id: STR_WEAPONS_CRATE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_WEAPONS_CRATE_UFOPEDIA
+
+  - id: STR_ALIEN_ALLOY_PLATE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ALIEN_ALLOY_PLATE_UFOPEDIA
+
+  - id: STR_ALIEN_CRYSTAL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ALIEN_CRYSTAL_UFOPEDIA
+
+  - id: STR_ALIEN_PLASTIC
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ALIEN_PLASTIC_UFOPEDIA
+
+  - id: STR_CANNED_FOOD
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CANNED_FOOD_UFOPEDIA
+
+  - id: STR_CERAMIC_PLATE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_CERAMIC_PLATE_UFOPEDIA
+
+  - id: STR_DEPLETED_URANIUM_BRIEFCASE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DEPLETED_URANIUM_BRIEFCASE_UFOPEDIA
+
+  - id: STR_ELECTRONICS_SCRAP
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ELECTRONICS_SCRAP_UFOPEDIA
+
+  - id: STR_EXPLOSIVES
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_EXPLOSIVES_UFOPEDIA
+
+  - id: STR_FUEL_CAN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_FUEL_CAN_UFOPEDIA
+
+  - id: STR_NOHARITE_ORE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_NOHARITE_ORE_UFOPEDIA
+
+  - id: STR_PSIONIC_ALIEN_CRYSTAL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_PSIONIC_ALIEN_CRYSTAL_UFOPEDIA
+
+  - id: STR_REFINED_NOHARITE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_REFINED_NOHARITE_UFOPEDIA
+
+  - id: STR_SCRAP_METAL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SCRAP_METAL_UFOPEDIA
+
+  - id: STR_STEEL_INGOT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_STEEL_INGOT_UFOPEDIA
+
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      1500: Resources/Boxes/BigGenericBox.png
+      1501: Resources/Boxes/BigResourcesPallet.png
+      1502: Resources/Boxes/BigWeaponsCase.png
+
+      1503: Resources/Misc/BigAlienAlloyPlate.png
+      1504: Resources/Misc/BigAlienCrystal.png
+      1505: Resources/Misc/BigAlienPlastic.png
+      1506: Resources/Misc/BigCannedFood.png
+      1507: Resources/Misc/BigCeramicPlate.png
+      1508: Resources/Misc/BigDepletedUraniumBriefcase.png
+      1509: Resources/Misc/BigElectronicsScrap.png
+      1510: Resources/Misc/BigExplosives.png
+      1511: Resources/Misc/BigFuelCan.png
+      1512: Resources/Misc/BigNohariteOre.png
+      1513: Resources/Misc/BigPsionicAlienCrystal.png
+      1514: Resources/Misc/BigRefinedNoharite.png
+      1515: Resources/Misc/BigScrapMetal.png
+      1516: Resources/Misc/BigSteelIngot.png
+
+  - type: FLOOROB.PCK
+    files:
+      1500: Resources/Boxes/FloorGenericBox.png
+      1501: Resources/Boxes/FloorResourcesPallet.png
+      1502: Resources/Boxes/FloorWeaponsCase.png
+
+      1503: Resources/Misc/FloorAlienAlloyPlate.png
+      1504: Resources/Misc/FloorAlienCrystal.png
+      1505: Resources/Misc/FloorAlienPlastic.png
+      1506: Resources/Misc/FloorCannedFood.png
+      1507: Resources/Misc/FloorCeramicPlate.png
+      1508: Resources/Misc/FloorDepletedUraniumBriefcase.png
+      1509: Resources/Misc/FloorElectronicsScrap.png
+      1510: Resources/Misc/FloorExplosives.png
+      1511: Resources/Misc/FloorFuelCan.png
+      1512: Resources/Misc/FloorNohariteOre.png
+      1513: Resources/Misc/FloorPsionicAlienCrystal.png
+      1514: Resources/Misc/FloorRefinedNoharite.png
+      1515: Resources/Misc/FloorScrapMetal.png
+      1516: Resources/Misc/FloorSteelIngot.png
+
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GENERIC_BOX: Generic Box
+      STR_GENERIC_BOX_UFOPEDIA: This box is a generic wood container. It serves to transport and store a variety of things, from spare parts to canned food and ammunition, with no specific use in particular. 
+      STR_RESOURCES_PALLET: Resources Pallet
+      STR_RESOURCES_PALLET_UFOPEDIA: Heavy and reinforced container, designed to store large quantities of construction raw materials. Generally they contain useful pieces that we can use in different crafting recipes, in rare occasions they contain tools that we can use as weapons.
+      STR_WEAPONS_CRATE: Weapons Crate
+      STR_WEAPONS_CRATE_UFOPEDIA: Case specially designed for carrying and storing firearms. This container insulates the weapons from the outside so that they do not get damaged. Usually contain a pair of weapons and ammunition, but may sometimes contain explosives.
+      STR_ALIEN_ALLOY_PLATE: Alien Alloy Plate
+      STR_ALIEN_ALLOY_PLATE_UFOPEDIA: A plate of Alien Alloys, material originally incorporated into the UFOs and weapons of the soldiers of the Ethereal faction. It's lightweight, though it takes up some space in the backpack. It is used in crafted recipes, which serves to increase the strength and durability of an object treated with Alien Alloy
+      STR_ALIEN_CRYSTAL: Alien Crystal
+      STR_ALIEN_CRYSTAL_UFOPEDIA: Strange purple mineral, with touches of blue inside. It seems that the aliens brought it with them, it's not native to Earth and it's not native to the Solar System neither. It emits very low radiation, so it's safe to touch with your bare hands. It is used to build ships, weapons and armor, as well as shields and even swords. 
+      STR_ALIEN_PLASTIC: Alien Plastic
+      STR_ALIEN_PLASTIC_UFOPEDIA: Someone realized that this material of alien origin can change its color and consistency to some extent to suit a variety of jobs, from spacecraft coating to weapons and ammunition. In its basic form it is deep blue, but with broad-spectrum electromagnetic energy it is possible to change the molecular composition of it. Very useful in crafted recipes, may be used in many different ways.
+      STR_CANNED_FOOD: Canned Food
+      STR_CANNED_FOOD_UFOPEDIA: Canned food from a military ration pack, probably an MRE. Some cans are in dubious condition, although most can be consumed with caution. Restores energy, health and TUs, it is recommended to eat constantly.
+      STR_CERAMIC_PLATE: Ceramic Plate
+      STR_CERAMIC_PLATE_UFOPEDIA: Ballistic ceramic plate. These are mostly components of human armor. Its use can be adapted to other objects and its properties allow it to resist impacts from ballistic projectiles without major problems.
+      STR_DEPLETED_URANIUM_BRIEFCASE: Depleted Uranium Briefcase
+      STR_DEPLETED_URANIUM_BRIEFCASE_UFOPEDIA: While Depleted Uranium is not as toxic a material as its cousin used in nuclear weapons, in fact more than one merchant or walker decided to make a good and store small and medium pieces of the ore in a secure container, marked with the international symbol for radioactive materials. Caution is recommended in handling it.
+      STR_ELECTRONICS_SCRAP: Electronics Junk
+      STR_ELECTRONICS_SCRAP_UFOPEDIA: This almost uniform mass of microchips, processors and other technological junk was left behind when many computers and electronic materials broke down. You can't identify a particular object with the naked eye. It is incredibly useful for assembling tools or weapons that require advanced circuitry.
+      STR_EXPLOSIVES: Explosives
+      STR_EXPLOSIVES_UFOPEDIA: A couple of blocks of C4 plastic explosive. Without a fuse, it's impossible to use it for war purposes and it's just a paperweight. Employing them with other materials will be required to give it an use.
+      STR_FUEL_CAN: Fuel Can
+      STR_FUEL_CAN_UFOPEDIA: A gasoline can surprisingly full. These are used to refill our vehicles, as well as to prepare certain types of weapons. It's a real old-world relic, very appreciated by many Wasteland inhabitants, as important as water or ammo.
+      STR_NOHARITE_ORE: Noharite Ore
+      STR_NOHARITE_ORE_UFOPEDIA: -TOP SECRET-
+      STR_PSIONIC_ALIEN_CRYSTAL: Psionic Alien Crystal
+      STR_PSIONIC_ALIEN_CRYSTAL_UFOPEDIA: Enhanced variant of Crystal Alien that channels the thoughts and feelings of the sentient person to the power of the mind. It allows the wearer freedom of thought, manifesting his or her emotions and feelings at once. Very powerful.
+      STR_REFINED_NOHARITE: Refined Noharite
+      STR_REFINED_NOHARITE_UFOPEDIA: -TOP SECRET-
+      STR_SCRAP_METAL: Scrap Metal
+      STR_SCRAP_METAL_UFOPEDIA: Pieces of metal and broken tools, alone do not represent any utility. But they can be melted down to create high quality ingots and be used in crafting recipes.
+      STR_STEEL_INGOT: Steel Ingot
+      STR_STEEL_INGOT_UFOPEDIA: Ingot created with molten metal, excellent for creating mystical artifacts with various types of glue. Its versatility allows it to be used in a large number of recipes, transforming it into another type of object.

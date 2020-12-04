@@ -1,0 +1,188 @@
+lookWeights:
+  - 43
+  - 42
+  - 2
+  - 13
+maleFirst:
+  - Alain
+  - Alban
+  - Armand
+  - Benoit
+  - Bruno
+  - Calvin
+  - Christian
+  - Claude
+  - Corentin
+  - Damien
+  - Denis
+  - Emile
+  - Etienne
+  - Ethan
+  - Fabien
+  - Francis
+  - Frederic
+  - Gaston
+  - Gerard
+  - Guillaume
+  - Henri
+  - Hugo
+  - Jacques
+  - Jean
+  - Jules
+  - Leon
+  - Lionel
+  - Louis
+  - Lucas
+  - Mathis
+  - Marc
+  - Marcel
+  - Michel
+  - Nathan
+  - Nicolas
+  - Olivier
+  - Pascal
+  - Paul
+  - Pierre
+  - Philippe
+  - Quentin
+  - Raphael
+  - Remi
+  - Rene
+  - Robert
+  - Roger
+  - Sebastien
+  - Simon
+  - Sylvain
+  - Thibault
+  - Victor
+  - Vincent
+  - Yves
+femaleFirst:
+  - Anne
+  - Audrey
+  - Brigitte
+  - Camille
+  - Catherine
+  - Chantal
+  - Claire
+  - Clara
+  - Cloe
+  - Danielle
+  - Dominique
+  - Elisabeth
+  - Eva
+  - Florence
+  - Francoise
+  - Gaelle
+  - Geraldine
+  - Helene
+  - Isabelle
+  - Ludivine
+  - Lydia
+  - Jacqueline
+  - Jeanne
+  - Julie
+  - Laure
+  - Lina
+  - Lilou
+  - Maelys
+  - Marie
+  - Marion
+  - Marguerite
+  - Maud
+  - Murielle
+  - Nathalie
+  - Odile
+  - Rachel
+  - Rose
+  - Sabine
+  - Sandrine
+  - Stephanie
+  - Sonia
+  - Sylvie
+  - Valerie
+  - Veronique
+  - Zoe
+maleLast:
+  - Andre (HEAVY)
+  - Berger (HEAVY)
+  - Bernard (HEAVY)
+  - Bertrand (HEAVY)
+  - Bonnet (HEAVY)
+  - Bouissou (HEAVY)
+  - Bourgeois (HEAVY)
+  - Bouton (HEAVY)
+  - Bouvier (HEAVY)
+  - Blanc (HEAVY)
+  - Blondel (HEAVY)
+  - Buchard (HEAVY)
+  - Caron (HEAVY)
+  - Chevalier (HEAVY)
+  - Coicard (HEAVY)
+  - Collet (HEAVY)
+  - Collignon (HEAVY)
+  - Coste (HEAVY)
+  - Couturier (HEAVY)
+  - Clement (HEAVY)
+  - Cuvelier (HEAVY)
+  - Dagallier (HEAVY)
+  - Delorme (HEAVY)
+  - Dreyfus (HEAVY)
+  - Dubois (HEAVY)
+  - Ducourtioux (HEAVY)
+  - Dujardin (HEAVY)
+  - Dumont (HEAVY)
+  - Dupuis (HEAVY)
+  - Dupre (HEAVY)
+  - Duval (HEAVY)
+  - Fabre (HEAVY)
+  - Faure (HEAVY)
+  - Fontaine (HEAVY)
+  - Fournier (HEAVY)
+  - Gaillard (HEAVY)
+  - Garcia (HEAVY)
+  - Gaudrin (HEAVY)
+  - Gautier (HEAVY)
+  - Gressier (HEAVY)
+  - Guerin (HEAVY)
+  - Guillot (HEAVY)
+  - Girard (HEAVY)
+  - Giraudon (HEAVY)
+  - Heroin (HEAVY)
+  - Lacroix (HEAVY)
+  - Laroyenne (HEAVY)
+  - Lambert (HEAVY)
+  - Laroche (HEAVY)
+  - Larue (HEAVY)
+  - Laurent (HEAVY)
+  - Leclerc (HEAVY)
+  - Lecointe (HEAVY)
+  - Lecomte (HEAVY)
+  - Leduc (HEAVY)
+  - Lefevre (HEAVY)
+  - Legrand (HEAVY)
+  - Leroy (HEAVY)
+  - Luget (HEAVY)
+  - Marcelle (HEAVY)
+  - Martin (HEAVY)
+  - Menardier (HEAVY)
+  - Mercier (HEAVY)
+  - Meunier (HEAVY)
+  - Moreau (HEAVY)
+  - Morel (HEAVY)
+  - Morin (HEAVY)
+  - Mathieu (HEAVY)
+  - Muller (HEAVY)
+  - Pecheux (HEAVY)
+  - Pelletier (HEAVY)
+  - Perrin (HEAVY)
+  - Perrot (HEAVY)
+  - Petit (HEAVY)
+  - Picar (HEAVY)
+  - Roussel (HEAVY)
+  - Revenu (HEAVY)
+  - Roux (HEAVY)
+  - Richard (HEAVY)
+  - Simon (HEAVY)
+  - Thomas (HEAVY)
+  - Verdier (HEAVY)

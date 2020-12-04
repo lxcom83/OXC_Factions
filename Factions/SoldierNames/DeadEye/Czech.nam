@@ -1,0 +1,441 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Ales
+  - Alexandr
+  - Alexej
+  - Ambroz
+  - Andrej
+  - Antonin
+  - Arnost
+  - Artur
+  - Augustyn
+  - Bartolomej
+  - Bedrich
+  - Benedikt
+  - Bernard
+  - Blahoslav
+  - Blazej
+  - Bohdan
+  - Bohumil
+  - Bohumir
+  - Bohuslav
+  - Boleslav
+  - Bonifac
+  - Borek
+  - Boris
+  - Borivoj
+  - Bretislav
+  - Bronislav
+  - Bruno
+  - Cenek
+  - Cestmir
+  - Ctibor
+  - Ctirad
+  - Dalibor
+  - Dalimil
+  - David
+  - Dobroslav
+  - Dominik
+  - Drahoslav
+  - Dusan
+  - Eduard
+  - Emil
+  - Erik
+  - Evzen
+  - Felix
+  - Ferdinand
+  - Filip
+  - Frantisek
+  - Gustav
+  - Hanus
+  - Havel
+  - Herman
+  - Hubert
+  - Hugo
+  - Hynek
+  - Ignac
+  - Igor
+  - Ilja
+  - Ivan
+  - Ivo
+  - Jachym
+  - Jakub
+  - Jan
+  - Jarmil
+  - Jaromir
+  - Jaroslav
+  - Jeronym
+  - Jindrich
+  - Jiri
+  - Jonas
+  - Josef
+  - Jozef
+  - Julius
+  - Kamil
+  - Karel
+  - Kazimir
+  - Klement
+  - Kristian
+  - Krystof
+  - Kvetoslav
+  - Kvido
+  - Ladislav
+  - Leopold
+  - Leos
+  - Libor
+  - Lubomir
+  - Lubor
+  - Lubos
+  - Ludek
+  - Ludvik
+  - Lukas
+  - Lumir
+  - Marcel
+  - Marek
+  - Marian
+  - Martin
+  - Matej
+  - Matous
+  - Maxmilian
+  - Medard
+  - Michal
+  - Mikulas
+  - Milan
+  - Milos
+  - Miloslav
+  - Miroslav
+  - Mojmir
+  - Oldrich
+  - Oleg
+  - Oliver
+  - Ondrej
+  - Oskar
+  - Otakar
+  - Otmar
+  - Oto
+  - Pankrac
+  - Patrik
+  - Pavel
+  - Petr
+  - Pravoslav
+  - Premysl
+  - Prokop
+  - Radek
+  - Radim
+  - Radomir
+  - Radoslav
+  - Radovan
+  - Rehor
+  - Roman
+  - Rostislav
+  - Rudolf
+  - Samuel
+  - Servac
+  - Silvestr
+  - Simon
+  - Slavomir
+  - Sobeslav
+  - Stanislav
+  - Stefan
+  - Stepan
+  - Svatopluk
+  - Svatoslav
+  - Tadeas
+  - Teodor
+  - Tibor
+  - Tomas
+  - Vaclav
+  - Valdemar
+  - Valentyn
+  - Vavrinec
+  - Venceslav
+  - Vendelin
+  - Veroslav
+  - Viktor
+  - Vilem
+  - Vincenc
+  - Vit
+  - Vitezslav
+  - Vladan
+  - Vladimir
+  - Vladislav
+  - Vlastimil
+  - Vlastislav
+  - Vojtech
+  - Vratislav
+  - Zbynek
+  - Zbysek
+  - Zdenek
+  - Zikmund
+femaleFirst:
+  - Adela
+  - Adriena
+  - Agata
+  - Alena
+  - Alica
+  - Alzbeta
+  - Ana
+  - Ancika
+  - Andela
+  - Aneta
+  - Anezka
+  - Anna
+  - Antoinetta
+  - Antonie
+  - Bara
+  - Barbora
+  - Barcinka
+  - Barunka
+  - Baruska
+  - Blanka
+  - Bohdana
+  - Bohumila
+  - Bohuslava
+  - Bora
+  - Bozena
+  - Branislava
+  - Dagmar
+  - Dalibora
+  - Dominika
+  - Drahomira
+  - Drahoslava
+  - Dusana
+  - Dusanka
+  - Edita
+  - Eliska
+  - Elita
+  - Emilia
+  - Eva
+  - Frantiska
+  - Gabina
+  - Hana
+  - Hedvika
+  - Helena
+  - Irena
+  - Irina
+  - Iva
+  - Ivana
+  - Izabela
+  - Jana
+  - Jarmila
+  - Jaromila
+  - Jaroslava
+  - Jindriska
+  - Jirina
+  - Jitka
+  - Johana
+  - Jolana
+  - Josefa
+  - Judita
+  - Julia
+  - Kamila
+  - Karina
+  - Karolina
+  - Katarina
+  - Katerina
+  - Katica
+  - Kristyna
+  - Kunigunde
+  - Kveta
+  - Ladislava
+  - Lenka
+  - Leona
+  - Libena
+  - Libuse
+  - Lida
+  - Lidmila
+  - Lubomira
+  - Lucie
+  - Lucina
+  - Ludmila
+  - Lydie
+  - Madlenka
+  - Magdalena
+  - Maria
+  - Marie
+  - Marketa
+  - Matylda
+  - Michaela
+  - Milada
+  - Milana
+  - Milena
+  - Miloslava
+  - Monika
+  - Nada
+  - Nadezda
+  - Otilie
+  - Pavla
+  - Pavlina
+  - Petra
+  - Radka
+  - Radomila
+  - Radomira
+  - Radoslava
+  - Ruzena
+  - Sara
+  - Simona
+  - Sobeska
+  - Sobeslava
+  - Stanislava
+  - Stefanija
+  - Stepanka
+  - Svetlana
+  - Tatana
+  - Tereza
+  - Ursula
+  - Vaclava
+  - Vendula
+  - Vera
+  - Veronika
+  - Vladimira
+  - Vlasta
+  - Zdenka
+  - Zofie
+  - Zoja
+  - Zuzana
+maleLast:
+  - Bartos  (DEYE)
+  - Benda (DEYE)
+  - Benes (DEYE)
+  - Beran (DEYE)
+  - Blaha (DEYE)
+  - Blazek (DEYE)
+  - Broz (DEYE)
+  - Bures (DEYE)
+  - Carda (DEYE)
+  - Cech (DEYE)
+  - Cermak (DEYE)
+  - Cerny (DEYE)
+  - Cervenka (DEYE)
+  - Cizek (DEYE)
+  - Dobrynsky (DEYE)
+  - Dolezal (DEYE)
+  - Dusek (DEYE)
+  - Dvorak (DEYE)
+  - Fiala (DEYE)
+  - Fiser (DEYE)
+  - Hajek (DEYE)
+  - Havlicek (DEYE)
+  - Hlavacek (DEYE)
+  - Hoffmann (DEYE)
+  - Holub (DEYE)
+  - Horak (DEYE)
+  - Hruby (DEYE)
+  - Hruska (DEYE)
+  - Janda (DEYE)
+  - Janecek (DEYE)
+  - Janousek (DEYE)
+  - Jelinek (DEYE)
+  - Jezek (DEYE)
+  - Kadlec (DEYE)
+  - Kaspar (DEYE)
+  - Klaus (DEYE)
+  - Klima (DEYE)
+  - Kohout (DEYE)
+  - Kolar (DEYE)
+  - Kopecky (DEYE)
+  - Kovar (DEYE)
+  - Kovarik (DEYE)
+  - Krajan (DEYE)
+  - Kral (DEYE)
+  - Kratochvil (DEYE)
+  - Kraus (DEYE)
+  - Krejci  (DEYE)
+  - Kriz (DEYE)
+  - Kubis (DEYE)
+  - Kucera (DEYE)
+  - Kvitoslav (DEYE)
+  - Machacek (DEYE)
+  - Maly (DEYE)
+  - Mares (DEYE)
+  - Marny (DEYE)
+  - Martinek (DEYE)
+  - Masek (DEYE)
+  - Matejka (DEYE)
+  - Matousek (DEYE)
+  - Moravec (DEYE)
+  - Mueller (DEYE)
+  - Musil (DEYE)
+  - Nadinicky (DEYE)
+  - Navratil (DEYE)
+  - Necesal (DEYE)
+  - Nemec (DEYE)
+  - Nemecek (DEYE)
+  - Neumann (DEYE)
+  - Nemy (DEYE)
+  - Novak (DEYE)
+  - Novotny (DEYE)
+  - Pesek (DEYE)
+  - Pokorny (DEYE)
+  - Polak (DEYE)
+  - Pospisil (DEYE)
+  - Prochazka (DEYE)
+  - Richter (DEYE)
+  - Riha (DEYE)
+  - Rosa (DEYE)
+  - Ruzicka (DEYE)
+  - Sedlacek (DEYE)
+  - Sichy (DEYE)
+  - Simek (DEYE)
+  - Skala (DEYE)
+  - Slavik (DEYE)
+  - Smid (DEYE)
+  - Soucek (DEYE)
+  - Soukup (DEYE)
+  - Stanek (DEYE)
+  - Stastny (DEYE)
+  - Stepanek (DEYE)
+  - Stransky (DEYE)
+  - Strnad (DEYE)
+  - Sulc (DEYE)
+  - Svoboda (DEYE)
+  - Sykora (DEYE)
+  - Tuma (DEYE)
+  - Tycka (DEYE)
+  - Urban (DEYE)
+  - Vacek (DEYE)
+  - Valenta (DEYE)
+  - Vanek (DEYE)
+  - Vavra (DEYE)
+  - Vesely (DEYE)
+  - Vlcek (DEYE)
+  - Zelenka (DEYE)
+  - Zeman (DEYE)
+femaleLast:
+  - Bartosova (DEYE)
+  - Brozova (DEYE)
+  - Cermakova (DEYE)
+  - Hruba (DEYE)
+  - Kolarova (DEYE)
+  - Komyrova (DEYE)
+  - Konecna (DEYE)
+  - Kovacova (DEYE)
+  - Kratochvilova (DEYE)
+  - Krejci (DEYE)
+  - Krizna (DEYE)
+  - Mala (DEYE)
+  - Maskova (DEYE)
+  - Matusova (DEYE)
+  - Musilova (DEYE)
+  - Navratilova (DEYE)
+  - Olhova (DEYE)
+  - Petrova (DEYE)
+  - Polakova (DEYE)
+  - Romanova (DEYE)
+  - Soukupova (DEYE)
+  - Stastna (DEYE)
+  - Stejskalova (DEYE)
+  - Ticha (DEYE)
+  - Tkadlecova (DEYE)
+  - Trojska (DEYE)
+  - Tumova (DEYE)
+  - Urbanova (DEYE)
+  - Vaskova (DEYE)
+  - Vavrova (DEYE)
+  - Vlazkova (DEYE)
+  - Zakova (DEYE)
+  - Zemanova (DEYE)

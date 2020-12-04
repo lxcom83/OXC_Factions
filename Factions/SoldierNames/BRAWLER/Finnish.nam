@@ -1,0 +1,208 @@
+lookWeights:
+  - 49
+  - 49
+  - 1
+  - 1
+maleFirst:
+  - Aaro
+  - Aatu
+  - Akseli
+  - Aleksi
+  - Antti
+  - Arttu
+  - Atte
+  - Eemeli
+  - Eero
+  - Eino
+  - Esko
+  - Elias
+  - Erkki
+  - Heikki
+  - Henrikki
+  - Ilmari
+  - Jaakko
+  - Jere
+  - Jesse
+  - Joel
+  - Joona
+  - Juhani
+  - Juho
+  - Julius
+  - Jussi
+  - Juuso
+  - Kalle
+  - Konsta
+  - Lauri
+  - Leevi
+  - Markku
+  - Matias
+  - Matti
+  - Mika
+  - Mikael
+  - Mikko
+  - Niilo
+  - Niklas
+  - Niko
+  - Onni
+  - Oskari
+  - Roope
+  - Sami
+  - Santeri
+  - Tapani
+  - Tommi
+  - Tuomas
+  - Valtteri
+  - Viljo
+  - Ville
+femaleFirst:
+  - Aino
+  - Anja
+  - Anna
+  - Anneli
+  - Anni
+  - Eila
+  - Elina
+  - Elisa
+  - Emilia
+  - Emma
+  - Emmi
+  - Eveliina
+  - Hanna
+  - Hannele
+  - Helena
+  - Helmi
+  - Iida
+  - Iina
+  - Ilona
+  - Jenni
+  - Johanna
+  - Julia
+  - Kaarina
+  - Karoliina
+  - Katariina
+  - Kristiina
+  - Laura
+  - Leena
+  - Liisa
+  - Maarit
+  - Maija
+  - Maria
+  - Marjatta
+  - Martta
+  - Milla
+  - Minna
+  - Noora
+  - Oona
+  - Pauliina
+  - Pirjo
+  - Riitta
+  - Ritva
+  - Saara
+  - Sanni
+  - Sari
+  - Sofia
+  - Susanna
+  - Tuula
+  - Tuuli
+  - Veera
+maleLast:
+  - Aalto (BRAW)
+  - Aaltonen (BRAW)
+  - Aho (BRAW)
+  - Ahola (BRAW)
+  - Ahonen (BRAW)
+  - Anttila (BRAW)
+  - Arvola (BRAW)
+  - Eskola (BRAW)
+  - Haapala (BRAW)
+  - Haavisto (BRAW)
+  - Hakala (BRAW)
+  - Halonen (BRAW)
+  - Harju (BRAW)
+  - Hartikainen (BRAW)
+  - Heikkinen (BRAW)
+  - Heino (BRAW)
+  - Heinonen (BRAW)
+  - Heiskanen (BRAW)
+  - Hietala (BRAW)
+  - Hiltunen (BRAW)
+  - Hirvonen (BRAW)
+  - Honkanen (BRAW)
+  - Huttunen (BRAW)
+  - Ikonen (BRAW)
+  - Immonen (BRAW)
+  - Jalonen (BRAW)
+  - Jokinen (BRAW)
+  - Kallio (BRAW)
+  - Karhu (BRAW)
+  - Karjalainen (BRAW)
+  - Karppinen (BRAW)
+  - Kauppinen (BRAW)
+  - Kemppainen (BRAW)
+  - Kettunen (BRAW)
+  - Kinnunen (BRAW)
+  - Kiviniemi (BRAW)
+  - Koivisto (BRAW)
+  - Kokko (BRAW)
+  - Kokkonen (BRAW)
+  - Koponen (BRAW)
+  - Korhonen (BRAW)
+  - Korpela (BRAW)
+  - Koskela (BRAW)
+  - Koski (BRAW)
+  - Koskinen (BRAW)
+  - Laakso (BRAW)
+  - Laaksonen (BRAW)
+  - Lahti (BRAW)
+  - Lahtinen (BRAW)
+  - Laine (BRAW)
+  - Laitinen (BRAW)
+  - Lappalainen (BRAW)
+  - Lehtinen (BRAW)
+  - Lehto (BRAW)
+  - Lehtonen (BRAW)
+  - Leino (BRAW)
+  - Leinonen (BRAW)
+  - Lindholm (BRAW)
+  - Manninen (BRAW)
+  - Mattila (BRAW)
+  - Miettinen (BRAW)
+  - Mikkola (BRAW)
+  - Mikkonen (BRAW)
+  - Moilanen (BRAW)
+  - Mustonen (BRAW)
+  - Niemi (BRAW)
+  - Nieminen (BRAW)
+  - Niskanen (BRAW)
+  - Nurmi (BRAW)
+  - Nurminen (BRAW)
+  - Nyman (BRAW)
+  - Ojala (BRAW)
+  - Oksanen (BRAW)
+  - Partanen (BRAW)
+  - Peltola (BRAW)
+  - Peltonen (BRAW)
+  - Pesonen (BRAW)
+  - Pulkkinen (BRAW)
+  - Rajala (BRAW)
+  - Rantala (BRAW)
+  - Rantanen (BRAW)
+  - Rautiainen (BRAW)
+  - Rautio (BRAW)
+  - Rissanen (BRAW)
+  - Saari (BRAW)
+  - Saarinen (BRAW)
+  - Saimi (BRAW)
+  - Salminen (BRAW)
+  - Salo (BRAW)
+  - Salonen (BRAW)
+  - Savolainen (BRAW)
+  - Suominen (BRAW)
+  - Toivonen (BRAW)
+  - Tuominen (BRAW)
+  - Turunen (BRAW)
+  - Uusitalo (BRAW)
+  - Vainio (BRAW)
+  - Virtanen (BRAW)
+  - Vuorinen (BRAW)
+  - Ylitalo (BRAW)

@@ -1,0 +1,361 @@
+lookWeight:
+  - 2
+  - 88
+  - 2
+  - 8
+maleFirst:
+  - Afonso
+  - Alberto
+  - Alexandre
+  - Alvaro
+  - Andre
+  - Antonio
+  - Augusto
+  - Bernardo
+  - Bruno
+  - Carlos
+  - Cristiano
+  - Daniel
+  - David
+  - Diogo
+  - Duarte
+  - Eduardo
+  - Fabio
+  - Fernando
+  - Filipe
+  - Flavio
+  - Francisco
+  - Frederico
+  - Gabriel
+  - Goncalo
+  - Guilherme
+  - Gustavo
+  - Helder
+  - Henrique
+  - Hugo
+  - Ivo
+  - Jaime
+  - Joao
+  - Joaquim
+  - Jorge
+  - Jose
+  - Julio
+  - Leonardo
+  - Leonel
+  - Luis
+  - Manuel
+  - Marcelo
+  - Marcio
+  - Marco
+  - Mario
+  - Miguel
+  - Nelson
+  - Nuno
+  - Orlando
+  - Paulo
+  - Pedro
+  - Rafael
+  - Raul
+  - Ricardo
+  - Roberto
+  - Rodolfo
+  - Rodrigo
+  - Rui
+  - Samuel
+  - Sergio
+  - Tiago
+  - Telmo
+  - Tomas
+  - Vasco
+  - Vitor
+femaleFirst:
+  - Alice
+  - Ana
+  - Anabela
+  - Andreia
+  - Angela
+  - Aurora
+  - Barbara
+  - Beatriz
+  - Bia
+  - Carina
+  - Carla
+  - Carolina
+  - Catarina
+  - Catia
+  - Celeste
+  - Celia
+  - Celina
+  - Clara
+  - Claudia
+  - Cristiana
+  - Cristina
+  - Daniela
+  - Dalia
+  - Debora
+  - Diana
+  - Dulce
+  - Elsa
+  - Eva
+  - Fatima
+  - Fernanda
+  - Filipa
+  - Filomena
+  - Flavia
+  - Florbela
+  - Francisca
+  - Gabriela
+  - Gloria
+  - Helena
+  - Ilda
+  - Ines
+  - Irene
+  - Isabel
+  - Joana
+  - Josefina
+  - Julia
+  - Lara
+  - Laura
+  - Leonor
+  - Liliana
+  - Luisa
+  - Madalena
+  - Mafalda
+  - Manuela
+  - Margarida
+  - Maria
+  - Mariana
+  - Marina
+  - Marisa
+  - Marta
+  - Matilde
+  - Monica
+  - Natalia
+  - Nadia
+  - Olivia
+  - Patricia
+  - Paula
+  - Rafaela
+  - Raquel
+  - Rita
+  - Rute
+  - Sandra
+  - Sara
+  - Sofia
+  - Sonia
+  - Soraia
+  - Susana
+  - Tania
+  - Teresa
+  - Telma
+  - Vanessa
+  - Vera
+maleLast:
+  - Abrantes (HEAVY)
+  - Abreu (HEAVY)
+  - Agostinho (HEAVY)
+  - Albano (HEAVY)
+  - Albuquerque (HEAVY)
+  - Aleixo (HEAVY)
+  - Almeida (HEAVY)
+  - Alves (HEAVY)
+  - Amaro (HEAVY)
+  - Amaral (HEAVY)
+  - Andrade (HEAVY)
+  - Anjos (HEAVY)
+  - Antunes (HEAVY)
+  - Araujo (HEAVY)
+  - Assis (HEAVY)
+  - Azevedo (HEAVY)
+  - Barata (HEAVY)
+  - Barreiras (HEAVY)
+  - Barreto (HEAVY)
+  - Barros (HEAVY)
+  - Barroso (HEAVY)
+  - Bastos (HEAVY)
+  - Bento (HEAVY)
+  - Beja (HEAVY)
+  - Borges (HEAVY)
+  - Brandao (HEAVY)
+  - Brito (HEAVY)
+  - Cabral (HEAVY)
+  - Cadete (HEAVY)
+  - Caetano (HEAVY)
+  - Caldeira (HEAVY)
+  - Campos (HEAVY)
+  - Cardoso (HEAVY)
+  - Carneiro (HEAVY)
+  - Carrico (HEAVY)
+  - Carrilho (HEAVY)
+  - Carvalho (HEAVY)
+  - Castro (HEAVY)
+  - Cavaco (HEAVY)
+  - Cavaleiro (HEAVY)
+  - Chaves (HEAVY)
+  - Coelho (HEAVY)
+  - Conceicao (HEAVY)
+  - Correia (HEAVY)
+  - Cortes (HEAVY)
+  - Costa (HEAVY)
+  - Coutinho (HEAVY)
+  - Couto (HEAVY)
+  - Crespo (HEAVY)
+  - Cristovao (HEAVY)
+  - Cruz (HEAVY)
+  - Cunha (HEAVY)
+  - Cunhal (HEAVY)
+  - Delgado (HEAVY)
+  - Dias (HEAVY)
+  - Dinis (HEAVY)
+  - Dionisio (HEAVY)
+  - Domingos (HEAVY)
+  - Duarte (HEAVY)
+  - Esteves (HEAVY)
+  - Farinha (HEAVY)
+  - Fernandes (HEAVY)
+  - Ferreira (HEAVY)
+  - Figueira (HEAVY)
+  - Figueiredo (HEAVY)
+  - Fitas (HEAVY)
+  - Fragoso (HEAVY)
+  - Fragata (HEAVY)
+  - Francisco (HEAVY)
+  - Franco (HEAVY)
+  - Freire (HEAVY)
+  - Freitas (HEAVY)
+  - Fonseca (HEAVY)
+  - Fontes (HEAVY)
+  - Fortes (HEAVY)
+  - Furtado (HEAVY)
+  - Galvao (HEAVY)
+  - Gama (HEAVY)
+  - Garcia (HEAVY)
+  - Godinho (HEAVY)
+  - Gomes (HEAVY)
+  - Goncalves (HEAVY)
+  - Gouveia (HEAVY)
+  - Graca (HEAVY)
+  - Grilo (HEAVY)
+  - Guedes (HEAVY)
+  - Guerra (HEAVY)
+  - Guerreiro (HEAVY)
+  - Guimaraes (HEAVY)
+  - Henriques (HEAVY)
+  - Homem (HEAVY)
+  - Horta (HEAVY)
+  - Jacinto (HEAVY)
+  - Jesus (HEAVY)
+  - Lameiras (HEAVY)
+  - Laranjeiro (HEAVY)
+  - Leal (HEAVY)
+  - Lima (HEAVY)
+  - Lopes (HEAVY)
+  - Lourenco (HEAVY)
+  - Luz (HEAVY)
+  - Macedo (HEAVY)
+  - Machado (HEAVY)
+  - Madeira (HEAVY)
+  - Maia (HEAVY)
+  - Magalhaes (HEAVY)
+  - Marques (HEAVY)
+  - Martinho (HEAVY)
+  - Martins (HEAVY)
+  - Marujo (HEAVY)
+  - Mateus (HEAVY)
+  - Matias (HEAVY)
+  - Matos (HEAVY)
+  - Maximo (HEAVY)
+  - Meireles (HEAVY)
+  - Melo (HEAVY)
+  - Mendes (HEAVY)
+  - Mendonca (HEAVY)
+  - Mestre (HEAVY)
+  - Mira (HEAVY)
+  - Miranda (HEAVY)
+  - Moniz (HEAVY)
+  - Monteiro (HEAVY)
+  - Morais (HEAVY)
+  - Moreira (HEAVY)
+  - Morgado (HEAVY)
+  - Mota (HEAVY)
+  - Moura (HEAVY)
+  - Mourinho (HEAVY)
+  - Nascimento (HEAVY)
+  - Neto (HEAVY)
+  - Neves (HEAVY)
+  - Nobrega (HEAVY)
+  - Nogueira (HEAVY)
+  - Noronha (HEAVY)
+  - Nunes (HEAVY)
+  - Oliveira (HEAVY)
+  - Pacheco (HEAVY)
+  - Pais (HEAVY)
+  - Paiva (HEAVY)
+  - Parreira (HEAVY)
+  - Pato (HEAVY)
+  - Peixe (HEAVY)
+  - Peixoto (HEAVY)
+  - Pereira (HEAVY)
+  - Pessoa (HEAVY)
+  - Pimentel (HEAVY)
+  - Pinheiro (HEAVY)
+  - Pinho (HEAVY)
+  - Pinto (HEAVY)
+  - Pires (HEAVY)
+  - Portugal (HEAVY)
+  - Povoa (HEAVY)
+  - Prata (HEAVY)
+  - Queiros (HEAVY)
+  - Raimundo (HEAVY)
+  - Ramalho (HEAVY)
+  - Ramos (HEAVY)
+  - Raposo (HEAVY)
+  - Rato (HEAVY)
+  - Real (HEAVY)
+  - Rebelo (HEAVY)
+  - Reis (HEAVY)
+  - Relvas (HEAVY)
+  - Ribeiro (HEAVY)
+  - Rio (HEAVY)
+  - Rocha (HEAVY)
+  - Rodrigues (HEAVY)
+  - Ronaldo (HEAVY)
+  - Rosario (HEAVY)
+  - Roseiro (HEAVY)
+  - Salgado (HEAVY)
+  - Salgueiro (HEAVY)
+  - Sampaio (HEAVY)
+  - Sanches (HEAVY)
+  - Santana (HEAVY)
+  - Santos (HEAVY)
+  - Sebastiao (HEAVY)
+  - Semedo (HEAVY)
+  - Sequeira (HEAVY)
+  - Serra (HEAVY)
+  - Serrao (HEAVY)
+  - Serras (HEAVY)
+  - Silva (HEAVY)
+  - Silvestre (HEAVY)
+  - Silvino (HEAVY)
+  - Simoes (HEAVY)
+  - Soares (HEAVY)
+  - Sobral (HEAVY)
+  - Sousa (HEAVY)
+  - Tavares (HEAVY)
+  - Teixeira (HEAVY)
+  - Teles (HEAVY)
+  - Torres (HEAVY)
+  - Valadas (HEAVY)
+  - Valente (HEAVY)
+  - Varandas (HEAVY)
+  - Varela (HEAVY)
+  - Vasconcelos (HEAVY)
+  - Vaz (HEAVY)
+  - Veloso (HEAVY)
+  - Viana (HEAVY)
+  - Vicente (HEAVY)
+  - Vidal (HEAVY)
+  - Vieira (HEAVY)
+  - Viegas (HEAVY)
+  - Vitorino (HEAVY)
+  - Xavier (HEAVY)

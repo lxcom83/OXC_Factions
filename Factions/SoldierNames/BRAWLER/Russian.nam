@@ -1,0 +1,166 @@
+lookWeights:
+  - 50
+  - 50
+  - 0
+  - 0
+maleFirst:
+  - Aleksandr
+  - Aleksey
+  - Anatoliy
+  - Andrey
+  - Anton
+  - Artem
+  - Artur
+  - Boris
+  - Denis
+  - Dmitriy
+  - Eduard
+  - Evgeniy
+  - Gennadiy
+  - Georgiy
+  - Grigoriy
+  - Igor
+  - Ilya
+  - Ivan
+  - Konstantin
+  - Leonid
+  - Maxim
+  - Mihail
+  - Nikolay
+  - Oleg
+  - Pavel
+  - Petr
+  - Roman
+  - Ruslan
+  - Sergey
+  - Stanislav
+  - Vadim
+  - Valentin
+  - Valeriy
+  - Vasiliy
+  - Viktor
+  - Vitaliy
+  - Vladimir
+  - Vladislav
+  - Vyacheslav
+  - Yuriy
+femaleFirst:
+  - Albina
+  - Aleksandra
+  - Alla
+  - Alyona
+  - Anastasiya
+  - Anna
+  - Antonina
+  - Darya
+  - Ekaterina
+  - Elena
+  - Evgeniya
+  - Galina
+  - Inna
+  - Irina
+  - Kristina
+  - Kseniya
+  - Larisa
+  - Lidiya
+  - Liliya
+  - Lyubov
+  - Lyudmila
+  - Margarita
+  - Marina
+  - Mariya
+  - Nadezhda
+  - Natalya
+  - Nina
+  - Oksana
+  - Olesya
+  - Olga
+  - Raisa
+  - Svetlana
+  - Tamara
+  - Tatyana
+  - Valentina
+  - Varvara
+  - Vera
+  - Viktoriya
+  - Yulia
+  - Zinaida
+  - Zoya  
+maleLast:
+  - Alekseev (BRAW)
+  - Andreev (BRAW)
+  - Antonov (BRAW)
+  - Borisov (BRAW)
+  - Fedorov (BRAW)
+  - Egorov (BRAW)
+  - Grigoryev (BRAW)
+  - Gromov (BRAW)
+  - Ivanov (BRAW)
+  - Komarov (BRAW)
+  - Korolyov (BRAW)
+  - Kozlov (BRAW)
+  - Kuzmin (BRAW)
+  - Kuznetsov (BRAW)
+  - Lebedev (BRAW)
+  - Makarov (BRAW)
+  - Mihailov (BRAW)
+  - Morozov (BRAW)
+  - Nikitin (BRAW)
+  - Nikolaev (BRAW)
+  - Novikov (BRAW)
+  - Orlov (BRAW)
+  - Pavlov (BRAW)
+  - Petrov (BRAW)
+  - Popov (BRAW)
+  - Romanov (BRAW)
+  - Semyonov (BRAW)
+  - Sergeev (BRAW)
+  - Smirnov (BRAW)
+  - Sokolov (BRAW)
+  - Solovyov (BRAW)
+  - Stepanov (BRAW)
+  - Vasilyev (BRAW)
+  - Volkov (BRAW)
+  - Vorobyov (BRAW)
+  - Yakovlev (BRAW)
+  - Zaitsev (BRAW)
+  - Zaharov (BRAW)
+femaleLast:
+  - Alekseeva (BRAW)
+  - Andreeva (BRAW)
+  - Antonova (BRAW)
+  - Borisova (BRAW)
+  - Fedorova (BRAW)
+  - Egorova (BRAW)
+  - Grigoryeva (BRAW)
+  - Gromova (BRAW)
+  - Ivanova (BRAW)
+  - Komarova (BRAW)
+  - Korolyova (BRAW)
+  - Kozlova (BRAW)
+  - Kuzmina (BRAW)
+  - Kuznetsova (BRAW)
+  - Lebedeva (BRAW)
+  - Makarova (BRAW)
+  - Mihailova (BRAW)
+  - Morozova (BRAW)
+  - Nikitina (BRAW)
+  - Nikolaeva (BRAW)
+  - Novikova (BRAW)
+  - Orlova (BRAW)
+  - Pavlova (BRAW)
+  - Petrova (BRAW)
+  - Popova (BRAW)
+  - Romanova (BRAW)
+  - Semyonova (BRAW)
+  - Sergeeva (BRAW)
+  - Smirnova (BRAW)
+  - Sokolova (BRAW)
+  - Solovyova (BRAW)
+  - Stepanova (BRAW)
+  - Vasilyeva (BRAW)
+  - Volkova (BRAW)
+  - Vorobyova (BRAW)
+  - Yakovleva (BRAW)
+  - Zaitseva (BRAW)
+  - Zaharova (BRAW)
