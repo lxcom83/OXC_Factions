@@ -1771,7 +1771,8 @@ armors:
     spriteSheet: ZOMBIE.PCK
     allowInv: false
     corpseBattle:
-      - STR_ZOMBIE_CORPSE
+      # - STR_ZOMBIE_CORPSE # TODO pedroterzero does not exist, added placeholder
+      - STR_SECTOID_CORPSE
     frontArmor: 4
     sideArmor: 4
     rearArmor: 4
@@ -1794,7 +1795,8 @@ armors:
     spriteSheet: ZOMBIE.PCK
     allowInv: false
     corpseBattle:
-      - STR_ZOMBIE_CORPSE
+      # - STR_ZOMBIE_CORPSE # TODO pedroterzero does not exist, added placeholder
+      - STR_SECTOID_CORPSE
     frontArmor: 4
     sideArmor: 4
     rearArmor: 4
@@ -1925,7 +1927,7 @@ armors:
       - SECTOPOD_CORPSE_2
       - SECTOPOD_CORPSE_3
       - SECTOPOD_CORPSE_4
-    corpseGeo: STR_SECTOPOD2_CORPSE
+    # corpseGeo: STR_SECTOPOD2_CORPSE # TODO pedroterzero seems missing
     frontArmor: 145
     sideArmor: 130
     rearArmor: 100
@@ -1951,7 +1953,7 @@ armors:
       - SECTOPOD_CORPSE_2
       - SECTOPOD_CORPSE_3
       - SECTOPOD_CORPSE_4
-    corpseGeo: STR_SECTOPOD2_CORPSE
+    # corpseGeo: STR_SECTOPOD2_CORPSE # TODO pedroterzero seems missing
     frontArmor: 145
     sideArmor: 130
     rearArmor: 100
@@ -2118,6 +2120,7 @@ armors:
   - type: AQUATOID_ARMOR0_UW
     spriteSheet: AQUA.PCK
     corpseGeo: STR_AQUATOID_CORPSE
+    corpseBattle: [STR_AQUATOID_CORPSE]
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
@@ -2245,31 +2248,32 @@ armors:
     allowInv: true    
     spriteInv: DeeponeInventoryImage
     drawBubbles: true
-  # - type: GILLMAN_ARMOR0   this version crashes game
-  #   spriteSheet: GILLMAN.PCK
-  #   corpseGeo: STR_GILLMAN_CORPSE
-  #   frontArmor: 15
-  #   sideArmor: 12
-  #   rearArmor: 14
-  #   underArmor: 12
-  #   damageModifier:
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 1.0
-  #     - 1.1
-  #     - 1.0
-  #     - 1.2
-  #     - 0.0
-  #     - 1.0
-  #   loftempsSet: [ 3 ]
-  #   drawingRoutine: 14
-  #   allowInv: true
-  #   spriteInv: gillmanInventoryImage
-  #   stats:
-  #      tu: -10
-  #      stamina: -5
+  - type: GILLMAN_ARMOR0 #  this version crashes game
+    spriteSheet: GILLMAN.PCK
+    corpseGeo: STR_GILLMAN_CORPSE
+    corpseBattle: [STR_GILLMAN_CORPSE]
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.2
+      - 0.0
+      - 1.0
+    loftempsSet: [ 3 ]
+    drawingRoutine: 14
+    allowInv: true
+    spriteInv: gillmanInventoryImage
+    stats:
+       tu: -10
+       stamina: -5
   # - type: GILLMAN_ARMOR0_UW
   #   spriteSheet: GILLMAN.PCK
   #   corpseGeo: STR_GILLMAN_CORPSE
@@ -2520,9 +2524,10 @@ armors:
   - type: STR_CALCINITE_ION_ARMOR
     spriteSheet: CAL_2.PNG
     spriteInv: MAN_3 # to fix
-    corpseGeo: STR_CORPSE_CAL_ION 
-    corpseBattle:
-      - STR_CORPSE_CAL_ION 
+    # corpseGeo: STR_CORPSE_CAL_ION 
+    # corpseBattle:
+    #   - STR_CORPSE_CAL_ION 
+    corpseBattle: [STR_CALCINITE_CORPSE] # TODO pedroterzero STR_CORPSE_CAL_ION seems missing
     frontArmor: 142
     sideArmor: 80
     rearArmor: 110
@@ -2545,9 +2550,10 @@ armors:
   - type: STR_CALCINITE_ION_ARMOR_UW
     spriteSheet: CAL_2.PNG
     spriteInv: MAN_3 # to fix
-    corpseGeo: STR_CORPSE_CAL_ION 
-    corpseBattle:
-      - STR_CORPSE_CAL_ION 
+    # corpseGeo: STR_CORPSE_CAL_ION 
+    # corpseBattle:
+    #   - STR_CORPSE_CAL_ION 
+    corpseBattle: [STR_CALCINITE_CORPSE] # TODO pedroterzero STR_CORPSE_CAL_ION seems missing
     frontArmor: 142
     sideArmor: 80
     rearArmor: 110
@@ -2655,7 +2661,8 @@ armors:
        stamina: -5
   - type: LOBSTERMAN_ARMOR1_UW    # Blue
     spriteSheet: LOBSTER.PCK
-    corpseGeo: STR_LOBSTERMAN_CORPSE
+    # corpseGeo: STR_LOBSTERMAN_CORPSE
+    corpseBattle: [STR_LOBSTERMAN_CORPSE]
     frontArmor: 20
     sideArmor: 20
     rearArmor: 18
@@ -2796,7 +2803,7 @@ armors:
   - type: COELACANTH_ARMOR
     spriteSheet: COELACANTH_1.PCK
     allowInv: false
-    corpseGeo: COELACANTH_CORPSE
+    # corpseGeo: STR_COELACANTH_CORPSE # TODO pedroterzero seems to not exist, if ommitted defaults to corpseBattle
     corpseBattle:
       - COELACANTH_CORPSE_1
       - COELACANTH_CORPSE_2
@@ -2826,7 +2833,7 @@ armors:
   - type: COELACANTH_ARMOR_UW
     spriteSheet: TANK01.PCK
     allowInv: false
-    corpseGeo: COELACANTH_CORPSE
+    # corpseGeo: STR_COELACANTH_CORPSE # TODO pedroterzero seems to not exist, if ommitted defaults to corpseBattle
     corpseBattle:
       - COELACANTH_CORPSE_1
       - COELACANTH_CORPSE_2
@@ -2854,7 +2861,7 @@ armors:
   - type: DISPLACER_ARMOR
     spriteSheet: DISPLACER_1.PCK
     allowInv: false
-    corpseGeo: STR_DISPLACER_CORPSE
+    # corpseGeo: STR_DISPLACER_CORPSE # TODO pedroterzero seems to not exist, if ommitted defaults to corpseBattle
     corpseBattle:
       - DISPLACER_CORPSE_1
       - DISPLACER_CORPSE_2
@@ -2896,7 +2903,7 @@ armors:
   - type: DISPLACER_ARMOR_UW
     spriteSheet: DISPLACER_1.PCK
     allowInv: false
-    corpseGeo: STR_DISPLACER_CORPSE
+    # corpseGeo: STR_DISPLACER_CORPSE # TODO pedroterzero seems to not exist, if ommitted defaults to corpseBattle
     corpseBattle:
       - DISPLACER_CORPSE_1
       - DISPLACER_CORPSE_2

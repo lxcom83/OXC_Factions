@@ -56,51 +56,52 @@ armors:
   - type: CIVF_ARMOR_ARMED
     spriteInv: civilianFInventoryImage
   ##TFTF###
-  - type: Tasoth_ARMOR0
+  - type: TASOTH_ARMOR0
     spriteInv: TasothInventoryImage
-  - type: Tasoth_ARMOR_A
+  - type: TASOTH_ARMOR_A
     spriteInv: TasothInventoryImage
-  - type: Triscene_ARMOR0
+  - type: TRISCENE_ARMOR0
     spriteInv: TrisceneInventoryImage
-  - type: aquatoid_ARMOR0
+  - type: AQUATOID_ARMOR0
     spriteInv: aquatoidInventoryImage
-  - type: gillman_ARMOR0
+  - type: GILLMAN_ARMOR0
     spriteInv: gillmanInventoryImage
-  - type: gillman_ARMOR_A
+  - type: GILLMAN_ARMOR_A
     spriteInv: gillmanInventoryImage
-  - type: lobsterman_ARMOR0
+  - type: LOBSTERMAN_ARMOR0
     spriteInv: lobstermanInventoryImage
-  - type: lobsterman_ARMOR1
+  - type: LOBSTERMAN_ARMOR1
     spriteInv: lobstermanInventoryImage
-  - type: lobsterman_ARMOR2
+  - type: LOBSTERMAN_ARMOR2
     spriteInv: lobstermanInventoryImage
-  - type: Deep_one_ARMOR0
+  - type: DEEP_ONE_ARMOR0
     spriteInv: DeeponeInventoryImage
-  - type: Deep_one2_ARMOR0
-    spriteInv: DeeponeInventoryImage        # Update to Deepone2 image once created
-  - type: Xarquid_ARMOR0
+  # TODO pedroterzero this seems missing from Armour.rul
+  # - type: DEEP_ONE2_ARMOR0
+  #   spriteInv: DeeponeInventoryImage        # Update to Deepone2 image once created
+  - type: XARQUID_ARMOR0
     spriteInv: XarquidInventoryImage
-  - type: Calcinite_ARMOR0
+  - type: CALCINITE_ARMOR0
     spriteInv: CalciniteInventoryImage
-  - type: GillMan_ARMOR0
-    spriteInv: CalciniteInventoryImage
-  - type: GillMan_ARMOR_A
-    spriteInv: CalciniteInventoryImage
-  - type: BioDrone_ARMOR0
+  # - type: GILLMAN_ARMOR0
+  #   spriteInv: CalciniteInventoryImage
+  # - type: GILLMAN_ARMOR_A
+  #   spriteInv: CalciniteInventoryImage
+  - type: BIODRONE_ARMOR0
     spriteInv: BioDroneInventoryImage
-  - type: Tentaculat_ARMOR0
+  - type: TENTACULAT_ARMOR0
     spriteInv: TentaculatInventoryImage
-  - type: Tentaculat_ARMOR
-    spriteInv: TentaculatInventoryImage
-  - type: tasothguard_ARMOR
-    spriteInv: tasothguardInventoryImage
-  - type: heavygillman_ARMOR
+  # - type: TENTACULAT_ARMOR                  # TODO pedroterzero does not seem to be in Armour.rul
+  #   spriteInv: TentaculatInventoryImage
+  # - type: TASOTHGUARD_ARMOR                 # TODO pedroterzero does not seem to be in Armour.rul
+  #   spriteInv: tasothguardInventoryImage
+  - type: heavygillman_ARMOR0
     spriteInv: heavygillmanInventoryImage
-  - type: heavyAQUATOID_ARMOR
-    spriteInv: heavyAQUATOIDInventoryImage
-  - type: Hallucinoid_ARMOR
+  # - type: HEAVYAQUATOID_ARMOR               # TODO pedroterzero does not seem to be in Armour.rul
+  #   spriteInv: heavyAQUATOIDInventoryImage
+  - type: HALLUCINOID_ARMOR0
     spriteInv: HallucinoidInventoryImage     
-  - type: NEW_ZOMBIE_ARMOR
+  - type: STR_NEW_ZOMBIE_ARMOR0
     spriteInv: NEW_ZOMBIEInventoryImage
 ##### fACTIONS UNITS ####
   - type: CYBORG_ARMOR_1
